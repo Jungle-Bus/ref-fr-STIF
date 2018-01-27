@@ -1,0 +1,37 @@
+{
+    "schema": "iglu:com.snowplowanalytics.factotum/factfile/jsonschema/1-0-0",
+    "data": {
+        "name": "run all scripts",
+        "tasks": [{
+            "name": "init",
+            "executor": "shell",
+            "command": "factotum run init/init.factfile",
+            "arguments": [],
+            "dependsOn": [],
+            "onResult": {
+                "terminateJobWithSuccess": [],
+                "continueJob": [0]
+            }
+        }, {
+            "name": "mise à jour MicrocOSM",
+            "executor": "shell",
+            "command": "factotum run microcosm/microcosm.factfile",
+            "arguments": [],
+            "dependsOn": ["init"],
+            "onResult": {
+                "terminateJobWithSuccess": [],
+                "continueJob": [0]
+            }
+        }, {
+            "name": "autre tâche quelconque",
+            "executor": "shell",
+            "command": "rm *.osm.pbf",
+            "arguments": [],
+            "dependsOn": ["init"],
+            "onResult": {
+                "terminateJobWithSuccess": [],
+                "continueJob": [0]
+            }
+        }]
+    }
+}

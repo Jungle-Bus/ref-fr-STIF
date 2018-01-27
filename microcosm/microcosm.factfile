@@ -1,0 +1,17 @@
+{
+    "schema": "iglu:com.snowplowanalytics.factotum/factfile/jsonschema/1-0-0",
+    "data": {
+        "name": "update route list for MicrocOSM",
+        "tasks": [{
+            "name": "extract routes",
+            "executor": "shell",
+            "command": "cd data && cat osm-transit-extractor_routes.csv |xsv search -s mode '(bus|coach)' |xsv select '1-4,8' > idf_routes.csv",
+            "arguments": [],
+            "dependsOn": [],
+            "onResult": {
+                "terminateJobWithSuccess": [],
+                "continueJob": [0]
+            }
+        }]
+    }
+}

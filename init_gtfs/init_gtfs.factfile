@@ -1,0 +1,51 @@
+{
+    "schema": "iglu:com.snowplowanalytics.factotum/factfile/jsonschema/1-0-0",
+    "data": {
+        "name": "get opendata GTFS for idf",
+        "tasks": [{
+                "name": "download opendata",
+                "executor": "shell",
+                "command": "wget https://opendata.stif.info/explore/dataset/offre-horaires-tc-gtfs-idf/files/f24cf9dbf6f80c28b8edfdd99ea16aad/download/ --no-verbose -O fr-idf_oif_stif.zip 2>&1",
+                "arguments": [],
+                "dependsOn": [],
+                "onResult": {
+                    "terminateJobWithSuccess": [],
+                    "continueJob": [0]
+                }
+            },
+            {
+                "name": "unzip opendata",
+                "executor": "shell",
+                "command": "unzip fr-idf_oif_stif.zip -d gtfs",
+                "arguments": [],
+                "dependsOn": ["download opendata"],
+                "onResult": {
+                    "terminateJobWithSuccess": [],
+                    "continueJob": [0]
+                }
+            },
+            {
+                "name": "prefix with gtfs_",
+                "executor": "shell",
+                "command": "./init_gtfs/rename.sh",
+                "arguments": [],
+                "dependsOn": ["unzip opendata"],
+                "onResult": {
+                    "terminateJobWithSuccess": [],
+                    "continueJob": [0]
+                }
+            },
+            {
+                "name": "rm temp files opendata",
+                "executor": "shell",
+                "command": "rm fr-idf_oif_stif.zip && rm -R gtfs",
+                "arguments": [],
+                "dependsOn": ["prefix with gtfs_"],
+                "onResult": {
+                    "terminateJobWithSuccess": [],
+                    "continueJob": [0]
+                }
+            }
+        ]
+    }
+}

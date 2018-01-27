@@ -4,6 +4,7 @@ Des scripts pour le suivi de l'intégration des référentiels île-de-France Mo
 ## Prérequis
 * [factotum](https://github.com/snowplow/factotum)
 * [osm-transit-extractor](https://github.com/CanalTP/osm-transit-extractor)
+* [xsv](https://github.com/BurntSushi/xsv)
 
 ## Documentation
 

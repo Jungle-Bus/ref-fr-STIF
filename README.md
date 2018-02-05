@@ -15,3 +15,6 @@ TODO : déplacer l'analyse Osmose sur les lignes. Et réécrire celle sur les ar
 
 ### Audit comparatif du nombre de routepoints
 TODO
+
+## NB
+Pour générer les images de documentation des process : `factotum dot ref-lignes-stif.factfile --output factotum.dot && dot -Tpng factotum.dot -o factotum.png`

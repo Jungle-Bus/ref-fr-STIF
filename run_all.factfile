@@ -23,9 +23,9 @@
                 "continueJob": [0]
             }
         }, {
-            "name": "autre tâche quelconque",
+            "name": "mise à jour ref-lignes-STIF",
             "executor": "shell",
-            "command": "rm *.osm.pbf",
+            "command": "factotum run ref-lignes-stif/ref-lignes-stif.factfile",
             "arguments": [],
             "dependsOn": ["init"],
             "onResult": {

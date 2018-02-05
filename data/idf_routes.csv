@@ -344,12 +344,12 @@ Route:Relation:1760442,Bus 18 : Gare de Dourdan → Champarts (Ablis),18,Champar
 Route:Relation:1760443,Bus 22 : Corbreuse → Dourdan,22,,Dourdanais
 Route:Relation:1760444,Bus 91-02 : Pacifique (Villebon) → Gare de Dourdan,91-02,Gare de Dourdan,TransEssonne
 Route:Relation:1760445,Bus 06 : Dourdan → Limours,06,Limours,Dourdanais
-Route:Relation:1760446,Dourdan - Mérobert,306-04,,
+Route:Relation:1760446,Bus 306.04 : Dourdan ↔ Mérobert,306-04,,Ormont Transport
 Route:Relation:1760447,Dourdan - Oysonville,86,,Transbeauce
 Route:Relation:1760448,Bus 22 : Dourdan → Corbreuse,22,Corbreuse,Dourdanais
 Route:Relation:1760449,Bus 03 : Dourdan - Saint-Arnoult - Rambouillet,03,,Réseau Interurbain de Rambouillet
 Route:Relation:1760450,Bus 91-07 : Dourdan → Étampes,91-07,Étampes,TransEssonne
-Route:Relation:1760451,Dourdan intra-muros,85.02,,
+Route:Relation:1760451,Bus 85.01 : Dourdan intra-muros,85.01,,Perron
 Route:Relation:1760452,Bus 29 : Rambouillet - Clairefontaine - Rochefort - Dourdan/Bullion - Bonelles,29,,Réseau Interurbain de Rambouillet
 Route:Relation:1762127,Noctilien N61 : Gare Montparnasse → Clamart - Georges Pompidou,N61,Clamart - Georges Pompidou,Noctilien
 Route:Relation:1762128,Noctilien N61 : Clamart–Georges Pompidou → Gare Montparnasse,N61,Gare Montparnasse,Noctilien
@@ -531,7 +531,7 @@ Route:Relation:2675506,Bus 132 : Bibliothèque François Mitterrand → Vitry-su
 Route:Relation:2703186,Bus 402 : La Verrière -> Trappes,402,,SQYBus
 Route:Relation:2705154,Bus 430 : Trappes Gare (circulaire) via ZA Trappes–Élancourt,430,,SQYbus
 Route:Relation:2707047,Bus 39-17 : Saint-Rémy-lès-Chevreuse <> La Verrière,39-17,,SAVAC
-Route:Relation:2707618,441,441,,SQYBus
+Route:Relation:2707618,Bus 441 : Le Clos Breton <> Trou Berger,441,,SQYBus
 Route:Relation:2707619,Bus 36-12 : Maurepas <> La Verrière,36-12,,SQYBus
 Route:Relation:2708918,Bus H : La Celle Saint-Cloud Gare SNCF → Versailles Gare Rive Gauche,H,Versailles Gare Rive Gauche,Phébus
 Route:Relation:2709060,Bus 401 : Maurepas Village → Versailles Rive Gauche,401,,SQYBus
@@ -580,7 +580,7 @@ Route:Relation:3030640,Bus 604 : Montfermeil — Hôpital Intercommunal → Gare
 Route:Relation:3031954,Bus 604 : Gare de Gagny → Collège Pablo Neruda,604,Collège Pablo Neruda,TRA
 Route:Relation:3045272,Bus 201 - Marolles-en H. Gare RER --> Ballancourt Gare RER,201,Ballancourt - Gare RER,Transdev Ile-de-France Brétigny
 Route:Relation:3045489,Bus 201 - Ballancourt Gare RER --> Marolles-en H. Gare RER,201,Marolles-en-Hurepoix - Gare RER,Transdev Ile-de-France Brétigny
-Route:Relation:3045950,913.10,913.10,,
+Route:Relation:3045950,Bus 913.10 : Aubray ↔ Lycée Nelson Mandela,913.10,,Ormont Transport
 Route:Relation:3048886,Bus 520 : Bry-sur-Marne RER → Les Hauts de Bry,520,Les Hauts de Bry,RATP
 Route:Relation:3048898,Bus 520 : Les Hauts de Bry → Bry-sur-Marne RER,520,Bry-sur-Marne RER,RATP
 Route:Relation:3061018,Bus 191 : Clamart - Place du garde → Porte de Vanves,191,Porte de Vanves,RATP
@@ -640,7 +640,7 @@ Route:Relation:3327924,Bus 285 : Marché de Juvisy → Athis-Mons–Porte de l'E
 Route:Relation:3327937,Bus 292 : Porte de l'Essonne (Athis-Mons) → ZAC Les Gâtines - Capitaine Jean d'Hers (Savigny-sur-Orge),292,ZAC Les Gâtines - Capitaine Jean d'Hers (Savigny-sur-Orge),RATP
 Route:Relation:3328096,Bus 104 : École Vétérinaire de Maisons-Alfort → Sucy–Bonneuil RER,104,Bonneuil - Place des Libertés,RATP
 Route:Relation:3328097,Bus 104 : Sucy–Bonneuil RER → École Vétérinaire de Maisons-Alfort,104,École Vétérinaire de Maisons-Alfort,RATP
-Route:Relation:3332365,Go C Paris,,,Keolis Orly Rungis
+Route:Relation:3332365,Go C Paris,GoCParis,,Keolis Orly Rungis
 Route:Relation:3333058,Navette Orly Sud - OrlyParc,Orly Sud - OrlyParc,,
 Route:Relation:3334636,Bus 131 : Porte d'Italie → L'Haÿ-les-Roses - Les Dahlias (Rungis - La Fraternelle RER),131,L'Haÿ-les-Roses - Les Dahlias (Rungis - La Fraternelle RER),RATP
 Route:Relation:3335086,Bus C1 : Gare de Brunoy → Gare de Brunoy via Gare de Boussy-Saint-Antoine,C1,Gare de Brunoy,VyBus
@@ -822,7 +822,6 @@ Route:Relation:4596540,Ligne 10 : Gare de Poissy → Gare de Poissy,10,Gare de P
 Route:Relation:4596713,Ligne 50 : Saint-Exupery (Poissy) → La Coudraie (Poissy),50,La Coudraie (Poissy),CSO
 Route:Relation:4610188,Bus 103 : Marché International de Rungis → École Vétérinaire de Maisons-Alfort,103,École Vétérinaire de Maisons-Alfort,RATP
 Route:Relation:4635340,Bus DM11 C : Gare de Massy-Palaiseau → Marcoussis,DM11 C,Laboratoires (Marcoussis),Daniel Meyer
-Route:Relation:4635341,Bus DM12 : Gare de Massy-Palaiseau ↔ Gare de Gravigny Balizy,DM12,Gare de Gravigny Balizy,Daniel Meyer
 Route:Relation:4635342,Bus DM153 : Gare de Massy-Palaiseau ↔ Porte d'Étampes - Arpajon,DM153,Porte d'Étampes - Arpajon,Daniel Meyer
 Route:Relation:4645677,Bus 360 : La Défense → Hôpital de Garches,360,Hôpital de Garches,RATP
 Route:Relation:4646781,Bus 262 : Pont de Bezons → Gare de Maisons-Laffitte RER,262,Gare de Maisons-Lafitte RER,RATP
@@ -913,7 +912,7 @@ Route:Relation:5450945,Bus 587 : La Navette : La Galaise → Ferme de Grignon,La
 Route:Relation:5451823,Bus 613 : Gare de Chelles-Gournay → Gare d'Aulnay-sous-Bois,613,Gare d'Aulnay-sous-Bois,TRA
 Route:Relation:5470995,Ligne 02 : Val d'Europe → Lagny,02,Gare de Lagny,Pep's
 Route:Relation:5471764,Bus 95-46 : Chars (Marines)→ Magny en Vexin,95-46,Magny-en-Vexin,Bus Val d'Oise
-Route:Relation:5474036,Bus 95-47,95-47,,Les Bus du Vexin
+Route:Relation:5474036,Bus 95-47 : GENAINVILLE École → BRAY-ET-LÛ Collège,95-47,,Busval d'Oise
 Route:Relation:5476415,Navette Ligne J : Rond-Point du Pileu → Languedoc,J,Languedoc (Massy),La Navette Paris-Saclay
 Route:Relation:5478136,Bus 412 : Élancourt France Miniature → Gare de La Verrière,412,Gare de La Verrière,SqyBus
 Route:Relation:5480034,Bus 412 : Gare de La Verrière → Élancourt France Miniature,412,Élancourt France Miniature,SqyBus
@@ -958,7 +957,7 @@ Route:Relation:5886541,Bus 95-20 : Val d'Argenteuil → Cergy Préfecture,95-20,
 Route:Relation:5890652,Bus 95-20 : Cergy Préfecture → Val d'Argenteuil,95-20,Cormeilles Noyer de l'Image,Valoise
 Route:Relation:5899968,Bus 141 : Lycée de Rueil-Malmaison → La Défense,141,La Défense,RATP
 Route:Relation:5900604,Bus 178 : Grande Arche → Gennevilliers RER → Vieux Chemin de Saint-Denis–Centre Commercial,178,,RATP
-Route:Relation:5900606,Bus 178 : Vieux Chemin de Saint-Denis–Centre Commercial → Gennevilliers RER → Grande Arche,178,,RATP
+Route:Relation:5900606,Bus 178 : Vieux Chemin de Saint-Denis–Centre Commercial → Gennevilliers RER → Grande Arche,178,Grande Arche La Défence,RATP
 Route:Relation:5912850,Bus 143 : La Courneuve - Aubervilliers RER → Rosny-sous-Bois RER,143,Rosny-sous-Bois RER,RATP
 Route:Relation:5912851,Bus 143 : Rosny-sous-Bois RER → La Courneuve – Aubervilliers RER,143,La Courneuve – Aubervilliers RER,RATP
 Route:Relation:5927061,Bus 133 : Le Bourget RER → Sarcelles–Bois d’Écouen,133,Sarcelles–Bois d’Écouen,RATP
@@ -975,7 +974,7 @@ Route:Relation:5950848,Bus 166 : Gennevilliers ZAC des Louvresses → Porte de l
 Route:Relation:5953314,Bus 139 : Porte de la Villette → Saint-Ouen RER,139,,RATP
 Route:Relation:5953315,Bus 139 : Saint-Ouen RER → Porte de la Villette,139,,RATP
 Route:Relation:5955531,Bus 180 : Villejuif - Louis Aragon → Charenton – Écoles,180,Charenton – Écoles,RATP
-Route:Relation:5962947,30-12 Circulaire Cormeilles-en-Parisis Nord,30-12,,Parisis
+Route:Relation:5962947,Bus 30-12 : Gare de Cormeilles-en-Parisis → Gare de Franconville,30-12,,Parisis
 Route:Relation:5969741,Bus 150 : Pierrefitte–Stains RER → Porte de la Villette,150,Porte de la Villette,RATP
 Route:Relation:5969742,Bus 150 : Porte de la Villette → Pierrefitte–Stains RER,150,Pierrefitte - Stains RER,RATP
 Route:Relation:5969913,Bus 179 : Pont de Sèvres → Robinson RER,179,Robinson RER,RATP
@@ -1109,7 +1108,6 @@ Route:Relation:6785330,Bus 4 : ZI Croix Blanche → Gare de Sainte-Geneviève-de
 Route:Relation:6785379,Bus 108 : Porte d'Orléans → ZI Croix Blanche,108,Zone Industrielle la Croix Blanche,Génovébus
 Route:Relation:6785521,Bus 402 : La Treille (Viry-Châtillon) → Terminal David Douillet (Le Coudray-Montceaux),402,Terminal David Douillet (Le Coudray-Montceaux),TICE
 Route:Relation:6785600,Bus 420 : Gare RER d'Épinay-sur-Orge → Grigny - Centre RER,420,Grigny - Centre RER,TICE
-Route:Relation:6786700,,Still 16B,Varennes-sur-Seine,Transdev-Idf
 Route:Relation:6786714,,Still 18A,Varennes-sur-Seine,Transdev-Idf
 Route:Relation:6789333,Still 8A,8A,,
 Route:Relation:6789382,,Still 9B,,Transdev-IdF
@@ -1127,7 +1125,7 @@ Route:Relation:6851660,Bus 17 : Gare SNCF d'Esbly → Rue des Prés (Trilbardou)
 Route:Relation:6860180,Bus E : Gare de Brunoy → Centre Hospitalier de Villeneuve-Saint-Georges,E,Centre Hospitalier de Villeneuve-Saint-Georges,VyBus
 Route:Relation:6860591,Bus 216 : Marché International de Rungis → Denfert-Rochereau,216,Denfert-Rochereau,RATP
 Route:Relation:6860733,Bus TVM : Saint-Maur - Créteil RER → La Croix de Berny RER,TVM,La Croix de Berny RER (Antony),RATP
-Route:Relation:6863978,02 Saint-Germain RER <-> Maisons-Laffitte Gare SNCF,02,,
+Route:Relation:6863978,Bus 02 : Maisons-Laffitte Gare SNCF ↔ Saint-Germain RER,02,,Maisons-Laffitte et Le Mesnil Le Roi
 Route:Relation:6867540,Bus Express 191.100 : M.I.N. (Chevilly-Larue - Rungis) → Gare de Yerres,191.100,Gare de Yerres,Keolis Orly Rungis
 Route:Relation:6867573,Bus Express 91.09 : Gare Routière d'Évry → Gare Routière de Yerres,91.09,Gare Routière de Yerres,TransEssonne
 Route:Relation:6879710,Bus 95-04 : Bray et Lû Gare → Hôpital,95-04,Hôpital,Busval d'Oise
@@ -1227,7 +1225,7 @@ Route:Relation:7108639,Le Vésinet Centre-Chemin de Ronde,6,,Bus en Seine
 Route:Relation:7111406,Bus 506 : Les 4 Chênes (Pontault-Combault) → Gare de Pontault-Combault,506,Gare de Pontault-Combault,Sit'Bus
 Route:Relation:7111420,Bus 7 : Gare de Sartrouville ↔ Gare du Vésinet-Le Pecq,7,,Bus en Seine
 Route:Relation:7114042,Bus 627 : Garonor (Aulnay-sous-Bois) → Gare d'Aulnay-sous-Bois,627,Gare d'Aulnay-sous-Bois,TRA
-Route:Relation:7118954,Ligne 54 : Gare de Poissy → Technoparc - Lycée Charles De Gaulle,54,Technoparc - Lycée Charles De Gaulle (Poissy),CSO
+Route:Relation:7118954,Ligne 54 : Gare Sud de Poissy → Gare Sud de Poissy via Technoparc - Lycée Charles De Gaulle,54,Gare Sud de Poissy,CSO
 Route:Relation:7141388,Bus 95-34 : Saillancourt Place → Collège les Hautiers,95-34,Collège les Hautiers,Busval d'Oise
 Route:Relation:7142157,Bus ligne A : Rond-Point des Sciences (Chelles) → Gare de Chelles,A,Gare de Chelles,Apolo 7
 Route:Relation:7153017,Bus 5 : Prunay-en-Yvelines - Gourville ↔ Rambouillet - Gare,5,,Réseau interurbain de Rambouillet
@@ -1394,7 +1392,7 @@ Route:Relation:7517219,Bus 3 : Gare de Houilles Carrières-sur-Seine → Gare du
 Route:Relation:7517250,Bus 26 : Lycée les Pierres Vives → Martyrs (Houilles),26,Martyrs (Houilles),Bus en Seine
 Route:Relation:7517251,Bus 10 : Gare de Houilles Carrières-sur-Seine → Gare de Houilles Carrières-sur-Seine,10,Gare de Houilles Carrières-sur-Seine,Bus en Seine
 Route:Relation:7524060,Bus 44 : Jacqueline Auriol (Bussy-Saint-Georges) → La Haye (Bussy-Saint-Georges),44,La Haye (Bussy-Saint-Georges),Pep's
-Route:Relation:7554812,Ligne 4 Rambouillet - Limours,4,,
+Route:Relation:7554812,Bus 4 : Rambouillet ↔ Limours,4,,Réseau Interurbain de Rambouillet
 Route:Relation:7606123,Bus 289 : Georges Pompidou (Clamart) → Porte de Saint-Cloud,289,Porte de Saint-Cloud,RATP
 Route:Relation:7616485,Bus v2 : L'Haÿ-les-Roses Domaine Chérioux → Fresnes Pasteur,V2,Fresnes Pasteur,Valouette
 Route:Relation:7618268,Bus 1 : Les Lilas (Fontainebleau) → Gare routière de Fontainebleau Avon,1,Gare routière de Fontainebleau Avon,Aérial
@@ -1535,6 +1533,7 @@ Route:Relation:7804634,Bus DM11 C : Marcoussis → Gare de Massy-Palaiseau,DM11 
 Route:Relation:7804778,Bus 551 : Stade Charles Sage (circulaire),551,,RATP
 Route:Relation:7804788,Bus 556 : Aubépines → Zone Artisanale du Moutier,556,,RATP
 Route:Relation:7804789,Bus 556 : Zone Artisanale du Moutier → Aubépines,556,,RATP
+Route:Relation:7804858,Bus v4 : Hôtel de Ville – Centre (circulaire),v4,,Valouette
 Route:Relation:7804891,Bus 564 : Collège La Malmaison (circulaire),564,,RATP
 Route:Relation:7804895,TUC est,574,,RATP
 Route:Relation:7804896,TUC ouest,574,,RATP
@@ -1616,12 +1615,11 @@ Route:Relation:7895697,Bus 559c : Gabriel Péri ↔ Soufflot,559c,,RATP
 Route:Relation:7895698,Bus 559b : Gabriel Péri ↔ Suresnes,559b,,RATP
 Route:Relation:7895699,Bus 559a : Gabriel Péri ↔ Garches,559a,,RATP
 Route:Relation:7895823,Bus 16 : Conflans-Sainte-Honorine - Conflans Fin d'Oise <> Andrésy - Les Charvaux,16,,Transdev Conflans
-Route:Relation:7896604,Bus 560 : Ligne Rouge : Place de la Boule - Gambetta ↔ Droits de l'Homme,560,,RATP
-Route:Relation:7896636,Bus 559 : Ligne Bleue : Chemin de l'île ↔ Cimetière du Mont Valérien,559,,RATP
+Route:Relation:7896604,Bus Ligne Rouge : Droits de l'Homme ↔ Place de la Boule - Gambetta,LIGNE-R,,RATP
+Route:Relation:7896636,Bus 559 : Ligne Bleue : Chemin de l'île ↔ Cimetière du Mont Valérien,LIGNE-B,,RATP
 Route:Relation:7897947,Bus 579 : ClamiBus : Maison de Quartier André Charré ↔ Gare de Clamart,579,,RATP
 Route:Relation:7901154,Bus 485S : Delalande Pasteur → Noyer Renard,485S,,RATP
 Route:Relation:7901156,Bus 485S : Noyer Renard → Delalande Pasteur,485S,,RATP
-Route:Relation:7901303,Bus v5 : Gabriel Péri - Soleil Levant (circulaire),V5,,Valouette
 Route:Relation:7901328,Bus v5 : Gabriel Péri - Soleil Levant (Circuit B),V5,,Valouette
 Route:Relation:7901329,Bus v5 : Gabriel Péri - Soleil Levant (Circuit A),V5,,Valouette
 Route:Relation:7902030,Bus 592 : Amibus : Châtillon-Montrouge Métro → Mairie de Châtillon,592,,RATP
@@ -1653,3 +1651,11 @@ Route:Relation:7919434,Bus 11 Gare : Caporal Petit -> Saint-Fargeau-Ponthierry �
 Route:Relation:7919435,Bus 11 Gare : Saint-Fargeau-Ponthierry — Gare -> Caporal Petit,11 Gare,,Canton de Perthes en Gâtinais
 Route:Relation:7925362,Bus 74 : Place de Clichy → Clichy-la-Garenne – Berges de Seine,74,Clichy-la-Garenne – Berges de Seine,RATP
 Route:Relation:7925363,Bus 74 : Clichy-la-Garenne – Berges de Seine → Place de Clichy,74,Place de Clichy,RATP
+Route:Relation:7951078,Bus 38,,,
+Route:Relation:7968519,Bus DM12 : Variante par le Rocher de Saulx,DM12,Saulx Télégraphe,
+Route:Relation:7968520,Bus DM12 : Gare de Gravigny Balizy → Gare de Massy-Palaiseau,DM12,Gare de Massy-Palaiseau,
+Route:Relation:7968521,Bus DM12 : Gare de Massy-Palaiseau → Gare de Gravigny Balizy,DM12,Gare de Gravigny Balizy,
+Route:Relation:7970639,Bus 30-12 : Gare de Franconville → Gare de Cormeilles-en-Parisis,30-12,,Parisis
+Route:Relation:7980610,Bus 102 : Gare de Marolles (circulaire),102,,CEA Transports
+Route:Relation:7980853,Bus 95-47 : ST-CLAIR SUR EPTE Bois St Clair → BRAY-ET-LÛ Collège,95-47,,Busval d'Oise
+Route:Relation:7980987,Bus 95-47 : BUHY BUCHET Buchet → BRAY-ET-LÛ Collège,95-47,,Busval d'Oise

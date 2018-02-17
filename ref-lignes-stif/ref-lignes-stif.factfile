@@ -3,51 +3,11 @@
     "data": {
         "name": "extraction des lignes gérées par le STIF",
         "tasks": [{
-            "name": "select lines",
+            "name": "extract routes",
             "executor": "shell",
-            "command": "cd data && cat osm-transit-extractor_lines.csv |xsv select line_id,code,name,network,operator,colour,osm:type,mode,osm:ref:FR:STIF:ExternalCode_Line > ref-lignes-stif_lignes_.csv",
+            "command": "cd data && ../ref-lignes-stif/extract_lines.sh > lignes.csv ",
             "arguments": [],
             "dependsOn": [],
-            "onResult": {
-                "terminateJobWithSuccess": [],
-                "continueJob": [0]
-            }
-        }, {
-            "name": "remove national trains",
-            "executor": "shell",
-            "command": "cd data && cat ref-lignes-stif_lignes_.csv |xsv search -s network TGV -v | xsv search -s network Eurostar -v |xsv search -s network Thalys -v |xsv search -s network Flixbus -v |xsv search -s network Intercités -v|xsv search -s operator 'SNCF Réseau' -v |xsv search -s network 'TER ' -v |xsv search -s operator 'DB Fernverkehr' -v > ref-lignes-stif_lignes_without_train.csv",
-            "arguments": [],
-            "dependsOn": ["select lines"],
-            "onResult": {
-                "terminateJobWithSuccess": [],
-                "continueJob": [0]
-            }
-        }, {
-            "name": "remove local lines",
-            "executor": "shell",
-            "command": "cd data && cat ref-lignes-stif_lignes_without_train.csv |xsv search -s mode 'ferry' -v |xsv search -s network 'local' -v > ref-lignes-stif_lignes_without_local.csv",
-            "arguments": [],
-            "dependsOn": ["remove national trains"],
-            "onResult": {
-                "terminateJobWithSuccess": [],
-                "continueJob": [0]
-            }
-        }, {
-            "name": "remove touristic lines",
-            "executor": "shell",
-            "command": "cd data && cat ref-lignes-stif_lignes_without_local.csv |xsv search -s network 'Open Tour' -v | xsv search -s network Balabus -v |xsv search -s network 'Big Bus' -v > lignes.csv",
-            "arguments": [],
-            "dependsOn": ["remove local lines"],
-            "onResult": {
-                "terminateJobWithSuccess": [],
-                "continueJob": [0]
-            }
-        }, {
-            "name": "clean temp csv",
-            "executor": "shell",
-            "command": "rm data/ref-lignes-stif_*.csv",
-            "arguments": [],
-            "dependsOn": ["remove touristic lines"],
             "onResult": {
                 "terminateJobWithSuccess": [],
                 "continueJob": [0]

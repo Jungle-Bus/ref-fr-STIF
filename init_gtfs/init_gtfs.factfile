@@ -27,7 +27,7 @@
             {
                 "name": "prefix with gtfs_",
                 "executor": "shell",
-                "command": "./init_gtfs/rename.sh",
+                "command": "cd gtfs && ../init_gtfs/rename.sh",
                 "arguments": [],
                 "dependsOn": ["unzip opendata"],
                 "onResult": {

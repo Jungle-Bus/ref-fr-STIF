@@ -11,7 +11,7 @@ https://wiki.openstreetmap.org/wiki/WikiProject_France/Transports_en_%C3%8Ele-de
 
 ## TODO
 ### Analyse Osmose sur les codes STIF
-TODO : déplacer l'analyse Osmose sur les lignes. Et réécrire celle sur les arrêts. Pour le moment, c'est [ici](https://github.com/nlehuby/OSM_snippets/)
+L'analyse Osmose sur les lignes a été rappatriée. Reste à réécrire celle sur les arrêts. Pour le moment, c'est [ici](https://github.com/nlehuby/OSM_snippets/)
 
 ### Audit comparatif du nombre de routepoints
 TODO

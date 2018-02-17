@@ -1,0 +1,47 @@
+{
+    "schema": "iglu:com.snowplowanalytics.factotum/factfile/jsonschema/1-0-0",
+    "data": {
+        "name": "mise à jour des analyses Osmose",
+        "tasks": [{
+            "name": "extract coord for relations",
+            "executor": "shell",
+            "command": "cd data && ../osmose/prepare_relations_for_osmose.sh",
+            "arguments": [],
+            "dependsOn": [],
+            "onResult": {
+                "terminateJobWithSuccess": [],
+                "continueJob": [0]
+            }
+        }, {
+            "name": "prepare osmose check on lines",
+            "executor": "shell",
+            "command": "cd osmose && python3 ref_FR_STIF_lignes.py",
+            "arguments": [],
+            "dependsOn": ["extract coord for relations"],
+            "onResult": {
+                "terminateJobWithSuccess": [],
+                "continueJob": [0]
+            }
+        }, {
+            "name": "update Osmose dev",
+            "executor": "shell",
+            "command": "cd data && curl -s --request POST --form source='opendata_stif-france_ile_de_france' --form code=\"$Osmose_idf_auth\" --form content=@osmose_lines.xml http://dev.osmose.openstreetmap.fr/control/send-update",
+            "arguments": [],
+            "dependsOn": ["prepare osmose check on lines"],
+            "onResult": {
+                "terminateJobWithSuccess": [],
+                "continueJob": [0]
+            }
+        }, {
+            "name": "update Osmose prod",
+            "executor": "shell",
+            "command": "cd data && curl -s --request POST --form source='opendata_stif-france_ile_de_france' --form code=\"$Osmose_idf_auth\" --form content=@osmose_lines.xml http://osmose.openstreetmap.fr/control/send-update",
+            "arguments": [],
+            "dependsOn": ["update Osmose dev"],
+            "onResult": {
+                "terminateJobWithSuccess": [],
+                "continueJob": [0]
+            }
+        }]
+    }
+}

@@ -465,7 +465,7 @@ Route:Relation:2511927,Bus 291 : Pont de Sèvres ↔ Vélizy-La Cheminée,291,,R
 Route:Relation:2512002,Bus Roissybus : Paris–Opéra → Aéroport Charles de Gaulle,Roissybus,Aéroport Charles de Gaulle,RATP
 Route:Relation:2516546,Noctilien N14: Bourg-la-Reine RER → Mairie de Saint-Ouen,N14,Mairie de Saint-Ouen,Noctilien
 Route:Relation:2529983,Les Petits Trains de Provins,,,
-Route:Relation:2531064,Bus 20 :  Villiers-le-Bel RER→Roissypole,20,Roissypole,TransVO
+Route:Relation:2531064,Bus 20 : Villiers-le-Bel RER→Parc des Expositions,22,Roissypole,TransVO
 Route:Relation:2531074,Bus 93 : Bobigny – Pablo Picasso → Aulnay-sous-Bois – Parinor → Aéroport CDG – Roissypole,93,Bobigny – Pablo Picasso,Les Courriers de l'Île-de-France
 Route:Relation:2531081,Bus 23 : Roissypole → Mitry-le-Neuf – Villeparisis,23,Mitry-le-Neuf – Villeparisis,Les Courriers de l'Île-de-France
 Route:Relation:2531204,Bus Filéo Villiers-le-Bel : Roissypole → Villiers-le-Bel – Espace Marcel Pagnol,Filéo VB,Villiers-le-Bel – Espace Marcel Pagnol,Filéo
@@ -522,7 +522,7 @@ Route:Relation:2703186,Bus 402 : La Verrière -> Trappes,402,,SQYBus
 Route:Relation:2705154,Bus 430 : Trappes Gare (circulaire) via ZA Trappes–Élancourt,430,,SQYbus
 Route:Relation:2707047,Bus 39-17 : Saint-Rémy-lès-Chevreuse <> La Verrière,39-17,,SAVAC
 Route:Relation:2707618,Bus 441 : Le Clos Breton → Trou Berger,441,Trou Berger,SQYBus
-Route:Relation:2707619,Bus 36-12 : Maurepas <> La Verrière,36-12,,SQYBus
+Route:Relation:2707619,Bus 36-12 matin : Gare de La Verrière → Gare de La Verrière,36-12,Gare de La Verrière,SQYBus
 Route:Relation:2708918,Bus H : La Celle Saint-Cloud Gare SNCF → Versailles Gare Rive Gauche,H,Versailles Gare Rive Gauche,Phébus
 Route:Relation:2709060,Bus 401 : Maurepas Village → Versailles Rive Gauche,401,,SQYBus
 Route:Relation:2719743,Bus 402 : Trappes -> La Verrière,402,,SQYBus
@@ -744,7 +744,7 @@ Route:Relation:3974596,Navette 18 : Gare de Palaiseau-Villebon RER → C.C. Vill
 Route:Relation:3979225,Noctilien N13: Mairie d’Issy → Bobigny - Pablo Picasso,N13,Bobigny - Pablo Picasso,Noctilien
 Route:Relation:3997210,Bus 153 : Porte de la Chapelle → Stains–Moulin Neuf,153,Saint-Denis-Cité Floréal,RATP
 Route:Relation:3997211,Bus 153 : Stains–Moulin Neuf → Porte de la Chapelle,153,Porte de la Chapelle,RATP
-Route:Relation:4021769,Bus 50 : Chessy → Provins,50,Provins,Seine-et-Marne Express
+Route:Relation:4021769,Bus 50 : Chessy ↔ Provins,50,Provins,Seine-et-Marne Express
 Route:Relation:4024679,Bus 18 : Gare de Melun → Gare de Meaux,18,Meaux Gare SNCF,Seine-et-Marne Express
 Route:Relation:4024788,Bus 1 : Place des Fêtes (Brie-Comte-Robert) ↔ Le Safran (Brie-Comte-Robert),1,Le Safran (Brie-Comte-Robert),BrieBus
 Route:Relation:4024891,Bus 2 : Place des Fêtes (Brie-Comte-Robert) ↔ Ambroise Paré (Brie-Comte-Robert),2,Ambroise Paré (Brie-Comte-Robert),BrieBus
@@ -1147,7 +1147,7 @@ Route:Relation:6950499,Noctilien N153: Gare Saint-Lazare → Gare de Saint-Germa
 Route:Relation:6950500,Noctilien N151: Gare Saint-Lazare → Gare de Mantes la Jolie,N151,Gare de Mantes la Jolie,Noctilien
 Route:Relation:6950501,Noctilien N153: Gare de Saint-Germain-en-Laye → Gare Saint-Lazare,N153,Gare Saint-Lazare,Noctilien
 Route:Relation:6950502,Noctilien N151: Gare de Mantes la Jolie → Gare Saint-Lazare,N151,Gare Saint-Lazare,Noctilien
-Route:Relation:6950763,Bus 95-01 : Survilliers Fosses RER D → Aéroport CDG1 RER B,95-01,Aéroport CDG1 RER B,Busval d'Oise
+Route:Relation:6950763,Bus 95-01 : Survilliers Fosses RER D → Roissypole,95-01,Roissypole,Busval d'Oise
 Route:Relation:6952109,Bus 95-01 : Luzarches Train H → Survilliers Fosses RER D,95-01,Survilliers Fosses RER D,Busval d'Oise
 Route:Relation:6953262,Bus 95-05 : Messelan → Préfecture / RER,95-05,Préfecture / RER,Busval d'Oise
 Route:Relation:6953404,Bus 95-05 : Zone d'Activités → Préfecture / RER,95-05,Préfecture / RER,Busval d'Oise
@@ -1188,10 +1188,10 @@ Route:Relation:6960489,Bus 95-08 : Centre Ville → Préfecture / RER,95-08,Pré
 Route:Relation:6972216,Bus 640 : Parc des Expositions (circulaire extérieure),640,Gare du Parc des Expositions,Seine-Saint-Denis
 Route:Relation:6980339,Bus 37 : Les Flanades → Gare d'Epinay-sur-Seine,37,,VALMY
 Route:Relation:6980340,Bus 37 : Gare d'Epinay-sur-Seine → Les Flanades,37,,VALMY
-Route:Relation:6985617,,91.08,,TransEssonne
-Route:Relation:6985618,,91.08,,TransEssonne
-Route:Relation:6985619,,91.08,,TransEssonne
-Route:Relation:6985620,,91.08,,TransEssonne
+Route:Relation:6985617,Bus 91.08 : LES ULIS Mairie des Ulis => VÉLIZY-VILLACOUBLAY Centre Commercial,91.08,,TransEssonne
+Route:Relation:6985618,Bus 91.08: VÉLIZY-VILLACOUBLAY Centre Commercial => LES ULIS Mairie des Ulis,91.08,,TransEssonne
+Route:Relation:6985619,Bus 91.08: PALAISEAU Fresnel => VÉLIZY-VILLACOUBLAY Centre Commercial,91.08,,TransEssonne
+Route:Relation:6985620,Bus 91.08: VÉLIZY-VILLACOUBLAY Centre Commercial => PALAISEAU Fresnel,91.08,,TransEssonne
 Route:Relation:6991407,Bus 623 : Gare de Gagny → Gare de Sevran - Livry,623,Gare de Sevran - Livry,Seine-Saint-Denis
 Route:Relation:7005558,Ligne 02 : Melun-Meaux direct,02,,Seine-et-Marne Express
 Route:Relation:7061825,Bus DM21B : Gare de Savigny-sur-Orge ↔ Morsang sur Orge,DM21B,,Daniel Meyer
@@ -1636,7 +1636,19 @@ Route:Relation:7991716,Bus A : Gare d'Ozoir-la-Ferrière ↔ Pontault-Combault -
 Route:Relation:7991717,Bus D : Pontault RER ↔ Renardière - Delacroix,D,,Sit'Bus
 Route:Relation:8002375,Bus 441 : Trou Berger → Le Clos Breton,441,Le Clos Breton,SQYBus
 Route:Relation:8014933,Bus 14 : Ermont Eaubonne Gare RER ↔ Enghien Albert 1er Gare,14,,Transdev TVO
-Route:Relation:8015962,Bus 38-01 : Ermont Eaubonne Gare RER ↔ Montlignon Mairie,,,Transdev Cars Rose
+Route:Relation:8015962,Bus 38-01 : Ermont Eaubonne Gare RER ↔ Montlignon Mairie,38-01,,Transdev Cars Rose
 Route:Relation:8016022,Bus 38-01 : Ermont Eaubonne Gare RER ↔ Montlignon Mairie,38-01,,Transdev Cars Rose
-Route:Relation:8019016,Bus 20 : Roissypole → Villiers-le-Bel RER,20,Villiers le Bel RER,
+Route:Relation:8019016,Bus 20 : Parc des Expostions → Villiers-le-Bel RER,20,Villiers le Bel RER,
 Route:Relation:8021830,Bus 38-03 : Ermont Gros Noyer Gare ↔ Saint-Prix Léon Cordier,38-03,,Transdev Cars Rose
+Route:Relation:8032392,Bus 36-12 après-midi : Gare de La Verrière → Gare de La Verrière,36-12,Gare de La Verrière,SQYBus
+Route:Relation:8035138,Bus 38-04 : Ermont Eaubonne Gare RER ↔ Rue de Saint Prix,38-04,,
+Route:Relation:8035184,Bus 20 : Villiers le bel RER -> Parc des expositions,,Parc des Expositions,
+Route:Relation:8035193,Bus 20 : Parc des expositions- Villiers le Bel RER,,Villiers le Bel RER,
+Route:Relation:8035217,Bus 20 : Villiers le Bel RER -> Parc des expositions,,Parc des Expositions,
+Route:Relation:8035218,Bus 20 : Parc des expositions -> Villiers le Bel RER,,Villiers le Bel RER,
+Route:Relation:8036798,Bus 465 : Saint-Quentin-en-Yvelines Gare RER → Guyancourt Villaroy,465,,SQYBUS
+Route:Relation:8038446,Bus 250 : Fort d'Auvbervilliers -> Gonesse,,,
+Route:Relation:8038461,Bus 250 : Fort d'Aubervilliers -> Gonesse,,,
+Route:Relation:8038462,Bus 250 : Gonesse -> Fort d'Aubervilliers,,,
+Route:Relation:8039529,Bus 30-14 : Franconville Gare ↔ Saint-Leu la Forêt Gare,30-14,,
+Route:Relation:8039574,Bus 151 : Porte de Pantin → Bondy–Jouhaux–Blum (dimanche matin),151,Bondy - Jouhaux–Blum,RATP

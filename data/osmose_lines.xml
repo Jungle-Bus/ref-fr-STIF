@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2018-02-27T08:04:15Z">
-	<analyser timestamp="2018-02-27T08:04:15Z">
+<analysers timestamp="2018-02-27T21:21:02Z">
+	<analyser timestamp="2018-02-27T21:21:02Z">
 		<class item="8042" tag="transport en commun" id="1" level="3">
 			<classtext lang="fr" title="tag manquant sur une relation route_master (ligne de transport en commun)"></classtext>
 		</class>
@@ -112,7 +112,14 @@
 		<error class="1">
 			<location lat="48.9954908" lon="2.1710068"></location>
 			<relation id="7823264"></relation>
-			<text lang="fr" value="la relation n'a pas de tag network."></text>
+			<text lang="fr" value="Réseau de transport (tag network) manquant pour cette ligne. Valeur probable : Valoise"></text>
+			<fixes>
+				<fix>
+					<relation id="7823264">
+						<tag action="create" k="network" v="Valoise"></tag>
+					</relation>
+				</fix>
+			</fixes>
 		</error>
 		<error class="1">
 			<location lat="48.7534859" lon="2.505842"></location>
@@ -122,7 +129,7 @@
 		<error class="1">
 			<location lat="48.176818499999996" lon="2.8715679"></location>
 			<relation id="7920973"></relation>
-			<text lang="fr" value="la relation n'a pas de tag network. Valeur probable : Still"></text>
+			<text lang="fr" value="Réseau de transport (tag network) manquant pour cette ligne. Valeur probable : Still"></text>
 			<fixes>
 				<fix>
 					<relation id="7920973">
@@ -139,12 +146,12 @@
 		<error class="1">
 			<location lat="48.562577" lon="2.249699"></location>
 			<relation id="7921016"></relation>
-			<text lang="fr" value="la relation n'a pas de tag network."></text>
+			<text lang="fr" value="Réseau de transport (tag network) manquant pour cette ligne."></text>
 		</error>
 		<error class="1">
 			<location lat="49.173513" lon="2.0540377999999997"></location>
 			<relation id="7998730"></relation>
-			<text lang="fr" value="la relation n'a pas de tag operator. Valeur probable : Tim Bus"></text>
+			<text lang="fr" value="Opérateur (tag operator) manquant pour cette ligne. Valeur probable : Tim Bus"></text>
 			<fixes>
 				<fix>
 					<relation id="7998730">

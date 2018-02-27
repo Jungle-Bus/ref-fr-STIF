@@ -15,7 +15,7 @@
         }, {
             "name": "prepare osmose check on lines",
             "executor": "shell",
-            "command": "cd osmose && python3 ref_FR_STIF_lignes.py",
+            "command": "cd osmose && python3 create_osmose_xml.py",
             "arguments": [],
             "dependsOn": ["extract coord for relations"],
             "onResult": {

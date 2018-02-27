@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2018-02-21T08:16:11Z">
-	<analyser timestamp="2018-02-21T08:16:11Z">
+<analysers timestamp="2018-02-27T08:04:15Z">
+	<analyser timestamp="2018-02-27T08:04:15Z">
 		<class item="8042" tag="transport en commun" id="1" level="3">
 			<classtext lang="fr" title="tag manquant sur une relation route_master (ligne de transport en commun)"></classtext>
 		</class>
@@ -25,9 +25,29 @@
 			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (116277005:FileoO) n'existe pas ou plus dans les données opendata du STIF"></text>
 		</error>
 		<error class="1">
+			<location lat="48.7537166" lon="2.5057678"></location>
+			<relation id="3315927"></relation>
+			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (040040023:23) n'existe pas ou plus dans les données opendata du STIF"></text>
+		</error>
+		<error class="1">
+			<location lat="48.562577" lon="2.249699"></location>
+			<relation id="3315942"></relation>
+			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (040040013:BRIEBUS) n'existe pas ou plus dans les données opendata du STIF"></text>
+		</error>
+		<error class="1">
+			<location lat="48.7799872" lon="2.4607352"></location>
+			<relation id="3315943"></relation>
+			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (040040012:12) n'existe pas ou plus dans les données opendata du STIF"></text>
+		</error>
+		<error class="1">
 			<location lat="48.797851699999995" lon="2.4646778"></location>
 			<relation id="4594987"></relation>
 			<text lang="fr" value="Il y a plusieurs lignes dans OSM qui ont ce même ref:FR:STIF:ExternalCode_Line (100100317:317)"></text>
+		</error>
+		<error class="1">
+			<location lat="48.702095799999995" lon="2.5982129"></location>
+			<relation id="6520401"></relation>
+			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (040040010:10) n'existe pas ou plus dans les données opendata du STIF"></text>
 		</error>
 		<error class="1">
 			<location lat="48.562577" lon="2.249699"></location>
@@ -95,24 +115,21 @@
 			<text lang="fr" value="la relation n'a pas de tag network."></text>
 		</error>
 		<error class="1">
-			<location lat="48.2664526" lon="3.0051897999999997"></location>
-			<relation id="7920967"></relation>
-			<text lang="fr" value="la relation n'a pas de tag network."></text>
-		</error>
-		<error class="1">
-			<location lat="48.2673827" lon="2.6868071"></location>
-			<relation id="7920968"></relation>
-			<text lang="fr" value="la relation n'a pas de tag network."></text>
-		</error>
-		<error class="1">
-			<location lat="48.253949999999996" lon="2.8215908"></location>
-			<relation id="7920972"></relation>
-			<text lang="fr" value="la relation n'a pas de tag network."></text>
+			<location lat="48.7534859" lon="2.505842"></location>
+			<relation id="7841677"></relation>
+			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (040040021:21) n'existe pas ou plus dans les données opendata du STIF"></text>
 		</error>
 		<error class="1">
 			<location lat="48.176818499999996" lon="2.8715679"></location>
 			<relation id="7920973"></relation>
-			<text lang="fr" value="la relation n'a pas de tag network."></text>
+			<text lang="fr" value="la relation n'a pas de tag network. Valeur probable : Still"></text>
+			<fixes>
+				<fix>
+					<relation id="7920973">
+						<tag action="create" k="network" v="Still"></tag>
+					</relation>
+				</fix>
+			</fixes>
 		</error>
 		<error class="1">
 			<location lat="48.9231777" lon="2.2513948999999998"></location>
@@ -122,18 +139,6 @@
 		<error class="1">
 			<location lat="48.562577" lon="2.249699"></location>
 			<relation id="7921016"></relation>
-			<text lang="fr" value="la relation n'a pas de tag network. Valeur probable : Val de Seine"></text>
-			<fixes>
-				<fix>
-					<relation id="7921016">
-						<tag action="create" k="network" v="Val de Seine"></tag>
-					</relation>
-				</fix>
-			</fixes>
-		</error>
-		<error class="1">
-			<location lat="48.5334335" lon="2.0080242999999998"></location>
-			<relation id="7921042"></relation>
 			<text lang="fr" value="la relation n'a pas de tag network."></text>
 		</error>
 		<error class="1">

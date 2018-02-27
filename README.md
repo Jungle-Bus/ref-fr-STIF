@@ -10,9 +10,6 @@ Des scripts pour le suivi de l'intégration des référentiels île-de-France Mo
 https://wiki.openstreetmap.org/wiki/WikiProject_France/Transports_en_%C3%8Ele-de-France#R.C3.A9f.C3.A9rences_opendata
 
 ## TODO
-### Analyse Osmose sur les codes STIF
-L'analyse Osmose sur les lignes a été rappatriée. Reste à réécrire celle sur les arrêts. Pour le moment, c'est [ici](https://github.com/nlehuby/OSM_snippets/)
-
 ### Audit comparatif du nombre de routepoints
 TODO
 

@@ -15,7 +15,7 @@
         }, {
             "name": "prepare osmose check on lines",
             "executor": "shell",
-            "command": "cd osmose && python3 ref_FR_STIF_lignes.py",
+            "command": "cd osmose && python3 create_osmose_xml.py",
             "arguments": [],
             "dependsOn": ["extract coord for relations"],
             "onResult": {
@@ -23,7 +23,7 @@
                 "continueJob": [0]
             }
         }, {
-            "name": "update Osmose dev",
+            "name": "update Osmose dev lignes",
             "executor": "shell",
             "command": "cd data && curl -s --request POST --form source='opendata_stif-france_ile_de_france' --form code=\"$Osmose_idf_auth\" --form content=@osmose_lines.xml http://dev.osmose.openstreetmap.fr/control/send-update",
             "arguments": [],
@@ -33,11 +33,31 @@
                 "continueJob": [0]
             }
         }, {
-            "name": "update Osmose prod",
+            "name": "update Osmose prod lignes",
             "executor": "shell",
             "command": "cd data && curl -s --request POST --form source='opendata_stif-france_ile_de_france' --form code=\"$Osmose_idf_auth\" --form content=@osmose_lines.xml http://osmose.openstreetmap.fr/control/send-update",
             "arguments": [],
-            "dependsOn": ["update Osmose dev"],
+            "dependsOn": ["update Osmose dev lignes"],
+            "onResult": {
+                "terminateJobWithSuccess": [],
+                "continueJob": [0]
+            }
+        }, {
+            "name": "update Osmose dev stops",
+            "executor": "shell",
+            "command": "cd data && curl -s --request POST --form source='opendata_stif-france_ile_de_france' --form code=\"$Osmose_idf_auth\" --form content=@osmose_stops.xml http://dev.osmose.openstreetmap.fr/control/send-update",
+            "arguments": [],
+            "dependsOn": ["update Osmose prod lignes"],
+            "onResult": {
+                "terminateJobWithSuccess": [],
+                "continueJob": [0]
+            }
+        }, {
+            "name": "update Osmose prod stops",
+            "executor": "shell",
+            "command": "cd data && curl -s --request POST --form source='opendata_stif-france_ile_de_france' --form code=\"$Osmose_idf_auth\" --form content=@osmose_stops.xml http://osmose.openstreetmap.fr/control/send-update",
+            "arguments": [],
+            "dependsOn": ["update Osmose dev stops"],
             "onResult": {
                 "terminateJobWithSuccess": [],
                 "continueJob": [0]

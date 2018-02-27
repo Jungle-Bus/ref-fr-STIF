@@ -1,14 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import requests
 import csv
-import json
-import xmltodict
-import datetime
 from collections import Counter
-from copy import deepcopy
-
 
 def get_lines_from_csv(file_name):
     with open(file_name, 'r') as f:
@@ -76,10 +70,10 @@ def get_errors(osm_lines, opendata_lines, stats, line_coords):
             error = {"id": an_osm_line['osm_id']}
             fix = get_most_common_value(
                 stats, "network", opendata_line['agency_id'])
-            error['label'] = "la relation n'a pas de tag network."
+            error['label'] = "Réseau de transport (tag network) manquant pour cette ligne."
             if fix != "":
                 error['fix'] = [{"key": "network", "value": fix}]
-                error['label'] = "la relation n'a pas de tag network. Valeur probable : " + fix
+                error['label'] = "Réseau de transport (tag network) manquant pour cette ligne. Valeur probable : " + fix
             error['lat'], error['lon'] = an_osm_line['latitude'], an_osm_line['longitude']
             errors.append(error)
 
@@ -87,17 +81,17 @@ def get_errors(osm_lines, opendata_lines, stats, line_coords):
             error = {"id": an_osm_line['osm_id']}
             fix = get_most_common_value(
                 stats, "operator", opendata_line['agency_id'])
-            error['label'] = "la relation n'a pas de tag operator."
+            error['label'] = "Opérateur (tag operator) manquant pour cette ligne"
             if fix != "":
                 error['fix'] = [{"key": "operator", "value": fix}]
-                error['label'] = "la relation n'a pas de tag operator. Valeur probable : " + fix
+                error['label'] = "Opérateur (tag operator) manquant pour cette ligne. Valeur probable : " + fix
             error['lat'], error['lon'] = an_osm_line['latitude'], an_osm_line['longitude']
             errors.append(error)
 
         if not an_osm_line['code']:
             error = {"id": an_osm_line['osm_id']}
             fix = opendata_line['code']
-            error['label'] = "la relation n'a pas de tag ref. Valeur probable : " + fix
+            error['label'] = "Numéro de ligne (tag ref) manquant. Valeur probable : " + fix
             error['lat'], error['lon'] = an_osm_line['latitude'], an_osm_line['longitude']
             error['fix'] = [{"key": "ref", "value": fix}]
             errors.append(error)
@@ -112,48 +106,7 @@ def get_errors(osm_lines, opendata_lines, stats, line_coords):
 
     return errors
 
-
-def create_osmose_xml(errors):
-    with open('osmose_issues_template.xml', 'r') as f:
-        doc = xmltodict.parse(f.read())
-
-    now = datetime.datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ')
-    doc['analysers']['@timestamp'] = now
-    doc['analysers']['analyser']['@timestamp'] = now
-    doc['analysers']['analyser']['class']['@item'] = "8042"
-    doc['analysers']['analyser']['class']['@tag'] = "transport en commun"
-    doc['analysers']['analyser']['class']['@id'] = "1"
-    doc['analysers']['analyser']['class']['@level'] = "3"
-    doc['analysers']['analyser']['class']['classtext']['@lang'] = "fr"
-    doc['analysers']['analyser']['class']['classtext'][
-        '@title'] = "tag manquant sur une relation route_master (ligne de transport en commun)"
-
-    for error in errors:
-        current_osmose_error = deepcopy(
-            doc['analysers']['analyser']['error'][0])
-        current_osmose_error['relation']['@id'] = error['id']
-        current_osmose_error['location']['@lat'] = error['lat']
-        current_osmose_error['location']['@lon'] = error['lon']
-        current_osmose_error['text']['@lang'] = "fr"
-        current_osmose_error['text']['@value'] = error['label']
-        current_osmose_error['fixes']['fix']['relation']['@id'] = error['id']
-        if 'fix' in error:
-            current_osmose_error['fixes']['fix']['relation']['tag']['@k'] = error['fix'][0]['key'] if 'key' in error['fix'][0] else ''
-            current_osmose_error['fixes']['fix']['relation']['tag']['@v'] = error['fix'][0]['value'] if 'key' in error['fix'][0] else ''
-        else:
-            del current_osmose_error['fixes']
-
-        doc['analysers']['analyser']['error'].append(current_osmose_error)
-
-    # remove the template errors
-    del doc['analysers']['analyser']['error'][0]
-    del doc['analysers']['analyser']['error'][0]
-
-    return xmltodict.unparse(doc, pretty=True)
-
-
-
-if __name__ == '__main__':
+def generate_osmose_errors_for_lines():
     osm_lines = get_lines_from_csv('../data/lignes.csv')
     opendata_lines = get_lines_from_csv('../data/gtfs_routes.txt')
     osm_line_coords = get_lines_from_csv('../data/osmose_relations_with_coord.csv')
@@ -163,9 +116,9 @@ if __name__ == '__main__':
     #print(get_most_common_value(stats, "operator", "56"))
 
     errors = get_errors(osm_lines, opendata_lines, stats, osm_line_coords)
+    return errors
 
-    xml = create_osmose_xml(errors)
-    print("Il y a {} erreurs".format(len(errors)))
-
-    with open("../data/osmose_lines.xml", "w") as xml_out_file:
-        xml_out_file.write(xml)
+if __name__ == '__main__':
+    errors = generate_osmose_errors_for_lines()
+    for an_error in errors:
+        print(an_error)

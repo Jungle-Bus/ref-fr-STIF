@@ -35,6 +35,17 @@
                     "terminateJobWithSuccess": [],
                     "continueJob": [0]
                 }
+            },
+            {
+                "name": "osm - generate routepoints",
+                "executor": "shell",
+                "command": "cd data && ../audit_routepoints/prepare_osm_routepoints.sh",
+                "arguments": [],
+                "dependsOn": ["gtfs - generate routepoints"],
+                "onResult": {
+                    "terminateJobWithSuccess": [],
+                    "continueJob": [0]
+                }
             }
         ]
     }

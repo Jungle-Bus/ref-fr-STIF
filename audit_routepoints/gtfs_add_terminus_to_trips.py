@@ -7,7 +7,7 @@ if __name__ == "__main__":
         for row in reader:
             do_update = True
             if row["trip_id"] in trip_destinations:
-                if row["stop_sequence"] < trip_destinations[row["trip_id"]]["stop_sequence"]:
+                if int(row["stop_sequence"]) < int(trip_destinations[row["trip_id"]]["stop_sequence"]):
                     do_update = False
             if do_update:
                 trip_destinations[row["trip_id"]] = {

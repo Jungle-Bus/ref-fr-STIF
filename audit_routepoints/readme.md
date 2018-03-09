@@ -2,7 +2,7 @@
 
 :warning::construction: c'est pas fini ! :construction::warning:
 
-Afin de gommer les divergences de modélisation, au lieu de considérer des arrêts, on travaillera sur des routepoints.
+Afin de gommer les divergences de modélisation, au lieu de considérer des arrêts, on travaillera également sur des routepoints.
 
 Un routepoint est un object fictif qui représente un arrêt desservi par une ligne dans une direction.
 

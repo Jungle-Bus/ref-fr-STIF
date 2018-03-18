@@ -19,7 +19,7 @@ echo "stop_id,route_id,ZDEr_ID_REF_A,stop_name,stop_lat,stop_lon,wheelchair_boar
 tail -n +2 gtfs_audit_routepoints_4.csv >> gtfs_audit_gtfs_routepoints.csv
 
 echo "##### on affiche les informations sur la ligne #####"
-xsv join route_id gtfs_audit_gtfs_routepoints.csv route_id gtfs_routes.txt | xsv select stop_id,route_id,ZDEr_ID_REF_A,stop_name,stop_lat,stop_lon,wheelchair_boarding,dest_name,route_short_name,agency_id > gtfs_audit_routepoints_with_code.csv
+xsv join route_id gtfs_audit_gtfs_routepoints.csv route_id gtfs_routes.txt | xsv select stop_id,route_id,ZDEr_ID_REF_A,stop_name,stop_lat,stop_lon,wheelchair_boarding,dest_name,route_short_name,agency_id,route_type |xsv search -s route_type 3 |xsv select '!route_type' > gtfs_audit_routepoints_with_code.csv
 xsv join agency_id gtfs_audit_routepoints_with_code.csv agency_id gtfs_agency.txt | xsv select stop_id,route_id,ZDEr_ID_REF_A,stop_name,stop_lat,stop_lon,wheelchair_boarding,dest_name,route_short_name,agency_name > gtfs_routepoints.csv
 
 echo "##### on nettoie, on n'est pas des porcs ;) #####"

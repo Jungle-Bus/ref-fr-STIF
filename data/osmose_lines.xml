@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2018-03-16T08:00:20Z">
-	<analyser timestamp="2018-03-16T08:00:20Z">
+<analysers timestamp="2018-03-18T20:23:53Z">
+	<analyser timestamp="2018-03-18T20:23:53Z">
 		<class item="8042" tag="transport en commun" id="1" level="3">
 			<classtext lang="fr" title="tag manquant sur une relation route_master (ligne de transport en commun)"></classtext>
 		</class>
@@ -102,31 +102,12 @@
 		<error class="1">
 			<location lat="48.9954908" lon="2.1710068"></location>
 			<relation id="7823264"></relation>
-			<text lang="fr" value="Réseau de transport (tag network) manquant pour cette ligne. Valeur probable : Valoise"></text>
-			<fixes>
-				<fix>
-					<relation id="7823264">
-						<tag action="create" k="network" v="Valoise"></tag>
-					</relation>
-				</fix>
-			</fixes>
+			<text lang="fr" value="Réseau de transport (tag network) manquant pour cette ligne."></text>
 		</error>
 		<error class="1">
 			<location lat="48.5238915" lon="2.0053974"></location>
 			<relation id="7922051"></relation>
 			<text lang="fr" value="Il y a plusieurs lignes dans OSM qui ont ce même ref:FR:STIF:ExternalCode_Line (085085001:85-01)"></text>
-		</error>
-		<error class="1">
-			<location lat="49.173513" lon="2.0540377999999997"></location>
-			<relation id="7998730"></relation>
-			<text lang="fr" value="Opérateur (tag operator) manquant pour cette ligne. Valeur probable : Tim Bus"></text>
-			<fixes>
-				<fix>
-					<relation id="7998730">
-						<tag action="create" k="operator" v="Tim Bus"></tag>
-					</relation>
-				</fix>
-			</fixes>
 		</error>
 		<error class="1">
 			<location lat="48.562577" lon="2.249699"></location>

@@ -46,6 +46,17 @@
                     "terminateJobWithSuccess": [],
                     "continueJob": [0]
                 }
+            },
+            {
+                "name": "osm - duplicate routepoints with many ref",
+                "executor": "shell",
+                "command": "cd audit_routepoints && python3 osm_duplicate_if_has_multiple_ref.py",
+                "arguments": [],
+                "dependsOn": ["osm - generate routepoints"],
+                "onResult": {
+                    "terminateJobWithSuccess": [],
+                    "continueJob": [0]
+                }
             }
         ]
     }

@@ -1,5 +1,5 @@
 route_id,name,code,destination,network
-Route:Relation:69321,Bus 414D : Évry-Courcouronnes Centre → Parc de Tréville,414D,Parc de Tréville,Tice
+Route:Relation:69321,Bus 414D : Évry-Courcouronnes Centre → Vert-le-Grand,414D,Parc de Tréville,Tice
 Route:Relation:107353,Bus G'bus : Goussainville RER (Circulaire),G'bus,Goussainville RER,Les Courriers de l'Île-de-France
 Route:Relation:107355,Bus 30B : Circulaire de Goussainville,30B,Gare de Goussainville,Les Courriers de l'Île-de-France
 Route:Relation:107357,Bus 32A : Goussainville La Charmeuse - Aulnay-Sous-Bois Parinor,32A,Aulnay-Sous-Bois - Parinor Louis Armand,Les Courriers de l'Île-de-France
@@ -339,10 +339,10 @@ Route:Relation:1760445,Bus 06 : Dourdan → Limours,06,Limours,Dourdanais
 Route:Relation:1760446,Bus 306.04 : Dourdan → Mérobert,306-04,,Ormont Transport
 Route:Relation:1760447,Dourdan - Oysonville,86,,Transbeauce
 Route:Relation:1760448,Bus 22 : Dourdan → Paray Douaville,22,Corbreuse,Dourdanais
-Route:Relation:1760449,Bus 03 : Dourdan - Saint-Arnoult - Rambouillet,03,,Réseau Interurbain de Rambouillet
+Route:Relation:1760449,Bus 03 : Gare de Dourdan → Zone Industrielle,03,,Réseau Interurbain de Rambouillet
 Route:Relation:1760450,Bus 91-07 : Dourdan → Étampes,91-07,Étampes,TransEssonne
-Route:Relation:1760451,Bus 85.01 : Dourdan intra-muros,85.01,,Perron
-Route:Relation:1760452,Bus 29 : Rambouillet - Clairefontaine - Rochefort - Dourdan/Bullion - Bonelles,29,,Réseau Interurbain de Rambouillet
+Route:Relation:1760451,Bus 85.01 : Dourdan intra-muros (circuit 2),85-01,,Cars Perron
+Route:Relation:1760452,Bus 29 : Moutiers → Gare de Dourdan,29,,Réseau Interurbain de Rambouillet
 Route:Relation:1762127,Noctilien N61 : Gare Montparnasse → Clamart - Georges Pompidou,N61,Clamart - Georges Pompidou,Noctilien
 Route:Relation:1762128,Noctilien N61 : Clamart–Georges Pompidou → Gare Montparnasse,N61,Gare Montparnasse,Noctilien
 Route:Relation:1771179,Bus 467 : Rueil-Malmaison RER → Pont de Sèvres,467,Pont de Sèvres,RATP
@@ -368,7 +368,7 @@ Route:Relation:1978034,Bus 323 : Ivry–Gambetta → Issy–Val de Seine RER,323
 Route:Relation:1987578,Bus 289 : Porte de Saint-Cloud → Georges Pompidou (Clamart),289,Georges Pompidou (Clamart),RATP
 Route:Relation:1991745,Bus 162 : Villejuif–Louis Aragon → Meudon–Val Fleury RER,162,Meudon Val Fleury RER,RATP
 Route:Relation:2005096,Bus 196 : Massy–Palaiseau RER → Antony RER,196,Antony RER,RATP
-Route:Relation:2005241,Bus 85-01 : Dourdan intra-muros (circulaire),85-01,,Cars Perron
+Route:Relation:2005241,Bus 85-01 : Dourdan intra-muros (circuit 1),85-01,,Cars Perron
 Route:Relation:2045294,Bus v3 : Service de Cachan,v3,Mairie de Cachan,Valouette
 Route:Relation:2085721,Bus 360 : Hôpital de Garches → La Défense,360,La Défense,RATP
 Route:Relation:2087225,Bus 186 : Porte d'Italie → Fresnes–Rond-Point Roosevelt,186,Fresnes — Rond-Point Roosevelt,RATP
@@ -1029,7 +1029,7 @@ Route:Relation:6526973,Bus 486 : Porte de l'Essonne (Athis-Mons) → Marché de 
 Route:Relation:6530054,Bus 420 : Grigny - Centre RER → Gare RER d'Épinay-sur-Orge,420,Gare RER d'Épinay-sur-Orge,TICE
 Route:Relation:6547148,Bus 259 : Nanterre–Anatole France → Saint-Germain-en-Laye RER,259,,RATP
 Route:Relation:6547165,Bus 259 : Saint-Germain-en-Laye RER → Nanterre–Anatole France,259,,RATP
-Route:Relation:6575344,Bus 306.12 : Monnerville - Dourdan,306.12,,Ormont Transport
+Route:Relation:6575344,Bus 306.12 : Monnerville ↔ Dourdan,306.12,,Ormont Transport
 Route:Relation:6576530,Bus 330 : Brigeollet (Angerville) → Gare d'Étampes,330,Gare d'Étampes,Transdev CEAT
 Route:Relation:6576553,Bus 316 : Montreau → Etampes HLM Bas,316,,Étampois
 Route:Relation:6576641,Bus 317 : Saclas Terrasse → Etampes HLM Bas,317,,Étampois
@@ -1450,8 +1450,6 @@ Route:Relation:7781894,Bus 512 : Mairie d'Aubervilliers → Front Populaire-Gard
 Route:Relation:7781935,Bus: TillBus - Place du Vél' d'Hiv' (circulaire),515,,RATP
 Route:Relation:7782013,Bus 528 : Gare Saint-Lazare → Porte de Clichy,528,,RATP
 Route:Relation:7782018,Bus 528 : Porte de Clichy → Gare Saint-Lazare,528,,RATP
-Route:Relation:7782310,Bus 333 : Garges-Sarcelles RER → Garges L'Argentière,333,,RATP
-Route:Relation:7782315,Bus 333 : Garges L'Argentière → Garges-Sarcelles RER,333,,RATP
 Route:Relation:7783229,Bus 340 : Gare d'Argenteuil → Asnières-Gennevilliers-Les Courtilles → Clichy-Berges de Seine,340,Clichy - Berges de Seine,RATP
 Route:Relation:7783241,Bus 340 : Clichy-Berges de Seine → Asnières-Gennevilliers-Les Courtilles → Gare d'Argenteuil,340,Gare d'Argentueil,RATP
 Route:Relation:7783250,Bus 349 : Parc des Expositions RER → Route de l'Arpenteur-ADP,349,,RATP
@@ -1495,7 +1493,6 @@ Route:Relation:7803141,Bus 545 : Louise Michel → Noisy-le-Sec RER,545,,RATP
 Route:Relation:7803142,Bus 545 : Noisy-le-Sec RER → Louise Michel,545,,RATP
 Route:Relation:7804633,Bus DM17B : Gare d'Epinay-sur-Orge → Nozay Villarceaux,DM17B,,Transports Daniel Meyer
 Route:Relation:7804634,Bus DM11 C : Marcoussis → Gare de Massy-Palaiseau,DM11 C,Gare de Massy-Palaiseau,Daniel Meyer
-Route:Relation:7804778,Bus 551 : Stade Charles Sage (circulaire),551,,RATP
 Route:Relation:7804788,Bus 556 : Aubépines → Zone Artisanale du Moutier,556,,RATP
 Route:Relation:7804789,Bus 556 : Zone Artisanale du Moutier → Aubépines,556,,RATP
 Route:Relation:7804858,Bus v4 : Hôtel de Ville – Centre (circulaire),v4,,Valouette
@@ -1573,11 +1570,11 @@ Route:Relation:7893254,Bus 17A via Gaillon : Conflans Fin d'Oise RER (circulaire
 Route:Relation:7893267,Bus 17A week-end : Conflans Fin d'Oise RER (circulaire intérieur),17A,,Conflans Achères
 Route:Relation:7893415,Bus 17B week-end : Conflans Fin d'Oise RER (circulaire extérieur),17B,,Conflans Achères
 Route:Relation:7894718,BeauvaisBus,,,BeauvaisBus
-Route:Relation:7895696,Bus 559d : Place Foch ↔ Chemin de l'Île,559d,,RATP
-Route:Relation:7895697,Bus 559c : Gabriel Péri ↔ Soufflot,559c,,RATP
-Route:Relation:7895698,Bus 559b : Gabriel Péri ↔ Suresnes,559b,,RATP
-Route:Relation:7895699,Bus 559a : Gabriel Péri ↔ Garches,559a,,RATP
-Route:Relation:7895823,Bus 16 : Conflans-Sainte-Honorine - Conflans Fin d'Oise ↔ Andrésy - Les Charvaux,16,,Transdev Conflans
+Route:Relation:7895696,Bus 559d : Place Foch → Chemin de l'Île,559d,,RATP
+Route:Relation:7895697,Bus 559c : Gabriel Péri → Soufflot,559c,,RATP
+Route:Relation:7895698,Bus 559b : Gabriel Péri → Suresnes,559b,,RATP
+Route:Relation:7895699,Bus 559a : Gabriel Péri → Garches,559a,,RATP
+Route:Relation:7895823,Bus 16 : Conflans-Sainte-Honorine - Conflans Fin d'Oise → Andrésy - Les Charvaux,16,,CSO
 Route:Relation:7896604,Bus Ligne Rouge : Droits de l'Homme → Place de la Boule - Gambetta,LIGNE-R,,RATP
 Route:Relation:7896636,Bus Ligne Bleue : Chemin de l'île → Cimetière du Mont Valérien,LIGNE-B,,RATP
 Route:Relation:7897947,Bus 579 : ClamiBus : Maison de Quartier André Charré → Gare de Clamart,579,,RATP
@@ -1627,14 +1624,14 @@ Route:Relation:7991715,Bus C : Pontault-Combault - Centre Commercial → Noisiel
 Route:Relation:7991716,Bus A : Gare d'Ozoir-la-Ferrière → Pontault-Combault - Centre Commercial,A,Centre Commercial (Pontault-Combault),Sit'Bus
 Route:Relation:7991717,Bus D : Pontault RER → Renardière - Delacroix,D,,Sit'Bus
 Route:Relation:8002375,Bus 441 : Trou Berger → Le Clos Breton,441,Le Clos Breton,SQYBus
-Route:Relation:8014933,Bus 14 : Ermont Eaubonne Gare RER ↔ Enghien Albert 1er Gare,14,,Transdev TVO
+Route:Relation:8014933,Bus 14 : Ermont Eaubonne Gare RER → Enghien Albert 1er Gare,14,,Valmy
 Route:Relation:8015962,Bus 38-01 : Ermont Eaubonne Gare RER ↔ Montlignon Mairie,38-01,,Transdev Cars Rose
 Route:Relation:8016022,Bus 38-01 : Ermont Eaubonne Gare RER ↔ Montlignon Mairie,38-01,,Transdev Cars Rose
 Route:Relation:8021830,Bus 38-03 : Ermont Gros Noyer Gare ↔ Saint-Prix Léon Cordier,38-03,,Transdev Cars Rose
 Route:Relation:8032392,Bus 36-12 après-midi : Gare de La Verrière → Gare de La Verrière,36-12,Gare de La Verrière,SQYBus
 Route:Relation:8035138,Bus 38-04 : Ermont Eaubonne Gare RER ↔ Rue de Saint-Prix,38-04,,Valbus
 Route:Relation:8036798,Bus 465 : Saint-Quentin-en-Yvelines Gare RER → Guyancourt Villaroy,465,,SQYBUS
-Route:Relation:8039529,Bus 30-14 : Franconville Gare ↔ Saint-Leu la Forêt Gare,30-14,,
+Route:Relation:8039529,Bus 30-14 : Franconville Gare → Saint-Leu la Forêt Gare,30-14,,Parisis
 Route:Relation:8039574,Bus 151 : Porte de Pantin → Bondy–Jouhaux–Blum (dimanche matin),151,Bondy - Jouhaux–Blum,RATP
 Route:Relation:8042600,Bus 12 : Verneuil Gare SNCF → Cergy-Préfecture RER,12,Gare de Cergy-Préfecture,Poissy Aval - Deux Rives de Seine
 Route:Relation:8042812,Bus 152 : Le Blanc-Mesnil–ZA du Pont Yblon / Gonesse–ZAC des Tulipes Nord → Porte de la Villette,152,Porte de la Villette,RATP
@@ -1685,14 +1682,11 @@ Route:Relation:8076958,Bus 33 : Gare de Pontoise → Gare de Neuville Universit�
 Route:Relation:8076960,Bus 33 : Gare de Neuville Université → Gare de Pontoise,33,Pontoise Gare,STIVO
 Route:Relation:8077086,Bus 55 : Gare de Conflans-Sainte-Honorine → Gare de Liesse Saint-Ouen-L’Aumône,55,Gare de Liesse Saint-Ouen-L’Aumône,STIVO
 Route:Relation:8077087,Bus 55 : Gare de Liesse Saint-Ouen-L’Aumône → Gare de Conflans-Sainte-Honorine,55,Gare de Conflans-Sainte-Honorine,STIVO
-Route:Relation:8077325,Bus 12 : Ermont Eaubonne Gare RER ↔ Montmorency La chênée,,,
+Route:Relation:8077325,Bus 12 : Ermont Eaubonne Gare RER → Montmorency La Chênée,,,Valmy
 Route:Relation:8085721,Bus A : Satory → Hôpital André Mignot,A,Hôpital André Mignot,Phébus
-Route:Relation:8086899,Bus 30-21 : Gare de Cormeilles en Parisis (Boucles),30-21,,Val Parisis
 Route:Relation:8087922,Bus A : Hôpital André Mignot → Satory,A,,Phébus
-Route:Relation:8088174,Bus G : GARE DE VERSAILLES CHANTIERS → Pershing,G,,Phébus
-Route:Relation:8088220,Bus H : GARE DE VERSAILLES CHATEAU / RIVE GAUCHE →GARE DE LA CELLE ST CLOUD,H,,Phébus
-Route:Relation:8088249,Bus Hex : GARE DE VERSAILLES CHANTIERS → GARE DE LA CELLE ST CLOUD,Hex,,Phébus
-Route:Relation:8088262,Bus Tex : GARE DE VERSAILLES CHANTIERS → Centre Commercial Parly 2,Tex,,Phébus
+Route:Relation:8088249,Bus Hex : La Celle Saint-Cloud Gare → Gare de Versailles Chantiers,Hex,,Phébus
+Route:Relation:8088262,Bus Tex : Centre Commercial Parly 2 → Gare de Versailles Chantiers,Tex,,Phébus
 Route:Relation:8092256,Bus 35 : Gare de Marne-La-Vallée Chessy → Gare de Marne-La-Vallée Chessy,35,Gare de Marne-La-Vallée Chessy,Pep's
 Route:Relation:8092296,Bus 47 : Villages Nature → Gare de Marne-la-Vallée Chessy,47,Gare de Marne-la-Vallée Chessy,Pep's
 Route:Relation:8092297,Bus 47 : Gare de Marne-la-Vallée Chessy → Villages Nature,47,Villages Nature,Pep's
@@ -1825,17 +1819,14 @@ Route:Relation:8123035,Bus 1 : Gare de Sartrouville → Gare d'Argenteuil,1,,R'b
 Route:Relation:8123036,Bus 44 : Bois-le-Roi — Gare de Bois-le-Roi → Les Écrennes — Salle Polyvalente,44,,Le Châtelet-en-Brie - Pays de Seine
 Route:Relation:8123037,Bus Jd : Melun — Gare Routière Mail → Seine-Port — Sainte-Assise,Jd,,MELIBUS
 Route:Relation:8123038,Bus J : Melun — Gare Routière Mail → Boissise-la-Bertrand — Beaulieu,J,,MELIBUS
-Route:Relation:8123039,Bus L : Gare de Melun → Place des 3 Horloges,L,,MELIBUS
 Route:Relation:8123040,Bus R4 : Collège → Gare RER A,R4,,Résalys
 Route:Relation:8123042,Bus E : Dammarie-les-Lys — Chamlys → Melun — C.C. de l'Almont,E,,MELIBUS
 Route:Relation:8123043,Bus M : Vaux-le-Pénil — Grouette → Melun — Gare de Melun,M,,MELIBUS
 Route:Relation:8123044,Bus F : La Rochette — Rocheton Stade → Le Mée-sur-Seine — Le Mée Gare,F,,MELIBUS
 Route:Relation:8123045,Bus A : Boissise-le-Roi — Gare de Boissise → Rubelles — C.C. Rubelles,A,,MELIBUS
-Route:Relation:8123046,Bus D : Place des 3 Horloges → Gare de Melun,D,,MELIBUS
 Route:Relation:8123047,Bus 913.10 : Lycée Nelson Mandela → Aubray,913.10,,Ormont Transport
 Route:Relation:8123048,Bus 33 (CBA) : Bièvres RER C → Gare Chaville Rive Droite,33,,Phébus
 Route:Relation:8123049,Bus 32 (CVJ) : Gare de Jouy en Josas → Gare Chaville Rive Droite,32 (CVJ),,Phébus
-Route:Relation:8123051,Bus 441 : Trou Berger → Le Clos Breton,441,Le Clos Breton,SQYBus
 Route:Relation:8123052,Bus 39-17 : La Verrière → Saint-Rémy-lès-Chevreuse,39-17,,SAVAC
 Route:Relation:8123053,Bus 565 : Mairie de Rueil → Eglise de Buzenval,565,,RATP
 Route:Relation:8123054,Bus 17 : Gare de La-Celle-Saint-Cloud → Gare de Chatou-Croissy,17,,Bus en Seine
@@ -1855,3 +1846,25 @@ Route:Relation:8123067,Bus R8 : Croix de la Chaise → Goussainville RER D,R8,,C
 Route:Relation:8123131,Bus 320 : circulaire extérieure de Noisy-le-Grand - Mont d'Est RER,320,Noisy-le-Grand - Mont d'Est RER,RATP
 Route:Relation:8124025,Bus 34 : Gare de Melun → Piscine (Egreville),34,,Seine-et-Marne Express
 Route:Relation:8124026,Bus 34 : Piscine (Egreville) → Gare de Melun,34,,Seine-et-Marne Express
+Route:Relation:8130074,Bus 30-21 : Gare de Cormeilles en Parisis (circuit est),30-21,,Val Parisis
+Route:Relation:8130077,Bus 30-21 : Gare de Cormeilles en Parisis (circuit ouest),30-21,,Val Parisis
+Route:Relation:8130194,Bus 03 : Zone Industrielle → Gare de Dourdan,03,,Réseau Interurbain de Rambouillet
+Route:Relation:8130219,Bus 29 : Gare de Dourdan → Moutiers,29,,Réseau Interurbain de Rambouillet
+Route:Relation:8130789,Bus 559d : Chemin de l'Île → Place Foch,559d,,RATP
+Route:Relation:8130790,Bus 559c : Soufflot → Gabriel Péri,559c,,RATP
+Route:Relation:8130791,Bus 559b : Suresnes → Gabriel Péri,559b,,RATP
+Route:Relation:8130792,Bus 559a : Garches → Gabriel Péri,559a,,RATP
+Route:Relation:8131209,Bus G : Gare des Versailles Chantiers → Pershing,G,,Phébus
+Route:Relation:8131210,Bus G : Pershing → Gare des Versailles Chantiers,G,,Phébus
+Route:Relation:8131558,Bus 414 : Le Plessis-Pâté → Évry-Courcouronnes Centre,414,Parc de Tréville,Tice
+Route:Relation:8131559,Bus 414 : Évry-Courcouronnes Centre → Le Plessis-Pâté,414,Parc de Tréville,Tice
+Route:Relation:8131560,Bus 414D : Vert-le-Grand → Évry-Courcouronnes Centre,414D,Parc de Tréville,Tice
+Route:Relation:8132307,Bus Hex : Gare de Versailles Chantiers → La Celle Saint-Cloud Gare,Hex,,Phébus
+Route:Relation:8132308,Bus Tex : Gare de Versailles Chantiers → Centre Commercial Parly 2,Tex,,Phébus
+Route:Relation:8132351,Bus 202 : Mairie de Villemaréchal → Stade (Fontainebleau),202,Stade (Fontainebleau),Comète
+Route:Relation:8132374,Bus 211 : Collège Sisley → La Roche du Sault (Villecerf),211,La Roche du Sault (Villecerf),Comète
+Route:Relation:8132389,Bus 465 : Guyancourt Villaroy → Saint-Quentin-en-Yvelines Gare RER,465,,SQYBUS
+Route:Relation:8132410,Bus 16 : Andrésy - Les Charvaux → Conflans-Sainte-Honorine - Conflans Fin d'Oise,16,,CSO
+Route:Relation:8132424,Bus 12 : Montmorency La Chênée → Ermont Eaubonne Gare RER,,,Valmy
+Route:Relation:8132453,Bus 14 : Enghien Albert 1er Gare → Ermont Eaubonne Gare RER,14,,Valmy
+Route:Relation:8132465,Bus 30-14 : Saint-Leu la Forêt Gare → Franconville Gare,30-14,,Parisis

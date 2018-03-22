@@ -90,7 +90,7 @@ def get_errors(osm_lines, opendata_lines, stats, line_coords):
 
         if not an_osm_line['code']:
             error = {"id": an_osm_line['osm_id']}
-            fix = opendata_line['code']
+            fix = opendata_line['route_short_name']
             error['label'] = "Numéro de ligne (tag ref) manquant. Valeur probable : " + fix
             error['lat'], error['lon'] = an_osm_line['latitude'], an_osm_line['longitude']
             error['fix'] = [{"key": "ref", "value": fix}]

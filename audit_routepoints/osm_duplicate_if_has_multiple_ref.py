@@ -9,6 +9,7 @@ if __name__ == "__main__":
                 continue
             if not ";" in row['osm:ref:FR:STIF']:
                 new_rp.append(dict(row))
+                continue
             refs = row['osm:ref:FR:STIF'].split(';')
 
             for ref in refs :

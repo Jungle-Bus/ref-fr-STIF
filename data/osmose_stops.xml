@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2018-04-23T08:21:51Z">
-	<analyser timestamp="2018-04-23T08:21:51Z">
+<analysers timestamp="2018-05-13T18:23:14Z">
+	<analyser timestamp="2018-05-13T18:23:14Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag obsolète sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -197,7 +197,7 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.855761099999995" lon="2.3463229"></location>
+			<location lat="48.855733699999995" lon="2.3463396999999997"></location>
 			<node id="831428176"></node>
 			<text lang="fr" value="La ref:FR:STIF 22644 n'existe pas ou plus"></text>
 			<fixes>
@@ -233,18 +233,6 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.8808347" lon="2.3579388"></location>
-			<node id="884493081"></node>
-			<text lang="fr" value="La ref:FR:STIF 17567 n'existe pas ou plus"></text>
-			<fixes>
-				<fix>
-					<node id="884493081">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
 			<location lat="48.8227571" lon="2.5505228"></location>
 			<node id="914762435"></node>
 			<text lang="fr" value="La ref:FR:STIF 41424 n'existe pas ou plus"></text>
@@ -257,7 +245,7 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.808090199999995" lon="2.3329491"></location>
+			<location lat="48.8080831" lon="2.3329598"></location>
 			<node id="922779440"></node>
 			<text lang="fr" value="La ref:FR:STIF 26869 n'existe pas ou plus"></text>
 			<fixes>
@@ -1097,7 +1085,7 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.8569083" lon="2.3479776"></location>
+			<location lat="48.8569092" lon="2.347991"></location>
 			<node id="2079093349"></node>
 			<text lang="fr" value="La ref:FR:STIF 423997 n'existe pas ou plus. Voir sur https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=2079093349"></text>
 			<fixes>
@@ -1385,7 +1373,7 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.8833846" lon="2.4407628"></location>
+			<location lat="48.8835822" lon="2.4404707"></location>
 			<node id="2873459066"></node>
 			<text lang="fr" value="La ref:FR:STIF 26385 n'existe pas ou plus"></text>
 			<fixes>
@@ -1541,18 +1529,6 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.7802358" lon="2.3132934"></location>
-			<node id="3567243701"></node>
-			<text lang="fr" value="La ref:FR:STIF 40167 n'existe pas ou plus"></text>
-			<fixes>
-				<fix>
-					<node id="3567243701">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
 			<location lat="48.837253399999994" lon="2.3741404999999998"></location>
 			<node id="3738116453"></node>
 			<text lang="fr" value="La ref:FR:STIF 41412 n'existe pas ou plus. Voir sur https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=3738116453"></text>
@@ -1679,18 +1655,6 @@
 			<fixes>
 				<fix>
 					<node id="3901878683">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.883587" lon="2.440467"></location>
-			<node id="3903357230"></node>
-			<text lang="fr" value="La ref:FR:STIF 26385 n'existe pas ou plus"></text>
-			<fixes>
-				<fix>
-					<node id="3903357230">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>
@@ -1925,7 +1889,19 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.8344479" lon="2.7165055"></location>
+			<location lat="48.983365199999994" lon="2.8552792"></location>
+			<node id="4325994665"></node>
+			<text lang="fr" value="La ref:FR:STIF  40305 n'existe pas ou plus. Voir sur https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=4325994665"></text>
+			<fixes>
+				<fix>
+					<node id="4325994665">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.834428499999994" lon="2.7163337999999997"></location>
 			<node id="4326511218"></node>
 			<text lang="fr" value="La ref:FR:STIF 35862 n'existe pas ou plus"></text>
 			<fixes>
@@ -2069,6 +2045,30 @@
 			</fixes>
 		</error>
 		<error class="2">
+			<location lat="48.873570099999995" lon="1.8806098999999998"></location>
+			<node id="4590664335"></node>
+			<text lang="fr" value="La ref:FR:STIF 5635 n'existe pas ou plus. Voir sur https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=4590664335"></text>
+			<fixes>
+				<fix>
+					<node id="4590664335">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.8611271" lon="1.8737222"></location>
+			<node id="4590664340"></node>
+			<text lang="fr" value="La ref:FR:STIF 29128 n'existe pas ou plus"></text>
+			<fixes>
+				<fix>
+					<node id="4590664340">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
 			<location lat="48.8438842" lon="1.8360473"></location>
 			<node id="4590664346"></node>
 			<text lang="fr" value="La ref:FR:STIF  35767 n'existe pas ou plus. Voir sur https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=4590664346"></text>
@@ -2141,7 +2141,7 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.786922999999994" lon="2.1056999999999997"></location>
+			<location lat="48.7869057" lon="2.105743"></location>
 			<node id="4597112996"></node>
 			<text lang="fr" value="La ref:FR:STIF 420378 n'existe pas ou plus"></text>
 			<fixes>
@@ -2219,6 +2219,30 @@
 			<fixes>
 				<fix>
 					<node id="4685724551">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="49.0771683" lon="2.784055"></location>
+			<node id="4715318786"></node>
+			<text lang="fr" value="La ref:FR:STIF 423757 n'existe pas ou plus"></text>
+			<fixes>
+				<fix>
+					<node id="4715318786">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="49.0771644" lon="2.7842279999999997"></location>
+			<node id="4715318787"></node>
+			<text lang="fr" value="La ref:FR:STIF 40316 n'existe pas ou plus"></text>
+			<fixes>
+				<fix>
+					<node id="4715318787">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>
@@ -2597,24 +2621,12 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.782282099999996" lon="2.0544358"></location>
-			<node id="5462090124"></node>
+			<location lat="48.7822817" lon="2.0544417999999998"></location>
+			<node id="5587024771"></node>
 			<text lang="fr" value="La ref:FR:STIF 29143 n'existe pas ou plus"></text>
 			<fixes>
 				<fix>
-					<node id="5462090124">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.7796661" lon="2.3154565"></location>
-			<node id="5471115173"></node>
-			<text lang="fr" value="La ref:FR:STIF 40166 n'existe pas ou plus"></text>
-			<fixes>
-				<fix>
-					<node id="5471115173">
+					<node id="5587024771">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

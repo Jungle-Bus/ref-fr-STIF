@@ -43,11 +43,21 @@
                 "continueJob": [0]
             }
         }, {
+            "name": "calcul des routepoints",
+            "executor": "shell",
+            "command": "factotum run audit_routepoints/audit_routepoints.factfile",
+            "arguments": [],
+            "dependsOn": ["téléchargement des données opendata", "mise à jour ref-lignes-STIF"],
+            "onResult": {
+                "terminateJobWithSuccess": [],
+                "continueJob": [0]
+            }
+        }, {
             "name": "mise à jour Osmose",
             "executor": "shell",
             "command": "factotum run osmose/osmose.factfile",
             "arguments": [],
-            "dependsOn": ["téléchargement des données opendata", "mise à jour ref-lignes-STIF"],
+            "dependsOn": ["calcul des routepoints"],
             "onResult": {
                 "terminateJobWithSuccess": [],
                 "continueJob": [0]

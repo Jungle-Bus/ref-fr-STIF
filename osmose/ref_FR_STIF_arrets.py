@@ -42,6 +42,42 @@ def generate_osmose_errors_for_stops():
 
     return errors
 
+def generate_osmose_errors_for_routepoints():
+    errors = []
+    all_ref_STIF = {}
+    with open('../data/opendata_routepoints.csv', 'r') as f:
+        reader = csv.DictReader(f)
+        for row in reader :
+            all_ref_STIF.setdefault(row["ZDEr_ID_REF_A"],set()).add(row["route_id"])
+
+    ref_STIF_list = all_ref_STIF.keys()
+
+    with open('../data/osm_routepoints.csv', 'r') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            error = {"id" : row['stop_id'].split(':')[-1] }
+            if not row['osm:ref:FR:STIF']:
+                continue
+            osm_ref = row['osm:ref:FR:STIF']
+            all_osm_ref = osm_ref.split(';')
+            lines_ok_for_this_ref = [all_ref_STIF[a_ref] for a_ref in all_osm_ref if a_ref in ref_STIF_list]
+            flat_list_lines_ok = [item for sublist in lines_ok_for_this_ref for item in sublist]
+            if not flat_list_lines_ok :
+                continue
+
+            osm_line_ref = row['osm:ref:FR:STIF:ExternalCode_Line']
+            if osm_line_ref not in flat_list_lines_ok:
+                label = "Pour cet arrêt de ref:FR:STIF {} l'association avec la ligne {} est à vérifier".format(osm_ref, osm_line_ref)
+                label += " https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id={}".format(error['id'])
+                error['label'] = label
+                error['ref:FR:STIF'] = osm_ref
+                error['lat'], error['lon'] = row['lat'], row['lon']
+                errors.append(error)
+    return errors
 
 if __name__ == '__main__':
-    generate_osmose_errors_for_stops()
+    stop_errors = generate_osmose_errors_for_stops()
+    print("Il y a {} erreurs sur les arrêts".format(len(stop_errors)))
+
+    routepoints_errors = generate_osmose_errors_for_routepoints()
+    print("Il y a {} erreurs sur les arrêts".format(len(routepoints_errors)))

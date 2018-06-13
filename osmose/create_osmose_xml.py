@@ -88,7 +88,10 @@ if __name__ == '__main__':
     stop_errors = ref_FR_STIF_arrets.generate_osmose_errors_for_stops()
     print("Il y a {} erreurs sur les arrêts".format(len(stop_errors)))
 
-    xml = create_osmose_xml_stops(stop_errors)
+    routepoints_errors = ref_FR_STIF_arrets.generate_osmose_errors_for_routepoints()
+    print("Il y a {} erreurs sur les routepoints".format(len(routepoints_errors)))
+
+    xml = create_osmose_xml_stops(stop_errors + routepoints_errors)
     with open("../data/osmose_stops.xml", "w") as xml_out_file:
         xml_out_file.write(xml)
 

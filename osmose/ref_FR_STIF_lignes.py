@@ -119,6 +119,23 @@ def generate_osmose_errors_for_lines():
     return errors
 
 if __name__ == '__main__':
-    errors = generate_osmose_errors_for_lines()
-    for an_error in errors:
-        print(an_error)
+    # errors = generate_osmose_errors_for_lines()
+    # for an_error in errors:
+    #     print(an_error)
+    osm_lines = get_lines_from_csv('../data/lignes.csv')
+    opendata_lines = get_lines_from_csv('../data/gtfs_routes.txt')
+    osm_line_coords = get_lines_from_csv('../data/osmose_relations_with_coord.csv')
+
+    stats = extract_common_values_by_networks(osm_lines, opendata_lines)
+    #print(get_most_common_value(stats, "network", "56"))
+    for a_stat in stats['networks']:
+        #print(stats['networks'][a_stat])
+        all_networks = list(set(stats['networks'][a_stat]))
+        if len(all_networks) == 0:
+            print("pas trouvé - " + a_stat)
+        if len(all_networks) > 1:
+            print("plusieurs solutions pour " + a_stat)
+            print(all_networks)
+#TODO faire une simple sortie CSV : agency_id, blabla
+# puis faire un join sur agency.txt pour avoir le nom STIF et le problème à investiguer dans OSM en face
+# voir si ça se fait de faire un lien vers vianavigo en utilisant le ref:FR:STIF sur la ligne

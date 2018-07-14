@@ -236,7 +236,7 @@ Line:Relation:3328717,9,Métro 9,RATP,RATP,#CDC83F,route_master,subway,100110009
 Line:Relation:3328741,10,Métro 10,RATP,RATP,#DFB039,route_master,subway,100110010:10
 Line:Relation:3328765,6,Métro 6,RATP,RATP,#75c695,route_master,subway,100110006:6
 Line:Relation:3328805,7,Métro 7,RATP,RATP,#FA9ABA,route_master,subway,100110007:7
-Line:Relation:3334641,131,Bus 131 : Porte d'Italie ↔ Rungis - La Fraternelle RER,RATP,RATP,#8D653A,route_master,bus,100100131:131
+Line:Relation:3334641,131,Bus 131 : Porte d'Italie ↔ Rungis-La Fraternelle RER / Porte d'Italie ↔ Mairie de Chevilly Larue-Théâtre,RATP,RATP,#8D653A,route_master,bus,100100131:131
 Line:Relation:3336398,214,Bus 214 : Neuilly-Plaisance RER ↔ Gagny - Roger Salengro,RATP,RATP,#C9A3CD,route_master,bus,100100214:214
 Line:Relation:3349465,334,Bus 334 : Les Pavillons-sous-Bois - Robert Schuman (circulaire),RATP,RATP,#FFCD01,route_master,bus,100100334:334
 Line:Relation:3389342,TUVIM,Bus TUVIM,RATP,RATP,,route_master,bus,100100589:TUVIM
@@ -384,7 +384,7 @@ Line:Relation:6785331,4,Bus 4 : Gare RER ↔ ZI Croix Blanche,Génovébus,Transd
 Line:Relation:6785380,108,Bus 108 : ZI Croix Blanche (Sainte-Geneviève des Bois) ↔ Porte d'Orléans (Paris),CEAT Val d'Orge,Transdev CEAT,#40E600,route_master,bus,010010007:108
 Line:Relation:6785512,402,Bus 402 : Terminal David Douillet (Le Coudray-Montceaux) ↔ La Treille (Viry-Châtillon),TICE,TICE,,route_master,bus,400400402:402
 Line:Relation:6785602,420,Bus 420 : Grigny - Centre RER ↔ Gare RER d'Épinay-sur-Orge,TICE,TICE,#046376,route_master,bus,400400420:420
-Line:Relation:6789691,N21,Noctilien N21 : Châtelet ↔ Chilly-Mazarin,Noctilien,RATP,#77C695,route_master,bus,100987760:N21
+Line:Relation:6789691,N21,Noctilien N21 : Châtelet ↔ Hôpital de Longjumeau,Noctilien,RATP,#77C695,route_master,bus,100987760:N21
 Line:Relation:6795568,T1,Tram 1 : Les Courtilles (Asnières – Gennevilliers) ↔ Gare de Noisy-le-Sec,RATP,RATP,#216EB4,route_master,tram,100112011:T1
 Line:Relation:6795574,208b,Bus 208b : Champigny–Saint-Maur RER ↔ Place de Verdun (Le Plessis-Trévise),RATP,RATP,#B43C95,route_master,bus,100100208:208B
 Line:Relation:6795575,208a,Bus 208a : Champigny–Place de la Résistance ↔ Champigny–Saint-Maur RER,RATP,RATP,#B43C95,route_master,bus,100100208:208A
@@ -404,7 +404,7 @@ Line:Relation:6860109,H,Bus H : Gare de Villeneuve-Saint-Georges ↔ Gare de Vil
 Line:Relation:6860181,E,Bus E : Centre Hospitalier de Villeneuve-Saint-Georges ↔ Gare de Montgeron,VyBus,Transdev STRAV,,route_master,bus,045045006:E
 Line:Relation:6860541,DM11C,Bus DM11C : Gare de Massy-Palaiseau ↔ Laboratoires (Marcoussis),Transports Daniel Meyer,Daniel Meyer,#ffda05,route_master,bus,055055025:DM11C
 Line:Relation:6860557,216,Bus 216 : Denfert-Rochereau ↔ Marché International de Rungis,RATP,RATP,#ed1b2a,route_master,bus,100100216:216
-Line:Relation:6860704,Tvm,Bus Tvm : La Croix de Berny RER ↔ Saint-Maur - Créteil RER,RATP,RATP,#006DB7,route_master,bus,100100014:TVM
+Line:Relation:6860704,Tvm,Bus Tvm : Antony-La Croix de Berny RER ↔ Saint-Maur - Créteil RER,RATP,RATP,#006DB7,route_master,bus,100100014:TVM
 Line:Relation:6867541,191.100,Bus Express 191.100 : Gare de Yerres ↔ M.I.N. (Chevilly-Larue - Rungis),Keolis Orly Rungis,Keolis Orly Rungis,,route_master,bus,287191100:191-100
 Line:Relation:6867574,91.09,Bus Express 91.09 : Gare Routière de Yerres ↔ Gare Routière d'Évry,TransEssonne,Albatrans,,route_master,bus,291191009:91-09
 Line:Relation:6880011,95-04,Bus 95-04 : Bray et Lû ↔ Pontoise,Bus Val d'Oise,Tim Bus,#1AC7FF,route_master,bus,251195004:95-04
@@ -1068,3 +1068,6 @@ Line:Relation:8436111,GHP,Bus GHP : Gare de Jouy ↔ Campus HEC ↔ Val d'Albian
 Line:Relation:8444577,21M,Bus 21M : Gare du Vésinet - Le Pecq (circulaire),Entre Seine et Forêt,Transdev Île-de-France Montesson Les Rabaux,,route_master,bus,012012021:21M
 Line:Relation:8444603,47,Bus 47 : Gare de Provins ↔ Gare de Melun,Seine-et-Marne Express,Procars,,route_master,bus,228177047:47
 Line:Relation:8444694,PROBUSC,Bus C : Gare de Provins (circulaire),Probus,Procars,,route_master,bus,228771009:PROBUSC
+Line:Relation:8444973,,,,,,route_master,bus,
+Line:Relation:8444974,,Navette A : Circulaire de Longjumeau,,,,route_master,bus,
+Line:Relation:8446805,,Bus DM09 : Château d'Eau (Linas) ↔ Gare de St-Michel-sur-Orge,,,,route_master,bus,

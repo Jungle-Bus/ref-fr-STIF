@@ -630,7 +630,7 @@ Line:Relation:7517252,S6,Bus S6 : Lycée les Pierres Vives ↔ Martyrs (Houilles
 Line:Relation:7517253,K,Bus K : Gare de Houilles Carrières-sur-Seine (circulaire),Bus en Seine,Transdev Île-de-France Montesson La Boucle,,route_master,bus,019248010:K
 Line:Relation:7532322,10,Bus 10 : Plaisir Grignon - St Quentin en Yvelines ↔ Versailles Rive-Gauche,Hourtoule,Cars Hourtoule,,route_master,bus,027027010:10
 Line:Relation:7537818,197,Bus 197 : Porte d'Orléans ↔ Massy–Opéra-Théâtre,RATP,RATP,#ED1B29,route_master,bus,100100197:197
-Line:Relation:7537834,297,Bus 297 : Longjumeau-Place Charles Steber ↔ Antony RER (↔ Porte d'Orléans),RATP,RATP,#BB4B9D,route_master,bus,100100297:297
+Line:Relation:7537834,297,Bus 297 : Porte d'Orléans ↔ Longjumeau-Place Charles Steber / Antony RER ↔ Longjumeau-Place Charles Steber,RATP,RATP,#BB4B9D,route_master,bus,100100297:297
 Line:Relation:7573289,V2,Bus V2 : L'Haÿ-les-Roses Domaine Chérioux ↔ Fresnes Pasteur,Valouette,RATP,,route_master,bus,100100583:V2
 Line:Relation:7592991,526,Montbus,RATP,RATP,,route_master,bus,100100526:MONTBUS
 Line:Relation:7618243,8,Bus 8 : Gare routière de Fontainebleau Avon ↔ Crevat Jaurès (Fontainebleau),Aérial,Transdev Île-de-France Vulaines,blue,route_master,bus,062062067:8
@@ -664,7 +664,7 @@ Line:Relation:7728420,44,Bus 44 : Jacqueline Auriol (Bussy-Saint-Georges) ↔ La
 Line:Relation:7733214,3,,RATP,RATP,#9A9940,route_master,subway,100110003:3
 Line:Relation:7734523,13,Bus 13 : Gare routière Seine ↔ Bergeries - St Hubert (Draveil),Seine Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021111:13
 Line:Relation:7734525,12,Bus 12 : Bergeries - St Hubert (Draveil) ↔ Gare routière de Juvisy-sur-Orge,Seine Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021110:12
-Line:Relation:7734583,J,Navette J : Rond-Point du Pileu ↔ Languedoc,Paris-Saclay,MobiCité,yellow,route_master,bus,111591207:J
+Line:Relation:7734583,J,Navette J (MassyBus) : Rond-Point du Pileu ↔ Languedoc,Paris-Saclay,MobiCité,yellow,route_master,bus,111591207:J
 Line:Relation:7741077,G'bus,Bus G'bus : Goussainville RER (Circulaire),Les Courriers de l'Île-de-France,Keolis CIF,#FFDD00,route_master,bus,014014099:Gbus
 Line:Relation:7743343,34,Bus 34 : Chaville (Gare Chaville Rive Droite) ↔ Vélizy Villacoublay (Vélizy 2),Phébus,Keolis Vélizy,,route_master,bus,004004014:34
 Line:Relation:7743345,36-12,Bus 36-12 : Gare de La Verrière ↔ Gare de La Verrière via Maurepas,SQYBus,SQYBus,,route_master,bus,230410432:36-12
@@ -1068,6 +1068,18 @@ Line:Relation:8436111,GHP,Bus GHP : Gare de Jouy ↔ Campus HEC ↔ Val d'Albian
 Line:Relation:8444577,21M,Bus 21M : Gare du Vésinet - Le Pecq (circulaire),Entre Seine et Forêt,Transdev Île-de-France Montesson Les Rabaux,,route_master,bus,012012021:21M
 Line:Relation:8444603,47,Bus 47 : Gare de Provins ↔ Gare de Melun,Seine-et-Marne Express,Procars,,route_master,bus,228177047:47
 Line:Relation:8444694,PROBUSC,Bus C : Gare de Provins (circulaire),Probus,Procars,,route_master,bus,228771009:PROBUSC
-Line:Relation:8444973,,,,,,route_master,bus,
+Line:Relation:8444972,C,Navette C : Circulaire Longjumeau-Morangis,Paris-Saclay,,#723463,route_master,bus,
+Line:Relation:8444973,B,Navette B : Circulaire Ballainvilliers-Morangis,Paris-Saclay,,#d80e41,route_master,bus,
 Line:Relation:8444974,,Navette A : Circulaire de Longjumeau,,,,route_master,bus,
 Line:Relation:8446805,,Bus DM09 : Château d'Eau (Linas) ↔ Gare de St-Michel-sur-Orge,,,,route_master,bus,
+Line:Relation:8447240,36-15,Bus 36-15 : Les Essarts-le-Roi ↔ Auffargis,Cars Perrier,Cars Perrier,,route_master,bus,036036015:36-15
+Line:Relation:8448000,2,Bus 2 : Gare de Persan - Beaumont ↔ Gare de Montsoult - Maffliers,Keolis Val d'Oise,Keolis Val d’Oise,,route_master,bus,046046002:2
+Line:Relation:8448304,,Navette F : Champlan ↔ C.Cial Massy | C.Cial Villebon 2,,,,route_master,bus,
+Line:Relation:8448533,Baladobus,Bus Baladobus : Gare de Saint-Rémy-Lès-Chevreuse (circulaire),Parc Chevreuse,SAVAC,,route_master,bus,139578038:Baladobus
+Line:Relation:8449068,37E,Bus 37E : Cergy Préfecture RER ↔ Gare Routière Meru,Oise Mobilité,CAB ARO,,route_master,bus,082082003:37E
+Line:Relation:8449168,G,Bus G : Gare de Sartrouville ↔ Gare du Vésinet Le Pecq,Bus en Seine,TVO,,route_master,bus,016248022:G
+Line:Relation:8449216,VE,Filéo VE : Roissypole ↔ Vert Galant RER B,Filéo,Keolis Mobilité Roissy,,route_master,bus,116931007:FILEOVE
+Line:Relation:8449353,611,Bus 611 : La Courneuve - 8 mai 1945 ↔ Gagarine,Seine-Saint-Denis,Transdev TRA,,route_master,bus,293193611:611
+Line:Relation:8449420,619,Bus 619 : Gare du Vert Galant ↔ Petit Tremblay,Seine-Saint-Denis,Transdev TRA,,route_master,bus,293193619:619
+Line:Relation:8450067,35,Bus 35 : Mairie Annexe / Collège Jean Moulin ↔ Gare de Villiers-le-Bel Gonesse Arnouville,TransVO,Trans Val d'Oise,,route_master,bus,050050035:35
+Line:Relation:8450068,36,Bus 36 : Gare de Villiers-le-Bel Gonesse Arnouville ↔ Rond-Point de Bonneuil,TransVO,Trans Val d'Oise,,route_master,bus,050050036:36

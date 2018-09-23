@@ -18,5 +18,5 @@ deploy:
   skip-cleanup: true
   github-token: $GITHUB_DEPLOY_TOKEN
   keep-history: true
-#  on:
-#    branch: master
+  on:
+    branch: master

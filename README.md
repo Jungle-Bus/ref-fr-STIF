@@ -14,4 +14,4 @@ https://wiki.openstreetmap.org/wiki/WikiProject_France/Transports_en_%C3%8Ele-de
 
 ![process global de màj](run_all.png)
 
-Pour générer les images de documentation des process : `factotum dot ref-lignes-stif.factfile --output factotum.dot && dot -Tpng factotum.dot -o factotum.png`
+Pour générer les images de documentation des process : `factotum dot run_all.factfile --output factotum.dot && dot -Tpng factotum.dot -o run_all.png`

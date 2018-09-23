@@ -11,5 +11,4 @@ cat osm-transit-extractor_lines.csv \
  |xsv search -s network 'Les Abeilles' -v | xsv search -s network 'Navettes Aéroports De Paris' -v \
  |xsv search -s network 'TransCape' -v | xsv search -s network Balabus -v \
  |xsv search -s network 'Big Bus' -v| xsv search -s network 'Carré 92' -v \
- |xsv search -s network 'Curvia bus' -v \
  |xsv select line_id,code,name,network,operator,colour,osm:type,mode,osm:ref:FR:STIF:ExternalCode_Line

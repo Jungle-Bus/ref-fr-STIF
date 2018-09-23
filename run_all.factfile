@@ -53,6 +53,16 @@
                 "continueJob": [0]
             }
         }, {
+            "name": "extraction des lignes manquantes dans OSM",
+            "executor": "shell",
+            "command": "factotum run missing_in_osm/missing_in_osm.factfile",
+            "arguments": [],
+            "dependsOn": ["téléchargement des données opendata", "mise à jour ref-lignes-STIF"],
+            "onResult": {
+                "terminateJobWithSuccess": [],
+                "continueJob": [0]
+            }
+        }, {
             "name": "mise à jour Osmose",
             "executor": "shell",
             "command": "factotum run osmose/osmose.factfile",

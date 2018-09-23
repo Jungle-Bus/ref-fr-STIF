@@ -25,7 +25,7 @@
         }, {
             "name": "update Osmose dev lignes",
             "executor": "shell",
-            "command": "cd data && curl -s --request POST --form source='opendata_stif-france_ile_de_france' --form code=\"$Osmose_idf_auth\" --form content=@osmose_lines.xml http://dev.osmose.openstreetmap.fr/control/send-update",
+            "command": "cd data && curl -v -s --request POST --form source='opendata_stif-france_ile_de_france' --form code=\"$Osmose_idf_auth\" --form content=@osmose_lines.xml http://dev.osmose.openstreetmap.fr/control/send-update",
             "arguments": [],
             "dependsOn": ["prepare osmose check on lines and stops"],
             "onResult": {

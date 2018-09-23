@@ -1,0 +1,22 @@
+dist: trusty
+language: python
+python:
+  - "3.6"
+
+before_install:
+  - cd ci && ./install.sh
+  - export PATH=$PATH:$PWD/
+  - factotum --version
+  - xsv --version
+  - osm_transit_extractor --version
+
+script:
+  - cd .. && factotum run run_all.factfile
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_DEPLOY_TOKEN
+  keep-history: true
+#  on:
+#    branch: master

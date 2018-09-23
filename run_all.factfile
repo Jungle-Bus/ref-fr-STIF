@@ -1,0 +1,77 @@
+{
+    "schema": "iglu:com.snowplowanalytics.factotum/factfile/jsonschema/1-0-0",
+    "data": {
+        "name": "run all scripts",
+        "tasks": [{
+            "name": "init OSM",
+            "executor": "shell",
+            "command": "factotum run init_osm/init_osm.factfile",
+            "arguments": [],
+            "dependsOn": [],
+            "onResult": {
+                "terminateJobWithSuccess": [],
+                "continueJob": [0]
+            }
+        }, {
+            "name": "mise à jour MicrocOSM",
+            "executor": "shell",
+            "command": "factotum run microcosm/microcosm.factfile",
+            "arguments": [],
+            "dependsOn": ["init OSM"],
+            "onResult": {
+                "terminateJobWithSuccess": [],
+                "continueJob": [0]
+            }
+        }, {
+            "name": "mise à jour ref-lignes-STIF",
+            "executor": "shell",
+            "command": "factotum run ref-lignes-stif/ref-lignes-stif.factfile",
+            "arguments": [],
+            "dependsOn": ["init OSM"],
+            "onResult": {
+                "terminateJobWithSuccess": [],
+                "continueJob": [0]
+            }
+        }, {
+            "name": "téléchargement des données opendata",
+            "executor": "shell",
+            "command": "factotum run init_gtfs/init_gtfs.factfile",
+            "arguments": [],
+            "dependsOn": ["init OSM"],
+            "onResult": {
+                "terminateJobWithSuccess": [],
+                "continueJob": [0]
+            }
+        }, {
+            "name": "calcul des routepoints",
+            "executor": "shell",
+            "command": "factotum run audit_routepoints/audit_routepoints.factfile",
+            "arguments": [],
+            "dependsOn": ["téléchargement des données opendata", "mise à jour ref-lignes-STIF"],
+            "onResult": {
+                "terminateJobWithSuccess": [],
+                "continueJob": [0]
+            }
+        }, {
+            "name": "extraction des lignes manquantes dans OSM",
+            "executor": "shell",
+            "command": "factotum run missing_in_osm/missing_in_osm.factfile",
+            "arguments": [],
+            "dependsOn": ["téléchargement des données opendata", "mise à jour ref-lignes-STIF"],
+            "onResult": {
+                "terminateJobWithSuccess": [],
+                "continueJob": [0]
+            }
+        }, {
+            "name": "mise à jour Osmose",
+            "executor": "shell",
+            "command": "factotum run osmose/osmose.factfile",
+            "arguments": [],
+            "dependsOn": ["calcul des routepoints"],
+            "onResult": {
+                "terminateJobWithSuccess": [],
+                "continueJob": [0]
+            }
+        }]
+    }
+}

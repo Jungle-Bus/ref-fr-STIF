@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2018-09-24T12:17:49Z">
-	<analyser timestamp="2018-09-24T12:17:49Z">
+<analysers timestamp="2018-09-25T12:20:44Z">
+	<analyser timestamp="2018-09-25T12:20:44Z">
 		<class item="8042" tag="transport en commun" id="1" level="3">
 			<classtext lang="fr" title="tag manquant sur une relation route_master (ligne de transport en commun)"></classtext>
 		</class>
@@ -48,6 +48,30 @@
 			<location lat="48.6976363" lon="2.2997156999999997"></location>
 			<relation id="8444974"></relation>
 			<text lang="fr" value="Opérateur (tag operator) manquant pour cette ligne"></text>
+		</error>
+		<error class="1">
+			<location lat="48.421478799999996" lon="2.1506613999999997"></location>
+			<relation id="8730251"></relation>
+			<text lang="fr" value="Opérateur (tag operator) manquant pour cette ligne. Valeur probable : Ormont Transport"></text>
+			<fixes>
+				<fix>
+					<relation id="8730251">
+						<tag action="create" k="operator" v="Ormont Transport"></tag>
+					</relation>
+				</fix>
+			</fixes>
+		</error>
+		<error class="1">
+			<location lat="48.5014714" lon="2.5825831"></location>
+			<relation id="8730313"></relation>
+			<text lang="fr" value="Numéro de ligne (tag ref) manquant. Valeur probable : SB 21CC"></text>
+			<fixes>
+				<fix>
+					<relation id="8730313">
+						<tag action="create" k="ref" v="SB 21CC"></tag>
+					</relation>
+				</fix>
+			</fixes>
 		</error>
 	</analyser>
 </analysers>

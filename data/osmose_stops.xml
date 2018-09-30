@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2018-09-29T12:20:21Z">
-	<analyser timestamp="2018-09-29T12:20:21Z">
+<analysers timestamp="2018-09-30T12:22:07Z">
+	<analyser timestamp="2018-09-30T12:22:07Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag obsolète sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -4817,6 +4817,18 @@
 			</fixes>
 		</error>
 		<error class="2">
+			<location lat="48.7879331" lon="2.3681004999999997"></location>
+			<node id="1964639959"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 36702 l'association avec la ligne 100100286:286 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=1964639959"></text>
+			<fixes>
+				<fix>
+					<node id="1964639959">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
 			<location lat="48.8258805" lon="2.3410294"></location>
 			<node id="1319910485"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 24146 l'association avec la ligne 100100283:ORLYBUS est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=1319910485"></text>
@@ -9043,7 +9055,7 @@
 		<error class="2">
 			<location lat="48.439157599999994" lon="2.8001975"></location>
 			<node id="3212347461"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 9722 l'association avec la ligne 064608008:8B est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=3212347461"></text>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 9722; l'association avec la ligne 064608008:8B est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=3212347461"></text>
 			<fixes>
 				<fix>
 					<node id="3212347461">
@@ -10991,6 +11003,18 @@
 			<fixes>
 				<fix>
 					<node id="5436958606">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.9480271" lon="2.5011159999999997"></location>
+			<node id="5937861596"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 18892 l'association avec la ligne 293193617:617 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5937861596"></text>
+			<fixes>
+				<fix>
+					<node id="5937861596">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>
@@ -14863,7 +14887,7 @@
 		<error class="2">
 			<location lat="48.439157599999994" lon="2.8001975"></location>
 			<node id="3212347461"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 9722 l'association avec la ligne 064608008:8B est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=3212347461"></text>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 9722; l'association avec la ligne 064608008:8B est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=3212347461"></text>
 			<fixes>
 				<fix>
 					<node id="3212347461">
@@ -18191,30 +18215,6 @@
 			<fixes>
 				<fix>
 					<node id="5678700248">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.431729499999996" lon="2.7587295"></location>
-			<node id="4324886037"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 30694 l'association avec la ligne  est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=4324886037"></text>
-			<fixes>
-				<fix>
-					<node id="4324886037">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.431729499999996" lon="2.7587295"></location>
-			<node id="4324886037"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 30694 l'association avec la ligne  est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=4324886037"></text>
-			<fixes>
-				<fix>
-					<node id="4324886037">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

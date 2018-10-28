@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2018-10-27T12:35:04Z">
-	<analyser timestamp="2018-10-27T12:35:04Z">
+<analysers timestamp="2018-10-28T12:36:09Z">
+	<analyser timestamp="2018-10-28T12:36:09Z">
 		<class item="8042" tag="transport en commun" id="1" level="3">
 			<classtext lang="fr" title="tag manquant sur une relation route_master (ligne de transport en commun)"></classtext>
 		</class>
@@ -33,6 +33,11 @@
 			<location lat="48.6976363" lon="2.2997156999999997"></location>
 			<relation id="8444974"></relation>
 			<text lang="fr" value="Opérateur (tag operator) manquant pour cette ligne"></text>
+		</error>
+		<error class="1">
+			<location lat="48.5014714" lon="2.5825831"></location>
+			<relation id="8834625"></relation>
+			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (063063011:11CC) n'existe pas ou plus dans les données opendata du STIF"></text>
 		</error>
 	</analyser>
 </analysers>

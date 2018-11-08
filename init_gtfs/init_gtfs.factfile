@@ -5,7 +5,7 @@
         "tasks": [{
                 "name": "download opendata",
                 "executor": "shell",
-                "command": "wget https://opendata.stif.info/explore/dataset/offre-horaires-tc-gtfs-idf/files/f24cf9dbf6f80c28b8edfdd99ea16aad/download/ --no-verbose -O fr-idf_oif_stif.zip 2>&1",
+                "command": "wget https://opendata.stif.info/explore/dataset/offre-horaires-tc-gtfs-idf/files/eb262d66a8f0f372eeca606f485f6646/download/ --no-verbose -O fr-idf_oif_stif.zip 2>&1",
                 "arguments": [],
                 "dependsOn": [],
                 "onResult": {

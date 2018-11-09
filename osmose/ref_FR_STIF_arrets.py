@@ -9,7 +9,8 @@ def generate_osmose_errors_for_stops():
     with open('../data/gtfs_stop_extensions.txt', 'r') as f:
         reader = csv.DictReader(f)
         for row in reader :
-            ref_STIF_list.append(row["ZDEr_ID_REF_A"])
+            if row["object_system"] == "ZDEr_ID_REF_A":
+                ref_STIF_list.append(row["object_code"])
 
     with open('../data/osm-transit-extractor_stop_points.csv', 'r') as f:
         reader = csv.DictReader(f)

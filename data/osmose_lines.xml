@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2018-11-08T12:41:14Z">
-	<analyser timestamp="2018-11-08T12:41:14Z">
+<analysers timestamp="2018-11-09T12:41:45Z">
+	<analyser timestamp="2018-11-09T12:41:45Z">
 		<class item="8042" tag="transport en commun" id="1" level="3">
 			<classtext lang="fr" title="tag manquant sur une relation route_master (ligne de transport en commun)"></classtext>
 		</class>
@@ -35,9 +35,14 @@
 			<text lang="fr" value="Opérateur (tag operator) manquant pour cette ligne"></text>
 		</error>
 		<error class="1">
+			<location lat="48.703031499999994" lon="2.0703454999999997"></location>
+			<relation id="8448533"></relation>
+			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (139578038:Baladobus) n'existe pas ou plus dans les données opendata du STIF"></text>
+		</error>
+		<error class="1">
 			<location lat="48.5014714" lon="2.5825831"></location>
-			<relation id="8834625"></relation>
-			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (063063011:11CC) n'existe pas ou plus dans les données opendata du STIF"></text>
+			<relation id="8834617"></relation>
+			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (063063021:SB21CC) n'existe pas ou plus dans les données opendata du STIF"></text>
 		</error>
 	</analyser>
 </analysers>

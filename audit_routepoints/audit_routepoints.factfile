@@ -15,22 +15,11 @@
                 }
             },
             {
-                "name": "gtfs - add terminus",
-                "executor": "shell",
-                "command": "cd audit_routepoints && python3 gtfs_add_terminus_to_trips.py",
-                "arguments": [],
-                "dependsOn": ["gtfs - clean stop_times"],
-                "onResult": {
-                    "terminateJobWithSuccess": [],
-                    "continueJob": [0]
-                }
-            },
-            {
                 "name": "gtfs - generate routepoints",
                 "executor": "shell",
                 "command": "cd data && ../audit_routepoints/prepare_gtfs_routepoints.sh",
                 "arguments": [],
-                "dependsOn": ["gtfs - add terminus"],
+                "dependsOn": ["gtfs - clean stop_times"],
                 "onResult": {
                     "terminateJobWithSuccess": [],
                     "continueJob": [0]

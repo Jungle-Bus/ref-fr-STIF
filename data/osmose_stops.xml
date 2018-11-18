@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2018-11-17T12:44:57Z">
-	<analyser timestamp="2018-11-17T12:44:57Z">
+<analysers timestamp="2018-11-18T12:44:59Z">
+	<analyser timestamp="2018-11-18T12:44:59Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag obsolète sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -6539,18 +6539,6 @@
 			<fixes>
 				<fix>
 					<node id="3451961112">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.7879331" lon="2.3681004999999997"></location>
-			<node id="1964639959"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 36702 l'association avec la ligne 100100286:286 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=1964639959"></text>
-			<fixes>
-				<fix>
-					<node id="1964639959">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

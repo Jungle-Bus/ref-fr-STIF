@@ -445,7 +445,7 @@ Route:Relation:2454325,Bus 6 : Campus d’Orsay - Jean Monnet → Gare d’Orsay
 Route:Relation:2497591,Bus 380 : Villejuif-Louis Aragon → Arcueil-Vache Noire-Centre Commercial,380,Arcueil - Vache Noire - Centre Commercial,RATP
 Route:Relation:2497592,Bus 286 : Antony RER → Villejuif–Louis Aragon,286,Villejuif — Louis Aragon,RATP
 Route:Relation:2498055,Bus Orlybus : Paris - Denfert–Rochereau → Aéroport d'Orly - Orly Sud,Orlybus,Aéroport d'Orly - Orly-Sud,RATP
-Route:Relation:2498057,Bus 299 : Porte d'Orléans → Morangis-Place Lucien Boilleau / Morangis-Square Condorcet → Longjumeau-Place Charles Steber / Chilly-Mazarin-Cimetière → Longjumeau-L.Sohier,299,Morangis - Place Lucien Boilleau,RATP
+Route:Relation:2498057,Bus 299 : Porte d'Orléans → Morangis - Place Lucien Boilleau,299,Morangis - Place Lucien Boilleau,RATP
 Route:Relation:2502854,Bus 468 : Saint-Quentin-en-Yvelines Gare RER → Lycée de Villaroy,468,,SQYbus
 Route:Relation:2504437,Bus 187 : Porte d'Orléans → Fresnes - Charcot-Zola,187,Fresnes - Charcot-Zola,RATP
 Route:Relation:2504515,Noctilien N21 : Châtelet → Hôpital de Longjumeau,N21,Hôpital de Longjumeau,Noctilien
@@ -827,7 +827,7 @@ Route:Relation:4860755,Bus 108 : Joinville-le-Pont RER → Champigny–Jeanne Va
 Route:Relation:4873722,Bus 208s : Champigny–Saint-Maur RER (circulaire) via Paul Venzac (nuit),208s,,RATP
 Route:Relation:5120317,Bus 297 : Porte d'Orléans → Longjumeau – Place Charles Steber,297,Longjumeau - Place Charles Steber,RATP
 Route:Relation:5120470,Bus 297 : Longjumeau – Place Charles Steber → Porte d'Orléans,297,Porte d'Orléans,RATP
-Route:Relation:5120954,Bus 299 : Morangis-Place Lucien Boilleau → Porte d'Orléans / Longjumeau-Place Charles Steber → Morangis-Square Condorcet / Longjumeau-L.Sohier → Chilly-Mazarin-Cimetière,299,Porte d'Orléans,RATP
+Route:Relation:5120954,Bus 299 : Morangis - Place Lucien Boilleau → Porte d'Orléans,299,Porte d'Orléans,RATP
 Route:Relation:5122471,Bus 292 : ZAC Les Gâtines - Capitaine Jean d'Hers (Savigny-sur-Orge) → Porte de l'Essonne (Athis-Mons),292,Porte de l'Essonne (Athis-Mons),RATP
 Route:Relation:5126098,Bus 385 : Marché de Juvisy → Épinay-sur-Orge RER,385,,RATP
 Route:Relation:5130609,Bus 399 : Marché de Juvisy → Massy–Palaiseau RER,399,Massy–Palaiseau RER,RATP
@@ -1570,7 +1570,7 @@ Route:Relation:7980610,Bus 102 : Gare de Marolles (circulaire),102,,CEA Transpor
 Route:Relation:7980853,Bus 95-47 : ST-CLAIR SUR EPTE Bois St Clair ↔ BRAY-ET-LÛ Collège,95-47,,Busval d'Oise
 Route:Relation:7980987,Bus 95-47 : BUHY BUCHET Buchet ↔ BRAY-ET-LÛ Collège,95-47,,Busval d'Oise
 Route:Relation:7991708,Bus E : Gare RER de Roissy-en-Brie (circulaire),E,,Sit'Bus
-Route:Relation:7991714,Bus B : Les 4 Chênes → Pontault RER,B,,Sit'Bus
+Route:Relation:7991714,Bus B : Les 4 Chênes → Pontault RER,B,Gare de Pontault,Sit'Bus
 Route:Relation:7991715,Bus C : Pontault-Combault - Centre Commercial → Noisiel - Le Luzard RER,C,Noisiel RER,Sit'Bus
 Route:Relation:7991716,Bus A : Gare d'Ozoir-la-Ferrière → Pontault-Combault - Centre Commercial,A,Centre Commercial (Pontault-Combault),Sit'Bus
 Route:Relation:7991717,Bus D : Pontault RER → Renardière - Delacroix,D,,Sit'Bus
@@ -1701,7 +1701,7 @@ Route:Relation:8122750,Bus 501 : Gare de Roissy-en-Brie → La Férandière (Pon
 Route:Relation:8122751,Bus 501 : La Férandière (Pontcarré) → Gare de Roissy-en-Brie,501,Gare de Roissy-en-Brie,Sit'Bus
 Route:Relation:8122972,Bus D : Renardière - Delacroix → Pontault RER,D,Pontault RER,Sit'Bus
 Route:Relation:8122974,Bus C : Noisiel - Le Luzard RER → Pontault-Combault - Centre Commercial,C,Centre Commercial,Sit'Bus
-Route:Relation:8122975,Bus B : Pontault RER → Les 4 Chênes,B,,Sit'Bus
+Route:Relation:8122975,Bus B : Pontault RER → Les 4 Chênes,B,Les 4 Chênes,Sit'Bus
 Route:Relation:8122976,Bus 378 : Les Courtilles → Nanterre–Ville RER,378,,RATP
 Route:Relation:8122977,Bus 11 : Herblay (Buttes Blanches) → Conflans-Sainte-Honorine (Gare Romagne),11,,Conflans Achères
 Route:Relation:8122978,Bus ClamiBus : Gare de Clamart → Maison de Quartier André Charré,ClamiBus,Maison de Quartier - André Charre,RATP
@@ -2291,3 +2291,5 @@ Route:Relation:8887436,Bus 103 : Georges Halgoult → École Vétérinaire de Ma
 Route:Relation:8887437,Bus 103 : École Vétérinaire de Maisons-Alfort → Georges Halgoult,103,Georges Halgoult,RATP
 Route:Relation:8919779,Bus 297 : Longjumeau – Place Charles Steber → Antony RER,297,Antony RER,RATP
 Route:Relation:8921596,Bus 180 : Charenton - Écoles → Église de Vitry → Villejuif–Louis Aragon,180,Villejuif–Louis Aragon,RATP
+Route:Relation:8974450,Bus 299 : Longjumeau - Place Charles Steber → Porte d'Orléans,299,Porte d'Orléans,RATP
+Route:Relation:8974451,Bus 299 : Porte d'Orléans → Longjumeau - Place Charles Steber,299,Place Charles Steber,RATP

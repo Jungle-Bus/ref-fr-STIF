@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2018-11-23T12:46:56Z">
-	<analyser timestamp="2018-11-23T12:46:56Z">
+<analysers timestamp="2018-11-24T12:47:30Z">
+	<analyser timestamp="2018-11-24T12:47:30Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag obsolète sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -13541,18 +13541,6 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.819314899999995" lon="2.310167"></location>
-			<node id="5322379308"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 24652;21272 l'association avec la ligne 100100526:MONTBUS est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5322379308"></text>
-			<fixes>
-				<fix>
-					<node id="5322379308">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
 			<location lat="48.8190917" lon="2.3156714"></location>
 			<node id="2589160031"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 24046 l'association avec la ligne 100100526:MONTBUS est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=2589160031"></text>
@@ -13577,12 +13565,24 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.8190917" lon="2.3156714"></location>
-			<node id="2589160031"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 24046 l'association avec la ligne 100100526:MONTBUS est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=2589160031"></text>
+			<location lat="48.819475999999995" lon="2.3142874"></location>
+			<node id="2589165418"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 24045 l'association avec la ligne 100100526:MONTBUS est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=2589165418"></text>
 			<fixes>
 				<fix>
-					<node id="2589160031">
+					<node id="2589165418">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.819314899999995" lon="2.310167"></location>
+			<node id="5322379308"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 24652;21272 l'association avec la ligne 100100526:MONTBUS est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5322379308"></text>
+			<fixes>
+				<fix>
+					<node id="5322379308">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

@@ -143,9 +143,9 @@ Route:Relation:1250984,Bus 80 : Porte de Versailles → Mairie du 18e - Jules Jo
 Route:Relation:1250985,Bus 80 : Mairie du 18e - Jules Joffrin → Porte de Versailles,80,Porte de Versailles,RATP
 Route:Relation:1251022,Bus 70 : Hôtel de Ville → Radio France,70,Radio France,RATP
 Route:Relation:1251023,Bus 70 : Radio France → Hôtel de Ville,70,Hôtel de Ville,RATP
-Route:Relation:1252549,Bus 84 : Panthéon → Porte de Champerret,84,Porte de Champerret,RATP
+Route:Relation:1252549,Bus 84 : Panthéon → Levallois–Alsace,84,Porte de Champerret,RATP
 Route:Relation:1252550,Bus 85 : Luxembourg → Saint-Ouen - Les Docks,85,Saint-Ouen - Les Docks,RATP
-Route:Relation:1252551,Bus 84 : Porte de Champerret → Panthéon,84,Panthéon,RATP
+Route:Relation:1252551,Bus 84 : Levallois–Alsace → Panthéon,84,Panthéon,RATP
 Route:Relation:1252552,Bus 85 : Saint-Ouen - Les Docks → Luxembourg,85,Luxembourg,RATP
 Route:Relation:1252609,Bus 81 : Châtelet → Porte de Saint-Ouen,81,Porte de Saint-Ouen,RATP
 Route:Relation:1252610,Bus 81 : Porte de Saint-Ouen → Châtelet,81,Châtelet,RATP
@@ -223,10 +223,8 @@ Route:Relation:1257182,Bus 46 : Gare du Nord → Château de Vincennes,46,Châte
 Route:Relation:1257183,Bus 53 : Levallois-Perret — Pont de Levallois-Bécon → Opéra,53,Opéra,RATP
 Route:Relation:1257184,Bus 47 : Fort du Kremlin-Bicêtre → Gare de l'Est,47,Gare de l'Est,RATP
 Route:Relation:1257185,Bus 54 : Porte d'Aubervilliers → Asnières-sur-Seine — Gennevilliers — Gabriel Péri,54,Asnières-sur-Seine — Gennevilliers — Gabriel Péri,RATP
-Route:Relation:1257204,Bus PC3 : Porte Maillot - Pershing → Porte d’Aubervilliers – Skanderbeg,PC3,Porte de la Chapelle,RATP
-Route:Relation:1257205,Bus PC1 : Porte de Champerret → Pont du Garigliano,PC1,Pont du Garigliano,RATP
-Route:Relation:1257208,Bus PC3 : Porte d’Aubervilliers – Skanderbeg → Porte Maillot - Pershing,PC3,Porte Maillot - Pershing,RATP
-Route:Relation:1257209,Bus PC1 : Pont du Garigliano → Porte de Champerret,PC1,Porte de Champerret,RATP
+Route:Relation:1257205,Bus PC : Porte d'Asnières–Marguerite Long → Pont du Garigliano,PC,Pont du Garigliano,RATP
+Route:Relation:1257209,Bus PC : Pont du Garigliano → Porte d'Asnières–Marguerite Long,PC,Porte de Champerret,RATP
 Route:Relation:1259085,Bus 187 : Fresnes - Charcot-Zola → Porte d'Orléans,187,Porte d'Orléans,RATP
 Route:Relation:1259514,Bus 184 : Fresnes Pasteur → Porte d'Italie,184,Porte d'Italie,RATP
 Route:Relation:1259521,Bus 184 : Porte d'Italie → Fresnes Pasteur,184,Fresnes Pasteur,RATP
@@ -793,8 +791,8 @@ Route:Relation:4646925,Bus 276 : Les Courtilles → La Défense,276,,RATP
 Route:Relation:4648084,Bus 40 : Inovel Parc Nord → Pont de Sèvres,40,Pont de Sèvres,Phébus
 Route:Relation:4649796,Bus 176 : Pont de Neuilly → Colombes–Petit Gennevilliers,176,Colombes–Petit Gennevilliers,RATP
 Route:Relation:4649797,Bus 176 : Colombes–Petit Gennevilliers → Pont de Neuilly,176,Pont de Neuilly,RATP
-Route:Relation:4649909,Bus 163 : Nanterre–Préfecture RER → Porte de Champerret,163,Porte de Champerret,RATP
-Route:Relation:4649910,Bus 163 : Porte de Champerret → Nanterre–Préfecture RER,163,Nanterre - Préfecture RER,RATP
+Route:Relation:4649909,Bus 163 : Nanterre–Préfecture RER → Pont Cardinet–Batignolles,163,Porte de Champerret,RATP
+Route:Relation:4649910,Bus 163 : Pont Cardinet–Batignolles → Nanterre–Préfecture RER,163,Nanterre - Préfecture RER,RATP
 Route:Relation:4650972,Bus 167 : Piscine–Patinoire → Pont de Levallois,167,Pont de Levallois,RATP
 Route:Relation:4650973,Bus 167 : Pont de Levallois → Piscine–Patinoire,167,Piscine–Patinoire,RATP
 Route:Relation:4651169,Bus 366 : Église de Colombes → Asnières - Bords de Seine,366,,RATP
@@ -892,8 +890,8 @@ Route:Relation:5609060,TER 32 : Crépy-en-Valois − Roissy,TER 32,,TER Picardie
 Route:Relation:5638401,Bus 4 : Gare de Sainte-Geneviève-des-Bois → ZI Croix Blanche,4,ZI Croix Blanche,Génovébus
 Route:Relation:5646393,La Traverse Batignolles - Bichat,La Traverse,Hôpital Bichat,RATP
 Route:Relation:5668596,Bus 65 : Gare de Meaux → Gare de La Ferté-Milon,65,Gare de La Ferté-Milon,Pays de l’Ourcq
-Route:Relation:5670947,Les Abeilles - Ligne A,,,Les Abeilles
-Route:Relation:5671147,Les Abeilles - Ligne B,,,Les Abeilles
+Route:Relation:5670947,Les Abeilles - Ligne A,A,,Les Abeilles
+Route:Relation:5671147,Les Abeilles - Ligne B,B,,Les Abeilles
 Route:Relation:5673868,Bus 8 : Couturier → Orsay-Ville RER,8,Orsay–Ville RER,Mobicaps
 Route:Relation:5673869,Bus 8 : Orsay-Ville RER → Couturier,8,Couturier,Mobicaps
 Route:Relation:5679072,Bus 8 : Bois Persan → Orsay-Ville RER,8,Orsay-Ville RER,Mobicaps

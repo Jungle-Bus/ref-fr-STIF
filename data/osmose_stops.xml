@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2018-11-26T12:48:38Z">
-	<analyser timestamp="2018-11-26T12:48:38Z">
+<analysers timestamp="2018-11-27T12:48:55Z">
+	<analyser timestamp="2018-11-27T12:48:55Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag obsolète sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -10367,6 +10367,18 @@
 			<fixes>
 				<fix>
 					<node id="5339593502">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.7939553" lon="2.2728827"></location>
+			<node id="5339593512"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 24550 l'association avec la ligne 020149014:14 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5339593512"></text>
+			<fixes>
+				<fix>
+					<node id="5339593512">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>
@@ -24047,6 +24059,18 @@
 			<fixes>
 				<fix>
 					<node id="1383713708">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.793718999999996" lon="2.273131"></location>
+			<node id="5648664521"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 24550 l'association avec la ligne 020149014:14 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5648664521"></text>
+			<fixes>
+				<fix>
+					<node id="5648664521">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

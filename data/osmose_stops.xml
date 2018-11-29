@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2018-11-28T12:48:53Z">
-	<analyser timestamp="2018-11-28T12:48:53Z">
+<analysers timestamp="2018-11-29T12:49:00Z">
+	<analyser timestamp="2018-11-29T12:49:00Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag obsolète sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -4469,6 +4469,18 @@
 			</fixes>
 		</error>
 		<error class="2">
+			<location lat="48.6700648" lon="2.3324594999999997"></location>
+			<node id="3790547357"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 11797 l'association avec la ligne 800:N131 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=3790547357"></text>
+			<fixes>
+				<fix>
+					<node id="3790547357">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
 			<location lat="48.8433825" lon="2.3658364"></location>
 			<node id="987505275"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 37558 l'association avec la ligne 800:N131 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=987505275"></text>
@@ -4733,7 +4745,7 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.8760226" lon="2.4677579"></location>
+			<location lat="48.8760226" lon="2.4677504999999997"></location>
 			<node id="5688481903"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 416553 l'association avec la ligne 100100102:102 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5688481903"></text>
 			<fixes>
@@ -6131,6 +6143,18 @@
 			<fixes>
 				<fix>
 					<node id="5979569939">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.8760226" lon="2.4677504999999997"></location>
+			<node id="5688481903"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 416553 l'association avec la ligne 100100301:301 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5688481903"></text>
+			<fixes>
+				<fix>
+					<node id="5688481903">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>
@@ -12569,6 +12593,18 @@
 			</fixes>
 		</error>
 		<error class="2">
+			<location lat="48.6700744" lon="2.3328867"></location>
+			<node id="3172519944"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 8486 l'association avec la ligne 800:N131 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=3172519944"></text>
+			<fixes>
+				<fix>
+					<node id="3172519944">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
 			<location lat="48.6990774" lon="2.3721221"></location>
 			<node id="695117996"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 37468 l'association avec la ligne 800:N131 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=695117996"></text>
@@ -14009,7 +14045,7 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.724495" lon="2.4191107"></location>
+			<location lat="48.724474699999995" lon="2.4190959"></location>
 			<node id="5236853674"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 423884 l'association avec la ligne 002002008:8 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5236853674"></text>
 			<fixes>

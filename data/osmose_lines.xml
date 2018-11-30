@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2018-11-29T12:49:01Z">
-	<analyser timestamp="2018-11-29T12:49:01Z">
+<analysers timestamp="2018-11-30T12:50:14Z">
+	<analyser timestamp="2018-11-30T12:50:14Z">
 		<class item="8042" tag="transport en commun" id="1" level="3">
 			<classtext lang="fr" title="tag manquant sur une relation route_master (ligne de transport en commun)"></classtext>
 		</class>
+		<error class="1">
+			<location lat="48.8421412" lon="2.2558818"></location>
+			<relation id="1257210"></relation>
+			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (100100097:PC1) n'existe pas ou plus dans les données opendata du STIF"></text>
+		</error>
 		<error class="1">
 			<location lat="48.933139" lon="2.205085"></location>
 			<relation id="1842753"></relation>
@@ -23,11 +28,6 @@
 			<location lat="48.9276955" lon="2.2155239"></location>
 			<relation id="2653031"></relation>
 			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (016016003:3) n'existe pas ou plus dans les données opendata du STIF"></text>
-		</error>
-		<error class="1">
-			<location lat="48.5302614" lon="2.5250464999999997"></location>
-			<relation id="4099253"></relation>
-			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (063063011:11GARE) n'existe pas ou plus dans les données opendata du STIF"></text>
 		</error>
 		<error class="1">
 			<location lat="48.562577" lon="2.249699"></location>
@@ -108,11 +108,6 @@
 			<location lat="49.010401699999996" lon="2.5593065999999998"></location>
 			<relation id="8493727"></relation>
 			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (054054020:20) n'existe pas ou plus dans les données opendata du STIF"></text>
-		</error>
-		<error class="1">
-			<location lat="48.5014714" lon="2.5825831"></location>
-			<relation id="8834625"></relation>
-			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (063063011:11CC) n'existe pas ou plus dans les données opendata du STIF"></text>
 		</error>
 		<error class="1">
 			<location lat="48.5014714" lon="2.5825831"></location>

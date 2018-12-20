@@ -730,7 +730,7 @@ Route:Relation:4030053,Navette 39.10 : Domaine de Saint-Paul → Gare RER de Sai
 Route:Relation:4032303,Bus N : Gare de Villeneuve-Saint-Georges → Centre Hospitalier de Villeneuve-Saint-Georges,N,Centre Hospitalier de Villeneuve-Saint-Georges,STRAV
 Route:Relation:4043346,Bus E : Centre Hospitalier de Villeneuve-Saint-Georges → Gare de Brunoy,E,Gare de Brunoy,VyBus
 Route:Relation:4043384,Bus H : Gare de Villeneuve-Saint-Georges → Gare de Villeneuve-Saint-Georges,H,Gare de Villeneuve-Saint-Georges,VyBus
-Route:Relation:4043799,Bus G : Montgeron — Valdoly → Vigneux-sur-Seine — Maurice Garin,G,,Seine-Sénart Bus
+Route:Relation:4043799,Bus G : Vigneux-sur-Seine — Maurice Garin → Montgeron — Valdoly,G,,Seine-Sénart Bus
 Route:Relation:4043891,Bus H : Vigneux-sur-Seine — Prairie de l'Oly ↔ Vigneux-sur-Seine — Prairie de l'Oly,H,,Seine-Sénart Bus
 Route:Relation:4046879,Bus C : Montgeron — Valdoly ↔ Vigneux-sur-Seine — Gare,C,,Seine-Sénart bus
 Route:Relation:4046926,Bus D : Vigneux-sur-Seine — Le Petit et Vergeat → Vigneux-sur-Seine — Gare,D,,Seine-Sénart Bus
@@ -1753,7 +1753,7 @@ Route:Relation:8123028,Bus E : Vigneux-sur-Seine — Gare → Montgeron — Vald
 Route:Relation:8123029,Bus B : Vigneux-sur-Seine — Gare → Vigneux-sur-Seine — Prairie de l'Oly,B,,Seine-Sénart Busz
 Route:Relation:8123030,Bus A : Vigneux-sur-Seine — Gare → Montgeron — CES Pompidou,A,,Seine-Sénart Bus
 Route:Relation:8123031,Bus D : Vigneux-sur-Seine — Gare → Vigneux-sur-Seine — Le Petit et Vergeat,D,,Seine-Sénart Bus
-Route:Relation:8123032,Bus G : Vigneux-sur-Seine — Maurice Garin → Montgeron — Valdoly,G,,Seine-Sénart Bus
+Route:Relation:8123032,Bus G : Montgeron — Valdoly → Vigneux-sur-Seine — Maurice Garin,G,,Seine-Sénart Bus
 Route:Relation:8123033,Bus N : Dammarie-lès-Lys — Peguy → Vaux-le-Pénil — Mare aux Champs (Mairie),N,,MELIBUS
 Route:Relation:8123034,Bus C : Vaux-le-Pénil — Vaux Pleins-Vents → Melun — Gare de Melun,C,,MELIBUS
 Route:Relation:8123035,Bus 1 : Gare de Sartrouville → Gare d'Argenteuil,1,,R'bus
@@ -2305,7 +2305,22 @@ Route:Relation:9106177,Bus 30-42 : Gare de Sannois → Résidence du Moulin,30-4
 Route:Relation:9106178,Bus 30-42 : Résidence du Moulin → Gare de Sannois,30-42,Gare de Sannois,Valbus
 Route:Relation:9107574,"Flixbus 700: Paris, Bercy Seine => London, Victoria Coach Station",700,"London, Victoria Coach Station",Flixbus
 Route:Relation:9109513,"Flixbus 700: London, Victoria Coach Station => Paris, Bercy Seine",700,"Paris, Bercy Seine",Flixbus
-Route:Relation:9122064,Bus 18 : Vigneux — Gare → Juvisy — Gare routière Seine,18,Juvisy — Gare routière Seine,Seine Sénart Bus
-Route:Relation:9122065,Bus 18 : Juvisy — Gare routière Seine → Vigneux — Gare,18,Vigneux — Gare,Seine Sénart Bus
-Route:Relation:9122180,Bus 19 : Vigneux — Gare → Juvisy — Gare routière Seine,19,Juvisy — Gare routière Seine,Seine Sénart Bus
-Route:Relation:9122181,Bus 19 : Juvisy — Gare routière Seine → Vigneux — Gare,19,Vigneux — Gare,Seine Sénart Bus
+Route:Relation:9122064,Bus 18 : Vigneux — Gare → Juvisy — Gare routière Seine,18,Juvisy Gare Routière Seine,Seine-Sénart Bus
+Route:Relation:9122065,Bus 18 : Juvisy — Gare routière Seine → Vigneux — Gare,18,Vigneux Gare,Seine-Sénart Bus
+Route:Relation:9122180,Bus 19 : Vigneux — Gare → Juvisy — Gare routière Seine,19,Juvisy Gare Routière Seine,Seine-Sénart Bus
+Route:Relation:9122181,Bus RD : Juvisy — Gare routière Seine → Draveil — Bergeries Saint-Hubert,RD,Gare Routière Seine,Seine Sénart Bus
+Route:Relation:9124519,Bus RD : Draveil — Bergeries Saint-Hubert → Juvisy — Gare routière Seine,RD,Juvisy — Gare routière Seine,Seine Sénart Bus
+Route:Relation:9125453,Bus RD (alt) : Bergeries Saint-Hubert → Juvisy Gare Routière Seine,RD,Juvisy Gare Routière Seine,Seine Sénart Bus
+Route:Relation:9127377,Bus 19 : Juvisy — Gare routière Seine → Vigneux — Gare,19,Vigneux Gare,Seine-Sénart Bus
+Route:Relation:9128674,Bus 11L : Bergeries Saint-Hubert → Juvisy Gare Routière Seine,11L,Juvisy Gare Routière Seine,Seine-Sénart Bus
+Route:Relation:9128675,Bus 11L : Juvisy Gare Routière Seine → Bergeries Saint-Hubert,11L,Bergeries Saint-Hubert,Seine-Sénart Bus
+Route:Relation:9128838,Bus 14 : Bergeries Saint-Hubert → Juvisy Gare Routière Seine,14,Juvisy Gare Routière Seine,Seine-Sénart Bus
+Route:Relation:9128839,Bus 14 : Juvisy Gare Routière Seine → Bergeries Saint-Hubert,14,Bergeries Saint-Hubert,Seine-Sénart Bus
+Route:Relation:9129001,Bus 16 : Bergeries Saint-Hubert → Juvisy Gare Routière Seine,16,Juvisy Gare Routière Seine,Seine-Sénart Bus
+Route:Relation:9129002,Bus 16 : Juvisy Gare Routière Seine → Bergeries Saint-Hubert,16,Bergeries Saint-Hubert,Seine-Sénart Bus
+Route:Relation:9129093,Bus 17 : Hôpital Joffre → Juvisy Gare Routière Seine,17,Juvisy Gare Routière Seine,Seine-Sénart Bus
+Route:Relation:9129094,Bus 17 : Juvisy Gare Routière Seine → Hôpital Joffre,17,Hôpital Joffre,Seine-Sénart Bus
+Route:Relation:9129132,Bus 4 : Sables de Rouvres → Vigneux Gare,4,Vigneux Gare,Seine-Sénart Bus
+Route:Relation:9129133,Bus 4 : Vigneux Gare → Sables de Rouvres,4,Sables de Rouvres,Seine-Sénart Bus
+Route:Relation:9129175,Bus LP1 : LEP Nadar → Vigneux Gare,LP1,Vigneux Gare,Seine-Sénart Bus
+Route:Relation:9129176,Bus LP1 : Vigneux Gare → LEP Nadar,LP1,LEP Nadar,Seine-Sénart Bus

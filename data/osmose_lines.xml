@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2018-12-20T12:59:10Z">
-	<analyser timestamp="2018-12-20T12:59:10Z">
+<analysers timestamp="2018-12-21T13:01:15Z">
+	<analyser timestamp="2018-12-21T13:01:15Z">
 		<class item="8042" tag="transport en commun" id="1" level="3">
 			<classtext lang="fr" title="tag manquant sur une relation route_master (ligne de transport en commun)"></classtext>
 		</class>
@@ -60,6 +60,11 @@
 			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (016016008:8) n'existe pas ou plus dans les données opendata du STIF"></text>
 		</error>
 		<error class="1">
+			<location lat="48.718779" lon="2.4444041"></location>
+			<relation id="8218451"></relation>
+			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (021021100:Inter-Vals) n'existe pas ou plus dans les données opendata du STIF"></text>
+		</error>
+		<error class="1">
 			<location lat="48.901108699999995" lon="2.2746825999999998"></location>
 			<relation id="8338499"></relation>
 			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (100692102:Curviabus) n'existe pas ou plus dans les données opendata du STIF"></text>
@@ -110,9 +115,9 @@
 			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (054054020:20) n'existe pas ou plus dans les données opendata du STIF"></text>
 		</error>
 		<error class="1">
-			<location lat="48.5014714" lon="2.5825831"></location>
-			<relation id="8834640"></relation>
-			<text lang="fr" value="Il y a plusieurs lignes dans OSM qui ont ce même ref:FR:STIF:ExternalCode_Line (063063009:9CC)"></text>
+			<location lat="48.476428" lon="2.5556479999999997"></location>
+			<relation id="8834639"></relation>
+			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (063063009:SB9CCSt) n'existe pas ou plus dans les données opendata du STIF"></text>
 		</error>
 		<error class="1">
 			<location lat="48.9789749" lon="1.9617208"></location>

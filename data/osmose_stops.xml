@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-01-10T13:09:29Z">
-	<analyser timestamp="2019-01-10T13:09:29Z">
+<analysers timestamp="2019-01-11T13:09:44Z">
+	<analyser timestamp="2019-01-11T13:09:44Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag obsolète sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -8363,18 +8363,6 @@
 			<fixes>
 				<fix>
 					<node id="4949576926">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.819475999999995" lon="2.3142874"></location>
-			<node id="2589165418"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 24045 l'association avec la ligne 100100068:68 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=2589165418"></text>
-			<fixes>
-				<fix>
-					<node id="2589165418">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>
@@ -21437,18 +21425,6 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.8190917" lon="2.3156714"></location>
-			<node id="2589160031"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 24046 l'association avec la ligne 100100526:MONTBUS est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=2589160031"></text>
-			<fixes>
-				<fix>
-					<node id="2589160031">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
 			<location lat="48.8173762" lon="2.3261841999999997"></location>
 			<node id="2604773288"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 24449 l'association avec la ligne 100100526:MONTBUS est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=2604773288"></text>
@@ -21473,24 +21449,12 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.819475999999995" lon="2.3142874"></location>
-			<node id="2589165418"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 24045 l'association avec la ligne 100100526:MONTBUS est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=2589165418"></text>
+			<location lat="48.819477799999994" lon="2.3143016"></location>
+			<node id="2482666241"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 36264 l'association avec la ligne 100100526:MONTBUS est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=2482666241"></text>
 			<fixes>
 				<fix>
-					<node id="2589165418">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.819314899999995" lon="2.310167"></location>
-			<node id="5322379308"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 24652;21272 l'association avec la ligne 100100526:MONTBUS est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5322379308"></text>
-			<fixes>
-				<fix>
-					<node id="5322379308">
+					<node id="2482666241">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>
@@ -35159,6 +35123,18 @@
 			<fixes>
 				<fix>
 					<node id="5931775363">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.7396141" lon="2.7596678"></location>
+			<node id="2830511721"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 15220 l'association avec la ligne 003003023:23 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=2830511721"></text>
+			<fixes>
+				<fix>
+					<node id="2830511721">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

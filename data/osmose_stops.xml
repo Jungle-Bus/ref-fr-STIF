@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-01-16T13:13:13Z">
-	<analyser timestamp="2019-01-16T13:13:13Z">
+<analysers timestamp="2019-01-17T13:12:36Z">
+	<analyser timestamp="2019-01-17T13:12:36Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag obsolète sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -6371,6 +6371,18 @@
 			<fixes>
 				<fix>
 					<node id="6200375283">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.527578999999996" lon="2.551179"></location>
+			<node id="6212717721"></node>
+			<text lang="fr" value="La ref:FR:STIF 427309 n'existe pas ou plus"></text>
+			<fixes>
+				<fix>
+					<node id="6212717721">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>
@@ -33275,6 +33287,90 @@
 			<fixes>
 				<fix>
 					<node id="5630202101">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.520745999999995" lon="2.5660909999999997"></location>
+			<node id="6212717732"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 427293 l'association avec la ligne 066066034:O est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=6212717732"></text>
+			<fixes>
+				<fix>
+					<node id="6212717732">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.520683" lon="2.5659549999999998"></location>
+			<node id="6212717731"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 427296 l'association avec la ligne 066066034:O est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=6212717731"></text>
+			<fixes>
+				<fix>
+					<node id="6212717731">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.5313127" lon="2.5447691999999997"></location>
+			<node id="5899283647"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 30237 l'association avec la ligne 066066034:O est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5899283647"></text>
+			<fixes>
+				<fix>
+					<node id="5899283647">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.523671" lon="2.559703"></location>
+			<node id="6212717722"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 427301 l'association avec la ligne 066066034:O est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=6212717722"></text>
+			<fixes>
+				<fix>
+					<node id="6212717722">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.517454" lon="2.628092"></location>
+			<node id="6212717719"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 419917 l'association avec la ligne 066066034:O est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=6212717719"></text>
+			<fixes>
+				<fix>
+					<node id="6212717719">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.51741" lon="2.627767"></location>
+			<node id="6212717718"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 419919 l'association avec la ligne 066066034:O est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=6212717718"></text>
+			<fixes>
+				<fix>
+					<node id="6212717718">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.5305897" lon="2.5445099"></location>
+			<node id="5899305423"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 30238 l'association avec la ligne 066066034:O est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5899305423"></text>
+			<fixes>
+				<fix>
+					<node id="5899305423">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

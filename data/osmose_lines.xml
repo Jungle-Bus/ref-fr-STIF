@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-01-18T13:13:45Z">
-	<analyser timestamp="2019-01-18T13:13:45Z">
+<analysers timestamp="2019-01-19T13:14:49Z">
+	<analyser timestamp="2019-01-19T13:14:49Z">
 		<class item="8042" tag="transport en commun" id="1" level="3">
 			<classtext lang="fr" title="tag manquant sur une relation route_master (ligne de transport en commun)"></classtext>
 		</class>
@@ -193,6 +193,11 @@
 			<location lat="48.9307582" lon="2.4825106999999997"></location>
 			<relation id="9190123"></relation>
 			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (233233702:702) n'existe pas ou plus dans les données opendata du STIF"></text>
+		</error>
+		<error class="1">
+			<location lat="48.6975006" lon="2.2935947"></location>
+			<relation id="9231586"></relation>
+			<text lang="fr" value="Il y a plusieurs lignes dans OSM qui ont ce même ref:FR:STIF:ExternalCode_Line (111591201:A)"></text>
 		</error>
 	</analyser>
 </analysers>

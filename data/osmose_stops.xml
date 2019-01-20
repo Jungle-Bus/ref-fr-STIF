@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-01-19T13:14:47Z">
-	<analyser timestamp="2019-01-19T13:14:47Z">
+<analysers timestamp="2019-01-20T13:14:30Z">
+	<analyser timestamp="2019-01-20T13:14:30Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag obsolète sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -14897,6 +14897,18 @@
 			</fixes>
 		</error>
 		<error class="2">
+			<location lat="49.047613899999995" lon="2.336856"></location>
+			<node id="5399015937"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 426170 l'association avec la ligne 100100269:269 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5399015937"></text>
+			<fixes>
+				<fix>
+					<node id="5399015937">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
 			<location lat="48.9647493" lon="2.4586253"></location>
 			<node id="5246628927"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 22274 l'association avec la ligne 100100152:152 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5246628927"></text>
@@ -23771,54 +23783,6 @@
 			<fixes>
 				<fix>
 					<node id="5392632044">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="49.001441299999996" lon="2.2881099"></location>
-			<node id="5811800636"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 5526 l'association avec la ligne 038038001:3801 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5811800636"></text>
-			<fixes>
-				<fix>
-					<node id="5811800636">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="49.001535999999994" lon="2.288159"></location>
-			<node id="5811800929"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 5527 l'association avec la ligne 038038001:3801 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5811800929"></text>
-			<fixes>
-				<fix>
-					<node id="5811800929">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="49.001535999999994" lon="2.288159"></location>
-			<node id="5811800929"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 5527 l'association avec la ligne 038038001:3801 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5811800929"></text>
-			<fixes>
-				<fix>
-					<node id="5811800929">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="49.001441299999996" lon="2.2881099"></location>
-			<node id="5811800636"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 5526 l'association avec la ligne 038038001:3801 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5811800636"></text>
-			<fixes>
-				<fix>
-					<node id="5811800636">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>
@@ -33719,6 +33683,30 @@
 			<fixes>
 				<fix>
 					<node id="5618161355">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.9298268" lon="1.9389527"></location>
+			<node id="6219485072"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 423101 l'association avec la ligne 015015020:20 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=6219485072"></text>
+			<fixes>
+				<fix>
+					<node id="6219485072">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.9332377" lon="2.0392989"></location>
+			<node id="5864827856"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 14807 l'association avec la ligne 015015001:6 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5864827856"></text>
+			<fixes>
+				<fix>
+					<node id="5864827856">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

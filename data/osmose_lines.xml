@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-01-20T13:14:31Z">
-	<analyser timestamp="2019-01-20T13:14:31Z">
+<analysers timestamp="2019-01-21T13:16:51Z">
+	<analyser timestamp="2019-01-21T13:16:51Z">
 		<class item="8042" tag="transport en commun" id="1" level="3">
 			<classtext lang="fr" title="tag manquant sur une relation route_master (ligne de transport en commun)"></classtext>
 		</class>
@@ -198,6 +198,11 @@
 			<location lat="48.6975006" lon="2.2935947"></location>
 			<relation id="9231586"></relation>
 			<text lang="fr" value="Il y a plusieurs lignes dans OSM qui ont ce même ref:FR:STIF:ExternalCode_Line (111591201:A)"></text>
+		</error>
+		<error class="1">
+			<location lat="48.9007815" lon="2.0878677999999997"></location>
+			<relation id="9238709"></relation>
+			<text lang="fr" value="Il y a plusieurs lignes dans OSM qui ont ce même ref:FR:STIF:ExternalCode_Line (052052003:3)"></text>
 		</error>
 	</analyser>
 </analysers>

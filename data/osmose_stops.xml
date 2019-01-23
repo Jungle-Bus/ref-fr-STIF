@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-01-22T13:15:36Z">
-	<analyser timestamp="2019-01-22T13:15:36Z">
+<analysers timestamp="2019-01-23T13:16:14Z">
+	<analyser timestamp="2019-01-23T13:16:14Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag obsolète sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -33761,6 +33761,18 @@
 			</fixes>
 		</error>
 		<error class="2">
+			<location lat="48.2676892" lon="2.6859175"></location>
+			<node id="5881251470"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 33885 l'association avec la ligne 064608024:5 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5881251470"></text>
+			<fixes>
+				<fix>
+					<node id="5881251470">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
 			<location lat="48.7396141" lon="2.7596678"></location>
 			<node id="2830511721"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 15220 l'association avec la ligne 003003023:23 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=2830511721"></text>
@@ -34019,6 +34031,30 @@
 			<fixes>
 				<fix>
 					<node id="5979566360">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.2676892" lon="2.6859175"></location>
+			<node id="5881251470"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 33885 l'association avec la ligne 064608023:4 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5881251470"></text>
+			<fixes>
+				<fix>
+					<node id="5881251470">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.4885321" lon="2.1846359"></location>
+			<node id="4321353577"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 3084 l'association avec la ligne 010010001:323 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=4321353577"></text>
+			<fixes>
+				<fix>
+					<node id="4321353577">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

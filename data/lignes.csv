@@ -387,7 +387,7 @@ Line:Relation:6839230,54,Bus 54 : Droits de l’Homme ↔ Rû de Gally,Phébus,K
 Line:Relation:6839305,FA,Bus FA : Clos Salibert (Saint-Nom la Breteche) ↔ Lycée Franco-Allemand (Buc),STAVO,STAVO,,route_master,bus,044044007:FA
 Line:Relation:6839321,52,Bus 52 : Gare de Saint-Cyr l'École (circulaire),Phébus,Keolis Yvelines,#AED4A6,route_master,bus,078078052:52
 Line:Relation:6839342,53,Bus 53 : Gare de Saint-Cyr l'École (circulaire),Phébus,Keolis Yvelines,#96A0C8,route_master,bus,078078053:53
-Line:Relation:6851661,17,Bus 17 : Rue des Prés (Trilbardou) ↔ Gare SNCF d'Esbly,Pays de Meaux,Transdev Marne et Morin,,route_master,bus,067067017:17
+Line:Relation:6851661,L,Bus L : Gare d'Esbly ↔ Rue des Prés (Trilbardou),Pays de Meaux,Marne et Morin,,route_master,bus,067067017:L
 Line:Relation:6860109,H,Bus H : Gare de Villeneuve-Saint-Georges ↔ Gare de Villeneuve-Saint-Georges,VyBus,Transdev STRAV,,route_master,bus,045045005:H
 Line:Relation:6860181,E,Bus E : Centre Hospitalier de Villeneuve-Saint-Georges ↔ Gare de Montgeron,VyBus,Transdev STRAV,,route_master,bus,045045006:E
 Line:Relation:6860541,DM11C,Bus DM11C : Gare de Massy-Palaiseau ↔ Laboratoires (Marcoussis),Transports Daniel Meyer,Daniel Meyer,#ffda05,route_master,bus,055055025:DM11C
@@ -532,7 +532,7 @@ Line:Relation:7214891,Traverse,Traverse Brancion-Commerce,Autocars Dominique,B.E
 Line:Relation:7224864,37,Bus 37 : Le P'tit bus de Lagny,Pep's,Transdev AMV,,route_master,bus,051051037:37
 Line:Relation:7227705,2,Métro 2,RATP,RATP,#216EB4,route_master,subway,100110002:2
 Line:Relation:7234663,502,Bus 502 : Campus Sainte-Thérèse (Ozoir-la-Ferrière) ↔ Pontault-Combault,Sit'bus,Transdev N4 Mobilités,,route_master,bus,003351502:502
-Line:Relation:7234686,5,Bus 5 : Saint-Quentin en Yvelines ↔ Les Mesnuls,Hourtoule,Hourtoule,#644C18,route_master,bus,027027005:5
+Line:Relation:7234686,5,Bus 5 : Saint-Quentin en Yvelines ↔ Château,Hourtoule,Hourtoule,#644C18,route_master,bus,027027005:5
 Line:Relation:7244705,26,Bus 26 : Circulaire Chanteloup,Sénart Bus,Transdev Île-de-France Lieusaint,,route_master,bus,065487128:26
 Line:Relation:7244706,25,Bus 25 : Circulaire Claude Bernard,Sénart Bus,Transdev Île-de-France Lieusaint,,route_master,bus,065487126:25
 Line:Relation:7244792,208s,Bus 208s : Champigny–Saint-Maur RER → Champigny–Saint-Maur RER via Paul Venzac,RATP,RATP,#000080,route_master,bus,100100208:208S
@@ -905,11 +905,9 @@ Line:Relation:8187695,8,Bus 8 : Gare d'Argenteuil ↔ Berionne,R'bus,TVO,,route_
 Line:Relation:8189692,607,Bus 607 : La Courneuve - 8 Mai 1945 ↔ Gare de Villepinte,Seine-Saint-Denis,Transdev TRA,,route_master,bus,293193607:607
 Line:Relation:8207026,609,Bus 609 : Gare de Villepinte ↔ Fort d'Aubervilliers - Métro,Seine-Saint-Denis,Transdev TRA,,route_master,bus,293193609:609
 Line:Relation:8208930,642,Bus 642 : Gare de Villepinte ↔ Gare du Vert Galant,Seine-Saint-Denis,Transdev TRA,,route_master,bus,293193642:642
-Line:Relation:8210842,M1,Bus M1 : Gare Routière de Meaux (circulaire),Pays de Meaux,Marne et Morin,,route_master,bus,067167001:M1
 Line:Relation:8211074,701,Bus 701 : Beaupré ↔ Aéroport CDG1 RER B,Goëlys,Keolis CIF,,route_master,bus,014077701:701
 Line:Relation:8218429,704,Bus 704 : Saint-Pathus Les Frênes ↔ Meaux,Goëlys,Keolis CIF,,route_master,bus,014077704:704
 Line:Relation:8218430,711,Bus 711 : Dammartin-en-Goële ↔ Meaux,Goëlys,Keolis CIF,,route_master,bus,014077711:711
-Line:Relation:8218431,M8,Bus M8 : circulaire vers Les Saisons de Meaux (Chauconin-Neufmontiers),Pays de Meaux,Transdev Marne-et-Morin,,route_master,bus,067167008:M8
 Line:Relation:8218451,Inter-Vals,Bus Inter-Vals : Hôpital Joffre (Draveil) ↔ Centre Hospitalier (Villeneuve-Saint-Georges),Seine Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021100:Inter-Val
 Line:Relation:8218465,E1,Bus E1 : Lycée de Montgeron ↔ Salvador Allende,VyBus,Transdev STRAV,,route_master,bus,045045006:E1
 Line:Relation:8218466,BM,Bus BM : Gare de Montgeron Crosne ↔ Valdoly (Montgeron),Seine Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021203:BM
@@ -990,7 +988,6 @@ Line:Relation:8379777,30-49,Bus 30-49 : Gare de Franconville (circulaire),Valbus
 Line:Relation:8383356,419,Bus 419 : Mérantais (Magny-les-Hameaux) ↔ Pas du Lac (Montigny-le-Bretonneux),SQYBus,SQYBus,,route_master,bus,230410419:419
 Line:Relation:8383418,1,Bus 1 : Gare Nord de Poissy ↔ Les Oiseaux - Parc du Peuple de l'Herbe,CSO,CSO,#172983,route_master,bus,015015006:1
 Line:Relation:8383446,467,Bus 467 : Villaroy ↔ Saint-Quentin Gare,SQYBus,SQYBus,,route_master,bus,230410467:467
-Line:Relation:8384154,M2,Bus M2 : Gare Routière de Meaux (circulaire),Pays de Meaux,Marne et Morin,,route_master,bus,067167002:M2
 Line:Relation:8384179,3,Bus 3 : Gare de Sainte Geneviève des Bois ↔ Petits Champs,Génovébus,CEA Transports,,route_master,bus,010010005:3
 Line:Relation:8388057,31,Bus 31 : Parc Commercial Pont de Pierre ↔ Garges/Sarcelles RER D,Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,014014031:31
 Line:Relation:8388058,Roissy Sud,Bus Filéo Roissy Sud : Roissypole ↔ Sevran Livry RER B,Filéo,Keolis Mobilité Roissy,,route_master,bus,116931006:FILEOSL
@@ -1313,3 +1310,15 @@ Line:Relation:9245895,G,Bus G : Gare de Meaux ↔ Musée de la Grande Guerre,Pay
 Line:Relation:9247946,H,Bus H : Gare de Meaux (circulaire via Meaux Hôpital),Pays de Meaux,Marne et Morin,,route_master,bus,067167004:H
 Line:Relation:9247986,I,Bus I : Gare de Meaux ↔ Colisée de Meaux,Pays de Meaux,Marne et Morin,,route_master,bus,067167009:I
 Line:Relation:9248110,J,Bus J : Georges Claude ↔ Jean Renoir,Pays de Meaux,Marne et Morin,,route_master,bus,067067002:J
+Line:Relation:9249389,M,Bus M : Montceaux-lès-Meaux - Église ↔ Georges Claude,Pays de Meaux,Marne et Morin,,route_master,bus,067067020:M
+Line:Relation:9249479,N,Bus N : Gare de Meaux (circulaire via PAPM Sud ou Centre Pénitentiaire),Pays de Meaux,Marne et Morin,,route_master,bus,067167010:N
+Line:Relation:9249562,O,Bus O : Georges Claude ↔ Mairie (Poincy),Pays de Meaux,Marne et Morin,,route_master,bus,067167005:O
+Line:Relation:9249703,95-03B,Bus 95-03B : Hôtel de Ville de Margency ↔ Gare de Cergy-Préfecture,Busval d'Oise,Lacroix,,route_master,bus,030195003:95-03B
+Line:Relation:9249778,15,Bus 15 : La Bataille ↔ Rue Dailly - Parc de Saint-Cloud Tram,Hourtoule,Cars Hourtoule,,route_master,bus,027027015:15
+Line:Relation:9249844,41,Bus 41 : Gare de Fontenay-le-Fleury ↔ René Clair,Hourtoule,Cars Hourtoule,,route_master,bus,027141001:41
+Line:Relation:9251228,I,Bus I : Gare de Vaucresson ↔ Gare de Garches,Phébus,Keolis Versailles,,route_master,bus,056356012:I
+Line:Relation:9251644,K,Bus K : Gare des Chantiers - Sceaux ↔ Satory INRETS,Phébus,Keolis Versailles,,route_master,bus,056356021:K
+Line:Relation:9251798,Nuit3,Bus Nuit3 : Gare de Versailles-Chantiers ↔ Satory,Phébus,Keolis Versailles,,route_master,bus,056356032:Nuit3
+Line:Relation:9251856,O,Bus O : Place Laboulaye ↔ Stade de Porchefontaine,Phébus,Keolis Versailles,,route_master,bus,056356022:O
+Line:Relation:9251977,P,Bus P : Dépôt Kéolis Versailles ↔ Europe,Phébus,Keolis Versailles,,route_master,bus,056356011:P
+Line:Relation:9252073,V,Bus V : Centre Commercial Parly 2 ↔ Pradier,Phébus,Keolis Versailles,,route_master,bus,056356018:V

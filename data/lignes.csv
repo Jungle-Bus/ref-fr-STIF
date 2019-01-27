@@ -81,7 +81,7 @@ Line:Relation:1257125,62,Bus 62 : Porte de Saint-Cloud ↔ Porte de France,RATP,
 Line:Relation:1257186,54,Bus 54 : Asnières-sur-Seine — Gennevilliers — Gabriel Péri ↔ Porte d'Aubervilliers,RATP,RATP,#8EC3D1,route_master,bus,100100054:54
 Line:Relation:1257187,57,Bus 57 : Arcueil-Laplace RER ↔ Porte de Bagnolet-Louis Ganne,RATP,RATP,#9C983A,route_master,bus,100100057:57
 Line:Relation:1257188,53,Bus 53 : Levallois-Perret — Pont de Levallois-Bécon ↔ Opéra,RATP,RATP,#CEC92A,route_master,bus,100100053:53
-Line:Relation:1257210,PC1,PC1 - Bus 97 : Porte de Champerret ↔ Pont du Garigliano,RATP,RATP,#652C90,route_master,bus,100100097:PC1
+Line:Relation:1257210,PC,Bus PC : Pont du Garigliano ↔ Porte d'Asnières-Marguerite Long,RATP,RATP,#652C90,route_master,bus,100100097:PC1
 Line:Relation:1259087,187,Bus 187 : Porte d'Orléans ↔ Fresnes Charcot-Zola,RATP,RATP,#652B91,route_master,bus,100100187:187
 Line:Relation:1259529,184,Bus 184 : Porte d'Italie ↔ Fresnes Pasteur,RATP,RATP,#DCAC27,route_master,bus,100100184:184
 Line:Relation:1299563,306,Bus 306 : Saint-Maur Créteil RER - Noisy le Grand RER,RATP,RATP,#286AB7,route_master,bus,100100306:306
@@ -1115,7 +1115,7 @@ Line:Relation:8728852,29,Bus 29 : Les Clairières ↔ Notre-Dame,Poissy Aval - 2
 Line:Relation:8729263,420,Bus 420 : La Verrière Gare ↔ Pissaloup,SQYBus,SQYBus,,route_master,bus,230410420:420
 Line:Relation:8729290,440,Bus 440 : Technocentre ↔ Grand'Mare,SQYBus,SQYBus,,route_master,bus,230410440:440
 Line:Relation:8729300,459,Bus 459 : La Verrière Gare ↔ France Miniature,SQYBus,SQYBus,,route_master,bus,230410459:459
-Line:Relation:8730251,913.08,Bus 913.08 Étampes Hôpital ↔ Morigny-Champigny - Traversière,Ormont Transport,Keolis Ormont,,route_master,bus,068913008:91308
+Line:Relation:8730251,913.08,Bus 913.08 : Étampes Hôpital ↔ Morigny-Champigny,Ormont Transport,Keolis Ormont,,route_master,bus,068913008:91308
 Line:Relation:8735247,45,Bus 45 : Chavenay - Vallon ↔ Villepreux - Village,STAVO,STAVO,,route_master,bus,044044045:45
 Line:Relation:8736260,227-01,Bus 227-01 : Chemin de Bretigny ↔ Centre Commercial Maison Neuve,Orgebus,Transdev Île-de-France Brétigny,,route_master,bus,227227001:227-01
 Line:Relation:8737307,227-06,Bus 227-06 : Centre Commercial Maison Neuve ↔ Victor Hugo,Orgebus,Transdev Île-de-France Brétigny,,route_master,bus,227227001:227-06
@@ -1326,3 +1326,11 @@ Line:Relation:9254370,02A,Bus 02A : Centre Social ↔ Gare Routière Mantes-la-J
 Line:Relation:9254889,02B,Bus 02B : Freneuse ↔ Gare Routière Mantes-la-Jolie,Com'Bus,CTVMI,,route_master,bus,057057023:02B
 Line:Relation:9254991,N,Bus N : Gare Routière Mantes-la-Jolie ↔ Senneville Place,Com'Bus,CTVMI,,route_master,bus,057057014:N
 Line:Relation:9255049,R,Bus R : Rosny-sur-Seine Gare (circulaire),Com'Bus,CTVMI,,route_master,bus,057057011:R
+Line:Relation:9256759,3,Bus 3 : Gare d'Étampes (circulaire via Gare Saint-Martin),Ormont Transport,Ormont Transport,,route_master,bus,068913018:3
+Line:Relation:9257304,5,Bus 5 : Étampes - Hôpital (circulaire extérieure),Ormont Transport,Ormont Transport,,route_master,bus,068913030:5
+Line:Relation:9257415,6,Bus 6 : Étampes - Hôpital (circulaire intérieure),Ormont Transport,Ormont Transport,,route_master,bus,068913031:6
+Line:Relation:9257973,68.02,Bus 68.02 : Gare de Breuillet Village (circulaire),Ormont Transport,Keolis Ormont,,route_master,bus,068068002:6802
+Line:Relation:9258582,68.16,Bus 68.16 : Gare d'Etrechy (circulaire),Ormont Transport,Ormont Transport,,route_master,bus,068068016:6816
+Line:Relation:9258811,913-17,Bus 913.17 : Gare d'Étampes ↔ Mairie (Brières-les-Scellés),Ormont Transport,Ormont Transport,,route_master,bus,068913017:91317
+Line:Relation:9259499,913.50,Bus 913.50 : Gare d'Etrechy ↔ Gare d'Étampes,Ormont Transport,Ormont Transport,,route_master,bus,068913050:91350
+Line:Relation:9259815,261,Bus 261 : Gare de Versailles-Château-Rive-Gauche ↔ Haut Pré,SAVAC,SAVAC,,route_master,bus,039262261:261

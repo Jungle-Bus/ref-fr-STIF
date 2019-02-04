@@ -1011,7 +1011,7 @@ Route:Relation:6547165,Bus 259 : Saint-Germain-en-Laye RER → Nanterre–Anatol
 Route:Relation:6575344,Bus 306.12 : Monnerville → Dourdan,306.12,,Ormont Transport
 Route:Relation:6576530,Bus 330 : Brigeolet (Angerville) → Porte d'Étampes,330,Porte d'Étampes,Étampois
 Route:Relation:6576553,Bus 316 : Montreau → Etampes HLM Bas,316,,Étampois
-Route:Relation:6576641,Bus 317 : Saclas Terrasse → Etampes HLM Bas,317,,Étampois
+Route:Relation:6576641,Bus 317 : Estouches → HLM Bas,317,,Étampois
 Route:Relation:6594848,Noctilien N142 : Tournan RER → Gare de l’Est,N142,Gare de l'Est,Noctilien
 Route:Relation:6594978,Bus 421 : Emerainville - Pontault-Combault → Vaires-Torcy,421,Vaires-Torcy,RATP
 Route:Relation:6600463,Bus 12 : Lycée Van Gogh (Aubergenville) → Gare (Les Mureaux),12,Gare (Les Mureaux),Val de Seine
@@ -1441,11 +1441,11 @@ Route:Relation:7800436,Bus 372 : Louis Fliche → Maisons-Alfort Alfortville RER
 Route:Relation:7801007,Bus 485 : Delalande - Pasteur → Noyer Renard,485,,RATP
 Route:Relation:7801026,Bus 485 : Noyer Renard → Delalande-Pasteur,485,,RATP
 Route:Relation:7802279,Bus 337 : Gare de Pierrefitte-Stains RER → Zone Artisanal du Moutier,337,,RATP
-Route:Relation:7802904,Bus 538 : Bus du Port (Bus Verte),538,,RATP
-Route:Relation:7802905,Bus 538 : Bus du Port (Bus Rouge),538,,RATP
-Route:Relation:7802918,Bus 538 : Bus du Port (Bus Bleue),538,,RATP
+Route:Relation:7802904,Bus 538 : Bus du Port (Bus Verte),538,Gare du Stade,RATP
+Route:Relation:7802905,Bus 538 : Bus du Port (Bus Rouge),538,Gare du Stade,RATP
+Route:Relation:7802918,Bus 538 : Bus du Port (Bus Bleue),538,Les Courtilles,RATP
 Route:Relation:7803022,Bus 541 : Buséolien Circuit 1 (Cimetière Nouveau → École des Sports - Île de Puteaux),541,,RATP
-Route:Relation:7803023,Bus 541 : Buséolien Circuit 2 (Cimetière Nouveau → Conservatoire Pressensé),541,,RATP
+Route:Relation:7803023,Bus 541 : Buséolien Circuit 2 (Cimetière Nouveau → Conservatoire Pressensé),541,Conservatoire-Pressensé,RATP
 Route:Relation:7803051,Bus 541 : Buséolien Circuit 2 (Conservatoire Pressensé → Cimetière Nouveau),541,,RATP
 Route:Relation:7803052,Bus 541 : Buséolien Circuit 1 (École des Sports - Île de Puteaux → Cimetière Nouveau,541,,RATP
 Route:Relation:7803141,Bus 545 : Louise Michel → Noisy-le-Sec RER,545,,RATP
@@ -1453,8 +1453,8 @@ Route:Relation:7803142,Bus 545 : Noisy-le-Sec RER → Louise Michel,545,,RATP
 Route:Relation:7804633,Bus DM17B : Gare d'Epinay-sur-Orge → Nozay Villarceaux,DM17B,,Daniel Meyer
 Route:Relation:7804634,Bus DM11C : Marcoussis → Gare de Massy-Palaiseau,DM11C,Gare de Massy-Palaiseau,Daniel Meyer
 Route:Relation:7804858,Bus v4 : Hôtel de Ville – Centre (circulaire),v4,,Valouette
-Route:Relation:7804895,TUC est,574,,RATP
-Route:Relation:7804896,TUC ouest,574,,RATP
+Route:Relation:7804895,Bus 574 : TUC est,574,,RATP
+Route:Relation:7804896,Bus 574 : TUC ouest,574,,RATP
 Route:Relation:7813670,Bus DM10A : Marcoussis → Gare d'Orsay RER via Essouriau,DM10A,Orsay-ville RER,Daniel Meyer
 Route:Relation:7813671,Bus DM10A : Gare d'Orsay RER → Marcoussis via Essouriau,DM10A,Marcoussis Etang neuf / ZI fonds des prés,Daniel Meyer
 Route:Relation:7818643,Bus TUB : Blanqui — Carnot → La Mare à la Veuve,546,La Mare à la Veuve,RATP
@@ -1726,7 +1726,7 @@ Route:Relation:8122997,Bus 17B : LEP Fontaineroux → Gare Souppes-sur-Loing,17B
 Route:Relation:8122998,Bus 17A : LEP Fontaineroux → Gare Carnot,17A,Gare Carnot,STILL
 Route:Relation:8122999,Bus 8B : LEP Fontaineroux → Gare Nemours Parvis,8B,,Still
 Route:Relation:8123000,Bus 7B : Cité Scolaire → Place Parodi → Lycée Uruguay,7B,,Still
-Route:Relation:8123001,Bus 317 : Etampes HLM Bas → Saclas Terrasse,317,,Étampois
+Route:Relation:8123001,Bus 317 : HLM Bas → Estouches,317,,Étampois
 Route:Relation:8123002,Bus 316 : Etampes HLM Bas → Montreau,316,,Étampois
 Route:Relation:8123003,Bus Express 1 : Versailles RG RER C → Saint-Germain RER A,1,,Express
 Route:Relation:8123004,Bus 34 : Place Verdun (Chateau-Landon) → Gare de Melun,34,,Seine-et-Marne Express
@@ -2337,7 +2337,7 @@ Route:Relation:9137667,Bus 27 : Puits de la Marlière → Roissypole,27,Roissypo
 Route:Relation:9137678,Bus 12 : Gare de Maisons Laffitte (circulaire),12,Gare Maisons Laffitte,Maisons-Laffitte et Le Mesnil Le Roi
 Route:Relation:9137777,"Flixbus N700: London, Victoria Coach Station => Paris, Bercy Seine",N700,"Paris, Bercy Seine",Flixbus
 Route:Relation:9137778,"Flixbus N700: Paris, Bercy Seine => London, Victoria Coach Station",N700,"London, Victoria Coach Station",Flixbus
-Route:Relation:9140649,Bus 563 : Suresnes de Gaulle → Place de la Boule,563,,RATP
+Route:Relation:9140649,Bus 563 : Suresnes de Gaulle → Place de la Boule,563,Place de la Boule,RATP
 Route:Relation:9167843,Bus LM2 : Lycée de Montgeron → Gare routière Seine (Juvisy),LM2,Gare routière Seine (Juvisy),Seine Sénart Bus
 Route:Relation:9167844,Bus LM2 : Gare routière Seine (Juvisy) → Lycée de Montgeron,LM2,Lycée de Montgeron,Seine Sénart Bus
 Route:Relation:9167845,Bus LM1 : Lycée de Montgeron → Ermitage (Draveil),LM1,Ermitage (Draveil),Seine Sénart Bus

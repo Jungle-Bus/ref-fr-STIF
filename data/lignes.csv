@@ -575,7 +575,7 @@ Line:Relation:7420700,N,Transilien N,Transilien,SNCF,#00B092,route_master,train,
 Line:Relation:7420701,RER B,RER B,RER,RATP/SNCF,#5092C9,route_master,train,810:B
 Line:Relation:7423788,399,Bus 399 : Massy–Palaiseau RER ↔ Marché de Juvisy,RATP,RATP,#87d3df,route_master,bus,100100399:399
 Line:Relation:7423789,319,Bus 319 : Marché International de Rungis ↔ Massy-Palaiseau RER,RATP,RATP,#008B5A,route_master,bus,100100319:319
-Line:Relation:7423790,199,Bus 199 : Gare de Massy–Palaiseau ↔ La Rocade - Lycée (Longjumeau),RATP,RATP,#cec92a,route_master,bus,100100199:199
+Line:Relation:7423790,199,Bus 199 : Gare de Massy–Palaiseau ↔ La Rocade - Lycée (Longjumeau) ou Pablo Picasso (Saulx-les-Chartreux),RATP,RATP,#cec92a,route_master,bus,100100199:199
 Line:Relation:7423843,DM153,Bus DM153 : Massy-Palaiseau Gare RER B C ↔ Arpajon-Porte d'Étampes,Transports Kéolis Meyer,Kéolis Meyer,#66c4dc,route_master,bus,055155003:DM153
 Line:Relation:7426172,48,Bus 48 : Préfecture RER ↔ Les Toupets,STIVO,STIVO,#F7A824,route_master,bus,059440048:48
 Line:Relation:7427861,275,Bus 275 : La Défense ↔ Pont de Levallois,RATP,RATP,#f2c931,route_master,bus,100100275:275
@@ -736,7 +736,7 @@ Line:Relation:7920956,515,Bus TillBus : Place du Vél' d'Hiv' (circulaire),RATP,
 Line:Relation:7920957,12,Bus 12 : Cergy-Préfecture RER ↔ Verneuil Gare SNCF,Poissy Aval - 2 rives de Seine,Autocars Tourneux,,route_master,bus,052052112:12
 Line:Relation:7920958,4,Bus 4 : Rambouillet ↔ Limours - Bonnelles,Réseau Interurbain de Rambouillet,Transdev Île-de-France Rambouillet,,route_master,bus,013013004:04
 Line:Relation:7920959,353,Bus 353 : Saint-Denis–Université ↔ Saint-Denis–ZAC Landy Nord,RATP,RATP,,route_master,bus,100100353:353
-Line:Relation:7920960,168,Bus 168 : Saint-Denis–Université ↔ Sarcelles–Chantepie,RATP,RATP,,route_master,bus,100100168:168
+Line:Relation:7920960,168,Bus 168 : Saint-Denis – Université ↔ Sarcelles – Chantepie ou Butte Pinson,RATP,RATP,,route_master,bus,100100168:168
 Line:Relation:7920961,B,Bus B : Rambouillet - Clairbois ↔ Gazeran - Cutesson,Rambouillet urbain,Transdev Île-de-France Rambouillet,,route_master,bus,013013101:B
 Line:Relation:7920962,A,Bus A : Rambouillet - Rouget de Lisle ↔ Rambouillet - Groussay,Réseau interurbain de Rambouillet,Transdev,,route_master,bus,013013100:A
 Line:Relation:7920963,5,Bus 5 : Prunay-en-Yvelines - Gourville ↔ Rambouillet - Gare,Réseau interurbain de Rambouillet,Transdev,,route_master,bus,013013005:05
@@ -759,7 +759,7 @@ Line:Relation:7920982,201,Bus 201 : Champigny–Diderot–La Plage → Joinville
 Line:Relation:7920983,234,Bus 234 : Fort d'Aubervilliers ↔ Mairie de Livry-Gargan,RATP,RATP,,route_master,bus,100100234:234
 Line:Relation:7920984,247,Bus 247 : Stade Charles Sage ↔ Garonor,RATP,RATP,,route_master,bus,100100247:247
 Line:Relation:7920985,152,Bus 152 : Porte de la Villette ↔ Le Blanc-Mesnil–ZA du Pont Yblon / Gonesse–ZAC des Tulipes Nord,RATP,RATP,,route_master,bus,100100152:152
-Line:Relation:7920986,250,Bus 250 : Gonesse–ZI de la Fontaine Cypière ↔ Fort d'Aubervilliers,RATP,RATP,,route_master,bus,100100250:250
+Line:Relation:7920986,250,Bus 250 : Gonesse–ZI de la Fontaine Cypierre ↔ Fort d'Aubervilliers,RATP,RATP,,route_master,bus,100100250:250
 Line:Relation:7920987,252,Bus 252 : Porte de la Chapelle ↔ Gare de Garges–Sarcelles RER,RATP,RATP,,route_master,bus,100100252:252
 Line:Relation:7920988,370,Bus 370 : Marché de Saint-Brice ↔ Gare de Villiers-le-Bel RER,RATP,RATP,,route_master,bus,100100370:370
 Line:Relation:7920989,270,Bus 270 : Stains–La Cerisaie ↔ Gare de Villiers-le-Bel RER,RATP,RATP,,route_master,bus,100100270:270
@@ -1341,6 +1341,5 @@ Line:Relation:9261401,39-18,Bus 39-18 : Limours - Monument ↔ Bel Air - Parc d'
 Line:Relation:9261410,39-403,Bus 39-403 : Gare de Saint-Rémy-lès-Chevreuse ↔ Chevreuse - Petits Ponts École,SAVAC,SAVAC,,route_master,bus,039039403:39-403
 Line:Relation:9261650,109,Bus 109 : Maison d'Arrêt des Femmes ↔ Porte d'Orléans,Val d'Orge,CEA Transports,,route_master,bus,010010007:109
 Line:Relation:9275130,95-33,Bus 95-33 : Collège Les Hautiers ↔ La Tuilerie,Busval d'Oise,Ceobus,,route_master,bus,025195033:95-33
-Line:Relation:9278799,297,Bus 297 : Porte d'orléans/Antony RER ↔ Longjumeau–Place Charles Steber,RATP,RATP,#bb499c,route_master,bus,100100297:297
 Line:Relation:9280258,95-32,Bus 95-32 : Collège Les Hautiers  ↔ Lavoir,Busval d'Oise,Ceobus,,route_master,bus,025195032:95-32
 Line:Relation:9285368,17,Bus 17 : Lycée Lakanal ↔ Mairie de Bourg-la-Reine - Condorcet,Paladin,Bièvre Bus Mobilités,#ec732b,route_master,bus,020149007:17

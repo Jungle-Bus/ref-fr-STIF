@@ -264,7 +264,7 @@ Line:Relation:5226660,255,Bus 255 : Porte de Clignancourt ↔ Stains–Les Prév
 Line:Relation:5256555,188,Bus 188 : Bagneux - Rosenberg ↔ Porte d'Orléans,RATP,RATP,#BF9BC7,route_master,bus,100100188:188
 Line:Relation:5312582,391,Bus 391 : Gare de Vanves–Malakoff ↔ Bagneux-Pont Royal RER,RATP,RATP,#CEC92B,route_master,bus,100100391:391
 Line:Relation:5415945,217,Bus 217 : Hôtel de Ville de Créteil ↔ Vitry-sur-Seine RER,RATP,RATP,#622D91,route_master,bus,100100217:217
-Line:Relation:5426315,256,Bus 256 : Lycée d'Enghien ↔ Saint-Denis–Université,RATP,RATP,#5A2209,route_master,bus,100100256:256
+Line:Relation:5426315,256,Bus 256 : Gare d'Enghien-les-Bains ↔ Saint-Denis–Université,RATP,RATP,#5A2209,route_master,bus,100100256:256
 Line:Relation:5426450,183,Bus 183 : Porte de Choisy ↔ Aéroport d'Orly-Terminal Sud / Porte de Choisy ↔ Rouget de Lisle / Porte de Choisy ↔ Mairie d'Orly,RATP,RATP,#ED222E,route_master,bus,100100183:183
 Line:Relation:5471765,95-46,Bus 95-46 : Magny en Vexin ↔ Char (Marines),Bus Val d'Oise,Tim Bus,#73800D,route_master,bus,251195046:95-46
 Line:Relation:5540004,N62,Noctilien N62 : Gare Montparnasse ↔ Marché International de Rungis,Noctilien,RATP,#F59EB3,route_master,bus,100987762:N62
@@ -1026,7 +1026,7 @@ Line:Relation:8407209,27,Bus 27 : La Celle Saint-Cloud - Étang Sec ↔ Rueil Ma
 Line:Relation:8407357,K,Bus K : Limay - Lycée Condorcet ↔ Buchelay - René Renault,TAM,Transports de Voyageurs du Mantois,,route_master,bus,350350031:K
 Line:Relation:8408069,I,Bus I : Magnanville - Graviers-Brosses ↔ Mantes-la-Ville - Gare routière,TAM,Transports de Voyageurs du Mantois,,route_master,bus,350350009:I
 Line:Relation:8408136,M,Bus M : Gare du Vésinet le Pecq ↔ Gare de Chatou - Croissy,Bus en Seine,Transdev Île-de-France Montesson La Boucle,,route_master,bus,019248020:M
-Line:Relation:8409188,SOISYBUS,Bus SOISYBUS : Parc des Sources ↔ Champ de Courses Gare,Valmy,TVO,,route_master,bus,016016033:SOISYBUS
+Line:Relation:8409188,33 SoisyBus,Bus 33 SoisyBus : Parc des Sources ↔ Champ de Courses Gare,Valmy,TVO,#ED7EA1,route_master,bus,016016033:SOISYBUS
 Line:Relation:8409316,10,Bus 10 : Ermont Eaubonne Gare ↔ Parc des Sources,Valmy,TVO,,route_master,bus,016016010:10
 Line:Relation:8409465,25,Bus 25 : Gare d'Etampe ↔ Gare de Pithiviers,Rémi,Rémi,,route_master,bus,073073001:25
 Line:Relation:8411436,4,Bus 4 : Gare de Fontainebleau Avon ↔ Lavoir aux Chapeaux,Aérial,Transdev Île-de-France Vulaines,,route_master,bus,062062012:4
@@ -1041,7 +1041,7 @@ Line:Relation:8431360,19,Bus Express 19 : Gare des Mureaux ↔ Versailles - Euro
 Line:Relation:8436111,GHP,Bus GHP : Gare de Jouy (circulaire),Phébus,Keolis Versailles,#6fc6ef,route_master,bus,056356316:GHP
 Line:Relation:8444577,21M,Bus 21M : Gare du Vésinet - Le Pecq (circulaire),Entre Seine et Forêt,Transdev Île-de-France Montesson Les Rabaux,,route_master,bus,012012021:21M
 Line:Relation:8444603,47,Bus 47 : Gare de Provins ↔ Gare de Melun,Seine-et-Marne Express,Procars,,route_master,bus,228177047:47
-Line:Relation:8444694,PROBUSC,Bus C : Gare de Provins (circulaire),Probus,Procars,,route_master,bus,228771009:PROBUSC
+Line:Relation:8444694,C,Bus C : Gare de Provins (circulaire),Probus,Procars,,route_master,bus,228771009:PROBUSC
 Line:Relation:8444972,C,Navette C : Circulaire Longjumeau-Morangis,Paris-Saclay,,#892685,route_master,bus,111591203:C
 Line:Relation:8444973,B,Navette B : Circulaire Ballainvilliers-Morangis,Paris-Saclay,,#d80e41,route_master,bus,111591202:B
 Line:Relation:8444974,A,Navette A : Circulaire de Longjumeau,Paris-Saclay,,#e39640,route_master,bus,111591201:A
@@ -1201,10 +1201,10 @@ Line:Relation:9185095,43P,Bus 43P : Cesson Gare RER (circulaire intérieure),Sé
 Line:Relation:9185459,42P,Bus 42P : Cesson Gare RER (circulaire extérieure),Sénart Bus,Transdev Île-de-France Lieusaint,,route_master,bus,065487042:42P
 Line:Relation:9185838,76,Bus 76 : Cimetière ↔ Gare de Vaucresson,Plaine de Versailles,Transdev Île-de-France Ecquevilly,,route_master,bus,011011760:76
 Line:Relation:9187618,23,Bus 23 : Gare Routière Villepreux-les-Clayes ↔ Thiers,CSO,CSO,,route_master,bus,015015023:23
-Line:Relation:9188040,CitValN,Bus CitéVal Nord Herblay : Place de la Libération (circulaire),CitéVal,Lacroix,,route_master,bus,030595045:CitValN
-Line:Relation:9188067,CitValS,Bus CitéVal Sud Herblay : Place de la Libération (circulaire),CitéVal,Lacroix,,route_master,bus,030595045:CitValS
-Line:Relation:9188120,CitValC,Bus CitéVal Cormeilles : Gare de Cormeilles - Place Semard (circulaire),CitéVal,Lacroix,,route_master,bus,030595050:CitValC
-Line:Relation:9188157,CitValF,Bus CitéVal Franconville : Gare de Franconville (circulaire),CitéVal,Lacroix,,route_master,bus,030595051:CitValF
+Line:Relation:9188040,CitéVal N,Bus CitéVal Nord Herblay : Place de la Libération (circulaire),CitéVal,Lacroix,,route_master,bus,030595045:CitValN
+Line:Relation:9188067,CitéVal S,Bus CitéVal Sud Herblay : Place de la Libération (circulaire),CitéVal,Lacroix,,route_master,bus,030595045:CitValS
+Line:Relation:9188120,CitéVal C,Bus CitéVal Cormeilles : Gare de Cormeilles - Place Semard (circulaire),CitéVal,Lacroix,,route_master,bus,030595050:CitValC
+Line:Relation:9188157,CitéVal F,Bus CitéVal Franconville : Gare de Franconville (circulaire),CitéVal,Lacroix,,route_master,bus,030595051:CitValF
 Line:Relation:9188817,100,Bus 100 : Les Mureaux - Gare ↔ Saint-Quentin Gare,Express A14,Stile Express,,route_master,bus,057314100:100
 Line:Relation:9188979,ExpA14,Bus ExpA14 : La Défense - Terminal Jules Verne ↔ Gare routière de Verneuil,Express A14,Stile Express,,route_master,bus,057314143:ExpA14
 Line:Relation:9189775,703,Bus 703 : Gare de Drancy ↔ Gare du Bourget,Autobus du Fort,Autobus du Fort,,route_master,bus,233233703:703

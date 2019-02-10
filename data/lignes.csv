@@ -370,7 +370,7 @@ Line:Relation:6744258,12,Bus 12 : Combs-la-Ville - Quincy Gare RER (circulaire e
 Line:Relation:6744271,23,Bus 23 : circulaire de Moissy,Sénart Bus,Transdev Île-de-France Lieusaint,,route_master,bus,065487129:23
 Line:Relation:6751698,22,Bus 22 : Saint-Michel (Moissy-Cramayel) ↔ Lieusaint - Moissy Gare RER,Sénart Bus,Transdev Île-de-France Lieusaint,,route_master,bus,065487123:22
 Line:Relation:6751736,SI,Bus 64 : Couture (Combs-la-Ville) ↔ Lycée J. Prévert (Combs-la-Ville),Sénart Bus,Transdev Île-de-France Lieusaint,,route_master,bus,065487109:64
-Line:Relation:6751789,SOL,Bus 53 : Combs-la-Ville - Quincy Gare RER ↔ Lieusaint - Moissy Gare RER,Sénart Bus,Transdev Île-de-France Lieusaint,,route_master,bus,065487110:53
+Line:Relation:6751789,53,Bus 53 : Combs-la-Ville - Quincy Gare RER ↔ Lieusaint - Moissy Gare RER,Sénart Bus,Transdev Île-de-France Lieusaint,,route_master,bus,065487110:53
 Line:Relation:6751813,11,Bus 11 : Combs-la-Ville - Quincy Gare RER (circulaire),Sénart Bus,Transdev Île-de-France Lieusaint,,route_master,bus,065487011:11
 Line:Relation:6762268,S3,Bus S3 : Sainte-Geneviève-des-Bois-Lycée Albert Einstein ↔ Gare de Sainte-Geneviève-des-Bois,Génovébus,Transdev CEAT,,route_master,bus,010010005:S3
 Line:Relation:6785275,2,Bus 2 : Gare de Sainte-Geneviève-des-Bois ↔ ZI Croix Blanche,Génovébus,Transdev CEAT,,route_master,bus,010010005:2
@@ -660,7 +660,7 @@ Line:Relation:7781376,254,Bus 254 : Gare d'Enghien-Les-Bains ↔ Gare de Saint-D
 Line:Relation:7781895,512,Bus 512 : Front Populaire-Gardinoux ↔ Mairie d'Aubervilliers,RATP,RATP,,route_master,bus,100100512:512
 Line:Relation:7782019,528,Bus 528 : Porte de Clichy ↔ Gare Saint-Lazare,RATP,RATP,#F6837E,route_master,bus,100100528:528
 Line:Relation:7783242,340,Bus 340 : Clichy-Berges de Seine ↔ Asnières-Gennevilliers-Les Courtilles ↔ Gare d'Argenteuil,RATP,RATP,#F59EB3,route_master,bus,100100340:340
-Line:Relation:7783262,349,Bus 349 : Parc des Expositions RER ↔ Route de l'Arpenteur-ADP,RATP,RATP,#77C695,route_master,bus,100100349:349
+Line:Relation:7783262,349,Bus 349 : Parc des Expositions RER ↔ Route de l'Arpenteur-ADP,RATP / Kéolis CIF,RATP / Kéolis CIF,#77C695,route_master,bus,100100349:349
 Line:Relation:7784991,426,Bus 426 : Gare de La Celle-Saint-Cloud ↔ Pont de Sèvres / Hôtel de Ville de Boulogne-Billancourt,Traverciel,RATP,#8D653A,route_master,bus,100100426:426
 Line:Relation:7790644,62,Bus 62 : La Ferté sous Jouarre ↔ Chessy,Seine-et-Marne Express,Transdev Darche Gros,#66B5DD,route_master,bus,067067062:62
 Line:Relation:7791161,260,Bus 260 : Suzanne Lenglen (Paris) ↔ Gambetta (Boulogne-Billancourt),RATP,RATP,,route_master,bus,100100260:260
@@ -842,7 +842,7 @@ Line:Relation:7993123,E,Bus E : Gare RER de Roissy-en-Brie (circulaire),Sit'Bus,
 Line:Relation:7993124,A,Bus A : Gare d'Ozoir-la-Ferrière ↔ Pontault-Combault - Centre Commercial,Sit'Bus,N4 Mobilités,,route_master,bus,003351504:A
 Line:Relation:7996352,ClamiBus,Bus ClamiBus : Maison de Quartier André Charré ↔ Gare de Clamart,RATP,RATP,,route_master,bus,100100579:CLAMIBU
 Line:Relation:7998640,73,Bus 73 : Montpichet ↔ École Sainte-Thérèse,Pays Créçois,Transdev Marne et Morin,,route_master,bus,067067073:73
-Line:Relation:7998698,68.13,Bus 68.13 : Dourdan ↔ Sermaise ou Villeconin,Dourdan,Ormont Transport,,route_master,bus,068068013:6813
+Line:Relation:7998698,68.13,Bus 68.13 : Dourdan ↔ Sermaise ou Villeconin,Ormont Transport,Keolis Ormont,,route_master,bus,068068013:6813
 Line:Relation:7998730,95-32,Bus 95-32 : Lavoir ↔ Place Peyron,Busval d'Oise,CeoBus,#FF3399,route_master,bus,025195032:95-32
 Line:Relation:7999069,R106,Bus R106 : Institut Saint-Dominique ↔ Calvaire,CIF,Les Courriers de l'Île-de-France,#943281,route_master,bus,014014106:R106
 Line:Relation:7999311,7A,Bus 7A : Stade de la Faisanderie ↔ Gare Carnot,STILL,Transdev Ile-de-France Nemours,red,route_master,bus,064608007:7A
@@ -1164,7 +1164,7 @@ Line:Relation:9167851,LM1,Bus LM1 : Ermitage (Draveil) ↔ Lycée de Montgeron,S
 Line:Relation:9171581,12,Bus 12 : La Croix de Berny RER ↔ Cyrano de Bergerac,Paladin,Bièvre Bus Mobilités,,route_master,bus,020149012:12
 Line:Relation:9171785,N1,Bus N1 : Bizet ↔ Gare des Mureaux,Bus O'Mureaux,Transdev Île-de-France Ecquevilly,,route_master,bus,011011320:N1
 Line:Relation:9171822,E,Bus E : Le CERRSY ↔ Arbouville,Rambouillet urbain,Transdev Île-de-France Rambouillet,,route_master,bus,013013102:E
-Line:Relation:9171847,18-05,Bus 18-05 : Bretigny Gare Place (circulaire),Coeur Essonne,Transdev Île-de-France Brétigny,,route_master,bus,018018005:18-05
+Line:Relation:9171847,18-05,Bus 18-05 : Bretigny Gare Place (circulaire),Transdev Île-de-France Brétigny,Transdev Île-de-France Brétigny,,route_master,bus,018018005:18-05
 Line:Relation:9172126,3,Bus 3 : Antony RER ↔ Les Baconnets RER,Paladin,Bièvre Bus Mobilités,,route_master,bus,020149003:3
 Line:Relation:9172833,307,Bus 307 : Gare Routière Vélizy 2 ↔ Gare de Saint-Quentin-en-Yvelines,SAVAC,SAVAC,,route_master,bus,039039307:307
 Line:Relation:9172915,O1,Bus O1 : L'Echat ↔ Plaine Haute,Marne et Seine,Transdev STRAV,,route_master,bus,045045030:O1
@@ -1196,7 +1196,7 @@ Line:Relation:9183898,DM06B,Bus DM06B : Fontaine Mansart ↔ Gare de Sainte-Gene
 Line:Relation:9184388,L,Bus L : Fosses Rouges ↔ Lycée Condorcet,Com'Bus,CTVMI,,route_master,bus,057057057:L
 Line:Relation:9184807,28,Bus 28 : Place Berthet ↔ La Celle Saint-Cloud - Gare,Traverciel,Transdev Île-de-France Nanterre,,route_master,bus,213113027:28
 Line:Relation:9184990,29,Bus 29 : Étang Sec ↔ La Celle Saint-Cloud - Gare,Traverciel,Transdev Île-de-France Nanterre,,route_master,bus,213113027:29
-Line:Relation:9185040,18-11B,Bus 18-11B : Gare de Marolles-en-Hurepoix (circulaire),Coeur Essonne,Transdev Île-de-France Brétigny,,route_master,bus,018018011:103
+Line:Relation:9185040,103,Bus 103 : Gare de Marolles-en-Hurepoix (circulaire),Transdev Île-de-France Brétigny,Transdev Île-de-France Brétigny,,route_master,bus,018018011:103
 Line:Relation:9185095,43P,Bus 43P : Cesson Gare RER (circulaire intérieure),Sénart Bus,Transdev Île-de-France Lieusaint,,route_master,bus,065487043:43P
 Line:Relation:9185459,42P,Bus 42P : Cesson Gare RER (circulaire extérieure),Sénart Bus,Transdev Île-de-France Lieusaint,,route_master,bus,065487042:42P
 Line:Relation:9185838,76,Bus 76 : Cimetière ↔ Gare de Vaucresson,Plaine de Versailles,Transdev Île-de-France Ecquevilly,,route_master,bus,011011760:76
@@ -1212,7 +1212,7 @@ Line:Relation:9190123,702,Bus 702 : Gare de Val-de-Fontenay ↔ Gare d'Aulnay so
 Line:Relation:9190528,CDG,Bus CDG : Disneyland ↔ Terminal 1,Magical Shuttle,Transdev Visual,,route_master,bus,231231001:CDG
 Line:Relation:9190550,Orly,Bus Orly : Orly Sud ↔ Disneyland,Magical Shuttle,Transdev Visual,,route_master,bus,231231001:Orly
 Line:Relation:9190573,Selected,Bus Magical Shuttle Selected : Kyriad ↔ Aéroport CDG,Magical Shuttle,Transdev Visual,,route_master,bus,231231001:Selected
-Line:Relation:9190605,6809,Bus 68.09 : Gare RER d'Etrechy (circulaire),Ormont Transport,Ormont Transport,,route_master,bus,068068009:6809
+Line:Relation:9190605,68.09,Bus 68.09 : Gare RER d'Etrechy (circulaire),Ormont Transport,Keolis Ormont,,route_master,bus,068068009:6809
 Line:Relation:9190682,34,Bus 34 : Gare de la Ferté-sous-Jouarre SNCF ↔ Mairie,Pays Fertois,Marne et Morin,,route_master,bus,067067034:34
 Line:Relation:9190756,E,Bus E : Lycée Jules Ferry ↔ Picardie,Phébus,Keolis Versailles,,route_master,bus,056356026:E
 Line:Relation:9190795,C,Bus C : Gare de Rambouillet [Prud'homme] (circulaire),Rambouillet urbain,Transdev Île-de-France Rambouillet,,route_master,bus,013013105:C
@@ -1343,3 +1343,4 @@ Line:Relation:9261650,109,Bus 109 : Maison d'Arrêt des Femmes ↔ Porte d'Orlé
 Line:Relation:9275130,95-33,Bus 95-33 : Collège Les Hautiers ↔ La Tuilerie,Busval d'Oise,Ceobus,,route_master,bus,025195033:95-33
 Line:Relation:9280258,95-32,Bus 95-32 : Collège Les Hautiers  ↔ Lavoir,Busval d'Oise,Ceobus,,route_master,bus,025195032:95-32
 Line:Relation:9285368,17,Bus 17 : Lycée Lakanal ↔ Mairie de Bourg-la-Reine - Condorcet,Paladin,Bièvre Bus Mobilités,#ec732b,route_master,bus,020149007:17
+Line:Relation:9310093,95-31,Bus 95-31 : Collège Les Hautiers ↔ Myosotis,Busval d'Oise,Ceobus,,route_master,bus,

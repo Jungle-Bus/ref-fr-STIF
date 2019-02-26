@@ -142,7 +142,7 @@ Line:Relation:1802059,181,Bus 181 : École Vétérinaire de Maisons-Alfort ↔ C
 Line:Relation:1810272,272,Bus 272 : Sartrouville RER ↔ Gare d'Argenteuil,RATP,RATP,#F68F4A,route_master,bus,100100272:272
 Line:Relation:1842753,4,Bus 4 : Gare d'Argenteuil ↔ Gare de Houilles Carrières-sur-Seine,R'bus,Transdev TVO,#97bf0c,route_master,bus,016016004:4
 Line:Relation:1857145,129,Bus 129 : Mairie de Montreuil ↔ Porte des Lilas,RATP,RATP,#9B993B,route_master,bus,100100129:129
-Line:Relation:1866830,351,Bus 351: Paris-Nation RER Métro ↔ Roissypole RER,RATP,RATP,#E0B03B,route_master,bus,100100351:351
+Line:Relation:1866830,351,Bus 351: Paris - Nation ↔ Roissypole,RATP,RATP,#E0B03B,route_master,bus,100100351:351
 Line:Relation:1942584,Montmartrobus,Montmartrobus : Pigalle ↔ Mairie du 18e - Jules Joffrin,RATP,RATP,#98dade,route_master,bus,100100008:MONTMAR
 Line:Relation:1973045,125,Bus 125 : Porte d'Orléans ↔ École Vétérinaire de Maisons-Alfort,RATP,RATP,#006CB8,route_master,bus,100100125:125
 Line:Relation:1981724,323,Bus 323 : Issy-Val de Seine RER ↔ Chatillon-Montrouge / Chatillon-Montrouge-Métro ↔ Ivry-Gambetta,RATP,RATP,#CEC92A,route_master,bus,100100323:323
@@ -355,7 +355,7 @@ Line:Relation:6594969,421,Bus 421 : Vaires-Torcy ↔ Emerainville - Pontault-Com
 Line:Relation:6608978,249,Bus 249 : Dugny - Centre Ville ↔ Porte des Lilas,RATP,RATP,#CCD80E,route_master,bus,100100249:249
 Line:Relation:6645022,394,Bus 394 : Issy–Val de Seine RER ↔ Bourg-la-Reine RER,RATP,RATP,,route_master,bus,100100394:394
 Line:Relation:6660662,524,Bus 524: La Navette de Fontenay-sous-Bois,RATP,RATP,,route_master,bus,100100524:NAVETTE
-Line:Relation:6682682,AS (544),Bus 544 : Autobus Suresnois,Autobus Suresnois,RATP,,route_master,bus,100100544:AS-SURE
+Line:Relation:6682682,AS,Bus AS : Autobus Suresnois,Autobus Suresnois,RATP,,route_master,bus,100100544:AS-SURE
 Line:Relation:6706981,487,Bus 487 : Athis-Mons - Porte de l'Essonne ↔ Marché de Juvisy,RATP,RATP,,route_master,bus,100100487:487
 Line:Relation:6741325,31,Bus 31 : Cesson Gare RER ↔ Point de Vue (Lieusaint),Sénart Bus,Transdev Île-de-France Lieusaint,,route_master,bus,065487132:31
 Line:Relation:6741397,32,Bus 32 : Savigny - Nandy Gare RER (circulaire intérieur),Sénart Bus,Transdev Île-de-France Lieusaint,,route_master,bus,065487131:32
@@ -401,8 +401,6 @@ Line:Relation:6880695,95-11,Bus 95-11 : Aincourt ↔ Mantes-la-Jolie,Busval d'Oi
 Line:Relation:6881771,95-24,Bus 95-24 : Moussy ↔ Vigny,Busval d'Oise,Transdev Île-de-France Ecquevilly,#998eb8,route_master,bus,011195024:95-24
 Line:Relation:6883259,305,Bus 305 : Henri Barbusse - Gare RER de Corbeil Essonnes ↔ Notre-Dame - République (Soisy-sur-Seine),Seine Essonne Bus,Keolis Seine Essonne,,route_master,bus,024309305:305
 Line:Relation:6883314,Licorne,Bus Licorne : Foyer Jean Rostand (circulaire),Athis Cars,Keolis Seine Val-de-Marne,#D6188A,route_master,bus,002002002:LIC
-Line:Relation:6883352,Centaure,Bus Centaure : Gare de Villeneuve-le-Roi ↔ Gare de Villeneuve-le-Roi,Athis Cars,Keolis Seine Val-de-Marne,#79AF9A,route_master,bus,002002002:CEN
-Line:Relation:6883353,Bord de l'Eau,Bus Bord de l'Eau : Gare de Villeneuve-le-Roi ↔ Gare de Villeneuve-le-Roi,Athis Cars,Keolis Seine Val-de-Marne,#6F268E,route_master,bus,002002002:BDE
 Line:Relation:6885970,R104,Bus R104 : Sécurité Sociale (Goussainville) ↔ Institut Saint-Dominique (Mortefontaine),Keolis CIF,Les Courriers de l'Île-de-France,#0072BC,route_master,bus,014014104:R104
 Line:Relation:6886051,1,Bus 142 : La Défense ↔ Les Mureaux,Express A14,STILE Express,,route_master,bus,244244001:ExpA14
 Line:Relation:6886090,41A,Bus 41A : La Ferté sous Jouarre ↔ Coulommiers,Pays Fertois,Transdev Darche Gros,#FF0000,route_master,bus,097097041:41A
@@ -1346,5 +1344,7 @@ Line:Relation:9285368,17,Bus 17 : Lycée Lakanal ↔ Mairie de Bourg-la-Reine - 
 Line:Relation:9310093,95-31,Bus 95-31 : Collège Les Hautiers ↔ Myosotis,Busval d'Oise,Ceobus,,route_master,bus,025195031:95-31
 Line:Relation:9317042,95-35,Bus 95-35 : Ableiges ↔ Chars ↔ Bercagny ↔ Le-Perchay ↔ Marines,Busval d'Oise,Ceobus,,route_master,bus,025195035:95-35
 Line:Relation:9323686,K,Pédibus K : École Henri Wallon,Pédibus,Service municipal Enfance de la ville de Champs-sur-Marne,,route_master,walking_bus,
-Line:Relation:9340396,25,Bus 25 : Bibliothèque François Mitterrand ↔ Vitry - Marguerite Duras,RATP,RATP,,route_master,bus,100100025:25
-Line:Relation:9348862,2,Bus 2 : Place Colonel Beltrame (Villeneuve-le-Roi) ↔ Le Kiosque (Villeneuve-le-Roi),Athis Cars,Keolis Seine Val-de-Marne,#1D2250,route_master,bus,
+Line:Relation:9340396,25,futur Bus 25 : Bibliothèque François Mitterrand ↔ Vitry - Marguerite Duras,RATP,RATP,,route_master,bus,100100025:25
+Line:Relation:9348862,2,Bus 2 : Place Colonel Beltrame (Villeneuve-le-Roi) ↔ Le Kiosque (Villeneuve-le-Roi),Athis Cars,Keolis Seine Val-de-Marne,#1D2250,route_master,bus,002002002:2
+Line:Relation:9352984,45,futur Bus 45 : Concorde ↔ Rue de la Haie-Coq,RATP,RATP,,route_master,bus,100100045:45
+Line:Relation:9353394,59,futur Bus 59 : Gare de Clamart ↔ Place d'Italie,RATP,RATP,,route_master,bus,100100059:59

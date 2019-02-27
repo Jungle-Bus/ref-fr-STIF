@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-02-26T13:36:25Z">
-	<analyser timestamp="2019-02-26T13:36:25Z">
+<analysers timestamp="2019-02-27T13:37:37Z">
+	<analyser timestamp="2019-02-27T13:37:37Z">
 		<class item="8042" tag="transport en commun" id="1" level="3">
 			<classtext lang="fr" title="tag manquant sur une relation route_master (ligne de transport en commun)"></classtext>
 		</class>
@@ -220,9 +220,19 @@
 			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (100100045:45) n'existe pas ou plus dans les données opendata du STIF"></text>
 		</error>
 		<error class="1">
-			<location lat="48.8145451" lon="2.2718163"></location>
+			<location lat="48.8255894" lon="2.3019094"></location>
 			<relation id="9353394"></relation>
 			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (100100059:59) n'existe pas ou plus dans les données opendata du STIF"></text>
+		</error>
+		<error class="1">
+			<location lat="48.8371439" lon="2.3908385"></location>
+			<relation id="9353405"></relation>
+			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (100100071:71) n'existe pas ou plus dans les données opendata du STIF"></text>
+		</error>
+		<error class="1">
+			<location lat="48.562577" lon="2.249699"></location>
+			<relation id="9353416"></relation>
+			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (100100077:77) n'existe pas ou plus dans les données opendata du STIF"></text>
 		</error>
 	</analyser>
 </analysers>

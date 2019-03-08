@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-03-07T20:11:47Z">
-	<analyser timestamp="2019-03-07T20:11:47Z">
+<analysers timestamp="2019-03-08T19:54:04Z">
+	<analyser timestamp="2019-03-08T19:54:04Z">
 		<class item="8042" tag="transport en commun" id="1" level="3">
 			<classtext lang="fr" title="tag manquant sur une relation route_master (ligne de transport en commun)"></classtext>
 		</class>
@@ -83,6 +83,11 @@
 			<location lat="48.7997789" lon="2.2907287"></location>
 			<relation id="7902022"></relation>
 			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (100100592:AMIBUS) n'existe pas ou plus dans les données opendata du STIF"></text>
+		</error>
+		<error class="1">
+			<location lat="49.040986499999995" lon="2.3115172"></location>
+			<relation id="7909099"></relation>
+			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (038595040:Navette) n'existe pas ou plus dans les données opendata du STIF"></text>
 		</error>
 		<error class="1">
 			<location lat="48.899330199999994" lon="2.0939772"></location>

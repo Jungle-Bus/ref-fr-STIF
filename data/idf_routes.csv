@@ -1185,8 +1185,8 @@ Route:Relation:7229015,Flixbus N800: Paris - Amsterdam,N800,Amsterdam Sloterdijk
 Route:Relation:7229016,Flixbus N800: Amsterdam - Paris,N800,Paris Porte Maillot,Flixbus
 Route:Relation:7229177,Flixbus 804: Paris - Amsterdam,804,Amsterdam Sloterdijk,Flixbus
 Route:Relation:7229178,Flixbus 804: Amsterdam - Paris,804,Paris Porte Maillot,Flixbus
-Route:Relation:7229179,Flixbus N804: Paris - Amsterdam,N804,Amsterdam Sloterdijk,Flixbus
-Route:Relation:7229180,Flixbus N804: Amsterdam - Paris,N804,Paris Porte Maillot,Flixbus
+Route:Relation:7229179,Flixbus N804: Paris Porte Malllot => Amsterdam Sloterdijk,N804,Amsterdam Sloterdijk,Flixbus
+Route:Relation:7229180,Flixbus N804: Amsterdam Sloterdijk => Paris Porte Maillot,N804,Paris Porte Maillot,Flixbus
 Route:Relation:7236565,Bus Direct 2 : Aéroport Roissy CDG → Champ de Mars,Direct 2,Champ de Mars - Tour Eiffel,Le Bus Direct
 Route:Relation:7236566,Bus Direct 3 : Aéroport Roissy CDG → Aéroport Orly,Direct 3,Aéroport Orly,Le Bus Direct
 Route:Relation:7236567,Bus Direct 1 : Aéroport Orly → Charles de Gaulle Étoile,Direct 1,Charles de Gaulle Étoile,Le Bus Direct
@@ -1373,7 +1373,7 @@ Route:Relation:7728419,Bus 44 : La Haye (Bussy-Saint-Georges) → Jacqueline Aur
 Route:Relation:7728547,Bus 32 : Gare de Val d'Europe → Gare de Tournan,32,Gare de Tournan,Pep's
 Route:Relation:7734524,Bus 12 : Bergeries - St Hubert (Draveil) → Gare routière de Juvisy-sur-Orge,12,Juvisy Gare Routière Seine,Seine Sénart Bus
 Route:Relation:7734582,Navette J : Languedoc → Rond-Point du Pileu,J,Rond-Point du Pileu (Massy),La Navette Paris-Saclay
-Route:Relation:7735775,Bus 104 : École Vétérinaire de Maisons-Alfort → Sucy–Bonneuil RER via,104,Sucy–Bonneuil RER,RATP
+Route:Relation:7735775,Bus 104 : École Vétérinaire de Maisons-Alfort → Ateliers RATP → Sucy–Bonneuil RER,104,Sucy–Bonneuil RER,RATP
 Route:Relation:7736753,Bus 11 : MAURECOURT Julia → POISSY Gare Nord de Poissy,11,,Poissy Aval - 2 rives de Seine
 Route:Relation:7740239,Bus 577 (River Plaza) : Gennevilliers RER → Asnières-sur-Seine — Gabriel Péri,577,Asnières-sur-Seine — Gabriel Péri,RATP
 Route:Relation:7740240,Bus 577 (River Plaza) : Asnières-sur-Seine — Gabriel Péri → Gennevilliers RER,577,Gennevilliers RER,RATP
@@ -2383,8 +2383,8 @@ Route:Relation:9181061,Bus 3A : Saint-Exupéry → Gare de Mitry-Claye,3A,Gare d
 Route:Relation:9181062,Bus 3A : Gare de Mitry-Claye → Saint-Exupéry,3A,Saint-Exupéry,Les Courriers de l'Île-de-France
 Route:Relation:9181180,Bus 9 : Clos de Massy → Antony RER,9,Antony RER,Paladin
 Route:Relation:9181181,Bus 9 : Antony RER → Clos de Massy,9,Clos de Massy,Paladin
-Route:Relation:9181254,Bus 304 : Centre Commercial → Gare de Corbeil-Essonnes - Henri Barbusse,304,Gare de Corbeil-Essonnes - Henri Barbusse (Quai 2),Seine Essonne Bus
-Route:Relation:9181255,Bus 304 : Gare de Corbeil-Essonnes - Henri Barbusse → Centre Commercial,304,Centre Commercial,Seine Essonne Bus
+Route:Relation:9181254,Bus 304 : IKEA (Lisses) → Gare de Corbeil-Essonnes - Henri Barbusse,304,Gare de Corbeil-Essonnes - Henri Barbusse (Quai 2),Seine Essonne Bus
+Route:Relation:9181255,Bus 304 : Gare de Corbeil-Essonnes - Henri Barbusse → IKEA (Lisses),304,IKEA (Lisses),Seine Essonne Bus
 Route:Relation:9181425,Bus 95-03A : Gare de Montigny - Beauchamp → Gare de Cergy-Préfecture,95-03A,Gare de Cergy-Préfecture,Busval d'Oise
 Route:Relation:9181426,Bus 95-03A : Gare de Cergy-Préfecture → Gare de Montigny - Beauchamp,95-03A,Gare de Montigny - Beauchamp,Busval d'Oise
 Route:Relation:9181578,Bus QBUS : Boussy Gare (circulaire),QBUS,Gare de Boussy,VyBus
@@ -2786,7 +2786,7 @@ Route:Relation:9374936,futur Bus 92 : Porte de Champerret → Porte d'Orléans,9
 Route:Relation:9375178,futur Bus 30 : Hôpital Européen Georges Pompidou → Pigalle,30,Pigalle,RATP
 Route:Relation:9375179,futur Bus 30 : Pigalle → Hôpital Européen Georges Pompidou,30,Hôpital Européen Georges Pompidou,RATP
 Route:Relation:9375200,Bus : 95-18 Cergy Préfecture → Roissypôle Gare,95-18,ROISSY : Roissypôle Gare,Mobilien
-Route:Relation:9375201,Bus : 95-18  Roissypôle Gare → Cergy Préfecture,95-18,CERGY : Préfecture/RER,Mobilien
+Route:Relation:9375201,Bus : 95-18 Roissypôle Gare → Cergy Préfecture,95-18,CERGY : Préfecture/RER,Mobilien
 Route:Relation:9375455,futur Bus 32 : Porte d'Auteuil → Gare de l'Est,32,Gare de l'Est,RATP
 Route:Relation:9375456,futur Bus 32 : Gare de l'Est → Porte d'Auteuil,32,Porte d'Auteuil,RATP
 Route:Relation:9375508,futur Bus 83 : Invalides → Porte d'Ivry,83,Porte d'Ivry,RATP
@@ -2802,3 +2802,5 @@ Route:Relation:9376704,Futur Bus 66 : Opéra → Mairie de Saint-Ouen,66,Mairie 
 Route:Relation:9376705,Futur Bus 66 : Mairie de Saint-Ouen → Opéra,66,Opéra,RATP
 Route:Relation:9376947,Futur Bus 38 : Porte de la Chapelle → Porte d'Orléans,38,Porte d'Orléans,RATP
 Route:Relation:9376948,Futur Bus 38 :Porte d'Orléans → Porte de la Chapelle,38,Porte de la Chapelle,RATP
+Route:Relation:9380793,Bus 107 : Saint-Maur–La Pie → École Vétérinaire de Maisons-Alfort,107,Ecole Vétérinaire de Maisons-Alfort,RATP
+Route:Relation:9380794,Bus 107 : École Vétérinaire de Maisons-Alfort → Saint-Maur–La Pie,107,Saint-Maur,RATP

@@ -15,7 +15,7 @@ Route:Relation:127724,Bus 103 : École Vétérinaire de Maisons-Alfort → March
 Route:Relation:149679,Bus 182 : Mairie d'Ivry → Villeneuve Triage RER,182,Villeneuve Triage RER,RATP
 Route:Relation:150122,Bus Choisybus (582) : Service urbain de Choisy-le-Roi (circulaire),Choisybus,Choisy-le-Roi RER,RATP
 Route:Relation:156276,Bus 120 : Nogent-sur-Marne RER → Hôpital Saint-Camille,120,Hôpital Saint-Camille,RATP
-Route:Relation:163664,Bus 183 : Porte de Choisy → Aéroport d'Orly - Terminal Sud,183,Aéroport d'Orly - Terminal Sud,RATP
+Route:Relation:163664,Bus 183 : Porte de Choisy → Aéroport d'Orly,183,Aéroport d'Orly,RATP
 Route:Relation:180765,Bus 128 : Porte d'Orléans → Robinson RER,128,Robinson RER,RATP
 Route:Relation:223747,Bus 105 : Porte des Lilas → Mairie des Pavillons-sous-Bois,105,Mairie des Pavillons-sous-Bois,RATP
 Route:Relation:225660,Bus 129 : Porte des Lilas → Mairie de Montreuil,129,Mairie de Montreuil,RATP
@@ -70,7 +70,7 @@ Route:Relation:1057572,Noctilien N14 : Mairie de Saint-Ouen → La Croix de Bern
 Route:Relation:1057574,Noctilien N12 : Pont de Sèvres → Romainville–Carnot,N12,Romainville–Carnot,Noctilien
 Route:Relation:1057575,Bus N23 : Châtelet → Chelles - Gournay RER,N23,Chelles - Gournay RER,Noctilien
 Route:Relation:1057576,Noctilien N43 : Gare de l'Est → Gare de Sarcelles - Sainte-Brice,N43,Gare de Sarcelles - Sainte-Brice,Noctilien
-Route:Relation:1057578,Bus 350 : Roissypole → Gare de l'Est,350,Gare de l'Est,RATP
+Route:Relation:1057578,Bus 350 : Roissypole → Garonor - Porte Sud → Gare de l'Est,350,Gare de l'Est,RATP
 Route:Relation:1066789,Bus 38 : Gare du Nord → Porte d'Orléans,38,Porte d'Orléans,RATP
 Route:Relation:1066790,Bus 38 :Porte d'Orléans → Gare du Nord,38,Gare du Nord,RATP
 Route:Relation:1066841,Bus 28 : Porte d'Orléans → Gare Saint-Lazare,28,Gare Saint-Lazare,RATP
@@ -859,7 +859,7 @@ Route:Relation:5407502,Bus 492 : Chilly-Mazarin — Place de la Libération → 
 Route:Relation:5415924,Bus 217 : Vitry-sur-Seine RER → Hôtel de Ville de Créteil,217,Hôtel de Ville de Créteil,RATP
 Route:Relation:5426282,Bus 268 : Saint-Denis–Université → Gare de Villiers-le-Bel RER,268,Gare de Villiers-Le-Bel RER,RATP
 Route:Relation:5426314,Bus 256 : Saint-Denis–Université → Gare d'Enghien-les-Bains,256,Gare d'Enghien-les-Bains,RATP
-Route:Relation:5426449,Bus 183 : Aéroport d'Orly - Terminal Sud → Porte de Choisy,183,Porte de Choisy,RATP
+Route:Relation:5426449,Bus 183 : Aéroport d'Orly → Porte de Choisy,183,Porte de Choisy,RATP
 Route:Relation:5450944,La Navette de Thiais : Ferme de Grignon → La Galaise,La Navette,La Galaise,RATP
 Route:Relation:5450945,La Navette de Thiais : La Galaise → Ferme de Grignon,La Navette,Ferme de Grignon,RATP
 Route:Relation:5451823,Bus 613 : Gare de Chelles-Gournay → Gare d'Aulnay-sous-Bois,613,Gare d'Aulnay-sous-Bois,Seine-Saint-Denis
@@ -1294,7 +1294,7 @@ Route:Relation:7459502,Bus 38 : Préfecture RER → Le Port,38,Le Port,STIVO
 Route:Relation:7460802,Bus 38 : Lozier → Préfecture RER,38,Préfecture RER,STIVO
 Route:Relation:7460851,Bus 36 : Les Croizettes → Pontoise Gare,36,Pontoise Gare,STIVO
 Route:Relation:7462173,Bus 36 : Pontoise Gare → Les Croizettes,36,Les Croizettes,STIVO
-Route:Relation:7466936,Bus 350 : Gare de l'Est → Roissypole,350,Roissypole,RATP
+Route:Relation:7466936,Bus 350 : Gare de l'Est → Garonor → Roissypole,350,Roissypole,RATP
 Route:Relation:7470548,Bus 46 : Gare de Melun → Gare de Montereau,46,Gare de Montereau,Seine-et-Marne Express
 Route:Relation:7471867,Bus DM13 : Brétigny-sur-Orge RER → Linas,DM13,Linas,Transports Daniel Meyer
 Route:Relation:7471868,Bus DM13 : Linas → Brétigny-sur-Orge RER,DM13,Brétigny-sur-Orge RER,Transports Daniel Meyer
@@ -2738,15 +2738,15 @@ Route:Relation:9353415,futur Bus 77 : Gare de Lyon → Joinville-le-Pont RER,77,
 Route:Relation:9355072,futur Bus 60 : Gambetta → Porte de Montmartre,60,Porte de Montmartre,RATP
 Route:Relation:9355073,futur Bus 60 : Porte de Montmartre → Gambetta,60,Gambetta,RATP
 Route:Relation:9361042,Bus 350 : Roissypole → Musée de l'Air et de l'Espace,350,Musée de l'Air et de l'Espace,RATP
-Route:Relation:9361043,Bus 350 : Roissypole → Gare de l'Est,350,Gare de l'Est,RATP
-Route:Relation:9361044,Bus 350 : Roissypole → Gare de l'Est,350,Gare de l'Est,RATP
-Route:Relation:9361045,Bus 350 : Roissypole → Gare de l'Est,350,Gare de l'Est,RATP
+Route:Relation:9361043,Bus 350 : Roissypole → Garonor - Porte Sud → Gare de l'Est,350,Gare de l'Est,RATP
+Route:Relation:9361044,Bus 350 : Roissypole → Garonor → Gare de l'Est,350,Gare de l'Est,RATP
+Route:Relation:9361045,Bus 350 : Roissypole → Garonor → Gare de l'Est,350,Gare de l'Est,RATP
 Route:Relation:9361047,Bus 350 : Garonor - Porte Sud → Gare de l'Est,350,Gare de l'Est,RATP
 Route:Relation:9361048,Bus 350 : Musée de l'Air et de l'Espace → Roissypole,350,Roissypole,RATP
-Route:Relation:9361049,Bus 350 : Gare de l'Est → Roissypole,350,Roissypole,RATP
-Route:Relation:9361051,Bus 350 : Gare de l'Est → Roissypole,350,Roissypole,RATP
+Route:Relation:9361049,Bus 350 : Gare de l'Est → Garonor - Porte Sud → Roissypole,350,Roissypole,RATP
+Route:Relation:9361051,Bus 350 : Gare de l'Est → Garonor - Porte Sud → Roissypole,350,Roissypole,RATP
 Route:Relation:9361052,Bus 350 : Gare de l'Est → Roissypole,350,Roissypole,RATP
-Route:Relation:9361053,Bus 350 : Gare de l'Est → Roissypole,350,Roissypole,RATP
+Route:Relation:9361053,Bus 350 : Gare de l'Est → Garonor → Roissypole,350,Roissypole,RATP
 Route:Relation:9363923,futur Bus 76 : Châtelet → Bagnolet — Louise Michel,76,Louise Michel (Bagnolet),RATP
 Route:Relation:9363924,futur Bus 76 : Bagnolet - Louise Michel → Châtelet,76,Châtelet,RATP
 Route:Relation:9364009,futur Bus 64 : Porte des Lilas → Denfert-Rochereau,64,Denfert-Rochereau,RATP
@@ -2826,15 +2826,15 @@ Route:Relation:9419893,futur Bus 72 : Gare de Lyon → Parc de Saint-Cloud,72,Pa
 Route:Relation:9419894,futur Bus 72 : Parc de Saint-Cloud → Gare de Lyon,72,Gare de Lyon,RATP
 Route:Relation:9420540,futur Bus 74 : Châtelet → Clichy-la-Garenne – Berges de Seine,74,Clichy-la-Garenne – Berges de Seine,RATP
 Route:Relation:9420541,futur Bus 74 : Clichy-la-Garenne – Berges de Seine → Châtelet,74,Châtelet,RATP
-Route:Relation:9420914,futur Bus 350 : Roissypole → Porte de la Chapelle,350,Porte de la Chapelle,RATP
-Route:Relation:9420915,futur Bus 350 : Roissypole → Porte de la Chapelle,350,Porte de la Chapelle,RATP
-Route:Relation:9420916,futur Bus 350 : Roissypole → Porte de la Chapelle,350,Porte de la Chapelle,RATP
-Route:Relation:9420917,futur Bus 350 : Roissypole → Porte de la Chapelle,350,Porte de la Chapelle,RATP
+Route:Relation:9420914,futur Bus 350 : Roissypole → Garonor → Porte de la Chapelle,350,Porte de la Chapelle,RATP
+Route:Relation:9420915,futur Bus 350 : Roissypole → Garonor - Porte Sud → Porte de la Chapelle,350,Porte de la Chapelle,RATP
+Route:Relation:9420916,futur Bus 350 : Roissypole → Garonor → Porte de la Chapelle,350,Porte de la Chapelle,RATP
+Route:Relation:9420917,futur Bus 350 : Roissypole → Garonor - Porte Sud → Porte de la Chapelle,350,Porte de la Chapelle,RATP
 Route:Relation:9420918,futur Bus 350 : Porte de la Chapelle → Roissypole,350,Roissypole,RATP
-Route:Relation:9420919,futur Bus 350 : Porte de la Chapelle → Roissypole,350,Roissypole,RATP
-Route:Relation:9420920,futur Bus 350 : Porte de la Chapelle → Roissypole,350,Roissypole,RATP
-Route:Relation:9420921,futur Bus 350 : Porte de la Chapelle → Roissypole,350,Roissypole,RATP
-Route:Relation:9420922,futur Bus 350 : Porte de la Chapelle → Roissypole,350,Roissypole,RATP
+Route:Relation:9420919,futur Bus 350 : Porte de la Chapelle → Garonor → Roissypole,350,Roissypole,RATP
+Route:Relation:9420920,futur Bus 350 : Porte de la Chapelle → Garonor - Porte Sud → Roissypole,350,Roissypole,RATP
+Route:Relation:9420921,futur Bus 350 : Porte de la Chapelle → Garonor - Porte Sud → Roissypole,350,Roissypole,RATP
+Route:Relation:9420922,futur Bus 350 : Porte de la Chapelle → Garonor → Roissypole,350,Roissypole,RATP
 Route:Relation:9420944,futur Bus 75 : Porte de Pantin → Panthéon,75,Panthéon,RATP
 Route:Relation:9420945,futur Bus 75 : Panthéon → Porte de Pantin,75,Porte de Pantin,RATP
 Route:Relation:9421033,futur Bus 85 : Saint-Ouen - Les Docks → Châtelet,85,Châtelet,RATP

@@ -67,7 +67,7 @@ Route:Relation:1057568,Noctilien N45 : Hôpital de Montfermeil → Gare de l'Est
 Route:Relation:1057571,Noctilien N13 : Bobigny - Pablo Picasso → Mairie d’Issy,N13,Mairie d’Issy,Noctilien
 Route:Relation:1057572,Noctilien N14 : Mairie de Saint-Ouen → La Croix de Berny RER,N14,La Croix de Berny RER,Noctilien
 Route:Relation:1057574,Noctilien N12 : Pont de Sèvres → Romainville–Carnot,N12,Romainville–Carnot,Noctilien
-Route:Relation:1057575,Bus N23 : Châtelet → Chelles - Gournay RER,N23,Chelles - Gournay RER,Noctilien
+Route:Relation:1057575,Noctilien N23 : Châtelet → Chelles - Gournay RER,N23,Chelles - Gournay RER,Noctilien
 Route:Relation:1057576,Noctilien N43 : Gare de l'Est → Gare de Sarcelles - Sainte-Brice,N43,Gare de Sarcelles - Sainte-Brice,Noctilien
 Route:Relation:1057578,Bus 350 : Roissypole → Garonor - Porte Sud → Gare de l'Est,350,Gare de l'Est,RATP
 Route:Relation:1066789,Bus 38 : Gare du Nord → Porte d'Orléans,38,Porte d'Orléans,RATP
@@ -76,7 +76,7 @@ Route:Relation:1066841,Bus 28 : Porte d'Orléans → Gare Saint-Lazare,28,Gare S
 Route:Relation:1066893,Bus 28 : Gare Saint-Lazare → Porte d'Orléans,28,Porte d'Orléans,RATP
 Route:Relation:1083263,Bus 42 : Hôpital Européen Georges Pompidou → Gare du Nord,42,Gare du Nord,RATP
 Route:Relation:1083264,Bus 42 : Gare du Nord → Hôpital Européen Georges Pompidou,42,Hôpital Européen Georges Pompidou,RATP
-Route:Relation:1083315,Noctilien N21 : Hôpital de Longjumeau → Châtelet,N21,Châtelet,Noctilien
+Route:Relation:1083315,Noctilien N21 : Hôpital de Longjumeau → Hôtel de Ville,N21,Hôtel de Ville,Noctilien
 Route:Relation:1083316,Noctilien N122 : Saint-Rémy-lès-Chevreuse RER → Châtelet,N122,Châtelet,Noctilien
 Route:Relation:1083331,Noctilien N01 : Circulaire Intérieure,N01,Gare de l'Est (circulaire intérieure),Noctilien
 Route:Relation:1083332,Noctilien N02 : Circulaire Extérieure,N02,Gare Montparnasse (Circulaire Extérieure),Noctilien
@@ -284,7 +284,7 @@ Route:Relation:1555938,Bus 114 : Château de Vincennes → Le Raincy – Villemo
 Route:Relation:1555960,Bus 325 : Bibliothèque François Mitterrand → Château de Vincennes,325,Château de Vincennes,RATP
 Route:Relation:1555961,Bus 318: Raymond Queneau (Pantin) → Château de Vincennes,318,Château de Vincennes,RATP
 Route:Relation:1555962,Noctilien N33: Villiers-sur-Marne - Le Plessis-Trévise RER → Gare de Lyon,N33,Gare de Lyon,Noctilien
-Route:Relation:1559982,Bus N23 : Chelles - Gournay RER → Châtelet - Hôtel de Ville,N23,Châtelet - Hôtel de Ville,Noctilien
+Route:Relation:1559982,Noctilien N23 : Chelles - Gournay RER → Châtelet - Hôtel de Ville,N23,Châtelet - Hôtel de Ville,Noctilien
 Route:Relation:1574079,Bus 175 : Porte de Saint-Cloud → Asnières–Gennevilliers – Gabriel Péri,175,Asnières-Gennevilliers - Gabriel Péri,RATP
 Route:Relation:1576586,Noctilien N52: Gare d’Argenteuil → Gare Saint-Lazare,N52,Gare Saint-Lazare,Noctilien
 Route:Relation:1580968,Bus 116 : Champigny - Saint-Maur RER → Rosny - Bois-Perrier RER - Rosny 2,116,Rosny - Bois-Perrier RER - Rosny 2,RATP
@@ -333,7 +333,7 @@ Route:Relation:1760450,Bus 91-07 : Dourdan → Étampes,91-07,Étampes,Albatrans
 Route:Relation:1760451,Bus 85.01 : Dourdan intra-muros (circuit 2),85-01,,Cars Perron
 Route:Relation:1760452,Bus 29 : Moutiers → Gare de Dourdan,29,,Réseau Interurbain de Rambouillet
 Route:Relation:1762127,Noctilien N61 : Gare Montparnasse → Clamart - Georges Pompidou,N61,Clamart - Georges Pompidou,Noctilien
-Route:Relation:1762128,Noctilien N61 : Clamart–Georges Pompidou → Gare Montparnasse,N61,Gare Montparnasse,Noctilien
+Route:Relation:1762128,Noctilien N61 : Clamart - Georges Pompidou → Gare Montparnasse,N61,Gare Montparnasse,Noctilien
 Route:Relation:1771179,Bus 467 : Rueil-Malmaison RER → Pont de Sèvres,467,Pont de Sèvres,RATP
 Route:Relation:1782905,Bus 123 : Mairie d'Issy → Porte d'Auteuil,123,Porte d'Auteuil,RATP
 Route:Relation:1782906,Bus 123 : Porte d'Auteuil → Mairie d'Issy,123,Mairie d'Issy,RATP
@@ -812,8 +812,8 @@ Route:Relation:4831102,Bus 5 : Gare routière de Fontainebleau Avon → Croix de
 Route:Relation:4831103,Bus 6 : Gare routière de Fontainebleau Avon → Vulaines-sur-Seine,6,Vulaines-sur-Seine,Aérial
 Route:Relation:4860736,Bus 201 : Joinville-le-Pont RER → Diderot - La Plage (Champigny),201,Diderot - La Plage (Champigny),RATP
 Route:Relation:4860737,Bus 201 : Champigny–Diderot–La Plage → Joinville-le-Pont RER,201,Gare de Joinville le Pont,RATP
-Route:Relation:4860754,Bus 108 : Champigny–Jeanne Vacher → Joinville-le-Pont RER,108,,RATP
-Route:Relation:4860755,Bus 108 : Joinville-le-Pont RER → Champigny–Jeanne Vacher,108,,RATP
+Route:Relation:4860754,Bus 108 : Champigny – Jeanne Vacher → Joinville-le-Pont RER,108,Joinville-le-Pont RER,RATP
+Route:Relation:4860755,Bus 108 : Joinville-le-Pont RER → Champigny – Jeanne Vacher,108,Champigny - Jeanne Vacher,RATP
 Route:Relation:4873722,Bus 208s : Champigny–Saint-Maur RER (circulaire) via Paul Venzac (nuit),208s,Champigny - Saint-Maur RER,RATP
 Route:Relation:5120317,Bus 297 : Porte d'Orléans → Longjumeau - Place Charles Steber,297,Longjumeau - Place Charles Steber,RATP
 Route:Relation:5120470,Bus 297 : Longjumeau-Place Charles Steber → Porte d'Orléans,297,Porte d'Orléans,RATP
@@ -1366,7 +1366,7 @@ Route:Relation:7724672,Bus 23 Les Ulis → Massy-Palaiseau,23,Gare de Massy-Pala
 Route:Relation:7724673,Bus 21 Les Ulis → Courtaboeuf → Les Ulis,21,Centre Commercial Ulis 2,Mobicaps
 Route:Relation:7726020,Bus 351: Paris - Nation → Roissypole (Le samedi et dimanche après 9h),351,Roissypole,RATP
 Route:Relation:7726023,Bus 351: Roissypole → Paris - Nation (sam-dim),351,,RATP
-Route:Relation:7728419,Bus 44 : La Haye (Bussy-Saint-Georges) → Jacqueline Auriol (Bussy-Saint-Georges),44,Jacqueline Auriol (Bussy-Saint-Georges),Pep's
+Route:Relation:7728419,Bus 44 : Poste ZI Bussy → Jacqueline Auriol (Bussy-Saint-Georges),44,Jacqueline Auriol (Bussy-Saint-Georges),Pep's
 Route:Relation:7728547,Bus 32 : Gare de Val d'Europe → Gare de Tournan,32,Gare de Tournan,Pep's
 Route:Relation:7734524,Bus 12 : Bergeries - St Hubert (Draveil) → Gare routière de Juvisy-sur-Orge,12,Juvisy Gare Routière Seine,Seine Sénart Bus
 Route:Relation:7734582,Navette J : Languedoc → Rond-Point du Pileu,J,Rond-Point du Pileu (Massy),La Navette Paris-Saclay

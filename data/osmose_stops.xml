@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-04-09T14:00:29Z">
-	<analyser timestamp="2019-04-09T14:00:29Z">
+<analysers timestamp="2019-04-10T14:00:31Z">
+	<analyser timestamp="2019-04-10T14:00:31Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag obsolète sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -37583,30 +37583,6 @@
 			<fixes>
 				<fix>
 					<node id="5328081314">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.8573976" lon="2.3502066999999998"></location>
-			<node id="2073394390"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 39821;41401 l'association avec la ligne 100100076:76 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=2073394390"></text>
-			<fixes>
-				<fix>
-					<node id="2073394390">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.8573976" lon="2.3502066999999998"></location>
-			<node id="2073394390"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 39821;41401 l'association avec la ligne 100100076:76 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=2073394390"></text>
-			<fixes>
-				<fix>
-					<node id="2073394390">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

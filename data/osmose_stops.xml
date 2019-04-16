@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-04-15T14:03:29Z">
-	<analyser timestamp="2019-04-15T14:03:29Z">
+<analysers timestamp="2019-04-16T14:04:05Z">
+	<analyser timestamp="2019-04-16T14:04:05Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag obsolète sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -9569,12 +9569,36 @@
 			</fixes>
 		</error>
 		<error class="2">
+			<location lat="48.831661999999994" lon="2.3563932"></location>
+			<node id="6171190790"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 41261;421203 l'association avec la ligne 100100064:64 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=6171190790"></text>
+			<fixes>
+				<fix>
+					<node id="6171190790">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
 			<location lat="48.8517699" lon="2.3307197"></location>
 			<node id="260382063"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 27093 l'association avec la ligne 100100063:63 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=260382063"></text>
 			<fixes>
 				<fix>
 					<node id="260382063">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.831661999999994" lon="2.3563932"></location>
+			<node id="6171190790"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 41261;421203 l'association avec la ligne 100100064:64 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=6171190790"></text>
+			<fixes>
+				<fix>
+					<node id="6171190790">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>
@@ -38723,6 +38747,18 @@
 			<fixes>
 				<fix>
 					<node id="1509815555">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.879241" lon="2.337684"></location>
+			<node id="6344421450"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 463962 l'association avec la ligne 100100008:MONTMAR est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=6344421450"></text>
+			<fixes>
+				<fix>
+					<node id="6344421450">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

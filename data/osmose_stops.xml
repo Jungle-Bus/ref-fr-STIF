@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-05-03T14:13:52Z">
-	<analyser timestamp="2019-05-03T14:13:52Z">
+<analysers timestamp="2019-05-04T14:14:02Z">
+	<analyser timestamp="2019-05-04T14:14:02Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag obsolète sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -27407,30 +27407,6 @@
 			<fixes>
 				<fix>
 					<node id="5979563062">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.507151199999996" lon="2.5358467"></location>
-			<node id="6148439357"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 30402 l'association avec la ligne  est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=6148439357"></text>
-			<fixes>
-				<fix>
-					<node id="6148439357">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.5071516" lon="2.5357212"></location>
-			<node id="5899283658"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 30441 l'association avec la ligne  est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5899283658"></text>
-			<fixes>
-				<fix>
-					<node id="5899283658">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

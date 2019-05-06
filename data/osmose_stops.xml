@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-05-05T14:15:03Z">
-	<analyser timestamp="2019-05-05T14:15:03Z">
+<analysers timestamp="2019-05-06T14:16:20Z">
+	<analyser timestamp="2019-05-06T14:16:20Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag obsolète sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -10415,6 +10415,18 @@
 			<fixes>
 				<fix>
 					<node id="2042462151">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.8588289" lon="2.3317912"></location>
+			<node id="2039737161"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 22637 l'association avec la ligne 100100087:87 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=2039737161"></text>
+			<fixes>
+				<fix>
+					<node id="2039737161">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>
@@ -28667,6 +28679,18 @@
 			<fixes>
 				<fix>
 					<node id="6228411079">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="49.0411868" lon="2.0739156"></location>
+			<node id="5761107450"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 15087 l'association avec la ligne 025195008:95-08 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5761107450"></text>
+			<fixes>
+				<fix>
+					<node id="5761107450">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

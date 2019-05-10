@@ -35,7 +35,7 @@
         }, {
             "name": "update Osmose prod lignes",
             "executor": "shell",
-            "command": "cd data && curl -s --request POST --form source='opendata_stif-france_ile_de_france' --form code=\"$Osmose_idf_auth\" --form content=@osmose_lines.xml http://osmose.openstreetmap.fr/control/send-update",
+            "command": "cd data && curl -s --request POST --form analyser='opendata_stif' --form country='france_ile_de_france' --form code=\"$Osmose_idf_auth\" --form content=@osmose_lines.xml http://osmose.openstreetmap.fr/control/send-update",
             "arguments": [],
             "dependsOn": ["update Osmose dev lignes"],
             "onResult": {
@@ -55,7 +55,7 @@
         }, {
             "name": "update Osmose prod stops",
             "executor": "shell",
-            "command": "cd data && curl -s --request POST --form source='opendata_stif-france_ile_de_france' --form code=\"$Osmose_idf_auth\" --form content=@osmose_stops.xml http://osmose.openstreetmap.fr/control/send-update",
+            "command": "cd data && curl -s --request POST --form analyser='opendata_stif' --form country='france_ile_de_france' --form code=\"$Osmose_idf_auth\" --form content=@osmose_stops.xml http://osmose.openstreetmap.fr/control/send-update",
             "arguments": [],
             "dependsOn": ["update Osmose dev stops"],
             "onResult": {

@@ -18,7 +18,7 @@ Le code est présent dans des notebooks en complément des étapes de préproces
 * Audit de juillet 2018 - [Publication](http://junglebus.io/iledefrance/audit_2018_07) - tag [audit_2018_07](https://github.com/Jungle-Bus/ref-fr-STIF/tree/audit_2018_07)
 * Audit de novembre 2018 - [Publication](http://junglebus.io/iledefrance/audit_2018_11) - tag [audit_2018_11](https://github.com/Jungle-Bus/ref-fr-STIF/tree/audit_2018_11)
 * Audit de février 2019 - [Publication](http://junglebus.io/iledefrance/audit_2019_02) - tag [audit_2019_02](https://github.com/Jungle-Bus/ref-fr-STIF/tree/audit_2019_02)
-* * Audit de mai 2019 - [Publication](http://junglebus.io/iledefrance/audit_2019_05) - tag [audit_2019_05](https://github.com/Jungle-Bus/ref-fr-STIF/tree/audit_2019_05) - en cours
+* Audit de mai 2019 - [Publication](http://junglebus.io/iledefrance/audit_2019_05) - tag [audit_2019_05](https://github.com/Jungle-Bus/ref-fr-STIF/tree/audit_2019_05)
 
 # Lancement
 

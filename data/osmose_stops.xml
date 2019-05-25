@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-05-24T14:27:31Z">
-	<analyser timestamp="2019-05-24T14:27:31Z">
+<analysers timestamp="2019-05-25T14:28:23Z">
+	<analyser timestamp="2019-05-25T14:28:23Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag obsolète sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -659,6 +659,18 @@
 			<fixes>
 				<fix>
 					<node id="1820540853">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.798491999999996" lon="2.1526149"></location>
+			<node id="1828091685"></node>
+			<text lang="fr" value="La ref:FR:STIF 411271 n'existe pas ou plus. Voir sur https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=1828091685"></text>
+			<fixes>
+				<fix>
+					<node id="1828091685">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>
@@ -7325,6 +7337,30 @@
 			</fixes>
 		</error>
 		<error class="2">
+			<location lat="48.8279078" lon="2.2247154"></location>
+			<node id="6171696139"></node>
+			<text lang="fr" value="La ref:FR:STIF 411272 n'existe pas ou plus"></text>
+			<fixes>
+				<fix>
+					<node id="6171696139">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.827242399999996" lon="2.2233304"></location>
+			<node id="6171825243"></node>
+			<text lang="fr" value="La ref:FR:STIF 411272 n'existe pas ou plus"></text>
+			<fixes>
+				<fix>
+					<node id="6171825243">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
 			<location lat="49.0077193" lon="2.1977685"></location>
 			<node id="6172569845"></node>
 			<text lang="fr" value="La ref:FR:STIF 411241 n'existe pas ou plus"></text>
@@ -8021,6 +8057,18 @@
 			</fixes>
 		</error>
 		<error class="2">
+			<location lat="48.9300363" lon="2.2834075"></location>
+			<node id="6261412078"></node>
+			<text lang="fr" value="La ref:FR:STIF 29114 n'existe pas ou plus"></text>
+			<fixes>
+				<fix>
+					<node id="6261412078">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
 			<location lat="48.9906371" lon="2.5157765999999997"></location>
 			<node id="6267808910"></node>
 			<text lang="fr" value="La ref:FR:STIF 39175 n'existe pas ou plus. Voir sur https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=6267808910"></text>
@@ -8207,18 +8255,6 @@
 			<fixes>
 				<fix>
 					<node id="5320764713">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.9038347" lon="2.4711288"></location>
-			<node id="575056728"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 7775 l'association avec la ligne 100100105:105 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=575056728"></text>
-			<fixes>
-				<fix>
-					<node id="575056728">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>
@@ -8639,18 +8675,6 @@
 			<fixes>
 				<fix>
 					<node id="1440804061">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.8279078" lon="2.2247154"></location>
-			<node id="6171696139"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 411272 l'association avec la ligne 800:N145 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=6171696139"></text>
-			<fixes>
-				<fix>
-					<node id="6171696139">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>
@@ -9299,30 +9323,6 @@
 			<fixes>
 				<fix>
 					<node id="5137405225">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.9038347" lon="2.4711288"></location>
-			<node id="575056728"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 7775 l'association avec la ligne 100100303:303 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=575056728"></text>
-			<fixes>
-				<fix>
-					<node id="575056728">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.867741599999995" lon="2.5332961"></location>
-			<node id="1352798282"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 28799 l'association avec la ligne 100100303:303 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=1352798282"></text>
-			<fixes>
-				<fix>
-					<node id="1352798282">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>
@@ -12647,18 +12647,6 @@
 			<fixes>
 				<fix>
 					<node id="2414635930">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.867741599999995" lon="2.5332961"></location>
-			<node id="1352798282"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 28799 l'association avec la ligne 100100214:214 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=1352798282"></text>
-			<fixes>
-				<fix>
-					<node id="1352798282">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>
@@ -17009,18 +16997,6 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.827242399999996" lon="2.2233304"></location>
-			<node id="6171825243"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 411272 l'association avec la ligne 800:N145 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=6171825243"></text>
-			<fixes>
-				<fix>
-					<node id="6171825243">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
 			<location lat="48.833058" lon="2.2890424"></location>
 			<node id="5866597663"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 474357 l'association avec la ligne 800:N145 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5866597663"></text>
@@ -17309,7 +17285,7 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="49.1483673" lon="1.9685633999999999"></location>
+			<location lat="49.1490971" lon="1.9687082"></location>
 			<node id="4324473229"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 29612 l'association avec la ligne 025195008:95-08 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=4324473229"></text>
 			<fixes>
@@ -17321,19 +17297,7 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="49.1457834" lon="1.9689292999999999"></location>
-			<node id="4675103605"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 29613 l'association avec la ligne 025195008:95-08 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=4675103605"></text>
-			<fixes>
-				<fix>
-					<node id="4675103605">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="49.145781299999996" lon="1.9747944"></location>
+			<location lat="49.1467098" lon="1.9748641"></location>
 			<node id="4330596991"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 29614 l'association avec la ligne 025195008:95-08 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=4330596991"></text>
 			<fixes>
@@ -18797,18 +18761,6 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.867741599999995" lon="2.5332961"></location>
-			<node id="1352798282"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 28799 l'association avec la ligne 100100203:203 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=1352798282"></text>
-			<fixes>
-				<fix>
-					<node id="1352798282">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
 			<location lat="48.8440182" lon="2.5260225999999997"></location>
 			<node id="705550969"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 9540 l'association avec la ligne 100100220:220 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=705550969"></text>
@@ -19007,42 +18959,6 @@
 			<fixes>
 				<fix>
 					<node id="4330849799">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="49.0114665" lon="2.5331259"></location>
-			<node id="5662288697"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 419700 l'association avec la ligne 100100349:349 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5662288697"></text>
-			<fixes>
-				<fix>
-					<node id="5662288697">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="49.012024" lon="2.5164809999999997"></location>
-			<node id="5629140874"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 419681 l'association avec la ligne 100100349:349 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5629140874"></text>
-			<fixes>
-				<fix>
-					<node id="5629140874">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="49.0118259" lon="2.516355"></location>
-			<node id="4323942298"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 462803 l'association avec la ligne 100100349:349 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=4323942298"></text>
-			<fixes>
-				<fix>
-					<node id="4323942298">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>
@@ -29129,7 +29045,7 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="49.1483673" lon="1.9685633999999999"></location>
+			<location lat="49.1490971" lon="1.9687082"></location>
 			<node id="4324473229"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 29612 l'association avec la ligne 025195008:95-08 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=4324473229"></text>
 			<fixes>
@@ -29141,19 +29057,7 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="49.1457834" lon="1.9689292999999999"></location>
-			<node id="4675103605"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 29613 l'association avec la ligne 025195008:95-08 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=4675103605"></text>
-			<fixes>
-				<fix>
-					<node id="4675103605">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="49.145781299999996" lon="1.9747944"></location>
+			<location lat="49.1467098" lon="1.9748641"></location>
 			<node id="4330596991"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 29614 l'association avec la ligne 025195008:95-08 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=4330596991"></text>
 			<fixes>
@@ -29465,18 +29369,6 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.867741599999995" lon="2.5332961"></location>
-			<node id="1352798282"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 28799 l'association avec la ligne 100100203:203 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=1352798282"></text>
-			<fixes>
-				<fix>
-					<node id="1352798282">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
 			<location lat="48.7796665" lon="2.3155072"></location>
 			<node id="5471115173"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 427526 l'association avec la ligne 020149007:17 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5471115173"></text>
@@ -29753,156 +29645,12 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.9038347" lon="2.4711288"></location>
-			<node id="575056728"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 7775 l'association avec la ligne 100100303:303 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=575056728"></text>
-			<fixes>
-				<fix>
-					<node id="575056728">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.867741599999995" lon="2.5332961"></location>
-			<node id="1352798282"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 28799 l'association avec la ligne 100100303:303 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=1352798282"></text>
-			<fixes>
-				<fix>
-					<node id="1352798282">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
 			<location lat="48.7445972" lon="2.4068880999999998"></location>
 			<node id="2958861184"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 22742 l'association avec la ligne 002002002:2 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=2958861184"></text>
 			<fixes>
 				<fix>
 					<node id="2958861184">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="49.012024" lon="2.5164809999999997"></location>
-			<node id="5629140874"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 419681 l'association avec la ligne 100100351:351 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5629140874"></text>
-			<fixes>
-				<fix>
-					<node id="5629140874">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="49.0118259" lon="2.516355"></location>
-			<node id="4323942298"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 462803 l'association avec la ligne 100100351:351 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=4323942298"></text>
-			<fixes>
-				<fix>
-					<node id="4323942298">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="49.012024" lon="2.5164809999999997"></location>
-			<node id="5629140874"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 419681 l'association avec la ligne 100100351:351 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5629140874"></text>
-			<fixes>
-				<fix>
-					<node id="5629140874">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="49.0118259" lon="2.516355"></location>
-			<node id="4323942298"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 462803 l'association avec la ligne 100100351:351 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=4323942298"></text>
-			<fixes>
-				<fix>
-					<node id="4323942298">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="49.0114665" lon="2.5331259"></location>
-			<node id="5662288697"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 419700 l'association avec la ligne 100100350:350 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5662288697"></text>
-			<fixes>
-				<fix>
-					<node id="5662288697">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="49.012024" lon="2.5164809999999997"></location>
-			<node id="5629140874"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 419681 l'association avec la ligne 100100350:350 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5629140874"></text>
-			<fixes>
-				<fix>
-					<node id="5629140874">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="49.0118259" lon="2.516355"></location>
-			<node id="4323942298"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 462803 l'association avec la ligne 100100350:350 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=4323942298"></text>
-			<fixes>
-				<fix>
-					<node id="4323942298">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="49.0114665" lon="2.5331259"></location>
-			<node id="5662288697"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 419700 l'association avec la ligne 100100350:350 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5662288697"></text>
-			<fixes>
-				<fix>
-					<node id="5662288697">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="49.012024" lon="2.5164809999999997"></location>
-			<node id="5629140874"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 419681 l'association avec la ligne 100100350:350 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5629140874"></text>
-			<fixes>
-				<fix>
-					<node id="5629140874">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="49.0118259" lon="2.516355"></location>
-			<node id="4323942298"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 462803 l'association avec la ligne 100100350:350 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=4323942298"></text>
-			<fixes>
-				<fix>
-					<node id="4323942298">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>
@@ -29947,7 +29695,7 @@
 		<error class="2">
 			<location lat="49.012024" lon="2.5164809999999997"></location>
 			<node id="5629140874"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 419681 l'association avec la ligne 212195018:9518 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5629140874"></text>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 419681;9988 l'association avec la ligne 212195018:9518 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5629140874"></text>
 			<fixes>
 				<fix>
 					<node id="5629140874">

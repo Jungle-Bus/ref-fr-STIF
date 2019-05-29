@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-05-28T14:29:13Z">
-	<analyser timestamp="2019-05-28T14:29:13Z">
+<analysers timestamp="2019-05-29T14:32:47Z">
+	<analyser timestamp="2019-05-29T14:32:47Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag obsolète sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -7001,7 +7001,7 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.8177066" lon="2.3239908"></location>
+			<location lat="48.81769" lon="2.3239472"></location>
 			<node id="5979563826"></node>
 			<text lang="fr" value="La ref:FR:STIF 24205 n'existe pas ou plus"></text>
 			<fixes>
@@ -17153,54 +17153,6 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.6464755" lon="2.3578775"></location>
-			<node id="651525589"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 3273 l'association avec la ligne 055055021:DM21B est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=651525589"></text>
-			<fixes>
-				<fix>
-					<node id="651525589">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.660447999999995" lon="2.3675639"></location>
-			<node id="661045293"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 427460 l'association avec la ligne 055055021:DM21B est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=661045293"></text>
-			<fixes>
-				<fix>
-					<node id="661045293">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.6604378" lon="2.3678711"></location>
-			<node id="661045292"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 3852 l'association avec la ligne 055055021:DM21B est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=661045292"></text>
-			<fixes>
-				<fix>
-					<node id="661045292">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.6616638" lon="2.3634082"></location>
-			<node id="661045295"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 3560 l'association avec la ligne 055055021:DM21B est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=661045295"></text>
-			<fixes>
-				<fix>
-					<node id="661045295">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
 			<location lat="48.661702" lon="2.3595634"></location>
 			<node id="2147785932"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 4033 l'association avec la ligne 055055021:DM21B est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=2147785932"></text>
@@ -17219,6 +17171,54 @@
 			<fixes>
 				<fix>
 					<node id="651525687">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.6616638" lon="2.3634082"></location>
+			<node id="661045295"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 3560 l'association avec la ligne 055055021:DM21B est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=661045295"></text>
+			<fixes>
+				<fix>
+					<node id="661045295">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.6604378" lon="2.3678711"></location>
+			<node id="661045292"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 3852 l'association avec la ligne 055055021:DM21B est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=661045292"></text>
+			<fixes>
+				<fix>
+					<node id="661045292">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.660447999999995" lon="2.3675639"></location>
+			<node id="661045293"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 427460 l'association avec la ligne 055055021:DM21B est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=661045293"></text>
+			<fixes>
+				<fix>
+					<node id="661045293">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.6464755" lon="2.3578775"></location>
+			<node id="651525589"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 3273 l'association avec la ligne 055055021:DM21B est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=651525589"></text>
+			<fixes>
+				<fix>
+					<node id="651525589">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>
@@ -19781,6 +19781,18 @@
 			</fixes>
 		</error>
 		<error class="2">
+			<location lat="48.6875982" lon="2.2946386"></location>
+			<node id="1939449042"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 416466;29944 l'association avec la ligne 055155003:DM153 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=1939449042"></text>
+			<fixes>
+				<fix>
+					<node id="1939449042">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
 			<location lat="48.690205399999996" lon="2.2952509"></location>
 			<node id="5420605761"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 416663 l'association avec la ligne 055155003:DM153 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5420605761"></text>
@@ -19799,18 +19811,6 @@
 			<fixes>
 				<fix>
 					<node id="5436908877">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.6875982" lon="2.2946386"></location>
-			<node id="1939449042"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 416466;29944 l'association avec la ligne 055155003:DM153 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=1939449042"></text>
-			<fixes>
-				<fix>
-					<node id="1939449042">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-06-03T14:32:46Z">
-	<analyser timestamp="2019-06-03T14:32:46Z">
+<analysers timestamp="2019-06-04T14:34:22Z">
+	<analyser timestamp="2019-06-04T14:34:22Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag obsolète sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -15059,6 +15059,18 @@
 			<fixes>
 				<fix>
 					<node id="958741015">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.6401861" lon="2.3354255"></location>
+			<node id="3838888826"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 418857 l'association avec la ligne 010010005:2 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=3838888826"></text>
+			<fixes>
+				<fix>
+					<node id="3838888826">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

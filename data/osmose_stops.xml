@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-06-04T14:34:22Z">
-	<analyser timestamp="2019-06-04T14:34:22Z">
+<analysers timestamp="2019-06-05T14:34:14Z">
+	<analyser timestamp="2019-06-05T14:34:14Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag obsolète sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -689,7 +689,7 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.707703699999996" lon="2.1765833"></location>
+			<location lat="48.7078983" lon="2.1756362"></location>
 			<node id="1855952972"></node>
 			<text lang="fr" value="La ref:FR:STIF 11451 n'existe pas ou plus"></text>
 			<fixes>
@@ -8669,6 +8669,18 @@
 			</fixes>
 		</error>
 		<error class="2">
+			<location lat="48.8094975" lon="2.1888986"></location>
+			<node id="1798131916"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 25591 l'association avec la ligne 800:N145 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=1798131916"></text>
+			<fixes>
+				<fix>
+					<node id="1798131916">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
 			<location lat="48.804060199999995" lon="2.1752445"></location>
 			<node id="1828091649"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 25576 l'association avec la ligne 800:N145 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=1828091649"></text>
@@ -11459,6 +11471,18 @@
 			<fixes>
 				<fix>
 					<node id="5341863630">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.981882999999996" lon="1.9125029999999998"></location>
+			<node id="6175303731"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 13588 l'association avec la ligne  est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=6175303731"></text>
+			<fixes>
+				<fix>
+					<node id="6175303731">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>
@@ -16811,6 +16835,18 @@
 			<fixes>
 				<fix>
 					<node id="1828091653">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.8358491" lon="2.2786953999999997"></location>
+			<node id="4704248641"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 33385 l'association avec la ligne 800:N145 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=4704248641"></text>
+			<fixes>
+				<fix>
+					<node id="4704248641">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

@@ -98,7 +98,7 @@ Route:Relation:1103964,Bus 11 : Marché de Saint-Denis → Victor Basch (Goussai
 Route:Relation:1103965,Bus 11 : Victor Basch (Goussainville) → Marché de Saint-Denis,11,Saint-Denis Porte de Paris,Les Courriers de l'Île-de-France
 Route:Relation:1104172,Bus 32 : Victor Basch (Goussainville) → Roissypole → Aéroville,32,Aéroville,Les Courriers de l'Île-de-France
 Route:Relation:1104173,Bus 32 : Aéroville → Roissypole → Victor Basch (Goussainville),32,Victor Basch (Goussainville),Les Courriers de l'Île-de-France
-Route:Relation:1104193,X1Bus 95-18 : Cergy-Pontoise Gare → Roissypole RER,95-18,Roissypole RER,Mobilien
+Route:Relation:1104193,Bus 95-18 : Gare de Cergy-Préfecture → Roissypole,95-18,Roissypole RER,Mobilien
 Route:Relation:1104194,Bus 95-02 : Roissypole RER → Mairie de Montmorency,95-02,Mairie de Montmorency,Busval d'Oise
 Route:Relation:1104195,Bus 11.5 : Goussainville Moulin → Gonesse Collège Auguste,11.5,Gonesse - Collège Philippe Auguste,Les Courriers de l'Île-de-France
 Route:Relation:1104196,Bus R106 : Institut Saint-Dominique → Calvaire,R106,,CIF
@@ -362,9 +362,7 @@ Route:Relation:2166257,Bus 241 : Rueil-Malmaison RER → Porte d'Auteuil,241,Por
 Route:Relation:2170491,Bus 403 : Imprimerie Nationale → Les Meillottes (Soisy-sur-Seine),403,Les Meillottes (Soisy-sur-Seine),Tice
 Route:Relation:2171710,Bus 146 : Le Bourget RER → Montfermeil–Les Bosquets,146,Montfermeil - Les Bosquets,RATP
 Route:Relation:2171711,Bus 146 : Montfermeil–Les Bosquets → Le Bourget RER,146,Le Bourget,RATP
-Route:Relation:2172384,Bus 95-19B : Ermont-Eaubonne Gare → Cergy Préfecture,95-19B,,Busval d’Oise
-Route:Relation:2173342,Bus 95-19C : Montigny-Beauchamp Gare → Argenteuil Gare,95-19C,,Busval d’Oise
-Route:Relation:2174156,Bus 95-19A : Argenteuil Gare → Cergy Préfecture,95-19A,,Busval d’Oise
+Route:Relation:2174156,Bus 95-19 : Argenteuil Gare → Cergy Préfecture,95-19,,Busval d’Oise
 Route:Relation:2175124,Bus 95-21 : Herblay Gare → Montigny-Beauchamp Gare,95-21,,Busval d’Oise
 Route:Relation:2196020,Bus 701 : Gare du Chenay Gagny → Gare de Chelles Gournay,701,Gare de Chelles Gournay,Autobus du Fort
 Route:Relation:2198224,Bus 346 : Bois-Perrier RER - Rosny 2 → Le Blanc-Mesnil–Place de la Libération,346,Le Blanc-Mesnil – Place de la Libération,RATP
@@ -396,7 +394,7 @@ Route:Relation:2250334,Bus 175 : Asnières–Gennevilliers – Gabriel Péri →
 Route:Relation:2261637,Bus 401 : Saint-Michel-sur-Orge-Rue Belioz → Corbeil-Essonnes Gare RER D,401,Corbeil-Essonnes,Tice
 Route:Relation:2277158,Bus v7 : Villejuif - Louis Aragon Métro (circulaire via Les Dahlias),v7,Villejuif - Louis Aragon Métro,Valouette
 Route:Relation:2307564,Bus 8 : Gare de Fontainebleau Avon → Crevat Jaurès,8,Crevat Jaurès (Fontainebleau),Aérial
-Route:Relation:2307565,Bus 3 : Gare routière de Fontainebleau Avon → Crevat Jaurès (Fontainebleau),3,Crevat Jaurès (Fontainebleau),Aérial
+Route:Relation:2307565,Bus 3 : Gare Routière de Meaux → Crevat Jaurès (Fontainebleau),3,Crevat Jaurès (Fontainebleau),Aérial
 Route:Relation:2328082,Bus 275 : La Défense → Pont de Levallois,275,Pont de Levallois,RATP
 Route:Relation:2335078,Bus 07 : Freneuse (Guyenne) - Bonnières-Sur-Seine (Collège Marcel Pagnol),07,,Com'Bus
 Route:Relation:2336377,Bus 12 : Chatron → Plaisir-Grignon,12,,Plaine de Versailles
@@ -442,7 +440,7 @@ Route:Relation:2510192,Bus 7 : Gare d'Enghien-les-Bains → Gare d'Argenteuil,7,
 Route:Relation:2511927,Bus 291 Pont de Sèvres → La Cheminée,291,La Cheminée,RATP
 Route:Relation:2512002,Bus RoissyBus : Paris–Opéra → Aéroport Charles de Gaulle,RoissyBus,Aéroport Charles de Gaulle,RATP
 Route:Relation:2516546,Noctilien N14: La Croix de Berny RER → Mairie de Saint-Ouen,N14,Mairie de Saint-Ouen,Noctilien
-Route:Relation:2529983,Les Petits Trains de Provins,,,local
+Route:Relation:2529983,Les Petits Trains de Provins,Petit Train,,local
 Route:Relation:2531064,Bus 22 : Roissypole → Villiers-le-Bel RER,22,Villiers le Bel RER,TransVO
 Route:Relation:2531074,Bus 93 : Bobigny – Pablo Picasso → Aulnay-sous-Bois – Parinor → Aéroport CDG – Roissypole,93,Bobigny – Pablo Picasso,Les Courriers de l'Île-de-France
 Route:Relation:2531081,Bus 23 : Roissypole → Villeparisis - Gymnase Aubertin,23,Mitry-le-Neuf – Villeparisis,Les Courriers de l'Île-de-France
@@ -930,8 +928,8 @@ Route:Relation:5976797,Bus 11 : Châtenay-Malabry - Coulée Verte → Robinson R
 Route:Relation:5976805,Bus 14 : Robinson RER → Division Leclerc,14,Division Leclerc,Paladin
 Route:Relation:5976806,Bus 6 : circulaire de Camberwell (Sceaux),6,Camberwell (Sceaux),Paladin
 Route:Relation:5976839,Noctilien N63 : Gare de Massy-Palaiseau → Gare Montparnasse,N63,Gare Montparnasse,Noctilien
-Route:Relation:5983258,Bus DM2B : Chemin de Brétigny → Gare de Saint-Michel sur Orge,DM2B,Gare de Saint-Michel-sur-Orge,Daniel Meyer
-Route:Relation:5983259,Bus DM2B : Gare de Saint-Michel sur Orge → Chemin de Brétigny,DM2B,Chemin de Brétigny,Daniel Meyer
+Route:Relation:5983258,Bus DM2B : Chemin de Brétigny → Gare de Saint-Michel-sur-Orge,DM2B,Gare de Saint-Michel-sur-Orge,Daniel Meyer
+Route:Relation:5983259,Bus DM2B : Gare de Saint-Michel-sur-Orge → Chemin de Brétigny,DM2B,Chemin de Brétigny,Daniel Meyer
 Route:Relation:5989073,Bus DM2A : Sainte-Geneviève-des-Bois → Gare de Saint-Michel-sur-Orge,DM2A,Gare de Saint-Michel-sur-Orge,Daniel Meyer
 Route:Relation:5989120,Bus DM4 : RER Gare Condorcet → La Treille - Viry-Châtillon,DM4,La Treille - Viry-Châtillon,Daniel Meyer
 Route:Relation:5998405,Bus DM22 : Gare de Savigny-sur-Orge → Tuileries - Grigny,DM22,Tuileries - Grigny,Daniel Meyer
@@ -1035,8 +1033,8 @@ Route:Relation:6768639,Bus 9A : Saint-Pierre de Nemours → Villebéon - Passy,9
 Route:Relation:6769115,Bus 7C : Gratereau → Cité Scolaire,7C,,STILL
 Route:Relation:6769137,Bus 7D : Place Parodi → Cité Scolaire,7D,,STILL
 Route:Relation:6769160,Bus 7A : Cité Scolaire → Stade de la Faisanderie,7A,,STILL
-Route:Relation:6785274,Bus 2 : Gare de Sainte-Geneviève-des-Bois → ZI La Croix Blanche,2,ZI La Croix Blanche,Génovébus
-Route:Relation:6785289,Bus 2 : ZI La Croix Blanche → Gare de Sainte-Geneviève-des-Bois,2,Gare de Sainte Geneviève des Bois,Génovébus
+Route:Relation:6785274,Bus 2 : Allée de l'Orge → ZI La Croix Blanche,2,ZI La Croix Blanche,Génovébus
+Route:Relation:6785289,Bus 2 : ZI La Croix Blanche → Allée de l'Orge,2,Allée de l'Orge,Génovébus
 Route:Relation:6785330,Bus 4 : ZI Croix Blanche → Gare de Sainte-Geneviève-des-Bois,4,Gare de Sainte Geneviève des Bois,Génovébus
 Route:Relation:6785379,Bus 108 : Paris-Porte d'Orléans → Sainte-Geneviève des Bois-ZI Croix Blanche,108,Zone Industrielle la Croix Blanche,CEAT Val d'Orge
 Route:Relation:6785521,Bus 402 : La Treille (Viry-Châtillon) → Terminal David Douillet (Le Coudray-Montceaux),402,Terminal David Douillet (Le Coudray-Montceaux),Tice
@@ -1288,7 +1286,7 @@ Route:Relation:7474291,Bus 215 : Vincennes RER – République → Gare d'Auster
 Route:Relation:7474292,Bus 215 : Gare d'Austerlitz → Vincennes RER - République,215,Vincennes RER – République,RATP
 Route:Relation:7475031,Bus 253 : Stains–Moulin Neuf → La Courneuve - Aubervilliers RER,253,La Courneuve - Aubervilliers RER,RATP
 Route:Relation:7479244,Bus 310 : Les Yvris – Noisy-le-Grand RER → Noisy-Champs RER,310,Noisy-Champs RER,RATP
-Route:Relation:7508471,X2Bus 95-18 : Roissypole RER → Cergy-Pontoise Gare,95-18,Cergy-Pontoise - Prefecture - Gare,Mobilien
+Route:Relation:7508471,Bus 95-18 : Roissypole → Gare de Cergy-Préfecture,95-18,Gare de Cergy-Préfecture,Mobilien
 Route:Relation:7509074,Bus 356 : Cité Floréal (Saint-Denis) → Marché des Mortefontaines (Deuil-la-Barre),356,Marché des Mortefontaines (Deuil-la-Barre),RATP
 Route:Relation:7517212,Bus J : Gare de Sartrouville → Gare de Houilles Carrières-sur-Seine,J,Gare de Houilles Carrières-sur-Seine,Bus en Seine
 Route:Relation:7517213,Bus J : Gare de Houilles Carrières-sur-Seine → Gare de Sartrouville,J,Gare de Sartrouville,Bus en Seine
@@ -1442,9 +1440,7 @@ Route:Relation:7818643,Bus TUB : Blanqui — Carnot → La Mare à la Veuve,546,
 Route:Relation:7819143,Bus TUB : Gare de Bondy RER → La Mare à la Veuve,546,La Mare à la Veuve,RATP
 Route:Relation:7819144,Bus TUB : La Mare à la Veuve → Gare de Bondy RER,546,Rabelais,RATP
 Route:Relation:7819172,Bus TUB : La Mare à la Veuve → Blanqui — Carnot,546,Rabelais,RATP
-Route:Relation:7822153,Bus 95-19A : Cergy Préfecture → Argenteuil Gare,95-19A,,Busval d’Oise
-Route:Relation:7822164,Bus 95-19B : Cergy Préfecture → Ermont-Eaubonne Gare,95-19B,,Busval d’Oise
-Route:Relation:7822177,Bus 95-19C : Argenteuil Gare → Montigny-Beauchamp Gare,95-19C,,Busval d’Oise
+Route:Relation:7822153,Bus 95-19 : Cergy Préfecture → Argenteuil Gare,95-19,,Busval d’Oise
 Route:Relation:7823057,Bus DM3B : Sycomores → RER Gare Condorcet,DM3B,RER Gare Condorcet,Daniel Meyer
 Route:Relation:7823246,Bus 95-21 : Montigny-Beauchamp Gare → Herblay Gare,95-21,,Busval d’Oise
 Route:Relation:7824069,Bus DM22 : Les Sablons → Gare de Savigny-sur-Orge,DM22,Gare de Savigny-sur-Orge,Daniel Meyer
@@ -2070,8 +2066,8 @@ Route:Relation:8444742,Bus E : Gare de Provins Quai 1 → Ville Haute Quai 2,E,,
 Route:Relation:8444969,Navette B : Circulaire Ballainvilliers-Morangis,B,Ballainvilliers Centre,Paris-Saclay
 Route:Relation:8444970,Navette C : Circulaire Longjumeau-Morangis,C,Hôpital de Longjumeau,Paris-Saclay
 Route:Relation:8444971,Navette A : Circulaire de Longjumeau,A,Gare de Longjumeau,Paris-Saclay
-Route:Relation:8446803,Bus DM09 : Gare de St-Michel-sur-Orge → Château d'Eau (Linas),DM09,Château d'eau,Daniel Meyer
-Route:Relation:8446804,Bus DM09 : Château d'Eau (Linas) → Gare de St-Michel-sur-Orge,DM09,Gare de Saint-Michel-sur-Orge,Daniel Meyer
+Route:Relation:8446803,Bus DM09 : Gare de Saint-Michel-sur-Orge → Château d'Eau (Linas),DM09,Château d'eau (Linas),Daniel Meyer
+Route:Relation:8446804,Bus DM09 : Château d'Eau (Linas) → Gare de Saint-Michel-sur-Orge,DM09,Gare de Saint-Michel-sur-Orge,Daniel Meyer
 Route:Relation:8447238,Bus 36-15 : Gare des Essarts-le-Roi → Auffargis - Le Stade,36-15,Auffargis - Le Stade,Cars Perrier
 Route:Relation:8447239,Bus 36-15 : Auffargis - Le Stade → Gare des Essarts-le-Roi,36-15,Gare des Essarts-le-Roi,Cars Perrier
 Route:Relation:8447998,Bus 2 : Gare de Montsoult - Maffliers → Gare de Persan - Beaumont,2,Gare de Persan - Beaumont,Keolis Val d'Oise
@@ -2517,7 +2513,7 @@ Route:Relation:9233982,Bus 30-48 : Comédie Française → Gare d'Herblay,30-48,
 Route:Relation:9233983,Bus 30-48 : Gare d'Herblay → Comédie Française,30-48,Comédie Française,Valbus
 Route:Relation:9233995,Bus 30-23 : Gare de Saint-Leu-la-Forêt → Gare de Montigny - Beauchamp,30-23,Gare de Montigny - Beauchamp,Valbus
 Route:Relation:9233996,Bus 30-23 : Gare de Montigny - Beauchamp → Gare de Saint-Leu-la-Forêt,30-23,Gare de Saint-Leu-la-Forêt,Valbus
-Route:Relation:9234022,Bus 30-37 : Gare de Franconville (circulaire),30-37,Gare de Franconville,Valbus
+Route:Relation:9234022,Bus 30-37 : Gare de Franconville (circulaire via Albert Alline),30-37,Gare de Franconville,Valbus
 Route:Relation:9234743,Bus 30-39 : Rougemonts - Liberté → Gare de Saint-Brice,30-39,Gare de Saint-Brice,Valbus
 Route:Relation:9234744,Bus 30-39 : Gare de Saint-Brice → Rougemonts - Liberté,30-39,Rougemonts - Liberté,Valbus
 Route:Relation:9234797,Bus 30-47 : Alouettes → Gare d'Herblay,30-47,Gare d'Herblay,Valbus
@@ -2718,8 +2714,6 @@ Route:Relation:9361051,Bus 350 : Porte de la Chapelle → Garonor - Porte Sud �
 Route:Relation:9361052,Bus 350 : Porte de la Chapelle → Cargo 7 → Roissypole,350,Roissypole,RATP
 Route:Relation:9361053,Bus 350 : Porte de la Chapelle → Garonor → Roissypole,350,Roissypole,RATP
 Route:Relation:9368787,La Traverse Ney - Flandre : La Chapelle → Porte d'Aubervilliers - Oberle,519,Porte d'Aubervilliers - Oberle,RATP
-Route:Relation:9375200,Bus 95-18 : Cergy Préfecture → Roissypôle Gare,95-18,ROISSY : Roissypôle Gare,Mobilien
-Route:Relation:9375201,Bus 95-18 : Roissypôle Gare → Cergy Préfecture,95-18,CERGY : Préfecture/RER,Mobilien
 Route:Relation:9376156,Bus 132 : Bibliothèque Francois Mitterrand → Vitry-sur-Seine-Moulin Vert,132,Vitry-sur-Seine-Moulin Vert,RATP
 Route:Relation:9376347,Bus 169 : Hôpital Européen Georges Pompidou → Pont de Sevres,169,Pont de Sevres,RATP
 Route:Relation:9376348,Bus 169 : Pont de Sevres → Hôpital Européen Georges Pompidou,169,Hôpital Européen Georges Pompidou,RATP
@@ -2851,3 +2845,7 @@ Route:Relation:9691808,Bus 112 : Gare Routière François 1er → Lavoir aux Cha
 Route:Relation:9691809,Bus 112 : Gare Routière François 1er → Stade de la Faisanderie → Le Bac,112,Le Bac,Aérial
 Route:Relation:9691810,Bus 112 : Moulin à Vent Route de Machault → Stade de la Faisanderie,112,Stade de la Faisanderie,Aérial
 Route:Relation:9691811,Bus 112 : Les Coudreaux → Stade de la Faisanderie,112,Stade de la Faisanderie,Aérial
+Route:Relation:9694408,Bus 95-29 : Gare de Montigny - Beauchamp → Gare d'Ermont - Eaubonne,95-29,Gare d'Ermont - Eaubonne,Busval d'Oise
+Route:Relation:9694409,Bus 95-29 : Gare d'Ermont - Eaubonne → Gare de Montigny - Beauchamp,95-29,Gare de Montigny - Beauchamp,Busval d'Oise
+Route:Relation:9694487,Bus 30-37 : Gare de Franconville (circulaire via Jules César),30-37,Gare de Franconville,Valbus
+Route:Relation:9695632,Bus 3 : Gare Routière de Meaux - Quai 3 → Stade de la Faisanderie,3,Stade de la Faisanderie,Aérial

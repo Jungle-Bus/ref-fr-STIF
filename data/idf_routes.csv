@@ -643,8 +643,8 @@ Route:Relation:3570692,Bus E : Melun — C.C. de l'Almont → Dammarie-les-Lys �
 Route:Relation:3584760,Bus K : Gare de Melun circulaire via Chaussy,K,,MELIBUS
 Route:Relation:3615346,Bus 564 : Collège La Malmaison (circulaire via Les Pince-Vins),564,Les Pince-Vins,RATP
 Route:Relation:3638685,Bus 5 : Gare RER de Boissy-Saint-Léger → Les Noyers (Sucy-en-Brie),5,Les Noyers (Sucy-en-Brie),SITUS
-Route:Relation:3638707,Bus 6 : Boissy-Saint-Léger RER → Le Havre,6,Le Havre,SITUS
-Route:Relation:3638708,Bus 6 : Le Havre → Boissy-Saint-Léger RER,6,Gare RER de Boissy-Saint-Léger,SITUS
+Route:Relation:3638707,Bus 6 : Gare de Boissy-Saint-Léger → Gare de Sucy - Bonneuil,6,Gare de Sucy - Bonneuil,SITUS
+Route:Relation:3638708,Bus 6 : Gare de Sucy - Bonneuil → Gare de Boissy-Saint-Léger,6,Gare de Boissy-Saint-Léger,SITUS
 Route:Relation:3681135,Bus 320 : circulaire intérieure de Noisy-le-Grand - Mont d'Est RER,320,Noisy-le-Grand - Mont d'Est RER,RATP
 Route:Relation:3694833,Bus B : Créteil L'Échat → Cimetière de Yerres,B,Cimetière de Yerres,STRAV
 Route:Relation:3695201,Bus 159 : La Défense → Cité du Vieux Pont (Nanterre),159,Cité du Vieux Pont (Nanterre),RATP
@@ -1332,8 +1332,8 @@ Route:Relation:7678059,Bus R108 : Mairie Annexe (Fosses) → Institut Saint-Domi
 Route:Relation:7678072,Bus R117 : Collège de Noailles - Lycée de Nerval (Luzarches) → Centre-ville (Survilliers),R117,Centre-ville (Survilliers),Keolis CIF
 Route:Relation:7678073,Bus R117 : Centre-ville (Survilliers) → Collège de Noailles - Lycée de Nerval (Luzarches),R117,Collège de Noailles - Lycée de Nerval (Luzarches),Keolis CIF
 Route:Relation:7699448,La Navette : transport à la demande dans le bassin chellois,La Navette,Gare de Chelles Gournay,local
-Route:Relation:7699449,Bus 7 : Rond-Point des Sciences (Chelles) → Gare de Chelles Gournay,7,Gare de Chelles Gournay,Apolo 7
-Route:Relation:7699450,Bus 6 : Gare de Chelles Gournay → Gare de Vaires Torcy,6,Gare de Vaires Torcy,Apolo 7
+Route:Relation:7699449,Bus 7 : Désiré Lefèvre → Gare de Chelles Gournay,7,Gare de Chelles Gournay,Apolo 7
+Route:Relation:7699450,Bus 6 : Gare de Chelles Gournay → Gare de Vaires Torcy (Nord),6,Gare de Vaires Torcy (Nord),Apolo 7
 Route:Relation:7699493,Bus 8 : Chelles Gare SNCF/RER → Vaires Gare SNCF,8,Gare de Vaires Torcy,Apolo 7
 Route:Relation:7707600,Bus 16 : Razel (Saclay) → Gare d'Igny,16,Gare d'Igny,Mobicaps
 Route:Relation:7707601,Bus 16: Gare d'Igny → Razel (Saclay),16,Razel (Saclay),Mobicaps
@@ -1875,8 +1875,8 @@ Route:Relation:8292254,Bus 618 : Gare d'Aulnay-sous-Bois → Général De Gaulle
 Route:Relation:8292348,Bus C : Versailles Château Rive-Gauche → Petits Bois,C,Petits Bois,Phébus
 Route:Relation:8292349,Bus C : Petits Bois → Versailles Château Rive-Gauche,C,Versailles Château Rive-Gauche,Phébus
 Route:Relation:8294139,Bus 211 : Place Saint-Gervais - Dormelles → Collège Sisley - Moret,211,Collège Sisley-Moret,Comète
-Route:Relation:8296286,Bus 6 : Gare de Vaires Torcy → Gare de Chelles Gournay,6,Gare de Chelles Gournay,Apolo 7
-Route:Relation:8296289,Bus 7 : Gare de Chelles Gournay → Rond-Point des Sciences (Chelles),7,Rond-Point des Sciences (Chelles),Apolo 7
+Route:Relation:8296286,Bus 6 : Collège Goscinny → Gare de Vaires - Torcy (Mésanges) → Gare de Chelles Gournay,6,Gare de Chelles Gournay,Apolo 7
+Route:Relation:8296289,Bus 7 : Gare de Chelles Gournay → Désiré Lefèvre,7,Désiré Lefèvre,Apolo 7
 Route:Relation:8297078,Bus 9 : Gare de Chelles Gournay → Gare de Chelles Gournay,9,Gare de Chelles Gournay,Apolo 7
 Route:Relation:8298338,Bus F : Gare du Vésinet le Pecq → La Tour,F,La Tour,Bus en Seine
 Route:Relation:8298339,Bus F : La Tour → Gare du Vésinet le Pecq,F,Gare du Vésinet le Pecq,Bus en Seine
@@ -2871,3 +2871,7 @@ Route:Relation:9703684,Bus 9s : Cressonnières → Collège Corot (Delambre),9s,
 Route:Relation:9703685,Bus 9s : Collège de l'Europe (Parking) → Cité Scolaire,9s,Cité Scolaire,Apolo 7
 Route:Relation:9703686,Bus 9s : Collège Corot (Delambre) → Bois Madame,9s,Bois Madame,Apolo 7
 Route:Relation:9703687,Bus 9s : Cité Scolaire → Collège de l'Europe (Parking),9s,Collège de l'Europe (Parking),Apolo 7
+Route:Relation:9708091,Bus 6 : Gare de Vaires Torcy (Nord) → Gare de Chelles Gournay,6,Gare de Chelles Gournay,Apolo 7
+Route:Relation:9708126,Bus 6 : Gare de Vaires - Torcy (Mésanges) → Collège Goscinny,6,Collège Goscinny,Apolo 7
+Route:Relation:9708201,Bus 6 : Le Havre → Gare de Sucy - Bonneuil,6,Gare de Sucy - Bonneuil,SITUS
+Route:Relation:9708392,Bus 6 : Gare de Sucy - Bonneuil → Le Havre,6,Le Havre,SITUS

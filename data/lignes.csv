@@ -417,7 +417,7 @@ Line:Relation:6929704,360,Bus 360 : Hôpital de Garches ↔ La Défense,RATP,RAT
 Line:Relation:6940386,91-07,Bus 91-07 : Dourdan ↔ Étampes,Albatrans,Albatrans,,route_master,bus,291191007:91-07
 Line:Relation:6940387,91-02,Bus 91-02 : Gare de Dourdan ↔ PA Courtaboeuf ↔ Gare d'Orsay Ville,Albatrans,Albatrans,#79b2e3,route_master,bus,291191002:91-02
 Line:Relation:6940421,91.05,Bus 91.05 : Évry Gare Routière ↔ Gare de Massy-Palaiseau,Albatrans,Albatrans,#79b2e3,route_master,bus,291191005:91-05
-Line:Relation:6940422,91.04,Bus 91.04 : Évry ↔ Briis-sous-Forges,Albatrans,Albatrans,,route_master,bus,291191004:91-04
+Line:Relation:6940422,91.04,Bus 91.04 : Évry ↔ Arpajon ou Briis-sous-Forges,Albatrans,Albatrans,,route_master,bus,291191004:91.04
 Line:Relation:6949602,E2,Bus E2 : Collège Pompidou ↔ Plaine Haute (Crosne),VyBus,Transdev STRAV,#FBC322,route_master,bus,045045006:E2
 Line:Relation:6949604,V,Bus V : Gare de Montgeron ↔ Clos de la Régale (Vigneux-sur-Seine),STRAV,Transdev STRAV,,route_master,bus,045045008:V
 Line:Relation:6949654,N135,Noctilien N135: Gare de Villeneuve-Saint-Georges ↔ Corbeil Essonnes,Noctilien,Transilien,,route_master,bus,800:N135
@@ -464,7 +464,7 @@ Line:Relation:6991408,623,Bus 623 : Gare de Sevran - Livry ↔ Gare de Gagny,Sei
 Line:Relation:6991440,12,Bus 12 : Gare de Lagny Thorigny (circulaire),Pep's,Transdev AMV,#B567A2,route_master,bus,051051012:12
 Line:Relation:6991441,07,Bus 07 : Gare de Lagny Thorigny ↔ Pomponette,Pep's,Transdev AMV,#9DCBD1,route_master,bus,051051007:07
 Line:Relation:6991442,04,Bus 04 : Poincaré SNCF ↔ Cornilliot SNCF,Pep's,Transdev AMV,#E7AE12,route_master,bus,051051014:04
-Line:Relation:6993738,95-07,Bus 95-07 : Jouy le Comte Eglise ↔ Préfecture / RER,Busval d'Oise,CeoBus,#00FF00,route_master,bus,025195007:95-07
+Line:Relation:6993738,95-07,Bus 95-07 : Jouy le Comte Eglise ↔ Gare de Cergy-Préfecture,Busval d'Oise,CeoBus,#00FF00,route_master,bus,025195007:95-07
 Line:Relation:6994039,32,Bus 32 : Gare de Tournan ↔ Gare de Val d'Europe,Pep's,Transdev AMV,#D0662C,route_master,bus,051051032:32
 Line:Relation:7003010,23,Bus 23 : Gare de Lagny ↔ Gare de Marne-la-Vallée Chessy,Pep's,Transdev AMV,#C83086,route_master,bus,051051023:23
 Line:Relation:7011211,N02,Noctilien N02 : Circulaire Extérieure,Noctilien,RATP,#ED1C2A,route_master,bus,100987776:N02
@@ -586,7 +586,7 @@ Line:Relation:7447656,107,Bus 107 : ZI Croix Blanche (Sainte-Geneviève des Bois
 Line:Relation:7447705,237,Bus 237 : Épinay-sur-Seine RER ↔ Mairie de Saint-Ouen,RATP,RATP,#CD78BD,route_master,bus,100100237:237
 Line:Relation:7447787,6,Bus 6 : Chessy Gares ↔ Gare d'Esbly,Pep's,Transdev Marne et Morin,#95C086,route_master,bus,067067006:6
 Line:Relation:7448624,95-47,Bus 95-47 : Saint-Cyr-en-Arthies ↔ BRAY-ET-LÛ Collège,Busval d'Oise,Tim Bus,#577C5F,route_master,bus,251195047:95-47
-Line:Relation:7449948,95-17,Bus 95-17 : Gendarmerie ↔ Préfecture / RER,Busval d'Oise,Ceobus,#FF80FF,route_master,bus,025195017:95-17
+Line:Relation:7449948,95-17,Bus 95-17 : Gendarmerie ↔ Cergy Préfecture,Busval d'Oise,Ceobus,#FF80FF,route_master,bus,025195017:95-17
 Line:Relation:7451164,35,Bus 35 : Pontoise Gare ↔ Cergy-le-Haut RER,STIVO,STIVO,#9AC020,route_master,bus,059440035:35
 Line:Relation:7457086,34,Bus 34 : Cergy-le-Haut RER ↔ Gare de Neuville Université,STIVO,STIVO,#FED300,route_master,bus,059440034:34
 Line:Relation:7460875,36,Bus 36 : Pontoise Gare ↔ Les Croizettes,STIVO,STIVO,#AD1380,route_master,bus,059440036:36
@@ -794,7 +794,7 @@ Line:Relation:7921026,913.10,Bus 913.10 : Aubray ↔ Lycée Nelson Mandela,Ormon
 Line:Relation:7921027,519,Bus 519 : La Traverse Ney - Flandre,RATP,RATP,#C9A2CD,route_master,bus,100100519:NEY-FLA
 Line:Relation:7921028,L'Audonienne,Bus L'Audonienne,RATP,RATP,#f788b5,route_master,bus,100100537:AUDONIE
 Line:Relation:7921029,33,Bus 33 (CBA) : Gare Chaville Rive Droite ↔ Bièvres RER C,Phébus,Phébus,#8cbb15,route_master,bus,004004011:33
-Line:Relation:7921030,32,Bus 32 (CVJ) : Gare Chaville Rive Droite ↔ Gare de Jouy en Josas,Phébus,Phébus,#ffd600,route_master,bus,004004003:32
+Line:Relation:7921030,32,Bus 32 (CVJ) : Gare Chaville Rive Droite ↔ Gare de Jouy en Josas,Phébus,Phébus,#FABB13,route_master,bus,004004003:32
 Line:Relation:7921031,441,Bus 441 : Le Clos Breton ↔ Trou Berger,SQYBus,SQYBus,,route_master,bus,230410441:441
 Line:Relation:7921032,39-17,Bus 39-17 : Saint-Rémy-lès-Chevreuse ↔ La Verrière,SAVAC,SAVAC,,route_master,bus,039039017:39-17
 Line:Relation:7921033,430,Bus 430 : Trappes Gare (circulaire) via ZA Trappes–Élancourt,SQYBus,SQYBus,#B1BADB,route_master,bus,230410430:430

@@ -391,7 +391,7 @@ Line:Relation:6860541,DM11C,Bus DM11C : Gare de Massy-Palaiseau ↔ Laboratoires
 Line:Relation:6860557,216,Bus 216 : Denfert-Rochereau ↔ Marché International de Rungis,RATP,RATP,#ed1b2a,route_master,bus,100100216:216
 Line:Relation:6860704,Tvm,Bus Tvm : Antony-La Croix de Berny RER ↔ Saint-Maur - Créteil RER,RATP,RATP,#006DB7,route_master,bus,100100014:TVM
 Line:Relation:6867541,191.100,Bus Express 191.100 : Gare de Yerres ↔ M.I.N. (Chevilly-Larue - Rungis),Keolis Orly Rungis,Keolis Orly Rungis,,route_master,bus,287191100:191-100
-Line:Relation:6867574,91.09,Bus Express 91.09 : Gare Routière de Yerres ↔ Gare Routière d'Évry,Albatrans,Albatrans,,route_master,bus,291191009:91-09
+Line:Relation:6867574,91-09,Bus Express 91-09 : Gare Routière de Yerres ↔ Gare Routière d'Évry,Albatrans,Albatrans,,route_master,bus,291191009:91-09
 Line:Relation:6880011,95-04,Bus 95-04 : Bray et Lû ↔ Cergy-Préfecture RER,Bus Val d'Oise,Tim Bus,#1AC7FF,route_master,bus,251195004:95-04
 Line:Relation:6880695,95-11,Bus 95-11 : Aincourt ↔ Mantes-la-Jolie,Busval d'Oise,Tim Bus,#BF008F,route_master,bus,251195011:95-11
 Line:Relation:6881771,95-24,Bus 95-24 : Moussy ↔ Ableige ↔ Us ↔ Vigny,Busval d'Oise,Transdev Île-de-France Ecquevilly,#998eb8,route_master,bus,011195024:95-24
@@ -417,7 +417,7 @@ Line:Relation:6929704,360,Bus 360 : Hôpital de Garches ↔ La Défense,RATP,RAT
 Line:Relation:6940386,91-07,Bus 91-07 : Dourdan ↔ Étampes,Albatrans,Albatrans,,route_master,bus,291191007:91-07
 Line:Relation:6940387,91-02,Bus 91-02 : Gare de Dourdan ↔ Gare du Guichet,Albatrans,Albatrans,#79b2e3,route_master,bus,291191002:91-02
 Line:Relation:6940421,91-05,Bus 91-05 : Évry Gare Routière ↔ Gare de Massy-Palaiseau,Albatrans,Albatrans,#79b2e3,route_master,bus,291191005:91-05
-Line:Relation:6940422,91.04,Bus 91.04 : Évry ↔ Arpajon ou Briis-sous-Forges,Albatrans,Albatrans,,route_master,bus,291191004:91.04
+Line:Relation:6940422,91-04,Bus 91-04 : Évry ↔ Arpajon ou Briis-sous-Forges,Albatrans,Albatrans,,route_master,bus,291191004:91-04
 Line:Relation:6949602,E2,Bus E2 : Collège Pompidou ↔ Plaine Haute (Crosne),VyBus,Transdev STRAV,#FBC322,route_master,bus,045045006:E2
 Line:Relation:6949604,V,Bus V : Gare de Montgeron ↔ Clos de la Régale (Vigneux-sur-Seine),STRAV,Transdev STRAV,,route_master,bus,045045008:V
 Line:Relation:6949654,N135,Noctilien N135: Gare de Villeneuve-Saint-Georges ↔ Corbeil Essonnes,Noctilien,Transilien,,route_master,bus,800:N135
@@ -627,7 +627,7 @@ Line:Relation:7673721,Unique,Chavilbus Unique,Chavilbus,Keolis Yvelines,,route_m
 Line:Relation:7677999,R114,Bus R114 : Treize Saules (Saint-Witz) ↔ Collège Anne-Marie Javouhey (Senlis),Keolis CIF,Les Courriers de l'Île-de-France,,route_master,bus,014014114:R114
 Line:Relation:7678000,R2,Bus R2 : Mairie Annexe (Fosses) → Vergers (Plailly),Keolis CIF,Les Courriers de l'Île-de-France,,route_master,bus,014014902:R2
 Line:Relation:7678060,R1,Bus R1 : Gare de Survilliers – Fosses ↔ Gare de Louvres,Keolis CIF,Les Courriers de l'Île-de-France,,route_master,bus,014014901:R1
-Line:Relation:7678061,R3,Bus R3 : Gare de Survilliers – Fosses ↔ Central Space Bâtiment C (Marly-la-Ville),Keolis CIF,Les Courriers de l'Île-de-France,,route_master,bus,014014903:R3
+Line:Relation:7678061,R3,Bus R3 : Gare de Survilliers – Fosses ↔ Central Space Bâtiment C (ZI Moimont 2),Keolis CIF,Les Courriers de l'Île-de-France,,route_master,bus,014014903:R3
 Line:Relation:7678062,R108,Bus R108 : Mairie Annexe (Fosses) ↔ Institut Saint-Dominique (Mortefontaine),Keolis CIF,Les Courriers de l'Île-de-France,,route_master,bus,014014108:R108
 Line:Relation:7678074,R117,Bus R117 : Centre-ville (Survilliers) ↔ Collège de Noailles - Lycée de Nerval (Luzarches),Keolis CIF,Les Courriers de l'Île-de-France,,route_master,bus,014014117:R117
 Line:Relation:7678094,Survilliers,Bus Filéo Survilliers : Roissypole ↔ Survilliers,Filéo,Keolis Mobilité Roissy,,route_master,bus,116295008:FILEOFO
@@ -745,8 +745,8 @@ Line:Relation:7920976,F,Bus F : Gare de Meaux ↔ Nanteuil-lès-Meaux - Les Bruy
 Line:Relation:7920977,E,Bus E : Gare de Meaux (circulaire via Villenoy),Pays de Meaux,Marne et Morin,,route_master,bus,067167003:E
 Line:Relation:7920978,30-12,Bus 30-12 : Gare de Cormeilles-en-Parisis ↔ Gare de Franconville,Parisis,Cars Lacroix,,route_master,bus,030030012:30-12
 Line:Relation:7920979,492,Bus 492 : Chilly-Mazarin — Place de la Libération ↔ Savigny-sur-Orge — Prés Saint-Martin,RATP,Keolis Seine Val-de-Marne,#ffcd02,route_master,bus,100100492:492
-Line:Relation:7920980,R5,Bus R5 : Gare Saint-Germain-en-Laye RER A ↔ Clos Badère,Résalys,Transdev,#E5C062,route_master,bus,012012031:R5
-Line:Relation:7920981,R1,Bus R1 : Gare RER A ↔ Lycée de Vinci,Résalys,Transdev,#AD3541,route_master,bus,012012033:R1
+Line:Relation:7920980,R5,Bus R5 : Gare de Saint-Germain-en-Laye ↔ Clos Badère,Résalys,Transdev Île-de-France Montesson Les Rabaux,#E5C062,route_master,bus,012012031:R5
+Line:Relation:7920981,R1,Bus R1 : Gare de Saint-Germain-en-Laye ↔ Lycée de Vinci,Résalys,Transdev,#AD3541,route_master,bus,012012033:R1
 Line:Relation:7920982,201,Bus 201 : Champigny–Diderot–La Plage ↔ Porte Dorée,RATP,RATP,#6e491e,route_master,bus,100100201:201
 Line:Relation:7920983,234,Bus 234 : Fort d'Aubervilliers ↔ Mairie de Livry-Gargan,RATP,RATP,#ff5a00,route_master,bus,100100234:234
 Line:Relation:7920984,247,Bus 247 : Stade Charles Sage ↔ Garonor,RATP,RATP,#ff5a00,route_master,bus,100100247:247

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-07-15T15:01:12Z">
-	<analyser timestamp="2019-07-15T15:01:12Z">
+<analysers timestamp="2019-07-16T14:57:10Z">
+	<analyser timestamp="2019-07-16T14:57:10Z">
 		<class item="8042" tag="transport en commun" id="1" level="3">
 			<classtext lang="fr" title="tag manquant sur une relation route_master (ligne de transport en commun)"></classtext>
 		</class>
@@ -118,6 +118,31 @@
 			<location lat="49.047488799999996" lon="2.0102473"></location>
 			<relation id="9759621"></relation>
 			<text lang="fr" value="Il y a plusieurs lignes dans OSM qui ont ce même ref:FR:STIF:ExternalCode_Line (011195022:95-22)"></text>
+		</error>
+		<error class="1">
+			<location lat="48.805526799999996" lon="2.1410708"></location>
+			<relation id="9796509"></relation>
+			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (056356212:105) n'existe pas ou plus dans les données opendata du STIF"></text>
+		</error>
+		<error class="1">
+			<location lat="48.7648753" lon="2.1672043"></location>
+			<relation id="9796537"></relation>
+			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (056356216:102) n'existe pas ou plus dans les données opendata du STIF"></text>
+		</error>
+		<error class="1">
+			<location lat="48.834238799999994" lon="2.1500116"></location>
+			<relation id="9796543"></relation>
+			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (056356312:107) n'existe pas ou plus dans les données opendata du STIF"></text>
+		</error>
+		<error class="1">
+			<location lat="48.7670665" lon="2.159131"></location>
+			<relation id="9796573"></relation>
+			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (056356108:104) n'existe pas ou plus dans les données opendata du STIF"></text>
+		</error>
+		<error class="1">
+			<location lat="48.830832" lon="2.1285498"></location>
+			<relation id="9796594"></relation>
+			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (056356112:106) n'existe pas ou plus dans les données opendata du STIF"></text>
 		</error>
 	</analyser>
 </analysers>

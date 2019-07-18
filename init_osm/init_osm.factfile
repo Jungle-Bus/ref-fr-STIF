@@ -15,7 +15,7 @@
         }, {
             "name": "extraction des données transport",
             "executor": "shell",
-            "command": "osm_transit_extractor -i ile-de-france-latest.osm.pbf -o data",
+            "command": "osm_transit_extractor --dump-all-tags -i ile-de-france-latest.osm.pbf -o data",
             "arguments": [],
             "dependsOn": ["téléchargement des données d'idf"],
             "onResult": {

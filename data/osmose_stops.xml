@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-07-22T14:59:22Z">
-	<analyser timestamp="2019-07-22T14:59:22Z">
+<analysers timestamp="2019-07-23T14:59:46Z">
+	<analyser timestamp="2019-07-23T14:59:46Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag obsolète sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -50981,7 +50981,7 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.779272999999996" lon="2.1753929999999997"></location>
+			<location lat="48.779286299999995" lon="2.1757377"></location>
 			<node id="6178217304"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 426179 l'association avec la ligne 056356116:J est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=6178217304"></text>
 			<fixes>
@@ -73445,7 +73445,7 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.779272999999996" lon="2.1753929999999997"></location>
+			<location lat="48.779286299999995" lon="2.1757377"></location>
 			<node id="6178217304"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 426179 l'association avec la ligne 056356116:J est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=6178217304"></text>
 			<fixes>
@@ -96257,6 +96257,30 @@
 			</fixes>
 		</error>
 		<error class="2">
+			<location lat="49.002779999999994" lon="2.084219"></location>
+			<node id="5668123013"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 34758 l'association avec la ligne  est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5668123013"></text>
+			<fixes>
+				<fix>
+					<node id="5668123013">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.9496347" lon="2.0703462999999998"></location>
+			<node id="5673029250"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 34998 l'association avec la ligne  est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5673029250"></text>
+			<fixes>
+				<fix>
+					<node id="5673029250">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
 			<location lat="48.9977619" lon="2.0992309"></location>
 			<node id="2214912523"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 34751 l'association avec la ligne  est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=2214912523"></text>
@@ -96431,6 +96455,42 @@
 			<fixes>
 				<fix>
 					<node id="5567854789">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="49.001467" lon="2.075662"></location>
+			<node id="5333215599"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 35028 l'association avec la ligne  est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5333215599"></text>
+			<fixes>
+				<fix>
+					<node id="5333215599">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.964901" lon="2.0740632"></location>
+			<node id="5668122974"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 35014 l'association avec la ligne  est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5668122974"></text>
+			<fixes>
+				<fix>
+					<node id="5668122974">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.949737" lon="2.0703412"></location>
+			<node id="4322241873"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 34997 l'association avec la ligne  est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=4322241873"></text>
+			<fixes>
+				<fix>
+					<node id="4322241873">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

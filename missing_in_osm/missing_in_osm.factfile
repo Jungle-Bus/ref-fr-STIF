@@ -3,7 +3,7 @@
     "data": {
         "name": "extraction des lignes opendata non existantes dans OSM",
         "tasks": [{
-            "name": "extract routes",
+            "name": "extraction des lignes opendata non existantes dans OSM",
             "executor": "shell",
             "command": "cd data && xsv join --left route_id gtfs_routes.txt osm:ref:FR:STIF:ExternalCode_Line lignes.csv |xsv search -s osm:ref:FR:STIF:ExternalCode_Line '^$' > osm_missing_lines.csv ",
             "arguments": [],
@@ -12,6 +12,27 @@
                 "terminateJobWithSuccess": [],
                 "continueJob": [0]
             }
-        }]
+        },{
+            "name": "préparation des lignes opendata",
+            "executor": "shell",
+            "command": "cd data && ../missing_in_osm/prepare_missing.sh ",
+            "arguments": [],
+            "dependsOn": [],
+            "onResult": {
+                "terminateJobWithSuccess": [],
+                "continueJob": [0]
+            }
+        },{
+            "name": "analyse des lignes opendata",
+            "executor": "shell",
+            "command": "cd missing_in_osm && python3 missing_lines.py > ../data/missing.md",
+            "arguments": [],
+            "dependsOn": ["préparation des lignes opendata"],
+            "onResult": {
+                "terminateJobWithSuccess": [],
+                "continueJob": [0]
+            }
+        }
+        ]
     }
 }

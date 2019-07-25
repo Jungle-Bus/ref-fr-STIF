@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-07-24T15:05:21Z">
-	<analyser timestamp="2019-07-24T15:05:21Z">
+<analysers timestamp="2019-07-25T14:59:28Z">
+	<analyser timestamp="2019-07-25T14:59:28Z">
 		<class item="8042" tag="transport en commun" id="1" level="3">
 			<classtext lang="fr" title="tag manquant sur une relation route_master (ligne de transport en commun)"></classtext>
 		</class>
+		<error class="1">
+			<location lat="48.887478599999994" lon="2.1704909"></location>
+			<relation id="611690"></relation>
+			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (100100367:367) n'existe pas ou plus dans les données opendata du STIF"></text>
+		</error>
 		<error class="1">
 			<location lat="48.714052699999996" lon="2.1732058"></location>
 			<relation id="2337724"></relation>
@@ -250,6 +255,16 @@
 			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (064608009:9B) n'existe pas ou plus dans les données opendata du STIF"></text>
 		</error>
 		<error class="1">
+			<location lat="48.878302299999994" lon="2.1803851"></location>
+			<relation id="7921035"></relation>
+			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (100100565:565) n'existe pas ou plus dans les données opendata du STIF"></text>
+		</error>
+		<error class="1">
+			<location lat="48.8698291" lon="2.2171374"></location>
+			<relation id="7921043"></relation>
+			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (100100563:563) n'existe pas ou plus dans les données opendata du STIF"></text>
+		</error>
+		<error class="1">
 			<location lat="48.605031399999994" lon="2.3141428"></location>
 			<relation id="7921044"></relation>
 			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (227227002:227-02A) n'existe pas ou plus dans les données opendata du STIF"></text>
@@ -333,11 +348,6 @@
 			<location lat="48.3362504" lon="2.7388342"></location>
 			<relation id="7999697"></relation>
 			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (064608018:18B) n'existe pas ou plus dans les données opendata du STIF"></text>
-		</error>
-		<error class="1">
-			<location lat="48.8863378" lon="1.9224515"></location>
-			<relation id="8054731"></relation>
-			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (011011017:17S) n'existe pas ou plus dans les données opendata du STIF"></text>
 		</error>
 		<error class="1">
 			<location lat="48.8522737" lon="2.0450616999999998"></location>
@@ -620,6 +630,11 @@
 			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (056356026:E) n'existe pas ou plus dans les données opendata du STIF"></text>
 		</error>
 		<error class="1">
+			<location lat="48.6900955" lon="2.3861521999999997"></location>
+			<relation id="9200388"></relation>
+			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (002002010:10) n'existe pas ou plus dans les données opendata du STIF"></text>
+		</error>
+		<error class="1">
 			<location lat="48.666218199999996" lon="2.8424769"></location>
 			<relation id="9202114"></relation>
 			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (003003023:23) n'existe pas ou plus dans les données opendata du STIF"></text>
@@ -748,6 +763,11 @@
 			<location lat="48.777236099999996" lon="2.1677437"></location>
 			<relation id="9808060"></relation>
 			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (004004036:36) n'existe pas ou plus dans les données opendata du STIF"></text>
+		</error>
+		<error class="1">
+			<location lat="48.6535315" lon="2.3572482999999997"></location>
+			<relation id="9832132"></relation>
+			<text lang="fr" value="Il y a plusieurs lignes dans OSM qui ont ce même ref:FR:STIF:ExternalCode_Line (055055003:DM03)"></text>
 		</error>
 	</analyser>
 </analysers>

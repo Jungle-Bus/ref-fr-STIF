@@ -807,7 +807,7 @@ Line:relation:7921041,85-01,Bus 85-01 : Dourdan intra-muros (circulaire),Cars Pe
 Line:relation:7921042,306-04,Bus 306-04 : Dourdan ↔ Mérobert,Ormont Transport,Ormont Transport,,route_master,bus,068306004:30604
 Line:relation:7921043,563,Bus 563 : Suresnes de Gaulle ↔ Place de la Boule,RATP,RATP,#FF1300,route_master,bus,100100563:563
 Line:relation:7921044,227-02A,Bus 227-02A : Brétigny-sur-Orge Gare Place (circulaire),Orgebus,Transdev Île-de-France Brétigny,#007ec6,route_master,bus,227227002:227-02A
-Line:relation:7921045,59,Bus 59 : Gare de Marne-la-Vallée - Chessy ↔ Camping ou Gare Routière de Crécy la Chapelle,Marne et Morin,Transdev Marne et Morin,,route_master,bus,067067059:59
+Line:relation:7921045,59,Bus 59 : Gare de Marne-la-Vallée - Chessy ↔ Camping,Grand Morin,Transdev Marne et Morin,,route_master,bus,067067059:59
 Line:relation:7921046,8A,Bus 8A : Gare de Crécy-la-Chapelle (circulaire),Transdev Marne et Morin,Transdev Marne et Morin,,route_master,bus,067067008:8A
 Line:relation:7921047,60,Bus 60 : Rue Philo ↔ Gare de Val d'Europe,Transdev Marne et Morin,Transdev Marne et Morin,,route_master,bus,067067060:60
 Line:relation:7921048,57,Bus 57 : Gare d'Esbly ↔ Gare de Marne la Vallée Chessy,Marne et Morin,Transdev Marne et Morin,,route_master,bus,067067057:57
@@ -1341,7 +1341,7 @@ Line:relation:9353416,77,Bus 77 : Gare de Lyon ↔ Joinville-le-Pont RER,RATP,RA
 Line:relation:9438601,,Bus 40 : Creil − Senlis − Roissy,Réseau Régional de Transport,CSR FINAND CHARLOT,,route_master,bus,
 Line:relation:9447998,95-09,Bus 95-09 : Villiers-Adam ↔ Domont,Busval d'Oise,Keolis CIF,,route_master,bus,046195009:95-09
 Line:relation:9450752,95-45,Bus 95-45 : AVERNES Mairie ↔ MAGNY-EN-VEXIN Gare Routière,Busval d'Oise,TIM Bus,#73800D,route_master,bus,251195045:95-45
-Line:relation:9464254,95-22,Bus 95-22 : Pontoise Gare ↔ Place de la Fontaine,Busval d'Oise,Transdev ECQUEVILLY,,route_master,bus,011195022:95-22
+Line:relation:9464254,95-22,Bus 95-22 : Pontoise Gare ↔ Place de la Fontaine (Seraincourt),Busval d'Oise,Transdev Île-de-France Ecquevilly,#0D99BF,route_master,bus,011195022:95-22
 Line:relation:9501845,5,Bus Transilien 5 : Gare de Conflans-Sainte-Honorines Gare de Mantes-La-Jolie,Transilien,Transilien,,route_master,bus,
 Line:relation:9644838,29,Bus 29 : Pontoise Gare ↔ Neuville RER,STIVO,STIVO,,route_master,bus,059440029:29
 Line:relation:9674065,7002,Bus 7002 : Le Saulchoir ↔ Gare Évry - Courcouronnes,Cars Soeur,Cars Soeur,,route_master,bus,070070002:7002
@@ -1356,7 +1356,6 @@ Line:relation:9718947,16,Bus 16 : Lycée Lakanal ↔ Avenue Lombart,Paladin,Biè
 Line:relation:9736215,30-38,Bus 30-38 : Gare de Montigny - Beauchamp ↔ Gare de Cormeilles-en-Parisis,Parisis,Cars Lacroix,,route_master,bus,030030038:30-38
 Line:relation:9748884,30-04,Bus 30-04 : Mairie de Chauvry ↔ Lycée - Collège Voie des Sports (Taverny),Valbus,Lacroix,,route_master,bus,030030004:30-04
 Line:relation:9752169,15,Bus 15 : Gare de Mantes-la-Jolie ↔ Mairie (Guernes),Com’Bus,CTVMI,,route_master,bus,057057015:15
-Line:relation:9759621,95-22,Bus 95-22 : Place de la Fontaine ↔ Pontoise Gare - Gare Routière Canrobert,Busval d'Oise,Transdev Île-de-France Ecquevilly,,route_master,bus,011195022:95-22
 Line:relation:9786572,2,futur Bus 2 : Gare de La Celle-Saint-Cloud ↔ Porchefontaine - Louis XIV (Versailles),Phébus,Keolis Versailles,#3a398e,route_master,bus,
 Line:relation:9786573,5,futur Bus 5 : Cœur de Bourg (Le Chesnay-Rocquencourt) ↔ Bernard de Jussieu (Versailles),Phébus,Keolis Versailles,#9e006a,route_master,bus,
 Line:relation:9786575,6,futur Bus 6 : Gare de Viroflay Rive Gauche ↔ Gare de Versailles Chantiers ↔ Versailles Satory Mobilab,Phébus,Keolis Versailles,#1b93a6,route_master,bus,
@@ -1387,3 +1386,5 @@ Line:relation:9857233,103,Bus 103 : Moutier Médiathèque (circulaire via Place 
 Line:relation:9866393,223,Bus 223 : La Montagne ↔ Le Domaine,Val d'Essonne,CEA Transports,,route_master,bus,010010022:223
 Line:relation:9871081,C,Bus C : La Défense ↔ Chambourcy - Renaissance,Express A14,CTCOP,,route_master,bus,244244001:EXPA14C
 Line:relation:9873145,B,Bus B : La Défense ↔ Bonnières - La Vallée Française,Express A14,CTCOP,,route_master,bus,244244001:EXPA14B
+Line:relation:9885338,59E,Bus 59E : Gare de Marne-la-Vallée - Chessy ↔ Gare Routière de Crécy la Chapelle,Grand Morin,Transdev Marne et Morin,,route_master,bus,067067059:59
+Line:relation:9887152,95-23,Bus 95-23 : Église (Banthelu) ↔ Cergy,Busval d'Oise,Transdev Île-de-France Ecquevilly,,route_master,bus,

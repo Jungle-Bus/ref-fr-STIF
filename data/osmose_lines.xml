@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-08-05T15:06:00Z">
-	<analyser timestamp="2019-08-05T15:06:00Z">
+<analysers timestamp="2019-08-06T15:05:38Z">
+	<analyser timestamp="2019-08-06T15:05:38Z">
 		<class item="8042" tag="transport en commun" id="1" level="3">
 			<classtext lang="fr" title="tag manquant sur une relation route_master (ligne de transport en commun)"></classtext>
 		</class>
@@ -675,7 +675,7 @@
 			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (025195033:95-33) n'existe pas ou plus dans les données opendata du STIF"></text>
 		</error>
 		<error class="1">
-			<location lat="48.7829256" lon="2.3168818"></location>
+			<location lat="48.7828788" lon="2.3168335"></location>
 			<relation id="9285368"></relation>
 			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (020149007:17) n'existe pas ou plus dans les données opendata du STIF"></text>
 		</error>
@@ -723,11 +723,6 @@
 			<location lat="49.0582135" lon="2.20808"></location>
 			<relation id="9748884"></relation>
 			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (030030004:30-04) n'existe pas ou plus dans les données opendata du STIF"></text>
-		</error>
-		<error class="1">
-			<location lat="49.047488799999996" lon="2.0102473"></location>
-			<relation id="9759621"></relation>
-			<text lang="fr" value="Il y a plusieurs lignes dans OSM qui ont ce même ref:FR:STIF:ExternalCode_Line (011195022:95-22)"></text>
 		</error>
 		<error class="1">
 			<location lat="48.805526799999996" lon="2.1410708"></location>
@@ -788,6 +783,11 @@
 			<location lat="48.5158919" lon="2.3008230999999997"></location>
 			<relation id="9866393"></relation>
 			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (010010022:223) n'existe pas ou plus dans les données opendata du STIF"></text>
+		</error>
+		<error class="1">
+			<location lat="48.8712357" lon="2.784027"></location>
+			<relation id="9885338"></relation>
+			<text lang="fr" value="Il y a plusieurs lignes dans OSM qui ont ce même ref:FR:STIF:ExternalCode_Line (067067059:59)"></text>
 		</error>
 	</analyser>
 </analysers>

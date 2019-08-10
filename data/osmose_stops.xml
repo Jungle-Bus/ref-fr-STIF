@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-08-09T15:08:11Z">
-	<analyser timestamp="2019-08-09T15:08:11Z">
+<analysers timestamp="2019-08-10T15:08:36Z">
+	<analyser timestamp="2019-08-10T15:08:36Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag obsolète sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -34547,18 +34547,6 @@
 			<fixes>
 				<fix>
 					<node id="2974031965">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.8434087" lon="2.5823978999999997"></location>
-			<node id="1016151159"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 41426 l'association avec la ligne 100100213:213 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=1016151159"></text>
-			<fixes>
-				<fix>
-					<node id="1016151159">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

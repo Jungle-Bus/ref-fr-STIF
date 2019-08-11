@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-08-10T15:08:36Z">
-	<analyser timestamp="2019-08-10T15:08:36Z">
+<analysers timestamp="2019-08-11T15:09:37Z">
+	<analyser timestamp="2019-08-11T15:09:37Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag obsolète sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -42755,18 +42755,6 @@
 			<fixes>
 				<fix>
 					<node id="1866078476">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.733194399999995" lon="2.3715493999999997"></location>
-			<node id="5979569885"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 413124 l'association avec la ligne  est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5979569885"></text>
-			<fixes>
-				<fix>
-					<node id="5979569885">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

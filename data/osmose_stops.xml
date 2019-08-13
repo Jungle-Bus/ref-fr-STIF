@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-08-12T15:09:51Z">
-	<analyser timestamp="2019-08-12T15:09:51Z">
+<analysers timestamp="2019-08-13T15:09:28Z">
+	<analyser timestamp="2019-08-13T15:09:28Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag obsolète sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -71345,24 +71345,24 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="49.0428834" lon="2.0906854"></location>
-			<node id="5809985084"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 422521 l'association avec la ligne 011195022:95-22 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5809985084"></text>
-			<fixes>
-				<fix>
-					<node id="5809985084">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
 			<location lat="49.052704999999996" lon="2.009244"></location>
 			<node id="6566534711"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 416731;417017;413573 l'association avec la ligne 011195022:95-22 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=6566534711"></text>
 			<fixes>
 				<fix>
 					<node id="6566534711">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="49.0428834" lon="2.0906854"></location>
+			<node id="5809985084"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 422521 l'association avec la ligne 011195022:95-22 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5809985084"></text>
+			<fixes>
+				<fix>
+					<node id="5809985084">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-08-20T15:12:47Z">
-	<analyser timestamp="2019-08-20T15:12:47Z">
+<analysers timestamp="2019-08-21T15:13:04Z">
+	<analyser timestamp="2019-08-21T15:13:04Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag obsolète sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -33101,7 +33101,7 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.6988917" lon="2.20785"></location>
+			<location lat="48.6986965" lon="2.2066774"></location>
 			<node id="3842669990"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 21828 l'association avec la ligne 006006019:S2 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=3842669990"></text>
 			<fixes>
@@ -33125,7 +33125,7 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.6988917" lon="2.20785"></location>
+			<location lat="48.6986965" lon="2.2066774"></location>
 			<node id="3842669990"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 21828 l'association avec la ligne 006006019:S1 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=3842669990"></text>
 			<fixes>
@@ -53171,30 +53171,6 @@
 			<fixes>
 				<fix>
 					<node id="1417482486">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="49.0549083" lon="2.0179597"></location>
-			<node id="1867282348"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 416957 l'association avec la ligne 251195048:95-48 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=1867282348"></text>
-			<fixes>
-				<fix>
-					<node id="1867282348">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="49.1571722" lon="1.7824609"></location>
-			<node id="6566081688"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 462519;462536 l'association avec la ligne 251195048:95-48 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=6566081688"></text>
-			<fixes>
-				<fix>
-					<node id="6566081688">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

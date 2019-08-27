@@ -22,7 +22,7 @@ def create_osmose_xml_stops(errors):
     doc['analysers']['analyser']['class']['@level'] = "3"
     doc['analysers']['analyser']['class']['classtext']['@lang'] = "fr"
     doc['analysers']['analyser']['class']['classtext'][
-        '@title'] = "tag obsolète sur un arrêt de transport en commun d'Île-de-France"
+        '@title'] = "tag à vérifier sur un arrêt de transport en commun d'Île-de-France"
 
     for error in errors :
         current_osmose_error = deepcopy(doc['analysers']['analyser']['error'][1])
@@ -57,7 +57,7 @@ def create_osmose_xml_lines(errors):
     doc['analysers']['analyser']['class']['@level'] = "3"
     doc['analysers']['analyser']['class']['classtext']['@lang'] = "fr"
     doc['analysers']['analyser']['class']['classtext'][
-        '@title'] = "tag manquant sur une relation route_master (ligne de transport en commun)"
+        '@title'] = "tag manquant ou à vérifier sur une relation route_master (ligne de transport en commun)"
 
     for error in errors:
         current_osmose_error = deepcopy(

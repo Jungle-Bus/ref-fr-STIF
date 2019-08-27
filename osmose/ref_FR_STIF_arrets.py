@@ -53,10 +53,16 @@ def generate_osmose_errors_for_routepoints():
 
     ref_STIF_list = all_ref_STIF.keys()
 
+    osm_dedup_id_list = []
     with open('../data/osm_routepoints.csv', 'r') as f:
         reader = csv.DictReader(f)
         for row in reader:
-            error = {"id" : row['stop_id'].split(':')[-1] }
+            osm_id =  row['stop_id'].split(':')[-1]
+            if osm_id not in osm_dedup_id_list:
+                osm_dedup_id_list.append(osm_id)
+            else:
+                continue #we only check each stop once (even if it can have multiple errors)
+            error = {"id" : osm_id}
             if not row['osm:ref:FR:STIF']:
                 continue
             osm_ref = row['osm:ref:FR:STIF']
@@ -81,4 +87,4 @@ if __name__ == '__main__':
     print("Il y a {} erreurs sur les arrêts".format(len(stop_errors)))
 
     routepoints_errors = generate_osmose_errors_for_routepoints()
-    print("Il y a {} erreurs sur les arrêts".format(len(routepoints_errors)))
+    print("Il y a {} erreurs sur les routepoints".format(len(routepoints_errors)))

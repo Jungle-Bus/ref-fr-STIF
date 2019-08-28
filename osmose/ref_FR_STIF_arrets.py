@@ -20,12 +20,15 @@ def generate_osmose_errors_for_stops():
                 continue
             osm_ref = row['osm:ref:FR:STIF']
             if ';' in osm_ref :
+                has_at_least_one_wrong_ref = False
                 for a_ref in osm_ref.split(';'):
                     if a_ref.strip() not in ref_STIF_list :
-                        error['label'] = "La ref:FR:STIF {} n'existe pas ou plus.".format(a_ref)
-                        error['label'] += " Voir sur https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id={}".format(error['id'])
-                        error['lat'], error['lon'] = row['lat'], row['lon']
-                        errors.append(error)
+                        has_at_least_one_wrong_ref = True
+                if has_at_least_one_wrong_ref:
+                    error['label'] = "Une des valeurs de ref:FR:STIF n'existe pas ou plus."
+                    error['label'] += " Voir sur https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id={}".format(error['id'])
+                    error['lat'], error['lon'] = row['lat'], row['lon']
+                    errors.append(error)
                 continue
 
             try :

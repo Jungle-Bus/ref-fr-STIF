@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-08-27T15:17:04Z">
-	<analyser timestamp="2019-08-27T15:17:04Z">
+<analysers timestamp="2019-08-28T15:18:50Z">
+	<analyser timestamp="2019-08-28T15:18:50Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag à vérifier sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -3665,7 +3665,7 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.8169298" lon="2.3286865999999997"></location>
+			<location lat="48.8169355" lon="2.3286583999999997"></location>
 			<node id="4719389234"></node>
 			<text lang="fr" value="La ref:FR:STIF 24206 n'existe pas ou plus"></text>
 			<fixes>
@@ -5639,18 +5639,6 @@
 			<fixes>
 				<fix>
 					<node id="5436908878">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.697354499999996" lon="2.2926056"></location>
-			<node id="5436958606"></node>
-			<text lang="fr" value="La ref:FR:STIF 427784 n'existe pas ou plus. Voir sur https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5436958606"></text>
-			<fixes>
-				<fix>
-					<node id="5436958606">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>
@@ -13307,6 +13295,18 @@
 			<fixes>
 				<fix>
 					<node id="1867284118">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.6973668" lon="2.2932300999999997"></location>
+			<node id="5948463886"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 40797 l'association avec la ligne 100100199:199 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5948463886"></text>
+			<fixes>
+				<fix>
+					<node id="5948463886">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

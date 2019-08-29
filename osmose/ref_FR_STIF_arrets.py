@@ -70,6 +70,9 @@ def generate_osmose_errors_for_routepoints():
                 continue
             osm_ref = row['osm:ref:FR:STIF']
             all_osm_ref = osm_ref.split(';')
+            noexistant_ref = [elem for elem in all_osm_ref if elem not in ref_STIF_list]
+            if noexistant_ref: #already covered by the test on the stops
+                continue
             lines_ok_for_this_ref = [all_ref_STIF[a_ref] for a_ref in all_osm_ref if a_ref in ref_STIF_list]
             flat_list_lines_ok = [item for sublist in lines_ok_for_this_ref for item in sublist]
             if not flat_list_lines_ok :

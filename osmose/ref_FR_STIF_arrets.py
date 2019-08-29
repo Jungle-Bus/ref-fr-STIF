@@ -20,12 +20,15 @@ def generate_osmose_errors_for_stops():
                 continue
             osm_ref = row['osm:ref:FR:STIF']
             if ';' in osm_ref :
+                has_at_least_one_wrong_ref = False
                 for a_ref in osm_ref.split(';'):
                     if a_ref.strip() not in ref_STIF_list :
-                        error['label'] = "La ref:FR:STIF {} n'existe pas ou plus.".format(a_ref)
-                        error['label'] += " Voir sur https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id={}".format(error['id'])
-                        error['lat'], error['lon'] = row['lat'], row['lon']
-                        errors.append(error)
+                        has_at_least_one_wrong_ref = True
+                if has_at_least_one_wrong_ref:
+                    error['label'] = "Une des valeurs de ref:FR:STIF n'existe pas ou plus."
+                    error['label'] += " Voir sur https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id={}".format(error['id'])
+                    error['lat'], error['lon'] = row['lat'], row['lon']
+                    errors.append(error)
                 continue
 
             try :
@@ -67,6 +70,9 @@ def generate_osmose_errors_for_routepoints():
                 continue
             osm_ref = row['osm:ref:FR:STIF']
             all_osm_ref = osm_ref.split(';')
+            noexistant_ref = [elem for elem in all_osm_ref if elem not in ref_STIF_list]
+            if noexistant_ref: #already covered by the test on the stops
+                continue
             lines_ok_for_this_ref = [all_ref_STIF[a_ref] for a_ref in all_osm_ref if a_ref in ref_STIF_list]
             flat_list_lines_ok = [item for sublist in lines_ok_for_this_ref for item in sublist]
             if not flat_list_lines_ok :

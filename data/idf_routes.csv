@@ -1065,9 +1065,9 @@ Route:relation:6881787,Bus 95-24 : Transformateur → Collège,95-24,Collège,Bu
 Route:relation:6881790,Bus 95-24 : Stade → Collège,95-24,Collège,Busval d'Oise
 Route:relation:6881829,Bus 95-24 : Transformateur → Vigny → Collège,95-24,Collège,Busval d'Oise
 Route:relation:6881847,Bus 95-24 : Victor Hugo → Us → Collège,95-24,Collège,Busval d'Oise
-Route:relation:6882110,Bus 95-24 : Collège → Victor Hugo,95-24,Collège,Busval d'Oise
+Route:relation:6882110,Bus 95-24 : Collège → Victor Hugo,95-24,Victor Hugo,Busval d'Oise
 Route:relation:6883258,Bus 305 : Juvisy Gare Routière Seine → Henri Barbusse - Gare RER de Corbeil Essonnes,305,Henri Barbusse - Gare RER de Corbeil Essonnes,Seine Essonne Bus
-Route:relation:6883294,Bus 95-24 : Collège → Mairie,95-24,Collège,Busval d'Oise
+Route:relation:6883294,Bus 95-24 : Collège → Mairie (Moussy),95-24,Mairie (Moussy),Busval d'Oise
 Route:relation:6885987,Bus R104 : Institut Saint-Dominique (Mortefontaine) → Sécurité Sociale (Goussainville),R104,Sécurité Sociale (Goussainville),Les Courriers de l'Île-de-France
 Route:relation:6886136,"Bus 414 : Pas du Lac, Saint-Exupéry → Gare de Trappes",414,Gare de Trappes,SQYBus
 Route:relation:6888914,Bus 95-17 : Gendarmerie → Cergy Préfecture,95-17,Cergy Préfecture,Busval d'Oise
@@ -2570,8 +2570,8 @@ Route:relation:9245894,Bus G : Gare de Meaux → Musée de la Grande Guerre,G,Mu
 Route:relation:9247945,Bus H : Gare de Meaux (circulaire via Meaux Hôpital),H,Gare de Meaux - Quai de Dépose,Pays de Meaux
 Route:relation:9247984,Bus I : Roland Garros → Gare de Meaux,I,Gare de Meaux - Quai de Dépose,Pays de Meaux
 Route:relation:9247985,Bus I : Gare de Meaux → Colisée de Meaux,I,Colisée de Meaux,Pays de Meaux
-Route:relation:9248105,Bus 95-08 : Centre Ville → Marcouville → Cergy Préfecture,95-08,CERGY : Préfecture / RER,Busval d'Oise
-Route:relation:9248106,Bus 95-08 : Cergy Préfecture → Marcouville → Centre Ville,95-08,CHARS : Centre Ville,Busval d'Oise
+Route:relation:9248105,Bus 95-08 : Centre Ville (Chars) → Marcouville (Pontoise) → Cergy Préfecture,95-08,Cergy Préfecture,Busval d'Oise
+Route:relation:9248106,Bus 95-08 : Cergy Préfecture → Marcouville (Pontoise) → Centre Ville (Chars),95-08,Centre Ville (Chars),Busval d'Oise
 Route:relation:9248108,Bus J : Georges Claude → Jean Renoir,J,Jean Renoir,Pays de Meaux
 Route:relation:9248109,Bus J : Jean Renoir → Georges Claude,J,Georges Claude Quai 3,Pays de Meaux
 Route:relation:9249387,Bus M : Georges Claude → Montceaux-lès-Meaux - Église,M,Montceaux-lès-Meaux - Église,Pays de Meaux
@@ -2754,8 +2754,8 @@ Route:relation:9508109,Pédibus G : École des Pyramides,G,École des Pyramides,
 Route:relation:9508110,Place de l'Ancien Marché,F,École des Pyramides,Pédibus
 Route:relation:9513539,Bus 25 : Vaillant-Couturier - Lénine → Bibliothèque François Mitterrand,25,Bibliothèque François Mitterrand,RATP
 Route:relation:9513540,Bus 25 : Bibliothèque François Mitterrand → Vaillant-Couturier - Lénine,25,Vaillant-Couturier - Lénine,RATP
-Route:relation:9585714,Bus 95-08 : Pontoise - Place du Général de Gaulle → Marines - Collège les Hautiers,95-08,Marines - Collège Les Hautiers,Busval d'Oise
-Route:relation:9585715,Bus 95-08 : Marines - Collège les Hautiers → Pontoise - Place du Général de Gaulle,95-08,Pontoise - Place du Général de Gaulle,Busval d'Oise
+Route:relation:9585714,Bus 95-08 : Pontoise - Place du Général de Gaulle → Marines - Collège Les Hautiers,95-08,Marines - Collège Les Hautiers,Busval d'Oise
+Route:relation:9585715,Bus 95-08 : Marines - Collège Les Hautiers → Pontoise - Place du Général de Gaulle,95-08,Pontoise - Place du Général de Gaulle,Busval d'Oise
 Route:relation:9591747,Bus 95-05 : Gare de Cergy-Préfecture → Croix d'Autel,95-05,Croix d'Autel,Busval d'Oise
 Route:relation:9591748,Bus 95-05 : Croix d'Autel → Gare de Cergy-Préfecture,95-05,Gare de Cergy-Préfecture,Busval d'Oise
 Route:relation:9592820,Bus 87 : Porte de Reuilly → Jussieu - Minéraux,87,Jussieu - Minéraux,RATP
@@ -3305,7 +3305,7 @@ Route:relation:9965493,Bus 95-48 : Magny-en-Vexin - Gare Routière → Eragny - 
 Route:relation:9966924,Bus 95-48 : Bray et Lû - Place du 19 Mai 1962 → Cergy - Le Haut → Pontoise - Hôpital,95-48,Pontoise - Hôpital,Busval d'Oise
 Route:relation:9966925,Bus 95-48 : Bray et Lû - Place du 19 Mai 1962 → Magny-en-Vexin - Gare Routière,95-48,Magny-en-Vexin - Gare Routière,Busval d'Oise
 Route:relation:9967806,Bus 95-48 : Saint-Clair-sur-Epte - Bois St Clair → Cergy-Le Haut → Cergy Préfecture,95-48,Cergy Préfecture,Busval d'Oise
-Route:relation:9967825,Bus 95-48 : Magny-En-Vexin - Beaux Sites →Nucourt - Wenings → Cergy-Le Haut → Cergy Préfecture,95-48,Cergy Préfecture,Busval d'Oise
+Route:relation:9967825,Bus 95-48 : Magny-En-Vexin - Beaux Sites → Nucourt - Wenings → Cergy-Le Haut → Cergy Préfecture,95-48,Cergy Préfecture,Busval d'Oise
 Route:relation:9968650,bus 9 : Cornebiche (Arbonne-la-Forêt) → Gare de Melun (Melun),9,Gare de Melun (Melun),Canton de Perthes en Gâtinais
 Route:relation:9968651,bus 9 : Gare de Melun (Melun) → Cornebiche (Arbonne-la-Forêt),9,Cornebiche (Arbonne-la-Forêt),Canton de Perthes en Gâtinais
 Route:relation:9968717,bus 21 : Collège la Vallée (Avon) → Puits Beau (Saint-Fargeau-Ponthierry),21,Puits Beau (Saint-Fargeau-Ponthierry),Canton de Perthes en Gâtinais
@@ -3315,3 +3315,13 @@ Route:relation:9972476,bus 2 : Gare de Montereau (Montereau-Fault-Yonne) → Pla
 Route:relation:9972553,bus 1 : Gare Routière (Provins) → Place Mérot (Fontaine-Fourches),1,Place Mérot (Fontaine-Fourches),Cars Moreau
 Route:relation:9972554,bus 1 : Place Mérot (Fontaine-Fourches) → Gare Routière (Provins),1,Gare Routière (Provins) ou Gare de Longueville,Cars Moreau
 Route:relation:9973806,Ligne 30 Emancé - Gare Prud'Homme,,Gare Prud'Homme,30
+Route:relation:9978086,bus 01 : Jardinerie (Méricourt) → Gare de Bonnières (Bonnières-sur-Seine),01,Gare de Bonnières (Bonnières-sur-Seine),Com'Bus
+Route:relation:9978087,bus 01 : Gare de Bonnières (Bonnières-sur-Seine) → Jardinerie (Méricourt),01,Jardinerie (Méricourt),Com'Bus
+Route:relation:9978134,bus 04 : Les Tasses (La Villeneuve-en-Chevrie) → Gare de Bonnières (Bonnières-sur-Seine),04,Gare de Bonnières (Bonnières-sur-Seine),Com'Bus
+Route:relation:9978135,bus 04 : Gare de Bonnières (Bonnières-sur-Seine) → Les Tasses (La Villeneuve-en-Chevrie),04,Les Tasses (La Villeneuve-en-Chevrie),Com'Bus
+Route:relation:9978190,bus 05 : Gloton (Bennecourt) → Gare de Bonnières (Bonnières-sur-Seine),05,Gare de Bonnières (Bonnières-sur-Seine),Com'Bus
+Route:relation:9978191,bus 05 : Gare de Bonnières (Bonnières-sur-Seine) → Gloton (Bennecourt),05,Gloton (Bennecourt),Com'Bus
+Route:relation:9978272,bus 09 : Gare de Mantes la Jolie (Mantes-la-Ville) (Mantes-la-Jolie) → Place du Vexin (Meulan-en-Yvelines),09,Place du Vexin (Meulan-en-Yvelines),Com'Bus
+Route:relation:9978273,bus 09 : Place du Vexin (Meulan-en-Yvelines) → Gare de Mantes la Jolie (Mantes-la-Ville) (Mantes-la-Jolie),09,Gare de Mantes la Jolie (Mantes-la-Ville) (Mantes-la-Jolie),Com'Bus
+Route:relation:9978333,bus 10 : Hauts Célestins (Limay) → Gare de Cergy Préfecture (Cergy),10,Gare de Cergy Préfecture (Cergy),Com'Bus
+Route:relation:9978334,bus 10 : Gare de Cergy Préfecture (Cergy) → Hauts Célestins (Limay),10,Hauts Célestins (Limay),Com'Bus

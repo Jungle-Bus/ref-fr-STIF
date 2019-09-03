@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-09-02T15:18:48Z">
-	<analyser timestamp="2019-09-02T15:18:48Z">
+<analysers timestamp="2019-09-03T15:19:06Z">
+	<analyser timestamp="2019-09-03T15:19:06Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag à vérifier sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -23999,6 +23999,18 @@
 			<fixes>
 				<fix>
 					<node id="4324017668">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.403405" lon="2.560759"></location>
+			<node id="5899283675"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 30258 l'association avec la ligne  est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5899283675"></text>
+			<fixes>
+				<fix>
+					<node id="5899283675">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

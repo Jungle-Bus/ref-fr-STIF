@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-09-11T15:24:10Z">
-	<analyser timestamp="2019-09-11T15:24:10Z">
+<analysers timestamp="2019-09-12T15:24:00Z">
+	<analyser timestamp="2019-09-12T15:24:00Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag à vérifier sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -19553,6 +19553,18 @@
 			</fixes>
 		</error>
 		<error class="2">
+			<location lat="49.003560199999995" lon="2.076793"></location>
+			<node id="5333215605"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 35070 l'association avec la ligne 212212017:17B est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5333215605"></text>
+			<fixes>
+				<fix>
+					<node id="5333215605">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
 			<location lat="49.002773" lon="2.1191356"></location>
 			<node id="5333215598"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 34845 l'association avec la ligne 212212017:17A est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5333215598"></text>
@@ -19643,18 +19655,6 @@
 			<fixes>
 				<fix>
 					<node id="5333215562">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="49.003560199999995" lon="2.076793"></location>
-			<node id="5333215605"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 35070 l'association avec la ligne 212212017:17B est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5333215605"></text>
-			<fixes>
-				<fix>
-					<node id="5333215605">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

@@ -318,7 +318,7 @@ Line:relation:6006672,356,Bus 356 : Marché des Mortefontaines (Deuil-la-Barre) 
 Line:relation:6010903,DM5,Bus DM5 : ZI Croix Blanche ↔ RER Gare Condorcet,Daniel Meyer,Keolis Meyer,#006DB7,route_master,bus,055055005:DM05
 Line:relation:6010927,169,Bus 169 : Pont de Sevres ↔ Hopital Georges Pompidou,RATP,RATP,#82DC73,route_master,bus,100100169:169
 Line:relation:6010966,167,Bus 167 : Pont de Levallois ↔ Colombes - Piscine–Patinoire,RATP,RATP,#79bb92,route_master,bus,100100167:167
-Line:relation:6040778,193,Bus 193 : Mairie de l'Haÿ-les-Roses ↔ Arcueil-Lénine,Ile de France Mobilités,RATP,,route_master,bus,100100542:193
+Line:relation:6040778,193,Bus 193 : Mairie de l'Haÿ-les-Roses ↔ Arcueil-Lénine,RATP,RATP,,route_master,bus,100100193:193
 Line:relation:6048347,380,Bus 380 : Arcueil - Vache Noire - Centre Commercial ↔ Villejuif - Louis Aragon,RATP,RATP,,route_master,bus,100100380:380
 Line:relation:6049045,182,Bus 182 : Mairie d'Ivry ↔ Villeneuve–Triage RER,RATP,RATP,#BA4C9B,route_master,bus,100100182:182
 Line:relation:6099640,211,Bus 211 : Centre Commercial Terre Ciel ↔ Torcy RER,RATP,RATP,#F59FB3,route_master,bus,100100211:211
@@ -907,7 +907,7 @@ Line:relation:8259881,262,Bus 262 : Gare de Saint-Rémy-lès-Chevreuse ↔ Gare 
 Line:relation:8264762,9B,Bus 9B : Gare Marly le Roi (circulaire),ESF,Transdev Île-de-France Montesson Les Rabaux,,route_master,bus,012012009:9B
 Line:relation:8264763,9AB,Bus 9AB : Gare de Marly-le-Roi → Bèque SNCF,ESF,Transdev Île-de-France Montesson Les Rabaux,Blue/Orange,route_master,bus,012012009:9AB
 Line:relation:8264764,9A,Bus 9A : Gare Marly le Roi (circulaire),ESF,Transdev Île-de-France Montesson Les Rabaux,,route_master,bus,012012009:9A
-Line:relation:8264765,9D,Bus 9D : Gare de Marly-le-Roi (circulaire),ESF,Transdev Île-de-France Montesson Les Rabaux,,route_master,bus,012012009:9D
+Line:relation:8264765,9D,Bus 9D : Gare de Marly-le-Roi (circulaire),Entre Seine et Forêt,Transdev Île-de-France Montesson Les Rabaux,,route_master,bus,012012009:9D
 Line:relation:8268039,18,Bus 18 : Bèque SNCF (circulaire via Le Port-Marly),ESF,Transdev Île-de-France Montesson Les Rabaux,,route_master,bus,012012018:18
 Line:relation:8268259,18S,Bus 18S : Jean Moulin ↔ Plains Champs,ESF,Transdev Île-de-France Montesson Les Rabaux,,route_master,bus,012012018:18S
 Line:relation:8268452,N1,Bus N1 : Terminal 2F (circulaire),ADP,Aéroports de Paris,,route_master,bus,043043001:N1
@@ -1340,11 +1340,11 @@ Line:relation:9736215,30-38,Bus 30-38 : Gare de Montigny - Beauchamp ↔ Gare de
 Line:relation:9748884,30-04,Bus 30-04 : Mairie de Chauvry ↔ Lycée - Collège Voie des Sports (Taverny),Valbus,Lacroix,,route_master,bus,030030004:30-04
 Line:relation:9752169,15,Bus 15 : Gare de Mantes-la-Jolie ↔ Mairie (Guernes),Com’Bus,CTVMI,,route_master,bus,057057015:15
 Line:relation:9786572,2,Bus 2 : Gare de La Celle-Saint-Cloud ↔ Porchefontaine - Louis XIV (Versailles),Phébus,Keolis Versailles,#3a398e,route_master,bus,056356002:2
-Line:relation:9786573,5,Bus 5 : Cœur de Bourg (Le Chesnay-Rocquencourt) ↔ Bernard de Jussieu (Versailles),Phébus,Keolis Versailles,#9e006a,route_master,bus,
-Line:relation:9786575,6,Bus 6 : Gare de Viroflay Rive Gauche ↔ Gare de Versailles Chantiers ↔ Versailles Satory Mobilab,Phébus,Keolis Versailles,#1b93a6,route_master,bus,
+Line:relation:9786573,5,Bus 5 : Cœur de Bourg (Le Chesnay-Rocquencourt) ↔ Bernard de Jussieu (Versailles),Phébus,Keolis Versailles,#9e006a,route_master,bus,056356005:5
+Line:relation:9786575,6,Bus 6 : Gare de Viroflay Rive Gauche ↔ Gare de Versailles Chantiers ↔ Versailles Satory Mobilab,Phébus,Keolis Versailles,#1b93a6,route_master,bus,056356006:6
 Line:relation:9786577,10,Bus 10 : Gare de Vaucresson ↔ Lycée Jules Ferry (Versailles),Phébus,Keolis Versailles,#e7dd21,route_master,bus,056356012:10
 Line:relation:9786578,13,Bus 13 : Gare de Versailles Chantiers ↔ Picardie (Versailles),Phébus,Keolis Versailles,#a6a1c9,route_master,bus,056356016:13
-Line:relation:9786579,9,Bus 9 : Moxouris (Le Chesnay-Rocquencourt) ↔ Gare de Vaucresson ↔ Gare de Garches,Phébus,Keolis Versailles,#f089af,route_master,bus,
+Line:relation:9786579,9,Bus 9 : Moxouris (Le Chesnay-Rocquencourt) ↔ Gare de Vaucresson ↔ Gare de Garches,Phébus,Keolis Versailles,#f089af,route_master,bus,056356011:9
 Line:relation:9786580,7,Bus 7 : Centre Commercial Parly 2 ↔ Gare de Viroflay Rive Gauche,Phébus,Keolis Versailles,#bd875f,route_master,bus,056356008:7
 Line:relation:9786581,1,Bus 1 : Louis Pelin (Le Chesnay-Rocquencourt) ↔ Versailles Université,Phébus,Keolis Versailles,#e21416,route_master,bus,056356001:1
 Line:relation:9796509,105,Bus 105 : Lycée Franco-Allemand ↔ Poste de Garches,Phébus,Keolis Versailles,,route_master,bus,056356021:105
@@ -1418,7 +1418,8 @@ Line:relation:10003678,22,bus 22 : Gare de Saint-Germain en Laye ↔ Gare de Man
 Line:relation:10003789,81,bus 81 : Gare d'Épône Mézières (Épône) ↔ Mairie (Issou),Com'Bus,CTVMI,#e48705,route_master,bus,057057081:81
 Line:relation:10003838,82,bus 82 : Gare d'Épône Mézières (Épône) ↔ Hanneucourt (Gargenville),Com'Bus,CTVMI,#d0aa1d,route_master,bus,057057082:82
 Line:relation:10015706,S5,Bus S5 : Piscine de Carrières ↔ Collège des Amandiers (Carrières-sur-Seine),Bus en Seine,Transdev,,route_master,bus,019248010:S5
-Line:relation:10016215,10,bus 10 : Gare de Nemours Saint-Pierre ↔ Aristide Briand (Bransles),STILL,Transdev Île-de-France Nemours,#77ad1c,route_master,bus,
+Line:relation:10016215,10,bus 10 : Gare de Nemours Saint-Pierre ↔ Aristide Briand (Bransles),STILL,Transdev Île-de-France Nemours,#77ad1c,route_master,bus,064608010:10
 Line:relation:10016233,2,bus 2 : Gare de Nemours Saint-Pierre ↔ Les Grèves / Guinebert (Saint-Pierre-lès-Nemours),STILL,Transdev Île-de-France Nemours,#72bb81,route_master,bus,064608021:2
-Line:relation:10021508,13B,bus 13B : Gare de Nemours Saint-Pierre ↔ Laveaux (Faÿ-lès-Nemours),STILL,Transdev Île-de-France Nemours,#59c6f2,route_master,bus,
+Line:relation:10021508,13B,bus 13B : Gare de Nemours Saint-Pierre ↔ Laveaux (Faÿ-lès-Nemours),STILL,Transdev Île-de-France Nemours,#59c6f2,route_master,bus,064608013:13B
 Line:relation:10021559,14A,bus 14A : Gare de Souppes (Souppes-sur-Loing) ↔ Bruzelles (Château-Landon),STILL,Transdev Île-de-France Nemours,#e72d81,route_master,bus,064608014:14A
+Line:relation:10041715,30-03,Bus 30-03 : Gare de Franconville (circulaire),Parisis,Lacroix,,route_master,bus,030030003:30-03

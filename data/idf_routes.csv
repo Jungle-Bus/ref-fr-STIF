@@ -198,7 +198,7 @@ Route:relation:1257120,Bus 63 : Porte de la Muette → Gare de Lyon,63,Gare de L
 Route:relation:1257121,Bus 60 : Porte de Montmartre → Gambetta - Japon,60,Gambetta - Japon,RATP
 Route:relation:1257166,Bus 43 : Neuilly-sur-Seine — Bagatelle → Gare du Nord,43,Gare du Nord,RATP
 Route:relation:1257167,Bus 52 : Parc de Saint-Cloud → Opéra,52,Opéra,RATP
-Route:relation:1257168,Bus 57 : Arcueil-Laplace RER → Porte de Bagnolet - Louis Ganne,57,Porte de Bagnolet - Louis Ganne,RATP
+Route:relation:1257168,"Bus 57 : Arcueil, Laplace RER → Porte de Bagnolet, Louis Ganne",57,"Porte de Bagnolet, Louis Ganne",RATP
 Route:relation:1257169,Bus 46 : Château de Vincennes → Gare du Nord,46,Gare du Nord,RATP
 Route:relation:1257171,Bus 58 : Vanves - Lycée Michelet → Châtelet,58,Châtelet,RATP
 Route:relation:1257172,Bus 43 : Gare du Nord → Neuilly-sur-Seine — Bagatelle,43,Neuilly-sur-Seine — Bagatelle,RATP
@@ -1282,7 +1282,7 @@ Route:relation:7517219,Bus A : Gare de Houilles Carrières-sur-Seine → Gare du
 Route:relation:7517250,Bus S6 : Lycée les Pierres Vives → Martyrs (Houilles),S6,Martyrs (Houilles),Bus en Seine
 Route:relation:7517251,Bus K : Gare de Houilles Carrières-sur-Seine (circulaire matin),K,Gare de Houilles Carrières-sur-Seine,Bus en Seine
 Route:relation:7524060,Bus 44 : Jacqueline Auriol (Bussy-Saint-Georges) → La Haye (Bussy-Saint-Georges),44,La Haye (Bussy-Saint-Georges),Pep's
-Route:relation:7554812,Bus 4 : Rambouillet → Limours,4,,Réseau Interurbain de Rambouillet
+Route:relation:7554812,Bus 04 : Rambouillet → Limours,04,Limours,Réseau Interurbain de Rambouillet
 Route:relation:7606123,Bus 289 : Georges Pompidou (Clamart) → Porte de Saint-Cloud,289,Porte de Saint-Cloud,RATP
 Route:relation:7616485,Bus v2 : L'Haÿ-les-Roses-Domaine Chérioux → Fresnes Pasteur,V2,Fresnes Pasteur,Valouette
 Route:relation:7618268,Bus 1 : Les Lilas (Fontainebleau) → Gare routière de Fontainebleau Avon,1,Gare routière de Fontainebleau Avon,Aérial
@@ -1413,7 +1413,7 @@ Route:relation:7803141,Bus 545 : Louise Michel → Noisy-le-Sec RER,545,,RATP
 Route:relation:7803142,Bus 545 : Noisy-le-Sec RER → Louise Michel,545,,RATP
 Route:relation:7804633,Bus DM17B : Gare d'Epinay-sur-Orge → Nozay Villarceaux,DM17B,Nozay Villarceaux,Daniel Meyer
 Route:relation:7804634,Bus DM11C : Laboratoires (Marcoussis) → Gare de Massy-Palaiseau,DM11C,Gare de Massy-Palaiseau,Daniel Meyer
-Route:relation:7804858,Bus v4 : Hôtel de Ville – Centre (circulaire),v4,,Valouette
+Route:relation:7804858,Bus V4 (circulaire) : Hôtel de Ville – Centre → Arcueil-Cachan → Benoît Malon → Hôtel de Ville – Centre,V4,Hôtel de Ville,Valouette
 Route:relation:7804895,Bus 574 : TUC est,574,,RATP
 Route:relation:7804896,Bus 574 : TUC ouest,574,,RATP
 Route:relation:7813670,Bus DM10A : Marcoussis → Essouriau → Gare d'Orsay RER,DM10A,Gare d'Orsay RER,Daniel Meyer
@@ -1491,8 +1491,8 @@ Route:relation:7896636,Bus Ligne Bleue : Chemin de l'île → Cimetière du Mont
 Route:relation:7897947,Bus ClamiBus : Maison de Quartier André Charré → Gare de Clamart,ClamiBus,Gare de Clamart,RATP
 Route:relation:7901154,Bus 485S : Delalande - Pasteur → Les Oiseaux,485S,,RATP
 Route:relation:7901156,Bus 485S : Noyer Renard → Delalande - Pasteur,485S,,RATP
-Route:relation:7901328,Bus v5 : Gabriel Péri-Soleil Levant (Circuit B),V5,,Valouette
-Route:relation:7901329,Bus v5 : Gabriel Péri-Soleil Levant (Circuit A),V5,,Valouette
+Route:relation:7901328,Bus V5 : Gabriel Péri-Soleil Levant (Circuit B),V5,,Valouette
+Route:relation:7901329,Bus V5 : Gabriel Péri-Soleil Levant (Circuit A),V5,,Valouette
 Route:relation:7902030,Bus Amibus : Châtillon-Montrouge Métro → Mairie de Châtillon,Amibus,Mairie de Châtillon,Vallée Sud
 Route:relation:7902031,Bus Amibus : Mairie de Châtillon → Châtillon-Montrouge Métro,Amibus,Châtillon-Montrouge Métro,Vallée Sud
 Route:relation:7902827,Bus Le Petit Fontenaisien : Division Leclerc (circulaire),Le Petit Fontenaisien,,RATP
@@ -1577,9 +1577,9 @@ Route:relation:8063808,Bus 19 : Gare de Palaiseau-Villebon RER → Gare de Lozè
 Route:relation:8064496,Bus 12 : Gare (Les Mureaux) → Lycée Van Gogh (Aubergenville),12,Lycée Van Gogh (Aubergenville),Val de Seine
 Route:relation:8065617,Bus 10 : Gare de Marly-le-Roi → Gare de Saint-Germain,10,Gare de Saint-Germain - Rue Thiers RER A,Entre Seine et Forêt
 Route:relation:8066016,Bus 21 : Bèque SNCF - Gare de Marly-le-Roi → Gare du Vésinet - Le Pecq,21,,ESF
-Route:relation:8066042,Bus 4 : BONNELLES Les Ateliers → Rambouillet,4,,Réseau Interurbain de Rambouillet
-Route:relation:8066043,Bus 4 : Rambouillet → BONNELLES Les Ateliers,4,,Réseau Interurbain de Rambouillet
-Route:relation:8066061,Bus 4 : Limours → Rambouillet,4,,Réseau Interurbain de Rambouillet
+Route:relation:8066042,Bus 04 : BONNELLES Les Ateliers → Rambouillet,04,Rambouillet,Réseau Interurbain de Rambouillet
+Route:relation:8066043,Bus 04 : Rambouillet → BONNELLES Les Ateliers,04,BONNELLES Les Ateliers,Réseau Interurbain de Rambouillet
+Route:relation:8066061,Bus 04 : Limours → Rambouillet,04,Rambouillet,Réseau Interurbain de Rambouillet
 Route:relation:8076958,Bus 33 : Pontoise Gare → Gare de Neuville Université,33,Gare de Neuville Université,STIVO
 Route:relation:8076960,Bus 33 : Gare de Neuville Université → Pontoise Gare,33,Pontoise Gare,STIVO
 Route:relation:8077086,Bus 55 : Gare de Conflans-Sainte-Honorine → Gare de Liesse Saint-Ouen-L’Aumône,55,Gare de Liesse Saint-Ouen-L’Aumône,STIVO
@@ -3299,3 +3299,5 @@ Route:relation:10044875,"Flixbus 1709: Paris, Bercy Seine => Chambéry, Busbahnh
 Route:relation:10055535,"Flixbus N1769: Grenoble, Busbahnhof => London, Victoria Coach Station",N1769,"London, Victoria Coach Station",Flixbus
 Route:relation:10055536,"Flixbus N1769: London, Victoria Coach Station => Grenoble, Busbahnhof",N1769,"Grenoble, Busbahnhof",Flixbus
 Route:relation:10073596,Bus 01,01,REBAIS (Giblois/Curie),Seine et Marne Express
+Route:relation:10140904,Bus 63 weekend : Gare de Lyon → Jardin d'Acclimatation,63,Porte de la Muette,RATP
+Route:relation:10140929,Bus 63 weekend : Jardin d'Acclimatation → Gare de Lyon,63,Gare de Lyon,RATP

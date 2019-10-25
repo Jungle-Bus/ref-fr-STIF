@@ -28,8 +28,8 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 822,Keolis Orly Rungis,287094001:GOCparis,GO Cparis,GO C PARIS,3,FFC20A,000000,Line:relation:7921024
 947,Aéroport Paris Beauvais,503503001:Beauvais,Beauvais,Navette Paris-Beauvais,3,0000CC,ffffff,Line:relation:9183484
 95,Express A14,057314100:100,100,Express 100 Les Mureaux St Quentin,3,1AC7FF,000000,Line:relation:9188817
-95,Express A14,057314142:ExpA14,Exp A14,Express A14 Les Mureaux,3,1AC7FF,000000,Line:relation:6886051
 95,Express A14,057314143:ExpA14,Exp A14,Express A14 Verneuil,3,1AC7FF,000000,Line:relation:9188979
+95,Express A14,057314142:ExpA14,Exp A14,Express A14 Les Mureaux,3,1AC7FF,000000,Line:relation:6886051
 319,Filéo,116295008:FILEOFO,FILEO FO,Fileo Fosses (sur réservation),3,003BD1,ffffff,Line:relation:7678094
 319,Filéo,116295003:FILEOG,FILEO G,Fileo Goussainville (sur réservation),3,76B82A,000000,Line:relation:8398489
 319,Filéo,116277005:FILEOO,FILEO O,Fileo Othis (sur réservation),3,FBBA07,000000,Line:relation:2531208
@@ -78,10 +78,10 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 758,Busval d'Oise,025195017:95-17,95-17,95-17,3,00FF00,000000,Line:relation:7449948
 758,Busval d'Oise,025195031:95-31,95-31,95-31,3,D978FF,000000,Line:relation:9310093
 758,Busval d'Oise,025195032:95-32,95-32,95-32,3,FF3399,000000,Line:relation:7998730
-95,Express A14,244244001:EXPA14C,EXP A14 C,EXPRESS A14 CHAMBOURCY,3,FF7D4A,FFFFFF,Line:relation:9871081
+95,Express A14,244244004:EXPA14C,EXP A14 C,EXPRESS A14 CHAMBOURCY,3,FF7D4A,ffffff,
 95,Express A14,244244001:EXPA14B,EXP A14 B,EXPRESS A14 BONNIERES,3,67C14C,ffffff,Line:relation:9873145
 95,Express A14,244244001:EXPA14M,EXP A14 M,EXPRESS A14 MANTES,3,1AC7FF,ffffff,Line:relation:8116384
-95,Express A14,244244004:EXPA14C,EXP A14 C,EXPRESS A14 CHAMBOURCY,3,FF7D4A,ffffff,
+95,Express A14,244244001:EXPA14C,EXP A14 C,EXPRESS A14 CHAMBOURCY,3,FF7D4A,FFFFFF,Line:relation:9871081
 750,MAGICAL SHUTTLE,231231001:CDG,CDG,Magical Shuttle CDG,3,1AC7FF,000000,Line:relation:9190528
 750,MAGICAL SHUTTLE,231231001:Orly,Orly,Magical Shuttle Orly,3,1AC7FF,000000,Line:relation:9190550
 750,MAGICAL SHUTTLE,231231001:Selected,Selected,Magical Shuttle Selected,3,1AC7FF,000000,Line:relation:9190573
@@ -110,17 +110,17 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 302,Com'Bus,057057011:R,R,R,3,F298C0,000000,Line:relation:9255049
 302,Com'Bus,057057057:L,L,L,3,FFFF00,000000,Line:relation:9184388
 302,Com'Bus,057057014:N,N,N,3,08B0A0,000000,Line:relation:9254991
-303,Actipôles,057318008:88,88,88,3,FFCC00,000000,
+303,Actipôles,057318208:88,88,88,3,FFCC00,000000,
 302,Com'Bus,057057026:26,26,26,3,564A80,ffffff,
 302,Com'Bus,057057052:52,52,52,3,999999,ffffff,Line:relation:7304704
 302,Com'Bus,057057021:21,21,21,3,706F6F,ffffff,
 302,Com'Bus,057057022:22,22,22,3,9ED2C2,000000,Line:relation:10003678
-303,Actipôles,057318208:88,88,88,3,FFCC00,000000,
+303,Actipôles,057318008:88,88,88,3,FFCC00,000000,
 303,Actipôles,057318108:88,88,88,3,FFCC00,000000,
 302,Com'Bus,057057081:81,81,81,3,E48705,ffffff,Line:relation:10003789
 302,Com'Bus,057057082:82,82,82,3,D0AA1D,000000,Line:relation:10003838
 285,Phébus,004004036:36,36,36,3,FF3380,ffffff,Line:relation:9808060
-420,Paladin,111592009:469,469,469,3,000000,FFFFFF,
+420,Paladin,111592009:469,469,Chaville Gare,3,000000,FFFFFF,
 783,Aubergenville,111111140:40,40,40,3,FF0000,ffffff,Line:relation:8413449
 1034,Europ'Essonne,111591201:A,A,A,3,EE7D00,ffffff,Line:relation:8444974
 1034,Europ'Essonne,111591201:A,A,A,3,EE7D00,ffffff,Line:relation:9231586
@@ -129,14 +129,15 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 782,Titus,111593301:1,1,1,3,FF0000,ffffff,Line:relation:8379297
 782,Titus,111593304:4,4,4,3,0033FF,ffffff,Line:relation:8378312
 782,Titus,111593303:3,3,3,3,33FF33,000000,Line:relation:8379317
+1034,Europ'Essonne,111591202:B,B,B,3,E50051,ffffff,Line:relation:8444973
 1034,Europ'Essonne,111591205:E,E,E,3,95C11F,000000,Line:relation:9229324
 1034,Europ'Essonne,111591204:D,D,D,3,0077BA,ffffff,
 1034,Europ'Essonne,111591207:J,J,J,3,F4C000,000000,Line:relation:7734583
 1034,Europ'Essonne,111591206:G,G,G,3,B51F1F,ffffff,Line:relation:9229426
-1034,Europ'Essonne,111591203:C,C,C,3,951B81,ffffff,Line:relation:8444972
-1034,Europ'Essonne,111591202:B,B,B,3,E50051,ffffff,Line:relation:8444973
 420,Paladin,111592005:ChavilBus,ChavilBus,ChavilBus Nord,3,000000,FFFFFF,
+1034,Europ'Essonne,111591203:C,C,C,3,951B81,ffffff,Line:relation:8444972
 420,Paladin,111592004:ChavilBus,ChavilBus,ChavilBus Sud,3,000000,FFFFFF,
+420,Paladin,111592003:ChavilBus,ChavilBus,ChavilBus Nord/Sud,3,000000,FFFFFF,
 658,ADP,043043001:N1,N1,N1,3,DF3A82,ffffff,Line:relation:8268452
 658,ADP,043043002:N2,N2,N2,3,6CA513,ffffff,Line:relation:8268538
 441,Navette,043043100:CDGVAL,CDG VAL,CDG VAL,7,AAAAAA,000000,Line:relation:6928933
@@ -165,7 +166,7 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 916,Seine-Saint-Denis,293193623:623,623,623,3,98D4E2,000000,Line:relation:6991408
 916,Seine-Saint-Denis,293193620:620,620,620,3,00814F,ffffff,Line:relation:7917842
 1017,Transport du Val de Seine,092092014:14,14,14,3,7F007F,ffffff,
-1017,Transport du Val de Seine,092092001:1,1,1,3,A6D940,000000,
+1017,Transport du Val de Seine,092092001:1,1.,1.,3,A6D940,000000,
 1017,Transport du Val de Seine,092092004:4,4,4,3,FF6E9E,000000,
 1017,Transport du Val de Seine,092092003:3,3,3,3,E5B200,000000,
 410,CARS PERRON,085085001:85-01,85-01,85-01,3,0B1670,FFFFFF,Line:relation:7921041
@@ -186,8 +187,8 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 30,CARS MOREAU,210210201:201,201,201,3,98B3DE,000000,
 30,CARS MOREAU,210210203:203,203,203,3,98B4DF,000000,
 30,CARS MOREAU,210210202:202,202,202,3,99A9D7,000000,
-30,CARS MOREAU,210210106:001,001,LIGNE 1,3,1D1D1B,ffffff,
 30,CARS MOREAU,210210109:001,001,FFOURCHES LONGUEVILLE PROVINS,3,1D1D1B,ffffff,Line:relation:9972555
+30,CARS MOREAU,210210106:001,001,LIGNE 1,3,1D1D1B,ffffff,
 30,CARS MOREAU,210210204:002,002,LIGNE 2,3,2569B2,ffffff,Line:relation:9972477
 30,CARS MOREAU,210210301:003,003,NOYEN-GOUAIX-LONGUEVILLE,3,E30F13,ffffff,
 870,VIAMO-MELUN,250177002:002,002,Meaux - Melun,3,1AC7FF,000000,Line:relation:7721711
@@ -511,7 +512,7 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 442,RATP,100100515:TILLBUS,TILLBUS,TILLBUS,3,C5A3CA,000000,Line:relation:7920956
 442,RATP,100100501:TRAVERSE,TRAVERSE,LA TRAVERSE DE CHARONNE,3,000000,FFFFFF,
 442,RATP,100100574:TUC,TUC,TUC,3,F4C931,000000,Line:relation:7804907
-442,RATP,100100546:TUB,TUB,TUB,3,8E6538,ffffff,Line:relation:7803998
+442,RATP,100100546:TUB,TUB,TUB (TRANSPORT URBAIN BONDYNOIS),3,8E6538,ffffff,Line:relation:7803998
 442,RATP,100100587:THIAIS,THIAIS,LA NAVETTE DE THIAIS,3,3C91DC,ffffff,Line:relation:5852751
 442,RATP,100100573:PTITBUS,PTITBUS,LE P'TIT BUS DU PRE,3,D20D44,ffffff,Line:relation:8728677
 442,RATP,100100538:PORT,PORT,LE BUS DU PORT,3,9A9940,000000,Line:relation:7802906
@@ -1455,8 +1456,8 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 1054,Bus O'Mureaux,011011322:3,3,3,3,A2C73B,000000,Line:relation:9177124
 967,Val de Seine,011011311:311,311,311,3,A8A8A7,000000,
 967,Val de Seine,011011021:21,21,21,3,FDD200,000000,
-1054,Bus O'Mureaux,011011321:2,2,2,3,164194,ffffff,Line:relation:9177072
 967,Val de Seine,011011002:2,2,2,3,FCCF99,000000,
+1054,Bus O'Mureaux,011011321:2,2,2,3,164194,ffffff,Line:relation:9177072
 967,Val de Seine,011011033:33,33,33,3,F4AACC,000000,
 967,Val de Seine,011011034:34,34,34,3,9187B7,000000,
 967,Val de Seine,011011032:32,32,32,3,C58F7D,000000,Line:relation:9238180
@@ -1486,14 +1487,14 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 758,Busval d'Oise,011195023:95-23,95-23,95-23,3,F4AACC,000000,Line:relation:9887152
 1054,Bus O'Mureaux,011011320:7,7,7,3,0BBBEF,000000,Line:relation:8397961
 285,Phébus,004004029:45,45,45,3,AF00F5,ffffff,Line:relation:8407058
-967,Val de Seine,011011005:5,5,5,3,0BBBEF,000000,
+1054,Bus O'Mureaux,011011325:5,5,5,3,B698C7,000000,Line:relation:9177413
 967,Val de Seine,011011043:43,43,43,3,97BDE6,000000,
 967,Val de Seine,011011041:41,41,41,3,6C666E,ffffff,Line:relation:8060916
 967,Val de Seine,011011042:42,42,42,3,A2C73B,000000,Line:relation:7921016
 989,Plaine de Versailles,011011512:512,512,512,3,8A8946,ffffff,
 1054,Bus O'Mureaux,011011324:6,6,6,3,F5A374,000000,Line:relation:9177493
 989,Plaine de Versailles,011011511:511,511,511,3,8A8946,ffffff,
-1054,Bus O'Mureaux,011011325:5,5,5,3,B698C7,000000,Line:relation:9177413
+967,Val de Seine,011011005:5,5,5,3,0BBBEF,000000,
 967,Val de Seine,011011083:502,502,502,3,ED87B2,000000,
 898,Transdev Ile-de-France Conflans,212212011:11,11,11,3,009DB2,ffffff,Line:relation:7922077
 898,Transdev Ile-de-France Conflans,212212012:12,12,12,3,F59C00,000000,Line:relation:9137679
@@ -1849,6 +1850,7 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 741,RER,800:E,E,E,2,DE81D3,ffffff,Line:relation:7271953
 741,RER,800:E:Bus,E,E,3,DE81D3,ffffff,
 440,TRAMWAY,800:T4,T4,T4,0,FED100,ffffff,Line:relation:6910344
+440,TRAMWAY,800:T4:Bus,T4,T4,3,FED100,ffffff,
 742,TRAIN,800:T11,T11,GARE D\'EPINAY SUR SEINE - Gare du Bourget,0,FB4F14,ffffff,Line:relation:8467024
 743,TER,800:TER,TER,TER,2,000000,FFFFFF,
 741,RER,810:A,A,A,2,F7403A,ffffff,Line:relation:2333448

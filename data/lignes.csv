@@ -349,7 +349,7 @@ Line:relation:6608978,249,Bus 249 : Place Valérie André ↔ Porte des Lilas,RA
 Line:relation:6645022,394,Bus 394 : Issy–Val de Seine RER ↔ Bourg-la-Reine RER,RATP,RATP,,route_master,bus,100100394:394
 Line:relation:6660662,La Navette,La Navette de Fontenay-sous-Bois,RATP,RATP,,route_master,bus,100100524:NAVETTE
 Line:relation:6682682,AS,Bus AS : Autobus Suresnois,Autobus Suresnois,RATP,,route_master,bus,100100544:AS-SURE
-Line:relation:6706981,487,Bus 487 : Athis-Mons - Porte de l'Essonne ↔ Marché de Juvisy,RATP,Keolis Seine Val-de-Marne,,route_master,bus,100100487:487
+Line:relation:6706981,487,Bus 487 : Athis-Mons - Porte de l'Essonne ↔ Marché de Juvisy,RATP,Keolis Seine Val-de-Marne,#fecd08,route_master,bus,100100487:487
 Line:relation:6741325,31,Bus 31 : Cesson Gare RER ↔ Point de Vue (Lieusaint),Sénart Bus,Transdev Île-de-France Lieusaint,,route_master,bus,065487132:31
 Line:relation:6741397,32,Bus 32 : Savigny - Nandy Gare RER (circulaire intérieur),Sénart Bus,Transdev Île-de-France Lieusaint,,route_master,bus,065487131:32
 Line:relation:6741557,33,Bus 33 : Savigny - Nandy Gare RER (circulaire extérieur),Sénart Bus,Transdev Île-de-France Lieusaint,,route_master,bus,065487139:33
@@ -386,8 +386,8 @@ Line:relation:6860181,E,Bus E : Centre Hospitalier de Villeneuve-Saint-Georges �
 Line:relation:6860541,DM11C,Bus DM11C : Gare de Massy-Palaiseau ↔ Laboratoires (Marcoussis),Daniel Meyer,Keolis Meyer,#FFD900,route_master,bus,055055025:DM11C
 Line:relation:6860557,216,Bus 216 : Denfert-Rochereau ↔ Marché International de Rungis,RATP,RATP,#ed1b2a,route_master,bus,100100216:216
 Line:relation:6860704,Tvm,Bus Tvm : Antony-La Croix de Berny RER ↔ Saint-Maur - Créteil RER,RATP,RATP,#006DB7,route_master,bus,100100014:TVM
-Line:relation:6867541,191.100,Bus Express 191.100 : Gare de Yerres ↔ M.I.N. (Chevilly-Larue - Rungis),Keolis Orly Rungis,Keolis Orly Rungis,,route_master,bus,287191100:191-100
-Line:relation:6867574,91-09,Bus Express 91-09 : Gare Routière de Yerres ↔ Gare Routière d'Évry,Albatrans,Albatrans,,route_master,bus,291191009:91-09
+Line:relation:6867541,191.100,Bus Express 191.100 : Gare de Yerres ↔ M.I.N. (Chevilly-Larue - Rungis),Keolis Orly Rungis,Keolis Orly Rungis,#0097d8,route_master,bus,287191100:191-100
+Line:relation:6867574,91-09,Bus Express 91-09 : Gare Routière de Yerres ↔ Gare Routière d'Évry,Albatrans,Albatrans,#0097d8,route_master,bus,291191009:91-09
 Line:relation:6880011,95-04,Bus 95-04 : Bray et Lû ↔ Cergy Préfecture,Busval d'Oise,TIM Bus,#1AC7FF,route_master,bus,251195004:95-04
 Line:relation:6880695,95-11,Bus 95-11 : Aincourt ↔ Mantes-la-Jolie,Busval d'Oise,Tim Bus,#BF008F,route_master,bus,251195011:95-11
 Line:relation:6881771,95-24,Bus 95-24 : Moussy ↔ Ableige ↔ Us ↔ Vigny,Busval d'Oise,Transdev Île-de-France Ecquevilly,#998eb8,route_master,bus,011195024:95-24
@@ -417,7 +417,7 @@ Line:relation:6940421,91-05,Bus 91-05 : Évry Gare Routière ↔ Gare de Massy-P
 Line:relation:6940422,91-04,Bus 91-04 : Évry ↔ Arpajon ou Briis-sous-Forges,Albatrans,Albatrans,,route_master,bus,291191004:91-04
 Line:relation:6949602,E2,Bus E2 : Collège Pompidou ↔ Plaine Haute (Crosne),VyBus,Transdev STRAV,#FBC322,route_master,bus,045045006:E2
 Line:relation:6949604,V,Bus V : Gare de Montgeron ↔ Clos de la Régale (Vigneux-sur-Seine),STRAV,Transdev STRAV,,route_master,bus,045045008:V
-Line:relation:6949654,N135,Noctilien N135: Gare de Villeneuve-Saint-Georges ↔ Corbeil Essonnes,Noctilien,Transilien,,route_master,bus,800:N135
+Line:relation:6949654,N135,Noctilien N135: Gare de Villeneuve-Saint-Georges ↔ Corbeil Essonnes,Noctilien,Transilien,#15489e,route_master,bus,800:N135
 Line:relation:6950503,N153,Noctilien N153: Gare Saint-Lazare ↔ Gare de Saint-Germain-en-Laye,Noctilien,SNCF Transilien,,route_master,bus,100987791:N153
 Line:relation:6950504,N151,Noctilien N151 : Gare Saint-Lazare ↔ Gare de Mantes la Jolie,Noctilien,Transilien,,route_master,bus,800:N151
 Line:relation:6952110,95-01,Bus 95-01 : Roissypole (RER) ↔ Luzarches,Busval d'Oise,Keolis CIF,#4DEDFF,route_master,bus,014195001:95-01
@@ -482,7 +482,7 @@ Line:relation:7011369,Direct 2,Bus Direct 2 : Champ de Mars ↔ Aéroport Roissy
 Line:relation:7011370,Direct 1,Bus Direct 1 : Charles de Gaulle Étoile ↔ Aéroport Orly,Le Bus Direct,Keolis Aerolis,,route_master,bus,098098001:DIRECT1
 Line:relation:7073416,DM151,Bus DM151 : Paris-Porte d'Orléans ↔ Arpajon-Porte d'Étampes,Daniel Meyer,Keolis Meyer,#ff8c00,route_master,bus,055155001:DM151
 Line:relation:7074022,RoissyBus,Bus RoissyBus : Paris–Opéra ↔ Aéroport Charles de Gaulle,RATP,RATP,#ff1400,route_master,bus,100100352:ROISSYB
-Line:relation:7095879,486,Bus 486 : Marché de Juvisy ↔ Porte de l'Essonne (Athis-Mons),RATP,RATP,,route_master,bus,100100486:486
+Line:relation:7095879,486,Bus 486 : Marché de Juvisy ↔ Porte de l'Essonne (Athis-Mons),RATP,RATP,#008b59,route_master,bus,100100486:486
 Line:relation:7095936,292,Bus 292 : ZAC Les Gâtines - Capitaine Jean d'Hers (Savigny-sur-Orge) ↔ Porte de l'Essonne (Athis-Mons),RATP,RATP,#f59eb3,route_master,bus,100100292:292
 Line:relation:7097513,30B,Bus 30B : Circulaire de Goussainville,Les Courriers de l'Île-de-France,Keolis CIF,#00BDF3,route_master,bus,014014030:30B
 Line:relation:7097520,30D,Bus 30D : Circulaire de Goussainville,Les Courriers de l'Île-de-France,Keolis CIF,#9AA223,route_master,bus,014014301:30D
@@ -633,8 +633,8 @@ Line:relation:7724675,21,Bus 21 : Centre Commercial Ulis 2 ↔ P.A. Courtabœuf 
 Line:relation:7728377,4,Bus 4 : Chelles Gare RER-SNCF ↔ Mairie de Claye-Souilly,Apolo 7,STBC,#ff9a00,route_master,bus,101261024:4
 Line:relation:7728420,44,Bus 44 : Jacqueline Auriol (Bussy-Saint-Georges) ↔ La Haye (Bussy-Saint-Georges),Pep's,Transdev AMV,#99A634,route_master,bus,051051044:44
 Line:relation:7733214,3,Métro 3 : Gallieni ↔ Pont de Levallois – Bécon,RATP,RATP,#9A9940,route_master,subway,100110003:3
-Line:relation:7734523,13,Bus 13 : Gare routière Seine ↔ Bergeries - St Hubert (Draveil),Seine Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021111:13
-Line:relation:7734525,12,Bus 12 : Bergeries - St Hubert (Draveil) ↔ Gare routière de Juvisy-sur-Orge,Seine Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021110:12
+Line:relation:7734523,13,Bus 13 : Gare routière Seine ↔ Bergeries - St Hubert (Draveil),Seine Sénart Bus,Keolis Seine Sénart,#cdaf97,route_master,bus,021021111:13
+Line:relation:7734525,12,Bus 12 : Bergeries - St Hubert (Draveil) ↔ Gare routière de Juvisy-sur-Orge,Seine Sénart Bus,Keolis Seine Sénart,#d29ac5,route_master,bus,021021110:12
 Line:relation:7734583,J,Navette J (MassyBus) : Rond-Point du Pileu ↔ Languedoc,Paris-Saclay,MobiCité,yellow,route_master,bus,111591207:J
 Line:relation:7741077,G'bus,Bus G'bus : Goussainville RER (Circulaire),Les Courriers de l'Île-de-France,Keolis CIF,#FFDD00,route_master,bus,014014099:Gbus
 Line:relation:7743343,34,Bus 34 : Chaville (Gare Chaville Rive Droite) ↔ Vélizy Villacoublay (Vélizy 2),Phébus,Keolis Vélizy,#F37736,route_master,bus,004004014:34
@@ -674,7 +674,7 @@ Line:relation:7800092,355,Bus 355 : Lycée J.-J. Rousseau Circulaire,RATP,RATP,,
 Line:relation:7800304,366,Bus 366 : Église de Colombes ↔ Asnières - Bords de Seine,RATP,RATP,,route_master,bus,100100366:366
 Line:relation:7800445,372,Bus 372 : Maisons-Alfort - Alfortville RER ↔ Louis Fliche,RATP,RATP,#FFCD01,route_master,bus,100100372:372
 Line:relation:7800857,395,Bus 395 : Le Plessis-Robinson–Pavé Blanc ↔ Antony RER,RATP,RATP,#006CB8,route_master,bus,100100395:395
-Line:relation:7801058,485,Bus 485 : Noyer Renard ↔ Delalande-Pasteur,RATP,RATP,,route_master,bus,100100485:485
+Line:relation:7801058,485,Bus 485 : Noyer Renard ↔ Delalande-Pasteur,RATP,RATP,#f68f4a,route_master,bus,100100485:485
 Line:relation:7802464,337,Bus 337 : Zone Artisanale du Moutier ↔ Gare de Pierrefitte-Stains RER,RATP,RATP,,route_master,bus,100100337:337
 Line:relation:7802906,538,Bus 538 : Bus du Port,RATP,RATP,,route_master,bus,100100538:PORT
 Line:relation:7803053,541,Bus 541 : Buséolien,RATP,RATP,,route_master,bus,100100541:EOLIEN
@@ -756,7 +756,7 @@ Line:relation:7920995,F,Bus F : Draveil — Sables de Rouvres ↔ Vigneux-sur-Se
 Line:relation:7920996,1,Bus 1 : Canal ↔ Gare Nemours Parvis,STILL,Transdev Île-de-France Nemours,,route_master,bus,064608020:1
 Line:relation:7920997,9,Bus 9 : Plaisir-Grignon Gare (circulaire),Plaine de Versailles,Hourtoule,,route_master,bus,027027009:9
 Line:relation:7920998,1,Bus 1 : Saint-Fargeau-Ponthierry — Gare ↔ Pringy — Montlouis,Canton de Perthes en Gâtinais,Veolia Transdev,,route_master,bus,063063001:01
-Line:relation:7920999,488,Bus 488 : Athis-Mons — Place Henri Deudon ↔ Marché de Juvisy,RATP,Keolis Seine Val-de-Marne,,route_master,bus,100100488:488
+Line:relation:7920999,488,Bus 488 : Athis-Mons — Place Henri Deudon ↔ Marché de Juvisy,RATP,Keolis Seine Val-de-Marne,#006db8,route_master,bus,100100488:488
 Line:relation:7921000,E,Bus E : Montgeron — Valdoly ↔ Vigneux-sur-Seine — Gare,Seine-Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021206:E
 Line:relation:7921001,B,Bus B : Vigneux-sur-Seine — Prairie de l'Oly ↔ Vigneux-sur-Seine — Gare,Seine-Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021202:B
 Line:relation:7921002,A,Bus A : Montgeron — CES Pompidou ↔ Vigneux-sur-Seine — Gare,Seine-Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021201:A
@@ -1119,16 +1119,16 @@ Line:relation:9081452,3,Bus 3 : Arquebuse ↔ Gare de Saint-Germain-en-Laye,Pois
 Line:relation:9082178,98,Bus 98 : Poissy Gare Nord (circulaire),CSO,CSO,#009036,route_master,bus,015015098:98
 Line:relation:9101011,24,Bus 24 : Gare de Versailles Chantiers ↔ Vélizy-Villacoublay Centre Commercial,Phébus,Keolis Vélizy,#009FCF,route_master,bus,004004024:24
 Line:relation:9106179,30-42,Bus 30-42 : Gare de Sannois ↔ Résidence du Moulin,Valbus,Lacroix,#E09CCB,route_master,bus,030030042:30-42
-Line:relation:9122066,18,Bus 18 : Gare routière Seine ↔ Vigneux — Gare,Seine-Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021150:18
-Line:relation:9122182,19,Bus 19 : Gare routière de Juvisy-sur-Orge ↔ Vigneux — Gare,Seine-Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021151:19
-Line:relation:9124520,RD,Bus RD : Juvisy — Gare routière Seine ↔ Draveil — Bergeries Saint-Hubert,Seine Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021153:RD15
-Line:relation:9128676,11L,Bus 11L : Juvisy Gare Routière Seine ↔ Bergeries Saint-Hubert,Seine-Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021112:11L
-Line:relation:9128840,14,Bus 14 : Juvisy Gare Routière Seine ↔ Bergeries Saint-Hubert,Seine-Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021140:14
-Line:relation:9129005,16,Bus 16 : Bergeries Saint-Hubert ↔ Juvisy Gare Routière Seine,Seine-Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021160:16
-Line:relation:9129095,17,Bus 17 : Juvisy Gare Routière Seine ↔ Hôpital Joffre,Seine-Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021170:17
+Line:relation:9122066,18,Bus 18 : Gare routière Seine ↔ Vigneux — Gare,Seine-Sénart Bus,Keolis Seine Sénart,#6ccef4,route_master,bus,021021150:18
+Line:relation:9122182,19,Bus 19 : Gare routière de Juvisy-sur-Orge ↔ Vigneux — Gare,Seine-Sénart Bus,Keolis Seine Sénart,#ee5aa1,route_master,bus,021021151:19
+Line:relation:9124520,RD,Bus RD : Juvisy — Gare routière Seine ↔ Draveil — Bergeries Saint-Hubert,Seine Sénart Bus,Keolis Seine Sénart,#762b1a,route_master,bus,021021153:RD15
+Line:relation:9128676,11L,Bus 11L : Juvisy Gare Routière Seine ↔ Bergeries Saint-Hubert,Seine-Sénart Bus,Keolis Seine Sénart,#8aad89,route_master,bus,021021112:11L
+Line:relation:9128840,14,Bus 14 : Juvisy Gare Routière Seine ↔ Bergeries Saint-Hubert,Seine-Sénart Bus,Keolis Seine Sénart,#40ade2,route_master,bus,021021140:14
+Line:relation:9129005,16,Bus 16 : Bergeries Saint-Hubert ↔ Juvisy Gare Routière Seine,Seine-Sénart Bus,Keolis Seine Sénart,#f69224,route_master,bus,021021160:16
+Line:relation:9129095,17,Bus 17 : Juvisy Gare Routière Seine ↔ Hôpital Joffre,Seine-Sénart Bus,Keolis Seine Sénart,#c4121a,route_master,bus,021021170:17
 Line:relation:9129134,4,Bus 4 : Vigneux gare ↔ Sables de Rouvres,Seine-Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021200:4
 Line:relation:9129177,LP1,Bus LP1 : LEP Nadar ↔ Vigneux gare,Seine-Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021210:LP1
-Line:relation:9136249,LP2,Bus LP2 : Juvisy Gare Routière Seine ↔ LEP Nadar,Seine-Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021152:LP2
+Line:relation:9136249,LP2,Bus LP2 : Juvisy Gare Routière Seine ↔ LEP Nadar,Seine-Sénart Bus,Keolis Seine Sénart,#f4a3c8,route_master,bus,021021152:LP2
 Line:relation:9136495,16,Bus 16 : Gare de Val d'Europe ↔ Carré Sénart,Seine-et-Marne Express,Transdev AMV,,route_master,bus,003177016:16
 Line:relation:9136598,69,Bus 69 : Gare de Val d'Europe ↔ Gare Routière de Meaux,Seine-et-Marne Express,Marne et Morin,,route_master,bus,067237069:69
 Line:relation:9136664,418,Bus 418 : Bois de l'Epine RER (circulaire),Tice,Tice,#B3DBA6,route_master,bus,400400418:418
@@ -1137,7 +1137,7 @@ Line:relation:9136841,409,Bus 409 : Centre Commercial ↔ Marinière Lycée,Tice
 Line:relation:9136932,412,Bus 412 : Gabrielle d'Estrées ↔ Les Griottes,Tice,Tice,#676464,route_master,bus,400400412:412
 Line:relation:9137679,12,Bus 12 : Gare de Maisons Laffitte (circulaire),Maisons-Laffitte et Le Mesnil Le Roi,Transdev Île-de-France Conflans,,route_master,bus,212212012:12
 Line:relation:9167849,LM2,Bus LM2 : Gare routière Seine (Juvisy) ↔ Lycée de Montgeron,Seine-Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021502:LM2
-Line:relation:9167850,501,Bus 501 : Hautes Mardelles (Brunoy) ↔ Notre-Dame de Sion (Évry),Seine Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021400:501
+Line:relation:9167850,501,Bus 501 : Hautes Mardelles (Brunoy) ↔ Notre-Dame de Sion (Évry),Seine Sénart Bus,Keolis Seine Sénart,#f89c1c,route_master,bus,021021400:501
 Line:relation:9167851,LM1,Bus LM1 : Ermitage (Draveil) ↔ Lycée de Montgeron,Seine-Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021501:LM1
 Line:relation:9171581,12,Bus 12 : La Croix de Berny RER ↔ Cyrano de Bergerac,Paladin,Bièvre Bus Mobilités,#FF0D00,route_master,bus,020149012:12
 Line:relation:9171785,N1,Bus N1 : Bizet ↔ Gare des Mureaux,Bus O'Mureaux,Transdev Île-de-France Ecquevilly,,route_master,bus,011011320:N1

@@ -54,6 +54,7 @@ def get_errors(osm_lines, opendata_lines, stats, line_coords):
                 an_osm_line['osm:ref:FR:STIF:ExternalCode_Line'])
             error['lat'], error['lon'] = an_osm_line['latitude'], an_osm_line['longitude']
             errors.append(error)
+            continue
 
         opendata_matching_lines = [
             a_line for a_line in opendata_lines if an_osm_line['osm:ref:FR:STIF:ExternalCode_Line'] == a_line['route_id']]
@@ -76,6 +77,7 @@ def get_errors(osm_lines, opendata_lines, stats, line_coords):
                 error['label'] = "Réseau de transport (tag network) manquant pour cette ligne. Valeur probable : " + fix
             error['lat'], error['lon'] = an_osm_line['latitude'], an_osm_line['longitude']
             errors.append(error)
+            continue
 
         if not an_osm_line['operator']:
             error = {"id": an_osm_line['osm_id']}
@@ -87,6 +89,7 @@ def get_errors(osm_lines, opendata_lines, stats, line_coords):
                 error['label'] = "Opérateur (tag operator) manquant pour cette ligne. Valeur probable : " + fix
             error['lat'], error['lon'] = an_osm_line['latitude'], an_osm_line['longitude']
             errors.append(error)
+            continue
 
         if not an_osm_line['code']:
             error = {"id": an_osm_line['osm_id']}
@@ -95,6 +98,7 @@ def get_errors(osm_lines, opendata_lines, stats, line_coords):
             error['lat'], error['lon'] = an_osm_line['latitude'], an_osm_line['longitude']
             error['fix'] = [{"key": "ref", "value": fix}]
             errors.append(error)
+            continue
 
         if not an_osm_line['mode']:
             error = {"id": an_osm_line['osm_id']}
@@ -103,6 +107,7 @@ def get_errors(osm_lines, opendata_lines, stats, line_coords):
             error['lat'], error['lon'] = an_osm_line['latitude'], an_osm_line['longitude']
             error['fix'] = [{"key": "route_master", "value": fix}]
             errors.append(error)
+            
 
     return errors
 
@@ -119,23 +124,19 @@ def generate_osmose_errors_for_lines():
     return errors
 
 if __name__ == '__main__':
-    # errors = generate_osmose_errors_for_lines()
-    # for an_error in errors:
-    #     print(an_error)
-    osm_lines = get_lines_from_csv('../data/lignes.csv')
-    opendata_lines = get_lines_from_csv('../data/gtfs_routes.txt')
-    osm_line_coords = get_lines_from_csv('../data/osmose_relations_with_coord.csv')
+    errors = generate_osmose_errors_for_lines()
+    for an_error in errors:
+        print(an_error)
 
-    stats = extract_common_values_by_networks(osm_lines, opendata_lines)
-    #print(get_most_common_value(stats, "network", "56"))
-    for a_stat in stats['networks']:
-        #print(stats['networks'][a_stat])
-        all_networks = list(set(stats['networks'][a_stat]))
-        if len(all_networks) == 0:
-            print("pas trouvé - " + a_stat)
-        if len(all_networks) > 1:
-            print("plusieurs solutions pour " + a_stat)
-            print(all_networks)
-#TODO faire une simple sortie CSV : agency_id, blabla
-# puis faire un join sur agency.txt pour avoir le nom STIF et le problème à investiguer dans OSM en face
-# voir si ça se fait de faire un lien vers vianavigo en utilisant le ref:FR:STIF sur la ligne
+    # osm_lines = get_lines_from_csv('../data/lignes.csv')
+    # opendata_lines = get_lines_from_csv('../data/gtfs_routes.txt')
+    # osm_line_coords = get_lines_from_csv('../data/osmose_relations_with_coord.csv')
+    #
+    # stats = extract_common_values_by_networks(osm_lines, opendata_lines)
+    # for a_stat in stats['networks']:
+    #     all_networks = list(set(stats['networks'][a_stat]))
+    #     if len(all_networks) == 0:
+    #         print("pas trouvé - " + a_stat)
+    #     if len(all_networks) > 1:
+    #         print("plusieurs solutions pour " + a_stat)
+    #         print(all_networks)

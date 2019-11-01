@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-10-31T15:48:31Z">
-	<analyser timestamp="2019-10-31T15:48:31Z">
+<analysers timestamp="2019-11-01T15:51:22Z">
+	<analyser timestamp="2019-11-01T15:51:22Z">
 		<class item="8042" tag="transport en commun" id="1" level="3">
 			<classtext lang="fr" title="tag manquant ou à vérifier sur une relation route_master (ligne de transport en commun)"></classtext>
 		</class>
@@ -23,11 +23,6 @@
 			<location lat="48.5264069" lon="2.6552914999999997"></location>
 			<relation id="6957304"></relation>
 			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (062062046:46) n'existe pas ou plus dans les données opendata du STIF"></text>
-		</error>
-		<error class="1">
-			<location lat="48.904905299999996" lon="2.2561991"></location>
-			<relation id="6958366"></relation>
-			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (800:N152) n'existe pas ou plus dans les données opendata du STIF"></text>
 		</error>
 		<error class="1">
 			<location lat="48.8093576" lon="2.1890259"></location>
@@ -148,6 +143,11 @@
 			<location lat="48.6975006" lon="2.2935947"></location>
 			<relation id="8444974"></relation>
 			<text lang="fr" value="Opérateur (tag operator) manquant pour cette ligne"></text>
+		</error>
+		<error class="1">
+			<location lat="48.703031499999994" lon="2.0703454999999997"></location>
+			<relation id="8448533"></relation>
+			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (139578038:Baladobus) n'existe pas ou plus dans les données opendata du STIF"></text>
 		</error>
 		<error class="1">
 			<location lat="49.0411429" lon="2.0735346"></location>

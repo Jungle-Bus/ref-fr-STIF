@@ -416,7 +416,7 @@ Line:relation:6940387,91-02,Bus 91-02 : Gare de Dourdan ↔ Gare du Guichet,Alba
 Line:relation:6940421,91-05,Bus 91-05 : Évry Gare Routière ↔ Gare de Massy-Palaiseau,Albatrans,Albatrans,#1AC7FF,route_master,bus,291191005:91-05
 Line:relation:6940422,91-04,Bus 91-04 : Évry ↔ Arpajon ou Briis-sous-Forges,Albatrans,Albatrans,,route_master,bus,291191004:91-04
 Line:relation:6949602,E2,Bus E2 : Collège Pompidou ↔ Plaine Haute (Crosne),VyBus,Transdev STRAV,#FBC322,route_master,bus,045045006:E2
-Line:relation:6949604,V,Bus V : Gare de Montgeron ↔ Clos de la Régale (Vigneux-sur-Seine),STRAV,Transdev STRAV,,route_master,bus,045045008:V
+Line:relation:6949604,V,Bus V : Gare de Montgeron ↔ Clos de la Régale (Vigneux-sur-Seine),VyBus,Transdev STRAV,,route_master,bus,045045008:V
 Line:relation:6949654,N135,Noctilien N135: Gare de Villeneuve-Saint-Georges ↔ Corbeil Essonnes,Noctilien,Transilien,#15489e,route_master,bus,800:N135
 Line:relation:6950503,N153,Noctilien N153: Gare Saint-Lazare ↔ Gare de Saint-Germain-en-Laye,Noctilien,SNCF Transilien,,route_master,bus,100987791:N153
 Line:relation:6950504,N151,Noctilien N151 : Gare Saint-Lazare ↔ Gare de Mantes la Jolie,Noctilien,Transilien,,route_master,bus,800:N151
@@ -472,7 +472,7 @@ Line:relation:7011253,LISA,CDGVAL Ligne 2 LISA,CDGVAL,Aéroports de Paris,#142B4
 Line:relation:7011260,D,Bus D : Gare de Brunoy (circulaire),VyBus,Transdev STRAV,#E2BA00,route_master,bus,045045009:D
 Line:relation:7011261,U,Bus U : Collège la Guinette (circulaire),Service Urbain de Villecresnes,Transdev STRAV,,route_master,bus,045145026:U
 Line:relation:7011271,12,Bus 12 : Lycée Van Gogh (Aubergenville) ↔ Gare (Les Mureaux),Val de Seine,Transdev Île-de-France Ecquevilly,,route_master,bus,011011012:12
-Line:relation:7011277,7,Bus 7 : Gare d'Argenteuil ↔ Gare d'Enghien-les-Bains,R'Bus,Transdev TVO,,route_master,bus,016616514:7
+Line:relation:7011277,7,Bus 7 : Gare d'Argenteuil ↔ Gare d'Enghien-les-Bains,R'bus,Transdev TVO,,route_master,bus,016616514:7
 Line:relation:7011303,8,Bus 8 : Gare de Villeneuve-Saint-Georges ↔ Aéroport d'Orly 1-2-3,Athis Cars,Keolis Seine Val-De-Marne,#00adef,route_master,bus,002002008:8
 Line:relation:7011364,21,Bus 21 : Gare du Vésinet - Le Pecq ↔ Bèque SNCF - Gare de Marly-le-Roi,ESF,Transdev Île-de-France Montesson Les Rabaux,,route_master,bus,012012021:21
 Line:relation:7011365,10,Bus 10 : Gare de Saint-Germain ↔ Gare de Marly-le-Roi,Entre Seine et Forêt,Transdev Île-de-France Montesson Les Rabaux,,route_master,bus,012012010:10
@@ -711,7 +711,7 @@ Line:relation:7917760,R3-Nord,Bus R3-Nord : Gare de Saint-Germain en Laye (circu
 Line:relation:7917762,R3-Sud,Bus R3-Sud : Gare de Saint-Germain en Laye (circulaire),Résalys,Transdev Île-de-France Montesson Les Rabaux,#718B3E,route_master,bus,012012035:R3-Sud
 Line:relation:7917815,95-19,Bus 95-19 : Argenteuil Gare ↔ Cergy Préfecture,Busval d'Oise,Lacroix,,route_master,bus,030195019:95-19
 Line:relation:7917842,620,Bus 620 : Le Blanc-Mesnil - Pont-Yblon ↔ Bobigny - Pablo Picasso,Seine-Saint-Denis,Transdev TRA,,route_master,bus,293193620:620
-Line:relation:7917900,P,Bus P : Gare de Montgeron (circulaire),Seine Senart Bus,STRAV,#96BC17,route_master,bus,045045008:P
+Line:relation:7917900,P,Bus P : Gare de Montgeron (circulaire),VyBus,STRAV,#96BC17,route_master,bus,045045008:P
 Line:relation:7918097,5,Bus 5 : Gare d'Orsay Ville ↔ Centre Commercial Ulis 2 (↔ P.A. Courtaboeuf sud),Mobicaps,Les Cars d'Orsay,#0077BB,route_master,bus,006006005:5
 Line:relation:7920514,235,Bus 235 : Colombes - Europe ↔ Asnières - Gennevilliers - Gabriel Péri,RATP,RATP,#ffbe00,route_master,bus,100100235:235
 Line:relation:7920589,39-07,Bus 39-07 : Gare d'Orsay Ville ↔ Saint-Arnoult-en-Yvelines,SAVAC,SAVAC,#88A8A6,route_master,bus,039039007:39-07
@@ -762,7 +762,7 @@ Line:relation:7921001,B,"Bus B : Vigneux-sur-Seine, Prairie de l'Oly ↔ Vigneux
 Line:relation:7921002,A,"Bus A : Montgeron, CES Pompidou ↔ Vigneux-sur-Seine, Gare",Seine Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021201:A
 Line:relation:7921003,D,"Bus D : Vigneux-sur-Seine, Le Petit et Vergeat ↔ Vigneux-sur-Seine, Gare",Seine Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021205:D
 Line:relation:7921004,C,"Bus C : Vigneux-sur-Seine, Gare (circulaire via Montgeron, Valdoly)",Seine Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021204:C
-Line:relation:7921005,H,Bus H : Vigneux-sur-Seine — Prairie de l'Oly (circulaire),Seine-Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021209:H
+Line:relation:7921005,H,Bus H : Vigneux-sur-Seine — Prairie de l'Oly (circulaire),Seine Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021209:H
 Line:relation:7921006,G,"Bus G : Montgeron, Valdoly ↔ Vigneux-sur-Seine, Maurice Garin",Seine Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021208:G
 Line:relation:7921007,18,Bus 18 : Gare de Palaiseau-Villebon RER ↔ C.C. Villebon 2,Mobicaps,Les Cars d'Orsay,green,route_master,bus,006006019:18
 Line:relation:7921008,19,Bus 19 : Gare de Lozère RER ↔ Gare de Palaiseau-Villebon RER,Mobicaps,Les Cars d'Orsay,#FA850D,route_master,bus,006006019:19
@@ -1052,7 +1052,7 @@ Line:relation:8455292,34B,Bus 34B : Les Étards ↔ Collège Les Remparts,Yerres
 Line:relation:8455382,35C,Bus 35C : Mormant - Collège Nicolas Fouquet ↔ La Chapelle-Gauthier,Yerres,Darche Gros,,route_master,bus,097097035:35C
 Line:relation:8455445,37A,Bus 37A : Gare de Melun ↔ Les Étards,Yerres,Darche Gros,,route_master,bus,097097037:37A
 Line:relation:8455504,32,Bus 32 : Nangis - Collège Barthélémy ↔ Guignes - Église,Yerres,Darche Gros,,route_master,bus,097097032:32
-Line:relation:8456080,45,Bus 45 : La Défense Terminal Jules Verne (circulaire via Colombia),R'Bus,Transdev Île-de-France Montesson La Boucle,,route_master,bus,019019045:45
+Line:relation:8456080,45,Bus 45 : La Défense Terminal Jules Verne (circulaire via Colombia),R'bus,Transdev Île-de-France Montesson La Boucle,,route_master,bus,019019045:45
 Line:relation:8456090,5,Bus 5 : Trembleaux ↔ Gare de Sartrouville,R'bus,TVO,,route_master,bus,016616005:5
 Line:relation:8456130,17,Bus 17 : Gare du Val d'Argenteuil (circulaire),R'bus,TVO,,route_master,bus,016616017:17
 Line:relation:8464879,03,Bus 03 : Le Fresne (circulaire),Sénartbus Essonne,Transdev Île-de-France Lieusaint,,route_master,bus,065487003:03
@@ -1126,8 +1126,8 @@ Line:relation:9128676,11L,Bus 11L : Juvisy Gare Routière Seine ↔ Bergeries Sa
 Line:relation:9128840,14,Bus 14 : Juvisy Gare Routière Seine ↔ Bergeries Saint-Hubert,Seine-Sénart Bus,Keolis Seine Sénart,#40ade2,route_master,bus,021021140:14
 Line:relation:9129005,16,Bus 16 : Bergeries Saint-Hubert ↔ Juvisy Gare Routière Seine,Seine-Sénart Bus,Keolis Seine Sénart,#f69224,route_master,bus,021021160:16
 Line:relation:9129095,17,Bus 17 : Juvisy Gare Routière Seine ↔ Hôpital Joffre,Seine-Sénart Bus,Keolis Seine Sénart,#c4121a,route_master,bus,021021170:17
-Line:relation:9129134,4,Bus 4 : Vigneux gare ↔ Sables de Rouvres,Seine-Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021200:4
-Line:relation:9129177,LP1,Bus LP1 : LEP Nadar ↔ Vigneux gare,Seine-Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021210:LP1
+Line:relation:9129134,4,Bus 4 : Vigneux gare ↔ Sables de Rouvres,Seine Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021200:4
+Line:relation:9129177,LP1,Bus LP1 : LEP Nadar ↔ Vigneux gare,Seine Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021210:LP1
 Line:relation:9136249,LP2,Bus LP2 : Juvisy Gare Routière Seine ↔ LEP Nadar,Seine-Sénart Bus,Keolis Seine Sénart,#f4a3c8,route_master,bus,021021152:LP2
 Line:relation:9136495,16,Bus 16 : Gare de Val d'Europe ↔ Carré Sénart,Seine-et-Marne Express,Transdev AMV,,route_master,bus,003177016:16
 Line:relation:9136598,69,Bus 69 : Gare de Val d'Europe ↔ Gare Routière de Meaux,Seine-et-Marne Express,Marne et Morin,,route_master,bus,067237069:69
@@ -1136,9 +1136,9 @@ Line:relation:9136817,419,Bus 419 : Gare Val de Ris RER (circulaire),Tice,Tice,#
 Line:relation:9136841,409,Bus 409 : Centre Commercial ↔ Marinière Lycée,Tice,Tice,#00812C,route_master,bus,400400409:409
 Line:relation:9136932,412,Bus 412 : Gabrielle d'Estrées ↔ Les Griottes,Tice,Tice,#676464,route_master,bus,400400412:412
 Line:relation:9137679,12,Bus 12 : Gare de Maisons Laffitte (circulaire),Maisons-Laffitte et Le Mesnil Le Roi,Transdev Île-de-France Conflans,,route_master,bus,212212012:12
-Line:relation:9167849,LM2,Bus LM2 : Gare routière Seine (Juvisy) ↔ Lycée de Montgeron,Seine-Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021502:LM2
+Line:relation:9167849,LM2,Bus LM2 : Gare routière Seine (Juvisy) ↔ Lycée de Montgeron,Seine Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021502:LM2
 Line:relation:9167850,501,Bus 501 : Hautes Mardelles (Brunoy) ↔ Notre-Dame de Sion (Évry),Seine Sénart Bus,Keolis Seine Sénart,#f89c1c,route_master,bus,021021400:501
-Line:relation:9167851,LM1,Bus LM1 : Ermitage (Draveil) ↔ Lycée de Montgeron,Seine-Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021501:LM1
+Line:relation:9167851,LM1,Bus LM1 : Ermitage (Draveil) ↔ Lycée de Montgeron,Seine Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021501:LM1
 Line:relation:9171581,12,Bus 12 : La Croix de Berny RER ↔ Cyrano de Bergerac,Paladin,Bièvre Bus Mobilités,#FF0D00,route_master,bus,020149012:12
 Line:relation:9171785,N1,Bus N1 : Bizet ↔ Gare des Mureaux,Bus O'Mureaux,Transdev Île-de-France Ecquevilly,,route_master,bus,011011320:N1
 Line:relation:9171822,E,Bus E : Le CERRSY ↔ Arbouville,Rambouillet urbain,Transdev Île-de-France Rambouillet,,route_master,bus,013013102:E
@@ -1401,6 +1401,7 @@ Line:relation:9948936,39-303,Bus 39-303 : Gare de Rambouillet ↔ Gare de Saint-
 Line:relation:9952981,39-13,Bus 39-13 : Janvrerie (Les Molières) ↔ Gare de Saint-Rémy-lès-Chevreuse,SAVAC,SAVAC,#463d91,route_master,bus,039039013:39-13
 Line:relation:9953003,39-38,bus 39-38 : Gare Autoroutière (Briis-sous-Forges) ↔ Centre (Angervilliers),SAVAC,SAVAC,#4f74a8,route_master,bus,039039038:39-38
 Line:relation:9953049,39-203,Bus 39-203 : Gare de Rambouillet ↔ Les Cottages (Cernay-la-Ville),SAVAC,SAVAC,#93c465,route_master,bus,039039203:39-203
+Line:relation:9967805,,Eurotunnel Le Shuttle: Folkestone <=> Calais,,,,route_master,train,
 Line:relation:9968652,9,bus 9 : Gare de Melun (Melun) ↔ Cornebiche (Arbonne-la-Forêt),Canton de Perthes en Gâtinais,Transdev Île-de-France Saint-Fargeau-Ponthierry,#7f1518,route_master,bus,063063009:09
 Line:relation:9968719,21,bus 21 : Puits Beau (Saint-Fargeau-Ponthierry) ↔ Collège la Vallée (Avon),Canton de Perthes en Gâtinais,Transdev Île-de-France Saint-Fargeau-Ponthierry,#004a99,route_master,bus,063063021:21
 Line:relation:9972477,2,bus 2 : Gare de Montereau (Montereau-Fault-Yonne) ↔ Place Mérot (Fontaine-Fourches),Cars Moreau,Cars Moreau,#2569b2,route_master,bus,210210204:002

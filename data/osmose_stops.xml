@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-11-17T15:57:27Z">
-	<analyser timestamp="2019-11-17T15:57:27Z">
+<analysers timestamp="2019-11-18T15:57:55Z">
+	<analyser timestamp="2019-11-18T15:57:55Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag à vérifier sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -17237,6 +17237,18 @@
 			</fixes>
 		</error>
 		<error class="2">
+			<location lat="48.805022" lon="2.1882082"></location>
+			<node id="2690851794"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 424732 l'association avec la ligne 100987796:N66 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=2690851794"></text>
+			<fixes>
+				<fix>
+					<node id="2690851794">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
 			<location lat="48.6251853" lon="2.6003874"></location>
 			<node id="2870834131"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 33100 l'association avec la ligne 065487123:22 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=2870834131"></text>
@@ -20063,42 +20075,6 @@
 			<fixes>
 				<fix>
 					<node id="4596483696">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.802247099999995" lon="2.1884243999999997"></location>
-			<node id="6412437870"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 18070;12759 l'association avec la ligne 078192004:ChavilU est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=6412437870"></text>
-			<fixes>
-				<fix>
-					<node id="6412437870">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.805022" lon="2.1882082"></location>
-			<node id="2690851794"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 424732 l'association avec la ligne 078192004:ChavilU est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=2690851794"></text>
-			<fixes>
-				<fix>
-					<node id="2690851794">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.808142499999995" lon="2.1878759"></location>
-			<node id="2032366407"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 12761 l'association avec la ligne 078192004:ChavilU est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=2032366407"></text>
-			<fixes>
-				<fix>
-					<node id="2032366407">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

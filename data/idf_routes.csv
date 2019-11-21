@@ -670,7 +670,7 @@ Route:relation:3904082,Bus 213 : Lognes – Le Village → Noisy – Champs RER 
 Route:relation:3904503,"Bus A : Brunoy, Pyramide → Choisy-le-Roi, Pont TVM",A,"Choisy-le-Roi, Pont TVM",VyBus
 Route:relation:3906085,Bus 212 : Émerainville Pontault-Combault RER → Noisy – Champs RER – Descartes,212,Noisy – Champs RER – Descartes,RATP
 Route:relation:3906103,Bus 02 : Petit Sénart (Tigery) → Les Prés Hauts (Saint-Pierre-du-Perray),02,Les Prés Hauts (Saint-Pierre-du-Perray),Sénartbus Essonne
-Route:relation:3907885,ext Bus 312 : Noisy - Champs RER (Circulaire extérieure),312,,RATP
+Route:relation:3907885,Bus 312 ext : Noisy - Champs RER (Circulaire extérieure),312,Gare de Noisy Champs,RATP
 Route:relation:3912090,Bus 44 : Les Écrennes — Hôtel de Ville → Bois-le-Roi — Gare de Bois-le-Roi,44,,Le Châtelet-en-Brie - Pays de Seine
 Route:relation:3924940,Bus 1 : Gare d'Argenteuil → Gare de Sartrouville,1,Gare de Sartrouville,R'bus
 Route:relation:3934297,Bus C : Melun — Gare de Melun → Vaux-le-Pénil — Vaux Pleins-Vents,C,,MELIBUS
@@ -1505,7 +1505,7 @@ Route:relation:7907582,Bus 415 : Méliès - Croix Bonnet → Place du Mesnil,415
 Route:relation:7907583,Bus 415 : Place du Mesnil → Méliès - Croix Bonnet,415,Méliès - Croix Bonnet,SQYBus
 Route:relation:7909097,Bus Navette de Bouffémont : Centre médical → Gare de Bouffémont,Navette,Gare de Bouffémont,Cars Rose
 Route:relation:7909098,Bus Navette de Bouffémont : Gare de Bouffémont → Centre médical,Navette,Centre Médical,Cars Rose
-Route:relation:7910764,Bus 11 : POISSY Gare Nord de Poissy → MAURECOURT Julia,11,,Poissy Aval - 2 rives de Seine
+Route:relation:7910764,Bus 11: POISSY Gare Nord de Poissy => MAURECOURT Julia,11,,Poissy Aval - 2 rives de Seine
 Route:relation:7910780,Bus 11 : Conflans-Sainte-Honorine (Gare Romagne) - Herblay (Buttes Blanches),11,Buttes Blanches,Conflans Achères
 Route:relation:7915209,Bus 16 : Enghien Gare SNCF → Argenteuil Gare,16,,Valmy
 Route:relation:7916479,Bus 3s : Gare de Mitry Claye → Cité Scolaire,3s,Cité Scolaire,Apolo 7
@@ -1908,8 +1908,6 @@ Route:relation:8373351,Bus 2 : Gare d'Argenteuil → Le Moulin,2,Le Moulin,R'bus
 Route:relation:8374538,Bus 413 : Imprimerie Nationale → Centre Commercial Aunettes,413,Centre Commercial Aunettes,Tice
 Route:relation:8374539,Bus 413 : Centre Commercial Aunettes → Imprimerie Nationale,413,Imprimerie Nationale,Tice
 Route:relation:8377443,Bus R6 : Louvres RER D (circulaire),R6,Louvres RER D,Grand'R
-Route:relation:8378091,Bus Nangibus Rouge : Gare de Nangis SNCF (circulaire),NANGIBUSR,Gare de Nangis SNCF,Procars
-Route:relation:8378093,Bus Nangibus Verte : Gare de Nangis SNCF (circulaire),NANGIBUSV,Gare de Nangis SNCF,Procars
 Route:relation:8378311,Bus 4 : Rosny-sous-Bois RER (circulaire) via Casanova,4,Rosny-sous-Bois RER,Titus
 Route:relation:8379296,Bus 1 : Rosny-sous-Bois RER (circulaire) via La Boissière - Hôpital,1,Rosny-sous-Bois RER,Titus
 Route:relation:8379316,Bus 3 : Rosny-sous-Bois RER (circulaire) via Plateau d'Avron,3,Rosny-sous-Bois RER,Titus
@@ -2984,10 +2982,10 @@ Route:relation:9792588,Bus 1 (dimanche) : Louis Pelin (Le Chesnay-Rocquencourt) 
 Route:relation:9792589,Bus 1 (dimanche) : Versailles Université → Louis Pelin (Le Chesnay-Rocquencourt),1,Louis Pelin (Le Chesnay-Rocquencourt),Phébus
 Route:relation:9792665,Bus 2 : Porchefontaine - Louis XIV → La Celle Saint-Cloud Gare SNCF,2,La Celle Saint-Cloud Gare SNCF,Phébus
 Route:relation:9792666,Bus 2 : La Celle Saint-Cloud Gare SNCF → Porchefontaine - Louis XIV,2,Porchefontaine - Louis XIV,Phébus
-Route:relation:9795127,Bus 5 : Bernard de Jussieu (Versailles) → Cœur de Bourg (Le Chesnay-Rocquencourt),5,Cœur de Bourg,Phébus
-Route:relation:9795128,Bus 5 : Cœur de Bourg (Le Chesnay-Rocquencourt) → Bernard de Jussieu (Versailles),5,Bernard de Jussieu,Phébus
-Route:relation:9795692,Bus 5 (dimanche) : Cœur de Bourg (Le Chesnay-Rocquencourt) → Bernard de Jussieu (Versailles),5,Bernard de Jussieu,Phébus
-Route:relation:9795702,Bus 5 (dimanche) : Bernard de Jussieu (Versailles) → Cœur de Bourg (Le Chesnay-Rocquencourt),5,Cœur de Bourg,Phébus
+Route:relation:9795127,Bus 5 : Bernard de Jussieu (Versailles) → Cœur de Bourg (Le Chesnay-Rocquencourt),5,Cœur de Bourg (Le Chesnay-Rocquencourt),Phébus
+Route:relation:9795128,Bus 5 : Cœur de Bourg (Le Chesnay-Rocquencourt) → Bernard de Jussieu (Versailles),5,Bernard de Jussieu (Versailles),Phébus
+Route:relation:9795692,Bus 5 (dimanche) : Cœur de Bourg (Le Chesnay-Rocquencourt) → Bernard de Jussieu (Versailles),5,Bernard de Jussieu (Versailles),Phébus
+Route:relation:9795702,Bus 5 (dimanche) : Bernard de Jussieu (Versailles) → Cœur de Bourg (Le Chesnay-Rocquencourt),5,Cœur de Bourg (Le Chesnay-Rocquencourt),Phébus
 Route:relation:9795815,Bus 6 : Versailles Satory Mobilab → Gare de Versailles Chantiers → Gare de Viroflay Rive Gauche,6,Gare de Viroflay Rive Gauche,Phébus
 Route:relation:9795816,Bus 6 : Gare de Viroflay Rive Gauche → Gare de Versailles Chantiers → Versailles Satory Mobilab,6,Versailles Satory Mobilab,Phébus
 Route:relation:9795829,Bus 6 (week-end) : Gare de Viroflay Rive Gauche → Gare de Versailles Chantiers - Abbé Rousseau → Versailles Satory Mobilab,6,Versailles Satory Mobilab,Phébus
@@ -3311,3 +3309,4 @@ Route:relation:10242363,bus 13A : Place (Aufferville) → Cité Scolaire (Nemour
 Route:relation:10242364,bus 13A : Cité Scolaire (Nemours) → Place (Aufferville),13A,Place (Aufferville),STILL
 Route:relation:10242500,bus 13C : Villeneuve → Fontaine Sèche,13C,Fontaine Sèche,STILL
 Route:relation:10242501,bus 13C : Cité Scolaire (Nemours) → Le Perray (Beaumont-du-Gâtinais),13C,Le Perray (Beaumont-du-Gâtinais),STILL
+Route:relation:10319604,Bus 51 - Nangibus,51,Gare de Nangis SNCF,Procars

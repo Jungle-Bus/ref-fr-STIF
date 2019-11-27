@@ -111,8 +111,8 @@ Route:relation:1111499,Bus 111 : Terroirs de France → Champigny–Saint-Maur R
 Route:relation:1111806,Bus 317 : Hôtel de Ville de Créteil → Nogent Le Perreux RER,317,Nogent Le Perreux RER,RATP
 Route:relation:1111814,Bus 306 : Saint-Maur Créteil RER → Noisy-le-Grand RER,306,Noisy-le-Grand RER,RATP
 Route:relation:1112237,Bus 112 : Château de Vincennes → La Varenne–Chennevières RER,112,La Varenne - Chennevières RER,RATP
-Route:relation:1189561,Bus 112 : Espinard → Stade de la Faisanderie,112,,Aérial
-Route:relation:1189795,Bus 112 : Fontainebleau → Espinard,112,,Aérial
+Route:relation:1189561,Bus 112 : Espinard → Stade de la Faisanderie,112,Stade de la Faisanderie,Aérial
+Route:relation:1189795,"Bus 112 : Fontainebleau, François 1er → Espinard",112,Espinard,Aérial
 Route:relation:1207846,Bus 137 : Porte de Clignancourt–Croisset → Villeneuve-la-Garenne ZI Nord,137,Villeneuve-la-Garenne ZI Nord,RATP
 Route:relation:1236060,"Bus 401 : Corbeil-Essonnes Gare RER → Saint-Michel-sur-Orge, Rue Berlioz",401,"Saint-Michel-sur-Orge, Rue Berlioz",Tice
 Route:relation:1239821,Bus 203 : Gare de Ballancourt (circulaire soir),203,Gare de Ballancourt,Val d'Essonne
@@ -138,8 +138,8 @@ Route:relation:1250938,Bus 87 : Porte de Reuilly → Invalides,87,Invalides,RATP
 Route:relation:1250939,Bus 87 : Invalides → Porte de Reuilly,87,Porte de Reuilly,RATP
 Route:relation:1250984,Bus 80 : Porte de Versailles → Mairie du 18e - Jules Joffrin,80,Mairie du 18e - Jules Joffrin,RATP
 Route:relation:1250985,Bus 80 : Mairie du 18e - Jules Joffrin → Porte de Versailles,80,Porte de Versailles,RATP
-Route:relation:1251022,Bus 70 : Hôtel de Ville → Radio France,70,Radio France,RATP
-Route:relation:1251023,Bus 70 : Radio France → Hôtel de Ville,70,Hôtel de Ville,RATP
+Route:relation:1251022,Bus 70 : Hôtel de Ville → Porte de Passy,70,Porte de Passy,RATP
+Route:relation:1251023,Bus 70 : Porte de Passy → Hôtel de Ville,70,Hôtel de Ville,RATP
 Route:relation:1252549,Bus 84 : Panthéon → Alsace,84,Levallois-Perret - Alsace,RATP
 Route:relation:1252550,Bus 85 : Châtelet → Saint-Ouen - Les Docks,85,Saint-Ouen - Les Docks,RATP
 Route:relation:1252551,Bus 84 : Alsace → Panthéon,84,Panthéon,RATP
@@ -1020,7 +1020,7 @@ Route:relation:6762267,Bus S3 : Gare de Sainte-Geneviève-des-Bois → Lycée Al
 Route:relation:6768639,Bus 9A : Saint-Pierre de Nemours → Villebéon - Passy,9A,Saint Pierre de Nemours,STILL
 Route:relation:6769115,Bus 7C : Gratereau → Cité Scolaire,7C,,STILL
 Route:relation:6769137,Bus 7D : Place Parodi → Cité Scolaire,7D,,STILL
-Route:relation:6769160,Bus 7A : Cité Scolaire → Stade de la Faisanderie,7A,,STILL
+Route:relation:6769160,Bus 7A : Cité Scolaire → Stade de la Faisanderie,7A,Stade de la Faisanderie,STILL
 Route:relation:6785274,Bus 2 : Allée de l'Orge → ZI La Croix Blanche,2,ZI La Croix Blanche,Génovébus
 Route:relation:6785289,Bus 2 : ZI La Croix Blanche → Allée de l'Orge,2,Allée de l'Orge,Génovébus
 Route:relation:6785330,Bus 4 : ZI Croix Blanche → Gare de Sainte-Geneviève-des-Bois,4,Gare de Sainte Geneviève des Bois,Génovébus
@@ -1032,7 +1032,7 @@ Route:relation:6789333,Bus 8A : Cité Scolaire → Rue de la Source,8A,,STILL
 Route:relation:6789382,Bus 9B : Centre Launoy → Cité Scolaire,9B,Gare de Nemours,STILL
 Route:relation:6789781,Bus 9D : Mairie Diant → Cité Scolaire,9D,Diant,STILL
 Route:relation:6790570,Bus 9C : Gare de Nemours → Château,9C,Château,STILL
-Route:relation:6790571,Bus 9B : Cité Scolaire → Centre Launoy,9B,Launoy,STILL
+Route:relation:6790571,Bus 9B : Cité Scolaire → Centre Launoy,9B,Centre Launoy,STILL
 Route:relation:6827370,Bus 238 : Pont de Levallois → Saint-Gratien RER,238,Saint-Gratien RER,RATP
 Route:relation:6832826,Bus 351: Roissypole → Paris - Nation (lun-ven),351,Nation,RATP
 Route:relation:6835725,Bus 361 : Pierrefitte–Stains RER → Gare d'Argenteuil,361,Gare d'Argenteuil,RATP
@@ -1548,10 +1548,10 @@ Route:relation:8047520,Bus 38-05 : Domont Gare → Hopital Simone Veil,38-05,Hô
 Route:relation:8054728,Bus 17S : Gare de Maule → Gare de Versailles Rive Droite,17S,Gare de Versailles Rive Droite,Versaille Grand Parc
 Route:relation:8054729,Bus 17 : Guitel - Lecoq (Saint-Nom-la-Bretèche) → Gare de Versailles Rive Droite,17,Gare de Versailles Rive Droite,Versailles Grand Parc
 Route:relation:8054730,Bus 27 (bateau) : Saint-Germain-en-Laye → Allée du Tillet (Bailly),27,Allée du Tillet (Bailly),Plaine de Versailles
-Route:relation:8056668,Bus 7A : François 1er → Gare Carnot,7A,,STILL
-Route:relation:8056669,Bus 7A : Place Parodi → Stade de la Faisanderie,7A,,STILL
-Route:relation:8057158,Bus 7A via : François 1er → Gare Carnot,7A,,STILL
-Route:relation:8057373,Bus 7A via : Place Parodi → Stade de la Faisanderie,7A,,STILL
+Route:relation:8056668,Bus 7A : François 1er → Gare Carnot,7A,Gare Carnot,STILL
+Route:relation:8056669,Bus 7A : Place Parodi → Stade de la Faisanderie,7A,Stade de la Faisanderie,STILL
+Route:relation:8057158,Bus 7A : François 1er → Square Thibault → Gare Carnot,7A,Gare Carnot,STILL
+Route:relation:8057373,Bus 7A : Place Parodi → Square Thibault → Stade de la Faisanderie,7A,Stade de la Faisanderie,STILL
 Route:relation:8057534,Bus 17S : Gare de Versailles Rive Droite → Gare de Maule,17S,Gare de Maule,Versaille Grand Parc
 Route:relation:8057535,Bus 17 : Gare de Versailles Rive Droite → Guitel - Lecoq (Saint-Nom-la-Bretèche),17,Guitel - Lecoq,Versailles Grand Parc
 Route:relation:8058029,Bus 140 (dimanche midi) : Asnières-Gennevilliers - Gabriel Péri → Gare d'Argenteuil,140,,RATP
@@ -1744,7 +1744,7 @@ Route:relation:8130792,Bus 559a : Garches → Gabriel Péri,559a,,RATP
 Route:relation:8131558,"Bus 414 : Le Plessis-Pâté, Eurocontrol → Évry-Courcouronnes Centre",414,"Le Plessis-Pâté, Eurocontrol",Tice
 Route:relation:8131559,"Bus 414 : Évry-Courcouronnes Centre → Le Plessis-Pâté, Eurocontrol",414,"Le Plessis-Pâté, Eurocontrol",Tice
 Route:relation:8131560,Bus 414D : Vert-le-Grand → Évry-Courcouronnes Centre,414D,Évry-Courcouronnes Centre,Tice
-Route:relation:8132351,Bus 202 : Mairie de Villemaréchal → Stade (Fontainebleau),202,Stade (Fontainebleau),Comète
+Route:relation:8132351,Bus 202 : Mairie de Villemaréchal → Stade de la Faisanderie,202,Stade de la Faisanderie,Comète
 Route:relation:8132374,Bus 211 : Collège Sisley → Montméry (Villemer),211,Montméry (Villemer),Comète
 Route:relation:8132389,Bus 465 : Guyancourt Villaroy → Saint-Quentin-en-Yvelines Gare RER,465,,SQYBus
 Route:relation:8132410,Bus 16 : Conflans Fin d'Oise (circuit matin),16,,CSO
@@ -3243,7 +3243,7 @@ Route:relation:9967825,"Bus 95-48 : Magny-En-Vexin, Beaux Sites → Nucourt, Wen
 Route:relation:9968650,Bus 9 : Cornebiche (Arbonne-la-Forêt) → Gare de Melun (Melun),9,Gare de Melun (Melun),Canton de Perthes en Gâtinais
 Route:relation:9968651,bus 9 : Gare de Melun (Melun) → Cornebiche (Arbonne-la-Forêt),9,Cornebiche (Arbonne-la-Forêt),Canton de Perthes en Gâtinais
 Route:relation:9968717,bus 21 : Collège la Vallée (Avon) → Puits Beau (Saint-Fargeau-Ponthierry),21,Puits Beau (Saint-Fargeau-Ponthierry),Canton de Perthes en Gâtinais
-Route:relation:9968718,bus 21 : Puits Beau (Saint-Fargeau-Ponthierry) → Collège la Vallée (Avon),21,Collège la Vallée (Avon),Canton de Perthes en Gâtinais
+Route:relation:9968718,Bus 21 : Puits Beau (Saint-Fargeau-Ponthierry) → Collège la Vallée (Avon),21,Collège la Vallée (Avon),Canton de Perthes en Gâtinais
 Route:relation:9972475,bus 2 : Place Mérot (Fontaine-Fourches) → Gare de Montereau (Montereau-Fault-Yonne),2,Gare de Montereau (Montereau-Fault-Yonne),Cars Moreau
 Route:relation:9972476,bus 2 : Gare de Montereau (Montereau-Fault-Yonne) → Place Mérot (Fontaine-Fourches),2,Place Mérot (Fontaine-Fourches),Cars Moreau
 Route:relation:9972553,bus 1 : Gare Routière (Provins) → Place Mérot (Fontaine-Fourches),1,Place Mérot (Fontaine-Fourches),Cars Moreau
@@ -3311,7 +3311,6 @@ Route:relation:10242500,bus 13C : Villeneuve → Fontaine Sèche,13C,Fontaine S�
 Route:relation:10242501,bus 13C : Cité Scolaire (Nemours) → Le Perray (Beaumont-du-Gâtinais),13C,Le Perray (Beaumont-du-Gâtinais),STILL
 Route:relation:10319604,Bus 51 - Nangibus,51,Gare de Nangis SNCF,Procars
 Route:relation:10332308,,27,,
-Route:relation:10333966,,7,,
 Route:relation:10334245,,Q,,
 Route:relation:10334246,,M,,
 Route:relation:10334247,,B,,
@@ -3319,3 +3318,6 @@ Route:relation:10334248,,V,,
 Route:relation:10334249,,P,,
 Route:relation:10334646,,BL,,
 Route:relation:10334647,,DF,,
+Route:relation:10336009,Bus 70 : Hôtel de Ville → Suresnes – De Gaulle,70,Suresnes – De Gaulle,RATP
+Route:relation:10336112,Bus 70 : Suresnes – De Gaulle → Hôtel de Ville,70,Hôtel de Ville,RATP
+Route:relation:10339081,,14,,

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-12-03T16:04:34Z">
-	<analyser timestamp="2019-12-03T16:04:34Z">
+<analysers timestamp="2019-12-04T16:03:29Z">
+	<analyser timestamp="2019-12-04T16:03:29Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag à vérifier sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -20135,6 +20135,18 @@
 			<fixes>
 				<fix>
 					<node id="4552593294">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.309571299999995" lon="2.7150874"></location>
+			<node id="5881237265"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 34040 l'association avec la ligne 064608007:7C est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5881237265"></text>
+			<fixes>
+				<fix>
+					<node id="5881237265">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

@@ -12,7 +12,7 @@ Line:relation:253357,K,Transilien Ligne K,Transilien,SNCF,#C7B300,route_master,t
 Line:relation:255442,61,Bus 61 : Place d'Italie ↔ Pantin — Église de Pantin,RATP,RATP,#008C5A,route_master,bus,100100061:61
 Line:relation:332709,147,Bus 147 : Église de Pantin ↔ Sevran – Avenue Ronsard,RATP,RATP,#F50024,route_master,bus,100100147:147
 Line:relation:387064,86,Bus 86 : Champ de Mars ↔ Saint-Mandé — Demi-Lune - Parc Zoologique,RATP,RATP,#ED1B2A,route_master,bus,100100086:86
-Line:relation:557587,285,Bus 285 : Athis-Mons – Porte de l'Essonne ↔ Marché de Juvisy,RATP,RATP,#bb4a9c,route_master,bus,100100285:285
+Line:relation:557587,285,Bus 285 : Athis-Mons–Porte de l'Essonne ↔ Juvisy RER,RATP,RATP,#bb4a9c,route_master,bus,100100285:285
 Line:relation:611648,157,Bus 157 : Nanterre - Boulevard de la Seine ↔ Pont de Neuilly,RATP,RATP,#B34A9B,route_master,bus,100100157:157
 Line:relation:611689,378,Bus 378 : Nanterre–Ville RER ↔ Les Courtilles,RATP,RATP,#00824E,route_master,bus,100100378:378
 Line:relation:611690,367,Bus 367 : Rueil-Malmaison RER ↔ Pont de Bezons,RATP,RATP,#F59FB8,route_master,bus,100100367:367
@@ -275,7 +275,7 @@ Line:relation:5752558,F,Bus F : Yerres - Rond-Point Pasteur ↔ Yerres - Grosboi
 Line:relation:5754922,A,Bus A : Pyramide (Brunoy) ↔ Pont TVM (Choisy-le-Roi),VyBus,Transdev STRAV,#3B96C9,route_master,bus,045045010:A
 Line:relation:5757909,191,Bus 191 : Porte de Vanves ↔ Clamart - Place du Garde,RATP,RATP,#F59FB4,route_master,bus,100100191:191
 Line:relation:5763997,B,Bus B : Maison Rouge ↔ Esmans,Siyonne,Transdev Interval,,route_master,bus,208208002:B
-Line:relation:5830159,N22,Noctilien N22 : Marché de Juvisy ↔ Châtelet,Noctilien,RATP,#FFCD02,route_master,bus,100987768:N22
+Line:relation:5830159,N22,Noctilien N22 :  Châtelet ↔ Juvisy RER,Noctilien,RATP,#FFCD02,route_master,bus,100987768:N22
 Line:relation:5847185,F4,Bus F4 : Rond-Point Pasteur - Yerres → Grosbois - Yerres,VyBus,Transdev STRAV,#FBBF28,route_master,bus,045045019:F4
 Line:relation:5847217,I,Bus I : Gare de Yerres ↔ Collège La Guinette - Villecresnes,VyBus,Transdev STRAV,#C09051,route_master,bus,045045025:I
 Line:relation:5852751,La Navette,La Navette de Thiais : Ferme de Grignon ↔ La Galaise,RATP,RATP,,route_master,bus,100100587:THIAIS
@@ -406,7 +406,7 @@ Line:relation:6910437,T6,Tramway T6 : Châtillon–Montrouge ↔ Viroflay Rive D
 Line:relation:6910465,T7,Tramway T7 : Villejuif-Louis Aragon ↔ (Athis-Mons) Porte de l'Essonne,RATP,RATP,#B98B59,route_master,tram,100112017:T7
 Line:relation:6915922,Orlybus,OrlyBus : Paris-Denfert–Rochereau ↔ Aéroport d'Orly 4,RATP,RATP,#ee1b29,route_master,bus,100100283:ORLYBUS
 Line:relation:6928902,OrlyVAL,Orlyval : Antony ↔ Orly 4,Orlyval,RATP,#FFCF00,route_master,subway,100110200:ORLYVAL
-Line:relation:6928933,CDGVAL,CDGVAL : Terminal 1 ↔ Terminal 2 - Gare,CDGVAL,Aéroports de Paris,#142B4A,route_master,light_rail,043043100:CDGVAL
+Line:relation:6928933,CDGVAL,CDGVAL : Terminal 1 ↔ Terminal 2 - Gare,CDGVAL,Aéroports de Paris,#142B4A,route_master,subway,043043100:CDGVAL
 Line:relation:6928970,Funiculaire,Funiculaire de Montmartre : Gare Basse ↔ Gare Haute,RATP,RATP,#622282,route_master,funicular,100110100:FUN
 Line:relation:6929043,3,Bus 3 : Gare de Choisy-Le-Roi ↔ Gare de Villeneuve-Saint-Georges,Athis Cars,Keolis Seine Val-De-Marne,#D59433,route_master,bus,002002003:3
 Line:relation:6929582,274,Bus 274 : Voltaire - Villiers (Levallois) ↔ Saint-Denis RER,RATP,RATP,#F50024,route_master,bus,100100274:274
@@ -443,7 +443,7 @@ Line:relation:6957244,19,Bus 19 : Aéroport CDG T3 - Roissypole ↔ Torcy RER,Se
 Line:relation:6957245,18,Bus 18 : Gare de Melun ↔ Gare de Meaux,Seine-et-Marne Express,Transdev AMV,,route_master,bus,051177018:18
 Line:relation:6957303,17,Bus 17 : Chessy RER ↔ Coulommiers ↔ La Ferté Gaucher,Seine-et-Marne Express,Darche Gros,#66B5E0,route_master,bus,097177017:17
 Line:relation:6957304,46,Bus 46 : Gare de Montereau ↔ Gare de Melun,Seine-et-Marne Express,Transdev Île-de-France Vulaines,,route_master,bus,062062046:46
-Line:relation:6957305,34,Bus 34 : Gare de Melun ↔ Chateau-Landon ou Egreville,Seine-et-Marne Express,Transdev Ile-de-France Nemours,,route_master,bus,064177034:EXPRESS34
+Line:relation:6957305,EXPRESS34,Bus EXPRESS34 : Gare de Melun ↔ Chateau-Landon ou Egreville,Seine-et-Marne Express,Transdev Ile-de-France Nemours,,route_master,bus,064177034:EXPRESS34
 Line:relation:6957343,18,Bus 18 : Gare de Torcy ↔ De Gaulle (Tournan-en-Brie),Stigo,Transdev N4 Mobilités,,route_master,bus,003003018:18
 Line:relation:6958361,N150,Noctilien N150 : Gare Saint-Lazare ↔ Cergy-le-Haut RER,Noctilien,Transilien,#ED1C29,route_master,bus,800:N150
 Line:relation:6958366,N152,Noctilien N152: Gare Saint-Lazare ↔ Cergy RER,Noctilien,Transilien,#ED1C29,route_master,bus,800:N152
@@ -1070,7 +1070,7 @@ Line:relation:8474977,3,Bus 3 : 4 Chemins ↔ Gare de Longueville,Cars Moreau,Ca
 Line:relation:8479479,184-014,Bus 184-014 : Gare de Fontainebleau - Avon ↔ Gare de Malesherbes,Les Cars Bleus,Les Cars Bleus,,route_master,bus,084184014:184-014
 Line:relation:8479505,284-007,Bus 284-007 : Mairie (Oncy-sur-École) ↔ Gare de Boutigny-sur-Essonne,Les Cars Bleus,Les Cars Bleus,,route_master,bus,084284007:284-007
 Line:relation:8493726,Express 100,Bus Express 100 Persan : Roissypole (Aéroport CDG Terminal 3) ↔ Gare de Persan - Beaumont,Busval d'Oise,Keolis Mobilité Roissy,,route_master,bus,116195100:100P
-Line:relation:8493727,Express 20,Bus Express 20 : Roissypole (Aéroport CDG Terminal 3) ↔ Gare de Meaux,Seine-et-Marne Express,Transdev Trans Val France,,route_master,bus,054054020:Express20
+Line:relation:8493727,Express20,Bus Express20 : Roissypole (Aéroport CDG Terminal 3) ↔ Gare de Meaux,Seine-et-Marne Express,Transdev Trans Val France,,route_master,bus,054054020:Express20
 Line:relation:8493728,R4,Bus R4 : Roissypole ↔ Louvres Gare,Grand'R,Keolis CIF,,route_master,bus,014014904:R4
 Line:relation:8493815,67,Bus 67 : Roissypole (Aéroport CDG Terminal 3) ↔ Gare de La Ferté-sous-Jouarre,Seine-et-Marne Express,Transdev Marne-et-Morin,,route_master,bus,067177067:67
 Line:relation:8507551,95-16,Bus 95-16 : Valmondois - Gare (circulaire),Busval d'Oise,CeoBus,,route_master,bus,025195016:95-16

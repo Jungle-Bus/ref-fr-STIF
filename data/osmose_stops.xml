@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-12-18T16:11:17Z">
-	<analyser timestamp="2019-12-18T16:11:17Z">
+<analysers timestamp="2019-12-19T16:11:52Z">
+	<analyser timestamp="2019-12-19T16:11:52Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag à vérifier sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -19859,18 +19859,6 @@
 			<fixes>
 				<fix>
 					<node id="5993784473">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.8400915" lon="2.6219368"></location>
-			<node id="5392631016"></node>
-			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 463387 l'association avec la ligne 040040010:10 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5392631016"></text>
-			<fixes>
-				<fix>
-					<node id="5392631016">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

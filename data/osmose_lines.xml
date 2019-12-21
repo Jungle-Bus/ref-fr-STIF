@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2019-12-19T16:11:53Z">
-	<analyser timestamp="2019-12-19T16:11:53Z">
+<analysers timestamp="2019-12-21T16:12:37Z">
+	<analyser timestamp="2019-12-21T16:12:37Z">
 		<class item="8042" tag="transport en commun" id="1" level="3">
 			<classtext lang="fr" title="tag manquant ou à vérifier sur une relation route_master (ligne de transport en commun)"></classtext>
 		</class>
@@ -23,6 +23,11 @@
 			<location lat="48.5302614" lon="2.5250464999999997"></location>
 			<relation id="4099253"></relation>
 			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (063063011:11GARE) n'existe pas ou plus dans les données opendata du STIF"></text>
+		</error>
+		<error class="1">
+			<location lat="48.7264832" lon="2.4724247"></location>
+			<relation id="5728903"></relation>
+			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (045045034:X) n'existe pas ou plus dans les données opendata du STIF"></text>
 		</error>
 		<error class="1">
 			<location lat="48.776230399999996" lon="2.5144010999999997"></location>
@@ -135,11 +140,6 @@
 			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (227227002:227-02A) n'existe pas ou plus dans les données opendata du STIF"></text>
 		</error>
 		<error class="1">
-			<location lat="48.849171399999996" lon="2.4125984"></location>
-			<relation id="7921049"></relation>
-			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (100100501:CHARONN) n'existe pas ou plus dans les données opendata du STIF"></text>
-		</error>
-		<error class="1">
 			<location lat="48.8257075" lon="2.2886224"></location>
 			<relation id="7921050"></relation>
 			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (039039001:Vanves) n'existe pas ou plus dans les données opendata du STIF"></text>
@@ -148,6 +148,11 @@
 			<location lat="48.882501" lon="2.201101"></location>
 			<relation id="7975655"></relation>
 			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (100100559:LIGNE-B) n'existe pas ou plus dans les données opendata du STIF"></text>
+		</error>
+		<error class="1">
+			<location lat="48.8914043" lon="2.2415273"></location>
+			<relation id="8116384"></relation>
+			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (244244001:EXPA14M) n'existe pas ou plus dans les données opendata du STIF"></text>
 		</error>
 		<error class="1">
 			<location lat="48.901108699999995" lon="2.2746825999999998"></location>
@@ -278,6 +283,11 @@
 			<location lat="48.8914043" lon="2.2415273"></location>
 			<relation id="9871081"></relation>
 			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (244244001:EXPA14C) n'existe pas ou plus dans les données opendata du STIF"></text>
+		</error>
+		<error class="1">
+			<location lat="48.8914043" lon="2.2415273"></location>
+			<relation id="9873145"></relation>
+			<text lang="fr" value="Ce ref:FR:STIF:ExternalCode_Line (244244001:EXPA14B) n'existe pas ou plus dans les données opendata du STIF"></text>
 		</error>
 		<error class="1">
 			<location lat="48.8712357" lon="2.784027"></location>

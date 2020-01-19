@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2020-01-18T16:24:43Z">
-	<analyser timestamp="2020-01-18T16:24:43Z">
+<analysers timestamp="2020-01-19T16:25:27Z">
+	<analyser timestamp="2020-01-19T16:25:27Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag à vérifier sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -7277,7 +7277,7 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.6433149" lon="1.8323615"></location>
+			<location lat="48.643325999999995" lon="1.8323675"></location>
 			<node id="5489297450"></node>
 			<text lang="fr" value="La ref:FR:STIF 31256 n'existe pas ou plus"></text>
 			<fixes>
@@ -14765,7 +14765,7 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.9453508" lon="2.5686001"></location>
+			<location lat="48.9453542" lon="2.5685922999999997"></location>
 			<node id="6305556426"></node>
 			<text lang="fr" value="La ref:FR:STIF 420642 n'existe pas ou plus"></text>
 			<fixes>
@@ -26807,6 +26807,18 @@
 			<fixes>
 				<fix>
 					<node id="5701136202">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
+			<location lat="48.945451" lon="2.5686378999999997"></location>
+			<node id="5697032445"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 38139 l'association avec la ligne 014014091:Tbus est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5697032445"></text>
+			<fixes>
+				<fix>
+					<node id="5697032445">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>

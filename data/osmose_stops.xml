@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<analysers timestamp="2020-03-30T17:04:22Z">
-	<analyser timestamp="2020-03-30T17:04:22Z">
+<analysers timestamp="2020-03-31T17:05:16Z">
+	<analyser timestamp="2020-03-31T17:05:16Z">
 		<class item="8042" tag="transport en commun" id="2" level="3">
 			<classtext lang="fr" title="tag à vérifier sur un arrêt de transport en commun d'Île-de-France"></classtext>
 		</class>
@@ -3767,18 +3767,6 @@
 			<fixes>
 				<fix>
 					<node id="4320340823">
-						<tag action="delete" k="ref:FR:STIF"></tag>
-					</node>
-				</fix>
-			</fixes>
-		</error>
-		<error class="2">
-			<location lat="48.8075033" lon="2.349387"></location>
-			<node id="4321011713"></node>
-			<text lang="fr" value="La ref:FR:STIF 24389 n'existe pas ou plus"></text>
-			<fixes>
-				<fix>
-					<node id="4321011713">
 						<tag action="delete" k="ref:FR:STIF"></tag>
 					</node>
 				</fix>
@@ -19373,6 +19361,18 @@
 			</fixes>
 		</error>
 		<error class="2">
+			<location lat="48.9108666" lon="2.6036717"></location>
+			<node id="7346739458"></node>
+			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 16669 l'association avec la ligne 101261027:5 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=7346739458"></text>
+			<fixes>
+				<fix>
+					<node id="7346739458">
+						<tag action="delete" k="ref:FR:STIF"></tag>
+					</node>
+				</fix>
+			</fixes>
+		</error>
+		<error class="2">
 			<location lat="48.8262371" lon="2.5746728"></location>
 			<node id="5485207362"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 36232 l'association avec la ligne 100100310:310 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5485207362"></text>
@@ -19493,7 +19493,7 @@
 			</fixes>
 		</error>
 		<error class="2">
-			<location lat="48.8753902" lon="2.5853672999999997"></location>
+			<location lat="48.8753939" lon="2.5853444999999997"></location>
 			<node id="5979563831"></node>
 			<text lang="fr" value="Pour cet arrêt de ref:FR:STIF 39979 l'association avec la ligne 101261024:4 est à vérifier https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id=5979563831"></text>
 			<fixes>

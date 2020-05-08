@@ -9,4 +9,4 @@ Pour générer les analyses Osmose, il faut au préalable
 
 ![process de màj](osmose.png)
 
-La clef d'authentification nécessaire pour l'envoi des erreurs au front Osmose (de dev et de prod) doit être configurée en variable d'environnement (`export Osmose_idf_auth='my_very_own_Osmose_auth_key'`)
+La clef d'authentification nécessaire pour l'envoi des erreurs au front Osmose doit être configurée en variable d'environnement (`export Osmose_idf_auth='my_very_own_Osmose_auth_key'`)

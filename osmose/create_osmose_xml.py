@@ -20,6 +20,8 @@ def create_osmose_xml_stops(errors):
     doc['analysers']['analyser']['class']['@tag'] = "transport en commun"
     doc['analysers']['analyser']['class']['@id'] = "2" #set the class of the item here
     doc['analysers']['analyser']['class']['@level'] = "3"
+    doc['analysers']['analyser']['class']['@source'] = "https://github.com/Jungle-Bus/ref-fr-STIF/tree/master/osmose"
+    doc['analysers']['analyser']['class']['@resource'] = "https://ref-lignes-stif.5apps.com/"
     doc['analysers']['analyser']['class']['classtext']['@lang'] = "fr"
     doc['analysers']['analyser']['class']['classtext'][
         '@title'] = "tag à vérifier sur un arrêt de transport en commun d'Île-de-France"
@@ -53,6 +55,8 @@ def create_osmose_xml_lines(errors):
     doc['analysers']['analyser']['@timestamp'] = now
     doc['analysers']['analyser']['class']['@item'] = "8042"
     doc['analysers']['analyser']['class']['@tag'] = "transport en commun"
+    doc['analysers']['analyser']['class']['@source'] = "https://github.com/Jungle-Bus/ref-fr-STIF/tree/master/osmose"
+    doc['analysers']['analyser']['class']['@resource'] = "https://ref-lignes-stif.5apps.com/"
     doc['analysers']['analyser']['class']['@id'] = "1"
     doc['analysers']['analyser']['class']['@level'] = "3"
     doc['analysers']['analyser']['class']['classtext']['@lang'] = "fr"

@@ -419,7 +419,7 @@ Route:relation:2393303,Bus 91-06 : Christ de Saclay → Gare de Massy-Palaiseau,
 Route:relation:2393305,Bus 91-06 : Gare de Massy-Palaiseau → Christ de Saclay,91-06,Christ de Saclay,Albatrans
 Route:relation:2415099,Bus 1 : Gare d’Igny RER → Rond-Point Camille Claudel → Orsay-Ville RER,1,Orsay-Ville RER,Mobicaps
 Route:relation:2420132,Bus 1 : Orsay-Ville RER → Rond-Point Camille Claudel → Gare d’Igny RER,1,Gare d’Igny RER,Mobicaps
-Route:relation:2424330,Bus 294 : Igny RER → Pierre Semard-Châtillon - Montrouge,294,Châtillon - Montrouge,RATP
+Route:relation:2424330,Bus 294 : Igny RER → Pierre Semard - Châtillon-Montrouge,294,Pierre Semard - Châtillon-Montrouge,RATP
 Route:relation:2437724,Bus 5 : Saint-Quentin en Yvelines - Gare Routière Paul Delouvrier → Château,5,Château,Hourtoule
 Route:relation:2440110,Bus 14 : Fresnel - Vauve → Gare de Palaiseau-Villebon → Gare de Massy-Palaiseau,14,Gare de Massy-Palaiseau,Mobicaps
 Route:relation:2440111,Bus 14 : Gare de Massy-Palaiseau → Gare de Palaiseau-Villebon → Fresnel - Vauve,14,Fresnel - Vauve,Mobicaps
@@ -623,7 +623,6 @@ Route:relation:3545424,Bus D : Gare de Melun (circulaire extérieure via Gare Ro
 Route:relation:3546199,Bus 158 : Rueil-Malmaison RER → Pont de Neuilly,158,,RATP
 Route:relation:3546200,Bus 158 : Pont de Neuilly → Rueil-Malmaison RER,158,Rueil-Malmaison RER,RATP
 Route:relation:3555553,Bus A : Centre Commercial Rubelles → Grands Cèdres,A,Grands Cèdres,MELIBUS
-Route:relation:3555554,Bus 01 : Melun → Coulommiers → Rebais,01,Rebais,Seine-et-Marne Express
 Route:relation:3558529,"Bus F : Le Mée-sur-Seine, Le Mée Gare → La Rochette, Rocheton Stade",F,"La Rochette, Rocheton Stade",MELIBUS
 Route:relation:3559005,Bus M : Gare de Melun → Rond-Point du Bûcher,M,Rond-Point du Bûcher,MELIBUS
 Route:relation:3567420,Bus 471 : Les Coteaux (Saint-Cloud) → Gare de Versailles Rive Droite,471,Gare de Versailles Rive Droite,RATP
@@ -721,7 +720,7 @@ Route:relation:4074277,Bus B : La Grande Plaine → Maison Rouge (Varennes),B,Ma
 Route:relation:4074278,Bus Ea : Gare de Montereau-Fault-Yonne → Route de Chevinois,Ea,Barbey,Siyonne
 Route:relation:4074279,Bus Eb : Montereau Église → Hameau de Chevinois,Eb,Chateau de Barbey,Siyonne
 Route:relation:4075274,Bus 194 : Lycée de Châtenay-Malabry → Porte d'Orléans,194,Porte d'Orléans,RATP
-Route:relation:4078264,Bus 294 : Pierre Semard-Châtillon–Montrouge → Igny RER,294,Igny RER,RATP
+Route:relation:4078264,Bus 294 : Pierre Semard - Châtillon-Montrouge → Igny RER,294,Igny RER,RATP
 Route:relation:4082158,Bus K : Gare routière de Villeneuve-Saint-Georges → Créteil Préfecture,K,Créteil Préfecture,STRAV
 Route:relation:4099206,Bus 1 : Saint-Fargeau-Ponthierry — Gare ↔ Pringy — Montlouis,1,,Canton de Perthes en Gâtinais
 Route:relation:4099272,Bus 04 : Le Fresne (Saint-Pierre-du-Perray) → Mairie (Morsang-sur-Seine),04,Mairie (Morsang-sur-Seine),Sénartbus Essonne
@@ -3284,7 +3283,7 @@ Route:relation:10044775,"Flixbus 709: Rive de Gier => Paris, Bercy Seine",709,"P
 Route:relation:10044776,"Flixbus 709: Paris, Bercy Seine => Rive de Gier",709,Rive de Gier,Flixbus
 Route:relation:10044874,"Flixbus 1709: Chambéry, Gare routière => Paris, Gallieni",1709,"Paris, Gallieni",Flixbus
 Route:relation:10044875,"Flixbus 1709: Paris, Gallieni => Chambéry, Gare routière",1709,"Chambéry, Gare routière",Flixbus
-Route:relation:10073596,"Bus 01 : Melun, Place de l'Ermitage/Gare SNCF <-> Rebais, Giblois/Curie",01,"Rebais, Giblois/Curie",Seine-et-Marne Express
+Route:relation:10073596,"Bus 01 : Melun, Place de l'Ermitage/Gare SNCF → Rebais, Giblois/Curie",01,Giblois/Curie (Rebais),Seine-et-Marne Express
 Route:relation:10140904,Bus 63 weekend : Gare de Lyon → Jardin d'Acclimatation,63,Porte de la Muette,RATP
 Route:relation:10140929,Bus 63 weekend : Jardin d'Acclimatation → Gare de Lyon,63,Gare de Lyon,RATP
 Route:relation:10142833,Bus 27 : Green de Réau → Lieusaint - Moissy Gare RER,27,Lieusaint - Moissy Gare RER,Sénart Bus
@@ -3482,9 +3481,11 @@ Route:relation:11161941,Bus 68.05B : Facteur Cheval (Boissy-sous-Saint-Yon) → 
 Route:relation:11161942,Bus 68.05B : Gare d’Arpajon → Facteur Cheval (Boissy-sous-Saint-Yon),68.05B,Facteur Cheval (Boissy-sous-Saint-Yon),Ormont Transport
 Route:relation:11161943,Bus 68.05A : Collège Albert Camus (La Norville) → Facteur Cheval (Boissy-sous-Saint-Yon),68.05A,Facteur Cheval (Boissy-sous-Saint-Yon),Ormont Transport
 Route:relation:11161944,Bus 68.05A : Facteur Cheval (Boissy-sous-Saint-Yon) → Collège Albert Camus (La Norville),68.05A,Collège Albert Camus (La Norville),Ormont Transport
-Route:relation:11161956,Bus 222 : Collège Doisneau (Itteville) → La Croix Boissée (Itteville),222,La Croix Boissée (Itteville),Val d’Essonne
-Route:relation:11161957,Bus 222 : La Croix Boissée (Itteville) → Collège Doisneau (Itteville),222,Collège Doisneau (Itteville),Val d’Essonne
+Route:relation:11161956,Bus 222 : parcours du soir,222,La Croix Boissée (Itteville),Val d’Essonne
+Route:relation:11161957,Bus 222 : parcours du matin,222,Collège Doisneau (Itteville),Val d’Essonne
 Route:relation:11170193,Bus 250 : Etrépagny - Mairie → Gisors - Gare → Vernon - Lycée Dumézil,250,,Eure
 Route:relation:11170194,Bus 250 : Vernon - Lycée Dumézil → Gisors - Gare → Etrépagny - Mairie,250,,Eure
 Route:relation:11170600,Bus 250 : Vernon - Gare Routière → Gisors - Gare,250,,Eure
 Route:relation:11170601,Bus 250 : Gisors - Gare → Vernon - Gare Routière,250,,Eure
+Route:relation:11175661,Bus 07 : Gare de Montereau → Gare de Provins,07,Gare de Provins,Seine-et-Marne Express
+Route:relation:11175662,Bus 07 : Gare de Provins → Gare de Montereau,07,Gare de Montereau,Seine-et-Marne Express

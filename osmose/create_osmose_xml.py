@@ -22,8 +22,11 @@ def create_osmose_xml_stops(errors):
     doc['analysers']['analyser']['class']['@level'] = "3"
     doc['analysers']['analyser']['class']['@source'] = "https://github.com/Jungle-Bus/ref-fr-STIF/tree/master/osmose"
     doc['analysers']['analyser']['class']['@resource'] = "https://ref-lignes-stif.5apps.com/"
-    doc['analysers']['analyser']['class']['classtext']['@lang'] = "fr"
-    doc['analysers']['analyser']['class']['classtext'][
+    doc['analysers']['analyser']['class']['classtext'][0]['@lang'] = "en"
+    doc['analysers']['analyser']['class']['classtext'][0][
+        '@title'] = "Wrong or missing tag on a public transport stop in Île-de-France"
+    doc['analysers']['analyser']['class']['classtext'][1]['@lang'] = "fr"
+    doc['analysers']['analyser']['class']['classtext'][1][
         '@title'] = "tag à vérifier sur un arrêt de transport en commun d'Île-de-France"
 
     for error in errors :
@@ -59,10 +62,13 @@ def create_osmose_xml_lines(errors):
     doc['analysers']['analyser']['class']['@resource'] = "https://ref-lignes-stif.5apps.com/"
     doc['analysers']['analyser']['class']['@id'] = "1"
     doc['analysers']['analyser']['class']['@level'] = "3"
-    doc['analysers']['analyser']['class']['classtext']['@lang'] = "fr"
-    doc['analysers']['analyser']['class']['classtext'][
-        '@title'] = "tag manquant ou à vérifier sur une relation route_master (ligne de transport en commun)"
-
+    doc['analysers']['analyser']['class']['classtext'][0]['@lang'] = "en"
+    doc['analysers']['analyser']['class']['classtext'][0][
+        '@title'] = "Wrong or missing tag on a route_master relation (public transport line) in Île-de-France"
+    doc['analysers']['analyser']['class']['classtext'][1]['@lang'] = "fr"
+    doc['analysers']['analyser']['class']['classtext'][1][
+        '@title'] = "tag manquant ou à vérifier sur une relation route_master (ligne de transport en commun) d'Île-de-France"
+        
     for error in errors:
         current_osmose_error = deepcopy(
             doc['analysers']['analyser']['error'][0])

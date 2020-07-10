@@ -62,7 +62,7 @@ Line:relation:1086445,72,Bus 72 : Parc de Saint-Cloud ↔ Gare de Lyon,RATP,RATP
 Line:relation:1086590,70,Bus 70 : Suresnes – De Gaulle ↔ Porte de Passy ↔ Hôtel de Ville,RATP,RATP,#F78F4B,route_master,bus,100100070:70
 Line:relation:1102964,106,Bus 106 : Joinville le Pont ↔ Villiers sur Marne,RATP,RATP,#ED1B2A,route_master,bus,100100106:106
 Line:relation:1104709,138,Bus 138: Gare d'Ermont-Eaubonne RER ↔ Porte de Clichy,RATP,RATP,#BB4A9B,route_master,bus,100100138:138
-Line:relation:1240537,201,Bus 201 : Gare de Marolles-en-Hurepoix ↔ Collège Doisneau,Val d'Essonne,Transdev IDF,,route_master,bus,018018010:201
+Line:relation:1240537,201,Bus 201 : Gare de Marolles-en-Hurepoix ↔ Collège Doisneau,Val d'Essonne,Transdev CEAT,,route_master,bus,010018010:201
 Line:relation:1245875,88,Bus 88 : Porte d'Auteuil ↔ Montsouris - Tombe Issoire,RATP,RATP,#CEC92A,route_master,bus,100100088:88
 Line:relation:1246520,95,Bus 95 : Porte de Montmartre ↔ Porte de Vanves,RATP,RATP,#8D653A,route_master,bus,100100095:95
 Line:relation:1251039,76,Bus 76 : Châtelet ↔ Bagnolet — Louise Michel,RATP,RATP,#652D91,route_master,bus,100100076:76
@@ -233,7 +233,7 @@ Line:relation:3399270,603,Bus 603 : Gare du Raincy–Villemomble–Montfermeil �
 Line:relation:3490811,17,Bus TVF 17 : Gare RER de Mitry-Claye ↔ Gare Routière de Charny,Trans Val de France,Transdev TVF,#D5C901,route_master,bus,054054017:17
 Line:relation:3546204,158,Bus 158 : Rueil-Malmaison RER ↔ Pont de Neuilly,RATP,RATP,#ff5a00,route_master,bus,100100158:158
 Line:relation:3567517,471,Bus 471 : Versailles Rive Droite ↔ Les Coteaux (Saint-Cloud),RATP,RATP,,route_master,bus,100100471:471
-Line:relation:3638709,6,Bus 6 : Gare de Boissy-Saint-Léger ↔ Gare de Sucy - Bonneuil ↔ Le Havre,SITUS,Transdev SETRA,#0064A4,route_master,bus,040240006:6
+Line:relation:3638709,6,Bus 6 : Gare de Boissy-Saint-Léger ↔ Gare de Sucy - Bonneuil ↔ Le Havre,SITUS,Transdev CEAT,#0064A4,route_master,bus,010240006:6
 Line:relation:3662457,T3b,Tramway T3b : Porte de Vincennes ↔ Porte d'Asnières-Marguerite Long,RATP,RATP,#009641,route_master,tram,100112003:T3B
 Line:relation:3686355,104,Bus 104 : École Vétérinaire de Maisons-Alfort ↔ Sucy–Bonneuil RER,RATP,RATP,#ED1B2A,route_master,bus,100100104:104
 Line:relation:3695203,159,Bus 159 : La Défense ↔ Cité du Vieux Pont (Nanterre),RATP,RATP,#640082,route_master,bus,100100159:159
@@ -288,11 +288,11 @@ Line:relation:5890965,95-20,Bus 95-20 : Cergy Préfecture ↔ Val d'Argenteuil,B
 Line:relation:5899903,163,Bus 163 : Centre Madeleine Danielou ↔ Nanterre–Préfecture RER ↔ Pont Cardinet - Batignolles,RATP,RATP,#ED1B29,route_master,bus,100100163:163
 Line:relation:5899969,141,Bus 141 : Rueil-Malmaison ↔ La Défense ou Nanterre - Boulevard de la Seine,RATP,RATP,#e0b03b,route_master,bus,100100141:141
 Line:relation:5900554,176,Bus 176 : Colombes–Petit Gennevilliers ↔ Pont de Neuilly,RATP,RATP,#DCA734,route_master,bus,100100176:176
-Line:relation:5930785,5,Bus 5 : Les Noyers (Sucy-en-Brie) ↔ Gare RER de Boissy-Saint-Léger,SITUS,Transdev SETRA,#F29503,route_master,bus,040240005:5
-Line:relation:5931043,1,Bus 1 : Gare RER Sucy-Bonneuil ↔ École des Bruyères (Sucy-en-Brie),SITUS,Transdev SETRA,#6E1F64,route_master,bus,040240001:1
-Line:relation:5931083,2,Bus 2 : Gare RER Sucy-Bonneuil ↔ Gare RER de Pontault-Combault,SITUS,Transdev SETRA,#DB2F36,route_master,bus,040240002:2
-Line:relation:5931478,4,Bus 4 : Gare RER Sucy-Bonneuil ↔ Lycée de Sucy-en-Brie,SITUS,Transdev SETRA,#FFDF00,route_master,bus,040240004:4
-Line:relation:5931514,3,Bus 3 : Gare RER Sucy-Bonneuil ↔ Claude Monet (Noiseau),SITUS,Transdev SETRA,#0097D5,route_master,bus,040240003:3
+Line:relation:5930785,5,Bus 5 : Les Noyers (Sucy-en-Brie) ↔ Gare RER de Boissy-Saint-Léger,SITUS,Transdev CEAT,#F29503,route_master,bus,010240005:5
+Line:relation:5931043,1,Bus 1 : Gare RER Sucy-Bonneuil ↔ École des Bruyères (Sucy-en-Brie),SITUS,Transdev CEAT,#6E1F64,route_master,bus,010240001:1
+Line:relation:5931083,2,Bus 2 : Gare RER Sucy-Bonneuil ↔ Gare RER de Pontault-Combault,SITUS,Transdev CEAT,#DB2F36,route_master,bus,010240002:2
+Line:relation:5931478,4,Bus 4 : Gare RER Sucy-Bonneuil ↔ Lycée de Sucy-en-Brie,SITUS,Transdev CEAT,#FFDF00,route_master,bus,010240004:4
+Line:relation:5931514,3,Bus 3 : Gare RER Sucy-Bonneuil ↔ Claude Monet (Noiseau),SITUS,Transdev CEAT,#0097D5,route_master,bus,010240003:3
 Line:relation:5931547,10,Bus 10 : Gare RER Sucy-Bonneuil ↔ Centre Commercial Pince-Vent,SITUS,CEA Transports,#5B3800,route_master,bus,010240010:10
 Line:relation:5953338,140,Bus 140 : Gare d'Argenteuil ↔ Asnières-Gennevilliers - Gabriel Péri,RATP,RATP,#ED1B2A,route_master,bus,100100140:140
 Line:relation:5953399,108,Bus 108 : Champigny - Jeanne Vacher ↔ Joinville-Le-Pont,RATP,RATP,#F59EB3,route_master,bus,100100108:108
@@ -570,7 +570,7 @@ Line:relation:7426172,48,Bus 48 : Préfecture RER ↔ Les Toupets,STIVO,STIVO,#F
 Line:relation:7427861,275,Bus 275 : La Défense ↔ Pont de Levallois,RATP,RATP,#f2c931,route_master,bus,100100275:275
 Line:relation:7430094,44,Bus 44 : Cergy Préfecture ↔ Saint-Christophe RER,STIVO,STIVO,#F6AF8E,route_master,bus,059440044:44
 Line:relation:7433093,43,Bus 43 : Pontoise Gare ↔ Les Pâtis,STIVO,STIVO,#978F00,route_master,bus,059440043:43
-Line:relation:7435393,7,Bus 7 : Centre Commercial Les 4 Chênes ↔ Gare de Champigny,SITUS,CEA Transports,#C1CE00,route_master,bus,010240003:7
+Line:relation:7435393,7,Bus 7 : Centre Commercial Les 4 Chênes ↔ Gare de Champigny,SITUS,Transdev CEAT,#C1CE00,route_master,bus,010240007:7
 Line:relation:7435571,42,Bus 42 : Préfecture RER ↔ Les Beurriers,STIVO,STIVO,#F07E12,route_master,bus,059440042:42
 Line:relation:7435863,40,Bus 40 : Cergy Saint-Christophe ↔ La Siaule,STIVO,STIVO,#005FAB,route_master,bus,059440040:40
 Line:relation:7441248,39,Bus 39 : Saint-Christophe RER ↔ Croix du Jubilé,STIVO,STIVO,#CAD401,route_master,bus,059440039:39
@@ -670,7 +670,7 @@ Line:relation:7797401,210,Bus 210 : François 1er (Fontainebleau) ↔ Vernou-la-
 Line:relation:7797582,65,Bus 65 : Gare de Meaux ↔ Gare de La Ferté-Milon,Pays de l'Ourcq,Transdev Marne et Morin,#94B3D6,route_master,bus,067067065:65
 Line:relation:7797759,299,Bus 299 : Porte d'Orléans ↔ Morangis – Place Lucien Boilleau ou Longjumeau - Place Charles Steber ↔ Square - Condorcet,RATP,RATP,#f68f4b,route_master,bus,100100299:299
 Line:relation:7798582,262,Bus 262 : Pont de Bezons ↔ Gare de Maisons-Laffitte RER,RATP,RATP,#a0006e,route_master,bus,100100262:262
-Line:relation:7799660,566,Bus 566 : Église de Colombes ↔ Rue de l'Industrie,RATP,RATP,,route_master,bus,100100566:COLOMB
+Line:relation:7799660,566,Bus 566 : Église de Colombes ↔ Rue de l'Industrie,RATP,RATP,,route_master,bus,100100566:566
 Line:relation:7800092,355,Bus 355 : Lycée J.-J. Rousseau Circulaire,RATP,RATP,,route_master,bus,100100355:355
 Line:relation:7800304,366,Bus 366 : Église de Colombes ↔ Asnières - Bords de Seine,RATP,RATP,,route_master,bus,100100366:366
 Line:relation:7800445,372,Bus 372 : Maisons-Alfort - Alfortville RER ↔ Louis Fliche,RATP,RATP,#FFCD01,route_master,bus,100100372:372
@@ -694,7 +694,7 @@ Line:relation:7841677,21,Bus 21 : Gare de Boissy-Saint-Léger ↔ Gare de Verneu
 Line:relation:7842828,18,Bus scolaire 18 : Sophie Barat ↔ Jean Moulin (Verrières),Paladin,Bièvre Bus Mobilités,#005AA1,route_master,bus,020149008:18
 Line:relation:7843394,396,Bus 396 : Marché International de Rungis ↔ La Croix de Berny RER,RATP,RATP,#CCD80E,route_master,bus,100100396:396
 Line:relation:7844609,30-22,Bus 30-22 : Gare de Cernay ↔ Sannois Résidence du Moulin,Valbus,Lacroix,#95BDE0,route_master,bus,030030022:30-22
-Line:relation:7853637,202,Bus 202 : Brétigny-sur-Orge Gare Place (circulaire via Vert-le-Grand),Val d'Essonne,Transdev Ile-de-France Brétigny,,route_master,bus,018018013:202
+Line:relation:7853637,202,Bus 202 : Brétigny-sur-Orge Gare Place (circulaire via Vert-le-Grand),Val d'Essonne,Transdev CEAT,,route_master,bus,010018013:202
 Line:relation:7873860,316,Bus 316 : Montreau ↔ Etampes HLM Bas,Étampois,CEA Transports,,route_master,bus,010010018:316
 Line:relation:7887299,402,Bus 402 : La Verrière ↔ Trappes,SQYBus,SQYBus,,route_master,bus,230410402:402
 Line:relation:7890329,401,Bus 401 : Versailles Rive Gauche ↔ Maurepas Village,SQYBus,SQYBus,#E2001A,route_master,bus,230410401:401
@@ -756,7 +756,7 @@ Line:relation:7920994,276,Bus 276 : La Défense ↔ Les Courtilles,RATP,RATP,#ff
 Line:relation:7920995,F,"Bus F : Draveil, Sables de Rouvres ↔ Vigneux-sur-Seine, Gare",Seine Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021207:F
 Line:relation:7920996,1,Bus 1 : Canal ↔ Gare Nemours Parvis,STILL,Transdev Île-de-France Nemours,orange,route_master,bus,064608020:1
 Line:relation:7920997,9,Bus 9 : Plaisir-Grignon Gare (circulaire),Plaine de Versailles,Hourtoule,,route_master,bus,027027009:9
-Line:relation:7920998,1,Bus 1 : Saint-Fargeau-Ponthierry — Gare ↔ Pringy — Montlouis,Canton de Perthes en Gâtinais,Veolia Transdev,,route_master,bus,063063001:01
+Line:relation:7920998,1,Bus 1 : Saint-Fargeau-Ponthierry — Gare ↔ Pringy — Montlouis,Canton de Perthes en Gâtinais,Veolia Transdev,,route_master,bus,063063001:I
 Line:relation:7920999,488,Bus 488 : Athis-Mons — Place Henri Deudon ↔ Marché de Juvisy,RATP,Keolis Seine Val-de-Marne,#006db8,route_master,bus,100100488:488
 Line:relation:7921000,E,"Bus E : Montgeron, Valdoly ↔ Vigneux-sur-Seine, Gare",Seine Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021206:E
 Line:relation:7921001,B,"Bus B : Vigneux-sur-Seine, Prairie de l'Oly ↔ Vigneux-sur-Seine, Gare",Seine Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021202:B
@@ -807,7 +807,7 @@ Line:relation:7921047,60,Bus 60 : Rue Philo ↔ Gare de Val d'Europe,Transdev Ma
 Line:relation:7921048,57,Bus 57 : Gare d'Esbly ↔ Gare de Marne la Vallée Chessy,Marne et Morin,Transdev Marne et Morin,,route_master,bus,067067057:57
 Line:relation:7921049,La Traverse,Bus La Traverse de Charonne (501) : Gambetta ↔ Pyrenées - Docteur Netter,RATP,RATP,#006DB8,route_master,bus,100100501:CHARONN
 Line:relation:7921050,Vanves,La Navette de Vanves,Grand Paris Seine Ouest,SAVAC,#ED145B,route_master,bus,039039001:Vanves
-Line:relation:7921051,203,Bus 203 : Gare de Ballancourt (circulaire),Val d'Essonne,Transdev Île-de-France Brétigny,,route_master,bus,018018012:203
+Line:relation:7921051,203,Bus 203 : Gare de Ballancourt (circulaire),Val d'Essonne,Transdev CEAT,,route_master,bus,010018012:203
 Line:relation:7921052,513,Bus 513 : La Traverse Bièvre Montsouris,RATP,RATP,#a0006e,route_master,bus,100100513:BIEVRES
 Line:relation:7921053,239,Bus 239 : Saint-Denis–Mediathèque ↔ Rosa Parks–Curial,RATP,RATP,#9A006F,route_master,bus,100100239:239
 Line:relation:7921054,304,Bus 304 : Nanterre–Place de la Boule ↔ Les Courtilles,RATP,RATP,#CACE2C,route_master,bus,100100304:304
@@ -943,10 +943,10 @@ Line:relation:8360705,24,Bus 24 : Maison des Associations ↔ Aéroport CDG1 RER
 Line:relation:8364140,A1,Bus A1 : Gare d'Achères (circulaire),Conflans Achères,Transdev Île-de-France Conflans,,route_master,bus,212212024:A1
 Line:relation:8364442,2,Bus 2 : Poissy Gare Nord ↔ Maison des Insectes - Parc du Peuple de l'Herbe,CSO,CSO,#E2001A,route_master,bus,015015002:2
 Line:relation:8364726,14,Bus 14 : Versailles Château Rive-Gauche ↔ Viroflay Rive Gauche,Phébus,Keolis Versailles,#80FFCC,route_master,bus,056356010:14
-Line:relation:8364981,8,Bus 8 : Centre Commercial Pince-Vent ↔ La Varenne RER,SITUS,CEA Transports,#76B72A,route_master,bus,010240004:8
+Line:relation:8364981,8,Bus 8 : Centre Commercial Pince-Vent ↔ La Varenne RER,SITUS,Transdev CEAT,#76B72A,route_master,bus,010240008:8
 Line:relation:8366461,T,Bus T : Gare de Chatou Croissy ↔ Place du Docteur Roux,Bus en Seine,Transdev Île-de-France Montesson La Boucle,,route_master,bus,019248002:T
 Line:relation:8366812,17,Bus 17 : Villeparisis - Marché (circulaire),Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,014014217:17
-Line:relation:8366859,26,Bus 26 : Gare des Mureaux ↔ Gare Sud de Poissy,Poissy Aval - 2 rives de Seine,Autocars Tourneux,,route_master,bus,052052026:26
+Line:relation:8366859,26,Bus 26 : Gare des Mureaux ↔ Gare Sud de Poissy,Poissy Aval - 2 Rives de Seine,Autocars Tourneux,,route_master,bus,052052026:26
 Line:relation:8369092,1,Bus 1 : Gare de Sainte-Geneviève des Bois (circulaire),Génovébus,CEA Transports,,route_master,bus,010010005:1
 Line:relation:8369253,464,Bus 464 : Saint-Rémy Gare ↔ Magny ↔ Montigny Saint-Quentin Gare,SQYBus,SQYBus,#7baa1f,route_master,bus,230410464:464
 Line:relation:8369803,1,Bus 1 : Étampes - Hôpital ou Gaston Beau (circulaire),Ormont Transport,Ormont Transport,,route_master,bus,068913001:1
@@ -1016,7 +1016,7 @@ Line:relation:8413449,40,Bus 40 : Gare de Aubergenville - Elisabethville (circul
 Line:relation:8413513,A2,Bus A2 : Gare d'Achères ↔ Chambre de Commerce et d'Industrie,Conflans Achères,Transdev Île-de-France Conflans,,route_master,bus,212212024:A2
 Line:relation:8431360,19,Bus Express 19 : Gare des Mureaux ↔ Versailles - Europe,Transdev Île-de-France Ecquevilly,Transdev Île-de-France Ecquevilly,#ec7528,route_master,bus,011011019:19
 Line:relation:8436111,11,Bus 11 : Gare de Jouy (circulaire),Phébus,Keolis Versailles,#6fc6ef,route_master,bus,056356014:11
-Line:relation:8444577,21S,Bus 21S : Le Pecq - Rue de la Seine ↔ Félix Éboué,ESF,Transdev Île-de-France Montesson Les Rabaux,,route_master,bus,012012021:21S
+Line:relation:8444577,21S,Bus 21S : Le Pecq - Rue de la Seine ↔ Félix Éboué,Entre Seine et Forêt,Transdev Île-de-France Montesson Les Rabaux,,route_master,bus,012012021:21S
 Line:relation:8444603,47,Bus 47 : Gare de Provins ↔ Gare de Melun,Seine-et-Marne Express,Procars,,route_master,bus,228177047:47
 Line:relation:8444694,C,Bus C : Gare de Provins (circulaire),Probus,Procars,,route_master,bus,228771009:PROBUSC
 Line:relation:8444972,C,Navette C : Circulaire Longjumeau-Morangis,Paris-Saclay,,#892685,route_master,bus,111591203:C
@@ -1089,7 +1089,7 @@ Line:relation:8727476,63,Bus 63 : Monument ↔ La Forêt,Dourdanais,Transdev Îl
 Line:relation:8727859,30-21Est,Bus 30-21 Est : Gare de Cormeilles en Parisis (circulaire),Val Parisis,Cars Lacroix,,route_master,bus,030030021:30-21Est
 Line:relation:8727965,424,Bus 424 : Gare de La Verrière (circulaire via Les Louveries),SQYBus,SQYBus,,route_master,bus,230410424:424
 Line:relation:8728677,PTITBUS,Bus PTITBUS : Le P'tit Bus du Pré-Saint-Gervais (circulaire),RATP,RATP,,route_master,bus,100100573:PTITBUS
-Line:relation:8728852,29,Bus 29 : Les Clairières ↔ Notre-Dame,Poissy Aval - 2 rives de Seine,Autocars Tourneux,,route_master,bus,052052029:29
+Line:relation:8728852,29,Bus 29 : Les Clairières ↔ Notre-Dame,Poissy Aval - 2 Rives de Seine,Autocars Tourneux,,route_master,bus,052052029:29
 Line:relation:8729263,420,Bus 420 : La Verrière Gare ↔ Pissaloup,SQYBus,SQYBus,,route_master,bus,230410420:420
 Line:relation:8729290,440,Bus 440 : Technocentre ↔ Grand'Mare,SQYBus,SQYBus,,route_master,bus,230410440:440
 Line:relation:8729300,459,Bus 459 : La Verrière Gare ↔ France Miniature,SQYBus,SQYBus,,route_master,bus,230410459:459
@@ -1114,7 +1114,7 @@ Line:relation:8834617,21CC,Bus 21CC : Centre commercial (Villiers) ↔ Avon,Shop
 Line:relation:8834625,11CC,Bus 11CC : Centre commercial (Villiers) ↔ Puits Beau (Saint-Fargeau-Ponthierry),Shop’Bus,Transdev Saint-Fargeau Ponthierry,,route_master,bus,063063011:11CC
 Line:relation:8834639,9CC,Bus 9CC : Centre commercial (Villiers) ↔ Domaine de Montgermont (Saint-Sauveur),Shop’Bus,Transdev Saint-Fargeau Ponthierry,,route_master,bus,063063009:9CC
 Line:relation:8834640,9CC,Bus 9CC : Centre commercial (Villiers) ↔ Mairie d'Arbonne,Shop’Bus,Transdev Saint-Fargeau Ponthierry,,route_master,bus,063063009:9CC
-Line:relation:9081452,3,Bus 3 : Arquebuse ↔ Gare de Saint-Germain-en-Laye,Poissy Aval - 2 rives de Seine,Autocars Tourneux,#93D6F1,route_master,bus,052052003:3
+Line:relation:9081452,3,Bus 3 : Arquebuse ↔ Gare de Saint-Germain-en-Laye,Poissy Aval - 2 Rives de Seine,Autocars Tourneux,#93D6F1,route_master,bus,052052003:3
 Line:relation:9082178,98,Bus 98 : Poissy Gare Nord (circulaire),CSO,CSO,#009036,route_master,bus,015015098:98
 Line:relation:9101011,24,Bus 24 : Gare de Versailles Chantiers ↔ Vélizy-Villacoublay Centre Commercial,Phébus,Keolis Vélizy,#009FCF,route_master,bus,004004024:24
 Line:relation:9106179,30-42,Bus 30-42 : Gare de Sannois ↔ Résidence du Moulin,Valbus,Lacroix,#E09CCB,route_master,bus,030030042:30-42
@@ -1141,7 +1141,7 @@ Line:relation:9167851,LM1,Bus LM1 : Ermitage (Draveil) ↔ Lycée de Montgeron,S
 Line:relation:9171581,12,Bus 12 : La Croix de Berny RER ↔ Cyrano de Bergerac,Paladin,Bièvre Bus Mobilités,#FF0D00,route_master,bus,020149012:12
 Line:relation:9171785,N1,Bus N1 : Bizet ↔ Gare des Mureaux,Bus O'Mureaux,Transdev Île-de-France Ecquevilly,,route_master,bus,011011320:N1
 Line:relation:9171822,E,Bus E : Le CERRSY ↔ Arbouville,Rambouillet urbain,Transdev Île-de-France Rambouillet,,route_master,bus,013013102:E
-Line:relation:9171847,18-05,Bus 18-05 : Bretigny Gare Place (circulaire),Transdev Île-de-France Brétigny,Transdev Île-de-France Brétigny,,route_master,bus,018018005:18-05
+Line:relation:9171847,18-05,Bus 18-05 : Bretigny Gare Place (circulaire),Val d'Orge,Transdev CEAT,,route_master,bus,010018005:1805
 Line:relation:9172126,3,Bus 3 : Antony RER ↔ Les Baconnets RER,Paladin,Bièvre Bus Mobilités,#B100BD,route_master,bus,020149003:3
 Line:relation:9172833,307,Bus 307 : Gare Routière Vélizy 2 ↔ Gare de Saint-Quentin-en-Yvelines,SAVAC,SAVAC,,route_master,bus,039039307:307
 Line:relation:9172915,O1,Bus O1 : L'Echat ↔ Plaine Haute,Marne et Seine,Transdev STRAV,,route_master,bus,045045030:O1
@@ -1171,7 +1171,7 @@ Line:relation:9183898,DM06B,Bus DM06B : Fontaine Mansart ↔ Gare de Sainte-Gene
 Line:relation:9184388,L,Bus L : Fosses Rouges ↔ Lycée Condorcet,Com'Bus,CTVMI,,route_master,bus,057057057:L
 Line:relation:9184807,28,Bus 28 : Place Berthet ↔ La Celle Saint-Cloud - Gare,Traverciel,Transdev Île-de-France Nanterre,,route_master,bus,213213027:28
 Line:relation:9184990,29,Bus 29 : Étang Sec ↔ La Celle Saint-Cloud - Gare,Traverciel,Transdev Île-de-France Nanterre,,route_master,bus,213213027:29
-Line:relation:9185040,103,Bus 103 : Gare de Marolles-en-Hurepoix (circulaire),Transdev Île-de-France Brétigny,Transdev Île-de-France Brétigny,,route_master,bus,018018011:103
+Line:relation:9185040,103,Bus 103 : Gare de Marolles-en-Hurepoix (circulaire),Arpajonnais,Transdev CEAT,,route_master,bus,010018011:103
 Line:relation:9185095,43P,Bus 43P : Cesson Gare RER (circulaire intérieure),Sénart Bus,Transdev Île-de-France Lieusaint,,route_master,bus,065487043:43P
 Line:relation:9185459,42P,Bus 42P : Cesson Gare RER (circulaire extérieure),Sénart Bus,Transdev Île-de-France Lieusaint,,route_master,bus,065487042:42P
 Line:relation:9185838,76,Bus 76 : Cimetière ↔ Gare de Vaucresson,Plaine de Versailles,Transdev Île-de-France Ecquevilly,,route_master,bus,011011760:76
@@ -1361,8 +1361,8 @@ Line:relation:9836855,22,Bus 22 : Institution Fénélon ↔ Dammartin Juilly Sai
 Line:relation:9836890,38,Bus 38 : Collège Blaise Pascal ↔ Rue de Giez,Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,014014038:38
 Line:relation:9836912,49,Bus 49 : Collège Anna de Noailles - Lycée Gérard de Nerval ↔ Place Gambetta,Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,014014049:49
 Line:relation:9853421,S1,Bus S1 : Gare de Sartrouville ↔ Collège Pablo Picasso,Bus en Seine,Transdev Île-de-France Montesson La Boucle,,route_master,bus,019248007:S1
-Line:relation:9857123,102,Bus 102 : Moutier Médiathèque (circulaire via Les Berges),SITUS,Transdev SETRA,,route_master,bus,040240102:102
-Line:relation:9857233,103,Bus 103 : Moutier Médiathèque (circulaire via Place Sainte-Bernadette),SITUS,Transdev SETRA,,route_master,bus,040240103:103
+Line:relation:9857123,102,Bus 102 : Navettes Marché de Sucy-en-Brie - Moutier Médiathèque (circulaire via Les Berges),SITUS,Transdev SETRA,,route_master,bus,
+Line:relation:9857233,103,Bus 103 : Navettes Marché de Sucy-en-Brie - Moutier Médiathèque (circulaire via Place Sainte-Bernadette),SITUS,Transdev SETRA,,route_master,bus,
 Line:relation:9866393,223,Bus 223 : La Montagne ↔ Le Domaine,Val d'Essonne,CEA Transports,,route_master,bus,010010022:223
 Line:relation:9871081,C,Bus C : La Défense ↔ Chambourcy - Renaissance,Express A14,CTCOP,,route_master,bus,244244001:EXPA14C
 Line:relation:9873145,B,Bus B : La Défense ↔ Bonnières - La Vallée Française,Express A14,CTCOP,,route_master,bus,244244001:EXPA14B
@@ -1431,7 +1431,7 @@ Line:relation:10604865,TàD,Desserte des gares en soirée,Plus de Pep's,Transdev
 Line:relation:10604885,60,Bus 60 : Gare de Val d'Europe (Serris) ↔ Rue Philo (Quincy-Voisins),Pays Créçois,Marne et Morin,,route_master,bus,067067060:60
 Line:relation:10742267,263,Bus 263 : Place de la Boule - Gambetta via Suresnes - De Gaulle (circulaire),RATP,RATP,#FA9ABA,route_master,bus,100100263:263
 Line:relation:11041995,20,Bus 20 : Gare du Vésinet - Le Pecq ↔ Gare du Vésinet-Centre,Entre Seine et Forêt,Transdev Île-de-France Montesson Les Rabaux,,route_master,bus,012012020:20
-Line:relation:11052008,7,Bus 7 : Aincourt <-> Poissy,Poissy Aval - 2 Rives de Seine,CSO,,route_master,bus,
+Line:relation:11052008,7,Bus 7 : Aincourt <-> Poissy,Poissy Aval - 2 Rives de Seine,CSO,,route_master,bus,015243007:7
 Line:relation:11083350,95-43,Bus 95-43: Magny-en-Vexin,Busval d'Oise,TIM Bus,,route_master,bus,251195043:95-43
 Line:relation:11161733,G1,bus G1 : Gare de Villeneuve-Saint-Georges ↔ Gare de Villeneuve-Saint-Georges,VyBus,Transdev STRAV,#A6D9F0,route_master,bus,045045020:G1
 Line:relation:11161734,G2,bus G2 : Gare de Villeneuve-Saint-Georges ↔ Gare de Villeneuve-Saint-Georges,VyBus,Transdev STRAV,#A6D9F0,route_master,bus,045045020:G2
@@ -1442,5 +1442,8 @@ Line:relation:11161945,68.05A,Bus 68.05A : Facteur Cheval (Boissy-sous-Saint-Yon
 Line:relation:11161946,68.05B,Bus 68.05B : Gare d’Arpajon ↔ Facteur Cheval (Boissy-sous-Saint-Yon),Ormont Transport,Keolis Ormont,,route_master,bus,
 Line:relation:11161958,222,Bus 222 : La Croix Boissée (Itteville) ↔ Collège Doisneau (Itteville),Val d’Essonne,Transdev CEAT,,route_master,bus,010010222:222
 Line:relation:11170195,,Bus 250 : Vernon ↔ Gisors ↔ Etrépagny,,VTNI,,route_master,bus,
-Line:relation:11175663,07,Bus 07 : Gare de Provins ↔ Gare de Montereau,Seine-et-Marne Express,Procars,,route_master,bus,
-Line:relation:11221543,14,Bus 14 : Gare de Cergy Saint-Christophe - Rond-Point du Haut de Gency,Poissy Aval - 2 rives de Seine,CSO,,route_master,bus,
+Line:relation:11175663,07,Bus 07 : Gare de Provins ↔ Gare de Montereau,Seine-et-Marne Express,Procars,,route_master,bus,228228007:07
+Line:relation:11221543,14,Bus 14 : Gare de Cergy Saint-Christophe - Rond-Point du Haut de Gency,Poissy Aval - 2 Rives de Seine,CSO,,route_master,bus,
+Line:relation:11267376,19,Bus 19 : Mairie de Claye-Souilly ↔ Gare Routière de Charny,Trans Val de France,Transdev TVF,,route_master,bus,
+Line:relation:11267377,12,Bus 12 : Quartier du Bois Fleuri (Claye-Souilly) ↔ Gare RER de Mitry-Claye,Trans Val de France,Transdev TVF,,route_master,bus,054054012:12
+Line:relation:11281326,50,Bus 50 : Poissy Aval 2 Rive de Seine,Poissy Aval - 2 Rives de Seine,CSO,,route_master,bus,

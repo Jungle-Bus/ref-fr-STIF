@@ -201,7 +201,7 @@ Line:relation:3045662,150,Bus 150 : Porte de la Villette ↔ Pierrefitte–Stain
 Line:relation:3047801,102,Bus 102: Gambetta ↔ Rosny–Bois-Perrier RER - Rosny 2,RATP,RATP,#FFCD01,route_master,bus,100100102:102
 Line:relation:3048889,520,Bus 520 : Bry-sur-Marne RER ↔ Les Hauts de Bry,RATP,RATP,#008c59,route_master,bus,100100520:520
 Line:relation:3079254,203,Bus 203: Neuilly-Plaisance RER ↔ Neuilly-sur-Marne – Île-de-France,RATP,RATP,#ff82b4,route_master,bus,100100203:203
-Line:relation:3081886,3,Bus 3 : Gare de Chelles Gournay ↔ Gare de Villeparisis Mitry-le-Neuf,Apolo 7,Keolis CIF,#B25397,route_master,bus,014361013:3
+Line:relation:3081886,3,Bus 3 : Gare de Chelles Gournay ↔ Gare de Villeparisis Mitry-le-Neuf,Apolo 7,Société des Transports du Bassin Chellois (STBC) / Keolis CIF,#B25397,route_master,bus,101361013:3
 Line:relation:3134153,221,Bus 221 : Bagnolet - Gallieni ↔ Gagny - Pointe de Gournay,RATP,RATP,#f49eb2,route_master,bus,100100221:221
 Line:relation:3186411,15,Bus 15 : Gare de Massy-Palaiseau ↔ Vélizy-Villacoublay,Mobicaps,Les Cars d'Orsay,#313188,route_master,bus,006006015:15
 Line:relation:3253655,95-02,Bus 95-02 : Roissypole RER ↔ Montmorency,Busval d'Oise,Keolis CIF,#004494,route_master,bus,014195002:95-02
@@ -214,7 +214,7 @@ Line:relation:3256316,23,Bus 23 : Gare de Villiers-le-Bel ↔ Gare d'Aulnay-sous
 Line:relation:3286442,408,Bus 408 : Evry - Bras-de-Fer (circulaire),Tice,Tice,#00FF00,route_master,bus,400400408:408
 Line:relation:3307569,241,Bus 241 : Rueil-Malmaison RER ↔ Porte d'Auteuil,RATP,RATP,#8D653A,route_master,bus,100100241:241
 Line:relation:3315927,23,Bus 23 : Brie-comte-Robert Piscine ↔ Créteil Préfécture,Plateau de Brie,Transdev SETRA,#CB7E0D,route_master,bus,040040023:23
-Line:relation:3315942,BRIEBUS,Bus BRIEBUS : Brie-comte-Robert Galilée ↔ Brie-comte-Robert Galilée,BrieBus,SETRA,,route_master,bus,040040013:13
+Line:relation:3315942,BRIEBUS,Bus BrieBus : Brie-comte-Robert Galilée ↔ Brie-comte-Robert Galilée,BrieBus,SETRA,,route_master,bus,040040013:BrieBus
 Line:relation:3315943,12,Bus 12 : Éden (Servon) ↔ Créteil Préfecture,Arlequin,SETRA,,route_master,bus,040040012:12
 Line:relation:3318735,151,Bus 151 : Porte de Pantin ↔ Bondy - Jouhaux–Blum,RATP,RATP,#BB4A9B,route_master,bus,100100151:151
 Line:relation:3325971,404,Bus 404 - Bois de l'Épine RER ↔ Gare du Bras de Fer RER,Tice,Tice,#99C400,route_master,bus,400400404:404
@@ -270,7 +270,7 @@ Line:relation:5673870,8,Bus 8 : Couturier (Le Guichet) ↔ Gare d'Orsay Ville �
 Line:relation:5694051,2,Bus 2 : Centre Commercial Ulis 2 ↔ P.A. Courtabœuf ↔ Gare de Massy-Palaiseau,Mobicaps,Les Cars d'Orsay,#EEE33A,route_master,bus,006006002:2
 Line:relation:5694438,22,Bus 22 : Centre Commercial Ulis 2 ↔ P.A. Courtabœuf (nord) ↔ Gare de Massy-Palaiseau,Mobicaps,Les Cars d'Orsay,#DFE571,route_master,bus,006006024:22
 Line:relation:5717042,DM2B,Bus DM2B : Gare de Saint-Michel-sur-Orge ↔ Chemin de Brétigny,Daniel Meyer,Keolis Meyer,#FF0000,route_master,bus,055055002:DM02B
-Line:relation:5728903,X,Bus X : Boussy-Saint-Antoine Gare ↔ Bois Cerdon - Crosne,VyBus,Transdev STRAV,#FFE400,route_master,bus,045045034:X
+Line:relation:5728903,X,Bus X : Boussy-Saint-Antoine Gare ↔ Bois Cerdon - Crosne,VyBus,Transdev STRAV,#FFE400,route_master,bus,045302034:X
 Line:relation:5739372,B,Bus B : Créteil L'Échat ↔ Gare de Brunoy,STRAV,Transdev STRAV,,route_master,bus,045045011:B
 Line:relation:5752558,F,Bus F : Yerres - Rond-Point Pasteur ↔ Yerres - Grosbois,VyBus,Transdev STRAV,#DF3182,route_master,bus,045045007:F
 Line:relation:5754922,A,Bus A : Pyramide (Brunoy) ↔ Pont TVM (Choisy-le-Roi),VyBus,Transdev STRAV,#3B96C9,route_master,bus,045045010:A
@@ -444,7 +444,7 @@ Line:relation:6957244,19,Bus 19 : Aéroport CDG T3 - Roissypole ↔ Torcy RER,Se
 Line:relation:6957245,18,Bus 18 : Gare de Melun ↔ Gare de Meaux,Seine-et-Marne Express,Transdev AMV,,route_master,bus,051177018:18
 Line:relation:6957303,17,Bus 17 : Chessy RER ↔ Coulommiers ↔ La Ferté Gaucher,Seine-et-Marne Express,Darche Gros,#66B5E0,route_master,bus,097177017:17
 Line:relation:6957304,46,Bus 46 : Gare de Montereau ↔ Gare de Melun,Seine-et-Marne Express,Transdev Île-de-France Vulaines,,route_master,bus,062177046:46
-Line:relation:6957305,EXPRESS34,Bus EXPRESS34 : Gare de Melun ↔ Chateau-Landon ou Egreville,Seine-et-Marne Express,Transdev Ile-de-France Nemours,,route_master,bus,064177034:EXPRESS34
+Line:relation:6957305,EXPRESS34,Bus EXPRESS34 : Gare de Melun ↔ Chateau-Landon ou Egreville,Seine-et-Marne Express,Transdev Île-de-France Nemours,,route_master,bus,064177034:EXPRESS34
 Line:relation:6957343,18,Bus 18 : Gare de Torcy ↔ De Gaulle (Tournan-en-Brie),Stigo,Transdev N4 Mobilités,,route_master,bus,003003018:18
 Line:relation:6958361,N150,Noctilien N150 : Gare Saint-Lazare ↔ Cergy-le-Haut RER,Noctilien,Transilien,#ED1C29,route_master,bus,800:N150
 Line:relation:6958366,N152,Noctilien N152: Gare Saint-Lazare ↔ Cergy RER,Noctilien,Transilien,#ED1C29,route_master,bus,800:N152
@@ -1439,7 +1439,7 @@ Line:relation:11161906,104,Bus 104 : Porte d’Étampes (Arpajon) ↔ 20 Rue Pan
 Line:relation:11161907,321,Bus 321 : Collège Germaine Tillon (Lardy) ↔ 20 Rue Panserot (Lardy),Étampois,Transdev CEAT,,route_master,bus,010010001:321
 Line:relation:11161930,68.14,Bus 68.14 : Route de Torfou (Chamarande) ↔ Gare d’Étréchy,Ormont Transport,Keolis Ormont,,route_master,bus,068068014:68.14
 Line:relation:11161945,68.05A,Bus 68.05A : Facteur Cheval (Boissy-sous-Saint-Yon) ↔ Collège Albert Camus (La Norville),Ormont Transport,Keolis Ormont,,route_master,bus,
-Line:relation:11161946,68.05B,Bus 68.05B : Gare d’Arpajon ↔ Facteur Cheval (Boissy-sous-Saint-Yon),Ormont Transport,Keolis Ormont,,route_master,bus,
+Line:relation:11161946,68.05B,Bus 68.05B : Gare d’Arpajon ↔ Boissy-sous-Saint-Yon,Ormont Transport,Keolis Ormont,,route_master,bus,068068105:6805B
 Line:relation:11161958,222,Bus 222 : La Croix Boissée (Itteville) ↔ Collège Doisneau (Itteville),Val d’Essonne,Transdev CEAT,,route_master,bus,010010222:222
 Line:relation:11170195,,Bus 250 : Vernon ↔ Gisors ↔ Etrépagny,,VTNI,,route_master,bus,
 Line:relation:11175663,07,Bus 07 : Gare de Provins ↔ Gare de Montereau,Seine-et-Marne Express,Procars,,route_master,bus,228228007:07
@@ -1447,3 +1447,7 @@ Line:relation:11221543,14,Bus 14 : Gare de Cergy Saint-Christophe - Rond-Point d
 Line:relation:11267376,19,Bus 19 : Mairie de Claye-Souilly ↔ Gare Routière de Charny,Trans Val de France,Transdev TVF,,route_master,bus,
 Line:relation:11267377,12,Bus 12 : Quartier du Bois Fleuri (Claye-Souilly) ↔ Gare RER de Mitry-Claye,Trans Val de France,Transdev TVF,,route_master,bus,054054012:12
 Line:relation:11281326,50,Bus 50 : Poissy Aval 2 Rive de Seine,Poissy Aval - 2 Rives de Seine,CSO,,route_master,bus,
+Line:relation:11332036,TàD,Desserte du Grand Hôpital de l'Est Francilien de Marne-la-Vallée,Plus de Pep's,Transdev AMV,,route_master,bus,
+Line:relation:11332037,TàD,Desserte des marchés de Lagny et Magny,Plus de Pep's,Transdev AMV,,route_master,bus,
+Line:relation:11332093,TàD,Desserte de l'Île de Loisirs de Jablines,Plus de Pep's,Transdev AMV,,route_master,bus,
+Line:relation:11332094,TàD,Desserte des gares en journée,Plus de Pep's,Transdev AMV,,route_master,bus,

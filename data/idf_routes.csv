@@ -935,8 +935,8 @@ Route:relation:6048346,Bus 380 : Arcueil - Vache Noire - Centre Commercial → V
 Route:relation:6049044,Bus 182 : Villeneuve Triage RER → Mairie d'Ivry,182,Mairie d'Ivry,RATP
 Route:relation:6049086,Bus 177 : Asnières-Gennevilliers - Gabriel Péri → Villeneuve-La-Garenne - ZI Nord,177,Zone Industrielle Nord,RATP
 Route:relation:6049087,Bus 177 : Villeneuve-La-Garenne - ZI Nord → Asnières-Gennevilliers - Gabriel Péri,177,Asnières-Gennevilliers - Gabriel Péri,RATP
-Route:relation:6083366,"Flixbus 729: Mailand, Lampugnano => Paris, Bercy Seine",729,"Paris, Bercy Seine",Flixbus
-Route:relation:6083367,"Flixbus N729: Mailand, Lampugnano => Paris, Bercy Seine",N729,"Paris, Bercy Seine",Flixbus
+Route:relation:6083366,"Flixbus 729: Milan, Lampugnano => Paris, Bercy Seine",729,"Paris, Bercy Seine",Flixbus
+Route:relation:6083367,"Flixbus N729: Milan, Lampugnano => Paris, Bercy Seine",N729,"Paris, Bercy Seine",Flixbus
 Route:relation:6099639,Bus 211 : Torcy RER → Centre Commercial Terre Ciel,211,Centre Commercial Terre Ciel,RATP
 Route:relation:6101988,Bus 02 : Lagny → Val d'Europe,02,Val d'Europe,Pep's
 Route:relation:6114255,Bus 3 : Gare d'Orsay Ville → Centre Commercial Ulis 2,3,Centre Commercial Ulis 2,Mobicaps
@@ -957,7 +957,7 @@ Route:relation:6147732,Bus 46 : Torcy RER → Gare de Val d'Europe,46,Gare de Va
 Route:relation:6147761,Bus 43 : Chessy Gares → Val d'Europe,43,Val d'Europe,Pep's
 Route:relation:6147927,Bus 42 : Gare de Val d'Europe → Gare de Lagny Thorigny,42,Gare de Lagny Thorigny,Pep's
 Route:relation:6158174,Bus 46 : Gare de Montereau → Gare de Melun,46,Gare de Melun,Seine-et-Marne Express
-Route:relation:6158211,Bus DM21A : Gare de Savigny-sur-Orge (circulaire via Mairie),DM21A,Gare d'Epinay-sur-Orge,Daniel Meyer
+Route:relation:6158211,Bus DM21A (circulaire) : Gare de Savigny-sur-Orge → Mairie → Gare de Savigny-sur-Orge,DM21A,Gare de Savigny-sur-Orge,Daniel Meyer
 Route:relation:6158846,Bus 1 : Villeparisis Mitry le Neuf → Le Blanc Mesnil,1,Le Blanc Mesnil,Les Courriers de l'Île-de-France
 Route:relation:6160385,Bus EXPRESS34 : Gare de Melun → Place Verdun (Chateau-Landon),EXPRESS34,Place Verdun (Chateau-Landon),Seine-et-Marne Express
 Route:relation:6161041,Bus 43 : Aéroport CDG1 RER B → Gare de Sevran Livry,43,Gare de Sevran Livry,Les Courriers de l'Île-de-France
@@ -1121,7 +1121,7 @@ Route:relation:6985619,Bus 91-08: Fresnel - Vauve → Centre Commercial (Vélizy
 Route:relation:6985620,Bus 91-08: Centre Commercial (Vélizy) → Fresnel - Vauve,91-08,Fresnel - Vauve,Albatrans
 Route:relation:6991407,Bus 623 : Gare de Gagny → Gare de Sevran-Livry Sud,623,Gare de Sevran-Livry Sud,Seine-Saint-Denis
 Route:relation:7005558,Bus 02 (direct) : Melun → Meaux,02,Meaux,Seine-et-Marne Express
-Route:relation:7061825,Bus DM21B : Gare de Savigny-sur-Orge (circulaire via François Mitterand),DM21B,Gare d'Epinay-sur-Orge,Daniel Meyer
+Route:relation:7061825,Bus DM21B (circulaire) : Gare de Savigny-sur-Orge → François Mitterand → Gare de Savigny-sur-Orge,DM21B,Gare de Savigny-sur-Orge,Daniel Meyer
 Route:relation:7062231,Bus 95-32 : Lavoir → Collège les Hautiers,95-32,Collège les Hautiers,Busval d'Oise
 Route:relation:7069192,Bus 95-06 : Cergy Préfecture → Lavoir,95-06,Lavoir,Busval d'Oise
 Route:relation:7074021,Bus RoissyBus : Aéroport Charles de Gaulle → Paris–Opéra,RoissyBus,Opéra,RATP
@@ -1403,7 +1403,7 @@ Route:relation:7802918,Bus 538 : Bus du Port (Bus Bleue),538,Les Courtilles,RATP
 Route:relation:7803022,Bus 541 : Buséolien Circuit 1 (Cimetière Nouveau → École des Sports - Île de Puteaux),541,,RATP
 Route:relation:7803023,Bus 541 : Buséolien Circuit 2 (Cimetière Nouveau → Conservatoire Pressensé),541,Conservatoire-Pressensé,RATP
 Route:relation:7803051,Bus 541 : Buséolien Circuit 2 (Conservatoire Pressensé → Cimetière Nouveau),541,,RATP
-Route:relation:7803052,Bus 541 : Buséolien Circuit 1 (École des Sports - Île de Puteaux → Cimetière Nouveau,541,,RATP
+Route:relation:7803052,Bus 541 : Buséolien Circuit 1 (École des Sports - Île de Puteaux → Cimetière Nouveau),541,,RATP
 Route:relation:7803141,Bus 545 : Louise Michel → Noisy-le-Sec RER,545,,RATP
 Route:relation:7803142,Bus 545 : Noisy-le-Sec RER → Louise Michel,545,,RATP
 Route:relation:7804633,Bus 17 : Épinay-sur-Orge Gare → Orsay Gare du Guichet,17,Gare du Guichet,Paris-Saclay Mobilités
@@ -3010,7 +3010,7 @@ Route:relation:9832629,Bus DM19 : Place des FFI → Gare de Brétigny,DM19,Gare 
 Route:relation:9832630,Bus DM19 : Gare de Brétigny → Place des FFI,DM19,Place des FFI,Daniel Meyer
 Route:relation:9832631,Bus DM19 : Gare de Brétigny → Place des FFI,DM19,Place des FFI,Daniel Meyer
 Route:relation:9832632,Bus DM19 : Gare de Brétigny → La Montagne - Lycée Belmondo,DM19,La Montagne - Lycée Belmondo,Daniel Meyer
-Route:relation:9832750,Bus DM20 (circulaire) : Gare d'Egly → Gare d'Egly,DM20,Gare d'Égly,Daniel Meyer
+Route:relation:9832750,Bus DM20 (circulaire) : Gare d'Égly → Gare d'Égly,DM20,Gare d'Égly,Daniel Meyer
 Route:relation:9835752,Bus 44 : Sevran - Beaudottes Gare → Poissons,44,Poissons,Les Courriers de l'Île-de-France
 Route:relation:9835753,Bus 44 : Matisse - Delacroix → Sevran - Beaudottes Gare,44,Sevran - Beaudottes Gare,Les Courriers de l'Île-de-France
 Route:relation:9836725,Bus R4 : Roissypole → Zone Technique → Louvres Gare,R4,Louvres Gare,Grand'R
@@ -3313,7 +3313,7 @@ Route:relation:10387005,"Flixbus 737: Paris, Bercy Seine => Dijon, Gare routièr
 Route:relation:10392080,"Flixbus N759: Paris, Flughafen Charles de Gaulle => Straßburg, Busbahnhof",N759,"Straßburg, Busbahnhof",Flixbus
 Route:relation:10392081,"Flixbus N759: Straßburg, Busbahnhof => Paris, Flughafen Charles de Gaulle",N759,"Paris, Flughafen Charles de Gaulle",Flixbus
 Route:relation:10409228,"Flixbus 1758: Châlons-en-Champagne, Centre => Paris, Aéroport Charles de Gaulle",1758,"Paris, Aéroport Charles de Gaulle",Flixbus
-Route:relation:10409229,"Flixbus 1758: Paris, Paris, Aéroport Charles de Gaulle => Châlons-en-Champagne, Centre",1758,"Châlons-en-Champagne, Centre",Flixbus
+Route:relation:10409229,"Flixbus 1758: Paris, Aéroport Charles de Gaulle => Châlons-en-Champagne, Centre",1758,"Châlons-en-Champagne, Centre",Flixbus
 Route:relation:10409302,"Flixbus 1747: Paris, Gallieni => Tourcoing, Avenue Salvador Allende",1747,"Tourcoing, Avenue Salvador Allende",Flixbus
 Route:relation:10409303,"Flixbus 1748: Lille, Boulevard de Turin => Paris, Gallieni",1748,"Paris, Gallieni",Flixbus
 Route:relation:10409422,"Flixbus 1747: Tourcoing, Avenue Salvador Allende => Paris, Gallieni",1747,"Paris, Gallieni",Flixbus
@@ -3519,3 +3519,6 @@ Route:relation:11487683,"Flixbus N707: Paris, Bercy Seine => Barcelona Nord, Est
 Route:relation:11487993,"Flixbus N781: Barcelona Nord, Estació d'autobusos => Bruxelles, Aéroport",N781,"Bruxelles, Aéroport",Flixbus
 Route:relation:11519804,Service Caméléon Tram T3a : Pont du Garigliano → Porte de Vincennes,Service Caméléon Tram T3a,Porte de Vincennes,
 Route:relation:11519805,Service Caméléon Tram T3a : Porte de Vincennes → Pont du Garigliano,Service Caméléon Tram T3a,Pont du Garigliano,
+Route:relation:11530478,"Flixbus N781: Bruxelles, Aéroport => Barcelona Nord, Estació d'autobusos",N781,"Barcelona Nord, Estació d'autobusos",Flixbus
+Route:relation:11535996,Bus 43 : Hippodrome de Longchamp → Gare du Nord,43,Gare du Nord,RATP
+Route:relation:11535997,Bus 43 : Gare du Nord → Hippodrome de Longchamp,43,Hippodrome de Longchamp,RATP

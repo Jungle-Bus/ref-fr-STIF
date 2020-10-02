@@ -1,13 +1,13 @@
 route_id,name,code,destination,network
 Route:relation:69321,Bus 414D : Évry-Courcouronnes Centre → Vert-le-Grand,414D,Parc de Tréville (Vert-le-Grand),Tice
 Route:relation:107353,Bus G'bus : Goussainville RER (Circulaire),G'bus,Goussainville RER,Les Courriers de l'Île-de-France
-Route:relation:107355,Bus 30B : Goussainville RER D (circulaire via Les Olympiades),30B,Goussainville RER D,Les Courriers de l'Île-de-France
+Route:relation:107355,Bus 30B (circulaire) : Goussainville RER D -> Les Olympiades -> Goussainville RER D,30B,Goussainville RER D,Les Courriers de l'Île-de-France
 Route:relation:107357,Bus 32A : Goussainville La Charmeuse - Aulnay-Sous-Bois Parinor,32A,Aulnay-Sous-Bois - Parinor Louis Armand,Les Courriers de l'Île-de-France
 Route:relation:107358,Bus R104 : Sécurité Sociale (Goussainville) → Institut Saint-Dominique (Mortefontaine),R104,Institut Saint-Dominique (Mortefontaine),Les Courriers de l'Île-de-France
 Route:relation:111250,Bus 12 : Chaumontel → Goussainville,12,Gare de Goussainville,Les Courriers de l'Île-de-France
-Route:relation:111251,Bus 12 ZI : Gare de Goussainville (circulaire via ZAE Moinon),12 ZI,Gare de Goussainville,Les Courriers de l'Île-de-France
+Route:relation:111251,Bus 12ZI (circulaire) : Gare de Goussainville -> ZAE Moinon -> Gare de Goussainville,12ZI,Gare de Goussainville,Les Courriers de l'Île-de-France
 Route:relation:111252,Bus R8 : Mairie de Goussainville → Rue Neuve,R8,Rue Neuve,Grand'R
-Route:relation:111253,Bus 30D : Circulaire de Goussainville,30D,Gare de Goussainville,Les Courriers de l'Île-de-France
+Route:relation:111253,Bus 30D (circulaire) : Gare de Goussainville -> Gare de Goussainville,30D,Gare de Goussainville,Les Courriers de l'Île-de-France
 Route:relation:115222,Bus Licorne : Foyer Jean Rostand (circulaire),Licorne,Foyer Jean Rostand,Athis Cars
 Route:relation:118448,"Bus Tvm : Antony-La Croix de Berny RER → Saint-Maur, Créteil RER",Tvm,"Saint-Maur, Créteil RER",RATP
 Route:relation:126953,"Bus 393 : Sucy, Bonneuil RER → Thiais, Carrefour de la Résistance",393,"Thiais, Carrefour de la Résistance",RATP
@@ -2239,8 +2239,8 @@ Route:relation:9136596,Bus 69 : Gare de Val d'Europe → Gare Routière de Meaux
 Route:relation:9136597,Bus 69 : Gare Routière de Meaux → Gare de Val d'Europe,69,Gare de Val d'Europe,Seine-et-Marne Express
 Route:relation:9136663,Bus 418 : Bois de l'Epine RER (circulaire),418,Bois de l'Epine RER,Tice
 Route:relation:9136816,Bus 419 : Gare Val de Ris RER (circulaire),419,Gare Val de Ris RER,Tice
-Route:relation:9136839,Bus 409 : Marinière Lycée → Centre Commercial,409,Centre Commercial,Tice
-Route:relation:9136840,Bus 409 : Centre Commercial → Marinière Lycée,409,Marinière Lycée,Tice
+Route:relation:9136839,Bus 409 : Marinière Lycée → Centre Commercial,409,Centre Commercial (Villabé),Tice
+Route:relation:9136840,Bus 409 : Centre Commercial → Marinière Lycée,409,Marinière Lycée (Bondoufle),Tice
 Route:relation:9136930,Bus 412 : Gabrielle d'Estrées → Les Griottes,412,Les Griottes,Tice
 Route:relation:9136931,Bus 412 : Les Griottes → Gabrielle d'Estrées,412,Gabrielle d'Estrées,Tice
 Route:relation:9137667,Bus 27 : Puits de la Marlière → Roissypole,27,Roissypole,Keolis Mobilité Roissy
@@ -3103,8 +3103,8 @@ Route:relation:9873144,Bus B : Bonnières - La Vallée Française → Terminal J
 Route:relation:9873661,Bus 59E : Chessy Gares → Gare Routière de Crécy la Chapelle,59E,Gare Routière de Crécy la Chapelle,Grand Morin
 Route:relation:9873662,Bus 59E : Gare Routière de Crécy la Chapelle → Chessy Gares,59E,Chessy Gares,Grand Morin
 Route:relation:9874176,Bus 44 : Gare de Bois-le-Roi (circulaire),44,Gare de Bois-le-Roi,Le Châtelet-en-Brie - Pays de Seine
-Route:relation:9874383,Bus 30B : Goussainville RER D (circulaire via Lycée Romain Rolland),30B,Goussainville RER D,Les Courriers de l'Île-de-France
-Route:relation:9874384,Bus 30B : Goussainville RER D (circulaire),30B,Goussainville RER D,Les Courriers de l'Île-de-France
+Route:relation:9874383,Bus 30B (circulaire) : Goussainville RER D -> Lycée Romain Rolland -> Goussainville RER D,30B,Goussainville RER D,Les Courriers de l'Île-de-France
+Route:relation:9874384,Bus 30B (circulaire) : Goussainville RER D -> Goussainville RER D,30B,Goussainville RER D,Les Courriers de l'Île-de-France
 Route:relation:9874429,Bus 58 : Pontoise Gare → Équerre,58,Équerre,STIVO
 Route:relation:9874622,Bus 193 : Arcueil-Lénine → Mairie de l'Haÿ-les-Roses,193,Mairie de l'Haÿ-les-Roses,RATP
 Route:relation:9874623,Bus 193 : Mairie de l'Haÿ-les-Roses → Arcueil-Lénine,193,Arcueil-Lénine,RATP
@@ -3375,13 +3375,13 @@ Route:relation:10488743,"Flixbus EL150: München ZOB => Paris, Gallieni",EL150,"
 Route:relation:10491005,"Flixbus 1707: Orléans, Université du Sud => Le Havre, Gare routière",1707,"Le Havre, Gare routière",Flixbus
 Route:relation:10491006,"Flixbus 1707: Le Havre, Gare routière => Orléans, Université du Sud",1707,"Orléans, Université du Sud",Flixbus
 Route:relation:10491040,"Flixbus 1757: Lille, Boulevard de Turin => Paris, La Défense",1757,"Paris, La Défense",Flixbus
-Route:relation:10491041,"Flixbus 1751: Paris, Bercy Seine => Dunkerque, Gare",1751,"Dunkerque, Gare",Flixbus
+Route:relation:10491041,"Flixbus 1751: Paris, Bercy Seine => Dunkerque, Rue Belle Vue",1751,"Dunkerque, Rue Belle Vue",Flixbus
 Route:relation:10491133,"Flixbus 1757: Paris, La Défense => Lille, Boulevard de Turin",1757,"Lille, Boulevard de Turin",Flixbus
 Route:relation:10491226,"Flixbus 757: Brügge, Kiss and Ride => Paris, Bercy Seine",757,"Paris, Bercy Seine",Flixbus
 Route:relation:10491227,"Flixbus 757: Paris, Bercy Seine => Brügge, Kiss and Ride",757,"Brügge, Kiss and Ride",Flixbus
 Route:relation:10495658,"Flixbus 1744: Saint-Nazaire, Pôle d'Echange Multimodal => Paris, Gallieni",1744,"Paris, Gallieni",Flixbus
 Route:relation:10495659,"Flixbus 1744: Paris, Gallieni => Saint-Nazaire, Pôle d'Echange Multimodal",1744,"Saint-Nazaire, Pôle d'Echange Multimodal",Flixbus
-Route:relation:10508358,"Flixbus 1751: Dunkerque, Gare => Paris, Bercy Seine",1751,"Paris, Bercy Seine",Flixbus
+Route:relation:10508358,"Flixbus 1751: Dunkerque, Rue Belle Vue => Paris, Bercy Seine",1751,"Paris, Bercy Seine",Flixbus
 Route:relation:10521740,"Flixbus 1735: Paris, Bercy Seine => Châteauroux, Gare routière",1735,"Châteauroux, Gare routière",Flixbus
 Route:relation:10521741,"Flixbus 1735: Châteauroux, Gare routière => Paris, Bercy Seine",1735,"Paris, Bercy Seine",Flixbus
 Route:relation:10524292,"Flixbus 779: Annecy, Gare routière => Paris, Bercy Seine",779,"Paris, Bercy Seine",Flixbus
@@ -3491,8 +3491,8 @@ Route:relation:11267372,Bus 19 : Gare Routière de Charny → Mairie de Claye-So
 Route:relation:11267373,Bus 19 : Mairie de Claye-Souilly → Gare Routière de Charny,19,Gare Routière de Charny,Trans Val de France
 Route:relation:11267374,Bus 12 : Les Lilas (Claye-Souilly) → Gare RER de Mitry-Claye,12,Gare RER de Mitry-Claye,Trans Val de France
 Route:relation:11267375,Bus 12 : Gare RER de Mitry-Claye → Bois Lilas (Claye-Souilly),12,Bois Lilas (Claye-Souilly),Trans Val de France
-Route:relation:11321662,"Flixbus 1655: Paris, Gallieni => Dunkerque, Gare",1655,"Dunkerque, Gare",Flixbus
-Route:relation:11321663,"Flixbus 1655: Dunkerque, Gare => Paris, Gallieni",1655,"Paris, Gallieni",Flixbus
+Route:relation:11321662,"Flixbus 1655: Paris, Gallieni => Dunkerque, Rue Belle Vue",1655,"Dunkerque, Rue Belle Vue",Flixbus
+Route:relation:11321663,"Flixbus 1655: Dunkerque, Rue Belle Vue => Paris, Gallieni",1655,"Paris, Gallieni",Flixbus
 Route:relation:11322716,"Flixbus 747: Paris, Gallieni => Saint-Étienne, Châteaucreux",747,"Saint-Étienne, Châteaucreux",Flixbus
 Route:relation:11322717,"Flixbus 747: Saint-Étienne, Châteaucreux => Paris, Gallieni",747,"Paris, Gallieni",Flixbus
 Route:relation:11322718,"Flixbus 767: Paris, Gallieni => Saint-Étienne, Châteaucreux",767,"Saint-Étienne, Châteaucreux",Flixbus
@@ -3523,3 +3523,9 @@ Route:relation:11535997,Bus 43 : Gare du Nord → Hippodrome de Longchamp,43,Hip
 Route:relation:11642515,Petit train du château de Fontainebleau,,,
 Route:relation:11653509,Bus 206 : yyy → xxx,206,xxx,Comète
 Route:relation:11653510,Bus 206 : xxx → yyy,206,yyy,Comète
+Route:relation:11695993,Navette Bel-Air,,Bataille,Navette
+Route:relation:11696066,,,,
+Route:relation:11696131,,,,
+Route:relation:11696132,,,,
+Route:relation:11696133,,,,
+Route:relation:11696134,,,,

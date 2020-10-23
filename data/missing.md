@@ -6,15 +6,870 @@
 * Voir aussi les [erreurs Osmose](http://osmose.openstreetmap.fr/fr/errors/?source=28482&item=8042)
 
 
-Sur un total de 1859 lignes open data: 
+Sur un total de 1858 lignes open data: 
 - 505 lignes sont manquantes dans OSM 
-- 798 lignes restent à tracer dans OSM 
+- 795 lignes restent à tracer dans OSM 
+
+# TICE 
+19 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 5 lignes OSM sans tracé 
+ 
+ - 406 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8282002 
+ - 412 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9136932 
+ - 413 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8374540 
+ - 415 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8281810 
+ - 453 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8396927 
+
+# Dourdanais 
+5 lignes open data 
+
+ dont 2 manquantes dans OSM 
+ 
+ - 61 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013006:61 
+ - 62 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013006:62 
+
+
+ dont 1 lignes OSM sans tracé 
+ 
+ - 63 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8727476 
+
+# Cars D'Orsay 
+24 lignes open data 
+
+ dont 8 manquantes dans OSM 
+ 
+ - 6 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:006006006:6 
+ - S15 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:006006015:S15 
+ - 18 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:006006018:18 
+ - S1 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:006006026:S1 
+ - S2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:006006026:S2 
+ - S3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:006006026:S3 
+ - S4 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:006006026:S4 
+ - S9 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:269269002:S9 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Yerres - Brie Centrale 
+14 lignes open data 
+
+ dont 4 manquantes dans OSM 
+ 
+ - 35A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097035:35A 
+ - 35B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097035:35B 
+ - 35D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097035:35D 
+ - 37RPI : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097037:37RPI 
+
+
+ dont 10 lignes OSM sans tracé 
+ 
+ - 14 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8453487 
+ - 20 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8453568 
+ - 24 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8452809 
+ - 32 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8455504 
+ - 34A : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8455190 
+ - 34B : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8455292 
+ - 35C : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8455382 
+ - 37A : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8455445 
+ - 37B : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8452726 
+ - 37C : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8452704 
 
 # Express 100 Torcy-Créteil 
 1 lignes open data 
 
  dont 0 manquantes dans OSM 
  
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Actipôles 
+4 lignes open data 
+
+ dont 4 manquantes dans OSM 
+ 
+ - 88 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057318088:88 
+ - 89 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057318118:89 
+ - 91 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057318119:91 
+ - 91 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057318120:91 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Filéo 
+12 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - 32 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:116295032:32 
+
+
+ dont 11 lignes OSM sans tracé 
+ 
+ - FILEO O : https://ref-lignes-stif.5apps.com/line.html?osm_relation=2531208 
+ - FILEO SP : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8404844 
+ - FILEO V : https://ref-lignes-stif.5apps.com/line.html?osm_relation=2531226 
+ - FILEO S : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8405392 
+ - FILEO G : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8398489 
+ - FILEO VB : https://ref-lignes-stif.5apps.com/line.html?osm_relation=2531207 
+ - FILEO FO : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7678094 
+ - 27 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8312707 
+ - FILEO T : https://ref-lignes-stif.5apps.com/line.html?osm_relation=2531225 
+ - FILEO SL : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8388058 
+ - FILEO VE : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8449216 
+
+# VALBUS 
+5 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 1 lignes OSM sans tracé 
+ 
+ - 3802 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9234813 
+
+# Trans Val de France 
+6 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 2 lignes OSM sans tracé 
+ 
+ - 12 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=11267377 
+ - 19 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=11267376 
+
+# Bus O'Mureaux 
+7 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 7 lignes OSM sans tracé 
+ 
+ - 7 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8397961 
+ - N1 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9171785 
+ - 2 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9177072 
+ - 3 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9177124 
+ - 4 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9177616 
+ - 6 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9177493 
+ - 5 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9177413 
+
+# TAM 
+12 lignes open data 
+
+ dont 2 manquantes dans OSM 
+ 
+ - F : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:350350027:F 
+ - G : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:350350028:G 
+
+
+ dont 10 lignes OSM sans tracé 
+ 
+ - C : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8298486 
+ - D : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8312254 
+ - E : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9232011 
+ - I : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8408069 
+ - Z : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9231914 
+ - M : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8400479 
+ - J : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9231955 
+ - X : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8405850 
+ - A : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9173954 
+ - K : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8407357 
+
+# Aubergenville 
+1 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 1 lignes OSM sans tracé 
+ 
+ - 40 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8413449 
+
+# Express 19 Les Mureaux - Versailles 
+1 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - 19EXPRESS : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011019:19EXPRESS 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# SiYONNE 
+10 lignes open data 
+
+ dont 5 manquantes dans OSM 
+ 
+ - C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:208208004:C 
+ - G : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:208208012:G 
+ - I : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:208208014:I 
+ - F : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:208208017:F 
+ - L : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:208208017:L 
+
+
+ dont 2 lignes OSM sans tracé 
+ 
+ - A : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8393308 
+ - Emplet : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9231700 
+
+# TRAM 
+1 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - P : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063013:P 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Goëlys 
+20 lignes open data 
+
+ dont 10 manquantes dans OSM 
+ 
+ - 714 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077714:714 
+ - 715 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077715:715 
+ - 749 B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077749:749B 
+ - 749 C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077749:749C 
+ - 749 D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077749:749D 
+ - 751 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077751:751 
+ - 752 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077752:752 
+ - 753 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077753:753 
+ - 755 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077755:755 
+ - 756 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077756:756 
+
+
+ dont 7 lignes OSM sans tracé 
+ 
+ - 701 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8211074 
+ - 702 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8258499 
+ - 703 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9207454 
+ - 704 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8218429 
+ - 708 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9235172 
+ - 709 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9235191 
+ - 711 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8218430 
+
+# Sénart-Express 
+4 lignes open data 
+
+ dont 2 manquantes dans OSM 
+ 
+ - 51 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:065065051:51 
+ - 54 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:065065096:54 
+
+
+ dont 2 lignes OSM sans tracé 
+ 
+ - 50 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9173650 
+ - 55 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9702170 
+
+# CITALIEN 
+1 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Noctilien 
+48 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Sol'R 
+14 lignes open data 
+
+ dont 14 manquantes dans OSM 
+ 
+ - 3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003003:3 
+ - 7 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003007:7 
+ - 10 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003010:10 
+ - 21 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003021:21 
+ - 121 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003121:121 
+ - 209 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003209:209 
+ - 309 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003309:309 
+ - 409 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003409:409 
+ - 17 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003051017:17 
+ - 33 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097033:33 
+ - 28A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097216028:28A 
+ - 28B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097216028:28B 
+ - 28C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097216028:28C 
+ - 43 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097677043:43 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Etampois 
+12 lignes open data 
+
+ dont 4 manquantes dans OSM 
+ 
+ - 320 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010001:320 
+ - 324 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010001:324 
+ - 325 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010019:325 
+ - 330 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010330:330 
+
+
+ dont 3 lignes OSM sans tracé 
+ 
+ - 1001 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9242932 
+ - 321 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=11161907 
+ - 323 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9243088 
+
+# Nord Hurepoix 
+2 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# HOURTOULE 
+27 lignes open data 
+
+ dont 13 manquantes dans OSM 
+ 
+ - 14 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027014:14 
+ - Q : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027018:Q 
+ - 19 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027019:19 
+ - 111 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027111:111 
+ - B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027112:B 
+ - AQ : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027113:AQ 
+ - BL : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027113:BL 
+ - CSP : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027113:CSP 
+ - JV : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027113:JV 
+ - TG : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027113:TG 
+ - V : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027118:V 
+ - P : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027218:P 
+ - M : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027318:M 
+
+
+ dont 8 lignes OSM sans tracé 
+ 
+ - 6 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8738081 
+ - 10 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7532322 
+ - 11 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8402861 
+ - 15 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9249778 
+ - 50 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8740866 
+ - 20 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8740800 
+ - 8 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8738250 
+ - 41 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9249844 
+
+# Parisis 
+13 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - 30-46 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030046:30-46 
+
+
+ dont 6 lignes OSM sans tracé 
+ 
+ - 30-07 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9196816 
+ - 30-09 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9196805 
+ - 30-10 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9223264 
+ - 30-47 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9234799 
+ - 30-48 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9233984 
+ - 30-49 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8379777 
+
+# Plaine de Versailles 
+12 lignes open data 
+
+ dont 6 manquantes dans OSM 
+ 
+ - 13 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005013:13 
+ - 171 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011171:171 
+ - 172 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011172:172 
+ - 511 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011511:511 
+ - 512 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011512:512 
+ - 75 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011750:75 
+
+
+ dont 5 lignes OSM sans tracé 
+ 
+ - 17S : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8054731 
+ - 71 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8063062 
+ - 77 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9205962 
+ - 170 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8060915 
+ - 76 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9185838 
+
+# Express 1 
+1 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# STAVO 
+7 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - 42 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:044044004:42 
+
+
+ dont 5 lignes OSM sans tracé 
+ 
+ - FA : https://ref-lignes-stif.5apps.com/line.html?osm_relation=6839305 
+ - 40 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8312545 
+ - 43 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8404223 
+ - 45 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8735247 
+ - 51 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8400207 
+
+# TRAIN 
+16 lignes open data 
+
+ dont 8 manquantes dans OSM 
+ 
+ - H : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:H:Bus 
+ - J : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:J:Bus 
+ - K : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:K:Bus 
+ - L : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:L:Bus 
+ - N : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:N:Bus 
+ - P : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:P 
+ - P : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:P:Bus 
+ - R : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:R:Bus 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Dourdannais 
+1 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - 85-01 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010085:85-01 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# STRAV 
+7 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 1 lignes OSM sans tracé 
+ 
+ - O2 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9173025 
+
+# Houdanais 
+20 lignes open data 
+
+ dont 17 manquantes dans OSM 
+ 
+ - 2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005002:2 
+ - 9 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005009:9 
+ - 17 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005017:17 
+ - 21 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005021:21 
+ - 22 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005022:22 
+ - 31 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005031:31 
+ - 35 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005035:35 
+ - 40 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005040:40 
+ - 41 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005041:41 
+ - 45 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005045:45 
+ - 48 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005048:48 
+ - 51 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005051:51 
+ - 55 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005055:55 
+ - 61 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005061:61 
+ - 65 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005065:65 
+ - 15 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013015:15 
+ - 16 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013016:16 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# MOBILIEN 62 
+1 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Albatrans 
+11 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Seine et Marne Express 
+9 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 3 lignes OSM sans tracé 
+ 
+ - Express20 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8493727 
+ - 47 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8444603 
+ - 07 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=11175663 
+
+# Navette 
+3 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Le Chatelet en Brie - Pays de Seine 
+6 lignes open data 
+
+ dont 5 manquantes dans OSM 
+ 
+ - 40 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:062062040:40 
+ - 41 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:062062041:41 
+ - 42 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:062062042:42 
+ - 43 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:062062043:43 
+ - 45 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:062062045:45 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Seine & Marne Express 17 
+1 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Express 80 - Mantes-Cergy 
+1 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Valoise 
+6 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 2 lignes OSM sans tracé 
+ 
+ - 95-03A : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9181427 
+ - 95-03B : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9249703 
+
+# Com'Bus 
+29 lignes open data 
+
+ dont 12 manquantes dans OSM 
+ 
+ - 16 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057016:16 
+ - 18 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057018:18 
+ - 19 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057019:19 
+ - 20 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057020:20 
+ - 21 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057021:21 
+ - 02C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057024:02C 
+ - 26 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057026:26 
+ - 28 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057028:28 
+ - 52 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057050:52 
+ - 90 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057090:90 
+ - 109 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057109:109 
+ - 110 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057110:110 
+
+
+ dont 6 lignes OSM sans tracé 
+ 
+ - 02A : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9254370 
+ - R : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9255049 
+ - N : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9254991 
+ - 15 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9752169 
+ - 02B : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9254889 
+ - L : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9184388 
+
+# Seine-Saint-Denis 
+23 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - R T4 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:293193601:RT4 
+
+
+ dont 7 lignes OSM sans tracé 
+ 
+ - 607 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8189692 
+ - 609 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8207026 
+ - 610 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8256486 
+ - 611 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8449353 
+ - 618 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8292255 
+ - 619 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8449420 
+ - 642 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8208930 
+
+# PAYS DE MEAUX 
+23 lignes open data 
+
+ dont 8 manquantes dans OSM 
+ 
+ - Js : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067102:Js 
+ - Fs : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067103:Fs 
+ - Ms : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067120:Ms 
+ - Ks : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067164:Ks 
+ - Qs : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067202:Qs 
+ - Es : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067167103:Es 
+ - Os : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067167105:Os 
+ - Ns : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067167110:Ns 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Scolaire Est Yvelines 
+11 lignes open data 
+
+ dont 11 manquantes dans OSM 
+ 
+ - 01 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019019001:01 
+ - 12 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019019012:12 
+ - 54 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019019054:54 
+ - 55 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019019055:55 
+ - 56 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019019056:56 
+ - 57 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019019057:57 
+ - 06 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:213213006:06 
+ - 503 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:213213036:503 
+ - 37 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:213213037:37 
+ - 40 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:213213040:40 
+ - 38 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:213327038:38 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Sit'bus 
+8 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 6 lignes OSM sans tracé 
+ 
+ - 500 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8753596 
+ - 501 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8122752 
+ - A : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7993124 
+ - D : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7993122 
+ - B : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7993120 
+ - C : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7993121 
+
+# Tramy 
+30 lignes open data 
+
+ dont 26 manquantes dans OSM 
+ 
+ - 02A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097002:02A 
+ - 02B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097002:02B 
+ - 02C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097002:02C 
+ - 02D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097002:02D 
+ - 02E : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097002:02E 
+ - 02F : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097002:02F 
+ - 03C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097003:03C 
+ - 09A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097009:09A 
+ - 09B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097009:09B 
+ - 09C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097009:09C 
+ - 09M : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097009:09M 
+ - 10 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097010:10 
+ - 12A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097012:12A 
+ - 12B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097012:12B 
+ - 12C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097012:12C 
+ - 25 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097025:25 
+ - 26 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097026:26 
+ - 27 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097027:27 
+ - 29A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097029:29A 
+ - 29B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097029:29B 
+ - 29M : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097029:29M 
+ - 31A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097031:31A 
+ - 31B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097031:31B 
+ - 31C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097031:31C 
+ - 38 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097038:38 
+ - 39 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097039:39 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# RATP 
+307 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Résalys 
+8 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 1 lignes OSM sans tracé 
+ 
+ - R6 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8412060 
+
+# Sud Ile-de-France 
+1 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Apolo 7 
+14 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - 3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014361013:3 
+
+
+ dont 3 lignes OSM sans tracé 
+ 
+ - 7s : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8287382 
+ - 9s : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8287385 
+ - 8s : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8287383 
+
+# Val d'Orge 
+6 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - 1025 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010025:1025 
+
+
+ dont 1 lignes OSM sans tracé 
+ 
+ - 1805 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9171847 
+
+# Valmy 
+9 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 5 lignes OSM sans tracé 
+ 
+ - 12 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8132425 
+ - 13 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8388060 
+ - 11 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8255784 
+ - SOISY BUS : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8409188 
+ - 15 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8256243 
+
+# CARS SOEUR 
+6 lignes open data 
+
+ dont 4 manquantes dans OSM 
+ 
+ - 7004 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:070070004:7004 
+ - 7005 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:070070005:7005 
+ - 7006 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:070070006:7006 
+ - 7001 SCO : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:070070011:7001SCO 
+
+
+ dont 2 lignes OSM sans tracé 
+ 
+ - 7001 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9230881 
+ - 7002 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9674065 
+
+# PAYS FERTOIS 
+14 lignes open data 
+
+ dont 6 manquantes dans OSM 
+ 
+ - 49 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067049:49 
+ - 31S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067131:31S 
+ - 32S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067132:32S 
+ - 34S1 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067134:34S1 
+ - 34S2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067234:34S2 
+ - 34S3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067334:34S3 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Commune de Bouffemont 
+1 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - NAVETTE : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:038595040:NAVETTE 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# AUTOCARS DOMINIQUE 
+1 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# TRAMWAY 
+10 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - T4 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:T4:Bus 
 
 
  dont 0 lignes OSM sans tracé 
@@ -30,35 +885,40 @@ Sur un total de 1859 lignes open data:
  dont 0 lignes OSM sans tracé 
  
 
-# GRAND MORIN 
-27 lignes open data 
+# LOSAY VOYAGES 
+1 lignes open data 
 
- dont 12 manquantes dans OSM 
+ dont 0 manquantes dans OSM 
  
- - 7 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067007:7 
- - 13A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067013:13A 
- - 4A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067104:4A 
- - 8B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067108:8B 
- - 13B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067113:13B 
- - 21S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067121:21S 
- - 54B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067154:54B 
- - 56S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067156:56S 
- - 59E : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067159:59E 
- - 4B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067204:4B 
- - 8C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067208:8C 
- - 8AS : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067308:8AS 
 
 
- dont 8 lignes OSM sans tracé 
+ dont 0 lignes OSM sans tracé 
  
- - 4 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9237559 
- - 8A : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7921046 
- - 57 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7921048 
- - 59 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7921045 
- - 59 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9885338 
- - 60 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7921047 
- - 60 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=10604885 
- - 73 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7998640 
+
+# Rambouillet Interurbain 
+20 lignes open data 
+
+ dont 13 manquantes dans OSM 
+ 
+ - 01 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013001:01 
+ - 08 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013008:08 
+ - 11 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013011:11 
+ - 19 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013019:19 
+ - 20 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013020:20 
+ - 24 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013024:24 
+ - 25 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013025:25 
+ - 26 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013026:26 
+ - 39 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013039:39 
+ - 49 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013049:49 
+ - 59 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013059:59 
+ - 79 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013079:79 
+ - 89 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013089:89 
+
+
+ dont 2 lignes OSM sans tracé 
+ 
+ - 10 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9181020 
+ - 12 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9206600 
 
 # PROCARS 
 24 lignes open data 
@@ -89,30 +949,379 @@ Sur un total de 1859 lignes open data:
  - NANGIBUS : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8378094 
  - PROBUS C : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8444694 
 
-# Rambouillet Interurbain 
+# Busval d'Oise 
+32 lignes open data 
+
+ dont 7 manquantes dans OSM 
+ 
+ - 9522 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011195022:9522 
+ - 9523 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011195023:9523 
+ - 9524 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011195024:9524 
+ - 9525 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011195025:9525 
+ - 95-26 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030195026:95-26 
+ - 95-10 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:046195010:95-10 
+ - 95-44 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:251195044:95-44 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# VIAMO-MELUN 
+1 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Yerres 
+2 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - 4 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003004:4 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# KVO 
+1 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 1 lignes OSM sans tracé 
+ 
+ - 2 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8448000 
+
+# Keolis Orly Rungis 
+2 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# CARS MOREAU 
 20 lignes open data 
 
- dont 13 manquantes dans OSM 
+ dont 17 manquantes dans OSM 
  
- - 01 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013001:01 
- - 08 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013008:08 
- - 11 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013011:11 
- - 19 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013019:19 
- - 20 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013020:20 
- - 24 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013024:24 
- - 25 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013025:25 
- - 26 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013026:26 
- - 39 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013039:39 
- - 49 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013049:49 
- - 59 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013059:59 
- - 79 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013079:79 
- - 89 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013089:89 
+ - 4 A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210101:4A 
+ - 4 B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210102:4B 
+ - 4 C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210103:4C 
+ - 4 D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210104:4D 
+ - 001 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210106:001 
+ - 4 BD : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210107:4BD 
+ - 4 E : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210108:4E 
+ - 211 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210111:211 
+ - 10 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210116:10 
+ - 201 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210201:201 
+ - 202 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210202:202 
+ - 203 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210203:203 
+ - BRAY 9 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210209:BRAY9 
+ - BRAY 3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210210:BRAY3 
+ - 204 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210211:204 
+ - BRAY 11 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210217:BRAY11 
+ - 003 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210301:003 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# SITUS 
+15 lignes open data 
+
+ dont 6 manquantes dans OSM 
+ 
+ - 41 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010240004:41 
+ - 42 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010240004:42 
+ - 43 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010240004:43 
+ - 44 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010240004:44 
+ - 45 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010240004:45 
+ - 51 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010240005:51 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Paladin 
+5 lignes open data 
+
+ dont 5 manquantes dans OSM 
+ 
+ - ChavilBus : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:111592404:ChavilBus 
+ - ChavilBus : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:111592405:ChavilBus 
+ - 526 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:111592406:526 
+ - ChavilBus : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:111592407:ChavilBus 
+ - 469 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:111592409:469 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Express A14 
+6 lignes open data 
+
+ dont 3 manquantes dans OSM 
+ 
+ - EXP A14 B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:244200001:EXPA14B 
+ - EXP A14 M : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:244200001:EXPA14M 
+ - EXP A14 C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:244200004:EXPA14C 
 
 
  dont 2 lignes OSM sans tracé 
  
- - 10 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9181020 
- - 12 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9206600 
+ - 100 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9188817 
+ - Exp A14 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9188979 
+
+# SAVAC 
+58 lignes open data 
+
+ dont 34 manquantes dans OSM 
+ 
+ - Navette : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039001:Navette 
+ - 39-02 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039002:39-02 
+ - 39-003 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039003:39-003 
+ - 39-27 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039027:39-27 
+ - 39-31 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039031:39-31 
+ - 39-36 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039036:39-36 
+ - 39-28 A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039281:39-28A 
+ - 39-28 B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039282:39-28B 
+ - 39-28 C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039283:39-28C 
+ - 39-28 D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039284:39-28D 
+ - 39-28 E : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039285:39-28E 
+ - 39-28 F : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039286:39-28F 
+ - 39-29-1 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039291:39-29-1 
+ - 39-29-2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039292:39-29-2 
+ - 39-29-3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039293:39-29-3 
+ - 39-29-4 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039294:39-29-4 
+ - 39-30 A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039311:39-30A 
+ - 39-30 B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039312:39-30B 
+ - 39-30 C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039313:39-30C 
+ - 39-30 D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039314:39-30D 
+ - 39-35 A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039351:39-35A 
+ - 39-35 B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039352:39-35B 
+ - 39-37 A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039371:39-37A 
+ - 39-39 A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039373:39-39A 
+ - 39-39 B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039374:39-39B 
+ - 39-40 A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039375:39-40A 
+ - 39-40 B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039376:39-40B 
+ - 39-40 C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039377:39-40C 
+ - 39-40 D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039378:39-40D 
+ - 39-07 A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039701:39-07A 
+ - 39-07 B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039702:39-07B 
+ - 39-07 C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039703:39-07C 
+ - 39-07 D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039704:39-07D 
+ - 263 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039262263:263 
+
+
+ dont 5 lignes OSM sans tracé 
+ 
+ - 39-05 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9259892 
+ - 39-18 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9261401 
+ - 39-37 B : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9675493 
+ - Bel Air : https://ref-lignes-stif.5apps.com/line.html?osm_relation=11696066 
+ - 261 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9259815 
+
+# STILL 
+32 lignes open data 
+
+ dont 5 manquantes dans OSM 
+ 
+ - 11A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:064608011:11A 
+ - 11B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:064608011:11B 
+ - 11C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:064608011:11C 
+ - 12 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:064608012:12 
+ - 14B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:064608014:14B 
+
+
+ dont 3 lignes OSM sans tracé 
+ 
+ - 3 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9241167 
+ - 4 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9242016 
+ - 5 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9197254 
+
+# Seine Essonne Bus 
+9 lignes open data 
+
+ dont 3 manquantes dans OSM 
+ 
+ - 312 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024309312:312 
+ - 313 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024309313:313 
+ - 314 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024309314:314 
+
+
+ dont 2 lignes OSM sans tracé 
+ 
+ - 300 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9237359 
+ - 302 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9237446 
+
+# LACROIX 
+17 lignes open data 
+
+ dont 7 manquantes dans OSM 
+ 
+ - 30-25 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030025:30-25 
+ - 30-27 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030027:30-27 
+ - 30-28 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030028:30-28 
+ - 30-29 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030029:30-29 
+ - 30-32 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030032:30-32 
+ - 30-34 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030034:30-34 
+ - 30-36 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030036:30-36 
+
+
+ dont 6 lignes OSM sans tracé 
+ 
+ - 30-13 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9223322 
+ - 30-39 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9234745 
+ - CitéVal N : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9188040 
+ - CitéVal S : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9188067 
+ - CitéVal C : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9188120 
+ - CitéVal F : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9188157 
+
+# Titus 
+4 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Val d'Essonne 
+12 lignes open data 
+
+ dont 4 manquantes dans OSM 
+ 
+ - 221 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010009:221 
+ - 224 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010023:224 
+ - 225 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010024:225 
+ - 226 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010026:226 
+
+
+ dont 4 lignes OSM sans tracé 
+ 
+ - 205 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9243178 
+ - 206A : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9243459 
+ - 206B : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9243857 
+ - 223 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9866393 
+
+# Trans Val d'Oise 
+9 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - 24 sco : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:050050124:24sco 
+
+
+ dont 3 lignes OSM sans tracé 
+ 
+ - 24 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8370222 
+ - 35 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8450067 
+ - 36 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8450068 
+
+# Poissy Aval - Deux Rives de Seine 
+15 lignes open data 
+
+ dont 7 manquantes dans OSM 
+ 
+ - 1 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:052052011:1 
+ - 2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:052052012:2 
+ - 13 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:052052013:13 
+ - 22 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:052052022:22 
+ - 32 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:052052032:32 
+ - 33 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:052052033:33 
+ - 37 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:052052037:37 
+
+
+ dont 6 lignes OSM sans tracé 
+ 
+ - 26 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8366859 
+ - 29 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8728852 
+ - 30 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9238749 
+ - 31 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9238970 
+ - 35 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9239739 
+ - 39 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9239883 
+
+# Seine Sénart Bus 
+29 lignes open data 
+
+ dont 6 manquantes dans OSM 
+ 
+ - Navette M : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:021021019:NavetteM 
+ - RD16 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:021021161:RD16 
+ - Soirée Dr : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:021021181:SoireDr 
+ - Soirée Vi : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:021021182:SoireVi 
+ - Soirée Mo : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:021021183:SoireMo 
+ - LM3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:021021503:LM3 
+
+
+ dont 5 lignes OSM sans tracé 
+ 
+ - LP2 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9136249 
+ - LP1 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9129177 
+ - 501 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9167850 
+ - LM1 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9167851 
+ - LM2 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9167849 
+
+# Tam Limay 
+1 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - 501 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005015:501 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# ValBus 
+7 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 2 lignes OSM sans tracé 
+ 
+ - 30-23 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9233997 
+ - 30-37 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9234023 
+
+# Seine-Senart Bus 
+2 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - V : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:045045002:V 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Arlequin 
+7 lignes open data 
+
+ dont 6 manquantes dans OSM 
+ 
+ - 5 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003005:5 
+ - 14 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003014:14 
+ - 06 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063006:06 
+ - 30A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097030:30A 
+ - 30B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097030:30B 
+ - 30C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097030:30C 
+
+
+ dont 1 lignes OSM sans tracé 
+ 
+ - 16 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9136495 
 
 # CIF 
 68 lignes open data 
@@ -166,70 +1375,28 @@ Sur un total de 1859 lignes open data:
  - R7 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9836790 
  - Vitavil : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9207487 
 
-# CSO 
-25 lignes open data 
+# Bus en Seine 
+21 lignes open data 
 
- dont 2 manquantes dans OSM 
+ dont 5 manquantes dans OSM 
  
- - 28 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:015015028:28 
- - 1 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:015015043:1 
+ - D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019019017:D 
+ - S3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019248002:S3 
+ - S4 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019248005:S4 
+ - S7 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019248007:S7 
+ - S2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019248012:S2 
 
 
  dont 8 lignes OSM sans tracé 
  
- - 9 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9233950 
- - 20 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9232591 
- - 21 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9233835 
- - 23 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9187618 
- - 51 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8392711 
- - 52 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8292170 
- - 55 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9233871 
- - 4 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9195309 
-
-# Génovébus 
-9 lignes open data 
-
- dont 3 manquantes dans OSM 
- 
- - S2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010005:S2 
- - S4 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010005:S4 
- - S5 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010005:S5 
-
-
- dont 2 lignes OSM sans tracé 
- 
- - 4 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=6785331 
- - S3 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=6762268 
-
-# Trans Val de France 
-6 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 2 lignes OSM sans tracé 
- 
- - 12 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=11267377 
- - 19 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=11267376 
-
-# Val d'Essonne 
-12 lignes open data 
-
- dont 4 manquantes dans OSM 
- 
- - 221 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010009:221 
- - 224 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010023:224 
- - 225 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010024:225 
- - 226 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010026:226 
-
-
- dont 4 lignes OSM sans tracé 
- 
- - 205 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9243178 
- - 206A : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9243459 
- - 206B : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9243857 
- - 223 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9866393 
+ - J : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7517220 
+ - T : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8366461 
+ - S1 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9853421 
+ - K : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7517253 
+ - S5 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=10015706 
+ - P : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8316271 
+ - M : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8408136 
+ - S6 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7517252 
 
 # Sénart-Bus 
 38 lignes open data 
@@ -253,712 +1420,6 @@ Sur un total de 1859 lignes open data:
  - 43P : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9185095 
  - CPSF : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8465746 
 
-# Le Chatelet en Brie - Pays de Seine 
-6 lignes open data 
-
- dont 5 manquantes dans OSM 
- 
- - 40 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:062062040:40 
- - 41 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:062062041:41 
- - 42 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:062062042:42 
- - 43 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:062062043:43 
- - 45 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:062062045:45 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Réseau du Canton de Perthes 
-17 lignes open data 
-
- dont 14 manquantes dans OSM 
- 
- - S10 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063011:S10 
- - S11 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063011:S11 
- - S12 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063011:S12 
- - S13 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063011:S13 
- - S14 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063011:S14 
- - V : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063011:V 
- - 14 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063014:14 
- - 20 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063022:20 
- - 23 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063022:23 
- - 111 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063111:111 
- - 112 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063111:112 
- - 113 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063113:113 
- - 114 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063113:114 
- - 115 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063113:115 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Express 80 - Mantes-Cergy 
-1 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# CARS MOREAU 
-20 lignes open data 
-
- dont 17 manquantes dans OSM 
- 
- - 4 A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210101:4A 
- - 4 B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210102:4B 
- - 4 C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210103:4C 
- - 4 D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210104:4D 
- - 001 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210106:001 
- - 4 BD : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210107:4BD 
- - 4 E : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210108:4E 
- - 211 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210111:211 
- - 10 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210116:10 
- - 201 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210201:201 
- - 202 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210202:202 
- - 203 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210203:203 
- - BRAY 9 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210209:BRAY9 
- - BRAY 3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210210:BRAY3 
- - 204 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210211:204 
- - BRAY 11 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210217:BRAY11 
- - 003 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210301:003 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Arlequin 
-7 lignes open data 
-
- dont 6 manquantes dans OSM 
- 
- - 5 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003005:5 
- - 14 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003014:14 
- - 06 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063006:06 
- - 30A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097030:30A 
- - 30B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097030:30B 
- - 30C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097030:30C 
-
-
- dont 1 lignes OSM sans tracé 
- 
- - 16 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9136495 
-
-# Dourdanais 
-5 lignes open data 
-
- dont 2 manquantes dans OSM 
- 
- - 61 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013006:61 
- - 62 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013006:62 
-
-
- dont 1 lignes OSM sans tracé 
- 
- - 63 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8727476 
-
-# Seine-Senart Bus 
-2 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - V : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:045045002:V 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Titus 
-4 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Seine et Marne Express 
-9 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 3 lignes OSM sans tracé 
- 
- - Express20 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8493727 
- - 47 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8444603 
- - 07 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=11175663 
-
-# KMR 
-1 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Siyonne 
-1 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 15 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228228015:15 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Bus en Seine 
-21 lignes open data 
-
- dont 5 manquantes dans OSM 
- 
- - D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019019017:D 
- - S3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019248002:S3 
- - S4 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019248005:S4 
- - S7 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019248007:S7 
- - S2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019248012:S2 
-
-
- dont 9 lignes OSM sans tracé 
- 
- - J : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7517220 
- - T : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8366461 
- - L : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8316261 
- - S1 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9853421 
- - K : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7517253 
- - S5 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=10015706 
- - P : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8316271 
- - M : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8408136 
- - S6 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7517252 
-
-# Etampois 
-12 lignes open data 
-
- dont 4 manquantes dans OSM 
- 
- - 320 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010001:320 
- - 324 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010001:324 
- - 325 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010019:325 
- - 330 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010330:330 
-
-
- dont 3 lignes OSM sans tracé 
- 
- - 1001 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9242932 
- - 321 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=11161907 
- - 323 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9243088 
-
-# Com'Bus 
-29 lignes open data 
-
- dont 12 manquantes dans OSM 
- 
- - 16 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057016:16 
- - 18 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057018:18 
- - 19 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057019:19 
- - 20 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057020:20 
- - 21 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057021:21 
- - 02C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057024:02C 
- - 26 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057026:26 
- - 28 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057028:28 
- - 52 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057050:52 
- - 90 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057090:90 
- - 109 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057109:109 
- - 110 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057110:110 
-
-
- dont 6 lignes OSM sans tracé 
- 
- - 02A : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9254370 
- - R : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9255049 
- - N : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9254991 
- - 15 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9752169 
- - 02B : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9254889 
- - L : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9184388 
-
-# LOSAY VOYAGES 
-1 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Commune de Bouffemont 
-1 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - NAVETTE : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:038595040:NAVETTE 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Traverciel 
-5 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 3 lignes OSM sans tracé 
- 
- - 28 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9184807 
- - 29 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9184990 
- - 30 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8406206 
-
-# Sol'R 
-14 lignes open data 
-
- dont 14 manquantes dans OSM 
- 
- - 3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003003:3 
- - 7 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003007:7 
- - 10 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003010:10 
- - 21 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003021:21 
- - 121 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003121:121 
- - 209 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003209:209 
- - 309 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003309:309 
- - 409 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003409:409 
- - 17 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003051017:17 
- - 33 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097033:33 
- - 28A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097216028:28A 
- - 28B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097216028:28B 
- - 28C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097216028:28C 
- - 43 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097677043:43 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Valmy 
-9 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 5 lignes OSM sans tracé 
- 
- - 12 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8132425 
- - 13 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8388060 
- - 11 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8255784 
- - SOISY BUS : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8409188 
- - 15 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8256243 
-
-# Bus O'Mureaux 
-7 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 7 lignes OSM sans tracé 
- 
- - 7 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8397961 
- - N1 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9171785 
- - 2 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9177072 
- - 3 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9177124 
- - 4 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9177616 
- - 6 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9177493 
- - 5 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9177413 
-
-# Actipôles 
-4 lignes open data 
-
- dont 4 manquantes dans OSM 
- 
- - 88 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057318088:88 
- - 89 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057318118:89 
- - 91 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057318119:91 
- - 91 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057318120:91 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Paladin 
-5 lignes open data 
-
- dont 5 manquantes dans OSM 
- 
- - ChavilBus : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:111592404:ChavilBus 
- - ChavilBus : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:111592405:ChavilBus 
- - 526 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:111592406:526 
- - ChavilBus : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:111592407:ChavilBus 
- - 469 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:111592409:469 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Seine & Marne Express 17 
-1 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Seine Essonne Bus 
-9 lignes open data 
-
- dont 3 manquantes dans OSM 
- 
- - 312 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024309312:312 
- - 313 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024309313:313 
- - 314 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024309314:314 
-
-
- dont 2 lignes OSM sans tracé 
- 
- - 300 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9237359 
- - 302 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9237446 
-
-# Stigo 
-4 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 200 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003200:200 
-
-
- dont 3 lignes OSM sans tracé 
- 
- - 11 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9200493 
- - 18 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=6957343 
- - 201 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9218053 
-
-# TICE 
-19 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 5 lignes OSM sans tracé 
- 
- - 406 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8282002 
- - 412 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9136932 
- - 413 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8374540 
- - 415 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8281810 
- - 453 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8396927 
-
-# VIAMO-MELUN 
-1 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# PER 
-1 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 1 lignes OSM sans tracé 
- 
- - 36-15 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8447240 
-
-# Valoise 
-6 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 2 lignes OSM sans tracé 
- 
- - 95-03A : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9181427 
- - 95-03B : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9249703 
-
-# STILL 
-32 lignes open data 
-
- dont 5 manquantes dans OSM 
- 
- - 11A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:064608011:11A 
- - 11B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:064608011:11B 
- - 11C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:064608011:11C 
- - 12 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:064608012:12 
- - 14B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:064608014:14B 
-
-
- dont 3 lignes OSM sans tracé 
- 
- - 3 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9241167 
- - 4 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9242016 
- - 5 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9197254 
-
-# Keolis Orly Rungis 
-2 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Service Urbain de Villecresnes 
-1 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# TRAM 
-1 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - P : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063013:P 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# TER 
-1 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - TER : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:TER 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Dourdannais 
-1 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 85-01 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010085:85-01 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# STRAV 
-7 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 1 lignes OSM sans tracé 
- 
- - O2 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9173025 
-
-# Apolo 7 
-14 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014361013:3 
-
-
- dont 3 lignes OSM sans tracé 
- 
- - 7s : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8287382 
- - 9s : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8287385 
- - 8s : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8287383 
-
-# Entre Seine et Forêt 
-11 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# AUTOCARS DOMINIQUE 
-1 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Express A14 
-6 lignes open data 
-
- dont 3 manquantes dans OSM 
- 
- - EXP A14 B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:244200001:EXPA14B 
- - EXP A14 M : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:244200001:EXPA14M 
- - EXP A14 C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:244200004:EXPA14C 
-
-
- dont 2 lignes OSM sans tracé 
- 
- - 100 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9188817 
- - Exp A14 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9188979 
-
-# HOURTOULE 
-27 lignes open data 
-
- dont 13 manquantes dans OSM 
- 
- - 14 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027014:14 
- - Q : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027018:Q 
- - 19 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027019:19 
- - 111 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027111:111 
- - B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027112:B 
- - AQ : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027113:AQ 
- - BL : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027113:BL 
- - CSP : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027113:CSP 
- - JV : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027113:JV 
- - TG : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027113:TG 
- - V : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027118:V 
- - P : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027218:P 
- - M : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027318:M 
-
-
- dont 8 lignes OSM sans tracé 
- 
- - 6 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8738081 
- - 10 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7532322 
- - 11 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8402861 
- - 15 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9249778 
- - 50 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8740866 
- - 20 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8740800 
- - 8 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8738250 
- - 41 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9249844 
-
-# Keolis Seine Val-De-Marne 
-6 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Sud Ile-de-France 
-1 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Aérial 
-10 lignes open data 
-
- dont 2 manquantes dans OSM 
- 
- - 6 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:062062013:6 
- - 9 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:062062014:9 
-
-
- dont 2 lignes OSM sans tracé 
- 
- - 2 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8399988 
- - 111 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8753568 
-
-# LACROIX 
-17 lignes open data 
-
- dont 7 manquantes dans OSM 
- 
- - 30-25 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030025:30-25 
- - 30-27 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030027:30-27 
- - 30-28 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030028:30-28 
- - 30-29 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030029:30-29 
- - 30-32 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030032:30-32 
- - 30-34 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030034:30-34 
- - 30-36 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030036:30-36 
-
-
- dont 6 lignes OSM sans tracé 
- 
- - 30-13 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9223322 
- - 30-39 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9234745 
- - CitéVal N : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9188040 
- - CitéVal S : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9188067 
- - CitéVal C : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9188120 
- - CitéVal F : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9188157 
-
-# MOBILIEN 62 
-1 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# LES CARS BLEUS 
-13 lignes open data 
-
- dont 12 manquantes dans OSM 
- 
- - 184-001 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084184001:184-001 
- - 184-003 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084184003:184-003 
- - 184-004 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084184004:184-004 
- - 184-005 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084184005:184-005 
- - 184-006 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084184006:184-006 
- - 184-008 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084184008:184-008 
- - 184-013 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084184013:184-013 
- - 284-001 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084284001:284-001 
- - 284-002 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084284002:284-002 
- - 284-003 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084284003:284-003 
- - 284-004 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084284004:284-004 
- - 284-006 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084284006:284-006 
-
-
- dont 1 lignes OSM sans tracé 
- 
- - 184-014 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8479479 
-
-# Seine-Saint-Denis 
-23 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - R T4 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:293193601:RT4 
-
-
- dont 7 lignes OSM sans tracé 
- 
- - 607 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8189692 
- - 609 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8207026 
- - 610 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8256486 
- - 611 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8449353 
- - 618 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8292255 
- - 619 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8449420 
- - 642 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8208930 
-
 # PAYS DE L'OURCQ 
 17 lignes open data 
 
@@ -976,38 +1437,7 @@ Sur un total de 1859 lignes open data:
  dont 0 lignes OSM sans tracé 
  
 
-# rbus 
-5 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 3 lignes OSM sans tracé 
- 
- - E : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9171822 
- - D : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9228969 
- - C : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9190795 
-
-# TRAIN 
-16 lignes open data 
-
- dont 8 manquantes dans OSM 
- 
- - H : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:H:Bus 
- - J : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:J:Bus 
- - K : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:K:Bus 
- - L : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:L:Bus 
- - N : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:N:Bus 
- - P : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:P 
- - P : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:P:Bus 
- - R : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:R:Bus 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Navette 
+# Pays Fertois 
 3 lignes open data 
 
  dont 0 manquantes dans OSM 
@@ -1017,281 +1447,25 @@ Sur un total de 1859 lignes open data:
  dont 0 lignes OSM sans tracé 
  
 
-# KEOLIS ORMONT 
-24 lignes open data 
-
- dont 8 manquantes dans OSM 
- 
- - 68.01 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068068001:6801 
- - 68.01S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068068001:6801S 
- - 68.05 A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068068005:6805A 
- - 68.06 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068068006:6806 
- - 68.08 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068068008:6808 
- - 68.14 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068068014:6814 
- - 68.100 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068068100:68100 
- - 913.07 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068913007:91307 
-
-
- dont 11 lignes OSM sans tracé 
- 
- - 68.02 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9257973 
- - 68.09 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9190605 
- - 68.16 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9258582 
- - 68.05 B : https://ref-lignes-stif.5apps.com/line.html?osm_relation=11161946 
- - 1 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8369803 
- - 2 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9197471 
- - 913.17 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9258811 
- - 3 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9256759 
- - 5 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9257304 
- - 6 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9257415 
- - 913.50 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9259499 
-
-# Transdev Ile-de-France Conflans 
-14 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 5 S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:212212005:5S 
-
-
- dont 2 lignes OSM sans tracé 
- 
- - 06 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9219662 
- - 12 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9137679 
-
-# TAM 
-12 lignes open data 
+# CSO 
+25 lignes open data 
 
  dont 2 manquantes dans OSM 
  
- - F : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:350350027:F 
- - G : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:350350028:G 
+ - 28 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:015015028:28 
+ - 1 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:015015043:1 
 
 
- dont 10 lignes OSM sans tracé 
+ dont 8 lignes OSM sans tracé 
  
- - C : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8298486 
- - D : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8312254 
- - E : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9232011 
- - I : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8408069 
- - Z : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9231914 
- - M : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8400479 
- - J : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9231955 
- - X : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8405850 
- - A : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9173954 
- - K : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8407357 
-
-# ADP 
-2 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# SiYONNE 
-10 lignes open data 
-
- dont 5 manquantes dans OSM 
- 
- - C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:208208004:C 
- - G : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:208208012:G 
- - I : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:208208014:I 
- - F : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:208208017:F 
- - L : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:208208017:L 
-
-
- dont 2 lignes OSM sans tracé 
- 
- - A : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8393308 
- - Emplet : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9231700 
-
-# Tam Limay 
-1 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 501 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005015:501 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# CITALIEN 
-1 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Phébus 
-37 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Trans'Essonne 
-12 lignes open data 
-
- dont 10 manquantes dans OSM 
- 
- - 24-06 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024006:24-06 
- - 24-10 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024010:24-10 
- - FLEXO : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024100:FLEXO 
- - 209 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024209:209 
- - 227 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024227:227 
- - 228 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024228:228 
- - 229 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024229:229 
- - 230 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024230:230 
- - 231 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024231:231 
- - 232 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024232:232 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# MELIBUS 
-26 lignes open data 
-
- dont 15 manquantes dans OSM 
- 
- - S6 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066066021:S6 
- - S7 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066066021:S7 
- - Cd : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066066022:Cd 
- - T : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066066037:T 
- - S4 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366003:S4 
- - S1 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366007:S1 
- - S2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366007:S2 
- - S3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366007:S3 
- - J : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366030:J 
- - Jd : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366030:Jd 
- - O : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366034:O 
- - G : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366036:G 
- - S5 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366036:S5 
- - S8 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366036:S8 
- - O SCO : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366107:OSCO 
-
-
- dont 2 lignes OSM sans tracé 
- 
- - B : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8353656 
- - Fd : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9228837 
-
-# CARS SOEUR 
-6 lignes open data 
-
- dont 4 manquantes dans OSM 
- 
- - 7004 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:070070004:7004 
- - 7005 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:070070005:7005 
- - 7006 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:070070006:7006 
- - 7001 SCO : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:070070011:7001SCO 
-
-
- dont 2 lignes OSM sans tracé 
- 
- - 7001 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9230881 
- - 7002 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9674065 
-
-# Rémi 
-1 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 25 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:073073025:25 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Nord Hurepoix 
-2 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# STAVO 
-7 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 42 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:044044004:42 
-
-
- dont 5 lignes OSM sans tracé 
- 
- - FA : https://ref-lignes-stif.5apps.com/line.html?osm_relation=6839305 
- - 40 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8312545 
- - 43 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8404223 
- - 45 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8735247 
- - 51 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8400207 
-
-# R'bus 
-16 lignes open data 
-
- dont 3 manquantes dans OSM 
- 
- - 501  : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:016616501:501 
- - 502  : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:016616502:502 
- - 503  : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:016616503:503 
-
-
- dont 5 lignes OSM sans tracé 
- 
- - 5 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8456090 
- - 8 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8187695 
- - 9 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8186765 
- - 17 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8456130 
- - 45 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8456080 
-
-# Transport du Val de Seine 
-4 lignes open data 
-
- dont 4 manquantes dans OSM 
- 
- - 1. : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:092092001:1 
- - 3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:092092003:3 
- - 4. : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:092092004:4 
- - 14 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:092092014:14 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Val d'Orge 
-6 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 1025 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010025:1025 
-
-
- dont 1 lignes OSM sans tracé 
- 
- - 1805 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9171847 
-
-# Noctilien 
-48 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
+ - 9 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9233950 
+ - 20 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9232591 
+ - 21 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9233835 
+ - 23 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9187618 
+ - 51 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8392711 
+ - 52 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8292170 
+ - 55 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9233871 
+ - 4 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9195309 
 
 # VyBus 
 21 lignes open data 
@@ -1309,318 +1483,12 @@ Sur un total de 1859 lignes open data:
  
  - E2 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=6949602 
 
-# Résalys 
-8 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 1 lignes OSM sans tracé 
- 
- - R6 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8412060 
-
-# RER 
-10 lignes open data 
-
- dont 5 manquantes dans OSM 
- 
- - C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:C:Bus 
- - D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:D:Bus 
- - E : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:E:Bus 
- - A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:810:A:Bus 
- - B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:810:B:Bus 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Orgebus 
-5 lignes open data 
-
- dont 2 manquantes dans OSM 
- 
- - 2272 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:227227002:2272 
- - 2274 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:227227002:2274 
-
-
- dont 2 lignes OSM sans tracé 
- 
- - 227-01 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8736260 
- - 227-03 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9197758 
-
 # Comète 
 10 lignes open data 
 
  dont 1 manquantes dans OSM 
  
  - 209 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:062258009:209 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Filéo 
-12 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 32 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:116295032:32 
-
-
- dont 11 lignes OSM sans tracé 
- 
- - FILEO O : https://ref-lignes-stif.5apps.com/line.html?osm_relation=2531208 
- - FILEO SP : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8404844 
- - FILEO V : https://ref-lignes-stif.5apps.com/line.html?osm_relation=2531226 
- - FILEO S : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8405392 
- - FILEO G : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8398489 
- - FILEO VB : https://ref-lignes-stif.5apps.com/line.html?osm_relation=2531207 
- - FILEO FO : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7678094 
- - 27 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8312707 
- - FILEO T : https://ref-lignes-stif.5apps.com/line.html?osm_relation=2531225 
- - FILEO SL : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8388058 
- - FILEO VE : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8449216 
-
-# PEP'S 
-25 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 27 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:051051027:27 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Poissy Aval - Deux Rives de Seine 
-15 lignes open data 
-
- dont 7 manquantes dans OSM 
- 
- - 1 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:052052011:1 
- - 2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:052052012:2 
- - 13 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:052052013:13 
- - 22 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:052052022:22 
- - 32 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:052052032:32 
- - 33 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:052052033:33 
- - 37 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:052052037:37 
-
-
- dont 6 lignes OSM sans tracé 
- 
- - 26 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8366859 
- - 29 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8728852 
- - 30 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9238749 
- - 31 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9238970 
- - 35 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9239739 
- - 39 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9239883 
-
-# ValBus 
-7 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 2 lignes OSM sans tracé 
- 
- - 30-23 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9233997 
- - 30-37 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9234023 
-
-# Yerres - Brie Centrale 
-14 lignes open data 
-
- dont 4 manquantes dans OSM 
- 
- - 35A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097035:35A 
- - 35B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097035:35B 
- - 35D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097035:35D 
- - 37RPI : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097037:37RPI 
-
-
- dont 10 lignes OSM sans tracé 
- 
- - 14 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8453487 
- - 20 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8453568 
- - 24 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8452809 
- - 32 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8455504 
- - 34A : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8455190 
- - 34B : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8455292 
- - 35C : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8455382 
- - 37A : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8455445 
- - 37B : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8452726 
- - 37C : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8452704 
-
-# Tramy 
-30 lignes open data 
-
- dont 26 manquantes dans OSM 
- 
- - 02A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097002:02A 
- - 02B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097002:02B 
- - 02C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097002:02C 
- - 02D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097002:02D 
- - 02E : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097002:02E 
- - 02F : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097002:02F 
- - 03C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097003:03C 
- - 09A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097009:09A 
- - 09B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097009:09B 
- - 09C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097009:09C 
- - 09M : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097009:09M 
- - 10 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097010:10 
- - 12A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097012:12A 
- - 12B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097012:12B 
- - 12C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097012:12C 
- - 25 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097025:25 
- - 26 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097026:26 
- - 27 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097027:27 
- - 29A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097029:29A 
- - 29B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097029:29B 
- - 29M : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097029:29M 
- - 31A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097031:31A 
- - 31B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097031:31B 
- - 31C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097031:31C 
- - 38 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097038:38 
- - 39 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097039:39 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Scolaire Est Yvelines 
-11 lignes open data 
-
- dont 11 manquantes dans OSM 
- 
- - 01 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019019001:01 
- - 12 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019019012:12 
- - 54 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019019054:54 
- - 55 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019019055:55 
- - 56 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019019056:56 
- - 57 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019019057:57 
- - 06 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:213213006:06 
- - 503 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:213213036:503 
- - 37 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:213213037:37 
- - 40 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:213213040:40 
- - 38 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:213327038:38 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Cars D'Orsay 
-24 lignes open data 
-
- dont 8 manquantes dans OSM 
- 
- - 6 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:006006006:6 
- - S15 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:006006015:S15 
- - 18 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:006006018:18 
- - S1 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:006006026:S1 
- - S2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:006006026:S2 
- - S3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:006006026:S3 
- - S4 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:006006026:S4 
- - S9 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:269269002:S9 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# TRAMWAY 
-10 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - T4 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:T4:Bus 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# KVO 
-1 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 1 lignes OSM sans tracé 
- 
- - 2 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8448000 
-
-# Sénart-Express 
-4 lignes open data 
-
- dont 2 manquantes dans OSM 
- 
- - 51 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:065065051:51 
- - 54 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:065065096:54 
-
-
- dont 2 lignes OSM sans tracé 
- 
- - 50 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9173650 
- - 55 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9702170 
-
-# Trans Val d'Oise 
-9 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 24 sco : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:050050124:24sco 
-
-
- dont 3 lignes OSM sans tracé 
- 
- - 24 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8370222 
- - 35 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8450067 
- - 36 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8450068 
-
-# Le Paladin 
-15 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 15 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:020149012:15 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Express 16 
-1 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Albatrans 
-11 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# PAYS DE MEAUX 
-23 lignes open data 
-
- dont 8 manquantes dans OSM 
- 
- - Js : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067102:Js 
- - Fs : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067103:Fs 
- - Ms : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067120:Ms 
- - Ks : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067164:Ks 
- - Qs : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067202:Qs 
- - Es : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067167103:Es 
- - Os : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067167105:Os 
- - Ns : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067167110:Ns 
 
 
  dont 0 lignes OSM sans tracé 
@@ -1661,45 +1529,368 @@ Sur un total de 1859 lignes open data:
  - 466 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9193824 
  - 467 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8383446 
 
-# PAYS FERTOIS 
-14 lignes open data 
+# KEOLIS ORMONT 
+24 lignes open data 
 
- dont 6 manquantes dans OSM 
+ dont 8 manquantes dans OSM 
  
- - 49 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067049:49 
- - 31S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067131:31S 
- - 32S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067132:32S 
- - 34S1 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067134:34S1 
- - 34S2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067234:34S2 
- - 34S3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067334:34S3 
+ - 68.01 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068068001:6801 
+ - 68.01S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068068001:6801S 
+ - 68.05 A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068068005:6805A 
+ - 68.06 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068068006:6806 
+ - 68.08 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068068008:6808 
+ - 68.14 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068068014:6814 
+ - 68.100 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068068100:68100 
+ - 913.07 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068913007:91307 
+
+
+ dont 11 lignes OSM sans tracé 
+ 
+ - 68.02 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9257973 
+ - 68.09 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9190605 
+ - 68.16 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9258582 
+ - 68.05 B : https://ref-lignes-stif.5apps.com/line.html?osm_relation=11161946 
+ - 1 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8369803 
+ - 2 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9197471 
+ - 913.17 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9258811 
+ - 3 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9256759 
+ - 5 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9257304 
+ - 6 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9257415 
+ - 913.50 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9259499 
+
+# Aérial 
+10 lignes open data 
+
+ dont 2 manquantes dans OSM 
+ 
+ - 6 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:062062013:6 
+ - 9 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:062062014:9 
+
+
+ dont 2 lignes OSM sans tracé 
+ 
+ - 2 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8399988 
+ - 111 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8753568 
+
+# MELIBUS 
+26 lignes open data 
+
+ dont 15 manquantes dans OSM 
+ 
+ - S6 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066066021:S6 
+ - S7 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066066021:S7 
+ - Cd : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066066022:Cd 
+ - T : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066066037:T 
+ - S4 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366003:S4 
+ - S1 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366007:S1 
+ - S2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366007:S2 
+ - S3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366007:S3 
+ - J : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366030:J 
+ - Jd : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366030:Jd 
+ - O : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366034:O 
+ - G : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366036:G 
+ - S5 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366036:S5 
+ - S8 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366036:S8 
+ - O SCO : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366107:OSCO 
+
+
+ dont 2 lignes OSM sans tracé 
+ 
+ - B : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8353656 
+ - Fd : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9228837 
+
+# RER 
+10 lignes open data 
+
+ dont 5 manquantes dans OSM 
+ 
+ - C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:C:Bus 
+ - D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:D:Bus 
+ - E : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:E:Bus 
+ - A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:810:A:Bus 
+ - B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:810:B:Bus 
 
 
  dont 0 lignes OSM sans tracé 
  
 
-# Seine Sénart Bus 
-29 lignes open data 
+# GRAND MORIN 
+26 lignes open data 
 
- dont 6 manquantes dans OSM 
+ dont 12 manquantes dans OSM 
  
- - Navette M : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:021021019:NavetteM 
- - RD16 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:021021161:RD16 
- - Soirée Dr : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:021021181:SoireDr 
- - Soirée Vi : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:021021182:SoireVi 
- - Soirée Mo : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:021021183:SoireMo 
- - LM3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:021021503:LM3 
+ - 7 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067007:7 
+ - 13A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067013:13A 
+ - 4A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067104:4A 
+ - 8B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067108:8B 
+ - 13B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067113:13B 
+ - 21S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067121:21S 
+ - 54B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067154:54B 
+ - 56S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067156:56S 
+ - 59E : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067159:59E 
+ - 4B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067204:4B 
+ - 8C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067208:8C 
+ - 8AS : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067308:8AS 
+
+
+ dont 6 lignes OSM sans tracé 
+ 
+ - 4 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9237559 
+ - 8A : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7921046 
+ - 57 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7921048 
+ - 59 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7921045 
+ - 59 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9885338 
+ - 73 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7998640 
+
+# Orgebus 
+5 lignes open data 
+
+ dont 2 manquantes dans OSM 
+ 
+ - 2272 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:227227002:2272 
+ - 2274 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:227227002:2274 
+
+
+ dont 2 lignes OSM sans tracé 
+ 
+ - 227-01 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8736260 
+ - 227-03 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9197758 
+
+# METRO 
+16 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Rémi 
+1 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - 25 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:073073025:25 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# R'bus 
+16 lignes open data 
+
+ dont 3 manquantes dans OSM 
+ 
+ - 501  : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:016616501:501 
+ - 502  : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:016616502:502 
+ - 503  : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:016616503:503 
 
 
  dont 5 lignes OSM sans tracé 
  
- - LP2 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9136249 
- - LP1 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9129177 
- - 501 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9167850 
- - LM1 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9167851 
- - LM2 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9167849 
+ - 5 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8456090 
+ - 8 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8187695 
+ - 9 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8186765 
+ - 17 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8456130 
+ - 45 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8456080 
 
-# VALBUS 
+# Transport du Val de Seine 
+4 lignes open data 
+
+ dont 4 manquantes dans OSM 
+ 
+ - 1. : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:092092001:1 
+ - 3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:092092003:3 
+ - 4. : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:092092004:4 
+ - 14 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:092092014:14 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Traverciel 
 5 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 3 lignes OSM sans tracé 
+ 
+ - 28 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9184807 
+ - 29 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9184990 
+ - 30 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8406206 
+
+# Le Paladin 
+15 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - 15 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:020149012:15 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Express 16 
+1 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Transdev Ile-de-France Conflans 
+14 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - 5 S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:212212005:5S 
+
+
+ dont 2 lignes OSM sans tracé 
+ 
+ - 06 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9219662 
+ - 12 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9137679 
+
+# KMR 
+1 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Stigo 
+4 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - 200 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003200:200 
+
+
+ dont 3 lignes OSM sans tracé 
+ 
+ - 11 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9200493 
+ - 18 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=6957343 
+ - 201 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9218053 
+
+# TER 
+1 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - TER : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:TER 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# PEP'S 
+25 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - 27 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:051051027:27 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Trans'Essonne 
+12 lignes open data 
+
+ dont 10 manquantes dans OSM 
+ 
+ - 24-06 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024006:24-06 
+ - 24-10 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024010:24-10 
+ - FLEXO : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024100:FLEXO 
+ - 209 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024209:209 
+ - 227 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024227:227 
+ - 228 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024228:228 
+ - 229 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024229:229 
+ - 230 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024230:230 
+ - 231 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024231:231 
+ - 232 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024232:232 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# LES CARS BLEUS 
+13 lignes open data 
+
+ dont 12 manquantes dans OSM 
+ 
+ - 184-001 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084184001:184-001 
+ - 184-003 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084184003:184-003 
+ - 184-004 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084184004:184-004 
+ - 184-005 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084184005:184-005 
+ - 184-006 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084184006:184-006 
+ - 184-008 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084184008:184-008 
+ - 184-013 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084184013:184-013 
+ - 284-001 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084284001:284-001 
+ - 284-002 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084284002:284-002 
+ - 284-003 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084284003:284-003 
+ - 284-004 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084284004:284-004 
+ - 284-006 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084284006:284-006 
+
+
+ dont 1 lignes OSM sans tracé 
+ 
+ - 184-014 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8479479 
+
+# Réseau du Canton de Perthes 
+17 lignes open data 
+
+ dont 14 manquantes dans OSM 
+ 
+ - S10 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063011:S10 
+ - S11 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063011:S11 
+ - S12 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063011:S12 
+ - S13 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063011:S13 
+ - S14 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063011:S14 
+ - V : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063011:V 
+ - 14 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063014:14 
+ - 20 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063022:20 
+ - 23 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063022:23 
+ - 111 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063111:111 
+ - 112 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063111:112 
+ - 113 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063113:113 
+ - 114 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063113:114 
+ - 115 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063113:115 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Phébus 
+37 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# ADP 
+2 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# PER 
+1 lignes open data 
 
  dont 0 manquantes dans OSM 
  
@@ -1707,24 +1898,125 @@ Sur un total de 1859 lignes open data:
 
  dont 1 lignes OSM sans tracé 
  
- - 3802 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9234813 
+ - 36-15 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8447240 
 
-# Express 19 Les Mureaux - Versailles 
+# Siyonne 
 1 lignes open data 
 
  dont 1 manquantes dans OSM 
  
- - 19EXPRESS : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011019:19EXPRESS 
+ - 15 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228228015:15 
 
 
  dont 0 lignes OSM sans tracé 
  
 
-# Express 1 
-1 lignes open data 
+# Génovébus 
+9 lignes open data 
+
+ dont 3 manquantes dans OSM 
+ 
+ - S2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010005:S2 
+ - S4 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010005:S4 
+ - S5 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010005:S5 
+
+
+ dont 2 lignes OSM sans tracé 
+ 
+ - 4 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=6785331 
+ - S3 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=6762268 
+
+# KEOLIS MEYER 
+37 lignes open data 
+
+ dont 11 manquantes dans OSM 
+ 
+ - DM5 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055005:DM5 
+ - DM50 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055005:DM50 
+ - DM5S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055005:DM5S 
+ - DM9 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055009:DM9 
+ - DM9S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055009:DM9S 
+ - 17 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055017:17 
+ - S17 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055017:S17 
+ - DM20 S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055020:DM20S 
+ - DM21 S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055021:DM21S 
+ - DM154 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055155001:DM154 
+ - DM151S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055155005:DM151S 
+
+
+ dont 4 lignes OSM sans tracé 
+ 
+ - DM06 A : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9183833 
+ - DM06 B : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9183898 
+ - DM16 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9182058 
+ - DM19 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9832633 
+
+# rbus 
+5 lignes open data 
 
  dont 0 manquantes dans OSM 
  
+
+
+ dont 3 lignes OSM sans tracé 
+ 
+ - E : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9171822 
+ - D : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9228969 
+ - C : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9190795 
+
+# STIVO 
+21 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Bus Haut Val d'Oise 
+7 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 7 lignes OSM sans tracé 
+ 
+ - E : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8450386 
+ - G : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8450382 
+ - C : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8450387 
+ - A : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8450384 
+ - B : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8450383 
+ - F : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8450388 
+ - DIM : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8450385 
+
+# Keolis Seine Val-De-Marne 
+6 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Entre Seine et Forêt 
+11 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Europ'Essonne 
+8 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:111591204:D 
 
 
  dont 0 lignes OSM sans tracé 
@@ -1744,56 +2036,8 @@ Sur un total de 1859 lignes open data:
  - 104 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=11161906 
  - 103 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9185040 
 
-# Europ'Essonne 
-8 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:111591204:D 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Sit'bus 
-8 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 6 lignes OSM sans tracé 
- 
- - 500 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8753596 
- - 501 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8122752 
- - A : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7993124 
- - D : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7993122 
- - B : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7993120 
- - C : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7993121 
-
-# Plaine de Versailles 
-12 lignes open data 
-
- dont 6 manquantes dans OSM 
- 
- - 13 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005013:13 
- - 171 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011171:171 
- - 172 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011172:172 
- - 511 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011511:511 
- - 512 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011512:512 
- - 75 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011750:75 
-
-
- dont 5 lignes OSM sans tracé 
- 
- - 17S : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8054731 
- - 71 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8063062 
- - 77 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9205962 
- - 170 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8060915 
- - 76 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9185838 
-
-# Aubergenville 
-1 lignes open data 
+# Autobus du Fort 
+3 lignes open data 
 
  dont 0 manquantes dans OSM 
  
@@ -1801,38 +2045,7 @@ Sur un total de 1859 lignes open data:
 
  dont 1 lignes OSM sans tracé 
  
- - 40 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8413449 
-
-# Yerres 
-2 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 4 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003004:4 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# RATP 
-307 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Pays Fertois 
-3 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
+ - 703 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9189775 
 
 # Val de Seine 
 19 lignes open data 
@@ -1862,227 +2075,11 @@ Sur un total de 1859 lignes open data:
  - 41 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8060916 
  - 42 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7921016 
 
-# Autobus du Fort 
-3 lignes open data 
+# Service Urbain de Villecresnes 
+1 lignes open data 
 
  dont 0 manquantes dans OSM 
  
-
-
- dont 1 lignes OSM sans tracé 
- 
- - 703 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9189775 
-
-# METRO 
-16 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# KEOLIS MEYER 
-37 lignes open data 
-
- dont 11 manquantes dans OSM 
- 
- - DM5 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055005:DM5 
- - DM50 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055005:DM50 
- - DM5S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055005:DM5S 
- - DM9 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055009:DM9 
- - DM9S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055009:DM9S 
- - 17 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055017:17 
- - S17 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055017:S17 
- - DM20 S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055020:DM20S 
- - DM21 S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055021:DM21S 
- - DM154 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055155001:DM154 
- - DM151S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055155005:DM151S 
-
-
- dont 4 lignes OSM sans tracé 
- 
- - DM06 A : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9183833 
- - DM06 B : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9183898 
- - DM16 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9182058 
- - DM19 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9832633 
-
-# Goëlys 
-20 lignes open data 
-
- dont 10 manquantes dans OSM 
- 
- - 714 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077714:714 
- - 715 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077715:715 
- - 749 B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077749:749B 
- - 749 C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077749:749C 
- - 749 D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077749:749D 
- - 751 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077751:751 
- - 752 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077752:752 
- - 753 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077753:753 
- - 755 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077755:755 
- - 756 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077756:756 
-
-
- dont 7 lignes OSM sans tracé 
- 
- - 701 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8211074 
- - 702 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8258499 
- - 703 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9207454 
- - 704 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8218429 
- - 708 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9235172 
- - 709 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9235191 
- - 711 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8218430 
-
-# Bus Haut Val d'Oise 
-7 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 7 lignes OSM sans tracé 
- 
- - E : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8450386 
- - G : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8450382 
- - C : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8450387 
- - A : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8450384 
- - B : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8450383 
- - F : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8450388 
- - DIM : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8450385 
-
-# Parisis 
-13 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 30-46 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030046:30-46 
-
-
- dont 6 lignes OSM sans tracé 
- 
- - 30-07 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9196816 
- - 30-09 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9196805 
- - 30-10 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9223264 
- - 30-47 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9234799 
- - 30-48 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9233984 
- - 30-49 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8379777 
-
-# SITUS 
-15 lignes open data 
-
- dont 6 manquantes dans OSM 
- 
- - 41 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010240004:41 
- - 42 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010240004:42 
- - 43 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010240004:43 
- - 44 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010240004:44 
- - 45 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010240004:45 
- - 51 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010240005:51 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Houdanais 
-20 lignes open data 
-
- dont 17 manquantes dans OSM 
- 
- - 2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005002:2 
- - 9 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005009:9 
- - 17 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005017:17 
- - 21 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005021:21 
- - 22 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005022:22 
- - 31 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005031:31 
- - 35 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005035:35 
- - 40 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005040:40 
- - 41 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005041:41 
- - 45 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005045:45 
- - 48 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005048:48 
- - 51 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005051:51 
- - 55 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005055:55 
- - 61 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005061:61 
- - 65 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005065:65 
- - 15 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013015:15 
- - 16 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013016:16 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# SAVAC 
-58 lignes open data 
-
- dont 34 manquantes dans OSM 
- 
- - Navette : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039001:Navette 
- - 39-02 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039002:39-02 
- - 39-003 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039003:39-003 
- - 39-27 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039027:39-27 
- - 39-31 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039031:39-31 
- - 39-36 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039036:39-36 
- - 39-28 A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039281:39-28A 
- - 39-28 B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039282:39-28B 
- - 39-28 C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039283:39-28C 
- - 39-28 D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039284:39-28D 
- - 39-28 E : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039285:39-28E 
- - 39-28 F : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039286:39-28F 
- - 39-29-1 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039291:39-29-1 
- - 39-29-2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039292:39-29-2 
- - 39-29-3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039293:39-29-3 
- - 39-29-4 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039294:39-29-4 
- - 39-30 A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039311:39-30A 
- - 39-30 B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039312:39-30B 
- - 39-30 C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039313:39-30C 
- - 39-30 D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039314:39-30D 
- - 39-35 A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039351:39-35A 
- - 39-35 B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039352:39-35B 
- - 39-37 A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039371:39-37A 
- - 39-39 A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039373:39-39A 
- - 39-39 B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039374:39-39B 
- - 39-40 A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039375:39-40A 
- - 39-40 B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039376:39-40B 
- - 39-40 C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039377:39-40C 
- - 39-40 D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039378:39-40D 
- - 39-07 A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039701:39-07A 
- - 39-07 B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039702:39-07B 
- - 39-07 C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039703:39-07C 
- - 39-07 D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039704:39-07D 
- - 263 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039262263:263 
-
-
- dont 5 lignes OSM sans tracé 
- 
- - 39-05 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9259892 
- - 39-18 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9261401 
- - 39-37 B : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9675493 
- - Bel Air : https://ref-lignes-stif.5apps.com/line.html?osm_relation=11696066 
- - 261 : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9259815 
-
-# STIVO 
-21 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Busval d'Oise 
-32 lignes open data 
-
- dont 7 manquantes dans OSM 
- 
- - 9522 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011195022:9522 
- - 9523 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011195023:9523 
- - 9524 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011195024:9524 
- - 9525 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011195025:9525 
- - 95-26 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030195026:95-26 
- - 95-10 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:046195010:95-10 
- - 95-44 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:251195044:95-44 
 
 
  dont 0 lignes OSM sans tracé 

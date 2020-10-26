@@ -63,6 +63,16 @@
                 "continueJob": [0]
             }
         }, {
+            "name": "extraction des routepoints focus",
+            "executor": "shell",
+            "command": "factotum run focus/focus.factfile",
+            "arguments": [],
+            "dependsOn": ["calcul des routepoints"],
+            "onResult": {
+                "terminateJobWithSuccess": [],
+                "continueJob": [0]
+            }
+        }, {
             "name": "mise à jour Osmose",
             "executor": "shell",
             "command": "factotum run osmose/osmose.factfile",

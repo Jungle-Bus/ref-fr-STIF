@@ -57,8 +57,9 @@ for a_network in networks:
 
     if osm_missing_shapes_of_this_network:
         for elem in osm_missing_shapes_of_this_network:
-            link = "https://ref-lignes-stif.5apps.com/line.html?osm_relation={}".format(elem['osm_line_id'].split(':')[-1])
-            content += " - {} : {} \n".format(elem['opendata_line_name'], link )
+            osm_link = "https://ref-lignes-stif.5apps.com/line.html?osm_relation={}".format(elem['osm_line_id'].split(':')[-1])
+            link = "https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:{}".format(elem['opendata_line_id'])
+            content += " - [{}]({}) : {} \n".format(elem['opendata_line_name'], link, osm_link )
 
 
 

@@ -20,7 +20,7 @@ tail -n +2 gtfs_audit_routepoints_3.csv >> gtfs_audit_gtfs_routepoints.csv
 
 echo "##### on affiche les informations sur la ligne #####"
 xsv join route_id gtfs_audit_gtfs_routepoints.csv route_id gtfs_routes.txt | xsv select stop_id,route_id,route_wheelchair,ZDEr_ID_REF_A,stop_name,stop_lat,stop_lon,stop_wheelchair,dest_name,route_short_name,agency_id,route_type |xsv search -s route_type 3 |xsv select '!route_type' > gtfs_audit_routepoints_with_code.csv
-xsv join agency_id gtfs_audit_routepoints_with_code.csv agency_id gtfs_agency.txt | xsv sort -s ZDEr_ID_REF_A |xsv sort -s agency_name | xsv select stop_id,route_id,route_wheelchair,ZDEr_ID_REF_A,stop_name,stop_lat,stop_lon,stop_wheelchair,dest_name,route_short_name,agency_name > opendata_routepoints.csv
+xsv join agency_id gtfs_audit_routepoints_with_code.csv agency_id gtfs_agency.txt | xsv sort -s route_id,dest_name,ZDEr_ID_REF_A | xsv select stop_id,route_id,route_wheelchair,ZDEr_ID_REF_A,stop_name,stop_lat,stop_lon,stop_wheelchair,dest_name,route_short_name,agency_name > opendata_routepoints.csv
 
 echo "##### on nettoie les fichiers temporaires #####"
 rm gtfs_audit_*

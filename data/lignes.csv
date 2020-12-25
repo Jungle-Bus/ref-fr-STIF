@@ -61,7 +61,7 @@ Line:relation:1086444,73,Bus 73 : La Garenne-Colombes - Place de Belgique ↔ Mu
 Line:relation:1086445,72,Bus 72 : Parc de Saint-Cloud ↔ Gare de Lyon,RATP,RATP,#EE1B29,route_master,bus,100100072:72
 Line:relation:1086590,70,Bus 70 : Suresnes – De Gaulle ↔ Porte de Passy ↔ Hôtel de Ville,RATP,RATP,#F78F4B,route_master,bus,100100070:70
 Line:relation:1102964,106,Bus 106 : Joinville le Pont ↔ Villiers sur Marne,RATP,RATP,#ED1B2A,route_master,bus,100100106:106
-Line:relation:1104709,138,Bus 138: Gare d'Ermont-Eaubonne RER ↔ Porte de Clichy,RATP,RATP,#BB4A9B,route_master,bus,100100138:138
+Line:relation:1104709,138,Bus 138: Gare d'Ermont-Eaubonne RER ↔ Saint-Ouen RER,RATP,RATP,#BB4A9B,route_master,bus,100100138:138
 Line:relation:1240537,201,Bus 201 : Gare de Marolles-en-Hurepoix ↔ Collège Doisneau,Val d'Essonne,Transdev CEAT,,route_master,bus,010018010:201
 Line:relation:1245875,88,Bus 88 : Porte d'Auteuil ↔ Montsouris - Tombe Issoire,RATP,RATP,#CEC92A,route_master,bus,100100088:88
 Line:relation:1246520,95,Bus 95 : Porte de Montmartre ↔ Porte de Vanves,RATP,RATP,#8D653A,route_master,bus,100100095:95
@@ -401,7 +401,7 @@ Line:relation:6886101,422,Bus 422 : Gare de La Verrière ↔ Les Côtes,SQYBus,S
 Line:relation:6886129,414,Bus 414 : Gare de Trappes ↔ Pas du Lac,SQYBus,SQYBus,#d69a57,route_master,bus,230410414:414
 Line:relation:6904183,J,Transilien J,Transilien,SNCF,#C6CC00,route_master,train,800:J
 Line:relation:6907402,T3a,Tramway T3a : Pont du Garigliano-(Hopital Européen Georges Pompidou) ↔ Porte de Vincennes,RATP,RATP,#F68C59,route_master,tram,100112013:T3A
-Line:relation:6910344,T4,Tram 4 : Aulnay-sous-Bois ↔ Bondy,Transilien,SNCF,#F2AF00,route_master,tram,800:T4
+Line:relation:6910344,T4,Tram 4 : Bondy ↔ Aulnay-sous-Bois / Hôpital de Montfermeil,Transilien,SNCF,#F2AF00,route_master,tram,800:T4
 Line:relation:6910410,T5,Tramway T5 : Marché de Saint-Denis ↔ Gare de Garges - Sarcelles RER,RATP,RATP,#B156A1,route_master,tram,100112015:T5
 Line:relation:6910437,T6,Tramway T6 : Châtillon–Montrouge ↔ Viroflay Rive Droite,RATP,RATP,#E85426,route_master,tram,100112016:T6
 Line:relation:6910465,T7,Tramway T7 : Villejuif-Louis Aragon ↔ (Athis-Mons) Porte de l'Essonne,RATP,RATP,#B98B59,route_master,tram,100112017:T7
@@ -578,7 +578,7 @@ Line:relation:7442593,38,Bus 38 : Cergy Préfecture ↔ Menucourt La Taillette,S
 Line:relation:7444602,105,Bus 105 : Porte des Lilas ↔ Mairie des Pavillons-sous-Bois,RATP,RATP,#f68b4b,route_master,bus,100100105:105
 Line:relation:7447451,30,Bus 30 (circulaire) : Pontoise Gare Canrobert → Cergy Préfecture → Les Bocages → Cergy Préfecture → Pontoise Gare Canrobert,STIVO,STIVO,#ED7FB1,route_master,bus,059440030:30
 Line:relation:7447656,107,Bus 107 : ZI Croix Blanche (Sainte-Geneviève des Bois) ↔ Gare de Massy-Palaiseau,CEAT Val d'Orge,Transdev CEAT,#0166ff,route_master,bus,010010007:107
-Line:relation:7447705,237,Bus 237 : Épinay-sur-Seine RER ↔ Mairie de Saint-Ouen,RATP,RATP,#CD78BD,route_master,bus,100100237:237
+Line:relation:7447705,237,Bus 237 : Épinay-sur-Seine RER ↔ Porte de Saint-Ouen - Hôpital Bichat,RATP,RATP,#CD78BD,route_master,bus,100100237:237
 Line:relation:7447787,6,Bus 6 : Chessy Gares ↔ Gare d'Esbly,Pep's,Transdev Marne et Morin,#95C086,route_master,bus,067067006:6
 Line:relation:7448624,95-47,Bus 95-47 : Saint-Cyr-en-Arthies ↔ BRAY-ET-LÛ Collège,Busval d'Oise,Tim Bus,#577C5F,route_master,bus,251195047:95-47
 Line:relation:7449948,95-17,Bus 95-17 : Gendarmerie ↔ Cergy Préfecture,Busval d'Oise,Ceobus,#FF80FF,route_master,bus,025195017:95-17
@@ -646,7 +646,6 @@ Line:relation:7757955,25,Bus 25 : Villiers-le-Bel RER ↔ Zone Industrielle,Tran
 Line:relation:7779421,330,Bus 330 : Fort d’Aubervilliers ↔ Raymond Queneau - Anatole France (Bobigny),RATP,RATP,,route_master,bus,100100330:330
 Line:relation:7781376,254,Bus 254 : Gare d'Enghien-Les-Bains ↔ Gare de Saint-Denis RER,RATP,RATP,#CEC92A,route_master,bus,100100254:254
 Line:relation:7781895,512,Bus 512 : Front Populaire-Gardinoux ↔ Mairie d'Aubervilliers,RATP,RATP,,route_master,bus,100100512:512
-Line:relation:7782019,528,Bus 528 : Porte de Clichy ↔ Gare Saint-Lazare,RATP,RATP,#F6837E,route_master,bus,100100528:528
 Line:relation:7783242,340,Bus 340 : Clichy - Berges de Seine ↔ Asnières-Gennevilliers-Les Courtilles ↔ Gare d'Argenteuil,RATP,RATP,#F59EB3,route_master,bus,100100340:340
 Line:relation:7783262,349,Bus 349 : Parc des Expositions RER ↔ Route de l'Arpenteur-ADP,RATP,RATP,#77C695,route_master,bus,100100349:349
 Line:relation:7784991,426,Bus 426 : Gare de La Celle-Saint-Cloud ↔ Pont de Sèvres,Traverciel,RATP,#8D653A,route_master,bus,100100426:426
@@ -1446,3 +1445,4 @@ Line:relation:11267377,12,Bus 12 : Quartier du Bois Fleuri (Claye-Souilly) ↔ G
 Line:relation:11281326,50,Bus 50 : Poissy Aval 2 Rive de Seine,Poissy Aval - 2 Rives de Seine,CSO,,route_master,bus,
 Line:relation:11696066,Bel Air,Navette Bel-Air,SAVAC,SAVAC,,route_master,bus,039039999:BelAir
 Line:relation:11874328,,Tram T12 Express : Évry-Courcouronnes ↔ Massy - Palaiseau,,,,route_master,construction,
+Line:relation:12039874,95-51,Bus 95-51 : Nucourt - Wenings ↔ Magny-en-Vexin - Gare Routière,Busval d'Oise,TIM bus,,route_master,bus,

@@ -257,7 +257,7 @@ Route:relation:1535454,Noctilien N11: Pont de Neuilly → Château de Vincennes,
 Route:relation:1535455,Noctilien N133: Gare de Lyon → Marché de Juvisy,N133,Marché de Juvisy,Noctilien
 Route:relation:1535456,Noctilien N31 : Gare de Lyon → Aéroport d'Orly-Terminal Sud,N31,Aéroport d'Orly-Terminal Sud,Noctilien
 Route:relation:1535457,Noctilien N131: Gare de Lyon → Brétigny RER,N131,Brétigny RER,Noctilien
-Route:relation:1535992,La Navette de Vanves,Vanves,Gare de Vanves,Grand Paris Seine Ouest
+Route:relation:1535992,La Navette de Vanves (circular),Vanves,Gare de Vanves,Grand Paris Seine Ouest
 Route:relation:1537047,Noctilien N15 : Asnières–Gennevilliers – Gabriel Péri → Villejuif – Louis Aragon,N15,Villejuif – Louis Aragon,Noctilien
 Route:relation:1539914,Bus 107 : Saint-Maur–La Pie → École Vétérinaire de Maisons-Alfort,107,Ecole Vétérinaire de Maisons-Alfort,RATP
 Route:relation:1540144,Bus 107 : École Vétérinaire de Maisons-Alfort → Saint-Maur–La Pie,107,Saint-Maur,RATP
@@ -769,8 +769,8 @@ Route:relation:4651170,Bus 366 : Asnières - Bords de Seine → Église de Colom
 Route:relation:4651516,Bus 566 : Rue de l'Industrie → Église de Colombes,566,,RATP
 Route:relation:4659041,Bus 235 : Asnières - Gennevilliers - Gabriel Péri → Colombes - Europe,235,Europe,RATP
 Route:relation:4659042,Bus 235 : Colombes - Europe → Asnières - Gennevilliers - Gabriel Péri,235,Gabriel Péri-Métro,RATP
-Route:relation:4663476,Bus 140 : Asnières-Gennevilliers - Gabriel Péri → Hôtel de Ville d'Argenteuil → Gare d'Argenteuil,140,,RATP
-Route:relation:4663477,Bus 140 : Gare d'Argenteuil → Hôtel de Ville d'Argenteuil → Asnières-Gennevilliers - Gabriel Péri,140,,RATP
+Route:relation:4663476,Bus 140 : Clichy-Berges de Seine → Gare d'Argenteuil,140,Gare d'Argenteuil,RATP
+Route:relation:4663477,Bus 140 : Gare d'Argenteuil → Clichy-Berges de Seine,140,Clichy - Berges de Seine,RATP
 Route:relation:4663564,Bus 566 : Église de Colombes → Rue de l'Industrie,566,,RATP
 Route:relation:4674747,Bus 278 : La Défense → Bois-Colombes - Les Bruyères,278,,RATP
 Route:relation:4736655,Bus 368 : Gare de Garges–Sarcelles RER → Place du Souvenir Français,368,Place du Souvenir Français,RATP
@@ -1361,8 +1361,8 @@ Route:relation:7779419,Bus 330 : Raymond Queneau - Anatole France (Bobigny) → 
 Route:relation:7779420,Bus 330 : Fort d’Aubervilliers → Raymond Queneau - Anatole France (Bobigny),330,Raymond Queneau - Anatole France (Bobigny),RATP
 Route:relation:7781894,Bus 512 : Mairie d'Aubervilliers → Front Populaire-Gardinoux,512,,RATP
 Route:relation:7781935,Bus TillBus : Place du Vél' d'Hiv' (circulaire),515,,RATP
-Route:relation:7783229,Bus 340 : Gare d'Argenteuil → Asnières-Gennevilliers-Les Courtilles → Clichy-Berges de Seine,340,Clichy - Berges de Seine,RATP
-Route:relation:7783241,Bus 340 : Clichy-Berges de Seine → Asnières-Gennevilliers-Les Courtilles → Gare d'Argenteuil,340,Gare d'Argentueil,RATP
+Route:relation:7783229,Bus 340 : Gare d'Argenteuil → Asnières-Gennevilliers-Gabriel Péri,340,Clichy - Berges de Seine,RATP
+Route:relation:7783241,Bus 340 : Asnières-Gennevilliers-Gabriel Péri → Gare d'Argenteuil,340,Gare d'Argenteuil,RATP
 Route:relation:7783250,Bus 349 : Parc des Expositions RER → Route de l'Arpenteur-ADP,349,Route de l'Arpenteur-ADP,RATP
 Route:relation:7783261,Bus 349 : Route de l'Arpenteur-ADP → Parc des Expositions RER,349,Parc des Expositions RER,RATP
 Route:relation:7783413,Bus 24 via : Gare de Marne la Vallée Chessy → Île de Loisirs,24,Île de Loisirs,Pep's
@@ -3454,9 +3454,8 @@ Route:relation:11064396,Bus 14 : Gare de Neuville-Université → Gare de Confla
 Route:relation:11068373,"Bus 95-44 : Saint-Cyr-en-Arthies, Place ⟷ Magny-en-Vexin, Gare Routière",95-44,"Magny-en-Vexin, Gare Routière",Busval d'Oise
 Route:relation:11068420,"Flixbus 793: Lissabon, Busbahnhof Oriente => Paris, Bercy Seine",793,"Paris, Bercy Seine",Flixbus
 Route:relation:11068421,"Flixbus 793: Paris, Bercy Seine => Lissabon, Busbahnhof Oriente",793,"Lissabon, Busbahnhof Oriente",Flixbus
-Route:relation:11074039,Bus 95-43: Magny-en-Vexin Gare routière → Etrez → Villers-en-Arthies,95-43,Villers-en-Arthies,Busval d'Oise
-Route:relation:11074040,Bus 95-43: Villers-en-Arthies → Etrez → Magny-en-Vexin Gare routière,95-43,Magny-en-Vexin Gare routière,Busval d'Oise
-Route:relation:11074041,Bus 95-43: Demi-Lune → Magny-en-Vexin,95-43,Magny-en-Vexin,Busval d'Oise
+Route:relation:11074039,Bus 95-43 : Magny-en-Vexin - Gare routière → Chérence - Foyer Rural,95-43,Chérence - Foyer Rural,Busval d'Oise
+Route:relation:11074040,Bus 95-43 : Chérence - Foyer Rural → Magny-en-Vexin - Gare routière,95-43,Magny-en-Vexin - Gare routière,Busval d'Oise
 Route:relation:11161731,Bus G2 : Gare de Villeneuve-Saint-Georges → Gare de Villeneuve-Saint-Georges,G2,Gare de Villeneuve-Saint-Georges,VyBus
 Route:relation:11161732,Bus G1 : Gare de Villeneuve-Saint-Georges → Gare de Villeneuve-Saint-Georges,G1,Gare de Villeneuve-Saint-Georges,VyBus
 Route:relation:11161902,Bus 104 : 20 Rue Panserot (Lardy) → Porte d’Étampes (Arpajon),104,Porte d’Étampes (Arpajon),Arpajonnais
@@ -3527,3 +3526,7 @@ Route:relation:12099111,Bus 95-48 : Cergy - Lycée Saint-Christophe → Vauréal
 Route:relation:12099225,Bus 95-48 : Bray et Lû - Place du 19 Mai 1962 → Saint-Gervais - Archemont → Magny-en-Vexin - Gare Routière,95-48,Magny-en-Vexin - Gare Routière,Busval d'Oise
 Route:relation:12099693,Bus 95-49 : Saint-Gervais - Archemont → Magny-en-Vexin - Gare Routière,95-49,Magny-en-Vexin - Gare Routière,Busval d'Oise
 Route:relation:12099981,Bus 95-48 : Magny-en-Vexin - Gare Routière → Saint-Clair-sur-Epte - Breuil → Saint-Clair-sur-Epte - Bois-Saint-Clair,95-48,Saint-Clair-sur-Epte - Bois-Saint-Clair,Busval d'Oise
+Route:relation:12148255,Bus 95-44 : Villiers en Arthies - Saint Léger → Magny-en-Vexin - Gare routière,95-44,Magny-en-Vexin - Gare routière,Busval d'Oise
+Route:relation:12148256,Bus 95-44 : Magny-en-Vexin - Gare routière →  Villiers en Arthies - Saint Léger,95-44,Villiers en Arthies - Saint Léger,Busval d'Oise
+Route:relation:12148443,Bus 140 : Gare d'Argenteuil → Mairie de Saint-Ouen-Dhalenne,140,Mairie de Saint-Ouen-Dhalenne,RATP
+Route:relation:12148656,Bus 140 : Mairie de Saint-Ouen-Dhalenne → Gare d'Argenteuil,140,Gare d'Argenteuil,RATP

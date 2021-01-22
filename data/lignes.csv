@@ -803,7 +803,7 @@ Line:relation:7921044,227-02A,Bus 227-02A : Brétigny-sur-Orge Gare Place (circu
 Line:relation:7921045,59,Bus 59 : Gare de Marne-la-Vallée - Chessy ↔ Camping,Grand Morin,Transdev Marne et Morin,,route_master,bus,067067059:59
 Line:relation:7921046,8A,Bus 8A : Gare de Crécy-la-Chapelle (circulaire),Marne et Morin,Transdev Marne et Morin,,route_master,bus,067067008:8A
 Line:relation:7921047,60,Bus 60 : Gare de Val d'Europe (Serris) ↔ Rue Philo (Quincy-Voisins),Pays Créçois,Transdev Marne et Morin,,route_master,bus,067067060:60
-Line:relation:7921048,57,Bus 57 : Gare d'Esbly ↔ Gare de Marne la Vallée Chessy,Marne et Morin,Transdev Marne et Morin,,route_master,bus,067067057:57
+Line:relation:7921048,57,Bus 57 : Gare d'Esbly ↔ Gare de Marne la Vallée Chessy,Pays Créçois,Marne et Morin,,route_master,bus,067067057:57
 Line:relation:7921049,La Traverse,Bus La Traverse de Charonne (501) : Gambetta ↔ Pyrenées - Docteur Netter,RATP,RATP,#006DB8,route_master,bus,100100501:CHARONN
 Line:relation:7921050,Vanves,La Navette de Vanves,Grand Paris Seine Ouest,SAVAC,#ED145B,route_master,bus,039039001:Vanves
 Line:relation:7921051,203,Bus 203 : Gare de Ballancourt (circulaire),Val d'Essonne,Transdev CEAT,,route_master,bus,010018012:203
@@ -1385,11 +1385,11 @@ Line:relation:9926923,41,bus 41 : Gare de Lizy sur Ourcq (Lizy-sur-Ourcq) ↔ Ch
 Line:relation:9927796,42,bus 42 : Gare de Lizy sur Ourcq (Lizy-sur-Ourcq) ↔ Chambardy (Dhuisy),Pays de l'Ourcq,Marne et Morin,#fcb43b,route_master,bus,067067042:42
 Line:relation:9927828,54bis,bus 54bis : La Chaussée (Crouy-sur-Ourcq) ↔ Gare de Crouy sur Ourcq (Crouy-sur-Ourcq),Pays de l'Ourcq,Marne et Morin,#b18a80,route_master,bus,067067054:54bis
 Line:relation:9928038,63,bus 63 : Lotissements de Condé (Mary-sur-Marne) ↔ Gare de Meaux (Meaux),Pays de l'Ourcq,Marne et Morin,#229db3,route_master,bus,067067063:63
-Line:relation:9939271,18,bus 18 : Henri IV / Cinéma (Meaux) ↔ Gare de Crécy la Chapelle (Crécy-la-Chapelle),Pays Créçois,Marne et Morin,#38419b,route_master,bus,067067018:18
+Line:relation:9939271,18,Bus 18 : Henri IV / Cinéma (Meaux) ↔ Gare de Crécy-la-Chapelle,Pays Créçois,Marne et Morin,#38419b,route_master,bus,067067018:18
 Line:relation:9941723,21,bus 21 : Gallieni (Nanteuil-lès-Meaux) ↔ Centre (Villemareuil),Pays Créçois,Marne et Morin,#be4999,route_master,bus,067067021:21
-Line:relation:9941798,71,bus 71 : Gare de Crécy la Chapelle (Crécy-la-Chapelle) ↔ La Chapelle / Château (Crécy-la-Chapelle),Pays Créçois,Marne et Morin,#ef4b72,route_master,bus,067067071:71
+Line:relation:9941798,71,Bus 71 : Gare de Crécy-la-Chapelle ↔ La Chapelle / Château (Crécy-la-Chapelle),Pays Créçois,Marne et Morin,#ef4b72,route_master,bus,067067071:71
 Line:relation:9943735,70,bus 70 : Collège (Saint-Germain-sur-Morin) ↔ Église (La Haute-Maison),Pays Créçois,Marne et Morin,#69bf77,route_master,bus,067067070:70
-Line:relation:9943766,58,bus 58 : Gare de Val d'Europe (Serris) ↔ Gare de Crécy la Chapelle (Crécy-la-Chapelle),Pays Créçois,Marne et Morin,#28636f,route_master,bus,067067058:58
+Line:relation:9943766,58,Bus 58 : Gare de Val d'Europe (Serris) ↔ Gare de Crécy la Chapelle (Crécy-la-Chapelle),Pays Créçois,Marne et Morin,#28636f,route_master,bus,067067058:58
 Line:relation:9946370,710,bus 710 : Gare de Dammartin Juilly Saint-Mard (Saint-Mard) ↔ Église Saint-Étienne (Juilly),Goëlys,Keolis CIF,#ffdd00,route_master,bus,014077710:710
 Line:relation:9946409,707,bus 707 : Gare de Dammartin Juilly Saint-Mard (Saint-Mard) ↔ Église (Rouvres),Goëlys,Keolis CIF,#76b82a,route_master,bus,014077707:707
 Line:relation:9947937,705,bus 705 : Gare de Dammartin Juilly Saint-Mard (Saint-Mard) ↔ Gros Merisier (Oissery),Goëlys,Keolis CIF,#00b1eb,route_master,bus,014077705:705
@@ -1447,6 +1447,6 @@ Line:relation:11696066,Bel Air,Navette Bel-Air,SAVAC,SAVAC,,route_master,bus,039
 Line:relation:11874328,,Tram T12 Express : Évry-Courcouronnes ↔ Massy - Palaiseau,,,,route_master,construction,
 Line:relation:12039874,95-51,Bus 95-51 : Nucourt - Wenings ↔ Magny-en-Vexin - Gare Routière,Busval d'Oise,TIM bus,,route_master,bus,
 Line:relation:12091593,95-50,Bus 95-50 : Magny-en-Vexin - Gare Routière ↔ Cergy-Pontoise,Busval d'Oise,Tim Bus,,route_master,bus,
-Line:relation:12099692,95-49,Bus 95-49 : Bray-et-Lû - Place du 19 mai 1962 ↔ Magny-en-Vexin - Gare Routière,Busval d'Oise,TIM Bus,,route_master,bus,
+Line:relation:12099692,95-49,Bus 95-49 : Bray-et-Lû - Place du 19 Mai 1962 ↔ Magny-en-Vexin - Gare Routière,Busval d'Oise,TIM Bus,,route_master,bus,
 Line:relation:12142601,L,Transilien L (Groupe III),Transilien,SNCF,#7577c0,route_master,train,
 Line:relation:12148257,95-44,Bus 95-44 : Villiers en Arthies - Saint Léger ↔ Magny-en-Vexin - Gare routière,Busval d'Oise,TIM Bus,,route_master,bus,

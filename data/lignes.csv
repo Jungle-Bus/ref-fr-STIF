@@ -390,7 +390,7 @@ Line:relation:6860704,Tvm,Bus Tvm : Antony-La Croix de Berny RER ↔ Saint-Maur 
 Line:relation:6867541,191.100,Bus Express 191.100 : Gare de Yerres ↔ M.I.N. (Chevilly-Larue - Rungis),Keolis Orly Rungis,Keolis Orly Rungis,#0097d8,route_master,bus,287191100:191-100
 Line:relation:6867574,91-09,Bus Express 91-09 : Gare Routière de Yerres ↔ Gare Routière d'Évry,Albatrans,Albatrans,#0097d8,route_master,bus,291191009:91-09
 Line:relation:6880011,95-04,Bus 95-04 : Bray et Lû ↔ Cergy Préfecture,Busval d'Oise,TIM Bus,#1AC7FF,route_master,bus,251195004:95-04
-Line:relation:6880695,95-11,Bus 95-11 : Aincourt ↔ Mantes-la-Jolie,Busval d'Oise,TIM Bus,#BF008F,route_master,bus,251195011:95-11
+Line:relation:6880695,95-11,Bus 95-11 : Bray-et-Lû - Place du 19 Mai 1962 ↔ Mantes-la-Jolie - Gare,Busval d'Oise,TIM Bus,#BF008F,route_master,bus,251195011:95-11
 Line:relation:6881771,95-24,Bus 95-24 : Moussy ↔ Ableige ↔ Us ↔ Vigny,Busval d'Oise,Transdev Île-de-France Ecquevilly,#998eb8,route_master,bus,011195024:95-24
 Line:relation:6883259,305,Bus 305 : Henri Barbusse - Gare RER de Corbeil Essonnes ↔ Juvisy Gare Routière Seine,Seine Essonne Bus,Keolis Seine Essonne,,route_master,bus,024309305:305
 Line:relation:6883314,Licorne,Bus Licorne : Foyer Jean Rostand (circulaire),Athis Cars,Keolis Seine Val-de-Marne,#D6188A,route_master,bus,002002001:LIC
@@ -1321,7 +1321,7 @@ Line:relation:9438601,40,Bus 40 : Creil ↔ Senlis ↔ Roissy,Réseau Régional 
 Line:relation:9447998,95-09,Bus 95-09 : Villiers-Adam ↔ Domont,Busval d'Oise,Keolis CIF,,route_master,bus,046195009:95-09
 Line:relation:9450752,95-45,Bus 95-45 : Wy-dit-Joli-Village - Enfer Centre ↔ Magny-en-Vexin - Gare Routière,Busval d'Oise,TIM Bus,#73800D,route_master,bus,251195045:95-45
 Line:relation:9464254,95-22,Bus 95-22 : Pontoise Gare ↔ Place de la Fontaine (Seraincourt),Busval d'Oise,Transdev Île-de-France Ecquevilly,#0D99BF,route_master,bus,011195022:95-22
-Line:relation:9501845,5,Bus Transilien 5 : Gare de Conflans-Sainte-Honorines Gare de Mantes-La-Jolie,Transilien,Transilien,,route_master,bus,
+Line:relation:9501845,5,Bus Transilien 5 : Gare de Conflans-Sainte-Honorines Gare de Mantes-La-Jolie,Transilien,Transilien,,route_master,bus,101261027:5
 Line:relation:9644838,29,Bus 29 : Pontoise Gare ↔ Neuville RER,STIVO,STIVO,,route_master,bus,059440029:29
 Line:relation:9674065,7002,Bus 7002 : Le Saulchoir ↔ Gare Évry - Courcouronnes,Cars Soeur,Cars Soeur,,route_master,bus,070070002:7002
 Line:relation:9675493,39-37 B,Bus 39-37 B : MLK - LFA ↔ Ferme,SAVAC,SAVAC,,route_master,bus,039039372:39-37B
@@ -1444,9 +1444,10 @@ Line:relation:11267377,12,Bus 12 : Quartier du Bois Fleuri (Claye-Souilly) ↔ G
 Line:relation:11281326,50,Bus 50 : Poissy Aval 2 Rive de Seine,Poissy Aval - 2 Rives de Seine,CSO,,route_master,bus,
 Line:relation:11696066,Bel Air,Navette Bel-Air,SAVAC,SAVAC,,route_master,bus,039039999:BelAir
 Line:relation:11874328,,Tram T12 Express : Évry-Courcouronnes ↔ Massy - Palaiseau,,,,route_master,construction,
-Line:relation:12039874,95-51,Bus 95-51 : Nucourt - Wenings ↔ Magny-en-Vexin - Gare Routière,Busval d'Oise,TIM bus,,route_master,bus,
+Line:relation:12039874,95-51,Bus 95-51 : Nucourt - Wenings ↔ Magny-en-Vexin - Gare Routière,Busval d'Oise,TIM bus,,route_master,bus,251195051:95-51
 Line:relation:12091593,95-50,Bus 95-50 : Magny-en-Vexin - Gare Routière ↔ Cergy-Pontoise,Busval d'Oise,Tim Bus,,route_master,bus,
 Line:relation:12099692,95-49,Bus 95-49 : Bray-et-Lû - Place du 19 Mai 1962 ↔ Magny-en-Vexin - Gare Routière,Busval d'Oise,TIM Bus,,route_master,bus,
 Line:relation:12142601,L,Transilien L (Groupe III),Transilien,SNCF,#7577c0,route_master,train,
 Line:relation:12148257,95-44,Bus 95-44 : Villiers en Arthies - Saint Léger ↔ Magny-en-Vexin - Gare routière,Busval d'Oise,TIM Bus,,route_master,bus,
 Line:relation:12246757,95-23,Bus 95-23 : Banthelu - Eglise ↔ Cergy-Le-Haut,Busval d'Oise,Transdev,,route_master,bus,
+Line:relation:12282982,95-15,Bus 95-15 : Aincourt - Les Cadenas  ↔ Mantes-la-Jolies - Gare,Busval d'Oise,TIM Bus,#9b2078,route_master,bus,

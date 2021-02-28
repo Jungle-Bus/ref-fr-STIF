@@ -11,7 +11,7 @@ before_install:
   - osm_transit_extractor --version
 
 script:
-  - cd .. && factotum run run_all.factfile
+  - cd .. && ./run_all.sh
 
 deploy:
   provider: pages

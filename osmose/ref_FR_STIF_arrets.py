@@ -49,10 +49,12 @@ def generate_osmose_errors_for_stops():
 def generate_osmose_errors_for_routepoints():
     errors = []
     all_ref_STIF = {}
+    all_lines_ref_STIF = set()
     with open('../data/opendata_routepoints.csv', 'r') as f:
         reader = csv.DictReader(f)
         for row in reader :
             all_ref_STIF.setdefault(row["ZDEr_ID_REF_A"],set()).add(row["route_id"])
+            all_lines_ref_STIF.add(row["route_id"])
 
     ref_STIF_list = all_ref_STIF.keys()
 
@@ -71,14 +73,16 @@ def generate_osmose_errors_for_routepoints():
             osm_ref = row['osm:ref:FR:STIF']
             all_osm_ref = osm_ref.split(';')
             noexistant_ref = [elem for elem in all_osm_ref if elem not in ref_STIF_list]
-            if noexistant_ref: #already covered by the test on the stops
-                continue
+            if noexistant_ref: 
+                continue #already covered by the test on the stops
             lines_ok_for_this_ref = [all_ref_STIF[a_ref] for a_ref in all_osm_ref if a_ref in ref_STIF_list]
             flat_list_lines_ok = [item for sublist in lines_ok_for_this_ref for item in sublist]
             if not flat_list_lines_ok :
                 continue
 
             osm_line_ref = row['osm:ref:FR:STIF:ExternalCode_Line']
+            if osm_line_ref not in all_lines_ref_STIF:
+                continue #already covered by the test on the lines
             if osm_line_ref not in flat_list_lines_ok:
                 label = "Pour cet arrêt de ref:FR:STIF {} l'association avec la ligne {} est à vérifier".format(osm_ref, osm_line_ref)
                 label += " https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id={}".format(error['id'])

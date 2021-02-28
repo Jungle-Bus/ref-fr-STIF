@@ -14,4 +14,4 @@ cat osm-transit-extractor_lines.csv \
  |xsv search -s network 'TransCape' -v | xsv search -s network Balabus -v \
  |xsv search -s network 'Big Bus' -v| xsv search -s network 'Carré 92' -v \
  |xsv search -s network 'Vexin Bus' -v | xsv search -s network "Plus de Pep's" -v \
- |xsv select line_id,code,name,network,operator,colour,osm:type,mode,osm:ref:FR:STIF:ExternalCode_Line
+ |xsv select line_id,code,name,network,operator,colour,osm:type,mode,osm:ref:FR:STIF:ExternalCode_Line,osm:ref:FR:STIF

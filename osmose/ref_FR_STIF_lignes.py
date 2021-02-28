@@ -122,8 +122,60 @@ def generate_osmose_errors_for_lines():
 
     errors = get_errors(osm_lines, opendata_lines, stats, osm_line_coords)
     return errors
+    
+def generate_osmose_additional_errors_for_lines():
+    #TODO : à mutualiser proprement avec l'autre fonction
+    osm_lines = get_lines_from_csv('../data/lignes.csv')
+    line_coords = get_lines_from_csv('../data/osmose_relations_with_coord.csv')
+    
+    errors = []
+    opendata_deduplicated = []
+    for an_osm_line in osm_lines:
+        an_osm_line['osm_id'] = an_osm_line['line_id'].split(':')[-1]
+
+        line_with_coords = [a_line for a_line in line_coords if a_line['line_id'] == an_osm_line['line_id']]
+        if not line_with_coords:
+            line_with_coords = [{'lon': '2.249699', 'lat': '48.562577'}]
+        an_osm_line['latitude'], an_osm_line['longitude'] = line_with_coords[0]['lat'], line_with_coords[0]['lon']
+
+        if not an_osm_line['osm:ref:FR:STIF']:
+            continue
+        
+        osm_ref = an_osm_line['osm:ref:FR:STIF']
+        
+        if not osm_ref.startswith("C"):
+            error = {"id": an_osm_line['osm_id']}
+            error['label'] = "L'attribut ref:FR:STIF ({}) est invalide, il devrait commencer par un C.".format(
+                osm_ref)
+            error['lat'], error['lon'] = an_osm_line['latitude'], an_osm_line['longitude']
+            errors.append(error)
+            continue
+
+        try :
+            int(osm_ref[1:])
+        except ValueError :
+            error = {"id": an_osm_line['osm_id']}
+            error['label'] = "L'attribut ref:FR:STIF ({}) est invalide, il devrait être constitué d'un C suivi d'une série de chiffres.".format(
+                osm_ref)
+            error['lat'], error['lon'] = an_osm_line['latitude'], an_osm_line['longitude']
+            errors.append(error)
+            continue                 	
+            
+        if osm_ref not in opendata_deduplicated:
+            opendata_deduplicated.append(osm_ref)
+
+        else:
+            error = {"id": an_osm_line['osm_id']}
+            error['label'] = "Il y a plusieurs lignes dans OSM qui ont ce même ref:FR:STIF ({})".format(
+                osm_ref)
+            error['lat'], error['lon'] = an_osm_line['latitude'], an_osm_line['longitude']
+            errors.append(error)
+            continue
+    return errors
+
 
 if __name__ == '__main__':
+    #errors = generate_osmose_additional_errors_for_lines()
     errors = generate_osmose_errors_for_lines()
     for an_error in errors:
         print(an_error)

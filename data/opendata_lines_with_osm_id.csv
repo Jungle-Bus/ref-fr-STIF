@@ -47,6 +47,7 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 274,Arlequin,097097030:30A,30A,30A,3,E00023,ffffff,
 274,Arlequin,097097030:30B,30B,30B,3,E00023,ffffff,
 274,Arlequin,097097030:30C,30C,30C,3,E00023,ffffff,
+1025,Arpajonnais,010010002:101,101,101,3,E30613,ffffff,Line:relation:8718761
 1025,Arpajonnais,010010002:102,102,102,3,26FFD1,000000,Line:relation:7980611
 1025,Arpajonnais,010010012:104,104,104,3,8CD900,000000,Line:relation:11161906
 1025,Arpajonnais,010010106:TAD6,TAD 6,TAD 6,3,B4A7D6,ffffff,
@@ -65,12 +66,12 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 419,Aérial,062062067:8,8,8,3,0000FF,ffffff,Line:relation:7618243
 419,Aérial,062062112:111,111,111,3,AA3296,ffffff,Line:relation:8753568
 419,Aérial,062062112:112,112,112,3,E73E01,ffffff,Line:relation:7194158
-1150,Bord de l'Eau,522522001:LICORNE,LICORNE,LICORNE,3,000000,FFFFFF,
-1150,Bord de l'Eau,522522002:2,2,2,3,1D2250,ffffff,
-1150,Bord de l'Eau,522522003:3,3,3,3,F7941D,000000,
-1150,Bord de l'Eau,522522008:8,8,8,3,00ADEE,000000,
-1150,Bord de l'Eau,522522009:9,9,9,3,2CB461,ffffff,
-1150,Bord de l'Eau,522522010:10,10,10,3,812A91,ffffff,
+1150,Bord de l'Eau,522522282:9,9,9,3,000000,FFFFFF,
+1150,Bord de l'Eau,522522480:8,8,8,3,000000,FFFFFF,
+1150,Bord de l'Eau,522522481:LICORNE,LICORNE,LICORNE,3,000000,FFFFFF,
+1150,Bord de l'Eau,522522482:2,2,2,3,000000,FFFFFF,
+1150,Bord de l'Eau,522522483:3,3,3,3,000000,FFFFFF,
+1150,Bord de l'Eau,522522999:10,10,10,3,000000,FFFFFF,
 15,Bus Haut Val d'Oise,046146063:E,E,E,3,33FF19,000000,Line:relation:8450386
 15,Bus Haut Val d'Oise,046146064:G,G,G,3,FF0000,ffffff,Line:relation:8450382
 15,Bus Haut Val d'Oise,046146067:C,C,C,3,C400D4,ffffff,Line:relation:8450387
@@ -361,6 +362,9 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 1099,Europ'Essonne,111591205:E,E,E,3,95C11F,000000,Line:relation:9229324
 1099,Europ'Essonne,111591206:G,G,G,3,B51F1F,ffffff,Line:relation:9229426
 1099,Europ'Essonne,111591207:J,J,J,3,F4C000,000000,Line:relation:7734583
+1099,Europ'Essonne,111591208:M,M,M,3,000000,FFFFFF,
+1099,Europ'Essonne,111591209:N,N,N,3,000000,FFFFFF,
+1099,Europ'Essonne,111591210:O,O,O,3,000000,FFFFFF,
 961,Express 1,012012001:1,1,EX01,3,1AC7FF,ffffff,Line:relation:7920974
 955,Express 100 Torcy-Créteil,254177100:100,100,100,3,1AC7FF,000000,Line:relation:6156507
 975,Express 16,012012016:16,16,EX16,3,1AC7FF,000000,Line:relation:8184117
@@ -961,7 +965,6 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 442,RATP,100100076:76,76,76,3,640082,ffffff,Line:relation:1251039
 442,RATP,100100077:77,77,77,3,0055C8,ffffff,Line:relation:9353416
 442,RATP,100100080:80,80,80,3,FF82B4,000000,Line:relation:1083422
-442,RATP,100100080:84,84,80,3,000000,FFFFFF,
 442,RATP,100100082:82,82,82,3,FF5A00,ffffff,Line:relation:1083431
 442,RATP,100100083:83,83,83,3,FFBE00,000000,Line:relation:1083421
 442,RATP,100100084:84,84,84,3,D282BE,000000,Line:relation:1083427
@@ -1832,8 +1835,6 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 215,Valoise,030195029:95-29,95-29,95-29,3,F19200,ffffff,Line:relation:9694410
 326,VyBus,045045005:H,H,H,3,B65190,ffffff,Line:relation:6860109
 326,VyBus,045045006:E,E,E,3,DD0026,ffffff,Line:relation:6860181
-326,VyBus,045045006:E1,E1,E1,3,DA620C,ffffff,Line:relation:8218465
-326,VyBus,045045006:E2,E2,E2,3,FBC322,ffffff,Line:relation:6949602
 326,VyBus,045045007:F,F,F,3,DF3182,ffffff,Line:relation:5752558
 326,VyBus,045045009:D,D,D,3,E2BA00,ffffff,Line:relation:7011260
 326,VyBus,045045010:A,A,A,3,3B96C9,ffffff,Line:relation:5754922

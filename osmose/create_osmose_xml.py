@@ -106,6 +106,7 @@ if __name__ == '__main__':
         xml_out_file.write(xml)
 
     lines_errors = ref_FR_STIF_lignes.generate_osmose_errors_for_lines()
+    lines_errors += ref_FR_STIF_lignes.generate_osmose_additional_errors_for_lines()
     print("Il y a {} erreurs sur les lignes".format(len(lines_errors)))
 
     xml = create_osmose_xml_lines(lines_errors)

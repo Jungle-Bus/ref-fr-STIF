@@ -4,6 +4,9 @@ set -euvo pipefail
 
 ### Extraction des routepoints GTFS
 
+#### on simplifie le fichier stop_times
+cat gtfs_stop_times.txt |xsv select trip_id,stop_id,stop_sequence > gtfs_audit_stoptime_lite.csv
+
 #### on calcule des trip points
 xsv join trip_id gtfs_trips.txt trip_id gtfs_audit_stoptime_lite.csv  |xsv select 'route_id,wheelchair_accessible,stop_id,direction_id,trip_id,trip_headsign' > gtfs_audit_trippoints.csv
 

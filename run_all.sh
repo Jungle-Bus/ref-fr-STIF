@@ -9,19 +9,19 @@ set -e
 ./microcosm/microcosm.sh
 
 # update ref-lignes-stif with OSM
-factotum run ref-lignes-stif/ref-lignes-stif.factfile
+./ref-lignes-stif/ref-lignes-stif.sh
 
 # init GTFS
 ./init_gtfs/init_gtfs.sh
 
 # compute routepoints with GTFS and OSM
-factotum run audit_routepoints/audit_routepoints.factfile
+./audit_routepoints/audit_routepoints.sh
 
 # extract missing lines in OSM with GTFS and OSM
-factotum run missing_in_osm/missing_in_osm.factfile
+./missing_in_osm/missing_in_osm.sh
 
 # extract focus routepoints from GTFS and OSM
-factotum run focus/focus.factfile
+./focus/focus.sh
 
 # update Osmose
-factotum run osmose/osmose.factfile
+./osmose/osmose.sh

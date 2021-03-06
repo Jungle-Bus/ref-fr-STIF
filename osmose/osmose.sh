@@ -9,7 +9,7 @@ cd data
 ## extraction de coordonnées pour les relations OSM
 
 #### on retire les stop_pos
-xsv join stop_id osm-transit-extractor_route_stops.csv stop_point_id osm-transit-extractor_stop_points.csv |xsv select route_id,stop_id > osmose_coord_temp_route_with_stops.csv
+xsv join stop_id osm-transit-extractor_route_points.csv stop_point_id osm-transit-extractor_stop_points.csv |xsv select route_id,stop_id > osmose_coord_temp_route_with_stops.csv
 
 #### on garde un stop par route
 cat osmose_coord_temp_route_with_stops.csv |xsv sort |xsv select stop_id,route_id|xsv fmt -t '\t'|uniq -f 1|xsv fmt -d '\t' > osmose_coord_temp_route_one_stop.csv
@@ -22,7 +22,6 @@ xsv join stop_id osmose_coord_temp_line_one_stop.csv stop_point_id osm-transit-e
 
 #### on nettoie les fichiers temporaires
 rm osmose_coord_temp_*
-
 
 ## création des erreurs Osmose
 cd ../osmose 

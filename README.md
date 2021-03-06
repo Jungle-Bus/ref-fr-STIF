@@ -2,7 +2,6 @@
 Des scripts pour le suivi de l'intégration des référentiels île-de-France Mobilités (ex STIF) dans OSM.
 
 ## Prérequis
-* [factotum](https://github.com/snowplow/factotum) (en cours de suppression)
 * [osm-transit-extractor](https://github.com/CanalTP/osm-transit-extractor)
 * [xsv](https://github.com/BurntSushi/xsv)
 * python3

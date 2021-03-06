@@ -9,7 +9,7 @@ cat osm-transit-extractor_lines.csv |xsv select line_id,network,osm:ref:FR:STIF:
 cat osm-transit-extractor_routes.csv |xsv select route_id,code,destination,osm:wheelchair > audit_routes.csv
 
 #### on collecte les infos des arrêts et des parcours
-xsv join stop_id osm-transit-extractor_route_stops.csv stop_point_id osm-transit-extractor_stop_points.csv |xsv select route_id,stop_id,name,osm:ref:FR:STIF,osm:ref:FR:STIF,osm:ref:FR:STIF:stop_id,osm:wheelchair,lat,lon > audit_stops_with_route_id.csv
+xsv join stop_id osm-transit-extractor_route_points.csv stop_point_id osm-transit-extractor_stop_points.csv |xsv select route_id,stop_id,name,osm:ref:FR:STIF,osm:ref:FR:STIF,osm:ref:FR:STIF:stop_id,osm:wheelchair,lat,lon > audit_stops_with_route_id.csv
 xsv join route_id audit_stops_with_route_id.csv route_id audit_routes.csv |xsv select stop_id,name,code,destination,osm:ref:FR:STIF,osm:ref:FR:STIF:stop_id,osm:wheelchair[0],osm:wheelchair[1],route_id,lat,lon > audit_stops_with_route_info.csv
 echo "stop_id,name,code,destination,osm:ref:FR:STIF,osm:ref:FR:STIF:stop_id,stop_wheelchair,route_wheelchair,route_id,lat,lon" > audit_stops_with_route_info_ok.csv
 tail -n +2 audit_stops_with_route_info.csv >> audit_stops_with_route_info_ok.csv

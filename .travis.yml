@@ -6,7 +6,6 @@ python:
 before_install:
   - cd ci && ./install.sh
   - export PATH=$PATH:$PWD/
-  - factotum --version
   - xsv --version
   - osm_transit_extractor --version
 

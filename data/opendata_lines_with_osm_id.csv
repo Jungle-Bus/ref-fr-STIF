@@ -2,7 +2,7 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 1117,69 EXPRESS,067377069:69,69,69,3,55B2E5,ffffff,
 1144,ADP,043043001:N1,N1,N1,3,DF3A82,ffffff,Line:relation:8268452
 1144,ADP,043043002:N2,N2,N2,3,6CA513,ffffff,Line:relation:8268538
-639,AUTOCARS DOMINIQUE,333575515:TRAVERSE,TRAVERSE,LA TRAVERSE Brancion-Commerce,3,CBE859,ffffff,Line:relation:7214891
+1168,AUTOCARS DOMINIQUE,333575515:TRAVERSE,TRAVERSE,LA TRAVERSE Brancion-Commerce,3,CBE859,ffffff,Line:relation:7214891
 303,Actipôles,057318008:88,88,88,3,FFCC00,000000,Line:relation:12462685
 303,Actipôles,057318009:90,90,90,3,65B331,ffffff,
 303,Actipôles,057318118:89,89,89,3,164194,ffffff,
@@ -68,7 +68,7 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 419,Aérial,062062112:112,112,112,3,E73E01,ffffff,Line:relation:7194158
 1150,Bord de l'Eau,522522282:9,9,9,3,2CB461,ffffff,
 1150,Bord de l'Eau,522522480:8,8,8,3,00ADEE,000000,
-1150,Bord de l'Eau,522522481:LICORNE,LICORNE,LICORNE,3,000000,FFFFFF,Line:relation:6883314
+1150,Bord de l'Eau,522522481:LICORNE,LICORNE,LICORNE,3,E2007A,ffffff,Line:relation:6883314
 1150,Bord de l'Eau,522522482:2,2,2,3,1D2250,ffffff,
 1150,Bord de l'Eau,522522483:3,3,3,3,F7941D,000000,
 1150,Bord de l'Eau,522522999:10,10,10,3,812A91,ffffff,
@@ -143,6 +143,7 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 758,Busval d'Oise,251195049:95-49,95-49,95-49,3,FF5A00,ffffff,Line:relation:12099692
 758,Busval d'Oise,251195050:95-50,95-50,95-50,3,FFBE00,ffffff,Line:relation:12091593
 758,Busval d'Oise,251195051:95-51,95-51,95-51,3,DC9600,ffffff,Line:relation:12039874
+1169,CARS DUNOIS,073073002:Bus25,Bus 25,Bus 25,3,000000,FFFFFF,
 30,CARS MOREAU,210210101:4A,4 A,4 A,3,F4AACC,000000,
 30,CARS MOREAU,210210102:4B,4 B,4 B,3,F4AACC,000000,
 30,CARS MOREAU,210210103:4C,4 C,4 C,3,F4AACC,000000,
@@ -279,6 +280,7 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 1078,Cars D'Orsay,006006016:16,16,16,3,E78C2A,000000,Line:relation:7707602
 1078,Cars D'Orsay,006006018:18,18,18,3,E78C2A,000000,
 1078,Cars D'Orsay,006006019:19,19,19,3,E78C2A,000000,Line:relation:7921008
+1078,Cars D'Orsay,006006023:21,21,21,3,8C4B25,ffffff,Line:relation:7724675
 1078,Cars D'Orsay,006006024:22,22,22,3,B6D061,000000,Line:relation:5694438
 1078,Cars D'Orsay,006006025:23,23,23,3,8A5D99,ffffff,Line:relation:7724674
 1078,Cars D'Orsay,006006026:S1,S1,S1,3,FFED00,000000,
@@ -550,10 +552,10 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 1133,KEOLIS ORMONT,068913030:5,5,5 - Hopital,3,EE87B2,000000,Line:relation:9257304
 1133,KEOLIS ORMONT,068913031:6,6,6 - Hopital,3,9EA7D3,ffffff,Line:relation:9257415
 1133,KEOLIS ORMONT,068913050:91350,913.50,913.50,3,5FC6ED,000000,Line:relation:9259499
-914,KMR,116193100:100C,100C,100,3,1AC7FF,000000,Line:relation:6972327
 651,KVO,046046002:2,2,2,3,E2001A,ffffff,Line:relation:8448000
 822,Keolis Orly Rungis,287094001:GOCparis,GO Cparis,GO C PARIS,3,FFC20A,000000,Line:relation:7921024
 822,Keolis Orly Rungis,287191100:191-100,191-100,Express 191-100,3,1AC7FF,000000,Line:relation:6867541
+1166,Keolis mobilité Roissy,116193100:100C,100C,100,3,1AC7FF,000000,Line:relation:6972327
 367,LACROIX,030030004:30-04,30-04,30-04 Scolaire,3,FF9E3D,000000,Line:relation:9748884
 367,LACROIX,030030013:30-13,30-13,30-13,3,FFA1D1,000000,Line:relation:9223322
 367,LACROIX,030030025:30-25,30-25,30-25 Scolaire,3,000EF0,ffffff,
@@ -571,21 +573,21 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 367,LACROIX,030595045:CitValS,CitéVal S,CitéVal Sud Herblay,3,006EB9,000000,Line:relation:9188067
 367,LACROIX,030595050:CitValC,CitéVal C,CitéVal Cormeilles-en-Parisis,3,EE7AA6,ffffff,Line:relation:9188120
 367,LACROIX,030595051:CitValF,CitéVal F,CitéVal Franconville,3,87FC08,000000,Line:relation:9188157
-379,LES CARS BLEUS,084184001:184-001,184-001,184-001,3,89C379,000000,
-379,LES CARS BLEUS,084184003:184-003,184-003,184-003,3,CDCB14,000000,
-379,LES CARS BLEUS,084184004:184-004,184-004,184-004,3,1BA196,ffffff,
-379,LES CARS BLEUS,084184005:184-005,184-005,184-005,3,1F398E,ffffff,
-379,LES CARS BLEUS,084184006:184-006,184-006,184-006,3,0F8747,ffffff,
-379,LES CARS BLEUS,084184008:184-008,184-008,184-008,3,13A5E0,ffffff,
-379,LES CARS BLEUS,084184013:184-013,184-013,184-013,3,0177A5,ffffff,
-379,LES CARS BLEUS,084184014:184-014,184-014,184-014,3,006EB9,ffffff,Line:relation:8479479
-379,LES CARS BLEUS,084284001:284-001,284-001,284-001,3,E40613,ffffff,
-379,LES CARS BLEUS,084284002:284-002,284-002,284-002,3,FDC935,000000,
-379,LES CARS BLEUS,084284003:284-003,284-003,284-003,3,F28800,ffffff,
-379,LES CARS BLEUS,084284004:284-004,284-004,284-004,3,EE7AA6,ffffff,
-379,LES CARS BLEUS,084284005:284-005,284-005,284-005,3,852A90,ffffff,
-379,LES CARS BLEUS,084284006:284-006,284-006,284-006,3,9F2A82,ffffff,
-422,LOSAY VOYAGES,214214001:SAMOIS,SAMOIS,SAMOIS,3,010101,ffffff,Line:relation:7618348
+1165,LES CARS BLEUS,084184001:184-001,184-001,184-001,3,89C379,000000,
+1165,LES CARS BLEUS,084184003:184-003,184-003,184-003,3,CDCB14,000000,
+1165,LES CARS BLEUS,084184004:184-004,184-004,184-004,3,1BA196,ffffff,
+1165,LES CARS BLEUS,084184005:184-005,184-005,184-005,3,1F398E,ffffff,
+1165,LES CARS BLEUS,084184006:184-006,184-006,184-006,3,0F8747,ffffff,
+1165,LES CARS BLEUS,084184008:184-008,184-008,184-008,3,13A5E0,ffffff,
+1165,LES CARS BLEUS,084184013:184-013,184-013,184-013,3,0177A5,ffffff,
+1165,LES CARS BLEUS,084184014:184-014,184-014,184-014,3,006EB9,ffffff,Line:relation:8479479
+1165,LES CARS BLEUS,084284001:284-001,284-001,284-001,3,E40613,ffffff,
+1165,LES CARS BLEUS,084284002:284-002,284-002,284-002,3,FDC935,000000,
+1165,LES CARS BLEUS,084284003:284-003,284-003,284-003,3,F28800,ffffff,
+1165,LES CARS BLEUS,084284004:284-004,284-004,284-004,3,EE7AA6,ffffff,
+1165,LES CARS BLEUS,084284005:284-005,284-005,284-005,3,852A90,ffffff,
+1165,LES CARS BLEUS,084284006:284-006,284-006,284-006,3,9F2A82,ffffff,
+1167,LOSAY VOYAGES,214214001:SAMOIS,SAMOIS,SAMOIS,3,010101,ffffff,Line:relation:7618348
 1058,Le Chatelet en Brie - Pays de Seine,062062040:40,40,40,3,F08262,ffffff,
 1058,Le Chatelet en Brie - Pays de Seine,062062041:41,41,41,3,25FDE9,000000,
 1058,Le Chatelet en Brie - Pays de Seine,062062042:42,42,42,3,811453,ffffff,
@@ -681,7 +683,7 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 441,Navette,043043100:CDGVAL,CDG VAL,CDG VAL,7,5CC5ED,ffffff,Line:relation:6928933
 441,Navette,100110100:FUN,FUN,FUNICULAIRE,7,AFAFAF,000000,Line:relation:6928970
 441,Navette,100110200:ORLYVAL,ORLYVAL,ORLYVAL,7,5EC5ED,ffffff,Line:relation:6928902
-1158,Navettes Auto SQY,056578490:490,490,490,3,000000,FFFFFF,
+1158,Navettes Auto SQY,056578490:490,490,490,3,DC9600,000000,
 56,Noctilien,100987751:N24,N24,N24,3,FF5A00,ffffff,Line:relation:1667801
 56,Noctilien,100987752:N52,N52,N52,3,D2D200,000000,Line:relation:1576587
 56,Noctilien,100987753:N51,N51,N51,3,FFBE00,000000,Line:relation:1553501
@@ -1284,63 +1286,63 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 642,Réseau du Canton de Perthes,063063113:113,113,113,3,BD1220,ffffff,
 642,Réseau du Canton de Perthes,063063113:114,114,114,3,FAE91A,000000,
 642,Réseau du Canton de Perthes,063063113:115,115,115,3,008A2F,000000,
-101,SAVAC,039039001:Navette,Navette,Navette,3,7B5AA5,ffffff,
-101,SAVAC,039039002:39-02,39-02,39-02 St-Rémy-lès-Chevreuse - Gif-sur-Yvette,3,C094A2,000000,
-101,SAVAC,039039003:39-003,39-003,39-003 St-Rémy-lès-Chevreuse - Dampierre - Rambouillet,3,537777,ffffff,
-101,SAVAC,039039004:10,10,10 Gif-sur-Yvette - Buc,3,F0BCD4,000000,Line:relation:2390087
-101,SAVAC,039039007:39-07,39-07,39-07 Orsay - St-Arnoult-en-Yvelines,3,97B0AF,000000,Line:relation:7920589
-101,SAVAC,039039008:11,11,11 Gare de Gif-sur-Yvette - Chevry - Parc Orsay Université,3,009A7A,ffffff,Line:relation:7704305
-101,SAVAC,039039010:39-10,39-10,39-10 St-Rémy-lès-Chevreuse - Domaine St-Paul,3,9D0A6D,ffffff,Line:relation:4030054
-101,SAVAC,039039012:39-12,39-12,39-12 Versailles - Guyancourt - Magny-les-Hameaux,3,AFB9DF,000000,Line:relation:8702005
-101,SAVAC,039039013:39-13,39-13,39-13 St-Rémy-lès-Chevreuse - Limours,3,463D91,ffffff,Line:relation:9952981
-101,SAVAC,039039017:39-17,39-17,39-17 St-Rémy-lès-Chevreuse - La Verrière,3,86BC25,000000,Line:relation:7921032
-101,SAVAC,039039018:39-18,39-18,39-18 Limours - Arpajon,3,EC6445,ffffff,Line:relation:9261401
-101,SAVAC,039039019:12,12,12 Gif-sur-Yvette - Les Ulis,3,FFD300,000000,Line:relation:7670803
-101,SAVAC,039039027:39-27,39-27,39-27 St-Rémy-lès-Chevreuse - Les Essarts-le-Roi,3,D0D0D0,000000,
-101,SAVAC,039039031:39-31,39-31,39-31 Chevreuse - St-Rémy - St-Lambert - Montigny-le-Bretonneux,3,5698BF,000000,
-101,SAVAC,039039032:13,13,13 Gif-sur-Yvette - Collège J. Adam - Lycée de la Vallée,3,78C4EE,000000,Line:relation:7673346
-101,SAVAC,039039034:39-34,39-34,39-34 Boulogne-Billancourt - Guyancourt,3,AFB9DF,000000,Line:relation:7906370
-101,SAVAC,039039036:39-36,39-36,39-36 Auffargis - Vieille-Eglise - Collège C. de Vivonne,3,A181BA,000000,
-101,SAVAC,039039038:39-38,39-38,39-38 Angervilliers - Briis-sous-Forge,3,4F74A8,ffffff,Line:relation:9953003
-101,SAVAC,039039103:39-103,39-103,39-103 St-Rémy-lès-Chevreuse - Dampierre - Cernay-la-Ville,3,DDCA00,000000,Line:relation:9261361
-101,SAVAC,039039203:39-203,39-203,39-203 Cernay - Vieille-Eglise - Rambouillet,3,93C465,000000,Line:relation:9953049
-101,SAVAC,039039281:39-28A,39-28 A,39-28 A St-Maurice - Courson - Fontenay - Collège J. Monnet,3,D0A889,000000,
-101,SAVAC,039039282:39-28B,39-28 B,39-28 B St-Maurice - Vaugrigneuse - Collège J. Monnet,3,D0A889,000000,
-101,SAVAC,039039283:39-28C,39-28 C,39-28 C Forges - Vaugrigneuse - Fontenay - Collège J. Monnet,3,D0A889,000000,
-101,SAVAC,039039284:39-28D,39-28 D,39-28 D Briis-sous-Forge - Janvry - Collège J. Monnet,3,D0A889,000000,
-101,SAVAC,039039285:39-28E,39-28 E,39-28 E Fontenay-les-Briis - Collège J. Monnet,3,D0A889,000000,
-101,SAVAC,039039286:39-28F,39-28 F,39-28 F Limours - Forges - Vaugrigneuse - Collège J. Monnet,3,D0A889,000000,
-101,SAVAC,039039291:39-29-1,39-29-1,39-29-1 Limours - Collège M. Vignaud,3,2E676A,ffffff,
-101,SAVAC,039039292:39-29-2,39-29-2,39-29-2 Limours - Forges-les-Bains - Pecqueuse - Collège M. Vignaud,3,2E676A,ffffff,
-101,SAVAC,039039293:39-29-3,39-29-3,39-29-3 Briis-sous-Forges - Forges-les-Bains - Collège M. Vignaud,3,2E676A,ffffff,
-101,SAVAC,039039294:39-29-4,39-29-4,39-29-4 Forges-les-Bains - Limours - Collège M. Vignaud,3,2E676A,ffffff,
-101,SAVAC,039039303:39-303,39-303,39-303 St-Rémy-lès-Chevreuse - Rambouillet,3,646363,ffffff,Line:relation:9948936
-101,SAVAC,039039307:307,307,Express 307 Vélizy - Montigny-le-Bretonneux,3,1AC7FF,000000,Line:relation:9172833
-101,SAVAC,039039311:39-30A,39-30 A,39-30 A Bruyères - Fontenay - Briis - Limours - Collège M. Vignaud/Lycée J. Verne,3,C26E56,ffffff,
-101,SAVAC,039039312:39-30B,39-30 B,39-30 B Pecqueuse - Forges - Limours - Collège M. Vignaud/Lycée J. Verne,3,C26E56,ffffff,
-101,SAVAC,039039313:39-30C,39-30 C,39-30 C St-Arnoult - Bullion - Bonnelles - Collège M. Vignaud/Lycée J. Verne,3,C26E56,ffffff,
-101,SAVAC,039039314:39-30D,39-30 D,39-30 D Gif - Gometz-la-Ville - Janvry - Briis - Collège M. Vignaud/Lycée J. Verne,3,C26E56,ffffff,
-101,SAVAC,039039351:39-35A,39-35 A,39-35 A Cernay - Choisel - Dampierre - Chevreuse - Collège P. de Coubertin,3,73A995,000000,
-101,SAVAC,039039352:39-35B,39-35 B,39-35 B Gif-sur-Yvette - St-Rémy-lès-Chevreuse - Chevreuse - Collège P. de Coubertin,3,73A995,000000,
-101,SAVAC,039039371:39-37A,39-37 A,39-37 A Sceaux - Buc (MLK/LFA),3,623189,ffffff,
-101,SAVAC,039039372:39-37B,39-37 B,39-37 B Châtenay-Malabry - Buc (MLK/LFA),3,623189,ffffff,Line:relation:9675493
-101,SAVAC,039039373:39-39A,39-39 A,39-39 A Chevreuse - Buc (MLK/LFA),3,623189,ffffff,
-101,SAVAC,039039374:39-39B,39-39 B,39-39 B St-Rémy-lès-Chevreuse - Buc (MLK/LFA),3,623189,ffffff,
-101,SAVAC,039039375:39-40A,39-40 A,39-40 A Le Chesnay - Buc (MLK/LFA),3,623189,ffffff,
-101,SAVAC,039039376:39-40B,39-40 B,39-40 B Versailles - Buc (MLK/LFA),3,623189,ffffff,
-101,SAVAC,039039377:39-40C,39-40 C,39-40 C Châteaufort - Buc (MLK/LFA),3,623189,ffffff,
-101,SAVAC,039039378:39-40D,39-40 D,39-40 D Buc - Versailles (quartier St-Louis),3,623189,ffffff,
-101,SAVAC,039039403:39-403,39-403,39-403 St-Rémy-lès-Chevreuse - Rhodon - Chevreuse,3,936FAF,000000,Line:relation:9261410
-101,SAVAC,039039701:39-07A,39-07 A,39-07 A St-Arnoult-en-Yvelines - Collège des 3 Moulins,3,97B0AF,000000,
-101,SAVAC,039039702:39-07B,39-07 B,39-07 B Longvilliers - Collège des 3 Moulins,3,97B0AF,000000,
-101,SAVAC,039039703:39-07C,39-07 C,39-07 C Bures-sur-Yvette - Collège des Goussons,3,97B0AF,000000,
-101,SAVAC,039039704:39-07D,39-07 D,39-07 D Gometz-le-Châtel - Collège des Goussons,3,97B0AF,000000,
-101,SAVAC,039039999:BelAir,Bel Air,Bel Air - La Forêt,3,351C75,ffffff,Line:relation:11696066
-101,SAVAC,039262260:260,260,260 Versailles - Magny-les-Hameaux,3,CF086A,ffffff,Line:relation:9948820
-101,SAVAC,039262261:261,261,261 Versailles - Buc/Haut-Pré,3,EF7D00,ffffff,Line:relation:9259815
-101,SAVAC,039262262:262,262,262 Versailles - St-Rémy-lès-Chevreuse,3,E30613,ffffff,Line:relation:8259881
-101,SAVAC,039262263:263,263,263 Versailles - St-Rémy-lès-Chevreuse (directe),3,95254C,ffffff,
-101,SAVAC,039262264:264,264,264 Versailles - Jouy-en-Josas,3,005D9F,ffffff,Line:relation:9948850
+1170,SAVAC,039039001:Navette,Navette,Navette,3,7B5AA5,ffffff,
+1170,SAVAC,039039002:39-02,39-02,39-02 St-Rémy-lès-Chevreuse - Gif-sur-Yvette,3,C094A2,000000,
+1170,SAVAC,039039003:39-003,39-003,39-003 St-Rémy-lès-Chevreuse - Dampierre - Rambouillet,3,537777,ffffff,
+1170,SAVAC,039039004:10,10,10 Gif-sur-Yvette - Buc,3,F0BCD4,000000,Line:relation:2390087
+1170,SAVAC,039039007:39-07,39-07,39-07 Orsay - St-Arnoult-en-Yvelines,3,97B0AF,000000,Line:relation:7920589
+1170,SAVAC,039039008:11,11,11 Gare de Gif-sur-Yvette - Chevry - Parc Orsay Université,3,009A7A,ffffff,Line:relation:7704305
+1170,SAVAC,039039010:39-10,39-10,39-10 St-Rémy-lès-Chevreuse - Domaine St-Paul,3,9D0A6D,ffffff,Line:relation:4030054
+1170,SAVAC,039039012:39-12,39-12,39-12 Versailles - Guyancourt - Magny-les-Hameaux,3,AFB9DF,000000,Line:relation:8702005
+1170,SAVAC,039039013:39-13,39-13,39-13 St-Rémy-lès-Chevreuse - Limours,3,463D91,ffffff,Line:relation:9952981
+1170,SAVAC,039039017:39-17,39-17,39-17 St-Rémy-lès-Chevreuse - La Verrière,3,86BC25,000000,Line:relation:7921032
+1170,SAVAC,039039018:39-18,39-18,39-18 Limours - Arpajon,3,EC6445,ffffff,Line:relation:9261401
+1170,SAVAC,039039019:12,12,12 Gif-sur-Yvette - Les Ulis,3,FFD300,000000,Line:relation:7670803
+1170,SAVAC,039039027:39-27,39-27,39-27 St-Rémy-lès-Chevreuse - Les Essarts-le-Roi,3,D0D0D0,000000,
+1170,SAVAC,039039031:39-31,39-31,39-31 Chevreuse - St-Rémy - St-Lambert - Montigny-le-Bretonneux,3,5698BF,000000,
+1170,SAVAC,039039032:13,13,13 Gif-sur-Yvette - Collège J. Adam - Lycée de la Vallée,3,78C4EE,000000,Line:relation:7673346
+1170,SAVAC,039039034:39-34,39-34,39-34 Boulogne-Billancourt - Guyancourt,3,AFB9DF,000000,Line:relation:7906370
+1170,SAVAC,039039036:39-36,39-36,39-36 Auffargis - Vieille-Eglise - Collège C. de Vivonne,3,A181BA,000000,
+1170,SAVAC,039039038:39-38,39-38,39-38 Angervilliers - Briis-sous-Forge,3,4F74A8,ffffff,Line:relation:9953003
+1170,SAVAC,039039103:39-103,39-103,39-103 St-Rémy-lès-Chevreuse - Dampierre - Cernay-la-Ville,3,DDCA00,000000,Line:relation:9261361
+1170,SAVAC,039039203:39-203,39-203,39-203 Cernay - Vieille-Eglise - Rambouillet,3,93C465,000000,Line:relation:9953049
+1170,SAVAC,039039281:39-28A,39-28 A,39-28 A St-Maurice - Courson - Fontenay - Collège J. Monnet,3,D0A889,000000,
+1170,SAVAC,039039282:39-28B,39-28 B,39-28 B St-Maurice - Vaugrigneuse - Collège J. Monnet,3,D0A889,000000,
+1170,SAVAC,039039283:39-28C,39-28 C,39-28 C Forges - Vaugrigneuse - Fontenay - Collège J. Monnet,3,D0A889,000000,
+1170,SAVAC,039039284:39-28D,39-28 D,39-28 D Briis-sous-Forge - Janvry - Collège J. Monnet,3,D0A889,000000,
+1170,SAVAC,039039285:39-28E,39-28 E,39-28 E Fontenay-les-Briis - Collège J. Monnet,3,D0A889,000000,
+1170,SAVAC,039039286:39-28F,39-28 F,39-28 F Limours - Forges - Vaugrigneuse - Collège J. Monnet,3,D0A889,000000,
+1170,SAVAC,039039291:39-29-1,39-29-1,39-29-1 Limours - Collège M. Vignaud,3,2E676A,ffffff,
+1170,SAVAC,039039292:39-29-2,39-29-2,39-29-2 Limours - Forges-les-Bains - Pecqueuse - Collège M. Vignaud,3,2E676A,ffffff,
+1170,SAVAC,039039293:39-29-3,39-29-3,39-29-3 Briis-sous-Forges - Forges-les-Bains - Collège M. Vignaud,3,2E676A,ffffff,
+1170,SAVAC,039039294:39-29-4,39-29-4,39-29-4 Forges-les-Bains - Limours - Collège M. Vignaud,3,2E676A,ffffff,
+1170,SAVAC,039039303:39-303,39-303,39-303 St-Rémy-lès-Chevreuse - Rambouillet,3,646363,ffffff,Line:relation:9948936
+1170,SAVAC,039039307:307,307,Express 307 Vélizy - Montigny-le-Bretonneux,3,1AC7FF,000000,Line:relation:9172833
+1170,SAVAC,039039311:39-30A,39-30 A,39-30 A Bruyères - Fontenay - Briis - Limours - Collège M. Vignaud/Lycée J. Verne,3,C26E56,ffffff,
+1170,SAVAC,039039312:39-30B,39-30 B,39-30 B Pecqueuse - Forges - Limours - Collège M. Vignaud/Lycée J. Verne,3,C26E56,ffffff,
+1170,SAVAC,039039313:39-30C,39-30 C,39-30 C St-Arnoult - Bullion - Bonnelles - Collège M. Vignaud/Lycée J. Verne,3,C26E56,ffffff,
+1170,SAVAC,039039314:39-30D,39-30 D,39-30 D Gif - Gometz-la-Ville - Janvry - Briis - Collège M. Vignaud/Lycée J. Verne,3,C26E56,ffffff,
+1170,SAVAC,039039351:39-35A,39-35 A,39-35 A Cernay - Choisel - Dampierre - Chevreuse - Collège P. de Coubertin,3,73A995,000000,
+1170,SAVAC,039039352:39-35B,39-35 B,39-35 B Gif-sur-Yvette - St-Rémy-lès-Chevreuse - Chevreuse - Collège P. de Coubertin,3,73A995,000000,
+1170,SAVAC,039039371:39-37A,39-37 A,39-37 A Sceaux - Buc (MLK/LFA),3,623189,ffffff,
+1170,SAVAC,039039372:39-37B,39-37 B,39-37 B Châtenay-Malabry - Buc (MLK/LFA),3,623189,ffffff,Line:relation:9675493
+1170,SAVAC,039039373:39-39A,39-39 A,39-39 A Chevreuse - Buc (MLK/LFA),3,623189,ffffff,
+1170,SAVAC,039039374:39-39B,39-39 B,39-39 B St-Rémy-lès-Chevreuse - Buc (MLK/LFA),3,623189,ffffff,
+1170,SAVAC,039039375:39-40A,39-40 A,39-40 A Le Chesnay - Buc (MLK/LFA),3,623189,ffffff,
+1170,SAVAC,039039376:39-40B,39-40 B,39-40 B Versailles - Buc (MLK/LFA),3,623189,ffffff,
+1170,SAVAC,039039377:39-40C,39-40 C,39-40 C Châteaufort - Buc (MLK/LFA),3,623189,ffffff,
+1170,SAVAC,039039378:39-40D,39-40 D,39-40 D Buc - Versailles (quartier St-Louis),3,623189,ffffff,
+1170,SAVAC,039039403:39-403,39-403,39-403 St-Rémy-lès-Chevreuse - Rhodon - Chevreuse,3,936FAF,000000,Line:relation:9261410
+1170,SAVAC,039039701:39-07A,39-07 A,39-07 A St-Arnoult-en-Yvelines - Collège des 3 Moulins,3,97B0AF,000000,
+1170,SAVAC,039039702:39-07B,39-07 B,39-07 B Longvilliers - Collège des 3 Moulins,3,97B0AF,000000,
+1170,SAVAC,039039703:39-07C,39-07 C,39-07 C Bures-sur-Yvette - Collège des Goussons,3,97B0AF,000000,
+1170,SAVAC,039039704:39-07D,39-07 D,39-07 D Gometz-le-Châtel - Collège des Goussons,3,97B0AF,000000,
+1170,SAVAC,039039999:BelAir,Bel Air,Bel Air - La Forêt,3,351C75,ffffff,Line:relation:11696066
+1170,SAVAC,039262260:260,260,260 Versailles - Magny-les-Hameaux,3,CF086A,ffffff,Line:relation:9948820
+1170,SAVAC,039262261:261,261,261 Versailles - Buc/Haut-Pré,3,EF7D00,ffffff,Line:relation:9259815
+1170,SAVAC,039262262:262,262,262 Versailles - St-Rémy-lès-Chevreuse,3,E30613,ffffff,Line:relation:8259881
+1170,SAVAC,039262263:263,263,263 Versailles - St-Rémy-lès-Chevreuse (directe),3,95254C,ffffff,
+1170,SAVAC,039262264:264,264,264 Versailles - Jouy-en-Josas,3,005D9F,ffffff,Line:relation:9948850
 1149,SENART,519519001:01,01,01,3,005C63,ffffff,
 1149,SENART,519519002:02,02,02,3,FCBB73,000000,Line:relation:7263065
 1149,SENART,519519003:03,03,03,3,00AFAD,000000,Line:relation:8464879
@@ -1399,6 +1401,8 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 112,SITUS,010240008:81,81,81,3,93C47D,ffffff,
 112,SITUS,010240008:82,82,82,3,38761D,ffffff,
 112,SITUS,010240010:10,10,10,3,5B3800,ffffff,Line:relation:5931547
+112,SITUS,010240102:102,102,102,3,646B24,ffffff,Line:relation:9857123
+112,SITUS,010240103:103,103,103,3,A0CFA8,000000,Line:relation:9857233
 678,SQYBUS,230410401:401,401,401,3,7BAA20,ffffff,Line:relation:7890329
 678,SQYBUS,230410402:402,402,402,3,B1BADB,000000,Line:relation:7887299
 678,SQYBUS,230410414:414,414,414,3,E75112,ffffff,Line:relation:6886129
@@ -1449,7 +1453,9 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 118,STILL,064608007:7B,7B,7B,3,EE765D,000000,Line:relation:7999314
 118,STILL,064608007:7C,7C,7C,3,F39A80,000000,Line:relation:7999343
 118,STILL,064608007:7D,7D,7D,3,F9C5B3,000000,Line:relation:7999359
+118,STILL,064608008:8A,8A,8A,3,67ABDF,000000,Line:relation:7999362
 118,STILL,064608008:8B,8B,8B,3,B4DBF6,000000,Line:relation:7999375
+118,STILL,064608009:9A,9A,9A,3,A69514,ffffff,Line:relation:7920972
 118,STILL,064608009:9B,9B,9B,3,DAC062,000000,Line:relation:7920967
 118,STILL,064608009:9C,9C,9C,3,EDDB8E,000000,Line:relation:7920968
 118,STILL,064608009:9D,9D,9D,3,7A6E00,ffffff,Line:relation:7999440
@@ -1460,6 +1466,7 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 118,STILL,064608011:11D,11D,11D,3,E4C2DD,000000,Line:relation:10237086
 118,STILL,064608012:12,12,12,3,FFEB00,000000,
 118,STILL,064608013:13A,13A,13A,3,009FE3,000000,Line:relation:10242365
+118,STILL,064608013:13B,13B,13B,3,59C6F2,000000,Line:relation:10021508
 118,STILL,064608013:13C,13C,13C,3,A1DAF7,000000,Line:relation:10242502
 118,STILL,064608014:14A,14A,14A,3,E72D81,ffffff,Line:relation:10021559
 118,STILL,064608014:14B,14B,14B,3,EE77A5,000000,
@@ -1560,6 +1567,7 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 105,Seine et Marne Express,228177047:47,47,47,3,1AC7FF,000000,Line:relation:8444603
 105,Seine et Marne Express,228177050:50,50,50,3,1AC7FF,000000,Line:relation:4021770
 105,Seine et Marne Express,228228007:07,07,07,3,1AC7FF,000000,Line:relation:11175663
+916,Seine-Saint-Denis,293193601:RT4,R T4,R T4,3,E3B32A,000000,
 916,Seine-Saint-Denis,293193602:602,602,602,3,E2001A,ffffff,Line:relation:2965780
 916,Seine-Saint-Denis,293193603:603,603,603,3,8D5E24,ffffff,Line:relation:3399270
 916,Seine-Saint-Denis,293193604:604,604,604,3,CEADD2,000000,Line:relation:3030615
@@ -1681,6 +1689,7 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 440,TRAMWAY,100112016:T6,T6,Châtillon Montrouge - Gare de Viroflay Rive Droite,0,E2231A,000000,Line:relation:6910437
 440,TRAMWAY,100112017:T7,T7,Porte de L'Essonne - Villejuif-Louis Aragon,0,704B1C,ffffff,Line:relation:6910465
 440,TRAMWAY,100112018:T8,T8,ST DENIS / PORTE DE PARIS - EPINAY - ORGEMONT,0,837902,000000,Line:relation:4007734
+440,TRAMWAY,522522009:T9,T9,T9,0,3C91DC,ffffff,
 440,TRAMWAY,800:T4,T4,T4,0,FED100,ffffff,Line:relation:6910344
 440,TRAMWAY,800:T4:Bus,T4,T4,3,FED100,ffffff,
 990,Tam Limay,005005015:501,501,501,3,96B28A,000000,

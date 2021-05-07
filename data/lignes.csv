@@ -125,7 +125,7 @@ Line:relation:1621799,122,Bus 122: Bagnolet Gallieni ↔ Val de Fontenay RER,RAT
 Line:relation:1635139,T2,Tramway T2 : Pont de Bezons ↔ Porte de Versailles [Parc de Expositions],Tramway d'Île de France,RATP,#BB4A9B,route_master,tram,100112012:T2,
 Line:relation:1648058,407,Bus 407 : Évry ↔ Ris-Orangis,Tice,Tice,#8BD0EF,route_master,bus,400400407:407,
 Line:relation:1648952,405,Bus 405 : Ris-Orangis ↔ Corbeil-Essonnes,Tice,Tice,#0088C6,route_master,bus,400400405:405,
-Line:relation:1650713,TZen 1,TZen 1 : Lieusaint - Moissy Gare RER ↔ Corbeil-Essonnes Gare RER,TZen,Transdev Sénart,,route_master,bus,519519100:Tzen1,C00859
+Line:relation:1650713,TZen 1,TZen 1 : Lieusaint - Moissy Gare RER ↔ Corbeil-Essonnes Gare RER,TZen,Transdev Sénart,#c5ce00,route_master,bus,519519100:Tzen1,C00859
 Line:relation:1658281,N141,Noctilien N141: Gare de l'Est ↔ Gare de Meaux,Noctilien,Transilien,#FCB131,route_master,bus,800:N141,
 Line:relation:1667801,N24,Noctilien N24: Gare de Sartrouville ↔ Châtelet,Noctilien,RATP,#F78F4B,route_master,bus,100987751:N24,
 Line:relation:1673421,D,Transilien Ligne RER D,RER,SNCF,#5E9620,route_master,train,800:D,
@@ -199,7 +199,7 @@ Line:relation:3008945,185,Bus 185 : Choisy Sud ↔ Porte d'Italie,RATP,RATP,#F58
 Line:relation:3030615,604,Bus 604 : Gare de Gagny ↔ Montfermeil — Hôpital Intercommunal,Seine-Saint-Denis,Transdev TRA,#caabca,route_master,bus,293193604:604,
 Line:relation:3045662,150,Bus 150 : Porte de la Villette ↔ Pierrefitte–Stains RER,RATP,RATP,#F788B5,route_master,bus,100100150:150,
 Line:relation:3047801,102,Bus 102: Gambetta ↔ Rosny–Bois-Perrier RER - Rosny 2,RATP,RATP,#FFCD01,route_master,bus,100100102:102,
-Line:relation:3048889,520,Bus 520 : Les Boullereaux-Champigny RER ↔ Les Hauts de Bry,RATP,RATP,#008c59,route_master,bus,100100520:520,
+Line:relation:3048889,520,Bus 520 : Les Hauts de Bry ↔ Les Boullereaux - Champigny RER,RATP,RATP,#008c59,route_master,bus,100100520:520,
 Line:relation:3079254,203,Bus 203: Neuilly-Plaisance RER ↔ Neuilly-sur-Marne – Île-de-France,RATP,RATP,#ff82b4,route_master,bus,100100203:203,
 Line:relation:3081886,3,Bus 3 : Gare de Chelles Gournay ↔ Gare de Villeparisis Mitry-le-Neuf,Apolo 7,Société des Transports du Bassin Chellois (STBC) / Keolis CIF,#B25397,route_master,bus,101361013:3,
 Line:relation:3134153,221,Bus 221 : Bagnolet - Gallieni ↔ Gagny - Pointe de Gournay,RATP,RATP,#f49eb2,route_master,bus,100100221:221,
@@ -393,7 +393,7 @@ Line:relation:6880011,95-04,Bus 95-04 : Bray et Lû ↔ Cergy Préfecture,Busval
 Line:relation:6880695,95-11,Bus 95-11 : Bray-et-Lû - Place du 19 Mai 1962 ↔ Mantes-la-Jolie - Gare,Busval d'Oise,TIM Bus,#BF008F,route_master,bus,251195011:95-11,
 Line:relation:6881771,95-24,Bus 95-24 : Moussy ↔ Ableige ↔ Us ↔ Vigny,Busval d'Oise,Transdev Île-de-France Ecquevilly,#998eb8,route_master,bus,011195024:95-24,
 Line:relation:6883259,305,Bus 305 : Henri Barbusse - Gare RER de Corbeil Essonnes ↔ Juvisy Gare Routière Seine,Seine Essonne Bus,Keolis Seine Essonne,,route_master,bus,024309305:305,
-Line:relation:6883314,Licorne,Bus Licorne : Foyer Jean Rostand (circulaire),Bord de l'Eau,Keolis Ouest Val-de-Marne,#D6188A,route_master,bus,522522481:LICORNE,C00003
+Line:relation:6883314,Licorne,Bus Licorne : Foyer Jean Rostand (circulaire),Seine Grand Orly,Keolis Ouest Val-de-Marne,#e2007a,route_master,bus,522522481:LICORNE,C00003
 Line:relation:6885970,R104,Bus R104 : Sécurité Sociale (Goussainville) ↔ Institut Saint-Dominique (Mortefontaine),Les Courriers de l'Île-de-France,Keolis CIF,#0072BC,route_master,bus,014014104:R104,
 Line:relation:6886051,142,Bus Express A14 (142) : La Défense ↔ Les Mureaux,Express A14,STILE Express,,route_master,bus,057314142:ExpA14,
 Line:relation:6886090,41A,Bus 41A : La Ferté sous Jouarre ↔ Coulommiers,Pays Fertois,Transdev Darche-Gros,#FF0000,route_master,bus,097097041:41A,
@@ -409,7 +409,7 @@ Line:relation:6915922,Orlybus,OrlyBus : Paris-Denfert–Rochereau ↔ Aéroport 
 Line:relation:6928902,OrlyVAL,Orlyval : Antony ↔ Orly 4,Orlyval,RATP,#FFCF00,route_master,subway,100110200:ORLYVAL,
 Line:relation:6928933,CDGVAL,CDGVAL : Terminal 1 ↔ Terminal 2 - Gare,CDGVAL,Aéroports de Paris,#142B4A,route_master,subway,043043100:CDGVAL,
 Line:relation:6928970,Funiculaire,Funiculaire de Montmartre : Gare Basse ↔ Gare Haute,RATP,RATP,#622282,route_master,funicular,100110100:FUN,
-Line:relation:6929043,483,Bus 483 : Gare de Choisy-Le-Roi ↔ Gare de Villeneuve-Saint-Georges,Bord de l'Eau,Keolis Ouest Val-de-Marne,#D59433,route_master,bus,522522483:483,C00004
+Line:relation:6929043,483,Bus 483 : Gare de Choisy-Le-Roi ↔ Gare de Villeneuve-Saint-Georges,Seine Grand Orly,Keolis Ouest Val-de-Marne,#f7941d,route_master,bus,522522483:483,C00004
 Line:relation:6929582,274,Bus 274 : Voltaire - Villiers (Levallois) ↔ Saint-Denis RER,RATP,RATP,#F50024,route_master,bus,100100274:274,
 Line:relation:6929704,360,Bus 360 : Hôpital de Garches ↔ La Défense,RATP,RATP,,route_master,bus,100100360:360,
 Line:relation:6940386,91-07,Bus 91-07 : Dourdan ↔ Étampes,Albatrans,Albatrans,,route_master,bus,291191007:91-07,
@@ -474,7 +474,7 @@ Line:relation:7011260,D,Bus D : Gare de Brunoy (circulaire),VyBus,Transdev STRAV
 Line:relation:7011261,U,Bus U : Collège la Guinette (circulaire),Service Urbain de Villecresnes,Transdev STRAV,,route_master,bus,045145026:U,
 Line:relation:7011271,12,Bus 12 : Lycée Van Gogh (Aubergenville) ↔ Gare (Les Mureaux),Val de Seine,Transdev Île-de-France Ecquevilly,,route_master,bus,011011012:12,
 Line:relation:7011277,7,Bus 7 : Gare d'Argenteuil ↔ Gare d'Enghien-les-Bains,R'bus,Transdev TVO,,route_master,bus,016616514:7,
-Line:relation:7011303,480,Bus 480 : Gare de Villeneuve-Saint-Georges ↔ Aéroport d'Orly 1-2-3,Bord de l'Eau,Keolis Ouest Val-de-Marne,#00adef,route_master,bus,522522480:480,C00006
+Line:relation:7011303,480,Bus 480 : Gare de Villeneuve-Saint-Georges ↔ Aéroport d'Orly 1-2-3,Seine Grand Orly,Keolis Ouest Val-de-Marne,#00adee,route_master,bus,522522480:480,C00006
 Line:relation:7011364,21,Bus 21 : Gare du Vésinet - Le Pecq ↔ Gare de Marly-le-Roi - Bèque,Entre Seine et Forêt,Transdev Île-de-France Montesson Les Rabaux,,route_master,bus,012012021:21,
 Line:relation:7011365,10,Bus 10 : Gare de Saint-Germain ↔ Gare de Marly-le-Roi,Entre Seine et Forêt,Transdev Île-de-France Montesson Les Rabaux,,route_master,bus,012012010:10,
 Line:relation:7011367,Direct 4,Bus Direct 4 : Montparnasse ↔ Aéroport Roissy CDG,Le Bus Direct,Keolis Aerolis,#FF9B00,route_master,bus,098098004:DIRECT4,
@@ -501,7 +501,7 @@ Line:relation:7140481,6,Bus 6 : circulaire de Camberwell (Sceaux),Paladin,Bièvr
 Line:relation:7141723,95-34,Bus 95-34 : Saillancourt ↔ Marines,Busval d'Oise,CeoBus,#00E84F,route_master,bus,025195034:95-34,
 Line:relation:7142127,14,Bus 14 : Circulaire de Robinson (via Division Leclerc),Paladin,Bièvre Bus Mobilités,#0055FA,route_master,bus,020149014:14,
 Line:relation:7142158,1,Bus 1 : Gare de Chelles - Gournay ↔ Rond-Point des Sciences (Chelles),Apolo 7,Société des Transports du Bassin Chellois (STBC),#FFD90F,route_master,bus,101261020:1,
-Line:relation:7147174,282,Bus 282 : Levasseur (Thiais) ↔ Centre Commercial - Pont de Vitry,Bord de l'Eau,Keolis Ouest Val-de-Marne,#30A849,route_master,bus,522522282:282,C00007
+Line:relation:7147174,282,Bus 282 : Levasseur (Thiais) ↔ Centre Commercial - Pont de Vitry,Seine Grand Orly,Keolis Ouest Val-de-Marne,#2cb461,route_master,bus,522522282:282,C00007
 Line:relation:7147185,30-43,Bus 30-43 : Ermont La Tour ↔ Gare de Cernay (Ermont),Valbus,Lacroix,#008000,route_master,bus,030030043:30-43,
 Line:relation:7176897,A,Bus A : Gare de Provins Quai 5 (circulaire),Probus,Procars,#DC0077,route_master,bus,228771009:PROBUSA,
 Line:relation:7177053,B,Bus B : Gare de Provins ↔ Gare de Provins ou Ville Haute,Probus,Procars,#009CC8,route_master,bus,228771009:PROBUSB,
@@ -716,7 +716,7 @@ Line:relation:7918097,5,Bus 5 : Gare d'Orsay Ville ↔ Centre Commercial Ulis 2 
 Line:relation:7920514,235,Bus 235 : Colombes - Europe ↔ Asnières - Gennevilliers - Gabriel Péri,RATP,RATP,#ffbe00,route_master,bus,100100235:235,
 Line:relation:7920589,39-07,Bus 39-07 : Gare d'Orsay Ville ↔ Saint-Arnoult-en-Yvelines,SAVAC,SAVAC,#88A8A6,route_master,bus,039039007:39-07,
 Line:relation:7920954,564,Bus 564 : Collège La Malmaison (circulaire via Les Pince-Vins),RATP,RATP,,route_master,bus,100100564:564,
-Line:relation:7920955,Navette Monastère,Bus Navette Monastère,RATP,RATP,,route_master,bus,111592406:526,
+Line:relation:7920955,526,Bus 526,Grand Paris Seine Ouest,Mobicité,,route_master,bus,111592406:526,
 Line:relation:7920956,515,Bus TillBus : Place du Vél' d'Hiv' (circulaire),RATP,RATP,,route_master,bus,100100515:TILLBUS,
 Line:relation:7920957,12,Bus 12 : Cergy-Préfecture RER ↔ Verneuil Gare SNCF,Poissy Aval - 2 Rives de Seine,Autocars Tourneux,#f6a800,route_master,bus,052052112:12,
 Line:relation:7920958,04,Bus 04 : Rambouillet ↔ Limours - Bonnelles,Réseau Interurbain de Rambouillet,Transdev Île-de-France Rambouillet,,route_master,bus,013013004:04,
@@ -1311,7 +1311,7 @@ Line:relation:9285368,17,Bus 17 : Lycée Lakanal ↔ Mairie de Bourg-la-Reine - 
 Line:relation:9310093,95-31,Bus 95-31 : Collège Les Hautiers ↔ Myosotis,Busval d'Oise,CeoBus,,route_master,bus,025195031:95-31,
 Line:relation:9317042,95-35,Bus 95-35 : Ableiges ↔ Chars ↔ Bercagny ↔ Le-Perchay ↔ Marines,Busval d'Oise,CeoBus,#FFA619,route_master,bus,025195035:95-35,
 Line:relation:9340396,25,Bus 25 : Bibliothèque François Mitterrand ↔ Vitry - Marguerite Duras,RATP,RATP,#ff1400,route_master,bus,100100025:25,
-Line:relation:9348862,482,Bus 482 : Belle Épine Sud (Thiais) ↔ Place Jeanne d'Arc (Villeneuve-le-Roi),Bord de l'Eau,Keolis Ouest Val-de-Marne,#1D2250,route_master,bus,522522482:482,C00001
+Line:relation:9348862,482,Bus 482 : Belle Épine Sud (Thiais) ↔ Place Jeanne d'Arc (Villeneuve-le-Roi),Seine Grand Orly,Keolis Ouest Val-de-Marne,#0b5394,route_master,bus,522522482:482,C00001
 Line:relation:9352984,45,Bus 45 : Concorde ↔ France-Asie,RATP,RATP,#ff82b4,route_master,bus,100100045:45,
 Line:relation:9353394,59,Bus 59 : Gare de Clamart ↔ Place d'Italie,RATP,RATP,#dc9600,route_master,bus,100100059:59,
 Line:relation:9353405,71,Bus 71 : Porte de la Villette ↔ Bibliothèque François Mitterrand,RATP,RATP,#6e491e,route_master,bus,100100071:71,

@@ -1,0 +1,40 @@
+name: Generate and deploy IDF data
+
+on:
+  schedule:
+    - cron:  '0 18 * * 5'
+  push:
+    branches-ignore:
+      - 'gh-pages'
+
+      
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup python version
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies && generate IDF data      
+      env:
+        Osmose_idf_auth: ${{ secrets.Osmose_idf_auth }}
+      run: |
+        cd ci && ./install.sh 
+        export PATH=$PATH:$PWD/
+        echo $PATH
+        cd ..
+        xsv --version
+        osm_transit_extractor --version
+        ./run_all.sh
+    - name: Deploy
+      if: ${{ github.ref == 'refs/heads/master' }}
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: .

@@ -550,6 +550,7 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 1172,Keolis CIF,014115086:Vitavil,Vitavil,Vitavil,3,FF6600,ffffff,Line:relation:9207487
 822,Keolis Orly Rungis,287094001:GOCparis,GO Cparis,GO C PARIS,3,FFC20A,000000,Line:relation:7921024
 822,Keolis Orly Rungis,287191100:191-100,191-100,Express 191-100,3,1AC7FF,000000,Line:relation:6867541
+1182,Keolis Val d'Oise,046046002:2,2,2,3,E2001A,ffffff,Line:relation:8448000
 1166,Keolis mobilité Roissy,116193100:100C,100C,100,3,1AC7FF,000000,Line:relation:6972327
 367,LACROIX,030030004:30-04,30-04,30-04 Scolaire,3,E10026,000000,Line:relation:9748884
 367,LACROIX,030030013:30-13,30-13,30-13,3,F6B9BA,000000,Line:relation:9223322
@@ -797,6 +798,7 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 308,PROCARS,228228003:03,03,03 LA FERTE-GAUCHER / COULOMMIERS / PROVINS,3,EF83B3,000000,
 308,PROCARS,228228005:05,05,05 JOUY-LE-CHATEL / NANGIS,3,109539,ffffff,
 308,PROCARS,228228006:06,06,06 NANGIS / MONTEREAU-FAULT-YONNE,3,70746F,ffffff,
+308,PROCARS,228228006:06-3,06-3,06-3 VALENCE / ECHOUBOULAINS / FONTAINS / NANGIS,3,70746F,ffffff,
 308,PROCARS,228228008:08,08,08 DONNEMARIE-DONTILLY / NANGIS,3,DE3D6B,ffffff,
 308,PROCARS,228228010:10,10,10 PROVINS / MONTEREAU-FAULT-YONNE via Chatenay,3,DC3235,ffffff,
 308,PROCARS,228228011:11,11,11 NOGENT-SUR-SEINE / PROVINS,3,48B274,000000,
@@ -1228,8 +1230,7 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 442,RATP,100100597:HIRONDE,HIRONDE,L'HIRONDELLE,3,79BB92,000000,Line:relation:7903216
 741,RER,800:C,C,C,2,F3D311,000000,Line:relation:122886
 741,RER,800:C:Bus,C,C,3,F3D311,000000,
-741,RER,800:D,D,D,3,3F9C35,ffffff,Line:relation:1673421
-741,RER,800:D:Bus,D,D,3,3F9C35,ffffff,
+741,RER,800:D,D,D,2,3F9C35,ffffff,Line:relation:1673421
 741,RER,800:E,E,E,2,DE81D3,ffffff,Line:relation:7271953
 741,RER,800:E:Bus,E,E,3,DE81D3,ffffff,
 741,RER,810:A,A,A,2,F7403A,ffffff,Line:relation:2333448
@@ -1672,7 +1673,6 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 742,TRAIN,800:J,J,J,2,B6BF00,ffffff,Line:relation:6904183
 742,TRAIN,800:J:Bus,J,J,3,B6BF00,ffffff,
 742,TRAIN,800:K,K,K,2,AE9A00,ffffff,Line:relation:253357
-742,TRAIN,800:K:Bus,K,K,3,AE9A00,ffffff,
 742,TRAIN,800:L,L,L,2,7577C0,ffffff,Line:relation:8557335
 742,TRAIN,800:L:Bus,L,L,3,7577C0,ffffff,
 742,TRAIN,800:N,N,N,2,00B092,ffffff,Line:relation:7420700

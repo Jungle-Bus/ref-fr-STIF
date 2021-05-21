@@ -23,5 +23,8 @@ set -e
 # extract focus routepoints from GTFS and OSM
 ./focus/focus.sh
 
+# extract lines ref
+./lines_ref/init_lines_ref.sh
+
 # update Osmose
 ./osmose/osmose.sh

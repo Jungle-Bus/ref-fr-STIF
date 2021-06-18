@@ -475,7 +475,7 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 1172,Keolis CIF,014014011:11,11,11,3,B233FF,000000,Line:relation:107354
 1172,Keolis CIF,014014012:12,12,12,3,0087FF,000000,Line:relation:7097563
 1172,Keolis CIF,014014014:14,14,14,3,9980FF,000000,Line:relation:9836838
-1172,Keolis CIF,014014015:15,15,15,3,FF0000,ffffff,Line:relation:6163294
+1172,Keolis CIF,014014015:15,15,15,3,0065AE,ffffff,Line:relation:6163294
 1172,Keolis CIF,014014016:16,16,16,3,FF4AD9,000000,Line:relation:9192729
 1172,Keolis CIF,014014019:19,19,19,3,00FF00,000000,Line:relation:6163356
 1172,Keolis CIF,014014022:22,22,22,3,6B6B6B,ffffff,Line:relation:9836855
@@ -813,6 +813,7 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 1100,Paladin,111592406:526,526,526,3,00C221,ffffff,Line:relation:7920955
 1100,Paladin,111592407:ChavilBus,ChavilBus,Uniq,3,C99EFF,000000,Line:relation:7673721
 1100,Paladin,111592409:469,469,469,3,F9BD1B,000000,Line:relation:7796849
+1178,Parc Naturel Régional de la Haute Vallée de Chevreuse,139578038:Baladobus,Baladobus,Baladobus,3,000000,FFFFFF,Line:relation:8448533
 1185,Paris - Saclay,111591201:A,A,A,3,EE7D00,ffffff,Line:relation:8444974
 1185,Paris - Saclay,111591201:A,A,A,3,EE7D00,ffffff,Line:relation:9231586
 1185,Paris - Saclay,111591202:B,B,B,3,E50051,ffffff,Line:relation:8444973
@@ -1079,7 +1080,7 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 442,RATP,100100208:208A,208A,208A,3,A0006E,ffffff,Line:relation:6795575
 442,RATP,100100208:208B,208B,208B,3,A0006E,ffffff,Line:relation:6795574
 442,RATP,100100208:208S,208S,208S,3,A0006E,ffffff,Line:relation:7244792
-442,RATP,100100209:209,209,209,3,000000,FFFFFF,Line:relation:12811954
+442,RATP,100100209:209,209,209,3,00A092,000000,Line:relation:12811954
 442,RATP,100100210:210,210,210,3,FFBE00,000000,Line:relation:1306437
 442,RATP,100100211:211,211,211,3,FF82B4,000000,Line:relation:6099640
 442,RATP,100100212:212,212,212,3,82C8E6,000000,Line:relation:3906360
@@ -1503,13 +1504,6 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 119,STIVO,059440058:58,58,58,3,82C8E6,000000,Line:relation:7370851
 119,STIVO,059440059:59,59,59,3,A0006E,ffffff,Line:relation:7359261
 119,STIVO,059440060:60,60,60,3,A50034,ffffff,Line:relation:7353488
-120,STRAV,045045003:K,K,K,3,E2001C,ffffff,Line:relation:5973841
-120,STRAV,045045004:J1,J1,J1,3,FFDC00,000000,Line:relation:8165262
-120,STRAV,045045004:J2,J2,J2,3,FABD00,000000,Line:relation:8165263
-120,STRAV,045045011:B,B,B,3,00B7E3,ffffff,Line:relation:5739372
-120,STRAV,045045013:N,N,N,3,74B655,ffffff,Line:relation:5973902
-120,STRAV,045045030:O1,O1,O1,3,EC7FA9,ffffff,Line:relation:9172915
-120,STRAV,045045030:O2,O2,O2,3,BD3F7C,ffffff,Line:relation:9173025
 855,Scolaire Est Yvelines,019019001:01,01,01,3,9ECB84,000000,
 855,Scolaire Est Yvelines,019019012:12,12,12,3,94CDF1,000000,
 855,Scolaire Est Yvelines,019019054:54,54,54,3,FECF00,000000,
@@ -1671,12 +1665,11 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 471,TICE,400400419:419,419,419,3,FAC8A9,000000,Line:relation:9136817
 471,TICE,400400420:420,420,420,3,046376,ffffff,Line:relation:6785602
 471,TICE,400400453:453,453,453,3,A80983,ffffff,Line:relation:8396927
-742,TRAIN,800:H,H,H,3,844C54,ffffff,Line:relation:7420698
+742,TRAIN,800:H,H,H,2,844C54,ffffff,Line:relation:7420698
 742,TRAIN,800:H:Bus,H,H,3,844C54,ffffff,
 742,TRAIN,800:J,J,J,2,B6BF00,ffffff,Line:relation:6904183
 742,TRAIN,800:J:Bus,J,J,3,B6BF00,ffffff,
 742,TRAIN,800:K,K,K,2,AE9A00,ffffff,Line:relation:253357
-742,TRAIN,800:K:Bus,K,K,3,AE9A00,ffffff,
 742,TRAIN,800:L,L,L,2,7577C0,ffffff,Line:relation:8557335
 742,TRAIN,800:L:Bus,L,L,3,7577C0,ffffff,
 742,TRAIN,800:N,N,N,2,00B092,ffffff,Line:relation:7420700
@@ -1764,6 +1757,7 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 898,Transdev Ile-de-France Conflans,212195018:9518,9518,9518,3,1AC7FF,000000,Line:relation:3253980
 898,Transdev Ile-de-France Conflans,212212002:02,02,02,3,9CC595,000000,Line:relation:7920966
 898,Transdev Ile-de-France Conflans,212212003:27,27,27,3,1AC7FF,000000,Line:relation:8228825
+898,Transdev Ile-de-France Conflans,212212004:04,04,04,3,1FA22E,ffffff,Line:relation:9817423
 898,Transdev Ile-de-France Conflans,212212005:05,05,05,3,E30613,ffffff,Line:relation:8357295
 898,Transdev Ile-de-France Conflans,212212005:5S,5 S,5 S,3,F69F83,000000,
 898,Transdev Ile-de-France Conflans,212212006:06,06,06,3,93D5F6,000000,Line:relation:9219662
@@ -1774,9 +1768,9 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 898,Transdev Ile-de-France Conflans,212212017:17B,17B,17B,3,9C91C5,000000,Line:relation:8718013
 898,Transdev Ile-de-France Conflans,212212024:A1,A1,A1,3,F28C1C,000000,Line:relation:8364140
 898,Transdev Ile-de-France Conflans,212212024:A2,A2,A2,3,009FE3,000000,Line:relation:8413513
-1017,Transport du Val de Seine,092092001:1,1.,1.,3,A6D940,000000,
+1017,Transport du Val de Seine,092092001:1,1.,1.,3,64DCFF,000000,
 1017,Transport du Val de Seine,092092003:3,3,3,3,E5B200,000000,
-1017,Transport du Val de Seine,092092004:4,4.,4.,3,FF6E9E,000000,
+1017,Transport du Val de Seine,092092004:4,4.,4.,3,D9660D,ffffff,
 1017,Transport du Val de Seine,092092014:14,14,14,3,7F007F,ffffff,
 132,Traverciel,213213027:27,27,27,3,FF0000,ffffff,Line:relation:8407209
 132,Traverciel,213213027:28,28,28,3,00B0F0,ffffff,Line:relation:9184807
@@ -1849,7 +1843,6 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 215,Valoise,030195020:95-20,95-20,95-20,3,008CCE,000000,Line:relation:5890965
 215,Valoise,030195021:95-21,95-21,95-21,3,D3A576,000000,Line:relation:7823264
 215,Valoise,030195029:95-29,95-29,95-29,3,F29200,ffffff,Line:relation:9694410
-326,VyBus,045045005:H,H,H,3,B65190,ffffff,Line:relation:6860109
 326,VyBus,045045006:E,E,E,3,DD0026,ffffff,Line:relation:6860181
 326,VyBus,045045006:E1,E1,E1,3,DA620C,ffffff,Line:relation:8218465
 326,VyBus,045045006:E2,E2,E2,3,FBC322,ffffff,Line:relation:6949602
@@ -1858,8 +1851,6 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 326,VyBus,045045010:A,A,A,3,3B96C9,ffffff,Line:relation:5754922
 326,VyBus,045045012:C,C,C,3,95BC1B,ffffff,Line:relation:8710156
 326,VyBus,045045019:F4,F4,F4,3,FBBF28,000000,Line:relation:5847185
-326,VyBus,045045020:G1,G1,G1,3,A6D9F0,000000,Line:relation:11161733
-326,VyBus,045045020:G2,G2,G2,3,A6D9F0,000000,Line:relation:11161734
 326,VyBus,045045022:R1,R1,R1,3,74B655,000000,
 326,VyBus,045045022:R1A,R1A,R1A,3,74B655,000000,
 326,VyBus,045045022:R1B,R1B,R1B,3,74B655,000000,

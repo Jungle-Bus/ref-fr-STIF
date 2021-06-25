@@ -596,8 +596,8 @@ Line:relation:7517220,J,Bus J : Gare de Houilles Carrières-sur-Seine ↔ Gare d
 Line:relation:7517221,H,Bus H : Plateau (Bezons) ↔ Gare de Houilles Carrières-sur-Seine ou Gare de Sartrouville,Bus en Seine,TVO,,route_master,bus,016248025:H,
 Line:relation:7517222,C,Bus C : Gare du Vésinet Le Pecq ↔ Gare de Houilles Carrières-sur-Seine,Bus en Seine,Transdev Île-de-France Montesson La Boucle,,route_master,bus,019248019:C,
 Line:relation:7517223,A,Bus A : Gare de Houilles Carrières-sur-Seine ↔ Gare du Vésinet Le Pecq,Bus en Seine,Transdev Île-de-France Montesson La Boucle,,route_master,bus,019248003:A,
-Line:relation:7517252,S6,Bus S6 : Lycée les Pierres Vives ↔ Martyrs (Houilles),Bus en Seine,Transdev,,route_master,bus,019248026:S6,
-Line:relation:7517253,K,Bus K : Gare de Houilles Carrières-sur-Seine (circulaire),Bus en Seine,Transdev Île-de-France Montesson La Boucle,,route_master,bus,019248010:K,
+Line:relation:7517252,S6,Bus S6 : Lycée les Pierres Vives ↔ Martyrs (Houilles),Bus en Seine,Transdev Île-de-France Montesson La Boucle,#bf9d83,route_master,bus,019248026:S6,C01775
+Line:relation:7517253,K,Bus K : Gare de Houilles Carrières-sur-Seine (circulaire),Bus en Seine,Transdev Île-de-France Montesson La Boucle,#bd816b,route_master,bus,019248010:K,C00334
 Line:relation:7532322,10,Bus 10 : Saint-Quentin-en-Yvelines - Gare P. Delouvrier ↔ Plaisir Grignon Gare,Hourtoule,Cars Hourtoule,,route_master,bus,027027010:10,
 Line:relation:7537818,197,Bus 197 : Porte d'Orléans ↔ Massy–Opéra-Théâtre,RATP,RATP,#ED1B29,route_master,bus,100100197:197,
 Line:relation:7537834,297,Bus 297 : Antony RER ↔ Longjumeau-Place Charles Steber,RATP,RATP,#BB4B9D,route_master,bus,100100297:297,
@@ -926,12 +926,12 @@ Line:relation:8297079,9,Bus 9 : Gare de Chelles Gournay (circulaire),Apolo 7,Tra
 Line:relation:8298340,F,Bus F : La Tour ↔ Gare du Vésinet le Pecq,Bus en Seine,Transdev Île-de-France Montesson La Boucle,,route_master,bus,019248009:F,
 Line:relation:8298486,C,Bus C : Mantes-la-Jolie - Port Fouquet ↔ Mantes-la-Jolie - Gare Routière,TAM,Transports de Voyageurs du Mantois,,route_master,bus,350350003:C,
 Line:relation:8299933,301,Bus 301 : Exona ↔ Terminal David Douillet,Seine Essonne Bus,Keolis Seine Essonne,,route_master,bus,024309301:301,
-Line:relation:8310967,303,Bus 303 : Gare Moulin Galant ↔ Corbeil-Essonnes - Gare RER,Seine Essonne Bus,Keolis Seine Essonne,,route_master,bus,024309303:303,
+Line:relation:8310967,303,Bus 303 : Gare Moulin Galant ↔ Corbeil-Essonnes - Gare RER,Seine Essonne Bus,Keolis Seine Essonne,#38761d,route_master,bus,024309303:303,C00388
 Line:relation:8312254,D,Bus D : Mantes-la-Jolie - Résidence du Lac (circulaire via Plaisances),TAM,Transports de Voyageurs du Mantois,,route_master,bus,350350004:D,
 Line:relation:8312545,40,Bus 40 : Gare de Fontenay le Fleury ↔ Versailles Château Rive-Gauche,STAVO,STAVO,,route_master,bus,044044040:40,
 Line:relation:8312707,27,Bus 27 : Roissypole → Jean Bullant (Villiers-le-Bel),Keolis Mobilité Roissy,Keolis Mobilité Roissy,,route_master,bus,116295027:27,
 Line:relation:8316261,L,Bus L : Gare de Houilles Carrières sur Seine ↔ Mayoly (Chatou),Bus en Seine,Transdev Île-de-France Montesson La Boucle,,route_master,bus,019248005:L,
-Line:relation:8316271,P,Bus P : Berges de Montesson ↔ Gare de Houilles-Carrières sur Seine,Bus en Seine,Transdev La Boucle,,route_master,bus,019248012:P,
+Line:relation:8316271,P,Bus P : Berges de Montesson ↔ Gare de Houilles-Carrières sur Seine,Bus en Seine,Transdev Île-de-France Montesson La Boucle,#f5a488,route_master,bus,019248012:P,C02152
 Line:relation:8322773,22,Bus 22 : Meaux ↔ Vincy-Manoeuvre/ May-en-Multien,Pays de l'Ourcq,Transdev Marne-et-Morin,,route_master,bus,067067022:22,
 Line:relation:8338499,Curviabus,Curvia,Curvia bus,Ville de Courbevoie,,route_master,bus,100692102:Curviabus,
 Line:relation:8353656,B,Bus B : Le Mee Gare ↔ Foch - 11 Novembre,MELIBUS,Transdev Île-de-France Vaux-le-Pénil,,route_master,bus,066066021:B,
@@ -999,7 +999,7 @@ Line:relation:8407058,45,Bus 45 : Musée de Sèvres ↔ Mairie de Vélizy,Phébu
 Line:relation:8407209,27,Bus 27 : La Celle Saint-Cloud - Étang Sec ↔ Rueil Malmaison Gare RER,Traverciel,Transdev Île-de-France Nanterre,,route_master,bus,213213027:27,
 Line:relation:8407357,K,Bus K : Limay - Lycée Condorcet ↔ Buchelay - René Renault,TAM,Transports de Voyageurs du Mantois,,route_master,bus,350350031:K,
 Line:relation:8408069,I,Bus I : Magnanville - Graviers-Brosses ↔ Mantes-la-Ville - Gare routière,TAM,Transports de Voyageurs du Mantois,,route_master,bus,350350009:I,
-Line:relation:8408136,M,Bus M : Gare du Vésinet le Pecq ↔ Gare de Chatou - Croissy,Bus en Seine,Transdev Île-de-France Montesson La Boucle,,route_master,bus,019248020:M,
+Line:relation:8408136,M,Bus M : Gare du Vésinet le Pecq ↔ Gare de Chatou - Croissy,Bus en Seine,Transdev Île-de-France Montesson La Boucle,#afca0b,route_master,bus,019248020:M,C00336
 Line:relation:8409188,33 SoisyBus,Bus 33 SoisyBus : Parc des Sources ↔ Champ de Courses Gare,Valmy,TVO,#ED7EA1,route_master,bus,016016033:SOISYBUS,
 Line:relation:8409316,10,Bus 10 : Ermont Eaubonne Gare ↔ Parc des Sources,Valmy,TVO,,route_master,bus,016016010:10,
 Line:relation:8409465,25,Bus 25 : Gare d'Etampe ↔ Gare de Pithiviers,Rémi 45,,,route_master,bus,073073025:25,
@@ -1009,7 +1009,7 @@ Line:relation:8412526,DM11A,Bus DM11A : Gare de Massy-Palaiseau ↔ Jules Verne 
 Line:relation:8412527,DM11G,Bus DM11G : Gare de Massy-Palaiseau ↔ Marcoussis ↔ Piscine (Sainte-Geneviève des Bois),Daniel Meyer,Keolis Meyer,#d437d4,route_master,bus,055055023:DM11G,
 Line:relation:8413209,91-06,Bus 91-06 : Christ du Saclay ↔ Gare de Massy-Palaiseau,Albatrans,Albatrans,#c69b3a,route_master,bus,291191006:91-06,
 Line:relation:8413211,91-11,Bus 91-11 : Gare de Saint-Quentin-en-Yvelines ↔ Gare de Massy-Palaiseau,Albatrans,Albatrans,#32a55e,route_master,bus,291191011:91-11,
-Line:relation:8413449,40,Bus 40 : Gare de Aubergenville - Elisabethville (circulaire),Aubergenville,MobiCité,,route_master,bus,111111140:40,
+Line:relation:8413449,40,Bus 40 : Gare de Aubergenville - Elisabethville (circulaire),Aubergenville,MobiCité,#ff0000,route_master,bus,111111140:40,C01428
 Line:relation:8413513,A2,Bus A2 : Gare d'Achères ↔ Chambre de Commerce et d'Industrie,Conflans Achères,Transdev Île-de-France Conflans,,route_master,bus,212212024:A2,
 Line:relation:8431360,19,Bus Express 19 : Gare des Mureaux ↔ Versailles - Europe,Transdev Île-de-France Ecquevilly,Transdev Île-de-France Ecquevilly,#ec7528,route_master,bus,011011019:19,
 Line:relation:8436111,11,Bus 11 : Gare de Jouy (circulaire),Phébus,Keolis Versailles,#6fc6ef,route_master,bus,056356014:11,
@@ -1356,7 +1356,7 @@ Line:relation:9836838,14,Bus 14 : Viarmes - Gare ↔ Baillon,Les Courriers de l'
 Line:relation:9836855,22,Bus 22 : Institution Fénélon ↔ Dammartin Juilly Saint-Mard Train K,Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,014014022:22,
 Line:relation:9836890,38,Bus 38 : Collège Blaise Pascal ↔ Rue de Giez,Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,014014038:38,
 Line:relation:9836912,49,Bus 49 : Collège Anna de Noailles - Lycée Gérard de Nerval ↔ Place Gambetta,Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,014014049:49,
-Line:relation:9853421,S1,Bus S1 : Gare de Sartrouville ↔ Collège Pablo Picasso,Bus en Seine,Transdev Île-de-France Montesson La Boucle,,route_master,bus,019248007:S1,
+Line:relation:9853421,S1,Bus S1 : Gare de Sartrouville ↔ Collège Pablo Picasso,Bus en Seine,Transdev Île-de-France Montesson La Boucle,#f7a600,route_master,bus,019248007:S1,C02148
 Line:relation:9857123,102,Bus 102 : Navettes Marché de Sucy-en-Brie - Moutier Médiathèque (circulaire via Les Berges),SITUS,Transdev SETRA,,route_master,bus,010240102:102,
 Line:relation:9857233,103,Bus 103 : Navettes Marché de Sucy-en-Brie - Moutier Médiathèque (circulaire via Place Sainte-Bernadette),SITUS,Transdev CEAT,,route_master,bus,010240103:103,
 Line:relation:9866393,223,Bus 223 : La Montagne ↔ Le Domaine,Val d'Essonne,CEA Transports,,route_master,bus,010010022:223,
@@ -1409,7 +1409,7 @@ Line:relation:10000434,P,bus P : Gare de Mantes la Jolie (Mantes-la-Ville) (Mant
 Line:relation:10003678,22,bus 22 : Gare de Saint-Germain en Laye ↔ Gare de Mantes la Jolie,Com'Bus,CTVMI,#9ed2c2,route_master,bus,057057022:22,
 Line:relation:10003789,81,bus 81 : Gare d'Épône Mézières (Épône) ↔ Mairie (Issou),Com'Bus,CTVMI,#e48705,route_master,bus,057057008:81,
 Line:relation:10003838,82,bus 82 : Gare d'Épône Mézières (Épône) ↔ Hanneucourt (Gargenville),Com'Bus,CTVMI,#d0aa1d,route_master,bus,057057082:82,
-Line:relation:10015706,S5,Bus S5 : Piscine de Carrières ↔ Collège des Amandiers (Carrières-sur-Seine),Bus en Seine,Transdev,,route_master,bus,019248010:S5,
+Line:relation:10015706,S5,Bus S5 : Piscine de Carrières ↔ Collège des Amandiers (Carrières-sur-Seine),Bus en Seine,Transdev Île-de-France Montesson La Boucle,#b2b2b2,route_master,bus,019248010:S5,C02151
 Line:relation:10016215,10,Bus 10 : Gare de Nemours Saint-Pierre ↔ Aristide Briand (Bransles),STILL,Transdev Île-de-France Nemours,#77ad1c,route_master,bus,064608010:10,
 Line:relation:10016233,2,Bus 2 : Gare de Nemours Saint-Pierre ↔ Les Grèves / Guinebert (Saint-Pierre-lès-Nemours),STILL,Transdev Île-de-France Nemours,#72bb81,route_master,bus,064608021:2,
 Line:relation:10021508,13B,Bus 13B : Gare de Nemours Saint-Pierre ↔ Laveaux (Faÿ-lès-Nemours),STILL,Transdev Île-de-France Nemours,#59c6f2,route_master,bus,064608013:13B,

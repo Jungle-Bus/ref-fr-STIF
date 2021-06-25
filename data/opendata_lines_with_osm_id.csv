@@ -68,6 +68,11 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 419,Aérial,062062067:8,8,8,3,0000FF,ffffff,Line:relation:7618243
 419,Aérial,062062112:111,111,111,3,AA3296,ffffff,Line:relation:8753568
 419,Aérial,062062112:112,112,112,3,E73E01,ffffff,Line:relation:7194158
+1192,Bord de l'Eau,522522282:282,282,282,3,2CB461,ffffff,Line:relation:7147174
+1192,Bord de l'Eau,522522480:480,480,480,3,00ADEE,000000,Line:relation:7011303
+1192,Bord de l'Eau,522522481:LICORNE,LICORNE,LICORNE,3,E2007A,ffffff,Line:relation:6883314
+1192,Bord de l'Eau,522522482:482,482,482,3,0B5394,ffffff,Line:relation:9348862
+1192,Bord de l'Eau,522522483:483,483,483,3,F7941D,000000,Line:relation:6929043
 15,Bus Haut Val d'Oise,046146063:E,E,E,3,33FF19,000000,Line:relation:8450386
 15,Bus Haut Val d'Oise,046146064:G,G,G,3,FF0000,ffffff,Line:relation:8450382
 15,Bus Haut Val d'Oise,046146067:C,C,C,3,C400D4,ffffff,Line:relation:8450387
@@ -285,6 +290,17 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 1029,Etampois,010010019:319,319,319,3,D6B297,000000,Line:relation:8726061
 1029,Etampois,010010019:325,325,325,3,73BB81,000000,
 1029,Etampois,010010330:330,330,330,3,73D959,000000,
+1190,Europ'Essonne,111591201:A,A,A,3,EE7D00,ffffff,Line:relation:8444974
+1190,Europ'Essonne,111591201:A,A,A,3,EE7D00,ffffff,Line:relation:9231586
+1190,Europ'Essonne,111591202:B,B,B,3,E50051,ffffff,Line:relation:8444973
+1190,Europ'Essonne,111591203:C,C,C,3,951B81,ffffff,Line:relation:8444972
+1190,Europ'Essonne,111591204:D,D,D,3,0077BA,ffffff,
+1190,Europ'Essonne,111591205:E,E,E,3,95C11F,000000,Line:relation:9229324
+1190,Europ'Essonne,111591206:G,G,G,3,B51F1F,ffffff,Line:relation:9229426
+1190,Europ'Essonne,111591207:J,J,J,3,F4C000,000000,Line:relation:7734583
+1190,Europ'Essonne,111591208:M,M,M,3,80FF00,000000,
+1190,Europ'Essonne,111591209:N,N,N,3,00A1E6,000000,
+1190,Europ'Essonne,111591210:O,O,O,3,FF6600,000000,
 961,Express 1,012012001:1,1,EX01,3,1AC7FF,ffffff,Line:relation:7920974
 955,Express 100 Torcy-Créteil,254177100:100,100,100,3,1AC7FF,000000,Line:relation:6156507
 975,Express 16,012012016:16,16,EX16,3,1AC7FF,000000,Line:relation:8184117
@@ -812,19 +828,8 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 1100,Paladin,111592405:ChavilBus,ChavilBus,ChavilBus Nord,3,C99EFF,000000,Line:relation:7177170
 1100,Paladin,111592406:526,526,526,3,00C221,ffffff,Line:relation:7920955
 1100,Paladin,111592407:ChavilBus,ChavilBus,Uniq,3,C99EFF,000000,Line:relation:7673721
-1100,Paladin,111592409:469,469,469,3,F9BD1B,000000,Line:relation:7796849
+1100,Paladin,111592409:Chaville,Chaville,469,3,000000,FFFFFF,
 1178,Parc Naturel Régional de la Haute Vallée de Chevreuse,139578038:Baladobus,Baladobus,Baladobus,3,000000,FFFFFF,Line:relation:8448533
-1185,Paris - Saclay,111591201:A,A,A,3,EE7D00,ffffff,Line:relation:8444974
-1185,Paris - Saclay,111591201:A,A,A,3,EE7D00,ffffff,Line:relation:9231586
-1185,Paris - Saclay,111591202:B,B,B,3,E50051,ffffff,Line:relation:8444973
-1185,Paris - Saclay,111591203:C,C,C,3,951B81,ffffff,Line:relation:8444972
-1185,Paris - Saclay,111591204:D,D,D,3,0077BA,ffffff,
-1185,Paris - Saclay,111591205:E,E,E,3,95C11F,000000,Line:relation:9229324
-1185,Paris - Saclay,111591206:G,G,G,3,B51F1F,ffffff,Line:relation:9229426
-1185,Paris - Saclay,111591207:J,J,J,3,F4C000,000000,Line:relation:7734583
-1185,Paris - Saclay,111591208:M,M,M,3,80FF00,000000,
-1185,Paris - Saclay,111591209:N,N,N,3,00A1E6,000000,
-1185,Paris - Saclay,111591210:O,O,O,3,FF6600,000000,
 366,Parisis,030030005:30-05,30-05,30-05,3,1A171B,ffffff,Line:relation:8187525
 366,Parisis,030030007:30-07,30-07,30-07 Herblay,3,A6483A,000000,Line:relation:9196816
 366,Parisis,030030009:30-09,30-09,30-09 Beauchamp,3,FFE535,000000,Line:relation:9196805
@@ -1230,6 +1235,7 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 442,RATP,100100594:PETIT-F,PETIT-F,LE PETIT FONTENAISIEN,3,216EB4,ffffff,Line:relation:7902826
 442,RATP,100100595:595,595,595,3,0055C8,ffffff,Line:relation:7804946
 442,RATP,100100597:HIRONDE,HIRONDE,L'HIRONDELLE,3,79BB92,000000,Line:relation:7903216
+442,RATP,100100929:A,A,Bus de substitution RER A,3,000000,FFFFFF,
 741,RER,800:C,C,C,2,F3D311,000000,Line:relation:122886
 741,RER,800:C:Bus,C,C,3,F3D311,000000,
 741,RER,800:D,D,D,2,3F9C35,ffffff,Line:relation:1673421
@@ -1504,6 +1510,13 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 119,STIVO,059440058:58,58,58,3,82C8E6,000000,Line:relation:7370851
 119,STIVO,059440059:59,59,59,3,A0006E,ffffff,Line:relation:7359261
 119,STIVO,059440060:60,60,60,3,A50034,ffffff,Line:relation:7353488
+1191,STRAV,045045003:K,K,K,3,E2001C,ffffff,Line:relation:5973841
+1191,STRAV,045045004:J1,J1,J1,3,FFDC00,000000,Line:relation:8165262
+1191,STRAV,045045004:J2,J2,J2,3,FABD00,000000,Line:relation:8165263
+1191,STRAV,045045011:B,B,B,3,00B7E3,ffffff,Line:relation:5739372
+1191,STRAV,045045013:N,N,N,3,74B655,ffffff,Line:relation:5973902
+1191,STRAV,045045030:O1,O1,O1,3,EC7FA9,ffffff,Line:relation:9172915
+1191,STRAV,045045030:O2,O2,O2,3,BD3F7C,ffffff,Line:relation:9173025
 855,Scolaire Est Yvelines,019019001:01,01,01,3,9ECB84,000000,
 855,Scolaire Est Yvelines,019019012:12,12,12,3,94CDF1,000000,
 855,Scolaire Est Yvelines,019019054:54,54,54,3,FECF00,000000,
@@ -1525,11 +1538,6 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 817,Seine Essonne Bus,024309312:312,312,312,3,FFED00,000000,
 817,Seine Essonne Bus,024309313:313,313,313,3,00957E,ffffff,
 817,Seine Essonne Bus,024309314:314,314,314,3,E2001A,ffffff,
-1177,Seine Grand Orly,522522282:282,282,282,3,2CB461,ffffff,Line:relation:7147174
-1177,Seine Grand Orly,522522480:480,480,480,3,00ADEE,000000,Line:relation:7011303
-1177,Seine Grand Orly,522522481:LICORNE,LICORNE,LICORNE,3,E2007A,ffffff,Line:relation:6883314
-1177,Seine Grand Orly,522522482:482,482,482,3,0B5394,ffffff,Line:relation:9348862
-1177,Seine Grand Orly,522522483:483,483,483,3,F7941D,000000,Line:relation:6929043
 820,Seine Sénart Bus,021021019:NavetteM,Navette M,Navette Montgeron,3,990000,ffffff,
 820,Seine Sénart Bus,021021100:Inter-Val,Inter-Val,Inter-Vals,3,14488E,ffffff,Line:relation:8218451
 820,Seine Sénart Bus,021021110:12,12,12,3,7A6FAC,000000,Line:relation:7734525
@@ -1680,7 +1688,6 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 742,TRAIN,800:R:Bus,R,R,3,E59FDB,ffffff,
 742,TRAIN,800:T11,T11,GARE D\'EPINAY SUR SEINE - Gare du Bourget,0,FB4F14,ffffff,Line:relation:8467024
 742,TRAIN,800:U,U,U,2,DE4F75,ffffff,Line:relation:215565
-742,TRAIN,800:U:Bus,U,U,3,DE4F75,ffffff,
 440,TRAMWAY,100112003:T3B,T3B,Porte de Vincennes - Porte de la Chapelle,0,00AE41,ffffff,Line:relation:3662457
 440,TRAMWAY,100112011:T1,T1,GARE DE NOISY LE SEC - Asnieres Gennevilliers Les Courtilles,0,003CA6,ffffff,Line:relation:2572573
 440,TRAMWAY,100112012:T2,T2,Pont de Bezons - Porte de Versailles,0,CF009E,ffffff,Line:relation:1635139
@@ -1843,6 +1850,7 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 215,Valoise,030195020:95-20,95-20,95-20,3,008CCE,000000,Line:relation:5890965
 215,Valoise,030195021:95-21,95-21,95-21,3,D3A576,000000,Line:relation:7823264
 215,Valoise,030195029:95-29,95-29,95-29,3,F29200,ffffff,Line:relation:9694410
+326,VyBus,045045005:H,H,H,3,B65190,ffffff,Line:relation:6860109
 326,VyBus,045045006:E,E,E,3,DD0026,ffffff,Line:relation:6860181
 326,VyBus,045045006:E1,E1,E1,3,DA620C,ffffff,Line:relation:8218465
 326,VyBus,045045006:E2,E2,E2,3,FBC322,ffffff,Line:relation:6949602
@@ -1851,6 +1859,8 @@ agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route
 326,VyBus,045045010:A,A,A,3,3B96C9,ffffff,Line:relation:5754922
 326,VyBus,045045012:C,C,C,3,95BC1B,ffffff,Line:relation:8710156
 326,VyBus,045045019:F4,F4,F4,3,FBBF28,000000,Line:relation:5847185
+326,VyBus,045045020:G1,G1,G1,3,A6D9F0,000000,Line:relation:11161733
+326,VyBus,045045020:G2,G2,G2,3,A6D9F0,000000,Line:relation:11161734
 326,VyBus,045045022:R1,R1,R1,3,74B655,000000,
 326,VyBus,045045022:R1A,R1A,R1A,3,74B655,000000,
 326,VyBus,045045022:R1B,R1B,R1B,3,74B655,000000,

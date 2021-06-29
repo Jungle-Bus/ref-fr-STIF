@@ -18,7 +18,7 @@ def create_osmose_xml_stops(errors):
     doc['analysers']['analyser']['@timestamp'] = now
     doc['analysers']['analyser']['class']['@item'] = "8042"
     doc['analysers']['analyser']['class']['@tag'] = "transport en commun"
-    doc['analysers']['analyser']['class']['@id'] = "2" #set the class of the item here
+    doc['analysers']['analyser']['class']['@id'] = "2" 
     doc['analysers']['analyser']['class']['@level'] = "3"
     doc['analysers']['analyser']['class']['@source'] = "https://github.com/Jungle-Bus/ref-fr-STIF/tree/master/osmose"
     doc['analysers']['analyser']['class']['@resource'] = "https://ref-lignes-stif.5apps.com/"
@@ -105,10 +105,12 @@ if __name__ == '__main__':
     with open("../data/osmose_stops.xml", "w") as xml_out_file:
         xml_out_file.write(xml)
 
-    lines_errors = ref_FR_STIF_lignes.generate_osmose_errors_for_lines()
-    lines_errors += ref_FR_STIF_lignes.generate_osmose_additional_errors_for_lines()
+    lines_errors, lines_improv = ref_FR_STIF_lignes.generate_osmose_errors_for_lines()
     print("Il y a {} erreurs sur les lignes".format(len(lines_errors)))
+    print("Il y a {} améliorations possibles sur les lignes à partir de l'open data".format(len(lines_improv)))
 
     xml = create_osmose_xml_lines(lines_errors)
     with open("../data/osmose_lines.xml", "w") as xml_out_file:
         xml_out_file.write(xml)
+    
+    #TODO add improvements for lines too

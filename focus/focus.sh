@@ -7,8 +7,10 @@ set -euvo pipefail
 cd data 
 
 ## Extraction focus open data
-xsv join route_id focus_lines.csv route_id opendata_routepoints.csv |xsv select  route_id,ZDEr_ID_REF_A,stop_lat,stop_lon,stop_name,route_short_name,dest_name |xsv sort -s route_id,dest_name,ZDEr_ID_REF_A > focus_opendata_routepoints.csv
+xsv join route_id focus_lines.csv route_id opendata_routepoints.csv |xsv select ID_Line,route_id,ZDEr_ID_REF_A,stop_lat,stop_lon,stop_name,route_short_name |xsv sort -s ID_Line,ZDEr_ID_REF_A |uniq > focus_temp_opendata_linepoints.csv
 
-## Extraction focus OSM
-xsv join route_id focus_lines.csv osm:ref:FR:STIF:ExternalCode_Line osm_routepoints_for_matching.csv |xsv select stop_id,line_id,route_id,osm:ref:FR:STIF,osm:ref:FR:STIF:ExternalCode_Line,lat,lon,name,code,destination |xsv sort -s osm:ref:FR:STIF:ExternalCode_Line,destination,stop_id > focus_osm_routepoints.csv
+## Fusion open data / OSM
+xsv join ZDEr_ID_REF_A,route_id focus_temp_opendata_linepoints.csv osm:ref:FR:STIF,osm:ref:FR:STIF:ExternalCode_Line osm_routepoints_for_matching.csv |xsv select ID_Line,ZDEr_ID_REF_A,route_short_name,stop_lat,stop_lon,stop_name,name,lat,lon,stop_id,route_id[1],line_id > focus_merged.csv
+
+rm focus_temp_opendata_linepoints.csv
 

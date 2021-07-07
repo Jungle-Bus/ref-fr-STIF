@@ -1,71 +1,88 @@
 
 # État des lieux par réseau de l'open data IDFM
 
-* les lignes comptabilisées dans OpenStreetMap sont celles qui ont un id de ligne (ref:FR:STIF:ExternalCode_Line)
+* les lignes comptabilisées dans OpenStreetMap sont celles qui ont une référence de ligne (ref:FR:STIF)
 * les lignes sont considérées sans tracé si aucune de leurs relations route ne contient de chemin.
 * Voir aussi les [erreurs Osmose](http://osmose.openstreetmap.fr/fr/errors/?source=28482&item=8042)
 
 
-Sur un total de 1892 lignes open data: 
-- 531 lignes sont manquantes dans OSM 
-- 759 lignes restent à tracer dans OSM 
+Sur un total de 1894 lignes open data: 
+- 989 lignes sont manquantes dans OSM 
+- 1166 lignes restent à tracer dans OSM 
 
-# Express 80 - Mantes-Cergy 
-1 lignes open data 
+# VALBUS 
+4 lignes open data 
 
  dont 0 manquantes dans OSM 
  
 
 
+ dont 1 lignes OSM sans tracé 
+ 
+ - [3802](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00485) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9234813 
+
+# Les Cars Bleus 
+14 lignes open data 
+
+ dont 14 manquantes dans OSM 
+ 
+ - 184-001 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01002 
+ - 184-003 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01003 
+ - 184-004 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01004 
+ - 184-005 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01005 
+ - 184-006 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01006 
+ - 184-008 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01008 
+ - 184-013 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01011 
+ - 184-014 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01012 
+ - 284-001 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01013 
+ - 284-002 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01014 
+ - 284-003 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01015 
+ - 284-004 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01016 
+ - 284-006 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01017 
+ - 284-005 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02393 
+
+
  dont 0 lignes OSM sans tracé 
  
 
-# GRAND MORIN 
+# TVO 
+3 lignes open data 
+
+ dont 3 manquantes dans OSM 
+ 
+ - 501 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00309 
+ - 502 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00310 
+ - 503 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00311 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Houdanais 
 23 lignes open data 
 
- dont 11 manquantes dans OSM 
+ dont 20 manquantes dans OSM 
  
- - 13A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067013:13A 
- - 4A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067104:4A 
- - 8B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067108:8B 
- - 13B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067113:13B 
- - 21S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067121:21S 
- - 54B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067154:54B 
- - 56S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067156:56S 
- - 59E : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067159:59E 
- - 4B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067204:4B 
- - 8C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067208:8C 
- - 8AS : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067308:8AS 
-
-
- dont 5 lignes OSM sans tracé 
- 
- - [4](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067004:4) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9237559 
- - [8A](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067008:8A) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7921046 
- - [59](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067059:59) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7921045 
- - [59](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067059:59) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9885338 
- - [73](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067073:73) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7998640 
-
-# Stigo 
-4 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 200 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003200:200 
-
-
- dont 3 lignes OSM sans tracé 
- 
- - [11](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003011:11) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9200493 
- - [18](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003018:18) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=6957343 
- - [201](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003201:201) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9218053 
-
-# Le Paladin 
-15 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 15 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:020149012:15 
+ - 2 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00054 
+ - 9 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00057 
+ - 65 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00063 
+ - 15 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00172 
+ - 90 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00756 
+ - 89 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00758 
+ - 91 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00759 
+ - 16 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01957 
+ - 21 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01980 
+ - 22 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01981 
+ - 31 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01982 
+ - 35 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01983 
+ - 40 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01985 
+ - 41 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01986 
+ - 45 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01987 
+ - 48 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01988 
+ - 51 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01989 
+ - 55 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01990 
+ - 61 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01991 
+ - 17 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01992 
 
 
  dont 0 lignes OSM sans tracé 
@@ -74,311 +91,118 @@ Sur un total de 1892 lignes open data:
 # Valmy 
 9 lignes open data 
 
- dont 0 manquantes dans OSM 
- 
-
-
- dont 5 lignes OSM sans tracé 
- 
- - [12](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:016016012:12) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8132425 
- - [13](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:016016013:13) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8388060 
- - [11](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:016016020:11) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8255784 
- - [SOISY BUS](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:016016033:SOISYBUS) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8409188 
- - [15](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:016016615:15) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8256243 
-
-# PAYS DE L'OURCQ 
-17 lignes open data 
-
- dont 7 manquantes dans OSM 
- 
- - 46 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067046:46 
- - 47 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067047:47 
- - 50 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067050:50 
- - 52 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067052:52 
- - 53 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067053:53 
- - 54 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067054:54 
- - 61B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067161:61B 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# TICE 
-19 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 5 lignes OSM sans tracé 
- 
- - [406](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:400400406:406) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8282002 
- - [412](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:400400412:412) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9136932 
- - [413](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:400400413:413) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8374540 
- - [415](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:400400415:415) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8281810 
- - [453](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:400400453:453) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8396927 
-
-# Yerres - Brie Centrale 
-14 lignes open data 
-
- dont 4 manquantes dans OSM 
- 
- - 35A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097035:35A 
- - 35B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097035:35B 
- - 35D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097035:35D 
- - 37RPI : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097037:37RPI 
-
-
- dont 8 lignes OSM sans tracé 
- 
- - [20](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097020:20) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8453568 
- - [32](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097032:32) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8455504 
- - [34A](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097034:34A) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8455190 
- - [34B](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097034:34B) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8455292 
- - [35C](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097035:35C) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8455382 
- - [37A](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097037:37A) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8455445 
- - [37B](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097037:37B) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8452726 
- - [37C](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097037:37C) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8452704 
-
-# PER 
-1 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 1 lignes OSM sans tracé 
- 
- - [36-15](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:036036015:36-15) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8447240 
-
-# Poissy Aval 
-1 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Val de Seine 
-19 lignes open data 
-
- dont 13 manquantes dans OSM 
- 
- - 2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011002:2 
- - 5 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011005:5 
- - 9 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011009:9 
- - 10 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011010:10 
- - 21 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011021:21 
- - 33 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011033:33 
- - 34 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011034:34 
- - 43 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011043:43 
- - 18 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011180:18 
- - 311 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011311:311 
- - 312 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011312:312 
- - 313 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011313:313 
- - 502 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:052052083:502 
-
-
- dont 5 lignes OSM sans tracé 
- 
- - [13](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011013:13) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9176972 
- - [14](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011014:14) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9238037 
- - [32](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011032:32) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9238180 
- - [41](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011041:41) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8060916 
- - [42](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011042:42) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7921016 
-
-# Filéo 
-12 lignes open data 
-
  dont 1 manquantes dans OSM 
  
- - 32 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:116295032:32 
-
-
- dont 11 lignes OSM sans tracé 
- 
- - [FILEO O](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:116277005:FILEOO) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=2531208 
- - [FILEO SP](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:116277009:FILEOSP) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8404844 
- - [FILEO V](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:116277010:FILEOV) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=2531226 
- - [FILEO S](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:116295001:FILEOS) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8405392 
- - [FILEO G](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:116295003:FILEOG) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8398489 
- - [FILEO VB](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:116295004:FILEOVB) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=2531207 
- - [FILEO FO](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:116295008:FILEOFO) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7678094 
- - [27](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:116295027:27) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8312707 
- - [FILEO T](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:116931002:FILEOT) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=2531225 
- - [FILEO SL](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:116931006:FILEOSL) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8388058 
- - [FILEO VE](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:116931007:FILEOVE) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8449216 
-
-# SENART 
-41 lignes open data 
-
- dont 11 manquantes dans OSM 
- 
- - 01 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:519519001:01 
- - CITA : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:519519077:CITA 
- - 54 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:519519096:54 
- - Tzn1 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:519519100:Tzn1 
- - 05 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:519519102:05 
- - 31 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:519519132:31 
- - 62A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:519519160:62A 
- - 61A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:519519210:61A 
- - CPSF : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:519519232:CPSF 
- - 62B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:519519260:62B 
- - 63 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:519519360:63 
-
-
- dont 5 lignes OSM sans tracé 
- 
- - [03](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:519519003:03) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8464879 
- - [50](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:519519050:50) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9173650 
- - [55](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:519519055:55) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9702170 
- - [61B](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:519519220:61B) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9718465 
- - [62C](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:519519320:62C) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9718464 
-
-# Houdanais 
-20 lignes open data 
-
- dont 17 manquantes dans OSM 
- 
- - 2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005002:2 
- - 9 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005009:9 
- - 17 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005017:17 
- - 21 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005021:21 
- - 22 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005022:22 
- - 31 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005031:31 
- - 35 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005035:35 
- - 40 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005040:40 
- - 41 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005041:41 
- - 45 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005045:45 
- - 48 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005048:48 
- - 51 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005051:51 
- - 55 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005055:55 
- - 61 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005061:61 
- - 65 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005065:65 
- - 15 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013015:15 
- - 16 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013016:16 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Trans Val d'Oise 
-9 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 24 sco : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:050050124:24sco 
-
-
- dont 1 lignes OSM sans tracé 
- 
- - [24](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:050050024:24) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8370222 
-
-# Réseau du Canton de Perthes 
-18 lignes open data 
-
- dont 15 manquantes dans OSM 
- 
- - S10 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063011:S10 
- - S11 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063011:S11 
- - S12 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063011:S12 
- - S13 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063011:S13 
- - S14 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063011:S14 
- - V : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063011:V 
- - P : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063013:P 
- - 14 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063014:14 
- - 20 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063022:20 
- - 23 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063022:23 
- - 111 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063111:111 
- - 112 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063111:112 
- - 113 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063113:113 
- - 114 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063113:114 
- - 115 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063113:115 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# SAVAC 
-57 lignes open data 
-
- dont 34 manquantes dans OSM 
- 
- - Navette : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039001:Navette 
- - 39-02 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039002:39-02 
- - 39-003 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039003:39-003 
- - 39-27 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039027:39-27 
- - 39-31 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039031:39-31 
- - 39-36 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039036:39-36 
- - 39-28 A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039281:39-28A 
- - 39-28 B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039282:39-28B 
- - 39-28 C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039283:39-28C 
- - 39-28 D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039284:39-28D 
- - 39-28 E : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039285:39-28E 
- - 39-28 F : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039286:39-28F 
- - 39-29-1 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039291:39-29-1 
- - 39-29-2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039292:39-29-2 
- - 39-29-3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039293:39-29-3 
- - 39-29-4 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039294:39-29-4 
- - 39-30 A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039311:39-30A 
- - 39-30 B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039312:39-30B 
- - 39-30 C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039313:39-30C 
- - 39-30 D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039314:39-30D 
- - 39-35 A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039351:39-35A 
- - 39-35 B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039352:39-35B 
- - 39-37 A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039371:39-37A 
- - 39-39 A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039373:39-39A 
- - 39-39 B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039374:39-39B 
- - 39-40 A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039375:39-40A 
- - 39-40 B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039376:39-40B 
- - 39-40 C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039377:39-40C 
- - 39-40 D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039378:39-40D 
- - 39-07 A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039701:39-07A 
- - 39-07 B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039702:39-07B 
- - 39-07 C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039703:39-07C 
- - 39-07 D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039704:39-07D 
- - 263 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039262263:263 
+ - SOISY BUS : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00305 
 
 
  dont 4 lignes OSM sans tracé 
  
- - [39-18](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039018:39-18) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9261401 
- - [39-37 B](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039372:39-37B) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9675493 
- - [Bel Air](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039039999:BelAir) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=11696066 
- - [261](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:039262261:261) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9259815 
+ - [12](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00301) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8132425 
+ - [13](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00302) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8388060 
+ - [11](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00304) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8255784 
+ - [15](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01804) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8256243 
 
-# Paladin 
-5 lignes open data 
+# Busval d Oise 
+36 lignes open data 
+
+ dont 6 manquantes dans OSM 
+ 
+ - 9522 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00139 
+ - 9523 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00140 
+ - 9524 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00141 
+ - 9525 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00142 
+ - 95-26 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00478 
+ - 95-10 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00608 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Scolaire Est Yvelines 
+11 lignes open data 
+
+ dont 11 manquantes dans OSM 
+ 
+ - 01 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00324 
+ - 12 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00325 
+ - 54 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00327 
+ - 55 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00328 
+ - 06 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01489 
+ - 503 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01490 
+ - 37 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01491 
+ - 40 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01492 
+ - 38 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01493 
+ - 56 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02360 
+ - 57 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02361 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Transdev Ile-de-France St-Fargeau-Ponthierry 
+1 lignes open data 
 
  dont 1 manquantes dans OSM 
  
- - Chaville : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:111592409:Chaville 
+ - 115 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02287 
 
 
  dont 0 lignes OSM sans tracé 
  
 
-# Cars D'Orsay 
-24 lignes open data 
+# Conflans Achères 
+7 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# rbus 
+5 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Transdev Ile-de-France Conflans 
+3 lignes open data 
+
+ dont 3 manquantes dans OSM 
+ 
+ - 27 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02204 
+ - 5 S : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02225 
+ - 04 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02226 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Pays de l Ourcq 
+18 lignes open data 
 
  dont 8 manquantes dans OSM 
  
- - 6 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:006006006:6 
- - S15 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:006006015:S15 
- - 18 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:006006018:18 
- - S1 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:006006026:S1 
- - S2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:006006026:S2 
- - S3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:006006026:S3 
- - S4 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:006006026:S4 
- - S9 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:269269002:S9 
+ - 46 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00930 
+ - 47 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00931 
+ - 50 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00935 
+ - 52 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00937 
+ - 53 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00938 
+ - 54 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00939 
+ - 54B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00940 
+ - 61B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02345 
 
 
  dont 0 lignes OSM sans tracé 
  
 
-# Seine & Marne Express 17 
+# Mobilien 9518 
 1 lignes open data 
 
  dont 0 manquantes dans OSM 
@@ -388,66 +212,507 @@ Sur un total de 1892 lignes open data:
  dont 0 lignes OSM sans tracé 
  
 
-# Rambouillet Interurbain 
+# Tam Limay 
 21 lignes open data 
 
- dont 14 manquantes dans OSM 
+ dont 8 manquantes dans OSM 
  
- - 01 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013001:01 
- - 08 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013008:08 
- - 11 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013011:11 
- - 19 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013019:19 
- - 20 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013020:20 
- - 23 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013023:23 
- - 24 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013024:24 
- - 25 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013025:25 
- - 26 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013026:26 
- - 39 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013039:39 
- - 49 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013049:49 
- - 59 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013059:59 
- - 79 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013079:79 
- - 89 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013089:89 
+ - 501 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00061 
+ - 21 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00739 
+ - 26 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00741 
+ - 52 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00744 
+ - F : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01613 
+ - G : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01614 
+ - R3 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02416 
+ - R5 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02417 
+
+
+ dont 13 lignes OSM sans tracé 
+ 
+ - [L](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00747) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9184388 
+ - [C](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01600) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8298486 
+ - [D](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01601) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8312254 
+ - [E](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01602) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9232011 
+ - [I](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01603) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8408069 
+ - [Z](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01604) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9231914 
+ - [K](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01605) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8407357 
+ - [M](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01606) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8400479 
+ - [N](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01607) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9254991 
+ - [J](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01610) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9231955 
+ - [X](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01612) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8405850 
+ - [A](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01949) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9173954 
+ - [R](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01979) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9255049 
+
+# Seine-Saint-Denis 
+23 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - R T4 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01573 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# CITALIEN 
+1 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Les Cars Jouquin 
+1 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - Navette : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01892 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Cars Moreau 
+20 lignes open data 
+
+ dont 20 manquantes dans OSM 
+ 
+ - 4 A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01452 
+ - 4 B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01453 
+ - 4 C : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01454 
+ - 4 D : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01455 
+ - 001 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01456 
+ - 4 BD : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01457 
+ - 001 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01458 
+ - 211 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01459 
+ - 201 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01461 
+ - 202 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01462 
+ - 203 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01463 
+ - 002 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01464 
+ - 10 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01466 
+ - BRAY 9 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01467 
+ - BRAY 3 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01468 
+ - 204 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01469 
+ - BRAY 11 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01471 
+ - 003 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01664 
+ - 003 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01665 
+ - 4 E : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02056 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Com Bus 
+25 lignes open data 
+
+ dont 10 manquantes dans OSM 
+ 
+ - 16 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00734 
+ - 18 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00736 
+ - 19 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00737 
+ - 20 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00738 
+ - 109 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00751 
+ - 110 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00752 
+ - 91 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00760 
+ - 88 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00761 
+ - 02C : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01798 
+ - 88 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02420 
+
+
+ dont 4 lignes OSM sans tracé 
+ 
+ - [15](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00733) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9752169 
+ - [88](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00755) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=12462685 
+ - [02B](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01796) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9254889 
+ - [02A](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01797) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9254370 
+
+# Express 16 
+1 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Pays de Meaux 
+23 lignes open data 
+
+ dont 9 manquantes dans OSM 
+ 
+ - Js : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00899 
+ - Qs : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02229 
+ - Fs : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02230 
+ - Ls : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02231 
+ - Ms : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02232 
+ - Os : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02233 
+ - Ns : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02235 
+ - Es : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02237 
+ - Ks : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02252 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# N4 Mobilités 
+2 lignes open data 
+
+ dont 2 manquantes dans OSM 
+ 
+ - 17 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00624 
+ - 500 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02240 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Seine Essonne Bus 
+9 lignes open data 
+
+ dont 3 manquantes dans OSM 
+ 
+ - 312 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00387 
+ - 313 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00389 
+ - 314 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00391 
+
+
+ dont 1 lignes OSM sans tracé 
+ 
+ - [302](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00386) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9237446 
+
+# Seine-Senart Bus 
+1 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Plaine de Versailles 
+11 lignes open data 
+
+ dont 6 manquantes dans OSM 
+ 
+ - 13 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00060 
+ - 171 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00125 
+ - 172 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00126 
+ - 511 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00137 
+ - 512 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00138 
+ - 75 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02075 
+
+
+ dont 5 lignes OSM sans tracé 
+ 
+ - [71](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00122) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8063062 
+ - [77](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00123) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9205962 
+ - [170](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00124) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8060915 
+ - [17S](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01768) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8054731 
+ - [76](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02076) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9185838 
+
+# Sol R 
+12 lignes open data 
+
+ dont 12 manquantes dans OSM 
+ 
+ - 3 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00009 
+ - 7 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00012 
+ - 10 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00014 
+ - 21 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00018 
+ - 121 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00020 
+ - 209 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00024 
+ - 309 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00025 
+ - 409 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00026 
+ - 33 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01053 
+ - 28A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02089 
+ - 28B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02090 
+ - 28C : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02091 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Stivo 
+21 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Transilien 
+21 lignes open data 
+
+ dont 21 manquantes dans OSM 
+ 
+ - T4 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01683 
+ - P : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01730 
+ - R : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01731 
+ - N : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01736 
+ - H : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01737 
+ - K : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01738 
+ - J : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01739 
+ - L : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01740 
+ - U : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01741 
+ - P : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01841 
+ - H : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01842 
+ - T4 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01843 
+ - N : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01845 
+ - J : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01846 
+ - L : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01847 
+ - R : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01848 
+ - BUS SNCF : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02363 
+ - BUS SNCF : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02364 
+ - BUS SNCF : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02365 
+ - BUS SNCF : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02366 
+ - BUS SNCF : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02367 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Trans Essonne 
+11 lignes open data 
+
+ dont 9 manquantes dans OSM 
+ 
+ - 24-06 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00380 
+ - 24-10 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00382 
+ - 227 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02022 
+ - 228 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02023 
+ - 229 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02024 
+ - 230 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02025 
+ - 231 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02026 
+ - FLEXO : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02220 
+ - 209 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02221 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# R bus 
+13 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 4 lignes OSM sans tracé 
+ 
+ - [8](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00297) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8187695 
+ - [9](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00298) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8186765 
+ - [45](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00326) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8456080 
+ - [17](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01822) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8456130 
+
+# TRAMY 
+31 lignes open data 
+
+ dont 27 manquantes dans OSM 
+ 
+ - 10 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01040 
+ - 25 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01046 
+ - 26 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01047 
+ - 27 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01048 
+ - 29A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01049 
+ - 38 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01057 
+ - 39 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01058 
+ - 03C : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02071 
+ - 12A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02072 
+ - 12B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02073 
+ - 12C : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02074 
+ - 31A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02077 
+ - 31B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02078 
+ - 31C : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02079 
+ - 02A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02093 
+ - 02B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02094 
+ - 02C : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02095 
+ - 02D : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02096 
+ - 02E : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02097 
+ - 02F : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02098 
+ - 09A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02116 
+ - 09B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02117 
+ - 09C : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02118 
+ - 09M : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02119 
+ - 29B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02195 
+ - 29M : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02196 
+ - 43 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02291 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Bus en Seine 
+21 lignes open data 
+
+ dont 5 manquantes dans OSM 
+ 
+ - D : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01755 
+ - S3 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02145 
+ - S4 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02146 
+ - S7 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02147 
+ - S2 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02153 
+
+
+ dont 1 lignes OSM sans tracé 
+ 
+ - [T](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02144) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8366461 
+
+# SAVAC 
+54 lignes open data 
+
+ dont 35 manquantes dans OSM 
+ 
+ - 39-02 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00488 
+ - 39-003 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00489 
+ - 39-07 A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00494 
+ - 39-27 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00504 
+ - 39-28 A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00505 
+ - 39-28 B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00506 
+ - 39-28 C : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00507 
+ - 39-28 D : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00508 
+ - 39-28 E : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00509 
+ - 39-28 F : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00510 
+ - 39-29-1 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00511 
+ - 39-29-2 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00512 
+ - 39-29-3 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00513 
+ - 39-29-4 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00514 
+ - 39-30 B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00515 
+ - 39-30 C : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00516 
+ - 39-30 D : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00517 
+ - 39-31 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00519 
+ - 39-35 A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00522 
+ - 39-35 B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00523 
+ - 39-36 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00524 
+ - 39-37 A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00525 
+ - 39-39 A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00527 
+ - 263 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00530 
+ - 39-30 A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00531 
+ - 39-37 B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01688 
+ - 39-39 B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01689 
+ - 39-40 A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01690 
+ - 39-40 B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01691 
+ - 39-40 C : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01692 
+ - 39-40 D : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01693 
+ - 39-07 B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01718 
+ - 39-07 C : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01719 
+ - 39-07 D : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01720 
+ - Bel Air : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02394 
 
 
  dont 2 lignes OSM sans tracé 
  
- - [10](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013010:10) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9181020 
- - [12](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013012:12) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9206600 
+ - [39-18](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00502) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9261401 
+ - [261](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01701) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9259815 
 
-# Trans'Essonne 
-12 lignes open data 
+# Keolis Ouest Val-de-Marne 
+1 lignes open data 
 
- dont 10 manquantes dans OSM 
+ dont 1 manquantes dans OSM 
  
- - 24-06 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024006:24-06 
- - 24-10 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024010:24-10 
- - FLEXO : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024100:FLEXO 
- - 209 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024209:209 
- - 227 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024227:227 
- - 228 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024228:228 
- - 229 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024229:229 
- - 230 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024230:230 
- - 231 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024231:231 
- - 232 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024024232:232 
+ - T9 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02317 
 
 
  dont 0 lignes OSM sans tracé 
  
 
-# RATP 
-309 lignes open data 
+# Résalys 
+8 lignes open data 
 
- dont 3 manquantes dans OSM 
+ dont 0 manquantes dans OSM 
  
- - BUSTRX6 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:100100924:BUSTRX6 
- - A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:100100929:A 
- - BUSTRXB : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:100100932:BUSTRXB 
 
 
  dont 0 lignes OSM sans tracé 
  
 
-# MOBILIEN 62 
+# Express A14 
+5 lignes open data 
+
+ dont 4 manquantes dans OSM 
+ 
+ - Exp A14 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00753 
+ - Exp A14 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00754 
+ - EXP A14 B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02248 
+ - EXP A14 M : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02249 
+
+
+ dont 1 lignes OSM sans tracé 
+ 
+ - [100](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00655) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9188817 
+
+# CIF 
+69 lignes open data 
+
+ dont 22 manquantes dans OSM 
+ 
+ - 46 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00217 
+ - 47 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00218 
+ - R48 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00219 
+ - 50 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00220 
+ - G bus : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00224 
+ - 116 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00225 
+ - R110 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00235 
+ - R111 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00236 
+ - R112 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00237 
+ - R113 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00238 
+ - R105 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00240 
+ - R107 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00242 
+ - R109 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00244 
+ - 171 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01779 
+ - BUS LOUVR : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02030 
+ - 11.5 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02165 
+ - 12.1 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02167 
+ - 14.1 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02168 
+ - BUS SURVI : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02255 
+ - T bus 1 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02265 
+ - T Bus 2 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02266 
+ - T Bus 3 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02267 
+
+
+ dont 23 lignes OSM sans tracé 
+ 
+ - [16](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00198) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9192729 
+ - [17](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00199) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8366812 
+ - [18](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00200) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8404789 
+ - [21](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00202) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9206954 
+ - [22](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00203) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9836855 
+ - [R8](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00207) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7921056 
+ - [31](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00208) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8388057 
+ - [39](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00213) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8388059 
+ - [71](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00221) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9193835 
+ - [R117](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00226) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7678074 
+ - [R1](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00228) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7678060 
+ - [R2](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00229) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7678000 
+ - [R4](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00231) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8493728 
+ - [R5](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00232) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9207015 
+ - [R6](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00233) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8377444 
+ - [R7](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00234) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9836790 
+ - [R106](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00241) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7999069 
+ - [R108](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00243) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7678062 
+ - [Vitavil](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00261) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9207487 
+ - [3A](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01801) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9181063 
+ - [24](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01866) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8360705 
+ - [49](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02033) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9836912 
+ - [40](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02214) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8753633 
+
+# ViaMo-Melun 
+1 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# GARREL ET NAVARRE 
 1 lignes open data 
 
  dont 0 manquantes dans OSM 
@@ -467,96 +732,39 @@ Sur un total de 1892 lignes open data:
  dont 0 lignes OSM sans tracé 
  
 
-# Tam Limay 
-1 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 501 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005015:501 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Keolis CIF 
-68 lignes open data 
-
- dont 18 manquantes dans OSM 
- 
- - 46 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014046:46 
- - 47 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014047:47 
- - R48 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014048:R48 
- - 50 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014050:50 
- - T'BUS 3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014090:TBUS3 
- - T'BUS 1 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014091:TBUS1 
- - T'BUS 2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014092:TBUS2 
- - R105 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014105:R105 
- - R107 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014107:R107 
- - R109 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014109:R109 
- - 116 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014116:116 
- - 12.1 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014121:121 
- - 14.1 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014141:141 
- - 171 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014171:171 
- - R110 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014910:R110 
- - R111 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014911:R111 
- - R112 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014912:R112 
- - R113 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014913:R113 
-
-
- dont 24 lignes OSM sans tracé 
- 
- - [3A](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014003:3A) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9181063 
- - [3B](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014003:3B) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9206702 
- - [16](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014016:16) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9192729 
- - [22](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014022:22) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9836855 
- - [31](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014031:31) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8388057 
- - [39](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014039:39) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8388059 
- - [40](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014040:40) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8753633 
- - [49](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014049:49) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9836912 
- - [71](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014071:71) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9193835 
- - [R106](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014106:R106) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7999069 
- - [R108](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014108:R108) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7678062 
- - [R117](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014117:R117) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7678074 
- - [17](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014217:17) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8366812 
- - [18](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014218:18) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8404789 
- - [21](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014221:21) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9206954 
- - [24](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014224:24) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8360705 
- - [R8](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014302:R8) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7921056 
- - [R1](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014901:R1) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7678060 
- - [R2](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014902:R2) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7678000 
- - [R4](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014904:R4) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8493728 
- - [R5](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014905:R5) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9207015 
- - [R6](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014906:R6) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8377444 
- - [R7](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014014907:R7) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9836790 
- - [Vitavil](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014115086:Vitavil) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9207487 
-
-# Comète 
-10 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 209 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:062258009:209 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Le Chatelet en Brie - Pays de Seine 
+# Cars Soeur 
 6 lignes open data 
 
- dont 5 manquantes dans OSM 
+ dont 6 manquantes dans OSM 
  
- - 40 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:062062040:40 
- - 41 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:062062041:41 
- - 42 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:062062042:42 
- - 43 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:062062043:43 
- - 45 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:062062045:45 
+ - 7001 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00985 
+ - 7001 SCO : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00986 
+ - 7002 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00987 
+ - 7005 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00989 
+ - 7006 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00990 
+ - 7002 SCO : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02390 
 
 
  dont 0 lignes OSM sans tracé 
  
 
-# ADP 
+# Transdev Ile-de-France Vulaines 
+6 lignes open data 
+
+ dont 6 manquantes dans OSM 
+ 
+ - 41 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00789 
+ - 42 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00790 
+ - 44 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00791 
+ - 45 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00792 
+ - 43 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00813 
+ - 40 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02258 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Mobicaps 
 2 lignes open data 
 
  dont 0 manquantes dans OSM 
@@ -566,496 +774,88 @@ Sur un total de 1892 lignes open data:
  dont 0 lignes OSM sans tracé 
  
 
-# Express 19 Les Mureaux - Versailles 
-1 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 19EXPRESS : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011019:19EXPRESS 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Actipôles 
-8 lignes open data 
-
- dont 8 manquantes dans OSM 
- 
- - 88 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057318088:88 
- - 90 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057318090:90 
- - 88 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057318108:88 
- - 89 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057318118:89 
- - 91 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057318119:91 
- - 91 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057318120:91 
- - 88 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057318208:88 
- - 88 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057318219:88 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# RER 
-10 lignes open data 
-
- dont 5 manquantes dans OSM 
- 
- - C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:C:Bus 
- - D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:D:Bus 
- - E : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:E:Bus 
- - A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:810:A:Bus 
- - B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:810:B:Bus 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Express 100 Torcy-Créteil 
-1 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# R'bus 
-16 lignes open data 
-
- dont 3 manquantes dans OSM 
- 
- - 501 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:016616501:501 
- - 502 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:016616502:502 
- - 503 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:016616503:503 
-
-
- dont 4 lignes OSM sans tracé 
- 
- - [8](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:016616008:8) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8187695 
- - [9](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:016616009:9) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8186765 
- - [17](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:016616017:17) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8456130 
- - [45](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019019045:45) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8456080 
-
-# Bus O'Mureaux 
-7 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Seine et Marne Express 
-9 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 3 lignes OSM sans tracé 
- 
- - [Express20](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:054054020:Express20) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8493727 
- - [47](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228177047:47) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8444603 
- - [07](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228228007:07) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=11175663 
-
-# Seine Essonne Bus 
-9 lignes open data 
-
- dont 3 manquantes dans OSM 
- 
- - 312 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024309312:312 
- - 313 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024309313:313 
- - 314 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024309314:314 
-
-
- dont 1 lignes OSM sans tracé 
- 
- - [302](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:024309302:302) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9237446 
-
-# MELIBUS 
-26 lignes open data 
-
- dont 15 manquantes dans OSM 
- 
- - S6 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066066021:S6 
- - S7 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066066021:S7 
- - Cd : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066066022:Cd 
- - T : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066066037:T 
- - S4 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366003:S4 
- - S1 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366007:S1 
- - S2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366007:S2 
- - S3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366007:S3 
- - J : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366030:J 
- - Jd : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366030:Jd 
- - O : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366034:O 
- - G : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366036:G 
- - S5 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366036:S5 
- - S8 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366036:S8 
- - O SCO : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066366107:OSCO 
-
-
- dont 2 lignes OSM sans tracé 
- 
- - [B](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066066021:B) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8353656 
- - [Fd](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:066066025:Fd) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9228837 
-
-# Bus Haut Val d'Oise 
-7 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 4 lignes OSM sans tracé 
- 
- - [A](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:046146069:A) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8450384 
- - [B](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:046146070:B) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8450383 
- - [F](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:046146072:F) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8450388 
- - [DIM](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:046146073:DIM) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8450385 
-
-# rbus 
-5 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Plaine de Versailles 
-12 lignes open data 
+# Sénart-Bus 
+36 lignes open data 
 
  dont 6 manquantes dans OSM 
  
- - 13 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:005005013:13 
- - 171 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011171:171 
- - 172 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011172:172 
- - 511 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011511:511 
- - 512 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011512:512 
- - 75 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011750:75 
-
-
- dont 5 lignes OSM sans tracé 
- 
- - [17S](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011017:17S) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8054731 
- - [71](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011071:71) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8063062 
- - [77](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011077:77) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9205962 
- - [170](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011170:170) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8060915 
- - [76](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011011760:76) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9185838 
-
-# Keolis mobilité Roissy 
-1 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# STIVO 
-22 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# PROCARS 
-28 lignes open data 
-
- dont 26 manquantes dans OSM 
- 
- - 01-1 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228228001:01-1 
- - 01-2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228228001:01-2 
- - 01-3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228228001:01-3 
- - 02 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228228002:02 
- - 03 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228228003:03 
- - 05 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228228005:05 
- - 06 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228228006:06 
- - 06-3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228228006:06-3 
- - 08 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228228008:08 
- - 10 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228228010:10 
- - 11 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228228011:11 
- - 12 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228228012:12 
- - 13 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228228013:13 
- - 16 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228228016:16 
- - 17 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228228017:17 
- - 46-1 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228228046:46-1 
- - 46-2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228228046:46-2 
- - 46-3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228228046:46-3 
- - VILLEFERM : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228677016:VILLEFERM 
- - 52 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228677017:52 
- - 9A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228771009:9A 
- - 9B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228771009:9B 
- - 9C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228771009:9C 
- - 9D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228771009:9D 
- - 9E : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228771009:9E 
- - 9Sco : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228771009:9Sco 
-
-
- dont 1 lignes OSM sans tracé 
- 
- - [NANGIBUS](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228228051:NANGIBUS) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8378094 
-
-# STRAV 
-7 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Val d'Essonne 
-12 lignes open data 
-
- dont 4 manquantes dans OSM 
- 
- - 221 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010009:221 
- - 224 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010023:224 
- - 225 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010024:225 
- - 226 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010026:226 
+ - 01 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00840 
+ - 05 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00842 
+ - 62A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02191 
+ - 62B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02192 
+ - 63 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02193 
+ - 61A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02194 
 
 
  dont 4 lignes OSM sans tracé 
  
- - [205](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010010:205) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9243178 
- - [206A](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010016:206A) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9243459 
- - [206B](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010016:206B) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9243857 
- - [223](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010022:223) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9866393 
+ - [03](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00843) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8464879 
+ - [CPSF](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00869) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8465746 
+ - [61B](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02187) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9718465 
+ - [62C](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02188) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9718464 
 
-# CARS MOREAU 
-20 lignes open data 
+# Transdev CEAT 
+59 lignes open data 
 
- dont 17 manquantes dans OSM 
+ dont 39 manquantes dans OSM 
  
- - 4 A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210101:4A 
- - 4 B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210102:4B 
- - 4 C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210103:4C 
- - 4 D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210104:4D 
- - 001 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210106:001 
- - 4 BD : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210107:4BD 
- - 4 E : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210108:4E 
- - 211 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210111:211 
- - 10 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210116:10 
- - 201 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210201:201 
- - 202 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210202:202 
- - 203 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210203:203 
- - BRAY 9 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210209:BRAY9 
- - BRAY 3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210210:BRAY3 
- - 204 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210211:204 
- - BRAY 11 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210217:BRAY11 
- - 003 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:210210301:003 
+ - 101 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00083 
+ - 107 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00090 
+ - 205 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00092 
+ - 114 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00093 
+ - 15 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00094 
+ - 331 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00098 
+ - 223 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00100 
+ - 224 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00101 
+ - 225 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00102 
+ - 1025 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00103 
+ - 226 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00104 
+ - 330 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00105 
+ - 201 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00319 
+ - 103 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00321 
+ - 203 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00322 
+ - 202 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00323 
+ - 109 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01663 
+ - 104 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01708 
+ - 102 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01763 
+ - 221 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01764 
+ - 222 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01765 
+ - 116 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01766 
+ - 108 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01810 
+ - 206A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01811 
+ - 206B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01812 
+ - 320 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01975 
+ - 41 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02111 
+ - 42 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02112 
+ - 324 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02270 
+ - 325 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02271 
+ - 8501 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02292 
+ - 6 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02383 
+ - 105A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02418 
+ - 105B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02419 
+ - 21 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02426 
+ - 22 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02427 
+ - 71 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02428 
+ - 81 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02429 
+ - 82 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02430 
 
 
- dont 0 lignes OSM sans tracé 
+ dont 1 lignes OSM sans tracé 
  
+ - [321](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01976) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=11161907 
 
-# LACROIX 
-17 lignes open data 
+# Pays Fertois 
+19 lignes open data 
 
  dont 7 manquantes dans OSM 
  
- - 30-25 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030025:30-25 
- - 30-27 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030027:30-27 
- - 30-28 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030028:30-28 
- - 30-29 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030029:30-29 
- - 30-32 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030032:30-32 
- - 30-34 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030034:30-34 
- - 30-36 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030036:30-36 
-
-
- dont 6 lignes OSM sans tracé 
- 
- - [30-13](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030013:30-13) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9223322 
- - [30-39](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030039:30-39) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9234745 
- - [CitéVal N](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030595045:CitValN) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9188040 
- - [CitéVal S](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030595045:CitValS) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9188067 
- - [CitéVal C](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030595050:CitValC) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9188120 
- - [CitéVal F](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030595051:CitValF) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9188157 
-
-# Plateau de Brie 
-1 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# STAVO 
-7 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 42 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:044044004:42 
-
-
- dont 5 lignes OSM sans tracé 
- 
- - [FA](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:044044007:FA) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=6839305 
- - [40](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:044044040:40) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8312545 
- - [43](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:044044043:43) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8404223 
- - [45](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:044044045:45) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8735247 
- - [51](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:044044051:51) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8400207 
-
-# Keolis Orly Rungis 
-2 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# SiYONNE 
-10 lignes open data 
-
- dont 5 manquantes dans OSM 
- 
- - C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:208208004:C 
- - G : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:208208012:G 
- - I : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:208208014:I 
- - F : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:208208017:F 
- - L : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:208208017:L 
-
-
- dont 2 lignes OSM sans tracé 
- 
- - [A](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:208208001:A) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8393308 
- - [Emplet](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:208208020:Emplet) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9231700 
-
-# Com'Bus 
-28 lignes open data 
-
- dont 11 manquantes dans OSM 
- 
- - 16 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057016:16 
- - 18 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057018:18 
- - 19 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057019:19 
- - 20 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057020:20 
- - 21 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057021:21 
- - 02C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057024:02C 
- - 52 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057050:52 
- - 109 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057109:109 
- - 110 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057110:110 
- - R3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057311:R3 
- - R5 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057511:R5 
-
-
- dont 6 lignes OSM sans tracé 
- 
- - [02A](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057002:02A) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9254370 
- - [R](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057011:R) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9255049 
- - [N](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057014:N) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9254991 
- - [15](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057015:15) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9752169 
- - [02B](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057023:02B) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9254889 
- - [L](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057057057:L) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9184388 
-
-# HOURTOULE 
-27 lignes open data 
-
- dont 13 manquantes dans OSM 
- 
- - 14 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027014:14 
- - Q : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027018:Q 
- - 19 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027019:19 
- - 111 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027111:111 
- - B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027112:B 
- - AQ : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027113:AQ 
- - BL : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027113:BL 
- - CSP : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027113:CSP 
- - JV : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027113:JV 
- - TG : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027113:TG 
- - V : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027118:V 
- - P : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027218:P 
- - M : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027318:M 
-
-
- dont 6 lignes OSM sans tracé 
- 
- - [6](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027006:6) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8738081 
- - [10](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027010:10) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7532322 
- - [15](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027015:15) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9249778 
- - [50](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027016:50) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8740866 
- - [20](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027020:20) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8740800 
- - [8](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:027027110:8) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8738250 
-
-# Express A14 
-6 lignes open data 
-
- dont 3 manquantes dans OSM 
- 
- - EXP A14 B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:244200001:EXPA14B 
- - EXP A14 M : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:244200001:EXPA14M 
- - EXP A14 C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:244200004:EXPA14C 
-
-
- dont 2 lignes OSM sans tracé 
- 
- - [100](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057314100:100) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9188817 
- - [Exp A14](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057314143:ExpA14) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9188979 
-
-# PAYS FERTOIS 
-14 lignes open data 
-
- dont 6 manquantes dans OSM 
- 
- - 49 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067049:49 
- - 31S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067131:31S 
- - 32S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067132:32S 
- - 34S1 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067134:34S1 
- - 34S2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067234:34S2 
- - 34S3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067334:34S3 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Navette 
-3 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# ValBus 
-7 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Noctilien 
-48 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# VIAMO-MELUN 
-1 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
+ - 31S : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00921 
+ - 34S1 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00925 
+ - 49 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00934 
+ - 56S : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00942 
+ - 32S : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02160 
+ - 34S2 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02400 
+ - 34S3 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02401 
 
 
  dont 0 lignes OSM sans tracé 
@@ -1066,374 +866,140 @@ Sur un total de 1892 lignes open data:
 
  dont 12 manquantes dans OSM 
  
- - 444 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:230410444:444 
- - 448 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:230410448:448 
- - 449 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:230410449:449 
- - 450 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:230410450:450 
- - 451 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:230410451:451 
- - 452 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:230410452:452 
- - 453 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:230410453:453 
- - 454 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:230410454:454 
- - 455 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:230410455:455 
- - 456 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:230410456:456 
- - 457 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:230410457:457 
- - 458 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:230410458:458 
+ - 448 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00535 
+ - 449 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00536 
+ - 450 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00537 
+ - 451 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00538 
+ - 452 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00539 
+ - 453 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00540 
+ - 454 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00541 
+ - 455 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00542 
+ - 456 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00543 
+ - 444 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01533 
+ - 457 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01668 
+ - 458 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01793 
 
 
  dont 12 lignes OSM sans tracé 
  
- - [418](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:230410418:418) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8370158 
- - [419](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:230410419:419) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8383356 
- - [420](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:230410420:420) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8729263 
- - [431](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:230410431:431) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9192821 
- - [439](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:230410439:439) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8272658 
- - [440](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:230410440:440) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8729290 
- - [459](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:230410459:459) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8729300 
- - [460](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:230410460:460) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9192789 
- - [461](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:230410461:461) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9192706 
- - [463](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:230410463:463) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9192799 
- - [466](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:230410466:466) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9193824 
- - [467](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:230410467:467) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8383446 
-
-# Etampois 
-12 lignes open data 
-
- dont 4 manquantes dans OSM 
- 
- - 320 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010001:320 
- - 324 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010001:324 
- - 325 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010019:325 
- - 330 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010330:330 
-
-
- dont 1 lignes OSM sans tracé 
- 
- - [321](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010001:321) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=11161907 
-
-# Poissy Aval - Deux Rives de Seine 
-15 lignes open data 
-
- dont 7 manquantes dans OSM 
- 
- - 1 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:052052011:1 
- - 2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:052052012:2 
- - 13 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:052052013:13 
- - 22 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:052052022:22 
- - 32 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:052052032:32 
- - 33 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:052052033:33 
- - 37 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:052052037:37 
-
-
- dont 4 lignes OSM sans tracé 
- 
- - [29](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:052052029:29) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8728852 
- - [30](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:052052030:30) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9238749 
- - [31](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:052052031:31) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9238970 
- - [39](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:052052039:39) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9239883 
-
-# CSO 
-27 lignes open data 
-
- dont 2 manquantes dans OSM 
- 
- - 28 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:015015028:28 
- - 1 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:015015043:1 
-
-
- dont 7 lignes OSM sans tracé 
- 
- - [9](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:015015019:9) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9233950 
- - [21](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:015015021:21) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9233835 
- - [23](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:015015023:23) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9187618 
- - [51](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:015015051:51) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8392711 
- - [52](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:015015052:52) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8292170 
- - [55](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:015078055:55) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9233871 
- - [4](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:015242004:4) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9195309 
-
-# Service Urbain de Villecresnes 
-1 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Val d'Orge 
-7 lignes open data 
-
- dont 3 manquantes dans OSM 
- 
- - 1025 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010025:1025 
- - 105A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010018005:105A 
- - 105B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010018005:105B 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Marne-La-Vallée 
-28 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 7 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:510510107:7 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Transdev Ile-de-France Conflans 
-14 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 5 S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:212212005:5S 
-
-
- dont 2 lignes OSM sans tracé 
- 
- - [06](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:212212006:06) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9219662 
- - [12](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:212212012:12) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9137679 
-
-# Apolo 7 
-14 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 3s : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:101361113:3s 
-
-
- dont 3 lignes OSM sans tracé 
- 
- - [7s](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:101261121:7s) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8287382 
- - [9s](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:101261123:9s) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8287385 
- - [8s](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:101261128:8s) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8287383 
-
-# Orgebus 
-5 lignes open data 
-
- dont 5 manquantes dans OSM 
- 
- - 2271 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:227227001:2271 
- - 2276 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:227227001:2276 
- - 2272 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:227227002:2272 
- - 2274 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:227227002:2274 
- - 2273 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:227227003:2273 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Rémi 
-1 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 25 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:073073001:25 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Transport du Val de Seine 
-4 lignes open data 
-
- dont 4 manquantes dans OSM 
- 
- - 1. : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:092092001:1 
- - 3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:092092003:3 
- - 4. : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:092092004:4 
- - 14 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:092092014:14 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Keolis Val d'Oise 
-1 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Seine-Senart Bus 
-2 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - V : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:045045002:V 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Bord de l'Eau 
-5 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# VALBUS 
-5 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 3805 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:038038005:3805 
-
-
- dont 1 lignes OSM sans tracé 
- 
- - [3802](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:038038002:3802) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9234813 
-
-# STILL 
-32 lignes open data 
-
- dont 5 manquantes dans OSM 
- 
- - 11A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:064608011:11A 
- - 11B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:064608011:11B 
- - 11C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:064608011:11C 
- - 12 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:064608012:12 
- - 14B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:064608014:14B 
-
-
- dont 3 lignes OSM sans tracé 
- 
- - [3](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:064608003:3) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9241167 
- - [4](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:064608023:4) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9242016 
- - [5](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:064608024:5) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9197254 
-
-# Yerres 
-2 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 4 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003004:4 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Entre Seine et Forêt 
-11 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Phébus 
-36 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Génovébus 
-9 lignes open data 
-
- dont 3 manquantes dans OSM 
- 
- - S2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010005:S2 
- - S4 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010005:S4 
- - S5 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010005:S5 
-
-
- dont 2 lignes OSM sans tracé 
- 
- - [4](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010005:4) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=6785331 
- - [S3](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010005:S3) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=6762268 
-
-# PAYS DE MEAUX 
-24 lignes open data 
+ - [439](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00544) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8272658 
+ - [440](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00545) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8729290 
+ - [420](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01524) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8729263 
+ - [418](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01531) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8370158 
+ - [419](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01532) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8383356 
+ - [460](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01534) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9192789 
+ - [461](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01535) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9192706 
+ - [463](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01537) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9192799 
+ - [466](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01540) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9193824 
+ - [467](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01541) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8383446 
+ - [431](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01676) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9192821 
+ - [459](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02218) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8729300 
+
+# Pays Créçois 
+21 lignes open data 
 
  dont 9 manquantes dans OSM 
  
- - Js : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067102:Js 
- - Fs : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067103:Fs 
- - Ls : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067117:Ls 
- - Ms : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067120:Ms 
- - Ks : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067164:Ks 
- - Qs : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067067202:Qs 
- - Es : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067167103:Es 
- - Os : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067167105:Os 
- - Ns : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067167110:Ns 
+ - 8B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00906 
+ - 8C : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00907 
+ - 13A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01715 
+ - 13B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01716 
+ - 21S : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01994 
+ - 4A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01995 
+ - 4B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01996 
+ - 8AS : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02318 
+ - 59E : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02320 
+
+
+ dont 5 lignes OSM sans tracé 
+ 
+ - [4](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00901) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9237559 
+ - [8A](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00905) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7921046 
+ - [59](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00944) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7921045 
+ - [59](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00944) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9885338 
+ - [73](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00952) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7998640 
+
+# Cars Lacroix 
+19 lignes open data 
+
+ dont 19 manquantes dans OSM 
+ 
+ - 30-04 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00436 
+ - 30-13 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00446 
+ - 30-25 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00453 
+ - 30-27 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00454 
+ - 30-28 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00455 
+ - 30-29 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00456 
+ - 30-31 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00458 
+ - 30-32 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00459 
+ - 30-33 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00460 
+ - 30-34 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00461 
+ - 30-36 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00462 
+ - 30-39 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00465 
+ - 30-42 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00466 
+ - 95-19 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00473 
+ - CitéVal N : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00480 
+ - CitéVal S : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00481 
+ - CitéVal C : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02040 
+ - CitéVal F : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02041 
+ - 95-29 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02257 
 
 
  dont 0 lignes OSM sans tracé 
  
 
-# Traverciel 
-5 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Dourdanais 
-5 lignes open data 
-
- dont 2 manquantes dans OSM 
- 
- - 61 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013006:61 
- - 62 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:013013006:62 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# TAM 
-13 lignes open data 
+# Autobus du Fort 
+3 lignes open data 
 
  dont 3 manquantes dans OSM 
  
- - 26 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:057350026:26 
- - F : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:350350027:F 
- - G : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:350350028:G 
-
-
- dont 10 lignes OSM sans tracé 
- 
- - [C](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:350350003:C) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8298486 
- - [D](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:350350004:D) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8312254 
- - [E](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:350350005:E) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9232011 
- - [I](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:350350009:I) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8408069 
- - [Z](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:350350010:Z) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9231914 
- - [M](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:350350012:M) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8400479 
- - [J](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:350350021:J) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9231955 
- - [X](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:350350024:X) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8405850 
- - [A](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:350350030:A) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9173954 
- - [K](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:350350031:K) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8407357 
-
-# Aubergenville 
-1 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
+ - 701 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01548 
+ - 702 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01549 
+ - 703 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01550 
 
 
  dont 0 lignes OSM sans tracé 
  
 
-# Pays Fertois 
-3 lignes open data 
+# RER 
+10 lignes open data 
+
+ dont 10 manquantes dans OSM 
+ 
+ - C : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01727 
+ - D : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01728 
+ - E : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01729 
+ - A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01742 
+ - B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01743 
+ - A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01849 
+ - B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01850 
+ - C : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01851 
+ - D : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01852 
+ - E : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01853 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# STAVO 
+7 lignes open data 
+
+ dont 7 manquantes dans OSM 
+ 
+ - 42 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00571 
+ - 40 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01868 
+ - 44 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01869 
+ - 45 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01870 
+ - 43 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01872 
+ - 51 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01873 
+ - FA : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01874 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Marne et Morin 
+1 lignes open data 
 
  dont 0 manquantes dans OSM 
  
@@ -1447,30 +1013,155 @@ Sur un total de 1892 lignes open data:
 
  dont 1 manquantes dans OSM 
  
- - 30-46 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030046:30-46 
+ - 30-46 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01876 
 
 
  dont 6 lignes OSM sans tracé 
  
- - [30-07](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030007:30-07) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9196816 
- - [30-09](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030009:30-09) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9196805 
- - [30-10](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030010:30-10) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9223264 
- - [30-47](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030047:30-47) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9234799 
- - [30-48](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030048:30-48) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9233984 
- - [30-49](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030030049:30-49) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8379777 
+ - [30-09](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00442) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9196805 
+ - [30-10](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00443) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9223264 
+ - [30-47](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01709) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9234799 
+ - [30-48](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01875) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9233984 
+ - [30-07](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01878) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9196816 
+ - [30-49](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02006) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8379777 
 
-# TRAMWAY 
-11 lignes open data 
+# STILL 
+32 lignes open data 
+
+ dont 5 manquantes dans OSM 
+ 
+ - 11A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00824 
+ - 11B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01965 
+ - 11C : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01966 
+ - 14B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01971 
+ - 12 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02031 
+
+
+ dont 3 lignes OSM sans tracé 
+ 
+ - [3](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00819) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9241167 
+ - [4](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00834) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9242016 
+ - [5](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00835) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9197254 
+
+# Apolo 7 
+14 lignes open data 
 
  dont 1 manquantes dans OSM 
  
- - T4 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:T4:Bus 
+ - 3s : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02130 
+
+
+ dont 3 lignes OSM sans tracé 
+ 
+ - [9s](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02132) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8287385 
+ - [7s](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02135) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8287382 
+ - [8s](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02139) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8287383 
+
+# Génovébus 
+9 lignes open data 
+
+ dont 3 manquantes dans OSM 
+ 
+ - S2 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01704 
+ - S4 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01706 
+ - S5 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01707 
+
+
+ dont 2 lignes OSM sans tracé 
+ 
+ - [4](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00089) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=6785331 
+ - [S3](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01705) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=6762268 
+
+# Sit bus 
+7 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 5 lignes OSM sans tracé 
+ 
+ - [501](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00028) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8122752 
+ - [A](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00031) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7993124 
+ - [D](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00032) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7993122 
+ - [B](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00033) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7993120 
+ - [C](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00034) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7993121 
+
+# Poissy Aval 
+2 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - 88 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00757 
 
 
  dont 0 lignes OSM sans tracé 
  
 
-# AUTOCARS DOMINIQUE 
+# Trans Val d Oise 
+9 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - 24 sco : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00613 
+
+
+ dont 1 lignes OSM sans tracé 
+ 
+ - [24](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00612) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8370222 
+
+# Plateau de Brie 
+1 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Keolis Mobilité Roissy 
+11 lignes open data 
+
+ dont 11 manquantes dans OSM 
+ 
+ - FILEO O : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01429 
+ - FILEO S : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01431 
+ - FILEO G : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01432 
+ - FILEO VB : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01433 
+ - FILEO T : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01434 
+ - FILEO SL : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01670 
+ - FILEO VE : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01671 
+ - FILEO FO : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01712 
+ - FILEO SP : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01823 
+ - 27 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02059 
+ - 32 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02061 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Albatrans 
+11 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# LOSAY VOYAGES 
+1 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# KMR 100 Chelles 
 1 lignes open data 
 
  dont 0 manquantes dans OSM 
@@ -1490,205 +1181,941 @@ Sur un total de 1892 lignes open data:
  dont 0 lignes OSM sans tracé 
  
 
-# Arpajonnais 
-5 lignes open data 
+# TVF 
+6 lignes open data 
+
+ dont 6 manquantes dans OSM 
+ 
+ - 8 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00656 
+ - 17 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00658 
+ - 18 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00659 
+ - 19 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00660 
+ - 9 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01776 
+ - 12 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01777 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Stigo 
+4 lignes open data 
 
  dont 1 manquantes dans OSM 
  
- - TAD 6 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010106:TAD6 
+ - 200 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02311 
 
 
- dont 1 lignes OSM sans tracé 
+ dont 3 lignes OSM sans tracé 
  
- - [104](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010012:104) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=11161906 
+ - [11](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00015) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9200493 
+ - [18](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00017) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=6957343 
+ - [201](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00021) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9218053 
 
-# CARS SOEUR 
-6 lignes open data 
+# Cars Dunois 
+1 lignes open data 
 
- dont 4 manquantes dans OSM 
+ dont 1 manquantes dans OSM 
  
- - 7005 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:070070005:7005 
- - 7006 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:070070006:7006 
- - 7001 SCO : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:070070011:7001SCO 
- - 7002 SCO : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:070070012:7002SCO 
+ - Bus 25 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02431 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Orgebus 
+5 lignes open data 
+
+ dont 5 manquantes dans OSM 
+ 
+ - 2271 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01495 
+ - 2276 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01496 
+ - 2274 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01497 
+ - 2273 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01498 
+ - 2272 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01950 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Siyonne 
+11 lignes open data 
+
+ dont 6 manquantes dans OSM 
+ 
+ - C : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01437 
+ - G : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01439 
+ - I : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01441 
+ - F : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01442 
+ - 15 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01511 
+ - L : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01686 
 
 
  dont 2 lignes OSM sans tracé 
  
- - [7001](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:070070001:7001) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9230881 
- - [7002](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:070070002:7002) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9674065 
+ - [A](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01435) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8393308 
+ - [Emplet](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01443) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9231700 
 
-# Europ'Essonne 
-11 lignes open data 
+# TICE 
+18 lignes open data 
 
- dont 4 manquantes dans OSM 
+ dont 0 manquantes dans OSM 
  
- - D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:111591204:D 
- - M : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:111591208:M 
- - N : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:111591209:N 
- - O : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:111591210:O 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Seine Sénart Bus 
-29 lignes open data 
-
- dont 6 manquantes dans OSM 
- 
- - Navette M : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:021021019:NavetteM 
- - RD16 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:021021161:RD16 
- - Soirée Dr : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:021021181:SoireDr 
- - Soirée Vi : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:021021182:SoireVi 
- - Soirée Mo : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:021021183:SoireMo 
- - LM3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:021021503:LM3 
 
 
  dont 5 lignes OSM sans tracé 
  
- - [LP2](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:021021152:LP2) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9136249 
- - [LP1](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:021021210:LP1) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9129177 
- - [501](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:021021400:501) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9167850 
- - [LM1](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:021021501:LM1) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9167851 
- - [LM2](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:021021502:LM2) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9167849 
+ - [406](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01621) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8282002 
+ - [412](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01625) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9136932 
+ - [413](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01626) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8374540 
+ - [415](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01628) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8281810 
+ - [453](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01631) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8396927 
 
-# Siyonne 
-1 lignes open data 
+# Réseau du Canton de Perthes 
+17 lignes open data 
 
- dont 1 manquantes dans OSM 
+ dont 14 manquantes dans OSM 
  
- - 15 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:228228015:15 
+ - 111 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00814 
+ - S11 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02272 
+ - S12 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02273 
+ - S13 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02274 
+ - S14 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02275 
+ - V : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02276 
+ - 14 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02277 
+ - 20 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02278 
+ - 23 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02279 
+ - 112 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02280 
+ - P : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02281 
+ - 113 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02289 
+ - 114 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02290 
+ - S10 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02293 
 
 
  dont 0 lignes OSM sans tracé 
  
 
-# 69 EXPRESS 
-1 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 69 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:067377069:69 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Bus en Seine 
-21 lignes open data 
+# Yerres 
+16 lignes open data 
 
  dont 5 manquantes dans OSM 
  
- - D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019019017:D 
- - S3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019248002:S3 
- - S4 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019248005:S4 
- - S7 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019248007:S7 
- - S2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019248012:S2 
+ - 4 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00010 
+ - 37RPI : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02110 
+ - 35B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02125 
+ - 35A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02126 
+ - 35D : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02128 
 
 
- dont 1 lignes OSM sans tracé 
+ dont 8 lignes OSM sans tracé 
  
- - [T](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019248002:T) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8366461 
+ - [20](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01044) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8453568 
+ - [32](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01052) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8455504 
+ - [34A](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02087) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8455190 
+ - [34B](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02088) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8455292 
+ - [37A](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02107) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8455445 
+ - [37B](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02108) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8452726 
+ - [37C](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02109) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8452704 
+ - [35C](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02127) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8455382 
 
-# Parc Naturel Régional de la Haute Vallée de Chevreuse 
+# ADP 
+3 lignes open data 
+
+ dont 3 manquantes dans OSM 
+ 
+ - N1 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00562 
+ - CDG VAL : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00563 
+ - N2 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01792 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Service Urbain de Villecresnes 
 1 lignes open data 
 
  dont 0 manquantes dans OSM 
  
 
 
- dont 1 lignes OSM sans tracé 
+ dont 0 lignes OSM sans tracé 
  
- - [Baladobus](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:139578038:Baladobus) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8448533 
 
-# Sit'bus 
-8 lignes open data 
+# Cars Hourtoule 
+27 lignes open data 
 
- dont 0 manquantes dans OSM 
+ dont 16 manquantes dans OSM 
  
+ - 12 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00409 
+ - 14 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00410 
+ - Q : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00414 
+ - 19 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00415 
+ - 111 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00420 
+ - B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00421 
+ - V : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00422 
+ - P : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00423 
+ - M : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00424 
+ - 78 EXPRES : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00426 
+ - 9 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02170 
+ - AQ : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02171 
+ - BL : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02172 
+ - CSP : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02173 
+ - JV : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02174 
+ - TG : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02175 
 
 
  dont 6 lignes OSM sans tracé 
  
- - [500](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003351500:500) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8753596 
- - [501](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003351501:501) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8122752 
- - [A](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003351504:A) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7993124 
- - [D](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003351505:D) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7993122 
- - [B](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003351506:B) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7993120 
- - [C](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003351507:C) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7993121 
+ - [10](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00403) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7532322 
+ - [15](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00411) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9249778 
+ - [20](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00416) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8740800 
+ - [8](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00418) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8738250 
+ - [50](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01871) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8740866 
+ - [6](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02169) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8738081 
 
-# SITUS 
-19 lignes open data 
+# Comète 
+10 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - 209 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00799 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Cars Perrier 
+1 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 1 lignes OSM sans tracé 
+ 
+ - [36-15](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00482) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8447240 
+
+# RATP 
+333 lignes open data 
+
+ dont 326 manquantes dans OSM 
+ 
+ - TVM : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01071 
+ - 20 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01072 
+ - 21 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01073 
+ - 22 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01074 
+ - 24 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01075 
+ - 26 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01076 
+ - 27 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01077 
+ - 28 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01078 
+ - 29 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01079 
+ - 30 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01080 
+ - 31 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01081 
+ - 32 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01082 
+ - 38 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01083 
+ - 39 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01084 
+ - 42 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01085 
+ - 43 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01086 
+ - 46 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01087 
+ - 47 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01088 
+ - 48 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01089 
+ - 52 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01090 
+ - 54 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01092 
+ - 56 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01093 
+ - 57 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01094 
+ - 58 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01095 
+ - 60 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01096 
+ - 61 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01097 
+ - 62 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01098 
+ - 63 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01099 
+ - 64 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01100 
+ - 66 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01102 
+ - 67 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01103 
+ - 68 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01104 
+ - 69 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01105 
+ - 70 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01106 
+ - 72 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01107 
+ - 73 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01108 
+ - 74 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01109 
+ - 75 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01110 
+ - 76 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01111 
+ - 80 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01112 
+ - 82 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01114 
+ - 83 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01115 
+ - 84 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01116 
+ - 85 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01117 
+ - 86 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01118 
+ - 87 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01119 
+ - 88 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01120 
+ - 89 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01121 
+ - 91 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01122 
+ - 92 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01123 
+ - 93 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01124 
+ - 94 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01125 
+ - 95 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01126 
+ - 96 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01127 
+ - 101 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01130 
+ - 102 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01131 
+ - 103 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01132 
+ - 104 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01133 
+ - 105 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01134 
+ - 106 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01135 
+ - 107 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01136 
+ - 108 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01137 
+ - 109 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01138 
+ - 110 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01139 
+ - 111 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01140 
+ - 112 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01141 
+ - 113 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01142 
+ - 114 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01143 
+ - 115 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01144 
+ - 116 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01145 
+ - 117 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01146 
+ - 118 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01147 
+ - 119 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01148 
+ - 120 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01149 
+ - 121 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01150 
+ - 122 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01151 
+ - 123 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01152 
+ - 124 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01153 
+ - 125 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01154 
+ - 126 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01155 
+ - 127 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01156 
+ - 128 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01157 
+ - 129 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01158 
+ - 131 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01159 
+ - 132 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01160 
+ - 133 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01161 
+ - 137 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01163 
+ - 138 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01164 
+ - 139 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01165 
+ - 140 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01166 
+ - 141 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01167 
+ - 143 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01168 
+ - 144 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01169 
+ - 145 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01170 
+ - 146 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01171 
+ - 147 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01172 
+ - 148 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01173 
+ - 150 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01174 
+ - 151 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01175 
+ - 152 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01176 
+ - 153 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01177 
+ - 157 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01180 
+ - 158 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01181 
+ - 159 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01182 
+ - 160 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01183 
+ - 162 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01184 
+ - 163 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01185 
+ - 164 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01186 
+ - 165 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01187 
+ - 166 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01188 
+ - 167 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01189 
+ - 169 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01190 
+ - 170 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01191 
+ - 171 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01192 
+ - 172 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01193 
+ - 173 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01194 
+ - 174 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01195 
+ - 175 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01196 
+ - 176 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01197 
+ - 177 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01198 
+ - 178 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01199 
+ - 179 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01200 
+ - 180 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01201 
+ - 181 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01202 
+ - 182 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01203 
+ - 183 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01204 
+ - 184 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01205 
+ - 185 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01206 
+ - 186 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01207 
+ - 187 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01208 
+ - 188 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01209 
+ - 189 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01210 
+ - 190 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01211 
+ - 191 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01212 
+ - 192 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01213 
+ - 194 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01214 
+ - 195 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01215 
+ - 196 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01216 
+ - 197 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01217 
+ - 199 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01218 
+ - 201 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01219 
+ - 203 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01220 
+ - 206 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01221 
+ - 207 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01222 
+ - 208A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01223 
+ - 210 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01224 
+ - 211 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01225 
+ - 212 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01226 
+ - 213 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01227 
+ - 214 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01228 
+ - 215 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01229 
+ - 216 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01230 
+ - 217 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01231 
+ - 220 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01232 
+ - 221 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01233 
+ - 234 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01234 
+ - 235 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01235 
+ - 237 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01236 
+ - 238 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01237 
+ - 239 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01238 
+ - 241 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01239 
+ - 244 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01240 
+ - 249 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01241 
+ - 250 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01242 
+ - 251 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01243 
+ - 252 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01244 
+ - 253 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01245 
+ - 255 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01246 
+ - 256 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01247 
+ - 258 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01248 
+ - 261 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01249 
+ - 262 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01250 
+ - 268 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01251 
+ - 269 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01252 
+ - 270 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01253 
+ - 272 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01254 
+ - 274 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01255 
+ - 275 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01256 
+ - 276 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01257 
+ - 278 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01258 
+ - 281 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01260 
+ - ORLYBUS : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01261 
+ - 285 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01262 
+ - 286 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01263 
+ - 289 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01264 
+ - 290 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01265 
+ - 291 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01266 
+ - 292 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01267 
+ - 294 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01268 
+ - 297 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01270 
+ - 299 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01271 
+ - 301 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01272 
+ - 302 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01273 
+ - 303 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01274 
+ - 304 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01275 
+ - 306 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01276 
+ - 308 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01277 
+ - 310 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01278 
+ - 312 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01279 
+ - 317 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01280 
+ - 318 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01281 
+ - 319 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01282 
+ - 320 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01283 
+ - 321 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01285 
+ - 322 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01286 
+ - 323 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01287 
+ - 325 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01288 
+ - 330 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01289 
+ - 340 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01292 
+ - 341 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01294 
+ - 346 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01295 
+ - 349 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01297 
+ - 350 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01298 
+ - 351 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01299 
+ - ROISSYB : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01300 
+ - 355 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01302 
+ - 356 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01303 
+ - 360 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01304 
+ - 361 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01305 
+ - 366 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01306 
+ - 367 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01307 
+ - 368 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01308 
+ - 370 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01309 
+ - 372 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01310 
+ - 378 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01311 
+ - 379 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01312 
+ - 385 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01313 
+ - 388 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01314 
+ - 389 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01315 
+ - 390 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01316 
+ - 391 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01317 
+ - 393 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01318 
+ - 394 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01319 
+ - 395 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01320 
+ - 396 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01321 
+ - 399 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01322 
+ - 421 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01323 
+ - 467 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01324 
+ - 485 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01326 
+ - 488 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01327 
+ - 492 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01328 
+ - CHARONN : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01329 
+ - BIEVRES : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01330 
+ - TILLBUS : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01331 
+ - BATIGNO : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01332 
+ - NEY-FLA : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01333 
+ - 520 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01334 
+ - NAVETTE : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01335 
+ - AUDONIE : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01337 
+ - EOLIEN : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01338 
+ - AS-SURE : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01340 
+ - 545 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01341 
+ - TUB : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01342 
+ - 559A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01345 
+ - 564 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01349 
+ - 565 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01350 
+ - 566 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01351 
+ - TIM : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01352 
+ - SUBB : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01353 
+ - TUC : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01354 
+ - RIVER : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01356 
+ - CLAMIBU : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01357 
+ - CHOISYB : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01360 
+ - TUVIM : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01365 
+ - PETIT-F : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01368 
+ - 595 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01369 
+ - HIRONDE : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01370 
+ - 1 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01371 
+ - 2 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01372 
+ - 3 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01373 
+ - 4 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01374 
+ - 5 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01375 
+ - 6 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01376 
+ - 7 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01377 
+ - 8 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01378 
+ - 9 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01379 
+ - 10 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01380 
+ - 11 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01381 
+ - 12 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01382 
+ - 13 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01383 
+ - 14 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01384 
+ - FUN : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01385 
+ - 3B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01386 
+ - 7B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01387 
+ - ORLYVAL : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01388 
+ - T1 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01389 
+ - T2 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01390 
+ - T3A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01391 
+ - 426 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01481 
+ - 459 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01485 
+ - 471 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01488 
+ - 512 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01649 
+ - T3B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01679 
+ - 35 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01680 
+ - T5 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01684 
+ - 247 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01695 
+ - 248 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01696 
+ - 487 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01710 
+ - 337 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01756 
+ - T7 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01774 
+ - THIAIS : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01780 
+ - T6 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01794 
+ - T8 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01795 
+ - 254 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01808 
+ - 380 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01809 
+ - 208B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01818 
+ - 208S : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01819 
+ - 486 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01821 
+ - PORT : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01839 
+ - PTITBUS : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01900 
+ - 259 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02000 
+ - 168 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02007 
+ - 353 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02008 
+ - 260 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02027 
+ - 559B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02080 
+ - 559C : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02081 
+ - 559D : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02082 
+ - PC : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02205 
+ - 25 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02243 
+ - 45 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02244 
+ - 59 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02245 
+ - 71 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02246 
+ - 77 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02251 
+ - 40 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02254 
+ - 193 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02288 
+ - 263 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02314 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Aérial 
+10 lignes open data 
+
+ dont 2 manquantes dans OSM 
+ 
+ - 9 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00786 
+ - 6 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00788 
+
+
+ dont 1 lignes OSM sans tracé 
+ 
+ - [111](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02202) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8753568 
+
+# Traverciel 
+5 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Phébus 
+36 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Aubergenville 
+1 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Valoise 
+4 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# SIVOM---Maisons-Laffitte et Le Mesnil Le Roi 
+3 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 2 lignes OSM sans tracé 
+ 
+ - [06](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01476) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9219662 
+ - [12](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01478) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9137679 
+
+# Paladin 
+20 lignes open data 
+
+ dont 2 manquantes dans OSM 
+ 
+ - 15 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01658 
+ - 526 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02301 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# SNCF 
+1 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - T11 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01999 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Poissy Aval - Deux Rives de Seine 
+15 lignes open data 
 
  dont 7 manquantes dans OSM 
  
- - 21 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010240002:21 
- - 22 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010240002:22 
- - 41 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010240004:41 
- - 42 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010240004:42 
- - 71 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010240007:71 
- - 81 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010240008:81 
- - 82 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010240008:82 
+ - 1 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00641 
+ - 2 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00642 
+ - 22 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00643 
+ - 32 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00647 
+ - 33 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00648 
+ - 37 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00650 
+ - 13 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01936 
 
 
- dont 0 lignes OSM sans tracé 
+ dont 4 lignes OSM sans tracé 
  
+ - [30](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00645) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9238749 
+ - [31](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00646) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9238970 
+ - [39](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00651) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9239883 
+ - [29](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02222) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8728852 
 
-# Tramy 
-30 lignes open data 
+# Sénart-Express 
+4 lignes open data 
 
- dont 26 manquantes dans OSM 
+ dont 1 manquantes dans OSM 
  
- - 02A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097002:02A 
- - 02B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097002:02B 
- - 02C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097002:02C 
- - 02D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097002:02D 
- - 02E : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097002:02E 
- - 02F : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097002:02F 
- - 03C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097003:03C 
- - 09A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097009:09A 
- - 09B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097009:09B 
- - 09C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097009:09C 
- - 09M : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097009:09M 
- - 10 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097010:10 
- - 12A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097012:12A 
- - 12B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097012:12B 
- - 12C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097012:12C 
- - 25 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097025:25 
- - 26 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097026:26 
- - 27 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097027:27 
- - 29A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097029:29A 
- - 29B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097029:29B 
- - 29M : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097029:29M 
- - 31A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097031:31A 
- - 31B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097031:31B 
- - 31C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097031:31C 
- - 38 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097038:38 
- - 39 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097039:39 
+ - 54 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00839 
 
 
- dont 0 lignes OSM sans tracé 
+ dont 2 lignes OSM sans tracé 
  
+ - [50](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00836) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9173650 
+ - [55](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00838) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9702170 
 
 # VyBus 
 21 lignes open data 
 
  dont 5 manquantes dans OSM 
  
- - R1 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:045045022:R1 
- - R1A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:045045022:R1A 
- - R1B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:045045022:R1B 
- - R2 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:045045022:R2 
- - R3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:045045022:R3 
+ - R1 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02100 
+ - R1A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02101 
+ - R1B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02102 
+ - R2 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02103 
+ - R3 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02104 
 
 
  dont 1 lignes OSM sans tracé 
  
- - [E2](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:045045006:E2) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=6949602 
+ - [E2](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00601) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=6949602 
 
-# Albatrans 
+# TVS 
+6 lignes open data 
+
+ dont 6 manquantes dans OSM 
+ 
+ - 1 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01033 
+ - 3 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01034 
+ - 4 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01035 
+ - 14 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01036 
+ - 1. : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02161 
+ - 4. : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02162 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Arlequin 
+10 lignes open data 
+
+ dont 6 manquantes dans OSM 
+ 
+ - 5 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00011 
+ - 14 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00016 
+ - 06 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00803 
+ - 30B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02120 
+ - 30A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02121 
+ - 30C : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02122 
+
+
+ dont 2 lignes OSM sans tracé 
+ 
+ - [7](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00546) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8370396 
+ - [21](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00550) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7841677 
+
+# Ormont Transport 
+24 lignes open data 
+
+ dont 23 manquantes dans OSM 
+ 
+ - 68.01 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00962 
+ - 68.02 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00963 
+ - 68.06 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00965 
+ - 68.08 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00966 
+ - 68.09 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00967 
+ - 68.13 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00968 
+ - 68.14 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00969 
+ - 68.16 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00970 
+ - 68.100 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00971 
+ - 68.05 B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00972 
+ - 306.04 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00973 
+ - 306.12 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00974 
+ - 1 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00975 
+ - 2 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00976 
+ - 913.07 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00977 
+ - 913.08 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00978 
+ - 913.10 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00979 
+ - 913.17 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00981 
+ - 3 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00982 
+ - 5 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00983 
+ - 913.50 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00984 
+ - 6 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02057 
+ - 68.01S : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02065 
+
+
+ dont 1 lignes OSM sans tracé 
+ 
+ - [68.05 A](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00964) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=11161945 
+
+# Rémi 
+1 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - 25 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00991 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# STRAV 
+7 lignes open data 
+
+ dont 2 manquantes dans OSM 
+ 
+ - O1 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00594 
+ - O2 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01751 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Express 80 - Mantes-Cergy 
+1 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# TER 
 11 lignes open data 
+
+ dont 11 manquantes dans OSM 
+ 
+ - TER : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01744 
+ - TER : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01745 
+ - TER : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01746 
+ - TER : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01747 
+ - TER : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01748 
+ - TER : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01857 
+ - TER : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01863 
+ - TER : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02368 
+ - TER : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02370 
+ - TER : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02372 
+ - TER : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02375 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Transdev Ile-de-France Montesson Les Rabaux 
+1 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - 21S : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02307 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Keolis Val d Oise 
+1 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# SETRA 
+1 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Transports Daniel Meyer 
+38 lignes open data 
+
+ dont 22 manquantes dans OSM 
+ 
+ - DM02 A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00662 
+ - DM02 B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00663 
+ - DM5 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00666 
+ - DM06 A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00667 
+ - DM06 B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00668 
+ - DM9 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00671 
+ - DM10 A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00672 
+ - DM10 S : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00673 
+ - DM11 A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00675 
+ - DM17 A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00678 
+ - DM21 A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00683 
+ - DM21 B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00684 
+ - DM11 C : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00687 
+ - DM21 S : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01673 
+ - S17 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01752 
+ - DM20 S : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02039 
+ - DM154 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02395 
+ - DM151S : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02396 
+ - DM50 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02397 
+ - DM5S : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02398 
+ - DM9S : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02399 
+ - DM152S : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02403 
+
+
+ dont 2 lignes OSM sans tracé 
+ 
+ - [DM16](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00679) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9182058 
+ - [DM19](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00681) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9832633 
+
+# Noctilien 
+48 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Bus Haut Val d Oise 
+7 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 4 lignes OSM sans tracé 
+ 
+ - [A](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01659) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8450384 
+ - [B](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01660) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8450383 
+ - [F](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01662) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8450388 
+ - [DIM](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01735) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8450385 
+
+# LA TRAVERSE Brancion-Commerce 
+1 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Entre Seine et Forêt 
+10 lignes open data 
+
+ dont 0 manquantes dans OSM 
+ 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Seine et Marne Express 
+12 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - 69 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00961 
+
+
+ dont 4 lignes OSM sans tracé 
+ 
+ - [16](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00027) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9136495 
+ - [Express20](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00661) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8493727 
+ - [47](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01499) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8444603 
+ - [07](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01505) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=11175663 
+
+# Express 100 Torcy-Créteil 
+1 lignes open data 
 
  dont 0 manquantes dans OSM 
  
@@ -1700,177 +2127,128 @@ Sur un total de 1892 lignes open data:
 # Commune de Bouffemont 
 1 lignes open data 
 
- dont 1 manquantes dans OSM 
+ dont 0 manquantes dans OSM 
  
- - NAVETTE : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:038595040:NAVETTE 
 
 
  dont 0 lignes OSM sans tracé 
  
 
-# CARS DUNOIS 
+# Keolis Versailles 
 1 lignes open data 
 
  dont 1 manquantes dans OSM 
  
- - Bus 25 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:073073002:Bus25 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Trans Val de France 
-6 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 2 lignes OSM sans tracé 
- 
- - [12](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:054054012:12) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=11267377 
- - [19](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:054054019:19) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=11267376 
-
-# KEOLIS ORMONT 
-24 lignes open data 
-
- dont 6 manquantes dans OSM 
- 
- - 68.01 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068068001:6801 
- - 68.01S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068068001:6801S 
- - 68.06 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068068006:6806 
- - 68.08 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068068008:6808 
- - 68.100 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068068100:68100 
- - 913.07 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068913007:91307 
-
-
- dont 13 lignes OSM sans tracé 
- 
- - [68.02](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068068002:6802) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9257973 
- - [68.05 A](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068068005:6805A) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=11161945 
- - [68.09](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068068009:6809) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9190605 
- - [68.14](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068068014:6814) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=11161930 
- - [68.16](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068068016:6816) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9258582 
- - [68.05 B](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068068105:6805B) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=11161946 
- - [1](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068913001:1) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8369803 
- - [2](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068913002:2) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9197471 
- - [913.17](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068913017:91317) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9258811 
- - [3](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068913018:3) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9256759 
- - [5](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068913030:5) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9257304 
- - [6](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068913031:6) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9257415 
- - [913.50](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:068913050:91350) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9259499 
-
-# KEOLIS MEYER 
-38 lignes open data 
-
- dont 11 manquantes dans OSM 
- 
- - DM5 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055005:DM5 
- - DM50 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055005:DM50 
- - DM5S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055005:DM5S 
- - DM9 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055009:DM9 
- - DM9S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055009:DM9S 
- - S17 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055017:S17 
- - DM20 S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055020:DM20S 
- - DM21 S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055021:DM21S 
- - DM154 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055155001:DM154 
- - DM152S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055155002:DM152S 
- - DM151S : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055155005:DM151S 
-
-
- dont 4 lignes OSM sans tracé 
- 
- - [DM06 A](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055006:DM06A) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9183833 
- - [DM06 B](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055006:DM06B) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9183898 
- - [DM16](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055016:DM16) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9182058 
- - [DM19](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:055055019:DM19) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9832633 
-
-# LOSAY VOYAGES 
-1 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Résalys 
-8 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Sud Ile-de-France 
-1 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Navettes Auto SQY 
-1 lignes open data 
-
- dont 1 manquantes dans OSM 
- 
- - 490 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:056578490:490 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Busval d'Oise 
-36 lignes open data 
-
- dont 6 manquantes dans OSM 
- 
- - 9522 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011195022:9522 
- - 9523 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011195023:9523 
- - 9524 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011195024:9524 
- - 9525 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:011195025:9525 
- - 95-26 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:030195026:95-26 
- - 95-10 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:046195010:95-10 
+ - 490 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02402 
 
 
  dont 0 lignes OSM sans tracé 
  
 
 # Goëlys 
-20 lignes open data 
+17 lignes open data 
 
- dont 10 manquantes dans OSM 
+ dont 7 manquantes dans OSM 
  
- - 714 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077714:714 
- - 715 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077715:715 
- - 749 B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077749:749B 
- - 749 C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077749:749C 
- - 749 D : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077749:749D 
- - 751 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077751:751 
- - 752 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077752:752 
- - 753 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077753:753 
- - 755 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077755:755 
- - 756 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077756:756 
+ - 714 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00255 
+ - 715 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00256 
+ - 751 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00257 
+ - 752 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00258 
+ - 755 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00259 
+ - 756 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00260 
+ - 753 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01813 
 
 
  dont 7 lignes OSM sans tracé 
  
- - [701](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077701:701) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8211074 
- - [702](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077702:702) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8258499 
- - [703](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077703:703) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9207454 
- - [704](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077704:704) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8218429 
- - [708](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077708:708) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9235172 
- - [709](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077709:709) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9235191 
- - [711](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:014077711:711) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8218430 
+ - [701](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00245) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8211074 
+ - [702](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00246) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8258499 
+ - [703](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00247) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9207454 
+ - [704](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00248) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8218429 
+ - [708](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00251) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9235172 
+ - [709](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00252) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9235191 
+ - [711](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00254) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8218430 
 
-# Autobus du Fort 
-3 lignes open data 
+# ValBus 
+8 lignes open data 
+
+ dont 1 manquantes dans OSM 
+ 
+ - 3805 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02422 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# MELIBUS 
+26 lignes open data 
+
+ dont 15 manquantes dans OSM 
+ 
+ - Cd : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00878 
+ - S6 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00886 
+ - S4 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00890 
+ - G : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00891 
+ - S1 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00892 
+ - S2 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00893 
+ - S3 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00894 
+ - J : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00895 
+ - Jd : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00896 
+ - O : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00897 
+ - S5 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01753 
+ - O SCO : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02209 
+ - T : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02282 
+ - S7 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02283 
+ - S8 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02284 
+
+
+ dont 2 lignes OSM sans tracé 
+ 
+ - [B](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00876) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8353656 
+ - [Fd](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00883) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9228837 
+
+# Val de Seine 
+20 lignes open data 
+
+ dont 13 manquantes dans OSM 
+ 
+ - 2 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00106 
+ - 5 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00107 
+ - 9 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00108 
+ - 10 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00109 
+ - 21 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00115 
+ - 33 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00117 
+ - 34 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00118 
+ - 43 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00121 
+ - 18 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00127 
+ - 311 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00128 
+ - 312 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00129 
+ - 313 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00130 
+ - 502 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00653 
+
+
+ dont 5 lignes OSM sans tracé 
+ 
+ - [13](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00111) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9176972 
+ - [14](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00112) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9238037 
+ - [32](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00116) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9238180 
+ - [41](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00119) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8060916 
+ - [42](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00120) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7921016 
+
+# Dourdanais 
+5 lignes open data 
+
+ dont 2 manquantes dans OSM 
+ 
+ - 61 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00167 
+ - 62 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02185 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# Seine Grand Orly 
+5 lignes open data 
 
  dont 0 manquantes dans OSM 
  
@@ -1879,19 +2257,66 @@ Sur un total de 1892 lignes open data:
  dont 0 lignes OSM sans tracé 
  
 
-# TER 
+# Rambouillet Interurbain 
+21 lignes open data 
+
+ dont 14 manquantes dans OSM 
+ 
+ - 01 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00163 
+ - 08 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00168 
+ - 11 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00171 
+ - 19 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00174 
+ - 20 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00175 
+ - 24 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00177 
+ - 25 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00178 
+ - 26 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00179 
+ - 23 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00187 
+ - 89 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00188 
+ - 39 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01952 
+ - 49 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01953 
+ - 59 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01954 
+ - 79 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01955 
+
+
+ dont 2 lignes OSM sans tracé 
+ 
+ - [10](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00170) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9181020 
+ - [12](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01951) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9206600 
+
+# CSO 
+24 lignes open data 
+
+ dont 5 manquantes dans OSM 
+ 
+ - 11 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00270 
+ - 27 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00279 
+ - 28 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00280 
+ - 4 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00287 
+ - 1 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02313 
+
+
+ dont 6 lignes OSM sans tracé 
+ 
+ - [9](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00273) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9233950 
+ - [21](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00275) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9233835 
+ - [23](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00276) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9187618 
+ - [51](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00282) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8392711 
+ - [52](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00283) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8292170 
+ - [55](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01773) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9233871 
+
+# Express 19 Les Mureaux - Versailles 
 1 lignes open data 
 
  dont 1 manquantes dans OSM 
  
- - TER : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:TER 
+ - 19EXPRESS : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00114 
 
 
  dont 0 lignes OSM sans tracé 
  
 
-# Valoise 
-6 lignes open data 
+# BUS O Mureaux 
+7 lignes open data 
 
  dont 0 manquantes dans OSM 
  
@@ -1900,172 +2325,104 @@ Sur un total de 1892 lignes open data:
  dont 0 lignes OSM sans tracé 
  
 
-# Aérial 
-10 lignes open data 
+# CTCOP 
+1 lignes open data 
 
- dont 2 manquantes dans OSM 
+ dont 1 manquantes dans OSM 
  
- - 6 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:062062013:6 
- - 9 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:062062014:9 
+ - EXP A14 C : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02269 
+
+
+ dont 0 lignes OSM sans tracé 
+ 
+
+# ProCars 
+27 lignes open data 
+
+ dont 25 manquantes dans OSM 
+ 
+ - 01-1 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01501 
+ - 03 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01502 
+ - 05 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01503 
+ - 06 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01504 
+ - 08 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01506 
+ - 11 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01507 
+ - 12 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01508 
+ - 13 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01509 
+ - 16 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01512 
+ - 46-1 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01513 
+ - 9A : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01516 
+ - 9B : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01517 
+ - 9C : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01518 
+ - 9D : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01519 
+ - 9E : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01520 
+ - 02 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01722 
+ - 10 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01724 
+ - 17 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01725 
+ - 9Sco : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01726 
+ - VILLEFERM : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02242 
+ - 52 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02295 
+ - 01-2 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02432 
+ - 01-3 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02433 
+ - 46-2 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02435 
+ - 46-3 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02436 
 
 
  dont 1 lignes OSM sans tracé 
  
- - [111](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:062062112:111) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8753568 
+ - [NANGIBUS](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02294) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8378094 
 
-# Scolaire Est Yvelines 
-11 lignes open data 
+# Seine Sénart Bus 
+31 lignes open data 
 
- dont 11 manquantes dans OSM 
+ dont 8 manquantes dans OSM 
  
- - 01 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019019001:01 
- - 12 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019019012:12 
- - 54 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019019054:54 
- - 55 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019019055:55 
- - 56 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019019056:56 
- - 57 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:019019057:57 
- - 06 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:213213006:06 
- - 503 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:213213036:503 
- - 37 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:213213037:37 
- - 40 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:213213040:40 
- - 38 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:213327038:38 
+ - GO Cparis : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00338 
+ - LM3 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00367 
+ - RD16 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00377 
+ - Soirée Dr : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02260 
+ - Soirée Vi : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02261 
+ - Soirée Mo : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02262 
+ - Navette M : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02299 
+ - V : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02386 
 
 
- dont 0 lignes OSM sans tracé 
+ dont 5 lignes OSM sans tracé 
  
+ - [LP1](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00363) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9129177 
+ - [501](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00364) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9167850 
+ - [LM1](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00365) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9167851 
+ - [LM2](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00366) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9167849 
+ - [LP2](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00374) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9136249 
 
-# Express 16 
-1 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# LES CARS BLEUS 
-14 lignes open data 
-
- dont 13 manquantes dans OSM 
- 
- - 184-001 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084184001:184-001 
- - 184-003 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084184003:184-003 
- - 184-004 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084184004:184-004 
- - 184-005 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084184005:184-005 
- - 184-006 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084184006:184-006 
- - 184-008 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084184008:184-008 
- - 184-013 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084184013:184-013 
- - 284-001 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084284001:284-001 
- - 284-002 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084284002:284-002 
- - 284-003 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084284003:284-003 
- - 284-004 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084284004:284-004 
- - 284-005 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084284005:284-005 
- - 284-006 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:084284006:284-006 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Nord Hurepoix 
-2 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Dourdannais 
-1 lignes open data 
+# Marne-la-Vallée 
+28 lignes open data 
 
  dont 1 manquantes dans OSM 
  
- - 8501 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:010010085:8501 
+ - 7 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00904 
 
 
  dont 0 lignes OSM sans tracé 
  
 
-# Seine-Saint-Denis 
-23 lignes open data 
+# Paris-Saclay Mobilités 
+33 lignes open data 
 
- dont 1 manquantes dans OSM 
+ dont 10 manquantes dans OSM 
  
- - R T4 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:293193601:RT4 
+ - S15 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C00076 
+ - S1 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01651 
+ - S3 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01653 
+ - S4 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01654 
+ - D : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C01833 
+ - S9 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02224 
+ - 6 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02316 
+ - 18 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02355 
+ - S2 : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02382 
+ - M : https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:C02423 
 
 
  dont 0 lignes OSM sans tracé 
  
-
-# Sol'R 
-14 lignes open data 
-
- dont 14 manquantes dans OSM 
- 
- - 3 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003003:3 
- - 7 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003007:7 
- - 10 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003010:10 
- - 21 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003021:21 
- - 121 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003121:121 
- - 209 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003209:209 
- - 309 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003309:309 
- - 409 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003409:409 
- - 17 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003051017:17 
- - 33 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097033:33 
- - 28A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097216028:28A 
- - 28B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097216028:28B 
- - 28C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097216028:28C 
- - 43 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097677043:43 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# TRAIN 
-15 lignes open data 
-
- dont 7 manquantes dans OSM 
- 
- - H : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:H:Bus 
- - J : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:J:Bus 
- - L : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:L:Bus 
- - N : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:N:Bus 
- - P : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:P 
- - P : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:P:Bus 
- - R : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:800:R:Bus 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# METRO 
-16 lignes open data 
-
- dont 0 manquantes dans OSM 
- 
-
-
- dont 0 lignes OSM sans tracé 
- 
-
-# Arlequin 
-12 lignes open data 
-
- dont 6 manquantes dans OSM 
- 
- - 5 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003005:5 
- - 14 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003003014:14 
- - 06 : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:063063006:06 
- - 30A : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097030:30A 
- - 30B : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097030:30B 
- - 30C : https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:097097030:30C 
-
-
- dont 3 lignes OSM sans tracé 
- 
- - [16](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:003177016:16) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=9136495 
- - [7](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:040040007:7) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=8370396 
- - [21](https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:040040021:21) : https://ref-lignes-stif.5apps.com/line.html?osm_relation=7841677 
 

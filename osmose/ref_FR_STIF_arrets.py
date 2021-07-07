@@ -6,11 +6,14 @@ import csv
 def generate_osmose_errors_for_stops():
     errors = []
     ref_STIF_list = []
-    with open('../data/gtfs_stop_extensions.txt', 'r') as f:
+    with open('../data/gtfs_stops.txt', 'r') as f:
         reader = csv.DictReader(f)
         for row in reader :
-            if row["object_system"] == "ZDEr_ID_REF_A":
-                ref_STIF_list.append(row["object_code"])
+            open_data_ref = row['stop_id'].replace("IDFM:", "")
+            # lot of garbage here actually (stop_area, access, monomodalSP, etc)
+            # maybe use opendata_routepoints file or
+            # another file from IDFM open data platform instead ?
+            ref_STIF_list.append(open_data_ref)
 
     with open('../data/osm-transit-extractor_stop_points.csv', 'r') as f:
         reader = csv.DictReader(f)
@@ -53,8 +56,8 @@ def generate_osmose_errors_for_routepoints():
     with open('../data/opendata_routepoints.csv', 'r') as f:
         reader = csv.DictReader(f)
         for row in reader :
-            all_ref_STIF.setdefault(row["ZDEr_ID_REF_A"],set()).add(row["route_id"])
-            all_lines_ref_STIF.add(row["route_id"])
+            all_ref_STIF.setdefault(row["stop_reference"],set()).add(row["route_reference"])
+            all_lines_ref_STIF.add(row["route_reference"])
 
     ref_STIF_list = all_ref_STIF.keys()
 
@@ -68,9 +71,9 @@ def generate_osmose_errors_for_routepoints():
             else:
                 continue #we only check each stop once (even if it can have multiple errors)
             error = {"id" : osm_id}
-            if not row['osm:ref:FR:STIF']:
+            if not row['stop_ref:FR:STIF']:
                 continue
-            osm_ref = row['osm:ref:FR:STIF']
+            osm_ref = row['stop_ref:FR:STIF']
             all_osm_ref = osm_ref.split(';')
             noexistant_ref = [elem for elem in all_osm_ref if elem not in ref_STIF_list]
             if noexistant_ref: 
@@ -80,7 +83,7 @@ def generate_osmose_errors_for_routepoints():
             if not flat_list_lines_ok :
                 continue
 
-            osm_line_ref = row['osm:ref:FR:STIF:ExternalCode_Line']
+            osm_line_ref = row['line_ref:FR:STIF']
             if osm_line_ref not in all_lines_ref_STIF:
                 continue #already covered by the test on the lines
             if osm_line_ref not in flat_list_lines_ok:

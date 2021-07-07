@@ -1,14 +1,14 @@
-# Audit comparatif OSM / STIF
+# Calcul des routepoints
 
-Ce répertoire contient le code, ainsi que les sauvegardes de données pour réaliser les audits comparatifs entre les données OSM et les données opendata du STIF.
+Afin de gommer les divergences de modélisation, on travaillera sur des routepoints en complément des arrêts ; Un routepoint est un object logique qui représente un arrêt desservi par une ligne dans une direction.
 
-En particulier, afin de gommer les divergences de modélisation, on travaillera sur des routepoints en complément des arrêts ; Un routepoint est un object logique qui représente un arrêt desservi par une ligne dans une direction.
-
-Ces routepoints sont précalculés à partir des données OSM et GTFS à l'aide du factfile.
+Ces routepoints sont précalculés à partir des données OSM et GTFS.
 
 ![processus](audit_routepoints.png)
 
 # Audits
+
+Ce répertoire contient le code, ainsi que les sauvegardes de données utilisées pour les audits comparatifs entre les données OSM et les données opendata d'IDFM entre 2018 et 2019 (non maintenu)
 
 Les audits produits sont publiés sur le site de Jungle Bus. Une sauvegarde pdf, ainsi que les données et les images produites sont également disponibles dans ce répertoire.
 

@@ -20,11 +20,11 @@ set -e
 # extract missing lines in OSM with GTFS and OSM
 ./missing_in_osm/missing_in_osm.sh
 
-# extract focus routepoints from GTFS and OSM
-./focus/focus.sh
-
 # extract lines ref
 ./lines_ref/init_lines_ref.sh
+
+# extract focus routepoints from GTFS and OSM
+./focus/focus.sh
 
 # update Osmose
 ./osmose/osmose.sh

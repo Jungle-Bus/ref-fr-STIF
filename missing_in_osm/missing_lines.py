@@ -27,7 +27,7 @@ networks = list(set([line['opendata_network'] for line in lines]))
 content = """
 # État des lieux par réseau de l'open data IDFM
 
-* les lignes comptabilisées dans OpenStreetMap sont celles qui ont un id de ligne (ref:FR:STIF:ExternalCode_Line)
+* les lignes comptabilisées dans OpenStreetMap sont celles qui ont une référence de ligne (ref:FR:STIF)
 * les lignes sont considérées sans tracé si aucune de leurs relations route ne contient de chemin.
 * Voir aussi les [erreurs Osmose](http://osmose.openstreetmap.fr/fr/errors/?source=28482&item=8042)
 
@@ -48,7 +48,7 @@ for a_network in networks:
 
     if osm_missing_lines_of_this_network:
         for elem in osm_missing_lines_of_this_network:
-            link = "https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:{}".format(elem['opendata_line_id'])
+            link = "https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:{}".format(elem['opendata_line_id'])
             content += " - {} : {} \n".format(elem['opendata_line_name'], link)
 
     osm_lines_of_this_network = [line for line in lines_of_this_network if line['found_in_osm']]
@@ -58,7 +58,7 @@ for a_network in networks:
     if osm_missing_shapes_of_this_network:
         for elem in osm_missing_shapes_of_this_network:
             osm_link = "https://ref-lignes-stif.5apps.com/line.html?osm_relation={}".format(elem['osm_line_id'].split(':')[-1])
-            link = "https://www.vianavigo.com/fiches-horaires/bus/resultat?line=line:0:{}".format(elem['opendata_line_id'])
+            link = "https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires/bus/resultat?line=line:IDFM:{}".format(elem['opendata_line_id'])
             content += " - [{}]({}) : {} \n".format(elem['opendata_line_name'], link, osm_link )
 
 

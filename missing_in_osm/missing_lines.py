@@ -29,7 +29,7 @@ content = """
 
 * les lignes comptabilisées dans OpenStreetMap sont celles qui ont une référence de ligne (ref:FR:STIF)
 * les lignes sont considérées sans tracé si aucune de leurs relations route ne contient de chemin.
-* Voir aussi les [erreurs Osmose](http://osmose.openstreetmap.fr/fr/errors/?source=28482&item=8042)
+* Voir aussi les [erreurs Osmose](http://osmose.openstreetmap.fr/fr/issues/open?source=28482&item=8042)
 
 
 """

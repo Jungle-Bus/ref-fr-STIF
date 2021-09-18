@@ -140,7 +140,6 @@ Line:relation:1810272,272,Bus 272 : Sartrouville RER ↔ Gare d'Argenteuil,RATP,
 Line:relation:1842753,4,Bus 4 : Gare d'Argenteuil ↔ Gare de Houilles Carrières-sur-Seine,R'bus,Transdev TVO,#97bf0c,route_master,bus,016616004:4,C00295
 Line:relation:1857145,129,Bus 129 : Mairie de Montreuil ↔ Porte des Lilas,RATP,RATP,#9B993B,route_master,bus,100100129:129,
 Line:relation:1866830,351,Bus 351: Paris - Nation ↔ Roissypole,RATP,RATP,#E0B03B,route_master,bus,100100351:351,
-Line:relation:1908344,TGV 101;ICE 83,TGV 101 : Paris ↔ Munich,DB InterCityExpress,Deutsche Bahn,#5bc109,route_master,train,,
 Line:relation:1942584,40,Bus 40 : Le Peletier ↔ Mairie du 18e - Jules Joffrin,RATP,RATP,#82c8e6,route_master,bus,100100040:40,C02254
 Line:relation:1973045,125,Bus 125 : Porte d'Orléans ↔ École Vétérinaire de Maisons-Alfort,RATP,RATP,#006CB8,route_master,bus,100100125:125,
 Line:relation:1981724,323,Bus 323 : Issy-Val de Seine RER ↔ Chatillon-Montrouge / Chatillon-Montrouge-Métro ↔ Ivry-Gambetta,RATP,RATP,#CEC92A,route_master,bus,100100323:323,
@@ -220,7 +219,7 @@ Line:relation:3315943,12,Bus 12 : Éden (Servon) ↔ Créteil Préfecture,Arlequ
 Line:relation:3318735,151,Bus 151 : Porte de Pantin ↔ Bondy - Jouhaux–Blum,RATP,RATP,#BB4A9B,route_master,bus,100100151:151,
 Line:relation:3325971,404,Bus 404 - Bois de l'Épine RER ↔ Gare du Bras de Fer RER,Tice,Tice,#99C400,route_master,bus,400400404:404,C01619
 Line:relation:3326845,4,Métro 4,RATP,RATP,#BB4D98,route_master,subway,100110004:4,
-Line:relation:3328694,14,Métro 14,RATP,RATP,#67328E,route_master,subway,100110014:14,
+Line:relation:3328694,14,Métro 14,Paris Métro,RATP,#67328E,route_master,subway,100110014:14,
 Line:relation:3328695,1,Métro 1,RATP,RATP,#F2C931,route_master,subway,100110001:1,
 Line:relation:3328717,9,Métro 9,RATP,RATP,#CDC83F,route_master,subway,100110009:9,
 Line:relation:3328741,10,Métro 10,RATP,RATP,#DFB039,route_master,subway,100110010:10,
@@ -348,7 +347,7 @@ Line:relation:6594969,421,Bus 421 : Vaires-Torcy ↔ Emerainville - Pontault-Com
 Line:relation:6608978,249,Bus 249 : Place Valérie André ↔ Porte des Lilas,RATP,RATP,#CCD80E,route_master,bus,100100249:249,
 Line:relation:6645022,394,Bus 394 : Issy–Val de Seine RER ↔ Bourg-la-Reine RER,RATP,RATP,,route_master,bus,100100394:394,
 Line:relation:6660662,La Navette,La Navette de Fontenay-sous-Bois,RATP,RATP,,route_master,bus,100100524:NAVETTE,
-Line:relation:6682682,AS,Bus AS : Autobus Suresnois (ligne 544),Autobus Suresnois,RATP,,route_master,bus,100100544:AS-SURE,C01340
+Line:relation:6682682,AS,Bus AS : Autobus Suresnois (ligne 544),RATP,RATP,,route_master,bus,100100544:AS-SURE,C01340
 Line:relation:6706981,487,Bus 487 : Athis-Mons - Porte de l'Essonne ↔ Marché de Juvisy,RATP,Keolis Seine Val-de-Marne,#fecd08,route_master,bus,100100487:487,
 Line:relation:6741325,31,Bus 31 : Cesson Gare RER ↔ Point de Vue (Lieusaint),Sénart Bus,Transdev Sénart,,route_master,bus,065487132:31,C01669
 Line:relation:6741397,32,Bus 32 : Savigny - Nandy Gare RER (circulaire intérieur),Sénart Bus,Transdev Sénart,,route_master,bus,519519131:32,C00868
@@ -551,7 +550,7 @@ Line:relation:7399969,16,Bus 16 : Argenteuil Gare ↔ Enghien Gare SNCF,Vallée 
 Line:relation:7413474,3,Bus 3 : Centre Commercial Ulis 2 ↔ Gare d'Orsay Ville,Paris-Saclay Mobilités,Les Cars d'Orsay,#007733,route_master,bus,006006003:3,C00068
 Line:relation:7413493,40,Bus 40 : Inovel Parc Nord ↔ Pont de Sèvres,Phébus,Keolis Vélizy,#F69238,route_master,bus,004004040:40,C00048
 Line:relation:7419766,47,Bus 47 : Georges Brassens ↔ Croix St Jacques,STIVO,STIVO,#C09400,route_master,bus,059440047:47,C00773
-Line:relation:7420641,13,Métro 13,RATP,RATP,#89C7D6,route_master,subway,100110013:13,
+Line:relation:7420641,13,Métro 13,Paris Métro,RATP,#89C7D6,route_master,subway,100110013:13,
 Line:relation:7420642,12,Métro 12,RATP,RATP,#328E5B,route_master,subway,100110012:12,
 Line:relation:7420643,11,Métro 11,RATP,RATP,#8E6538,route_master,subway,100110011:11,
 Line:relation:7420644,8,Métro 8,RATP,RATP,#C5A3CA,route_master,subway,100110008:8,
@@ -1424,10 +1423,9 @@ Line:relation:10237086,11D,Bus 11D : Gare Souppes-sur-Loing ↔ Aristide Briand 
 Line:relation:10242365,13A,Bus 13A : Cité Scolaire (Nemours) ↔ Place (Aufferville),STILL,Transdev Île-de-France Nemours,#009fe3,route_master,bus,064608013:13A,C00826
 Line:relation:10242502,13C,Bus 13C : Cité Scolaire (Nemours) ↔ Le Perray (Beaumont-du-Gâtinais),STILL,Transdev Île-de-France Nemours,#a1daf7,route_master,bus,064608013:13C,C01970
 Line:relation:10547176,01,Bus 01 : Rebais → Coulommiers → Melun,Seine-et-Marne Express,Transdev Darche Gros,,route_master,bus,097177001:01,C01062
-Line:relation:10604865,TàD,Desserte des gares en soirée,Transport à la Demande de Marne-la-Vallée,Transdev Marne-la-Vallée,,route_master,bus,,
 Line:relation:10742267,263,Bus 263 : Place de la Boule - Gambetta via Suresnes - De Gaulle (circulaire),RATP,RATP,#FA9ABA,route_master,bus,100100263:263,
 Line:relation:11041995,20,Bus 20 : Gare du Vésinet - Le Pecq ↔ Gare du Vésinet-Centre,Entre Seine et Forêt,Transdev Île-de-France Montesson Les Rabaux,,route_master,bus,012012020:20,C02264
-Line:relation:11052008,7,Bus 7 : Aincourt ↔ Poissy,Poissy Aval - 2 Rives de Seine,Transdev CSO,,route_master,bus,015243007:7,C00288
+Line:relation:11052008,7,Bus 7 : Aincourt ↔ Poissy,CSO,Transdev CSO,,route_master,bus,015243007:7,C00288
 Line:relation:11083350,95-43,Bus 95-43 : Magny-en-Vexin - Gare Routière ↔ Chérence - Foyer Rural,25 - Réseau du Vexin,Transdev Vexin,,route_master,bus,251195043:95-43,C01556
 Line:relation:11161733,G1,bus G1 : Gare de Villeneuve-Saint-Georges ↔ Gare de Villeneuve-Saint-Georges,VyBus,Transdev STRAV,#A6D9F0,route_master,bus,045045020:G1,C00587
 Line:relation:11161734,G2,bus G2 : Gare de Villeneuve-Saint-Georges ↔ Gare de Villeneuve-Saint-Georges,VyBus,Transdev STRAV,#A6D9F0,route_master,bus,045045020:G2,C00588
@@ -1442,12 +1440,7 @@ Line:relation:11221543,14,Bus 14 : Gare de Cergy Saint-Christophe - Rond-Point d
 Line:relation:11267376,19,Bus 19 : Mairie de Claye-Souilly ↔ Gare Routière de Charny,Trans Val de France,Transdev Trans Val France,,route_master,bus,054054019:19,C00660
 Line:relation:11267377,12,Bus 12 : Quartier du Bois Fleuri (Claye-Souilly) ↔ Gare RER de Mitry-Claye,Trans Val de France,Transdev Trans Val France,,route_master,bus,054054012:12,C01777
 Line:relation:11281326,50,Bus 50 : Poissy Aval 2 Rive de Seine,Poissy - Les Mureaux,Keolis Seine et Oise Est,,route_master,bus,,C00281
-Line:relation:11332036,TàD,Desserte du Grand Hôpital de l'Est Francilien de Marne-la-Vallée,Transport à la Demande de Marne-la-Vallée,Transdev Marne-la-Vallée,,route_master,bus,,
-Line:relation:11332037,TàD,Desserte des marchés de Lagny et Magny,Transport à la Demande de Marne-la-Vallée,Transdev Marne-la-Vallée,,route_master,bus,,
-Line:relation:11332093,TàD,Desserte de l'Île de Loisirs de Jablines,Transport à la Demande de Marne-la-Vallée,Transdev Marne-la-Vallée,,route_master,bus,,
-Line:relation:11332094,TàD,Desserte des gares en journée,Transport à la Demande de Marne-la-Vallée,Transdev Marne-la-Vallée,,route_master,bus,,
 Line:relation:11696066,Bel Air,Navette Bel-Air,SAVAC,SAVAC,,route_master,bus,039039999:BelAir,
-Line:relation:11874328,,Tram T12 Express : Évry-Courcouronnes ↔ Massy - Palaiseau,,,,route_master,construction,,
 Line:relation:12039874,95-51,Bus 95-51 : Nucourt - Wenings ↔ Magny-en-Vexin - Gare Routière,25 - Réseau du Vexin,Transdev Vexin,,route_master,bus,251195051:95-51,C02415
 Line:relation:12091593,95-50,Bus 95-50 : Magny-en-Vexin - Gare Routière ↔ Cergy-Pontoise,25 - Réseau du Vexin,Transdev Vexin,,route_master,bus,251195050:95-50,C02413
 Line:relation:12099692,95-49,Bus 95-49 : Bray-et-Lû - Place du 19 Mai 1962 ↔ Magny-en-Vexin - Gare Routière,25 - Réseau du Vexin,Transdev Vexin,,route_master,bus,251195049:95-49,C02414

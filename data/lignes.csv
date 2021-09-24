@@ -459,7 +459,7 @@ Line:relation:6991408,623,Bus 623 : Gare de Sevran-Livry Sud ↔ Gare de Gagny,S
 Line:relation:6991440,12,Bus 12 : Gare de Lagny Thorigny (circulaire),Marne-la-Vallée,Transdev Marne-la-Vallée,#B567A2,route_master,bus,510510012:12,C00620
 Line:relation:6991441,07,Bus 07 : Gare de Lagny Thorigny ↔ Pomponette,Marne-la-Vallée,Transdev Marne-la-Vallée,#9DCBD1,route_master,bus,510510007:07,C00619
 Line:relation:6991442,04,Bus 04 : Poincaré SNCF ↔ Cornilliot SNCF,Marne-la-Vallée,Transdev Marne-la-Vallée,#E7AE12,route_master,bus,510510004:04,C00622
-Line:relation:6993738,95-07,Bus 95-07 : Jouy le Comte - Eglise ↔ Cergy Préfecture,38 - Vallée de l'Oise,Transdev Vexin,#00FF00,route_master,bus,025195007:95-07,C00394
+Line:relation:6993738,95-07,Bus 95-07 : Parmain - Jouy le Comte-Eglise ↔ Cergy Préfecture,Vexin,Transdev Vexin,#00FF00,route_master,bus,025195007:95-07,C00394
 Line:relation:6994039,32,Bus 32 : Gare de Tournan ↔ Gare de Val d'Europe,Marne-la-Vallée,Transdev Marne-la-Vallée,#D0662C,route_master,bus,510510032:32,C00631
 Line:relation:7003010,23,Bus 23 : Gare de Lagny ↔ Gare de Marne-la-Vallée Chessy,Marne-la-Vallée,Transdev Marne-la-Vallée,#C83086,route_master,bus,510510023:23,C00627
 Line:relation:7011211,N02,Noctilien N02 : Circulaire Extérieure,Noctilien,RATP,#ED1C2A,route_master,bus,100987776:N02,C01414
@@ -595,7 +595,7 @@ Line:relation:7483894,12,Bus 12 : Gare de Jouy-en-Josas ↔ INRA ↔ Gare de Jou
 Line:relation:7517220,J,Bus J : Gare de Houilles Carrières-sur-Seine ↔ Gare de Sartrouville,Bus en Seine,Transdev TVO,,route_master,bus,016248023:J,C00316
 Line:relation:7517221,H,Bus H : Plateau (Bezons) ↔ Gare de Houilles Carrières-sur-Seine ou Gare de Sartrouville,Bus en Seine,Transdev TVO,,route_master,bus,016248025:H,C00317
 Line:relation:7517222,C,Bus C : Gare du Vésinet Le Pecq ↔ Gare de Houilles Carrières-sur-Seine,Bus en Seine,Transdev Île-de-France Montesson La Boucle,,route_master,bus,019248019:C,C00335
-Line:relation:7517223,A,Bus A : Gare de Houilles Carrières-sur-Seine ↔ Gare du Vésinet Le Pecq,Bus en Seine,Transdev Île-de-France Montesson La Boucle,#164194,route_master,bus,019248003:A,C00330
+Line:relation:7517223,A,Bus A : Gare de Houilles Carrières-sur-Seine ↔ Gare du Vésinet Le Pecq,Bus en Seine,Île-de-France Mobilités,#164194,route_master,bus,019248003:A,C00330
 Line:relation:7517252,S6,Bus S6 : Lycée les Pierres Vives ↔ Martyrs (Houilles),Bus en Seine,Transdev Île-de-France Montesson La Boucle,#bf9d83,route_master,bus,019248026:S6,C01775
 Line:relation:7517253,K,Bus K : Gare de Houilles Carrières-sur-Seine (circulaire),Bus en Seine,Transdev Île-de-France Montesson La Boucle,#bd816b,route_master,bus,019248010:K,C00334
 Line:relation:7532322,10,Bus 10 : Saint-Quentin-en-Yvelines - Gare P. Delouvrier ↔ Plaisir Grignon Gare,Hourtoule,Cars Hourtoule,,route_master,bus,027027010:10,C00403
@@ -930,7 +930,7 @@ Line:relation:8310967,303,Bus 303 : Gare Moulin Galant ↔ Corbeil-Essonnes - Ga
 Line:relation:8312254,D,Bus D : Mantes-la-Jolie - Résidence du Lac (circulaire via Plaisances),Mantois,RD Mantois,,route_master,bus,,C01601
 Line:relation:8312545,40,Bus 40 : Gare de Fontenay le Fleury ↔ Versailles Château Rive-Gauche,STAVO,STAVO,,route_master,bus,044044040:40,C01868
 Line:relation:8312707,27,Bus 27 : Roissypole → Jean Bullant (Villiers-le-Bel),Keolis Mobilité Roissy,Keolis Mobilité Roissy,,route_master,bus,116295027:27,C02059
-Line:relation:8316261,L,Bus L : Gare de Houilles Carrières sur Seine ↔ Mayoly (Chatou),Bus en Seine,Transdev Île-de-France Montesson La Boucle,,route_master,bus,019248005:L,C02142
+Line:relation:8316261,L,Bus L : Gare de Houilles Carrières sur Seine ↔ Mayoly (Chatou),Bus en Seine,Île-de-France Mobilités,,route_master,bus,019248005:L,C02142
 Line:relation:8316271,P,Bus P : Berges de Montesson ↔ Gare de Houilles-Carrières sur Seine,Bus en Seine,Transdev Île-de-France Montesson La Boucle,#f5a488,route_master,bus,019248012:P,C02152
 Line:relation:8322773,22,Bus 22 : Meaux ↔ Vincy-Manoeuvre/ May-en-Multien,Pays de l'Ourcq,Transdev Marne et Morin,#c6ae50,route_master,bus,067067022:22,C00917
 Line:relation:8338499,Curviabus,Curvia,Curvia bus,Ville de Courbevoie,,route_master,bus,100692102:Curviabus,
@@ -1425,7 +1425,6 @@ Line:relation:10242502,13C,Bus 13C : Cité Scolaire (Nemours) ↔ Le Perray (Bea
 Line:relation:10547176,01,Bus 01 : Rebais → Coulommiers → Melun,Seine-et-Marne Express,Transdev Darche Gros,,route_master,bus,097177001:01,C01062
 Line:relation:10742267,263,Bus 263 : Place de la Boule - Gambetta via Suresnes - De Gaulle (circulaire),RATP,RATP,#FA9ABA,route_master,bus,100100263:263,
 Line:relation:11041995,20,Bus 20 : Gare du Vésinet - Le Pecq ↔ Gare du Vésinet-Centre,Entre Seine et Forêt,Transdev Île-de-France Montesson Les Rabaux,,route_master,bus,012012020:20,C02264
-Line:relation:11052008,7,Bus 7 : Aincourt ↔ Poissy,CSO,Transdev CSO,,route_master,bus,015243007:7,C00288
 Line:relation:11083350,95-43,Bus 95-43 : Magny-en-Vexin - Gare Routière ↔ Chérence - Foyer Rural,25 - Réseau du Vexin,Transdev Vexin,,route_master,bus,251195043:95-43,C01556
 Line:relation:11161733,G1,bus G1 : Gare de Villeneuve-Saint-Georges ↔ Gare de Villeneuve-Saint-Georges,VyBus,Transdev STRAV,#A6D9F0,route_master,bus,045045020:G1,C00587
 Line:relation:11161734,G2,bus G2 : Gare de Villeneuve-Saint-Georges ↔ Gare de Villeneuve-Saint-Georges,VyBus,Transdev STRAV,#A6D9F0,route_master,bus,045045020:G2,C00588
@@ -1451,7 +1450,7 @@ Line:relation:12282982,95-15,Bus 95-15 : Aincourt - Les Cadenas ↔ Mantes-la-Jo
 Line:relation:12330494,95-25,Bus 95-25 : Desserte de Vigny,25 - Réseau du Vexin,Transdev Vexin,,route_master,bus,,
 Line:relation:12379748,51,Bus scolaire 51 : Collège Amédée Dunois → Gare de Boissy-Saint-Léger,SITUS,Transdev CEAT,#F29503,route_master,bus,010240005:51,C02351
 Line:relation:12399533,27,Bus 27 : Gare de Bussy-Saint-Georges ↔ Gare de Bussy-Saint-Georges,Pep's,Transdev AMV,,route_master,bus,510510027:27,C02298
-Line:relation:12462685,88,bus 88 : Gare de Mantes-la-Jolie ↔ Gare de Dreux,Mantois,RD Mantois,,route_master,bus,,C00755
+Line:relation:12462685,88,bus 88 : Gare de Mantes-la-Jolie ↔ Gare de Dreux,Com'Bus,CTVMI,,route_master,bus,,C00755
 Line:relation:12564972,T9,Tramway T9 : Porte de Choisy ↔ Orly-Gaston Viens,Tramway d'Île de France,Keolis,#5291CE,route_master,tram,522522009:T9,C02317
 Line:relation:12811954,209,Bus 209 : Pontault-Combault - Place de Beilstein ↔ Villiers-sur-Marne - Le Plessis-Trévise RER,RATP,RATP,#00a092,route_master,bus,100100209:209,C02437
 Line:relation:13149241,604,Bus 604 : Gisors - Hôpital ↔ Cergy - Préfecture RER,TRIO 1,Transdev Oise CABARO,#1154a0,route_master,bus,,

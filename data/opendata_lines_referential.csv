@@ -684,7 +684,7 @@ C00580,045045010:A,A,A,bus,localBus,,045,STRAV,,VyBus,3b96c9,ffffff,71 25 0 21,f
 C00581,045045011:B,B,B,bus,regionalBus,,045,STRAV,,,00b7e3,ffffff,100 19 0 11,ffffff,true,unknown,unknown,A00491,YERRES (CIMETIERE) - CRETEIL (EDISON),,,,active
 C00582,045045012:C,C,C,bus,regionalBus,,045,STRAV,,VyBus,95bc1b,ffffff,21 0 86 26,ffffff,false,unknown,unknown,A00492,BRUNOY (GARE RER) - BRUNOY (GARE RER),,,,active
 C00584,045045013:N,N,N,bus,localBus,,045,STRAV,,,74b655,ffffff,36 0 53 29,ffffff,false,unknown,unknown,A00493,VILLENEUVE-ST-GEORGES (GARE CENTRE HOSPIT.),,,,active
-C00586,045045019:F4,F4,F4,bus,localBus,,045,STRAV,,VyBus,fbbf28,000000,0 24 84 2,000000,false,unknown,unknown,A00495,YERRES (ROND POINT PASTEUR) - YERRES (GROS BOIS),,,,active
+C00586,045045019:F4,F4,F4,bus,localBus,,045,STRAV,,VyBus,fbbf28,000000,0 24 84 2,000000,false,unknown,unknown,A00495,,,,,active
 C00587,045045020:G1,G1,G1,bus,localBus,,045,STRAV,,VyBus,a6d9f0,000000,31 10 0 6,000000,false,unknown,unknown,A00496,VILLENEUVE-ST-GEORGES,,,,active
 C00588,045045020:G2,G2,G2,bus,localBus,,045,STRAV,,VyBus,a6d9f0,000000,31 10 0 6,000000,false,unknown,unknown,A00496,VILLENEUVE-ST-GEORGES,,,,active
 C02100,045045022:R1,R1,R1,bus,localBus,,045,STRAV,,VyBus,74b655,000000,36 0 53 29,000000,false,unknown,unknown,A00497,YERRES (LETHUMIERE) - BRUNOY (L.TALMA),,,,active
@@ -1366,13 +1366,13 @@ C02457,100100559:LBLEUE,LIGNE BLEUE,LBLEUE,bus,,SEASONAL_LINE_TYPE,100,RATP,,,8a
 C01347,100100562:V4,V4,V4,bus,,,100,RATP,,,67328e,ffffff,28 65 1 44,ffffff,true,unknown,unknown,A01237,562 (Valouette v4),,,,active
 C01349,100100564:564,564,564,bus,,,100,RATP,,,0055c8,ffffff,100 57 0 22,ffffff,true,unknown,unknown,A01232,564 - Navette Jonchère Malmaison,,,,active
 C01350,100100565:565,565,565,bus,,,100,RATP,,,00643c,ffffff,100 0 40 61,ffffff,true,unknown,unknown,A01233,565 - Navette Hauts de Rueil,,,,active
-C01351,100100566:566,COLOMB,566,bus,,,100,RATP,,,de8b53,000000,0 37 63 13,000000,false,unknown,unknown,A01220,566,,,,active
+C01351,100100566:566,566,566,bus,,,100,RATP,,,de8b53,000000,0 37 63 13,000000,false,unknown,unknown,A01220,566,,,,active
 C01352,100100569:TIM,TIM,TIM,bus,,,100,RATP,,,89c7d6,000000,36 7 0 16,000000,true,unknown,unknown,A01206,569 (TIM),,,,active
 C01353,100100571:SUBB,SUBB,SUBB,bus,,,100,RATP,,,8e6538,ffffff,1 29 61 44,ffffff,true,unknown,unknown,A01221,571 (SUBB),,,,active
 C01900,100100573:PTITBUS,LE P TIT BUS DU PRE,PTITBUS,bus,,,100,RATP,,,d20d44,ffffff,0 94 67 18,ffffff,false,unknown,unknown,A01211,P'tit Bus du Pré,,,,active
 C01354,100100574:TUC,TUC,TUC,bus,,,100,RATP,,,f4c931,000000,0 18 80 4,000000,true,unknown,unknown,A01222,574 (TUC),,,,active
 C01356,100100577:RIVER,RIVER PLAZA,RIVER,bus,,,100,RATP,,,de8b53,000000,0 37 63 13,000000,true,true,true,A01223,577 (River Plaza),,,,active
-C01357,100100579:CLAMIBU,CLAMIBUS,CLAMIBU,bus,,,100,RATP,,,f4c931,000000,0 18 80 4,000000,false,unknown,unknown,A01224,579 (Clamibus),,,,active
+C01357,100100579:CLAMIBUS,CLAMIBUS,CLAMIBUS,bus,,,100,RATP,,,f4c931,000000,0 18 80 4,000000,false,unknown,unknown,A01224,579 (Clamibus),,,,active
 C01359,100100581:V3,V3,V3,bus,,,100,RATP,,,cdc83f,000000,0 2 69 20,000000,true,unknown,unknown,A01234,Valouette v3,,,,active
 C01360,100100582:CHOISYB,CHOISYBUS,CHOISYB,bus,,,100,RATP,,,dfb039,000000,0 21 74 13,000000,false,unknown,unknown,A01209,582 (CHOISYBUS),,,,active
 C01361,100100583:V2,V2,V2,bus,,,100,RATP,,,df9ab1,000000,0 31 20 13,000000,true,unknown,unknown,A01554,583 (Valouette v2),,,,active
@@ -1599,7 +1599,7 @@ C01520,228771009:9E,PROBUS E,9E,bus,regionalBus,,228,ProCars,,,349436,ffffff,65 
 C01726,228771009:9Sco,PROBUS Scolaire,9Sco,bus,localBus,,228,ProCars,,,337137,ffffff,55 0 51 56,ffffff,false,false,unknown,A01361,PROVINS (GARE SNCF) - PROVINS (GARE SNCF),,,,active
 C01521,230410401:401,401,401,bus,regionalBus,,230,SQYBUS,,,7baa20,ffffff,28 0 81 33,ffffff,false,true,true,A01362,VERSAILLES (Versailles Rive Gauche Gare) - MAUREPAS (village),,,,active
 C01523,230410402:402,402,402,bus,localBus,,230,SQYBUS,,,b1badb,000000,19 15 0 14,000000,true,true,true,A01363,TRAPPES (GARE) - LA VERRIERE (GARE),,,,active
-C02448,230410403:403,403,403,bus,localBus,,230,SQYBUS,,,b1badb,000000,19 15 0 14,000000,false,true,true,A02404,,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
+C02448,230410403:403,403,403,bus,localBus,,230,SQYBUS,,,b1badb,000000,19 15 0 14,000000,false,true,true,A02404,Mesnil St Denis (Mairie) - La Verrière (Gare),,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
 C01527,230410414:414,414,414,bus,regionalBus,,230,SQYBUS,,,e75112,ffffff,0 65 92 9,ffffff,true,true,true,A01367,TRAPPES (Trappes Gare) - MONTIGNY-LE-BRETONNEUX (Montigny Saint-Exupéry),,,,active
 C01528,230410415:415,415,415,bus,regionalBus,,230,SQYBUS,,,e75112,ffffff,0 65 92 9,ffffff,true,true,true,A01368,LE MESNIL-ST-DENIS (PLACE DU MESNIL) - BOIS-D'ARCY (MELIES-CROIX BONNET),,,,active
 C01530,230410417:417,417,417,bus,regionalBus,,230,SQYBUS,,,e75112,ffffff,0 65 92 9,ffffff,true,unknown,unknown,A01370,TRAPPES (Trappes Gare) - ELANCOURT - PLAISIR - LA VERRIERE (La Verrière Gare),,,,active
@@ -1651,7 +1651,7 @@ C00379,287191100:191-100,Express 191-100,191-100,bus,expressBus,,287,Keolis Orly
 C01562,291191001:91-01,EXPRESS 91-01,91-01,bus,expressBus,,291,Albatrans,,,1ac7ff,000000,90 22 0 0,000000,false,true,true,A01408,BRUNOY (GARE) - EVRY (Gare Evry-Courcouronnes),,,,active
 C01563,291191002:91-02,EXPRESS 91-02,91-02,bus,expressBus,,291,Albatrans,,,1ac7ff,000000,90 22 0 0,000000,false,unknown,true,A01409,DOURDAN (GARE RER) - ORSAY (RER),,,,active
 C01564,291191003:91-03,EXPRESS 91-03,91-03,bus,expressBus,,291,Albatrans,,,1ac7ff,000000,90 22 0 0,000000,false,unknown,true,A01410,DOURDAN (GARE RER) - MASSY (GARE),,,,active
-C01565,291191004:91-04,EXPRESS 91-04,91-04,bus,expressBus,,291,Albatrans,,,1ac7ff,000000,90 22 0 0,000000,true,unknown,true,A01411,ARPAJON - BRETIGNY-SUR-ORGE - EVRY,,,,active
+C01565,291191004:91-04,EXPRESS 91-04,91-04,bus,expressBus,,291,Albatrans,,,1ac7ff,000000,90 22 0 0,000000,true,unknown,true,A01411,,,,,active
 C01566,291191005:91-05,EXPRESS 91-05,91-05,bus,expressBus,,291,Albatrans,,,1ac7ff,000000,90 22 0 0,000000,false,unknown,true,A01412,EVRY - PALAISEAU (GARE MASSY-PALAISEAU),,,,active
 C01567,291191006:91-06,EXPRESS 91-06,91-06,bus,expressBus,,291,Albatrans,,,1ac7ff,000000,90 22 0 0,000000,true,true,true,A01413,MASSY (Massy Palaiseau Gare RER B) - MONTIGNY-LE-BRETONNEUX ( ST-QUENTIN GARE),,,,active
 C01568,291191007:91-07,91-07,91-07,bus,localBus,,291,Albatrans,,,ed2939,ffffff,0 83 76 7,ffffff,false,unknown,true,A01414,ETAMPES (RER) - LA FORET-LE-ROI - LES GRANGES-LE-ROI - DOURDAN (RER),,,,active

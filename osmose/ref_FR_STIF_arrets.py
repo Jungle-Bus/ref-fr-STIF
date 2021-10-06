@@ -6,13 +6,10 @@ import csv
 def generate_osmose_errors_for_stops():
     errors = []
     ref_STIF_list = []
-    with open('../data/gtfs_stops.txt', 'r') as f:
+    with open('../data/opendata_stops_referential.csv', 'r') as f:
         reader = csv.DictReader(f)
         for row in reader :
-            open_data_ref = row['stop_id'].replace("IDFM:", "")
-            # lot of garbage here actually (stop_area, access, monomodalSP, etc)
-            # maybe use opendata_routepoints file or
-            # another file from IDFM open data platform instead ?
+            open_data_ref = row['ArRId']
             ref_STIF_list.append(open_data_ref)
 
     with open('../data/osm-transit-extractor_stop_points.csv', 'r') as f:

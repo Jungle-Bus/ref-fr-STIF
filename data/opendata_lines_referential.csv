@@ -37,7 +37,7 @@ C00118,000535034:34,34,34,bus,localBus,,1011,RD Mantois,,Mantois,a9398a,ffffff,0
 C01428,000535040:40,40,40,bus,localBus,,1011,RD Mantois,,Mantois,f90100,ffffff,0 100 100 2,ffffff,false,true,true,A01282,AUBERGENVILLE (Gare SNCF) - AUBERGENVILLE (Gare SNCF),,,,active
 C00120,000535042:42,42,42,bus,localBus,,1011,RD Mantois,,Mantois,97bf0d,ffffff,21 0 93 25,ffffff,false,unknown,unknown,A00112,AUBERGENVILLE (SU D'ELISABETHVILLE),,,,active
 C00121,000535043:43,43,43,bus,localBus,,1011,RD Mantois,,Mantois,0066ff,ffffff,100 60 0 0,ffffff,false,unknown,unknown,A00113,BOUAFLE - FLINS-SUR-SEINE - AUBERGENVILLE,,,,active
-C00744,000535050:52,52,52,bus,localBus,,1011,RD Mantois,,Mantois,0896bb,ffffff,96 20 0 27,ffffff,false,true,true,A00642,,,,,active
+C00744,000535050:52,52,52,bus,localBus,,1011,RD Mantois,,Mantois,0896bb,ffffff,96 20 0 27,ffffff,false,true,true,A00642,FONTENAY-ST-PERE (EGLISE) - MANTES-LA-JOLIE (GARE),,,,active
 C00747,000535057:L,L,L,bus,localBus,,1011,RD Mantois,,Mantois,fff200,000000,0 5 100 0,000000,false,true,true,A00644,LIMAY - LIMAY,,,,active
 C00725,000535101:1,1,1,bus,localBus,,1011,RD Mantois,,Mantois,49a634,ffffff,56 0 69 35,ffffff,false,true,true,A00625,MERICOURT (BARRAGE) - BONNIERES-SUR-SEINE (GARE ROUTIERE),,,,active
 C00727,000535103:5,5,5,bus,localBus,,1011,RD Mantois,,Mantois,17a6e0,000000,90 26 0 12,000000,false,true,true,A00627,BONNIERES-SUR-SEINE - GOMMECOURT,,,,active
@@ -214,7 +214,7 @@ C02456,010240009:9,9,9,bus,regionalBus,,010,Transdev CEAT,,,f4cccc,000000,0 16 1
 C00547,010240010:10,10,10,bus,localBus,,010,Transdev CEAT,,,5b3800,ffffff,1 39 100 64,ffffff,true,true,true,A00472,SUCY-EN-BRIE (SUCY-BONNEUIL RER) - CHENNEVIERES-SUR-MARNE (CENTRE COMMERCIAL PINCE VENT),,,,active
 C00560,010240102:102,102,102,bus,localBus,,010,Transdev CEAT,,,646b24,ffffff,7 0 66 58,ffffff,false,unknown,unknown,A00473,102,,,,active
 C00561,010240103:103,103,103,bus,localBus,,010,Transdev CEAT,,,a0cfa8,000000,23 0 19 19,000000,false,unknown,unknown,A00474,103,,,,active
-C00106,011011002:2,2,2,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,fccf99,000000,0 23 45 0,000000,false,unknown,unknown,A00098,,,,,active
+C00106,011011002:2,2,2,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,fccf99,000000,0 23 45 0,000000,false,unknown,unknown,A00098,Les Mureaux (Gare) - Cergy (Gare de Cergy-le-Haut),,,,active
 C00107,011011005:5,5,5,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,93d5f6,ffffff,45 0 0 0,ffffff,false,unknown,unknown,A00099,LES MUREAUX (Lycée F. VILLON) - SERAINCOURT,,,,active
 C00110,011011012:12,12,12,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,f4aacc,ffffff,0 45 0 0,ffffff,false,unknown,unknown,A00102,LES MUREAUX (Gare) - AUBERGENVILLE ( VAN GOGH),,,,active
 C00111,011011013:13,13,13,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,8fbda7,ffffff,18 0 9 26,ffffff,false,unknown,unknown,A00103,ECQUEVILLY (les Louvrettes) - LES MUREAUX - HARDRICOURT (SNCF/Cacao Barry),,,,active
@@ -305,6 +305,7 @@ C01678,013013105:C,C,C,bus,localBus,,013,Transdev Ile-de-France Rambouillet,,rbu
 C00189,014014001:1,1,1,bus,regionalBus,,014,CIF,,,00814f,ffffff,100 0 39 49,ffffff,false,true,true,A00174,LA COURNEUVE (Place du 8 mai 1945) - MITRY-MORY (Villeparisis/Mitry le Neuf RER),,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
 C01801,014014003:3A,3A,3A,bus,,,014,CIF,,,fece00,000000,0 19 100 1,000000,false,partial,partial,A00175,MITRY-MORY (Mitry-Claye RER) - COMPANS (Ecole Jean de la Fontaine),,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
 C00191,014014011:11,11,11,bus,regionalBus,,014,CIF,,,c04191,ffffff,0 66 24 25,ffffff,false,true,true,A00176,GOUSSAINVILLE (Victor Bach) - ST-DENIS (Marche),,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
+C00192,014014011:11.5,11.5,11.5,bus,,,014,CIF,,,aaaaaa,000000,0 0 0 33,000000,false,unknown,unknown,A00176,GOUSSAINVILLE (Victor Bach) - ST-DENIS (Marche),,,,active
 C00194,014014012:12,12,12,bus,,,014,CIF,,,98b3de,ffffff,32 19 0 13,ffffff,false,partial,partial,A00177,GOUSSAINVILLE (RER) - CHAUMONTEL (MAIRIE),,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
 C00196,014014014:14,14,14,bus,,,014,CIF,,,662483,ffffff,22 73 0 49,ffffff,false,true,true,A00178,ASNIERES-SUR-OISE (BAILLON) - VIARMES (SNCF),,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
 C00197,014014015:15,15,15,bus,regionalBus,,014,CIF,,,0064b0,ffffff,100 43 0 31,ffffff,false,true,true,A00179,TREMBLAY-EN-FRANCE (JAURES) - AULNAY-SOUS-BOIS (RER),,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
@@ -315,7 +316,7 @@ C00205,014014030:30B,30B,30B,bus,,,014,CIF,,,98d4e2,000000,33 6 0 11,000000,fals
 C00208,014014031:31,31,31,bus,,,014,CIF,,,e3051b,ffffff,0 98 88 11,ffffff,false,true,true,A00185,GARGES-LES-GONESSE (GARE RER) - GARGES-LES-GONESSE (PARC COMMERCIAL PONT DE PIERRE),,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
 C00209,014014032:32,32,32,bus,regionalBus,,014,CIF,,,d4c900,000000,0 5 100 17,000000,false,true,true,A00186,Victor Basch-GOUSSAINVILLE - Aéroville-AÉROPORT CDG 1,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
 C00211,014014033:33,33,33,bus,,,014,CIF,,,98b3de,ffffff,32 19 0 13,ffffff,false,true,true,A00187,GOUSSAINVILLE - GOUSSAINVILLE,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
-C02164,014014034:34,34,34,bus,,,014,CIF,,,29ff00,000000,84 0 100 0,000000,false,unknown,unknown,A02245,LE THILLAY Avenue Bocquet - GONESSE Collège Philippe Auguste,,,,active
+C02164,014014034:34,34,34,bus,,,014,CIF,,,9dcda1,000000,23 0 21 20,000000,false,true,true,A02245,LE THILLAY Avenue Bocquet - GONESSE Collège Philippe Auguste,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
 C00212,014014038:38,38,38,bus,,,014,CIF,,,98b3de,ffffff,32 19 0 13,ffffff,false,partial,partial,A00188,SEUGY - VIARMES,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
 C00213,014014039:39,39,39,bus,regionalBus,,014,CIF,,,f28f42,000000,0 41 73 5,000000,false,true,true,A00189,VILLEPINTE (VERT GALANT RER) - TREMBLAY-EN-FRANCE (Roissypôle RER),,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
 C02214,014014040:40,40,40,bus,,,014,CIF,,,e3b326,000000,0 21 83 11,000000,false,true,true,A02302,Villepinte Parc des Expositions RER B – Villepinte Vert Galant RER B,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
@@ -368,7 +369,7 @@ C00235,014014910:R110,R110,R110,bus,,,014,CIF,,,b28e64,ffffff,0 20 44 30,ffffff,
 C00236,014014911:R111,R111,R111,bus,,,014,CIF,,,f5a05f,000000,0 35 61 4,000000,false,partial,partial,A00219,VEMARS (LES DIX ARPENTS) - LOUVRES (COLLEGE FRANCOIS MAURIAC),,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
 C00237,014014912:R112,R112,R112,bus,,,014,CIF,,,f5a48c,ffffff,0 33 43 4,ffffff,false,partial,partial,A00220,MARLY-LA-VILLE - FOSSES - ST-WITZ,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
 C00238,014014913:R113,R113,R113,bus,,,014,CIF,,,f5a48c,ffffff,0 33 43 4,ffffff,false,partial,partial,A00221,ROISSY-EN-FRANCE - LOUVRES - ST-WITZ,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
-C00245,014077701:701,701,701,bus,,,014,CIF,,Goëlys,b80745,ffffff,0 96 62 28,ffffff,false,true,true,A00224,TREMBLAY-EN-FRANCE (Roissypôle RER) - MOUSSY-LE-NEUF (LA BAROGNE),,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
+C00245,014077701:701,701,701,bus,,,014,CIF,,Goëlys,b80745,ffffff,0 96 62 28,ffffff,false,true,true,A00224,,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
 C00246,014077702:702,702,702,bus,,,014,CIF,,Goëlys,8c5e2b,ffffff,0 33 69 45,ffffff,false,true,true,A00225,TREMBLAY-EN-FRANCE (Roissypôle RER) - LOUVRES (RER),,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
 C00247,014077703:703,703,703,bus,,,014,CIF,,Goëlys,dba2ca,ffffff,0 26 8 14,ffffff,false,partial,partial,A00226,LONGPERRIER (LYCEE CHARLES DE GAULLE) - ST-MARD - ST-PATHUS (LES FRENES),,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
 C00248,014077704:704,704,704,bus,,,014,CIF,,Goëlys,f28f42,000000,0 41 73 5,000000,false,true,true,A00227,MEAUX (sncf) - LE PLESSIS BELLEVILLE (Mairie),,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
@@ -411,7 +412,7 @@ C00281,015015050:50,50,50,bus,regionalBus,,1010,Keolis Seine et Oise Est,,Poissy
 C00282,015015051:51,51,51,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,f5a488,ffffff,0 33 44 4,ffffff,false,unknown,unknown,A00265,POISSY (HOPITAL) - POISSY (LA FORET),,,,active
 C00283,015015052:52,52,52,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,f59c00,000000,0 36 100 4,000000,false,unknown,unknown,A00266,POISSY (SAINT LOUIS) - POISSY (HOPITAL),,,,active
 C00285,015015054:54,54,54,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,b2bc00,ffffff,6 0 100 26,ffffff,false,unknown,unknown,A00268,POISSY (GARE) - POISSY (TECHNOPARC),,,,active
-C00286,015015098:98,98,98,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,687c61,ffffff,17 1 22 51,ffffff,false,unknown,unknown,A00269,,,,,active
+C00286,015015098:98,98,98,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,687c61,ffffff,17 1 22 51,ffffff,false,unknown,unknown,A00269,Poissy (Gare Nord) - Triel-sur-Seine - Carrières-sous-Poissy,,,,active
 C01773,015078055:55,55,55,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,c4a500,ffffff,0 16 100 23,ffffff,false,unknown,unknown,A01831,POISSY,,,,active
 C00287,015242004:4,4 Express,4,bus,expressBus,,015,CSO,,,1ac7ff,000000,90 22 0 0,000000,false,unknown,unknown,A00270,POISSY (GARE NORD) - MONTIGNY-LE-BRETONNEUX (GARE),,,,active
 C00337,016248022:G,G,G,bus,localBus,,019,Transdev Ile-de-France Montesson La Boucle,016,Bus en Seine,9c91c5,000000,21 26 0 23,000000,true,unknown,unknown,A00316,MONTESSON (LES BERGES) - LE VESINET (RER),,,,active
@@ -798,7 +799,7 @@ C00703,056356015:12,12,12,bus,,,056,Keolis Versailles,,Phébus,ff8c57,000000,0 4
 C00704,056356016:13,13,13,bus,,,056,Keolis Versailles,,Phébus,a88cff,000000,34 45 0 0,000000,true,true,true,A00609,JOUY-EN-JOSAS (Gare de Jouy) - JOUY-EN-JOSAS (Campus H.E.C.),,,,active
 C00705,056356017:101,101,101,bus,,,056,Keolis Versailles,,Phébus,8ce39c,000000,45 11 39 0,000000,false,true,true,A00610,VERSAILLES (Gare des Chantiers) - VERSAILLES (Université),,,,active
 C00706,056356018:102,102,102,bus,,,056,Keolis Versailles,,Phébus,a38c57,000000,36 45 66 0,000000,false,true,true,A00611,LE CHESNAY (C.C. Parly 2) - VILLE-D'AVRAY (Eglise),,,,active
-C00707,056356019:103,103,103,bus,,,056,Keolis Versailles,,Phébus,ff8ce3,000000,0 45 11 0,000000,false,true,true,A00612,VERSAILLES (Gare des Chantiers) - LOUVECIENNES (Bull),,,,active
+C00707,056356019:103,103,103,bus,,,056,Keolis Versailles,,Phébus,ff8ce3,000000,0 45 11 0,000000,false,true,true,A00612,,,,,active
 C00708,056356020:104,104,104,bus,,,056,Keolis Versailles,,Phébus,c99eff,ffffff,21 38 0 0,ffffff,false,true,true,A00613,VIROFLAY (Gare Rive Gauche) - LE CHESNAY (Parly 2 - Les Comtesses),,,,active
 C01934,056356021:105,105,105,bus,,,056,Keolis Versailles,,Phébus,8cad08,000000,45 32 97 0,000000,true,true,true,A00614,VERSAILLES (Gare des Chantiers) - VERSAILLES (Satory GIAT),,,,active
 C00709,056356022:106,106,106,bus,,,056,Keolis Versailles,,Phébus,ff8c94,000000,0 45 42 0,000000,false,true,true,A00615,VERSAILLES (Pershing) - VERSAILLES (Stade de Porchefontaine),,,,active
@@ -894,7 +895,7 @@ C00834,064608023:4,4,4,bus,regionalBus,,064,Transdev Ile-de-France Nemours,,STIL
 C00835,064608024:5,5,5,bus,regionalBus,,064,Transdev Ile-de-France Nemours,,STILL,004c93,ffffff,100 49 1 42,ffffff,false,unknown,unknown,A00719,NEMOURS (CARREFOUR DE L'EUROPE) - ST-PIERRE-LES-NEMOURS (NEMOURS BEAUREGARD),,,,active
 C00898,067067002:J,J,J,bus,localBus,,067,Marne et Morin,,Pays de Meaux,06476d,ffffff,94 35 0 57,ffffff,false,unknown,unknown,A00768,GERMIGNY-L'EVEQUE (Résidence de la Marne) - POINCY - MEAUX (Gare Routière),,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
 C00900,067067003:F,F,F,bus,regionalBus,,067,Marne et Morin,,Pays de Meaux,722671,ffffff,0 67 1 55,ffffff,false,unknown,unknown,A00769,NANTEUIL-LES-MEAUX (BRUYERES) - MEAUX (GARE ROUTIERE),,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
-C00901,067067004:4,4,4,bus,localBus,,067,Marne et Morin,,Pays Créçois,bc85bb,ffffff,0 30 1 26,ffffff,false,unknown,unknown,A00770,MEAUX (Gare SNCF) - QUINCY-VOISINS - ESBLY (Gare SNCF),,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
+C00901,067067004:4,4,4,bus,localBus,,067,Marne et Morin,,Pays Créçois,bc85bb,ffffff,0 30 1 26,ffffff,false,unknown,unknown,A00770,,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
 C00902,067067005:C,C,C,bus,regionalBus,,067,Marne et Morin,,Pays de Meaux,de7fb2,ffffff,0 43 20 13,ffffff,false,unknown,unknown,A00771,MEAUX (Gare SNCF) - MEAUX (GARE SNCF),,,,active
 C00905,067067008:8A,8A,8A,bus,localBus,,067,Marne et Morin,,Pays Créçois,a17a70,ffffff,0 24 30 37,ffffff,false,unknown,unknown,A00774,CRECY-LA-CHAPELLE (GARE SNCF) - CRECY-LA-CHAPELLE (GARE SNCF),,,,active
 C00908,067067010:10,10,10,bus,regionalBus,,067,Marne et Morin,,Pays de l Ourcq,edea4d,ffffff,0 1 68 7,ffffff,false,unknown,unknown,A00775,CONGIS-SUR-THEROUANNE - VARREDDES - ETREPILLY - MEAUX,,,,active
@@ -937,7 +938,7 @@ C02207,067067071:71,71,71,bus,,,067,Marne et Morin,,Pays Créçois,f04a72,ffffff
 C00952,067067073:73,73,73,bus,localBus,,067,Marne et Morin,,Pays Créçois,d8b43c,ffffff,0 17 72 15,ffffff,false,unknown,unknown,A00815,BOULEURS - COUILLY-PONT-AUX-DAMES,,,,active
 C00899,067067102:Js,Js,Js,bus,localBus,,067,Marne et Morin,,Pays de Meaux,5eb1e3,ffffff,59 22 0 11,ffffff,false,unknown,unknown,A00768,GERMIGNY-L'EVEQUE (Résidence de la Marne) - POINCY - MEAUX (Gare Routière),,,,active
 C02230,067067103:Fs,Fs,Fs,bus,,,067,Marne et Morin,,Pays de Meaux,dab9d8,ffffff,0 15 1 15,000000,false,unknown,unknown,A00769,NANTEUIL-LES-MEAUX (BRUYERES) - MEAUX (GARE ROUTIERE),,,,active
-C01995,067067104:4A,4A,4A,bus,localBus,,067,Marne et Morin,,Pays Créçois,b95a76,ffffff,1 52 37 27,ffffff,false,unknown,unknown,A00770,MEAUX (Gare SNCF) - QUINCY-VOISINS - ESBLY (Gare SNCF),,,,active
+C01995,067067104:4A,4A,4A,bus,localBus,,067,Marne et Morin,,Pays Créçois,b95a76,ffffff,1 52 37 27,ffffff,false,unknown,unknown,A00770,,,,,active
 C00906,067067108:8B,8B,8B,bus,localBus,,067,Marne et Morin,,Pays Créçois,a17a70,ffffff,0 24 30 37,ffffff,false,unknown,unknown,A00774,CRECY-LA-CHAPELLE (GARE SNCF) - CRECY-LA-CHAPELLE (GARE SNCF),,,,active
 C01716,067067113:13B,13B,13B,bus,localBus,,067,Marne et Morin,,Pays Créçois,1f97d4,ffffff,85 29 0 17,ffffff,false,unknown,unknown,A00778,CRECY-LA-CHAPELLE (mairie) - MAGNY-LE-HONGRE - BAILLY-ROMAINVILLIERS - ESBLY (SNCF),,,,active
 C02231,067067117:Ls,Ls,Ls,bus,,,067,Marne et Morin,,Pays de Meaux,6e8670,ffffff,19 1 17 47,ffffff,false,unknown,unknown,A00780,TRILBARDOU (PLACE DES TILLEULS) - ESBLY (GARE SNCF),,,,active
@@ -952,7 +953,7 @@ C02320,067067159:59E,59E,59E,bus,,,067,Marne et Morin,,Pays Créçois,c1d95c,000
 C02345,067067161:61B,61B,61B,bus,localBus,,067,Marne et Morin,,Pays de l Ourcq,cccccc,000000,0 0 0 20,000000,false,unknown,unknown,A00809,LIZY-SUR-OURCQ - JOUARRE,,,,active
 C02252,067067164:Ks,Ks,Ks,bus,,,067,Marne et Morin,,Pays de Meaux,a3c2e6,ffffff,29 15 0 10,ffffff,false,unknown,unknown,A00812,MAREUIL-LES-MEAUX (Avenue de la Brie) - MEAUX (Gare routière),,,,active
 C02229,067067202:Qs,Qs,Qs,bus,,,067,Marne et Morin,,Pays de Meaux,f2a06a,ffffff,0 34 56 5,ffffff,false,unknown,unknown,A00768,GERMIGNY-L'EVEQUE (Résidence de la Marne) - POINCY - MEAUX (Gare Routière),,,,active
-C01996,067067204:4B,4B,4B,bus,localBus,,067,Marne et Morin,,Pays Créçois,3e1053,ffffff,26 81 1 67,ffffff,false,unknown,unknown,A00770,MEAUX (Gare SNCF) - QUINCY-VOISINS - ESBLY (Gare SNCF),,,,active
+C01996,067067204:4B,4B,4B,bus,localBus,,067,Marne et Morin,,Pays Créçois,3e1053,ffffff,26 81 1 67,ffffff,false,unknown,unknown,A00770,,,,,active
 C00907,067067208:8C,8C,8C,bus,localBus,,067,Marne et Morin,,Pays Créçois,a17a70,ffffff,0 24 30 37,ffffff,false,unknown,unknown,A00774,CRECY-LA-CHAPELLE (GARE SNCF) - CRECY-LA-CHAPELLE (GARE SNCF),,,,active
 C02400,067067234:34S2,34S2,34S2,bus,localBus,,067,Marne et Morin,,Pays Fertois,e69138,ffffff,0 37 76 10,ffffff,false,unknown,unknown,A00792,VERDELOT (Mairie) - SABLONNIERES - BOITRON - LA FERTE-SOUS-JOUARRE (Gare SNCF),,,,active
 C02318,067067308:8AS,8AS,8AS,bus,localBus,,067,Marne et Morin,,Pays Créçois,a17a70,000000,0 24 30 37,000000,false,unknown,unknown,A00774,CRECY-LA-CHAPELLE (GARE SNCF) - CRECY-LA-CHAPELLE (GARE SNCF),,,,active
@@ -1363,7 +1364,7 @@ C02080,100100559:559B,559B,559B,bus,,,100,RATP,,,d282be,000000,0 38 9 18,000000,
 C02081,100100559:559C,559C,559C,bus,,,100,RATP,,,ff5a00,ffffff,0 65 100 0,ffffff,false,unknown,unknown,A01229,559 - Ligne bleue,,,,active
 C02082,100100559:559D,559D,559D,bus,,,100,RATP,,,6e6e00,ffffff,0 0 100 57,ffffff,false,unknown,unknown,A01229,559 - Ligne bleue,,,,active
 C02457,100100559:LBLEUE,LIGNE BLEUE,LBLEUE,bus,,SEASONAL_LINE_TYPE,100,RATP,,,8ad3de,000000,44 0 12 0,000000,false,unknown,unknown,A01229,559 - Ligne bleue,,,,active
-C01347,100100562:V4,V4,V4,bus,,,100,RATP,,,67328e,ffffff,28 65 1 44,ffffff,true,unknown,unknown,A01237,562 (Valouette v4),,,,active
+C01347,100100562:V4,V4,V4,bus,,,100,RATP,,,67328e,ffffff,28 65 1 44,ffffff,true,unknown,unknown,A01237,,,,,active
 C01349,100100564:564,564,564,bus,,,100,RATP,,,0055c8,ffffff,100 57 0 22,ffffff,true,unknown,unknown,A01232,564 - Navette Jonchère Malmaison,,,,active
 C01350,100100565:565,565,565,bus,,,100,RATP,,,00643c,ffffff,100 0 40 61,ffffff,true,unknown,unknown,A01233,565 - Navette Hauts de Rueil,,,,active
 C01351,100100566:566,566,566,bus,,,100,RATP,,,de8b53,000000,0 37 63 13,000000,false,unknown,unknown,A01220,566,,,,active
@@ -1476,9 +1477,9 @@ C02424,111591209:N,N,N,bus,localBus,,111,Mobicité,,Paris-Saclay Mobilités,00a1
 C02425,111591210:O,O,O,bus,localBus,,111,Mobicité,,Paris-Saclay Mobilités,ff6600,000000,0 60 100 0,000000,false,unknown,unknown,A01781,ABCDE,,,,active
 C02303,111592404:ChavilBus,ChavilBus Sud,ChavilBus,bus,,,111,Mobicité,,Paladin,4000ff,ffffff,75 100 0 0,ffffff,false,unknown,unknown,A02212,Chavilbus,,,,active
 C02302,111592405:ChavilBus,ChavilBus Nord,ChavilBus,bus,,,111,Mobicité,,Paladin,c99eff,000000,21 38 0 0,000000,false,unknown,unknown,A02212,Chavilbus,,,,active
-C02301,111592406:526,526,526,bus,,,111,Mobicité,,Paladin,00c221,ffffff,85 24 100 8,ffffff,false,unknown,unknown,,,,,,active
+C02301,111592406:526,526,526,bus,,,111,Mobicité,,Paladin,00c221,ffffff,85 24 100 8,ffffff,false,unknown,unknown,A01797,526,,,,active
 C02304,111592407:ChavilBus,Chavilbus Unique,ChavilBus,bus,,,111,Mobicité,,Paladin,c99eff,000000,21 38 0 0,000000,false,unknown,unknown,A02212,Chavilbus,,,,active
-C02300,111592409:469,469,469,bus,,,111,Mobicité,,Paladin,f9bd1b,000000,0 24 89 2,000000,false,unknown,unknown,,,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
+C02300,111592409:469,469,469,bus,,,111,Mobicité,,Paladin,f9bd1b,000000,0 24 89 2,000000,false,unknown,unknown,A01327,469,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
 C01826,111593301:1,1,1,bus,localBus,,111,Mobicité,,Titus,ff0000,ffffff,0 100 100 0,ffffff,false,unknown,unknown,A01777,Titus 1 (Rouge),,,,active
 C01827,111593302:2,2,2,bus,localBus,,111,Mobicité,,Titus,ffbf00,000000,0 25 100 0,000000,false,unknown,unknown,A01778,Titus 2 (jaune),,,,active
 C01828,111593303:3,3,3,bus,localBus,,111,Mobicité,,Titus,33ff33,000000,80 0 80 0,000000,false,unknown,unknown,A01779,Titus 3 (verte),,,,active

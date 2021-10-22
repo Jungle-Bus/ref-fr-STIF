@@ -245,7 +245,7 @@ Line:relation:4007734,T8,Tramway T8,Tramway d'Île de France,RATP,#B1A245,route_
 Line:relation:4021770,50,Bus 50 : Provins ↔ Chessy,Seine-et-Marne Express,Procars,#EE7F00,route_master,bus,228177050:50,C01500
 Line:relation:4030054,39-10,Bus 39-10 : Navette Domaine de Saint-Paul,SAVAC,SAVAC,,route_master,bus,039039010:39-10,C00496
 Line:relation:4099253,11 Gare,Bus 11 Gare : Gare de Saint-Fargeau-Ponthierry (circulaire),Canton de Perthes en Gâtinais,Transdev Île-de-France St-Fargeau-Ponthierry,,route_master,bus,063063011:11GARE,
-Line:relation:4226214,95-41,Bus 95-41 : Magny en Vexin ↔ Pontoise,25 - Réseau du Vexin,Transdev Vexin,#005568,route_master,bus,251195041:95-41,C01554
+Line:relation:4226214,95-41,Bus 95-41 : Magny en Vexin ↔ Pontoise,Bus Haut Val d'Oise,Transdev Vexin,#005568,route_master,bus,251195041:95-41,C01554
 Line:relation:4289192,194,Bus 194 : Porte d'Orléans ↔ Châtenay-Malabry,RATP,RATP,#ff5a00,route_master,bus,100100194:194,
 Line:relation:4610190,103,Bus 103 : École Vétérinaire de Maisons-Alfort ↔ Marché International de Rungis / Georges Halgoult,RATP,RATP,#ff5a00,route_master,bus,100100103:103,
 Line:relation:4635341,DM12,Bus DM12 : Gare de Massy-Palaiseau ↔ Gare de Gravigny Balizy,Daniel Meyer,Keolis Meyer,#0a4199,route_master,bus,055055012:DM12,C00676
@@ -386,7 +386,7 @@ Line:relation:6860557,216,Bus 216 : Denfert-Rochereau ↔ Marché International 
 Line:relation:6860704,Tvm,Bus Tvm : Antony-La Croix de Berny RER ↔ Saint-Maur - Créteil RER,RATP,RATP,#216eb4,route_master,bus,100100014:TVM,C01071
 Line:relation:6867541,191.100,Bus Express 191.100 : Gare de Yerres ↔ M.I.N. (Chevilly-Larue - Rungis),Keolis Orly Rungis,Keolis Orly Rungis,#0097d8,route_master,bus,287191100:191-100,C00379
 Line:relation:6867574,91-09,Bus Express 91-09 : Gare Routière de Yerres ↔ Gare Routière d'Évry,Albatrans,Albatrans,#1ac7ff,route_master,bus,291191009:91-09,C01570
-Line:relation:6880011,95-04,Bus 95-04 : Bray et Lû ↔ Cergy Préfecture,25 - Réseau du Vexin,Transdev Vexin,#1AC7FF,route_master,bus,251195004:95-04,C01552
+Line:relation:6880011,95-04,Bus 95-04 : Bray et Lû ↔ Cergy Préfecture,Bus Haut Val d'Oise,Transdev Vexin,#1AC7FF,route_master,bus,251195004:95-04,C01552
 Line:relation:6880695,95-11,Bus 95-11 : Bray-et-Lû - Place du 19 Mai 1962 ↔ Mantes-la-Jolie - Gare,25 - Réseau du Vexin,Transdev Vexin,#BF008F,route_master,bus,251195011:95-11,C01553
 Line:relation:6881771,95-24,Bus 95-24 : Moussy - Mairie ↔ Ableige - Transformateur ↔ Us -Stade ↔ Vigny - Collège,25 - Réseau du Vexin,Transdev Vexin,#998eb8,route_master,bus,011195024:95-24,
 Line:relation:6883259,305,Bus 305 : Henri Barbusse - Gare RER de Corbeil Essonnes ↔ Juvisy Gare Routière Seine,Seine Essonne Bus,Keolis Seine Essonne,,route_master,bus,024309305:305,C00392
@@ -776,7 +776,7 @@ Line:relation:7921018,K,Bus K : Gare de Melun circulaire via Chaussy,Grand Melun
 Line:relation:7921019,E,Bus E : Centre Commercial Almont ↔ Centre Commercial Villiers en Bière,Grand Melun,Transdev Melun,,route_master,bus,,C00881
 Line:relation:7921020,M,Bus M : Melun — Gare de Melun ↔ Vaux-le-Pénil — Rond-Point du Bûcher,Grand Melun,Transdev Melun,,route_master,bus,,C00885
 Line:relation:7921021,F,Bus F : Le Mée-sur-Seine -- Le Mée Gare ↔ La Rochette -- Rocheton Stade,Grand Melun,Transdev Melun,,route_master,bus,,C00882
-Line:relation:7921022,A,Bus A : Centre Commercial Rubelles ↔ Grands Cèdres,Grand Melun,Transdev Melun,,route_master,bus,,C00875
+Line:relation:7921022,A,Bus A : Centre Commercial Rubelles ↔ Hôtel de Ville Florélites,Grand Melun,Transdev Melun,,route_master,bus,,C00875
 Line:relation:7921023,D,Bus D : Gare de Melun (circulaire extérieure via Gare Routière Mail),Grand Melun,Transdev Melun,,route_master,bus,,C00879
 Line:relation:7921024,GoCParis,Go C Paris,Keolis Orly Rungis,Keolis Orly Rungis,yellow,route_master,bus,287094001:GOCparis,
 Line:relation:7921025,605,Bus 605 : Gare d'Aulnay sous Bois ↔ Gare du Raincy Villemomble,Seine-Saint-Denis,Transdev TRA,,route_master,bus,293193605:605,C01577
@@ -1209,7 +1209,6 @@ Line:relation:9203505,DM17A,Bus DM17A : Gare de Sainte-Geneviève des Bois ↔ F
 Line:relation:9204349,60,Bus 60 : Gare Routière Mantes-la-Ville ↔ Rambouillet Gare Prairie,Houdanais,Transdev Île-de-France Houdan,,route_master,bus,005005060:60,C00062
 Line:relation:9205962,77,Bus 77 : Cimetière ↔ Gare de Saint-Quentin-en-Yvelines - Gare Routière Delouvrier,Plaine de Versailles,Transdev Île-de-France Ecquevilly,,route_master,bus,011011077:77,C00123
 Line:relation:9206600,12,Bus 12 : Gare de Rambouillet [Prairie] ↔ Gare de Saint-Quentin en Yvelines,Réseau Interurbain de Rambouillet,Transdev Île-de-France Rambouillet,,route_master,bus,013013012:12,C01951
-Line:relation:9206702,3B,Bus 3B : Mitry Claye RER B (circulaire),Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,014014003:3B,C01800
 Line:relation:9206954,21,Bus 21 : Marché ↔ Mairie Annexe,Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,014014221:21,C00202
 Line:relation:9207015,R5,Bus R5 : Louvres RER D (circulaire),Grand'R,Keolis CIF,,route_master,bus,014014905:R5,C00232
 Line:relation:9207454,703,Bus 703 : Les Frênes ↔ Gare Saint-Mard,Goëlys,Keolis CIF,,route_master,bus,014077703:703,C00247
@@ -1368,7 +1367,7 @@ Line:relation:9899858,30-31,Bus 30-31 : Herblay ou Taverny ↔ Montigny-lès-Cor
 Line:relation:9904977,41B,Bus 41B : La Ferté sous Jouarre ↔ Coulommiers,Pays Fertois,Transdev Darche-Gros,#FF0000,route_master,bus,097097041:41B,C02154
 Line:relation:9905067,32,Bus 32 : Gare de La Ferté sous Jouarre ↔ Gare de Nanteuil - Saâcy,Pays Fertois,Transdev Darche-Gros,#35b660,route_master,bus,067067032:32,C00922
 Line:relation:9905093,33,Bus 33 : Centre (Hondevilliers) ↔ Gare de La Ferté sous Jouarre,Pays Fertois,Transdev Darche-Gros,#bf6cac,route_master,bus,067067033:33,C00923
-Line:relation:9906060,95-48,Bus 95-48 : Bray-et-Lû - Place du 19 mai 1962 ↔ Magny-en-Vexin - Gare Routière ↔ Cergy-Pontoise,25 - Réseau du Vexin,Transdev Vexin,,route_master,bus,251195048:95-48,C02206
+Line:relation:9906060,95-48,Bus 95-48 : Bray-et-Lû - Place du 19 mai 1962 ↔ Magny-en-Vexin - Gare Routière ↔ Cergy-Pontoise,Bus Haut Val d'Oise,Transdev Vexin,,route_master,bus,251195048:95-48,C02206
 Line:relation:9912272,31,Bus 31 : Gare de La Ferté-sous-Jouarre ↔ Gare de La Ferté-sous-Jouarre,Pays Fertois,Transdev Marne et Morin,,route_master,bus,067067031:31,C00920
 Line:relation:9912301,35,Bus 35 : Place Saint-Claude (Pierre-Levée) ↔ Gare de Changis Saint-Jean,Pays Fertois,Transdev Marne et Morin,#f8b63a,route_master,bus,067067035:35,C00926
 Line:relation:9919053,49B,bus 49B : Gare de La Ferté sous Jouarre ↔ Montmirail (La Ferté-sous-Jouarre),Pays Fertois,Marne et Morin,#ff1433,route_master,bus,067067049:49B,
@@ -1440,7 +1439,7 @@ Line:relation:11267377,12,Bus 12 : Quartier du Bois Fleuri (Claye-Souilly) ↔ G
 Line:relation:11281326,50,Bus 50 : Poissy Aval 2 Rive de Seine,Poissy - Les Mureaux,Keolis Seine et Oise Est,,route_master,bus,,C00281
 Line:relation:11696066,Bel Air,Navette Bel-Air,SAVAC,SAVAC,,route_master,bus,039039999:BelAir,
 Line:relation:12039874,95-51,Bus 95-51 : Nucourt - Wenings ↔ Magny-en-Vexin - Gare Routière,25 - Réseau du Vexin,Transdev Vexin,,route_master,bus,251195051:95-51,C02415
-Line:relation:12091593,95-50,Bus 95-50 : Magny-en-Vexin - Gare Routière ↔ Cergy-Pontoise,25 - Réseau du Vexin,Transdev Vexin,,route_master,bus,251195050:95-50,C02413
+Line:relation:12091593,95-50,Bus 95-50 : Magny-en-Vexin - Gare Routière ↔ Cergy-Pontoise,Bus Haut Val d'Oise,Transdev Vexin,,route_master,bus,251195050:95-50,C02413
 Line:relation:12099692,95-49,Bus 95-49 : Bray-et-Lû - Place du 19 Mai 1962 ↔ Magny-en-Vexin - Gare Routière,25 - Réseau du Vexin,Transdev Vexin,,route_master,bus,251195049:95-49,C02414
 Line:relation:12142601,L,Transilien L (Groupe III),Transilien,SNCF,#7577c0,route_master,train,,
 Line:relation:12148257,95-44,Bus 95-44 : Villiers en Arthies - Saint Léger ↔ Magny-en-Vexin - Gare routière,25 - Réseau du Vexin,Transdev Vexin,,route_master,bus,251195044:95-44,C01557

@@ -668,13 +668,13 @@ Route:relation:3924940,Bus 1 : Gare d'Argenteuil → Gare de Sartrouville,1,Gare
 Route:relation:3934297,Bus C : Gare de Melun → Vaux-le-Pénil - Vaux Pleins-Vents,C,Vaux-le-Pénil - Vaux Pleins-Vents,Grand Melun
 Route:relation:3936088,Bus 04 : Poincaré SNCF → Cornilliot SNCF,04,Cornilliot SNCF,Marne-la-Vallée
 Route:relation:3936192,"Bus N : Vaux-le-Pénil, Curie - Foch → Dammarie-lès-Lys, Peguy",N,"Dammarie-lès-Lys, Peguy",Grand Melun
-Route:relation:3936208,Bus 37 : Centre Culturel → Jacquard,37,Jacquard,Marne-la-Vallée
+Route:relation:3936208,Bus 37a : Gare de Lagny Thorigny → Orly Parc → Centre Culturel → Gare de Lagny Thorigny,37,Gare de Lagny Thorigny,Marne-la-Vallée
 Route:relation:3936704,Bus 25 : Gare de Lagny → Torcy RER,25,Torcy RER,Marne-la-Vallée
 Route:relation:3936863,Bus 24 : Île de Loisirs → Gare de Marne la Vallée Chessy,24,Gare de Marne la Vallée Chessy,Marne-la-Vallée
 Route:relation:3937116,Bus 29 : Gare de Lagny → Torcy RER,29,Torcy RER,Marne-la-Vallée
 Route:relation:3937174,Bus 21 : Torcy RER → Gare de Lagny,21,Gare de Lagny,Marne-la-Vallée
 Route:relation:3937529,Bus 26 : Gare de Lagny → Gare de Bussy,26,Gare de Bussy,Marne-la-Vallée
-Route:relation:3940843,Bus 23 : Gare de Lagny → Pouzol → Gare de Marne-la-Vallée Chessy,23,Gare de Marne-la-Vallée Chessy,Marne-la-Vallée
+Route:relation:3940843,Bus 23 : Gare de Lagny → Gare de Marne-la-Vallée Chessy,23,Gare de Marne-la-Vallée Chessy,Marne-la-Vallée
 Route:relation:3941999,Bus 07 : Cornilliot SNCF → Pomponette,07,Pomponette,Marne-la-Vallée
 Route:relation:3948425,Bus 34 : Val d'Europe → Chessy Gares,34,Chessy Gares,Marne-la-Vallée
 Route:relation:3950998,Bus 43 : Val d'Europe → Chessy Gares,43,Chessy Gares,Marne-la-Vallée
@@ -1233,7 +1233,7 @@ Route:relation:7448614,Bus 95-47 : Haute-Isle - Lapin Savant → Bray-et-Lû - C
 Route:relation:7448762,Bus 95-47 : Saint-Cyr-en-Arthies - Place → Bray-et-Lû - Collège,95-47,Bray-et-Lû - Collège,25 - Réseau du Vexin
 Route:relation:7448869,Bus 95-47 : Vienne-en-Arthies - Chaudry → Bray-et-Lû - Collège,95-47,Bray-et-Lû - Collège,25 - Réseau du Vexin
 Route:relation:7449582,"Bus 95-46 : Magny-en-Vexin, Gare Routière → Chars, L.E.P",95-46,"Chars, L.E.P",25 - Réseau du Vexin
-Route:relation:7449900,Bus 23 : Gare de Marne-la-Vallée Chessy → Pouzol → Gare de Lagny,23,Gare de Lagny,Marne-la-Vallée
+Route:relation:7449900,Bus 23 : Gare de Marne-la-Vallée Chessy → Gare de Lagny,23,Gare de Lagny,Marne-la-Vallée
 Route:relation:7451163,Bus 35 : Cergy-le-Haut RER → Jean Jaurès → Pontoise Gare,35,Pontoise Gare,STIVO
 Route:relation:7454133,Bus 35 : Cergy-le-Haut RER → Demi Lieue → Pontoise Gare,35,Pontoise Gare,STIVO
 Route:relation:7454142,Bus 35 : Pontoise Gare → Demi Lieue → Cergy-le-Haut RER,35,Cergy-le-Haut RER,STIVO
@@ -1344,8 +1344,6 @@ Route:relation:7768192,Bus 255 : Garges - Rond Point La Lutèce → Porte de Cli
 Route:relation:7768193,Bus 255 : Porte de Clignancourt → Garges - Rond Point La Lutèce,255,Garges-Rond Point La Lutèce,RATP
 Route:relation:7771786,Bus 249 : Place Valérie André → Porte des Lilas,249,Porte des Lilas,RATP
 Route:relation:7773541,"Bus 13 : Bergeries, St Hubert (Draveil) → Juvisy, Gare Routière Seine",13,"Juvisy, Gare Routière Seine",Seine Sénart Bus
-Route:relation:7774069,Bus 23 : Gare de Lagny → Imprimerie → Gare de Marne-la-Vallée Chessy,23,Gare de Marne-la-Vallée Chessy,Marne-la-Vallée
-Route:relation:7774538,Bus 23 via Imprimerie : Gare de Marne-la-Vallée Chessy → Gare de Lagny,23,Gare de Lagny,Marne-la-Vallée
 Route:relation:7779419,Bus 330 : Raymond Queneau - Anatole France (Bobigny) → Fort d’Aubervilliers,330,Fort d’Aubervilliers,RATP
 Route:relation:7779420,Bus 330 : Fort d’Aubervilliers → Raymond Queneau - Anatole France (Bobigny),330,Raymond Queneau - Anatole France (Bobigny),RATP
 Route:relation:7781894,Bus 512 : Mairie d'Aubervilliers → Front Populaire-Gardinoux,512,,RATP
@@ -2746,7 +2744,7 @@ Route:relation:9700082,Bus 23 : Lycée Van Dongen → Calvaire,23,Calvaire,Marne
 Route:relation:9700083,Bus 23 : Lycée Van Dongen → Bois de Loselet,23,Bois de Loselet,Marne-la-Vallée
 Route:relation:9700151,Bus 42 : Rue du Moulin à Vent → Georges Clemenceau,42,Georges Clemenceau,Marne-la-Vallée
 Route:relation:9700152,Bus 42 : Georges Clemenceau → Rue du Moulin à Vent,42,Rue du Moulin à Vent,Marne-la-Vallée
-Route:relation:9700442,Bus 37 : Jacquard → Centre Culturel,37,Centre Culturel,Marne-la-Vallée
+Route:relation:9700442,Bus 37b : Gare de Lagny Thorigny → Centre Culturel → Orly Parc → Gare de Lagny Thorigny,37,Gare de Lagny Thorigny,Marne-la-Vallée
 Route:relation:9702168,Bus 55 : Massy Gare RER - TGV → Réau - Snecma Montereau,55,Snecma Montereau,Sénart Express
 Route:relation:9702169,Bus 55 : Réau - Snecma Montereau → Massy Gare RER - TGV,55,Massy Gare RER - TGV,Sénart Express
 Route:relation:9702337,Bus 21 : Les Sablons → Lycée Blaise Pascal Parking,21,Lycée Blaise Pascal Parking,Arlequin
@@ -3411,8 +3409,8 @@ Route:relation:10981868,"Flixbus N709: Rouen, Avenue Champlain => Grenoble, Gare
 Route:relation:10981869,"Flixbus N709: Grenoble, Gare routière => Rouen, Avenue Champlain",N709,"Rouen, Avenue Champlain",Flixbus
 Route:relation:10982654,"Flixbus 714: Les Sables d'Olonne, Gare routière => Paris, Bercy Seine",714,"Paris, Bercy Seine",Flixbus
 Route:relation:10982655,"Flixbus 714: Paris, Bercy Seine => Les Sables d'Olonne, Gare routière",714,"Les Sables d'Olonne, Gare routière",Flixbus
-Route:relation:10983560,"Flixbus N1793: Paris, Bercy Seine => Madrid, gare routière sud",N1793,"Madrid, Busbahnhof Süd",Flixbus
-Route:relation:10986199,"Flixbus N1793: Madrid, Busbahnhof Süd => Paris, Bercy Seine",N1793,"Paris, Bercy Seine",Flixbus
+Route:relation:10983560,"Flixbus N1793: Paris, Bercy Seine => Madrid, Estación Sur de Autobuses",N1793,"Madrid, Estación Sur de Autobuses",Flixbus
+Route:relation:10986199,"Flixbus N1793: Madrid, Estación Sur de Autobuses => Paris, Bercy Seine",N1793,"Paris, Bercy Seine",Flixbus
 Route:relation:11022561,Bus B : Gare de Rueil-Malmaison → Le Montoir → Gare de Sartrouville,B,Gare de Sartrouville,Bus en Seine
 Route:relation:11025404,Bus F : Boucle Cimetière → La Tour,F,La Tour,Bus en Seine
 Route:relation:11032849,Bus 21S : Le Pecq - Félix Éboué → Rue de Seine,21S,Le Pecq - Rue de Seine,Entre Seine et Forêt
@@ -3572,3 +3570,4 @@ Route:relation:13252630,Bus 95-07 : Auvers-sur-Oise - Gendarmerie → Cergy Pré
 Route:relation:13252631,Bus 95-07 : Auvers-sur-Oise - Gendarmerie → Parmain - Le Verger,95-07,Parmain - Le Verger,Vexin
 Route:relation:13278014,La Boucle (aller),,,
 Route:relation:13278015,La Boucle (retour),,,
+Route:relation:13455177,Bus 02E : Guérard – Monthérand → Coulommiers – Cité Scolaire,02E,Coulommiers – Cité Scolaire,Tramy

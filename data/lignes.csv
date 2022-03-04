@@ -247,7 +247,7 @@ Line:relation:4030054,39-10,Bus 39-10 : Navette Domaine de Saint-Paul,SAVAC,SAVA
 Line:relation:4099253,11 Gare,Bus 11 Gare : Gare de Saint-Fargeau-Ponthierry (circulaire),Canton de Perthes en Gâtinais,Transdev Île-de-France St-Fargeau-Ponthierry,,route_master,bus,063063011:11GARE,
 Line:relation:4226214,95-41,Bus 95-41 : Magny en Vexin ↔ Pontoise,Bus Haut Val d'Oise,Transdev Vexin,#005568,route_master,bus,251195041:95-41,C01554
 Line:relation:4289192,194,Bus 194 : Porte d'Orléans ↔ Châtenay-Malabry,RATP,RATP,#ff5a00,route_master,bus,100100194:194,
-Line:relation:4610190,103,Bus 103 : École Vétérinaire de Maisons-Alfort ↔ Marché International de Rungis / Georges Halgoult,RATP,RATP,#ff5a00,route_master,bus,100100103:103,
+Line:relation:4610190,103,Bus 103 : École Vétérinaire de Maisons-Alfort ↔ Thiais - Georges Halgoult,RATP,RATP,#ff5a00,route_master,bus,100100103:103,
 Line:relation:4635341,DM12,Bus DM12 : Gare de Massy-Palaiseau ↔ Gare de Gravigny Balizy,Daniel Meyer,Keolis Meyer,#0a4199,route_master,bus,055055012:DM12,C00676
 Line:relation:4772628,133,Bus 133 : Le Bourget RER ↔ Sarcelles – Bois d’Écouen,RATP,RATP,#77C695,route_master,bus,100100133:133,
 Line:relation:4779679,143,Bus 143 : La Courneuve–Aubervilliers RER ↔ Rosny-sous-Bois RER,RATP,RATP,#006EB8,route_master,bus,100100143:143,
@@ -316,7 +316,7 @@ Line:relation:6010903,DM5,Bus DM5 : ZI Croix Blanche ↔ RER Gare Condorcet,Dani
 Line:relation:6010927,169,Bus 169 : Pont de Sèvres ↔ Hôpital Georges Pompidou,RATP,RATP,#82DC73,route_master,bus,100100169:169,
 Line:relation:6010966,167,Bus 167 : Pont de Levallois ↔ Colombes - Piscine–Patinoire,RATP,RATP,#79bb92,route_master,bus,100100167:167,
 Line:relation:6040778,193,Bus 193 : Mairie de l'Haÿ-les-Roses ↔ Arcueil-Lénine,RATP,RATP,#996633,route_master,bus,100100193:193,
-Line:relation:6048347,380,Bus 380 : Arcueil - Vache Noire - Centre Commercial ↔ Villejuif - Louis Aragon,RATP,RATP,,route_master,bus,100100380:380,
+Line:relation:6048347,380,Bus 380 : Arcueil - Vache Noire - Centre Commercial ↔ Villejuif - Louis Aragon,RATP,RATP,#75CE89,route_master,bus,100100380:380,
 Line:relation:6049045,182,Bus 182 : Mairie d'Ivry ↔ Villeneuve–Triage RER,RATP,RATP,#BA4C9B,route_master,bus,100100182:182,
 Line:relation:6099640,211,Bus 211 : Centre Commercial Terre Ciel ↔ Torcy RER,RATP,RATP,#F59FB3,route_master,bus,100100211:211,
 Line:relation:6101989,02,Bus 02 : Lagny ↔ Val d'Europe,Marne-la-Vallée,Transdev Marne-la-Vallée,#6F7C81,route_master,bus,510510002:02,C01879
@@ -403,7 +403,7 @@ Line:relation:6910410,T5,Tramway T5 : Marché de Saint-Denis ↔ Gare de Garges 
 Line:relation:6910437,T6,Tramway T6 : Châtillon–Montrouge ↔ Viroflay Rive Droite,Tramway d'Île de France,RATP,#E85426,route_master,tram,100112016:T6,C01794
 Line:relation:6910465,T7,Tramway T7 : Villejuif-Louis Aragon ↔ (Athis-Mons) Porte de l'Essonne,Tramway d'Île de France,RATP,#B98B59,route_master,tram,100112017:T7,C01774
 Line:relation:6915922,Orlybus,OrlyBus : Paris-Denfert–Rochereau ↔ Aéroport d'Orly 1-2-3,RATP,RATP,#ee1b29,route_master,bus,100100283:ORLYBUS,
-Line:relation:6928902,Orlyval,Orlyval : Antony ↔ Orly 4,Orlyval,RATP,#FFCF00,route_master,subway,100110200:ORLYVAL,C01388
+Line:relation:6928902,Orlyval,Orlyval : Antony ↔ Orly 4,Paris Métro,RATP,#FFCF00,route_master,subway,100110200:ORLYVAL,C01388
 Line:relation:6928933,CDGVAL,CDGVAL : Terminal 1 ↔ Terminal 2 - Gare,CDGVAL,Aéroports de Paris,#142B4A,route_master,subway,043043100:CDGVAL,C00563
 Line:relation:6928970,Funiculaire,Funiculaire de Montmartre : Gare Basse ↔ Gare Haute,RATP,RATP,#622282,route_master,funicular,100110100:FUN,
 Line:relation:6929043,483,Bus 483 : Gare de Choisy-Le-Roi ↔ Gare de Villeneuve-Saint-Georges,Seine Grand Orly,Keolis Ouest Val-de-Marne,#f7941d,route_master,bus,522522483:483,C00004
@@ -598,9 +598,9 @@ Line:relation:7517223,A,Bus A : Gare de Houilles Carrières-sur-Seine ↔ Gare d
 Line:relation:7517252,S6,Bus S6 : Lycée les Pierres Vives ↔ Martyrs (Houilles),Bus en Seine,Île-de-France Mobilités,#bf9d83,route_master,bus,019248026:S6,C01775
 Line:relation:7517253,K,Bus K : Gare de Houilles Carrières-sur-Seine (circulaire),Bus en Seine,Île-de-France Mobilités,#bd816b,route_master,bus,019248010:K,C00334
 Line:relation:7532322,10,Bus 10 : Saint-Quentin-en-Yvelines - Gare P. Delouvrier ↔ Plaisir Grignon Gare,Hourtoule,Cars Hourtoule,,route_master,bus,027027010:10,C00403
-Line:relation:7537818,197,Bus 197 : Porte d'Orléans ↔ Massy–Opéra-Théâtre,RATP,RATP,#ED1B29,route_master,bus,100100197:197,
+Line:relation:7537818,197,Bus 197 : Porte d'Orléans ↔ Massy - Avenue Saint-Marc,RATP,RATP,#ED1B29,route_master,bus,100100197:197,
 Line:relation:7537834,297,Bus 297 : Antony RER ↔ Longjumeau-Place Charles Steber,RATP,RATP,#BB4B9D,route_master,bus,100100297:297,
-Line:relation:7573289,v2,Bus v2 : L'Haÿ-les-Roses-Domaine Chérioux ↔ Fresnes Pasteur,Valouette,RATP,,route_master,bus,100100583:V2,C01361
+Line:relation:7573289,v2,Bus v2 : L'Haÿ-les-Roses-Domaine Chérioux ↔ Fresnes Pasteur,RATP,RATP,,route_master,bus,100100583:V2,C01361
 Line:relation:7592991,Montbus,526 Montbus,Vallée Sud,Autocars Dominique,,route_master,bus,,
 Line:relation:7618243,8,Bus 8 : Gare routière de Fontainebleau Avon ↔ Crevat Jaurès (Fontainebleau),Aérial,Établissement Transdev de Vulaines,blue,route_master,bus,062062067:8,C01947
 Line:relation:7618269,1,Bus 1 : Gare routière de Fontainebleau Avon ↔ Les Lilas (Fontainebleau),Aérial,Transdev Île-de-France Vulaines,#FF0000,route_master,bus,062062061:1,C00793
@@ -972,9 +972,9 @@ Line:relation:8392711,51,Bus 51 : Rue de la Marne ↔ Hôpital,Poissy - Les Mure
 Line:relation:8393002,15,Bus 15 : Petit Parc Bignon ↔ Gare de Saint-Germain en Laye - Rue Thiers,Entre Seine et Forêt,Transdev Île-de-France Montesson Les Rabaux,,route_master,bus,012012015:15,C00150
 Line:relation:8393308,A,Bus A : Pajol ↔ Montereau SNCF,Siyonne,Transdev Interval,,route_master,bus,208208001:A,C01435
 Line:relation:8393431,18,Bus 18 : Champagne - Roussillon ↔ Gare d'Argenteuil,R'bus,Transdev TVO,,route_master,bus,016616018:18,C00303
-Line:relation:8393784,S1,Bus scolaire S1 : Conservatoire (Orsay) ↔ Collège Île de France,Libéo,Transdev,yellow,route_master,bus,006006019:S1,
+Line:relation:8393784,S1,Bus scolaire S1 : Conservatoire (Orsay) ↔ Collège Ile de France,Libéo,Transdev,yellow,route_master,bus,006006019:S1,
 Line:relation:8393785,S2,Bus scolaire S2 : Cimetière (Orsay) ↔ Villebon ↔ Lycée C. Claudel (Palaiseau),Mobicaps,Transdev,#009EE0,route_master,bus,006006019:S2,
-Line:relation:8393786,S3,Bus scolaire S3 : Grand Dôme (Villebon) ↔ Collège Île de France ↔ Collège J. Verne,Libéo,Transdev,#8BC342,route_master,bus,006006019:S3,
+Line:relation:8393786,S3,Bus scolaire S3 : Grand Dôme (Villebon) ↔ Collège Ile de France ↔ Collège J. Verne,Libéo,Transdev,#8BC342,route_master,bus,006006019:S3,
 Line:relation:8393787,S4,Bus scolaire S4 : Millet (Villebon) ↔ Collège J. Verne,Mobicaps,Transdev,#F2A5B7,route_master,bus,006006019:S4,
 Line:relation:8396927,453,Bus 453 : Imprimerie Nationale (Bondoufle) ↔ Les Meillottes (Soisy-sur-Seine),Tice,Tice,#A80983,route_master,bus,400400453:453,C01631
 Line:relation:8397961,7,Bus 7 : Gare des Mureaux ↔ Chopin,Poissy - Les Mureaux,Keolis Seine et Oise Est,,route_master,bus,,C01783
@@ -1020,7 +1020,7 @@ Line:relation:8444974,A,Navette A : Circulaire de Longjumeau,Paris-Saclay Mobili
 Line:relation:8446805,DM09,Bus DM09 : Château d'Eau (Linas) ↔ Gare de St-Michel-sur-Orge,Daniel Meyer,Keolis Meyer,#ad0896,route_master,bus,055055009:DM09,
 Line:relation:8447240,36-15,Bus 36-15 : Les Essarts-le-Roi ↔ Auffargis,Cars Perrier,Cars Perrier,,route_master,bus,036036015:36-15,C00482
 Line:relation:8448000,2,Bus 2 : Gare de Persan - Beaumont ↔ Gare de Montsoult - Maffliers,Bus Haut Val d'Oise,Keolis Val d’Oise,,route_master,bus,046046002:2,C00603
-Line:relation:8448304,F,Navette F : Champlan ↔ C.Cial Massy | C. Cial Villebon 2,Paris-Saclay,,#986647,route_master,bus,,
+Line:relation:8448304,F,Navette F : Champlan ↔ C.Cial Massy | C.Cial Villebon 2,Paris-Saclay,,#986647,route_master,bus,,
 Line:relation:8448533,Baladobus,Bus Baladobus : Gare de Saint-Rémy-Lès-Chevreuse (circulaire),Parc Chevreuse,SAVAC,,route_master,bus,139578038:Baladobus,
 Line:relation:8449068,603,Bus 603 : Cergy - Préfecture RER ↔ Méru - Gare,TRIO 1,Transdev Oise CABARO,#1154a0,route_master,bus,082082003:37E,
 Line:relation:8449168,G,Bus G : Gare de Sartrouville ↔ Gare du Vésinet Le Pecq,Bus en Seine,Île-de-France Mobilités,,route_master,bus,016248022:G,C00337

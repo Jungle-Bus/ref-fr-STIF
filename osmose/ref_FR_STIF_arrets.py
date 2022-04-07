@@ -16,9 +16,16 @@ def generate_osmose_errors_for_stops():
         reader = csv.DictReader(f)
         for row in reader:
             error = {"id" : row['stop_point_id'].split(':')[-1] }
+            if "way" in row['stop_point_id']:
+                continue            
             if not row['osm:ref:FR:STIF']:
                 continue
             osm_ref = row['osm:ref:FR:STIF']
+            if row['stop_point_type']=="StopPosition":
+                error['label'] = "le tag ref:FR:STIF doit être sur un objet public_transport=platform et non public_transport=stop_position"
+                error['lat'], error['lon'] = row['lat'], row['lon']
+                errors.append(error)
+                continue         
             if ';' in osm_ref :
                 has_at_least_one_wrong_ref = False
                 for a_ref in osm_ref.split(';'):
@@ -63,6 +70,8 @@ def generate_osmose_errors_for_routepoints():
         reader = csv.DictReader(f)
         for row in reader:
             osm_id =  row['stop_id'].split(':')[-1]
+            if "way" in row['stop_id']:
+                continue
             if osm_id not in osm_dedup_id_list:
                 osm_dedup_id_list.append(osm_id)
             else:
@@ -84,7 +93,7 @@ def generate_osmose_errors_for_routepoints():
             if osm_line_ref not in all_lines_ref_STIF:
                 continue #already covered by the test on the lines
             if osm_line_ref not in flat_list_lines_ok:
-                label = "Pour cet arrêt de ref:FR:STIF {} l'association avec la ligne {} est à vérifier".format(osm_ref, osm_line_ref)
+                label = "Pour cet arrêt de ref:FR:STIF {} l'association avec la ligne {} ({}) est à vérifier".format(osm_ref, row['code'], osm_line_ref)
                 label += " https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id={}".format(error['id'])
                 error['label'] = label
                 error['ref:FR:STIF'] = osm_ref

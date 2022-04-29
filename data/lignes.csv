@@ -8,7 +8,7 @@ Line:relation:215565,U,Transilien U,Transilien,SNCF,#B90845,route_master,train,,
 Line:relation:225665,170,Bus 170 : Saint-Denis RER ↔ Porte des Lilas,RATP,RATP,#87d3df,route_master,bus,,C01191
 Line:relation:225801,115,Bus 115: Château de Vincennes ↔ Porte des Lilas,RATP,RATP,#008B5A,route_master,bus,,C01144
 Line:relation:226276,96,Bus 96 : Gare Montparnasse ↔ Porte des Lilas-Métro,RATP,RATP,#DFB03A,route_master,bus,,C01127
-Line:relation:253357,K,Transilien Ligne K,Transilien,SNCF,#C7B300,route_master,train,,C01738
+Line:relation:253357,K,Transilien K,Transilien,SNCF,#9F9825,route_master,train,,C01738
 Line:relation:255442,61,Bus 61 : Place d'Italie ↔ Pantin — Église de Pantin,RATP,RATP,#008C5A,route_master,bus,,C01097
 Line:relation:332709,147,Bus 147 : Église de Pantin ↔ Sevran – Avenue Ronsard,RATP,RATP,#F50024,route_master,bus,,C01172
 Line:relation:387064,86,Bus 86 : Champ de Mars ↔ Saint-Mandé — Demi-Lune - Parc Zoologique,RATP,RATP,#ED1B2A,route_master,bus,,C01118
@@ -555,7 +555,7 @@ Line:relation:7420644,8,Métro 8,Métro de Paris,RATP,#C5A3CA,route_master,subwa
 Line:relation:7420645,5,Métro 5,Métro de Paris,RATP,#DE8B53,route_master,subway,,C01375
 Line:relation:7420646,3bis,Métro 3bis,Métro de Paris,RATP,#89C7D6,route_master,subway,,C01386
 Line:relation:7420696,P,Transilien P,Transilien,SNCF,#F28E42,route_master,train,,C01730
-Line:relation:7420697,R,Transilien R,Transilien,SNCF,#E4B4D1,route_master,train,,C01731
+Line:relation:7420697,R,Transilien R,Transilien,SNCF,#F3A4BA,route_master,train,,C01731
 Line:relation:7420698,H,Transilien Ligne H,Transilien,SNCF,#7B4339,route_master,train,,C01737
 Line:relation:7420700,N,Transilien N,Transilien,SNCF,#00A88F,route_master,train,,C01736
 Line:relation:7420701,B,RER B,RER,RATP/SNCF,#5291CE,route_master,train,,C01743
@@ -667,7 +667,7 @@ Line:relation:7797582,65,Bus 65 : Gare de Meaux ↔ Gare de La Ferté-Milon,Pays
 Line:relation:7797759,299,Bus 299 : Porte d'Orléans ↔ Morangis – Place Lucien Boilleau,RATP,RATP,#ff5a00,route_master,bus,,C01271
 Line:relation:7798582,262,Bus 262 : Pont de Bezons ↔ Gare de Maisons-Laffitte RER,RATP,RATP,#a0006e,route_master,bus,,C01250
 Line:relation:7799660,566,Bus 566 : Église de Colombes ↔ Rue de l'Industrie,RATP,RATP,#ff5a00,route_master,bus,,C01351
-Line:relation:7800092,355,Bus 355 : Lycée J.-J. Rousseau Circulaire,RATP,RATP,,route_master,bus,,C01302
+Line:relation:7800092,355,Bus 355 : Circulaire Lycée Jean-Jacques Rousseau,RATP,RATP,,route_master,bus,,C01302
 Line:relation:7800304,366,Bus 366 : Église de Colombes ↔ Asnières - Bords de Seine,RATP,RATP,,route_master,bus,,C01306
 Line:relation:7800445,372,Bus 372 : Maisons-Alfort - Alfortville RER ↔ Louis Fliche,RATP,RATP,#FFCD01,route_master,bus,,C01310
 Line:relation:7800857,395,Bus 395 : Le Plessis-Robinson–Pavé Blanc ↔ Antony RER,RATP,RATP,#006CB8,route_master,bus,,C01320
@@ -1075,8 +1075,8 @@ Line:relation:8557335,L,Transilien L (Groupe II),Transilien,SNCF,#7577C0,route_m
 Line:relation:8588734,15,Bus 15 : Gare d'Epinay-sur-Orge (circulaire via Villemoisson),CEAT Val d'Orge,Transdev CEAT,#5fb670,route_master,bus,010010015:15,C00094
 Line:relation:8702005,39-12,Bus 39-12 : Mérantais (Magny-les-Hameaux) ↔ Gare de Versailles Chantiers,SAVAC,SAVAC,,route_master,bus,039039012:39-12,C00497
 Line:relation:8710156,C,Bus C : Jean-Paul Sartre ↔ Gare de Boussy-Saint-Antoine,VyBus,Transdev STRAV,#95BC1B,route_master,bus,045045012:C,C00582
-Line:relation:8718013,17B,Bus 17B : Conflans Fin d'Oise RER (circulaire extérieur),Conflans Achères,Transdev Île-de-France Conflans,,route_master,bus,212212017:17B,C02197
-Line:relation:8718014,17A,Bus 17A : Conflans Fin d'Oise RER (circulaire intérieur),Conflans Achères,Transdev Île-de-France Conflans,,route_master,bus,212212017:17A,C01480
+Line:relation:8718013,17B,Bus 17B : Conflans Fin d'Oise RER (circulaire extérieur),Conflans Achères,Transdev Île-de-France Conflans,,route_master,bus,,C02197
+Line:relation:8718014,17A,Bus 17A : Conflans Fin d'Oise RER (circulaire intérieur),Conflans Achères,Transdev Île-de-France Conflans,,route_master,bus,,C01480
 Line:relation:8718761,101,Bus 101 : Collège Saint-Exupéry (Marolles-en-Hurepoix) ↔ Mairie de Cheptainville,CEA Transports,Transdev CEAT,,route_master,bus,010010002:101,C00083
 Line:relation:8726061,319,Bus 319 : Gare d'Étampes ↔ Lycée Montmirault,Étampois,Transdev CEAT,,route_master,bus,010010019:319,C00097
 Line:relation:8726223,331,Bus 331 : Gare d'Étampes ↔ Gare de la Ferté Alais,CEA Transports,Transdev CEAT,,route_master,bus,010010020:331,C00098
@@ -1455,3 +1455,4 @@ Line:relation:13593220,382,Bus 382 : Pont de Rungis RER ↔ Les Ardoines RER,RAT
 Line:relation:13669220,T'bus 3,Bus T'bus 3 : Gare du Vert Galant ↔ Gare du Vert Galant,Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,,C02267
 Line:relation:13669221,T'bus 2,Bus T'bus 2 : Gare du Parc des Expositions ↔ Gare du Vert Galant,Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,,C02266
 Line:relation:14009234,11,Bus 11 : Gare de Rambouillet [Prairie] ↔ Ablis - Libération,Réseau Interurbain de Rambouillet,Transdev Île-de-France Rambouillet,,route_master,bus,,C00171
+Line:relation:14084660,B,Bus B : Neauphle-le-Château ↔ Beynes,Hourtoule,Cars Hourtoule,green,route_master,bus,,C00421

@@ -532,7 +532,7 @@ Line:relation:7280948,Citalien,Bus Citalien : Carré Citoyenneté (Lieusaint) �
 Line:relation:7292418,9,Bus 9 : Centre Commercial Ulis 2 ↔ Gare du Guichet ↔ Saclay ↔ Gare de Jouy-en-Josas,Paris-Saclay Mobilités,Les Cars d'Orsay,#DC2185,route_master,bus,269269002:9,C01561
 Line:relation:7301947,35,Bus 35 : Savigny - Nandy Gare RER ↔ Cesson Gare RER,Sénart Bus,Transdev Sénart,,route_master,bus,519519060:35,C00856
 Line:relation:7304704,52,Bus 52 : Gare de Mantes la Jolie ↔ Église (Fontenay Saint-Père),Com'Bus,CTVMI,#3D90C6,route_master,bus,057057052:52,C00744
-Line:relation:7318440,2,Bus 2 : Gare de Chelles Gournay ↔ Paul Algis (Chelles),Apolo 7,Transdev STBC,#0065AE,route_master,bus,101261026:2,C01426
+Line:relation:7318440,2,Bus 2 : Gare de Chelles Gournay ↔ Paul Algis (Chelles),Apolo 7,Société des Transports du Bassin Chellois (STBC) - Transdev,#0033cc,route_master,bus,101261026:2,C01426
 Line:relation:7323910,42,Bus 42 : Cesson Gare RER ↔ Hautes Billes (Vert-Saint-Denis),Sénart Bus,Transdev Sénart,,route_master,bus,519519042:42,C00854
 Line:relation:7323911,43,Bus 43 : Cesson Gare RER ↔ Hautes Billes (Vert-Saint-Denis),Sénart Bus,Transdev Sénart,,route_master,bus,519519043:43,C00855
 Line:relation:7331862,5,Bus 5 : Rond-Point des Sciences (Chelles) ↔ Gare de Lagny Thorigny,Apolo 7,Transdev STBC,#34B4E4,route_master,bus,101261027:5,C01427
@@ -792,7 +792,7 @@ Line:relation:7921035,565,Bus 565 : Église de Buzenval ↔ Mairie de Rueil,RATP
 Line:relation:7921036,D,Bus D : Gare de Chatou-Croissy ↔ Gare de La-Celle-Saint-Cloud,Bus en Seine,Transdev Île-de-France Montesson La Boucle,,route_master,bus,019248017:D,C01755
 Line:relation:7921038,291,Bus 291 : Pont de Sèvres ↔ Vélizy - La Cheminée,RATP,RATP,#6E6E00,route_master,bus,,C01266
 Line:relation:7921039,12,Bus 12 : Saint-Germain-de-la-Grange - Beynes - Plaisir-Grignon - Grand Plaisir,Plaine de Versailles,Hourtoule,,route_master,bus,027027012:12,C00409
-Line:relation:7921040,TIM,Bus TIM Bellevue Circulaire,Grand Paris Seine Ouest,RATP,,route_master,bus,100100569:TIM,C01352
+Line:relation:7921040,TIM,Bus TIM Bellevue Circulaire,RATP,RATP,,route_master,bus,100100569:TIM,C01352
 Line:relation:7921041,85-01,Bus 85-01 : Dourdan intra-muros (circulaire),Cars Perron,Cars Perron,,route_master,bus,010010085:85-01,
 Line:relation:7921042,306-04,Bus 306-04 : Dourdan ↔ Mérobert,Ormont Transport,Ormont Transport,,route_master,bus,068306004:30604,
 Line:relation:7921044,227-02A,Bus 227-02A : Brétigny-sur-Orge Gare Place (circulaire),Orgebus,Transdev Île-de-France Brétigny,#007ec6,route_master,bus,227227002:227-02A,
@@ -1046,7 +1046,7 @@ Line:relation:8455292,34B,Bus 34B : Les Étards ↔ Collège Les Remparts,Yerres
 Line:relation:8455382,35C,Bus 35C : Mormant - Collège Nicolas Fouquet ↔ La Chapelle-Gauthier,Yerres,Transdev Darche Gros,,route_master,bus,097097035:35C,C02127
 Line:relation:8455445,37A,Bus 37A : Gare de Melun ↔ Les Étards,Yerres,Transdev Darche Gros,,route_master,bus,097097037:37A,C02107
 Line:relation:8455504,32,Bus 32 : Nangis - Collège Barthélémy ↔ Guignes - Église,Yerres,Transdev Darche Gros,,route_master,bus,097097032:32,C01052
-Line:relation:8456080,45,Bus 45 : La Défense Terminal Jules Verne (circulaire via Colombia),R'bus,Transdev Île-de-France Montesson La Boucle,,route_master,bus,019019045:45,C00326
+Line:relation:8456080,45,Bus 45 : La Défense Terminal Jules Verne (circulaire via Colombia),R'bus,Transdev Rochefort Océan,,route_master,bus,019019045:45,C00326
 Line:relation:8456090,5,Bus 5 : Trembleaux ↔ Gare de Sartrouville,R'bus,Transdev Rochefort Océan,,route_master,bus,016616005:5,C00296
 Line:relation:8456130,17,Bus 17 : Gare du Val d'Argenteuil (circulaire),R'bus,Transdev Rochefort Océan,,route_master,bus,016616017:17,C01822
 Line:relation:8464879,03,Bus 03 : Le Fresne (circulaire),Sénartbus Essonne,Transdev Sénart,,route_master,bus,519519003:03,C00843
@@ -1360,7 +1360,7 @@ Line:relation:9857233,103,Bus 103 : Navettes Marché de Sucy-en-Brie - Moutier M
 Line:relation:9866393,223,Bus 223 : La Montagne ↔ Le Domaine,Val d'Essonne,Transdev CEAT,,route_master,bus,010010022:223,C00100
 Line:relation:9871081,C,Bus C : La Défense ↔ Chambourcy - Renaissance,Express A14,CTCOP,,route_master,bus,244244001:EXPA14C,
 Line:relation:9873145,B,Bus B : La Défense ↔ Bonnières - La Vallée Française,Express A14,CTCOP,,route_master,bus,244244001:EXPA14B,
-Line:relation:9885338,59E,Bus 59E : Gare de Marne-la-Vallée - Chessy ↔ Gare Routière de Crécy la Chapelle,Grand Morin,Transdev Marne et Morin,,route_master,bus,067067059:59,C00944
+Line:relation:9885338,59E,Bus 59E : Gare de Marne-la-Vallée - Chessy ↔ Gare Routière de Crécy la Chapelle,Grand Morin,Transdev Marne et Morin,,route_master,bus,,C02320
 Line:relation:9899857,30-33,Bus 30-33 : Gare de Montigny - Beauchamp ↔ Collège Camille Claudel,Parisis,Cars Lacroix,,route_master,bus,030030033:30-33,C00460
 Line:relation:9899858,30-31,Bus 30-31 : Herblay ou Taverny ↔ Montigny-lès-Cormeilles,Parisis,Cars Lacroix,#ca2c86,route_master,bus,030030031:30-31,C00458
 Line:relation:9904977,41B,Bus 41B : La Ferté sous Jouarre ↔ Coulommiers,Pays Fertois,Transdev Darche-Gros,#FF0000,route_master,bus,097097041:41B,C02154

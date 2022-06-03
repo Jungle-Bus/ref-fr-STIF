@@ -26,7 +26,7 @@ C00317,000533025:H,H,H,bus,regionalBus,,1012,Keolis Argenteuil Boucles de Seine,
 C01775,000533025:S6,S6,S6,bus,localBus,,1012,Keolis Argenteuil Boucles de Seine,,Argenteuil - Boucles de Seine,a38c57,ffffff,36 45 66 0,ffffff,false,unknown,unknown,A00285,BEZONS (Plateau) - HOUILLES (Gare),,,,active
 C00306,000533034:34,34,34,bus,regionalBus,,1012,Keolis Argenteuil Boucles de Seine,,Argenteuil - Boucles de Seine,a0006e,ffffff,26 85 0 0,ffffff,false,unknown,unknown,A00294,ARGENTEUIL (Marché des Côteaux) - HOUILLES (Gare),,,,active
 C01491,000533037:37,37,37,bus,localBus,,1012,Keolis Argenteuil Boucles de Seine,,Argenteuil - Boucles de Seine,ff8c57,000000,0 45 66 0,000000,false,unknown,unknown,A01331,VILLE-D'AVRAY - RUEIL-MALMAISON,,,,active
-C01492,000533040:40,40,40,bus,localBus,,1012,Keolis Argenteuil Boucles de Seine,,Argenteuil - Boucles de Seine,ffbe00,000000,0 19 100 0,000000,false,unknown,unknown,A01332,SURESNES (POMPIDOU) - RUEIL-MALMAISON (DANIELOU),,,,active
+C01492,000533040:40,40,40,bus,localBus,,1012,Keolis Argenteuil Boucles de Seine,,Argenteuil - Boucles de Seine,ffbe00,000000,0 19 100 0,000000,false,unknown,unknown,A01332,,,,,active
 C02360,000533056:56,56,56,bus,localBus,,1012,Keolis Argenteuil Boucles de Seine,,Argenteuil - Boucles de Seine,82c8e6,000000,44 0 12 0,000000,false,unknown,unknown,A02341,SAINT GERMAIN EN LAYE - CROISSY-SUR-SEINE,,,,active
 C02361,000533057:57,57,57,bus,localBus,,1012,Keolis Argenteuil Boucles de Seine,,Argenteuil - Boucles de Seine,fa8cc7,ffffff,2 45 22 10,ffffff,false,unknown,unknown,A02342,LE PORT-MARLY - LE CHESNAY,,,,active
 C00324,000533101:1,1,1,bus,localBus,,1012,Keolis Argenteuil Boucles de Seine,,Argenteuil - Boucles de Seine,8ce39c,ffffff,45 11 39 0,ffffff,false,unknown,unknown,A00301,ST-GERMAIN-EN-LAYE - RUEIL-MALMAISON,,,,active
@@ -63,7 +63,7 @@ C00133,000534322:3,3,3,bus,,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux
 C00134,000534323:4,4,4,bus,,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,f3bd04,000000,5 27 95 0,000000,false,unknown,unknown,A00126,LES MUREAUX (Gare SNCF) - LES MUREAUX (Gare SNCF),,,,active
 C00135,000534324:6,6,6,bus,,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,f4991a,000000,0 47 93 0,000000,false,unknown,unknown,A00127,LES MUREAUX (Gare SNCF) - LES MUREAUX (Descartes),,,,active
 C00136,000534325:5,5,5,bus,,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,b5539a,ffffff,33 78 0 0,ffffff,false,unknown,unknown,A00128,LES MUREAUX (Descartes) - LES MUREAUX (Gare SNCF),,,,active
-C00281,000534503:50,50,50,bus,regionalBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,005d89,ffffff,100 32 1 46,ffffff,false,unknown,unknown,A00264,,,,,active
+C00281,000534503:50,50,50,bus,regionalBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,005d89,ffffff,100 32 1 46,ffffff,false,unknown,unknown,A00264,Poissy (Saint-Exupéry) - Poissy (La Coudraie) ou Orgeval (Quarante Sous),,,,active
 C00270,000534521:11,11,11,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,d7ecf5,000000,12 4 0 4,000000,false,unknown,unknown,A00252,Poissy (Gare Nord) - Conflans-Ste-Honorine (Fin d'Oise),,,,active
 C00654,000534522:12,12,12,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,f6a000,000000,0 35 100 4,000000,false,unknown,unknown,A00563,Vernouillet-Verneuil (Gare) - Cergy (Gare de Cergy Préfecture),,,,active
 C01936,000534522:13,13,13,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,12936d,ffffff,88 1 26 42,ffffff,false,unknown,unknown,A00563,Vernouillet-Verneuil (Gare) - Cergy (Gare de Cergy Préfecture),,,,active
@@ -413,7 +413,7 @@ C02265,014014091:T'bus 1,T'bus 1,T'bus 1,bus,,,014,CIF,,,e3051b,ffffff,0 98 88 1
 C02266,014014092:T'bus 2,T'bus 2,T'bus 2,bus,,,014,CIF,,,fece00,000000,0 19 100 0,000000,false,true,true,A02464,VERT GALANT - PARC DES EXPOSITIONS,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
 C00223,014014093:EX 93,Express 93,EX 93,bus,expressBus,,014,CIF,,,5191cd,ffffff,60 29 0 20,ffffff,false,true,true,A00200,BOBIGNY (pablo picasso) - TREMBLAY-EN-FRANCE (Roissypôle RER),,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
 C00224,014014099:Gbus,Gbus,Gbus,bus,,,014,CIF,,,f4a8bc,000000,0 31 23 4,000000,false,true,true,A00201,GOUSSAINVILLE (RER) - GOUSSAINVILLE (RER),,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
-C00239,014014104:R104,R104,R104,bus,,,014,CIF,,,97b6e0,ffffff,33 19 0 12,ffffff,false,partial,partial,A02491,Sécurité Sociale-GOUSSAINVILLE - Institut Saint-Dominique-MORTEFONTAINE,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
+C00239,014014104:R104,R104,R104,bus,,,014,CIF,,,97b6e0,ffffff,33 19 0 12,ffffff,false,partial,partial,A02491,,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
 C00240,014014105:R105,R105,R105,bus,,,014,CIF,,,97d4e2,000000,33 6 0 11,000000,false,partial,partial,A02492,Rue Neuve-MAREIL-EN-FRANCE - Institut Saint-Dominique-MORTEFONTAINE,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
 C00241,014014106:R106,R106,R106,bus,,,014,CIF,,,b397c7,ffffff,10 24 0 22,ffffff,false,partial,partial,A02493,Calvaire-GOUSSAINVILLE - Institut Saint-Dominique-MORTEFONTAINE,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
 C00242,014014107:R107,R107,R107,bus,,,014,CIF,,,dba2ca,ffffff,0 26 8 14,ffffff,false,partial,partial,A02494,Gymnase-PUISEUX-EN-FRANCE - Institut Saint-Dominique-MORTEFONTAINE,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
@@ -1011,7 +1011,7 @@ C00990,070070006:7006,7006 scolaire,7006,bus,regionalBus,,070,Cars Soeur,,,2680f
 C00986,070070011:7001 SCO,7001 Scolaire,7001 SCO,bus,regionalBus,,070,Cars Soeur,,,73ff00,000000,55 0 100 0,000000,false,unknown,unknown,A00850,EVRY - ST-GERMAIN-LES-CORBEIL,,,,active
 C02390,070070012:7002 SCO,7002 Scolaire et Gare d'Evry Val de Seine,7002 SCO,bus,,,070,Cars Soeur,,,fcb818,ffffff,0 27 90 1,ffffff,false,unknown,unknown,A00851,COURCOURONNES - ETIOLLES - EVRY,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
 C02431,073073002:332,332,332,bus,,,073,Cars Dunois,,,ad111c,ffffff,0 90 84 32,ffffff,false,true,true,A00855,ETAMPES (GARE SNCF) - SERMAISE,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
-C02219,078078052:52,52,52,bus,localBus,,078,Keolis Yvelines,,Phébus,8cff8c,000000,45 0 45 0,000000,false,true,true,A00859,ST-CYR-L'ECOLE (Gare SNCF) - ST-CYR-L'ECOLE (Gare SNCF),,,,active
+C02219,078078052:52,52,52,bus,localBus,,078,Keolis Yvelines,,Phébus,8cff8c,000000,45 0 45 0,000000,false,true,true,A00859,,,,,active
 C02183,078078053:53,53,53,bus,localBus,SEASONAL_LINE_TYPE,078,Keolis Yvelines,,Phébus,a88cff,000000,34 45 0 0,000000,false,true,true,A00860,ST-CYR-L'ECOLE (Service Urbain),,,,active
 C02184,078078054:54,54,54,bus,localBus,,078,Keolis Yvelines,,Phébus,ff8ce3,000000,0 45 11 0,000000,false,true,true,A00862,ST-CYR-L'ECOLE (Rû de Gallu) - GUYANCOURT (Droits de l'Homme),,,,active
 C01002,084184001:184-001,184-001,184-001,bus,,,084,Les Cars Bleus,,,89c379,ffffff,29 0 38 24,ffffff,false,unknown,unknown,A00866,LA CHAPELLE-LA-REINE (GARE ROUTIERE) - AVON (LYCEE URUGUAY),,,,active
@@ -1355,7 +1355,6 @@ C01710,100100487:487,487,487,bus,,,100,RATP,,,ffbe00,000000,0 25 100 0,000000,tr
 C01327,100100488:488,488,488,bus,,,100,RATP,,,0055c8,ffffff,100 57 0 22,ffffff,true,unknown,unknown,A01774,488,,,,active
 C01328,100100492:492,492,492,bus,,,100,RATP,,,ffbe00,000000,0 25 100 0,000000,false,unknown,unknown,A01189,492,,,,active
 C01329,100100501:CHARONN,LA TRAVERSE DE CHARONNE,CHARONN,bus,,,100,RATP,,,216eb4,ffffff,82 39 1 29,ffffff,true,unknown,unknown,A01200,501 (Traverse de Charonne),,,,active
-C01649,100100512:512,512,512,bus,,,100,RATP,,,ffbe00,000000,0 25 100 0,000000,true,unknown,unknown,A01722,512 (Navette Aubervilliers-Mairie et Front Populaire),,,,active
 C01330,100100513:BIEVRES,LA TRAVERSE BIEVRE MONTSOURIS,BIEVRES,bus,,,100,RATP,,,bb4d98,ffffff,0 59 18 27,ffffff,true,unknown,unknown,A01201,513 (Traverse Bièvre - Montsouris),,,,active
 C01331,100100515:TILLBUS,TILLBUS,TILLBUS,bus,,,100,RATP,,,c5a3ca,000000,2 19 0 21,000000,false,unknown,unknown,A01210,515 (TILLBUS),,,,active
 C01332,100100518:BATIGNO,LA TRAVERSE BATIGNOLLES BICHAT,BATIGNO,bus,,,100,RATP,,,67328e,ffffff,28 65 1 44,ffffff,true,unknown,unknown,A01718,518 (Traverse Batignolles-Bichat),,,,active
@@ -1365,7 +1364,7 @@ C01335,100100524:NAVETTE,LA NAVETTE,NAVETTE,bus,,,100,RATP,,,67328e,ffffff,28 65
 C01337,100100537:AUDONIE,L'AUDONIENNE,AUDONIE,bus,,,100,RATP,,,df9ab1,000000,0 31 20 13,000000,false,unknown,unknown,A01203,537 (l'Audonienne),,,,active
 C01839,100100538:PORT,LE BUS DU PORT,PORT,bus,,,100,RATP,,,9a9940,000000,0 0 58 40,000000,false,unknown,unknown,A01207,Port de Gennevilliers,,,,active
 C01338,100100541:EOLIEN,EOLIEN,EOLIEN,bus,,,100,RATP,,,82dc73,000000,41 0 48 14,000000,true,unknown,unknown,A01205,541 (EOLIEN),,,,active
-C01340,100100544:AS-SURE,AS AUTOBUS SURESNOIS,AS-SURE,bus,,,100,RATP,,,216eb4,ffffff,82 39 1 29,ffffff,true,unknown,unknown,A01204,544 (AS),,,,active
+C01340,100100544:AS,AS AUTOBUS SURESNOIS,AS,bus,,,100,RATP,,,216eb4,ffffff,82 39 1 29,ffffff,true,unknown,unknown,A01204,544 (AS),,,,active
 C01341,100100545:545,545,545,bus,,,100,RATP,,,ffbe00,000000,0 25 100 0,000000,true,unknown,unknown,A01185,545 (SU Noisy le Sec),,,,active
 C01342,100100546:TUB,TUB (TRANSPORT URBAIN BONDYNOIS),TUB,bus,,,100,RATP,,,8e6538,ffffff,1 29 61 44,ffffff,false,unknown,unknown,A01217,546 (TUB),,,,active
 C01345,100100559:559A,559A,559A,bus,,,100,RATP,,,ffbe00,000000,0 25 100 0,000000,true,unknown,unknown,A01229,559 - Ligne bleue,,,,active
@@ -1394,7 +1393,6 @@ C01367,100100593:V6,V6,V6,bus,,,100,RATP,,,79bb92,000000,35 0 22 27,000000,true,
 C01368,100100594:PETIT-F,LE PETIT FONTENAISIEN,PETIT-F,bus,,,100,RATP,,,216eb4,ffffff,82 39 1 29,ffffff,true,unknown,unknown,A01235,594 (Le Petit Fontenaisien),,,,active
 C01369,100100595:595,595,595,bus,,,100,RATP,,,0055c8,ffffff,100 57 0 22,ffffff,true,unknown,unknown,A01241,595 (Desserte de la Boursidière),,,,active
 C01370,100100597:HIRONDE,L HIRONDELLE,HIRONDE,bus,,,100,RATP,,,79bb92,000000,35 0 22 27,000000,true,unknown,unknown,A01242,597 (L'hirondelle),,,,active
-C02475,100100707:BUS M7,707,BUS M7,bus,,REPLACEMENT_LINE_TYPE,100,RATP,,,fa9aba,000000,0 38 26 2,000000,false,unknown,unknown,A01540,7,,,,active
 C02404,100100731:CAMT1,Caméléon T1,CAMT1,bus,,REPLACEMENT_LINE_TYPE,100,RATP,,,003ca6,ffffff,100 64 0 35,ffffff,false,unknown,unknown,A01191,T1,,,,active
 C02405,100100732:CAMT2,Caméléon T2,CAMT2,bus,,REPLACEMENT_LINE_TYPE,100,RATP,,,cf009e,ffffff,0 100 24 19,ffffff,false,unknown,unknown,A01192,T2,,,,active
 C02406,100100733:Caméléon,Caméléon T3a,Caméléon,bus,,REPLACEMENT_LINE_TYPE,100,RATP,,,f58f53,000000,0 53 78 0,000000,false,unknown,unknown,A01193,T3a,,,,active
@@ -1562,7 +1560,7 @@ C01484,213213027:29,29,29,bus,,,213,Transdev Ile-de-France Nanterre,,Traverciel,
 C01772,213213027:30,30,30,bus,,,213,Transdev Ile-de-France Nanterre,,Traverciel,339966,ffffff,67 0 33 40,ffffff,false,unknown,unknown,A01324,Celle St Cloud (Gare) - Rueil Malmaison (Gare),,,,active
 C01490,213213036:503,503,503,bus,localBus,,213,Transdev Ile-de-France Nanterre,,Scolaire Est Yvelines,33bdd9,000000,76 13 0 15,000000,false,unknown,unknown,A01330,NANTERRE (Plainchamp) - MONTIGNY-LE-BRETONNEUX (St Quentin SNCF),,,,active
 C02239,213213460:460,460,460,bus,,,213,Transdev Ile-de-France Nanterre,,Traverciel,ff00ff,ffffff,0 100 0 0,ffffff,false,unknown,unknown,A01326,460,,,,active
-C01493,213327038:38,38,38,bus,localBus,,213,Transdev Ile-de-France Nanterre,,Scolaire Est Yvelines,45ffc7,000000,73 0 22 0,000000,false,unknown,unknown,A01333,LOUVECIENNES (GARE SNCF) - RUEIL-MALMAISON (DANIELOU),,,,active
+C01493,213327038:38,38,38,bus,localBus,,213,Transdev Ile-de-France Nanterre,,Scolaire Est Yvelines,45ffc7,000000,73 0 22 0,000000,false,unknown,unknown,A01333,,,,,active
 C01494,214214001:SAMOIS,SAMOIS,SAMOIS,bus,,,214,Cars Losay,,,010101,ffffff,0 0 0 100,ffffff,false,unknown,unknown,A01334,SAMOIS-SUR-SEINE,,,,active
 C01495,227227001:2271,2271,2271,bus,regionalBus,,227,Orgebus,,Orgebus,ff0000,ffffff,0 100 100 0,ffffff,true,unknown,unknown,A01337,BRETIGNY-SUR-ORGE (Maison neuve CC) - ST-MICHEL-SUR-ORGE (Chemin de Brétigny),,,,active
 C01496,227227001:2276,2276,2276,bus,localBus,,227,Orgebus,,Orgebus,bf19ff,ffffff,25 90 0 0,ffffff,true,unknown,unknown,A01337,BRETIGNY-SUR-ORGE (Maison neuve CC) - ST-MICHEL-SUR-ORGE (Chemin de Brétigny),,,,active
@@ -1631,7 +1629,7 @@ C00543,230410456:456,456,456,bus,localBus,,230,SQYBUS,,,6f3265,ffffff,1 55 10 56
 C01668,230410457:457,457,457,bus,localBus,,230,SQYBUS,,,0a4a33,ffffff,86 0 31 71,ffffff,false,unknown,unknown,A00458,ST-REMY-LES-CHEVREUSE - MAGNY-LES-HAMEAUX,,,,active
 C01793,230410458:458,458,458,bus,localBus,,230,SQYBUS,,,9ed2e5,000000,31 8 0 10,000000,true,true,true,A01380,MONTIGNY-LE-BRETONNEUX (SAINT QUENTIN GARE) - GUYANCOURT (LYCEE DE VILLAROY),,,,active
 C02218,230410459:459,459,459,bus,localBus,,230,SQYBUS,,,b1badb,000000,19 15 0 14,000000,true,true,true,A01365,COIGNIERES (LES ECOLES) - TRAPPES (PISSALOUP),,,,active
-C01534,230410460:460,460,460,bus,localBus,,230,SQYBUS,,,b1badb,000000,19 15 0 14,000000,true,true,true,A01373,MONTIGNY-LE-BRETONNEUX (St Qunentin SNCF) - GUYANCOURT - MAGNY-LES-HAMEAUX (ZA Bois des Roches),,,,active
+C01534,230410460:460,460,460,bus,localBus,,230,SQYBUS,,,b1badb,000000,19 15 0 14,000000,true,true,true,A01373,,,,,active
 C01535,230410461:461,461,461,bus,regionalBus,,230,SQYBUS,,,7baa20,ffffff,28 0 81 33,ffffff,true,unknown,unknown,A01374,MONTIGNY-LE-BRETONNEUX (SAINT QUENTIN GARE) - MAGNY-LES-HAMEAUX (MERANTAIS),,,,active
 C01537,230410463:463,463,463,bus,regionalBus,,230,SQYBUS,,,7baa20,ffffff,28 0 81 33,ffffff,true,unknown,unknown,A01375,MONTIGNY-LE-BRETONNEUX (ST-QUENT SNCF) - ELANCOURT (DE LATTRE DE TASSIGNY),,,,active
 C01538,230410464:464,464,464,bus,regionalBus,,230,SQYBUS,,,7baa20,ffffff,28 0 81 33,ffffff,true,unknown,unknown,A01376,MONTIGNY-LE-BRETONNEUX (SAINT QUENTIN GARE) - ST-REMY-LES-CHEVREUSE (SAINT REMI LES CHEVREUSE GARE),,,,active
@@ -1657,7 +1655,7 @@ C01563,291191002:91-02,EXPRESS 91-02,91-02,bus,expressBus,,291,Albatrans,,,1ac7f
 C01564,291191003:91-03,EXPRESS 91-03,91-03,bus,expressBus,,291,Albatrans,,,1ac7ff,000000,90 22 0 0,000000,false,unknown,true,A01410,DOURDAN (GARE RER) - MASSY (GARE),,,,active
 C01565,291191004:91-04,EXPRESS 91-04,91-04,bus,expressBus,,291,Albatrans,,,1ac7ff,000000,90 22 0 0,000000,true,unknown,true,A01411,ARPAJON - BRETIGNY-SUR-ORGE - EVRY,,,,active
 C01566,291191005:91-05,EXPRESS 91-05,91-05,bus,expressBus,,291,Albatrans,,,1ac7ff,000000,90 22 0 0,000000,false,unknown,true,A01412,EVRY - PALAISEAU (GARE MASSY-PALAISEAU),,,,active
-C01567,291191006:91-06,EXPRESS 91-06,91-06,bus,expressBus,,291,Albatrans,,,1ac7ff,ffffff,90 22 0 0,ffffff,true,true,true,A01413,Massy (Massy Palaiseau Gare RER B) - Saclay (Christ de Saclay),,,,active
+C01567,291191006:91-06,EXPRESS 91-06,91-06,bus,expressBus,,291,Albatrans,,,1ac7ff,000000,90 22 0 0,000000,true,true,true,A01413,Massy (Massy Palaiseau Gare RER B) - Saclay (Christ de Saclay),,,,active
 C01568,291191007:91-07,91-07,91-07,bus,localBus,,291,Albatrans,,,ed2939,ffffff,0 83 76 7,ffffff,false,unknown,true,A01414,ETAMPES (RER) - LA FORET-LE-ROI - LES GRANGES-LE-ROI - DOURDAN (RER),,,,active
 C01569,291191008:91-08,EXPRESS 91-08,91-08,bus,expressBus,,291,Albatrans,,,1ac7ff,000000,90 22 0 0,000000,false,unknown,true,A01415,LES ULIS - VELIZY-VILLACOUBLAY,,,,active
 C01570,291191009:91-09,EXPRESS 91-09,91-09,bus,expressBus,,291,Albatrans,,,1ac7ff,000000,90 22 0 0,000000,true,unknown,true,A01416,YERRES (gare routère) - EVRY (gare routière),,,,active
@@ -1910,6 +1908,7 @@ C01848,800:R,R Bus,R,bus,,REPLACEMENT_LINE_TYPE,800,SNCF,,Transilien,e59fdb,ffff
 C01999,800:T11,T11 Express,T11,tram,,,800,SNCF,,Transilien,fb4f14,ffffff,0 68 92 2,ffffff,true,unknown,unknown,A02225,T11,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/b8957b0e036e5aa94716ecb7285bea30,active
 C02019,800:T11,T11 Bus,T11,bus,,REPLACEMENT_LINE_TYPE,800,SNCF,,,fb4f14,ffffff,0 68 92 2,ffffff,false,unknown,unknown,A02225,T11,,,,active
 C02344,800:T13,T13,T13,tram,,,800,SNCF,,,966336,000000,0 20 38 41,000000,false,unknown,unknown,A02373,T13,Mise en service prévue juillet 2022,Cette ligne sera mise en service en juillet 2022,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/07d202b2a699910502ae61197977502d,active
+C02469,800:T13 bus,T13 bus,T13 bus,bus,,REPLACEMENT_LINE_TYPE,800,SNCF,,,966336,000000,0 20 38 41,000000,false,unknown,unknown,A02373,T13,Mise en service prévue juillet 2022,Cette ligne sera mise en service en juillet 2022,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/07d202b2a699910502ae61197977502d,active
 C01683,800:T4,T4 Bus,T4,bus,,REPLACEMENT_LINE_TYPE,800,SNCF,,Transilien,fed100,000000,0 18 100 0,000000,false,unknown,unknown,A01761,T4,,,,active
 C01843,800:T4,T4,T4,tram,,,800,SNCF,,Transilien,fed100,ffffff,0 18 100 0,ffffff,true,unknown,unknown,A01761,T4,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/c370af8b5511d975ebb6d62b5dc1b10f,active
 C01744,800:TER,TER Centre - Val de Loire,TER,rail,regionalRail,,800,SNCF,,TER,aaaaaa,000000,0 0 0 33,000000,false,unknown,unknown,A02172,TER Centre - Val de Loire (Ligne N),,,,active

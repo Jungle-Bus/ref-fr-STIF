@@ -1,7 +1,6 @@
 ID_Line,ExternalCode_Line,Name_Line,ShortName_Line,TransportMode,TransportSubmode,Type,OperatorRef,OperatorName,AdditionalOperatorsRef,NetworkName,ColourWeb_hexa,TextColourWeb_hexa,ColourPrint_CMJN,TextColourPrint_hexa,Accessibility,Audiblesigns_Available,Visualsigns_Available,ID_GroupOfLines,ShortName_GroupOfLines,Notice_Title,Notice_Text,Picto,Status
 C02487,000512138:N138,N138,N138,bus,,,1020,Transdev Brie et 2 Morin,,Noctilien,aaaaaa,000000,0 0 0 33,000000,false,unknown,unknown,A02604,Noctilien N138 Paris gare de Lyon Coulommiers,,,,active
 C02476,000514602:TAD divergent - CC Brie Nangissienne,TAD divergent - CC Brie Nangissienne,TAD divergent - CC Brie Nangissienne,bus,,,,,,,aaaaaa,000000,0 0 0 33,000000,false,unknown,unknown,A02603,TAD divergent - CC Brie Nangissienne,,,,active
-C02491,000532100:Soir,Soirée Saint-Germain-en-Laye,Soir,bus,localBus,,1021,Transdev Boucle de Lys,,,652c8f,ffffff,16 39 0 44,ffffff,false,unknown,unknown,A02358,BUS SOIREE SAINT GERMAIN EN LAYE GARE,,,,active
 C00292,000533001:1,1,1,bus,regionalBus,,1012,Keolis Argenteuil Boucles de Seine,,Argenteuil - Boucles de Seine,8cc7ff,ffffff,45 22 0 0,ffffff,false,unknown,unknown,A00286,ARGENTEUIL (GARE D'ARGENTEUIL) - SARTROUVILLE (GARE DE SARTROUVILLE),,,,active
 C00294,000533002:2,2,2,bus,regionalBus,,1012,Keolis Argenteuil Boucles de Seine,,Argenteuil - Boucles de Seine,ff8c57,000000,0 45 66 0,000000,false,unknown,unknown,A00287,ARGENTEUIL - SANNOIS,,,,active
 C01681,000533003:3,3,3,bus,regionalBus,,1012,Keolis Argenteuil Boucles de Seine,,Argenteuil - Boucles de Seine,00643c,ffffff,100 24 87 0,ffffff,true,unknown,unknown,A01754,CORMEILLES (Gare) - BEZONS (Pont de Bezons),,,,active
@@ -96,11 +95,11 @@ C00271,000534572:14,14,14,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - 
 C00115,000534574:21,21,21,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,fdd200,000000,2 17 93 0,000000,false,unknown,unknown,A00107,Aubergenville (Elisabethville) ou Ecquevilly - Poissy (Peugeot),,,,active
 C00128,000534611:311,311,311,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,a8a8a7,ffffff,0 0 0 45,ffffff,false,unknown,unknown,A00120,Les Mureaux (gare) - Meulan (Collège Henri IV),,,,active
 C00129,000534612:312,312,312,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,94d0ed,ffffff,45 3 4 0,ffffff,false,unknown,unknown,A00121,Hardricourt / Vaux-sur-Seine - Les Mureaux (Lycée François Villon),,,,active
-C00130,000534613:313,313,313,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,a2c73b,ffffff,45 0 90 0,ffffff,false,unknown,unknown,A00122,Vaux-sur-Seine / Tessancourt - Les Mureaux (Lycée François Villon),,,,active
-C02222,000534614:29,29,29,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,99ff33,000000,40 0 80 0,000000,false,unknown,unknown,A02308,Verneuil (Les Clairières) - Poissy (Le Corbusier / Notre-Dame),,,,active
+C00130,000534613:313,313,313,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,a2c73b,ffffff,45 0 90 0,ffffff,false,unknown,unknown,A00122,Vaux-sur-Seine / Tessancourt - Les Mureaux (Lycée François Villon),,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
+C02222,000534614:29,29,29,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,99ff33,000000,40 0 80 0,000000,false,unknown,unknown,A02308,Verneuil (Les Clairières) - Poissy (Le Corbusier / Notre-Dame),,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
 C00275,000534621:21,21,21,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,f7a600,000000,0 33 100 3,000000,false,unknown,unknown,A00258,Les Mureaux (Gare) - Chambourcy (collège A. Derain) / St-Germain-en-Laye,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
-C00643,000534622:22,22,22,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,b0bd72,000000,7 0 40 26,000000,false,unknown,unknown,A00552,Ecquevilly (Les Sablons) - Morainvilliers - Orgeval - Poissy (Gare),,,,active
-C00110,000534624:12,12,12,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,f4aacc,ffffff,0 45 0 0,ffffff,false,unknown,unknown,A00102,LES MUREAUX (Gare) - AUBERGENVILLE (Lycée Van Gogh),,,,active
+C00643,000534622:22,22,22,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,b0bd72,000000,7 0 40 26,000000,false,unknown,unknown,A00552,Ecquevilly (Les Sablons) - Morainvilliers - Orgeval - Poissy (Gare),,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
+C00110,000534624:12,12,12,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,f4aacc,ffffff,0 45 0 0,ffffff,false,unknown,unknown,A00102,LES MUREAUX (Gare) - AUBERGENVILLE (Lycée Van Gogh),,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
 C00454,000534627:30-27,30-27,30-27,bus,localBus,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,ef8f9c,ffffff,0 56 23 0,ffffff,false,unknown,unknown,A00396,Menucourt / Jouy-le-Moutier - Verneuil (Notre-Dame),,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/37b0b83646222f1e3a45084a6eb6a7f7,active
 C02161,000535001:71,71,71,bus,,,1011,RD Mantois,,Mantois,82c8e6,000000,43 13 0 10,000000,false,unknown,unknown,A00886,GASNY Salle des fêtes - BONNIERES SUR SEINE SNCF ou BONNIERES SUR SEINE SNCF - VERNON Saint Adjutor,,,,active
 C01033,000535001:75,75,75,bus,,,1011,RD Mantois,,Mantois,82c8e6,000000,43 13 0 10,000000,false,unknown,unknown,A00886,GASNY Salle des fêtes - BONNIERES SUR SEINE SNCF ou BONNIERES SUR SEINE SNCF - VERNON Saint Adjutor,,,,active
@@ -329,7 +328,7 @@ C02443,011011182:38,38,38,bus,,,011,Transdev Ile-de-France Ecquevilly,,Val de Se
 C00137,011011511:511,511,511,bus,localBus,,011,Transdev Ile-de-France Ecquevilly,,Plaine de Versailles,8a8946,ffffff,45 30 79 20,ffffff,false,unknown,unknown,A00129,AUBERGENVILLE (D 113) - ST-GERMAIN-EN-LAYE (Galliéni),,,,active
 C00138,011011512:512,512,512,bus,localBus,,011,Transdev Ile-de-France Ecquevilly,,Plaine de Versailles,8a8946,ffffff,45 30 79 20,ffffff,false,unknown,unknown,A00130,AUBERGENVILLE (D113) - ST-GERMAIN-EN-LAYE (Lycée international),,,,active
 C02076,011011760:76,76,76,bus,,,011,Transdev Ile-de-France Ecquevilly,,Plaine de Versailles,fdc300,ffffff,0 25 100 0,ffffff,false,unknown,unknown,A02283,NOISY-LE-ROI - VAUCRESSON,,,,active
-C00143,012012001:EX01,EX01,EX01,bus,expressBus,,012,Transdev Ile-de-France Montesson Les Rabaux,,,3bb2ff,000000,77 30 0 0,000000,true,true,true,A00135,ST-GERMAIN-EN-LAYE (GARE RER) - VERSAILLES (GARE RIVE GAUCHE),,,,active
+C00143,012012001:EX01,EX01,EX01,bus,expressBus,,012,Transdev Ile-de-France Montesson Les Rabaux,,,3bb2ff,ffffff,77 30 0 0,ffffff,true,true,true,A00135,ST-GERMAIN-EN-LAYE (GARE RER) - VERSAILLES (GARE RIVE GAUCHE),,,,active
 C00144,012012008:08,08,08,bus,localBus,,012,Transdev Ile-de-France Montesson Les Rabaux,,,e5352c,000000,0 77 81 10,000000,false,unknown,unknown,A00136,POISSY (GARE) - POISSY (GARE),,,,active
 C00145,012012009:9A,9A,9A,bus,localBus,,012,Transdev Ile-de-France Montesson Les Rabaux,,Entre Seine et Forêt,b1b7da,000000,18 16 0 15,000000,true,true,true,A00137,MARLY-LE-ROI (GARE SNCF) - MARLY-LE-ROI (GARE SNCF),,,,active
 C00146,012012009:9AB,9AB,9AB,bus,localBus,,012,Transdev Ile-de-France Montesson Les Rabaux,,Entre Seine et Forêt,b0d6ed,000000,26 10 0 7,000000,true,true,true,A00137,MARLY-LE-ROI (GARE SNCF) - MARLY-LE-ROI (GARE SNCF),,,,active
@@ -654,8 +653,8 @@ C00522,039039351:39-35 A,39-35 A Cernay - Choisel - Dampierre - Chevreuse - Coll
 C00523,039039352:39-35 B,39-35 B Gif-sur-Yvette - St-Rémy-lès-Chevreuse - Chevreuse - Collège P. de Coubertin,39-35 B,bus,,,039,SAVAC,,,73a995,000000,32 0 11 34,000000,false,unknown,unknown,A00444,CHEVREUSE (Desserte du collège Pierre de Coubertin) - CHEVREUSE,,,,active
 C00525,039039371:39-37 A,39-37 A Sceaux - Buc (MLK/LFA),39-37 A,bus,,,039,SAVAC,,,623189,ffffff,29 64 1 46,ffffff,false,unknown,unknown,A00446,BUC - CHATENAY-MALABRY,,,,active
 C01688,039039372:39-37 B,39-37 B Châtenay-Malabry - Buc (MLK/LFA),39-37 B,bus,,,039,SAVAC,,,623189,ffffff,29 64 1 46,ffffff,false,unknown,unknown,A00446,BUC - CHATENAY-MALABRY,,,,active
-C00527,039039373:39-39 A,39-39 A Chevreuse - Buc (MLK/LFA),39-39 A,bus,,,039,SAVAC,,,623189,ffffff,29 64 1 46,ffffff,false,unknown,unknown,A02310,,,,,active
-C01689,039039374:39-39 B,39-39 B St-Rémy-lès-Chevreuse - Buc (MLK/LFA),39-39 B,bus,,,039,SAVAC,,,623189,ffffff,29 64 1 46,ffffff,false,unknown,unknown,A02310,,,,,active
+C00527,039039373:39-39 A,39-39 A Chevreuse - Buc (MLK/LFA),39-39 A,bus,,,039,SAVAC,,,623189,ffffff,29 64 1 46,ffffff,false,unknown,unknown,A02310,Saint-Rémy-les-Chevreuse - Magny-les-Hameaux / Buc Etablissement scolaire LFA-MLK,,,,active
+C01689,039039374:39-39 B,39-39 B St-Rémy-lès-Chevreuse - Buc (MLK/LFA),39-39 B,bus,,,039,SAVAC,,,623189,ffffff,29 64 1 46,ffffff,false,unknown,unknown,A02310,Saint-Rémy-les-Chevreuse - Magny-les-Hameaux / Buc Etablissement scolaire LFA-MLK,,,,active
 C01690,039039375:39-40 A,39-40 A Le Chesnay - Buc (MLK/LFA),39-40 A,bus,,,039,SAVAC,,,623189,ffffff,29 64 1 46,ffffff,false,unknown,unknown,A02311,Châteaufort – Versailles / Buc Etablissement scolaire LFA-MLK,,,,active
 C01691,039039376:39-40 B,39-40 B Versailles - Buc (MLK/LFA),39-40 B,bus,,,039,SAVAC,,,623189,ffffff,29 64 1 46,ffffff,false,unknown,unknown,A02311,Châteaufort – Versailles / Buc Etablissement scolaire LFA-MLK,,,,active
 C01692,039039377:39-40 C,39-40 C Châteaufort - Buc (MLK/LFA),39-40 C,bus,,,039,SAVAC,,,623189,ffffff,29 64 1 46,ffffff,false,unknown,unknown,A02311,Châteaufort – Versailles / Buc Etablissement scolaire LFA-MLK,,,,active
@@ -677,7 +676,7 @@ C02124,040040010:10,10,10,bus,localBus,,040,SETRA,,Arlequin,da0c35,ffffff,0 94 7
 C00548,040040012:12,12,12,bus,localBus,,040,SETRA,,Arlequin,5a79b6,000000,50 33 0 29,000000,false,unknown,unknown,A00461,BOISSY-ST-LEGER (R.E.R.) - SANTENY (RN),,,,active
 C00549,040040013:BrieBus,Brie Bus,BrieBus,bus,localBus,,040,SETRA,,,b2ff00,ffffff,30 0 100 0,ffffff,false,unknown,unknown,A00462,BRIE-COMTE-ROBERT (Service Urbain),,,,active
 C00550,040040021:21,21,21,bus,expressBus,,040,SETRA,,Arlequin,3bb2ff,000000,77 30 0 0,000000,false,unknown,unknown,A00463,BOISSY-ST-LEGER (GARE RER) - GUIGNES (LES SABLONS),,,,active
-C00551,040040023:23,23,23,bus,regionalBus,,040,SETRA,,,cb7e0d,ffffff,0 38 94 20,ffffff,false,unknown,unknown,A00464,CRETEIL (préfecture) - BRIE-COMTE-ROBERT (Piscine),,,,active
+C00551,040040023:23,23,23,bus,regionalBus,,040,SETRA,,Mobilien,cb7e0d,ffffff,0 38 94 20,ffffff,false,unknown,unknown,A00464,CRETEIL (préfecture) - BRIE-COMTE-ROBERT (Piscine),,,,active
 C00562,043043001:N1,N1,N1,bus,airportLinkBus,,043,ADP,,,df3a82,ffffff,0 74 41 13,ffffff,false,unknown,unknown,,,,,,active
 C01792,043043002:N2,N2,N2,bus,airportLinkBus,,043,ADP,,,6ca513,ffffff,35 0 89 35,ffffff,false,unknown,unknown,,,,,,active
 C00563,043043100:CDG VAL,CDG VAL,CDG VAL,rail,railShuttle,,043,ADP,,,5cc5ed,ffffff,61 17 0 7,ffffff,true,unknown,unknown,A01516,CDG VAL,,,,active
@@ -933,11 +932,12 @@ C00937,067067052:52,52,52,bus,localBus,,067,Marne et Morin,,Pays de l'Ourcq,2394
 C00938,067067053:53,53,53,bus,localBus,,067,Marne et Morin,,Pays de l'Ourcq,177fc2,ffffff,88 35 0 24,ffffff,false,unknown,unknown,A00803,OCQUERRE - CROUY-SUR-OURCQ (Collège),,,,active
 C00939,067067054:54,54,54,bus,localBus,,067,Marne et Morin,,Pays de l'Ourcq,a5827a,ffffff,0 21 26 35,ffffff,false,unknown,unknown,A00804,LE PLESSIS-PLACY (Centre Bourg) - CROUY-SUR-OURCQ (Collège),,,,active
 C00941,067067056:56,56,56,bus,expressBus,,067,Marne et Morin,,Pays Fertois,3bb2ff,000000,77 30 0 0,000000,false,unknown,unknown,A00805,MEAUX (Gare SNCF) - FERICY (Gare SNCF),,,,active
+C02238,067067058:58,58,58,bus,,,067,Marne et Morin,,Pays Créçois,24636e,ffffff,67 10 0 57,ffffff,false,unknown,unknown,A02307,CRECY LA CHAPELLE - SERRIS VAL D'EUROPE,,,,active
 C00944,067067059:59,59,59,bus,localBus,,067,Marne et Morin,,Pays Créçois,c1d95c,ffffff,11 0 58 15,ffffff,false,unknown,unknown,,,,,,active
 C00946,067067061:61,61,61,bus,localBus,,067,Marne et Morin,,Pays de l'Ourcq,cbdc4f,ffffff,8 0 64 14,ffffff,false,unknown,unknown,A00809,LIZY-SUR-OURCQ - JOUARRE,,,,active
 C00947,067067062:62,62,62,bus,expressBus,,067,Marne et Morin,,,3bb2ff,000000,77 30 0 0,000000,false,unknown,unknown,A00810,LA FERTE-SOUS-JOUARRE (GARE SNCF) - CHESSY (GARE RER),,,,active
 C00948,067067063:63,63,63,bus,regionalBus,,067,Marne et Morin,,Pays de l'Ourcq,269fb2,ffffff,79 11 0 30,ffffff,false,unknown,unknown,A00811,LIZY-SUR-OURCQ - MARY-SUR-MARNE,,,,active
-C00949,067067064:K,K,K,bus,regionalBus,,067,Marne et Morin,,Pays de Meaux,0e77bb,ffffff,93 36 0 27,ffffff,false,unknown,unknown,A00812,MAREUIL-LES-MEAUX (Avenue de la Brie) - MEAUX (Gare routière),,,,active
+C00949,067067064:K,K,K,bus,regionalBus,,067,Marne et Morin,,Pays de Meaux,0e77bb,ffffff,93 36 0 27,ffffff,false,unknown,unknown,A00812,,,,,active
 C00950,067067065:65,65,65,bus,regionalBus,,067,Marne et Morin,,Pays de l'Ourcq,78a6d1,ffffff,43 21 0 18,ffffff,false,unknown,unknown,A00813,MEAUX - MAY-EN-MULTIEN - LA FERTE-MILON,,,,active
 C00951,067067070:70,70,70,bus,localBus,,067,Marne et Morin,,Pays Créçois,69bf80,ffffff,45 0 33 25,ffffff,false,unknown,unknown,A00814,VAUCOURTOIS - SERRIS (RER),,,,active
 C02207,067067071:71,71,71,bus,,,067,Marne et Morin,,Pays Créçois,f04a72,ffffff,0 69 53 6,ffffff,false,unknown,unknown,,,,,,active
@@ -975,7 +975,7 @@ C00959,067167009:I,I,I,bus,localBus,,067,Marne et Morin,,Pays de Meaux,323635,ff
 C02234,067167010:N,N,N,bus,,,067,Marne et Morin,,Pays de Meaux,17a79c,ffffff,86 0 7 35,ffffff,false,unknown,unknown,A02304,Meaux Gare - Meaux Gare par PAPM,,,,active
 C02237,067167103:Es,Es,Es,bus,,,067,Marne et Morin,,Pays de Meaux,cbab64,ffffff,0 16 51 20,ffffff,false,unknown,unknown,A02638,Villenoy - Les Patios Intérieurs <> Meaux - Collège Frot,,,,active
 C02233,067167105:Os,Os,Os,bus,,,067,Marne et Morin,,Pays de Meaux,7ccecf,ffffff,40 0 0 19,ffffff,false,unknown,unknown,A02650,Meaux - Jean Rose <> Poincy - Mairie,,,,active
-C02235,067167110:Ns,Ns,Ns,bus,,,067,Marne et Morin,,Pays de Meaux,26bec6,ffffff,81 4 0 22,ffffff,false,unknown,unknown,A02304,Meaux Gare - Meaux Gare par PAPM,,,,active
+C02235,067167110:Ns,Ns,Ns,bus,,,067,Marne et Morin,,Pays de Meaux,26bec6,ffffff,81 4 0 22,ffffff,false,unknown,unknown,A02651,Meaux - Gare de Meaux (Qaui 1) <> Villenoy - Institut des Métiers,,,,active
 C00960,067177067:67,67,67,bus,expressBus,,067,Marne et Morin,,Pays Fertois,3bb2ff,000000,77 30 0 0,000000,false,unknown,unknown,A00825,LA FERTE-SOUS-JOUARRE (GARE ROUTIERE) - ROISSY-EN-FRANCE (ROISSY POLE RER),,,,active
 C00961,067377069:69,69,69,bus,expressBus,,067,Marne et Morin,,Seine et Marne Express,3bb2ff,000000,77 30 0 0,000000,false,unknown,unknown,A00826,MEAUX (SNCF) - SERRIS (Val d'Europe),,,,active
 C00962,068068001:68.01,68.01,68.01,bus,,,068,Ormont Transport,,,5292c9,ffffff,59 27 0 21,ffffff,false,unknown,unknown,A00827,BREUILLET (Gare de Breuilet) - ARPAJON (Lycée Cassin),,,,active
@@ -1060,7 +1060,7 @@ C02120,097097030:30B,30B,30B,bus,localBus,,097,Darche Gros,,Arlequin,e00023,ffff
 C02122,097097030:30C,30C,30C,bus,localBus,,097,Darche Gros,,Arlequin,e00023,ffffff,0 100 84 12,ffffff,false,false,false,A00903,TOURNAN-EN-BRIE (GARE SNCF) - MELUN (PLACE DE L'ERMITAGE),,,,active
 C02077,097097031:31A,31A,31A,bus,localBus,,097,Darche Gros,,TRAMY,ffcc00,000000,0 20 100 0,000000,false,false,false,A00904,BEAUTHEIL (EGLISE) - FAREMOUTIERS (COLLEGE LOUISE MICHEL),,,,active
 C02078,097097031:31B,31B,31B,bus,localBus,,097,Darche Gros,,TRAMY,ffcc00,000000,0 20 100 0,000000,false,false,false,A02633,BEAUTHEIL (EGLISE) - FAREMOUTIERS (COLLEGE LOUISE MICHEL),,,,active
-C02079,097097031:31C,31C,31C,bus,localBus,,097,Darche Gros,,TRAMY,ffcc00,000000,0 20 100 0,000000,false,false,false,A02634,,,,,active
+C02079,097097031:31C,31C,31C,bus,localBus,,097,Darche Gros,,TRAMY,ffcc00,000000,0 20 100 0,000000,false,false,false,A02634,BEAUTHEIL (EGLISE) - FAREMOUTIERS (COLLEGE LOUISE MICHEL),,,,active
 C01052,097097032:32,32,32,bus,localBus,,097,Darche Gros,,Yerres,00b050,ffffff,100 0 55 31,ffffff,false,false,false,A00905,GUIGNES (EGLISE) - NANGIS (LYCEE HENRI BECQUEREL),,,,active
 C01053,097097033:33,33,33,bus,localBus,,097,Darche Gros,,Sol'R,f09cb7,000000,0 35 24 6,000000,false,false,false,A00906,VAUDOY-EN-BRIE - MARLES-EN-BRIE,,,,active
 C02087,097097034:34A,34A,34A,bus,localBus,,097,Darche Gros,,Yerres,9b9b9b,000000,0 0 0 39,000000,false,false,false,A00907,NANGIS (COLLEGE BARTHELEMY) - ROZAY-EN-BRIE (LYCEE LA TOUR DES DAMES),,,,active
@@ -1393,7 +1393,6 @@ C01367,100100593:V6,V6,V6,bus,,,100,RATP,,,79bb92,000000,35 0 22 27,000000,true,
 C01368,100100594:PETIT-F,LE PETIT FONTENAISIEN,PETIT-F,bus,,,100,RATP,,,216eb4,ffffff,82 39 1 29,ffffff,true,unknown,unknown,A01235,594 (Le Petit Fontenaisien),,,,active
 C01369,100100595:595,595,595,bus,,,100,RATP,,,0055c8,ffffff,100 57 0 22,ffffff,true,unknown,unknown,A01241,595 (Desserte de la Boursidière),,,,active
 C01370,100100597:HIRONDE,L HIRONDELLE,HIRONDE,bus,,,100,RATP,,,79bb92,000000,35 0 22 27,000000,true,unknown,unknown,A01242,597 (L'hirondelle),,,,active
-C02492,100100703:BUS M3,Bus de substitution métro 3,BUS M3,bus,,REPLACEMENT_LINE_TYPE,100,RATP,,,829300,ffffff,0 7 98 49,ffffff,false,unknown,unknown,A01536,3,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/418ea5fcc3bf22ac253c1aafcd531684,active
 C02494,100100714:BUS M14,Bus de substitution du métro 14,BUS M14,bus,,REPLACEMENT_LINE_TYPE,100,RATP,,,674ea7,ffffff,38 53 0 35,ffffff,false,unknown,unknown,A01547,14,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/7b99df056fae694cd8d96c160696d757,active
 C02404,100100731:CAMT1,Caméléon T1,CAMT1,bus,,REPLACEMENT_LINE_TYPE,100,RATP,,,003ca6,ffffff,100 64 0 35,ffffff,false,unknown,unknown,A01191,T1,,,,active
 C02405,100100732:CAMT2,Caméléon T2,CAMT2,bus,,REPLACEMENT_LINE_TYPE,100,RATP,,,cf009e,ffffff,0 100 24 19,ffffff,false,unknown,unknown,A01192,T2,,,,active
@@ -1879,6 +1878,7 @@ C02485,527527037:TàD,TàD,TàD,bus,localBus,,1017,Keolis Vélizy Vallée de la 
 C02496,531531600:TàD,TàD 201/202,TàD,bus,demandAndResponseBus,,1016,Keolis Val d'Essonne Deux Vallées,,,fecb00,000000,0 20 100 0,000000,false,unknown,unknown,A02459,TAD Itteville - Gare de Bretigny,,,,active
 C02495,531531601:TàD,TàD 205,TàD,bus,demandAndResponseBus,,1016,Keolis Val d'Essonne Deux Vallées,,,fecb00,000000,0 20 100 0,000000,false,unknown,unknown,A02460,TAD Guigneville sur Essonne - Gare de Bouray,,,,active
 C02486,531531701:Soir,Soirée Bouray,Soir,bus,localBus,,1016,Keolis Val d'Essonne Deux Vallées,,,652c8f,ffffff,16 39 0 44,ffffff,false,unknown,unknown,A02457,Bus de soiree - Gare de Bouray,,,,active
+C02491,532532100:Soir,Soirée Saint-Germain-en-Laye,Soir,bus,localBus,,1021,Transdev Boucle de Lys,,Saint Germain Boucles de Seine,652c8f,ffffff,16 39 0 44,ffffff,false,unknown,unknown,A02358,BUS SOIREE SAINT GERMAIN EN LAYE GARE,,,,active
 C01635,800987005:N151,N151,N151,bus,nightBus,,1011,RD Mantois,,Noctilien,cec92a,000000,0 3 80 19,000000,true,unknown,unknown,A01484,N151 - NOCTILIEN - Paris Gare St-Lazare - Mantes-la-Jolie,,,,active
 C02363,800:BUS SNCF,Corbeil - La Ferté Alais,BUS SNCF,bus,,,800,SNCF,,Transilien,aaaaaa,000000,0 0 0 33,000000,false,unknown,unknown,A01729,Corbeil - La Ferté Alais,,,,active
 C02364,800:BUS SNCF,Corbeil - Melun,BUS SNCF,bus,,,800,SNCF,,Transilien,aaaaaa,000000,0 0 0 33,000000,false,unknown,unknown,A01734,Corbeil - Melun,,,,active

@@ -456,6 +456,7 @@ Line:relation:6991441,07,Bus 07 : Gare de Lagny Thorigny ↔ Pomponette,Marne-la
 Line:relation:6991442,04,Bus 04 : Poincaré SNCF ↔ Cornilliot SNCF,Marne-la-Vallée,Transdev Marne-la-Vallée,#E7AE12,route_master,bus,510510004:04,C00622
 Line:relation:6993738,95-07,Bus 95-07 : Parmain - Jouy le Comte-Eglise ↔ Cergy Préfecture,Bus Haut Val d'Oise,Transdev Vexin,#00FF00,route_master,bus,025195007:95-07,C00394
 Line:relation:6994039,32,Bus 32 : Gare de Tournan ↔ Gare de Val d'Europe,Marne-la-Vallée,Transdev Marne-la-Vallée,#D0662C,route_master,bus,510510032:32,C00631
+Line:relation:7003010,23,Bus 23 : Gare de Lagny ↔ Gare de Marne-la-Vallée Chessy,Marne-la-Vallée,Transdev Marne-la-Vallée,#C83086,route_master,bus,510510023:23,C00627
 Line:relation:7011211,N02,Noctilien N02 : Circulaire Extérieure,Noctilien,RATP,#ED1C2A,route_master,bus,100987776:N02,C01414
 Line:relation:7011212,N01,Noctilien N01 : Circulaire Intérieure,Noctilien,RATP,#BB4A9B,route_master,bus,100987775:N01,C01413
 Line:relation:7011231,v6,Bus v6 : circulaire Leclerc Thomas,RATP,RATP,#79BB92,route_master,bus,100100593:V6,C01367
@@ -811,7 +812,7 @@ Line:relation:7993122,D,Bus D : Pontault RER ↔ Renardière - Delacroix,Sit'bus
 Line:relation:7993123,E,Bus E : Gare RER de Roissy-en-Brie (circulaire),Sit'bus,Transdev N4 Mobilités,,route_master,bus,003351503:E,C00030
 Line:relation:7993124,A,Bus A : Gare d'Ozoir-la-Ferrière ↔ Pontault-Combault - Centre Commercial,Sit'bus,Transdev N4 Mobilités,,route_master,bus,003351504:A,C00031
 Line:relation:7996352,ClamiBus,Bus ClamiBus : Maison de Quartier André Charré ↔ Gare de Clamart,RATP,RATP,#ffcd01,route_master,bus,100100579:CLAMIBU,
-Line:relation:7998640,73,Bus 73 : Montpichet ↔ École Sainte-Thérèse,Pays Créçois,Transdev Marne et Morin,,route_master,bus,067067073:73,C00952
+Line:relation:7998640,73,Bus 73 : Gare de Villiers - Montbarbin ↔ École Sainte-Thérèse (Couilly-Pont-aux-Dames),Pays Créçois,Transdev Marne et Morin,,route_master,bus,067067073:73,C00952
 Line:relation:7998698,68.13,Bus 68.13 : Dourdan ↔ Sermaise ou Villeconin,Ormont Transport,Keolis Ormont,,route_master,bus,068068013:6813,
 Line:relation:7998730,95-32,Bus 95-32 : Marines - Collège les Hautiers ↔ Bréançon - Eglise ↔ Berville - Lavoir,25 - Réseau du Vexin,Transdev Vexin,#FF3399,route_master,bus,025195032:95-32,C01788
 Line:relation:7999069,R106,Bus R106 : Institut Saint-Dominique ↔ Calvaire,Les Courriers de l'Île-de-France,Keolis CIF,#943281,route_master,bus,014014106:R106,C00241
@@ -1040,6 +1041,7 @@ Line:relation:8456130,17,Bus 17 : Gare du Val d'Argenteuil (circulaire),R'bus,Tr
 Line:relation:8464879,03,Bus 03 : Le Fresne (circulaire),Sénartbus Essonne,Transdev Sénart,,route_master,bus,519519003:03,C00843
 Line:relation:8465242,52,Bus 52 : Gare de Lieusaint-Moissy ↔ Combs-la-Ville - Quincy Gare RER,Sénart Bus,Transdev Sénart,,route_master,bus,519519120:52,C02163
 Line:relation:8465321,51,Bus 51 : Lieusaint Moissy Gare RER ↔ Villaroche Nord,Sénart Bus,Transdev Sénart,,route_master,bus,519519051:51,C00837
+Line:relation:8465461,12,Bus 12 : Gare de Marne-la-Vallée - Chessy ↔ Lycée Pierre de Coubertin (Meaux),Pays Créçois,Transdev Marne et Morin,,route_master,bus,067067012:12,C00910
 Line:relation:8465746,CPSF,Bus CPSF : Centre Pénitentiaire ↔ Savigny Nandy Gare RER,Sénart Bus,Transdev Sénart,,route_master,bus,065487132:CPSF,C00869
 Line:relation:8465769,3A,Bus 3A : Gare de Coulommiers SNCF ↔ Gare Routière de Meaux,Tramy,Transdev Darche Gros,,route_master,bus,097097003:03A,C02069
 Line:relation:8465785,A,Bus A : Hôpital ↔ Vaux Centre Commercial,Tramy,Transdev Darche Gros,,route_master,bus,097097013:A,C02035
@@ -1446,3 +1448,11 @@ Line:relation:14084660,B,Bus B : Neauphle-le-Château ↔ Beynes,Hourtoule,Cars 
 Line:relation:14262487,16,Ligne 16,,,#f59bbb,route_master,subway,,
 Line:relation:14262488,17,Ligne 17,Grand Paris Express,,#b5bd00,route_master,subway,,
 Line:relation:14263358,T13,Tram 13 Express,Transilien,Transkeo,,route_master,tram,,
+Line:relation:14396872,47,Bus 47 : Gare de Marne-la-Vallée Chessy ↔ Villages Nature,Marne-la-Vallée,Transdev Marne-la-Vallée,,route_master,bus,510510047:47,C02016
+Line:relation:14396873,35,Bus 35 : Gare de Marne-La-Vallée Chessy ↔ Gare de Marne-La-Vallée Chessy,Marne-la-Vallée,Transdev Marne-la-Vallée,#BEAFD4,route_master,bus,510510035:35,C02015
+Line:relation:14396874,6,Bus 6 : Chessy Gares ↔ Gare d'Esbly,Marne-la-Vallée,Transdev Marne-la-Vallée,#95C086,route_master,bus,510510006:06,C00903
+Line:relation:14396875,43,Bus 43 : Val d'Europe - Chessy Gares,Marne-la-Vallée,Transdev Marne-la-Vallée,#996E2B,route_master,bus,510510043:43,C00635
+Line:relation:14396876,34,Bus 34 : Val d'Europe - Chessy Gares,Marne-la-Vallée,Transdev Marne-la-Vallée,#68285A,route_master,bus,510510034:34,C00632
+Line:relation:14396877,24,Bus 24 : Île de Loisirs ↔ Gare de Marne la Vallée Chessy,Marne-la-Vallée,Transdev Marne-la-Vallée,#68ADE3,route_master,bus,510510024:24,C00638
+Line:relation:14396878,59E,Bus 59E : Gare de Marne-la-Vallée - Chessy ↔ Gare Routière de Crécy la Chapelle,Grand Morin,Transdev Marne et Morin,,route_master,bus,,C02320
+Line:relation:14396879,59,Bus 59 : Gare de Marne-la-Vallée - Chessy ↔ Camping,Grand Morin,Transdev Marne et Morin,,route_master,bus,067067059:59,C00944

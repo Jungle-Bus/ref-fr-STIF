@@ -171,10 +171,10 @@ Line:relation:2440114,14,Bus 14 : Gare de Massy-Palaiseau RER ↔ Gare de Palais
 Line:relation:2454326,6,Bus 6 : Campus d’Orsay - Jean Monnet ↔ Gare d’Orsay Ville RER,Mobicaps,Les Cars d'Orsay,#986AAD,route_master,bus,006006007:6,C02316
 Line:relation:2531075,93,Bus 93 : Bobigny – Pablo Picasso ↔ Parinor ↔ Aéroport CDG – Roissypole,Les Courriers de l'Île-de-France,Keolis CIF,#a3653d,route_master,bus,014014093:93,C00223
 Line:relation:2531082,23,Bus 23 : Roissypole ↔ Villeparisis - Gymnase Aubertin,Les Courriers de l'Île-de-France,Keolis CIF,#00aeef,route_master,bus,014014223:23,C00204
-Line:relation:2531207,Viliers-le-Bel,Bus Filéo Viliers-le-Bel : Roissypole ↔ Villiers-le-Bel,Filéo,Keolis Mobilité Roissy,,route_master,bus,116295004:FILEOVB,
+Line:relation:2531207,Viliers-le-Bel,Bus Filéo Viliers-le-Bel : Roissypole ↔ Villiers-le-Bel,Filéo,Keolis,,route_master,bus,116295004:FILEOVB,
 Line:relation:2531208,Othis,Bus Filéo Othis : Roissypole ↔ Othis,Filéo,Keolis Mobilité Roissy,,route_master,bus,116277005:FILEOO,
 Line:relation:2531225,Roissy Sud,Bus Filéo Roissy Sud : Roissypole ↔ Tremblay-en-France,Filéo,Keolis Mobilité Roissy,,route_master,bus,116931002:FILEOT,
-Line:relation:2531226,Roissy Sud,Bus Filéo Roissy Sud : Roissypole ↔ Villeparisis,Filéo,Keolis Mobilité Roissy,,route_master,bus,116277010:FILEOV,
+Line:relation:2531226,Roissy Sud,Bus Filéo Roissy Sud : Roissypole ↔ Villeparisis,Filéo,Keolis,,route_master,bus,116277010:FILEOV,
 Line:relation:2532567,190,Bus 190 : Église de Meudon-la-Forêt ↔ Mairie d'Issy-Métro,RATP,RATP,#845B32,route_master,bus,,C01211
 Line:relation:2532600,290,Bus 290 : Le Plessis-Robinson – La Boursidière ↔ Issy - Val de Seine RER,RATP,RATP,#C9A3CD,route_master,bus,,C01265
 Line:relation:2554103,7bis,Métro 7 bis,Métro de Paris,RATP,#71cc98,route_master,subway,,C01387
@@ -618,7 +618,7 @@ Line:relation:7678061,R3,Bus R3 : Gare de Survilliers – Fosses ↔ Central Spa
 Line:relation:7678062,R108,Bus R108 : Mairie Annexe (Fosses) ↔ Institut Saint-Dominique (Mortefontaine),Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,014014108:R108,C00243
 Line:relation:7678074,R117,Bus R117 : Centre-ville (Survilliers) ↔ Collège de Noailles - Lycée de Nerval (Luzarches),Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,014014117:R117,C00226
 Line:relation:7678094,Survilliers,Bus Filéo Survilliers : Roissypole ↔ Survilliers,Filéo,Keolis Mobilité Roissy,,route_master,bus,116295008:FILEOFO,
-Line:relation:7699451,3s,Bus 3s : Cité Scolaire (Chelles) ↔ Gare de Mitry Claye,Apolo 7,Keolis CIF,#680068,route_master,bus,014361113:3s,C02130
+Line:relation:7699451,3s,Bus 3s : Cité Scolaire (Chelles) ↔ Gare de Mitry Claye,Apolo 7,Société des transports du bassin chellois,#680068,route_master,bus,014361113:3s,C02130
 Line:relation:7704305,11,Bus 11 : Gare de Gif-sur-Yvette (circulaire via Chevry),Paris-Saclay Mobilités,SAVAC,#12F55C,route_master,bus,039039008:11,C00495
 Line:relation:7707602,16,Bus 16 : Saclay ↔ Igny,Paris-Saclay Mobilités,Les Cars d'Orsay,#F18E00,route_master,bus,006006016:16,C00078
 Line:relation:7721711,02,Bus 02 : Meaux-Melun direct,Seine-et-Marne Express,ViaMo-Melun,orange,route_master,bus,250177002:002,C01820
@@ -792,6 +792,7 @@ Line:relation:7921041,85-01,Bus 85-01 : Dourdan intra-muros (circulaire),Cars Pe
 Line:relation:7921042,306-04,Bus 306-04 : Dourdan ↔ Mérobert,Ormont Transport,Ormont Transport,,route_master,bus,068306004:30604,
 Line:relation:7921044,227-02A,Bus 227-02A : Brétigny-sur-Orge Gare Place (circulaire),Orgebus,Transdev Île-de-France Brétigny,#007ec6,route_master,bus,227227002:227-02A,
 Line:relation:7921046,8A,Bus 8A : Gare de Crécy-la-Chapelle (circulaire),Pays Créçois,Transdev Marne et Morin,,route_master,bus,067067008:8A,C00905
+Line:relation:7921048,57,Bus 57 : Esbly <-> Marne-la-Vallée,Marne-la-Vallée,Transdev Marne-la-Vallée,#A50034,route_master,bus,,
 Line:relation:7921049,La Traverse,Bus La Traverse de Charonne (501) : Gambetta ↔ Pyrenées - Docteur Netter,RATP,RATP,#006DB8,route_master,bus,,C01329
 Line:relation:7921050,Vanves,La Navette de Vanves,Grand Paris Seine Ouest,SAVAC,#ED145B,route_master,bus,039039001:Vanves,
 Line:relation:7921051,203,Bus 203 : Gare de Ballancourt (circulaire),Val d'Essonne,Transdev CEAT,,route_master,bus,010018012:203,C00322
@@ -953,7 +954,7 @@ Line:relation:8383418,1,Bus 1 : Gare Nord de Poissy ↔ Les Oiseaux - Parc du Pe
 Line:relation:8383446,467,Bus 467 : Villaroy ↔ Saint-Quentin Gare,SQYBus,SQYBus,,route_master,bus,230410467:467,C01541
 Line:relation:8384179,3,Bus 3 : Gare de Sainte-Geneviève des Bois ↔ Petits Champs,Génovébus,Transdev CEAT,,route_master,bus,010010005:3,C00088
 Line:relation:8388057,31,Bus 31 : Parc Commercial Pont de Pierre ↔ Garges/Sarcelles RER D,Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,014014031:31,C00208
-Line:relation:8388058,Roissy Sud,Bus Filéo Roissy Sud : Roissypole ↔ Sevran Livry RER B,Filéo,Keolis Mobilité Roissy,,route_master,bus,116931006:FILEOSL,
+Line:relation:8388058,Roissy Sud,Bus Filéo Roissy Sud : Roissypole ↔ Sevran Livry RER B,Filéo,Keolis,,route_master,bus,116931006:FILEOSL,
 Line:relation:8388059,39,Bus 39 : Vert Galant RER B ↔ Aéroport CDG1 RER B,Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,014014039:39,C00213
 Line:relation:8388060,13,Bus 13 : Gare de Domont ↔ Enghien Mermoz Gare,Vallée de Montmorency,Transdev Valmy,,route_master,bus,,C00302
 Line:relation:8392645,T'bus 1,Bus T'bus 1 : Roissypole ↔ Marronniers (Tremblay-en-France),Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,,C02265
@@ -967,7 +968,7 @@ Line:relation:8393786,S3,Bus scolaire S3 : Grand Dôme (Villebon) ↔ Collège I
 Line:relation:8393787,S4,Bus scolaire S4 : Millet (Villebon) ↔ Collège J. Verne,Libéo,Transdev,#F2A5B7,route_master,bus,006006019:S4,C01654
 Line:relation:8396927,453,Bus 453 : Imprimerie Nationale (Bondoufle) ↔ Les Meillottes (Soisy-sur-Seine),Tice,Tice,#A80983,route_master,bus,400400453:453,C01631
 Line:relation:8397961,7,Bus 7 : Gare des Mureaux ↔ Chopin,Poissy - Les Mureaux,Keolis Seine et Oise Est,,route_master,bus,,C01783
-Line:relation:8398489,Goussainville,Bus Filéo Goussainville : Roissypole ↔ Les Côteaux (Goussainville),Filéo,Keolis Mobilité Roissy,,route_master,bus,116295003:FILEOG,
+Line:relation:8398489,Goussainville,Bus Filéo Goussainville : Roissypole ↔ Les Côteaux (Goussainville),Filéo,Keolis,,route_master,bus,116295003:FILEOG,
 Line:relation:8399988,2,Bus 2 : Gare de Fontainebleau - Avon ↔ Jacques Durand,Aérial,Transdev Île-de-France Vulaines,#1E7FCB,route_master,bus,062062062:2,C00795
 Line:relation:8400207,51,Bus 51 : Hôpital Mignot ↔ Saint-Quentin-en-Yvelines - Gare P. Delouvrier,STAVO,STAVO,,route_master,bus,044044051:51,C01873
 Line:relation:8400479,M,Bus M : Mantes-la-Ville - Domaine de la Vallée ↔ Buchelay - Innovaparc,Mantois,RD Mantois,,route_master,bus,,C01606
@@ -979,7 +980,7 @@ Line:relation:8404223,43,Bus 43 : Gare de Fontenay le Fleury (circulaire),STAVO,
 Line:relation:8404345,91-01,Bus 91-01 : Gare Brunoy ↔ Gare Routière d'Evry Courcouronnes,Albatrans,Albatrans,#1ac7ff,route_master,bus,291191001:91-01,C01562
 Line:relation:8404789,18,Bus 18 : Marché (Villeparisis) ↔ Collège Gérard Philipe,Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,014014218:18,C00200
 Line:relation:8404844,Saint-Pathus,Bus Filéo Saint-Pathus : Roissypole ↔ Saint-Pathus,Filéo,Keolis Mobilité Roissy,,route_master,bus,116277009:FILEOSP,
-Line:relation:8405392,Sarcelles,Bus Filéo Sarcelles : Roissypole ↔ Sarcelles,Filéo,Keolis Mobilité Roissy,,route_master,bus,116295001:FILEOS,
+Line:relation:8405392,Sarcelles,Bus Filéo Sarcelles : Roissypole ↔ Sarcelles,Filéo,Keolis,,route_master,bus,116295001:FILEOS,
 Line:relation:8405850,X,Bus X : Mantes-la-Jolie - Henri Clérisse ↔ Mantes-la-Jolie - Gare Routière,Mantois,RD Mantois,,route_master,bus,,C01612
 Line:relation:8406206,30,Bus 30 : La Celle Saint-Cloud Gare ↔ Puits d'Angle,Traverciel,Transdev Île-de-France Nanterre,,route_master,bus,213213027:30,C01772
 Line:relation:8407058,45,Bus 45 : Musée de Sèvres ↔ Mairie de Vélizy,Phébus,Keolis Vélizy,#AF00F5,route_master,bus,004004029:45,C00051
@@ -1013,7 +1014,7 @@ Line:relation:8448304,F,Navette F : Champlan ↔ C.Cial Massy | C.Cial Villebon 
 Line:relation:8448533,Baladobus,Bus Baladobus : Gare de Saint-Rémy-Lès-Chevreuse (circulaire),SAVAC,SAVAC,,route_master,bus,139578038:Baladobus,
 Line:relation:8449068,603,Bus 603 : Cergy - Préfecture RER ↔ Méru - Gare,TRIO 1,Transdev Oise CABARO,#1154a0,route_master,bus,082082003:37E,
 Line:relation:8449168,G,Bus G : Gare de Sartrouville ↔ Gare du Vésinet Le Pecq,Bus en Seine,Île-de-France Mobilités,,route_master,bus,016248022:G,C00337
-Line:relation:8449216,Roissy Sud,Bus Filéo Roissy Sud : Roissypole ↔ Vert Galant (Villepinte),Filéo,Keolis Mobilité Roissy,,route_master,bus,116931007:FILEOVE,
+Line:relation:8449216,Roissy Sud,Bus Filéo Roissy Sud : Roissypole ↔ Vert Galant (Villepinte),Filéo,Keolis,,route_master,bus,116931007:FILEOVE,
 Line:relation:8449353,611,Bus 611 : La Courneuve - 8 mai 1945 ↔ Gagarine,Seine-Saint-Denis,Transdev TRA,,route_master,bus,293193611:611,C01884
 Line:relation:8449420,619,Bus 619 : Gare du Vert Galant ↔ Petit Tremblay,Seine-Saint-Denis,Transdev TRA,,route_master,bus,293193619:619,C01587
 Line:relation:8450067,35,Bus 35 : Saint-Blin - Lycée René Cassin ↔ Gare de Villiers-le-Bel - Gonesse - Arnouville,TransVO,Transdev Trans Val d'Oise,#33F2FF,route_master,bus,050050035:35,C00615
@@ -1444,6 +1445,7 @@ Line:relation:13669220,T'bus 3,Bus T'bus 3 : Gare du Vert Galant ↔ Gare du Ver
 Line:relation:13669221,T'bus 2,Bus T'bus 2 : Gare du Parc des Expositions ↔ Gare du Vert Galant,Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,,C02266
 Line:relation:14009234,11,Bus 11 : Gare de Rambouillet [Prairie] ↔ Ablis - Libération,Réseau Interurbain de Rambouillet,Transdev Île-de-France Rambouillet,,route_master,bus,,C00171
 Line:relation:14084660,B,Bus B : Neauphle-le-Château ↔ Beynes,Hourtoule,Cars Hourtoule,green,route_master,bus,,C00421
+Line:relation:14232362,T10,Tram T10 : Jardin Parisien ↔ La Croix de Berny,Tramway d'Île de France,RATP,#827A04,route_master,tram,,
 Line:relation:14262487,16,Ligne 16,,,#f59bbb,route_master,subway,,
 Line:relation:14262488,17,Ligne 17,Grand Paris Express,,#b5bd00,route_master,subway,,
 Line:relation:14263358,T13,Tram 13 Express,Transilien,Transkeo,#8a5f20,route_master,tram,,
@@ -1454,3 +1456,6 @@ Line:relation:14396875,43,Bus 43 : Val d'Europe - Chessy Gares,Marne-la-Vallée,
 Line:relation:14396876,34,Bus 34 : Val d'Europe - Chessy Gares,Marne-la-Vallée,Transdev Marne-la-Vallée,#68285A,route_master,bus,510510034:34,C00632
 Line:relation:14396877,24,Bus 24 : Île de Loisirs ↔ Gare de Marne la Vallée Chessy,Marne-la-Vallée,Transdev Marne-la-Vallée,#68ADE3,route_master,bus,510510024:24,C00638
 Line:relation:14396879,59,Bus 59 : Gare de Marne-la-Vallée - Chessy ↔ Camping,Grand Morin,Transdev Marne et Morin,,route_master,bus,067067059:59,C00944
+Line:relation:14454155,14,Bus 14 : Collège Stéphane Hessel <-> Île de Loisirs,Marne-la-Vallée,Transdev Marne-la-Vallée,#DD9CDF,route_master,bus,,
+Line:relation:14456255,T12,Tramway Express T12 : Massy-Palaiseau ↔ Évry Courcouronnes,Tramway d'Île de France,RATP,#A50034,route_master,tram,,
+Line:relation:14470604,,T13 Express (phase 2),Île de France Mobilité,Transkeo,,route_master,tram,,

@@ -15,6 +15,7 @@ cat osm-transit-extractor_lines.csv \
  |xsv search -s mode 'ferry' -v |xsv search -s mode 'walking_bus' -v \
  |xsv search -s mode 'construction' -v \
  |xsv search -s network 'local' -v |xsv search -s operator 'VTNI' -v \
+  |xsv search -s operator 'Keolis Oise' -v |xsv search -s operator 'Transdev Oise CABARO' -v \
  |xsv search -s network 'Open Tour' -v \
  |xsv search -s network 'Les Abeilles' -v | xsv search -s network 'Navettes Aéroports De Paris' -v \
  |xsv search -s network 'TransCape' -v | xsv search -s network Balabus -v \

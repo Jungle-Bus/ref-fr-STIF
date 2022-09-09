@@ -165,7 +165,7 @@ Line:relation:2261638,401,Bus 401 : Corbeil-Essonnes Gare RER D ↔ Saint-Michel
 Line:relation:2333448,A,RER A,RER,RATP/SNCF,#E3051C,route_master,train,,C01742
 Line:relation:2337724,7,Bus 7 : Gare d'Orsay - L'Yvette ↔ Plateau de Moulon - Corbeville,Paris-Saclay Mobilités,Les Cars d'Orsay,#FBD813,route_master,bus,006006007:7,C00072
 Line:relation:2343189,34,Bus 34 : Lycée de Carrières-sur-Seine ↔ Marché des Coteaux (Argenteuil),R'bus,Transdev Rochefort Océan,#C9A2CD,route_master,bus,016616034:34,C00306
-Line:relation:2390087,10,Bus 10 : Gare de Gif ↔ (Saclay ou Villiers ↔ Buc),Paris-Saclay Mobilités,SAVAC,#F5A6F7,route_master,bus,039039004:10,C00490
+Line:relation:2390087,10,Bus 10 : Gare de Gif ↔ (Saclay ou Villiers ↔ Buc),SAVAC,SAVAC,#F5A6F7,route_master,bus,039039004:10,C00490
 Line:relation:2415100,1,Bus 1 : Gare d’Igny ↔ Gare d’Orsay-Ville,Paris-Saclay Mobilités,Les Cars d'Orsay,#cf2939,route_master,bus,006006010:1,C00074
 Line:relation:2440114,14,Bus 14 : Gare de Massy-Palaiseau RER ↔ Gare de Palaiseau-Villebon RER ↔ Fresnel - Vauve,Paris-Saclay Mobilités,Les Cars d'Orsay,#65C1ED,route_master,bus,006006014:14,C00075
 Line:relation:2454326,6,Bus 6 : Campus d’Orsay - Jean Monnet ↔ Gare d’Orsay Ville RER,Mobicaps,Les Cars d'Orsay,#986AAD,route_master,bus,006006007:6,C02316
@@ -527,7 +527,7 @@ Line:relation:7271953,E,RER E,RER,SNCF,#C04191,route_master,train,,C01729
 Line:relation:7280948,Citalien,Bus Citalien : Carré Citoyenneté (Lieusaint) ↔ Gare Routière Mail (Melun),MELIBUS,Transdev Sénart,,route_master,bus,519519077:CITALIEN,C01806
 Line:relation:7292418,9,Bus 9 : Centre Commercial Ulis 2 ↔ Gare du Guichet ↔ Saclay ↔ Gare de Jouy-en-Josas,Paris-Saclay Mobilités,Les Cars d'Orsay,#DC2185,route_master,bus,269269002:9,C01561
 Line:relation:7301947,35,Bus 35 : Savigny - Nandy Gare RER ↔ Cesson Gare RER,Sénart Bus,Transdev Sénart,,route_master,bus,519519060:35,C00856
-Line:relation:7304704,52,Bus 52 : Gare de Mantes la Jolie ↔ Église (Fontenay Saint-Père),Com'Bus,CTVMI,#3D90C6,route_master,bus,057057052:52,C00744
+Line:relation:7304704,52,Bus 52 : Fontenay Saint-Père - Église ↔ Limay - Lycée Condorcet,Mantois,RD Mantois,#3D90C6,route_master,bus,057057052:52,C00744
 Line:relation:7318440,2,Bus 2 : Gare de Chelles Gournay ↔ Paul Algis (Chelles),Apolo 7,Société des transports du bassin chellois,#0033cc,route_master,bus,101261026:2,C01426
 Line:relation:7323910,42,Bus 42 : Cesson Gare RER ↔ Hautes Billes (Vert-Saint-Denis),Sénart Bus,Transdev Sénart,,route_master,bus,519519042:42,C00854
 Line:relation:7323911,43,Bus 43 : Cesson Gare RER ↔ Hautes Billes (Vert-Saint-Denis),Sénart Bus,Transdev Sénart,,route_master,bus,519519043:43,C00855
@@ -730,7 +730,7 @@ Line:relation:7920977,E,Bus E : Gare de Meaux (circulaire via Villenoy),Pays de 
 Line:relation:7920978,30-12,Bus 30-12 : Gare de Cormeilles-en-Parisis ↔ Gare de Franconville,Parisis,Cars Lacroix,,route_master,bus,030030012:30-12,C00445
 Line:relation:7920979,492,Bus 492 : Chilly-Mazarin — Place de la Libération ↔ Savigny-sur-Orge — Prés Saint-Martin,RATP,RATP,#ffcd02,route_master,bus,,C01328
 Line:relation:7920980,R5,Bus R5 : Gare de Saint-Germain-en-Laye ↔ Clos Badère,Résalys,Transdev,#E5C062,route_master,bus,012012031:R5,C00157
-Line:relation:7920981,R1,Bus R1 : Gare de Saint-Germain-en-Laye ↔ Lycée de Vinci,Résalys,Transdev Île-de-France Montesson Les Rabaux,#AD3541,route_master,bus,012012033:R1,C00160
+Line:relation:7920981,R1,Bus R1 : Gare de Saint-Germain-en-Laye ↔ Lycée de Vinci,Résalys,Transdev,#AD3541,route_master,bus,012012033:R1,C00160
 Line:relation:7920982,201,Bus 201 : Champigny–Diderot–La Plage ↔ Porte Dorée,RATP,RATP,#6e491e,route_master,bus,,C01219
 Line:relation:7920983,234,Bus 234 : Fort d'Aubervilliers ↔ Mairie de Livry-Gargan,RATP,RATP,#ff5a00,route_master,bus,,C01234
 Line:relation:7920984,247,Bus 247 : Stade Charles Sage ↔ Garonor,RATP,RATP,#ff5a00,route_master,bus,,C01695
@@ -1011,7 +1011,6 @@ Line:relation:8447240,36-15,Bus 36-15 : Les Essarts-le-Roi ↔ Auffargis,Cars Pe
 Line:relation:8448000,2,Bus 2 : Gare de Persan - Beaumont ↔ Gare de Montsoult - Maffliers,Bus Haut Val d'Oise,Keolis Val d’Oise,,route_master,bus,046046002:2,C00603
 Line:relation:8448304,F,Navette F : Champlan ↔ C.Cial Massy | C.Cial Villebon 2,Paris-Saclay,,#986647,route_master,bus,,
 Line:relation:8448533,Baladobus,Bus Baladobus : Gare de Saint-Rémy-Lès-Chevreuse (circulaire),SAVAC,SAVAC,,route_master,bus,139578038:Baladobus,
-Line:relation:8449068,603,Bus 603 : Cergy - Préfecture RER ↔ Méru - Gare,TRIO 1,Transdev Oise CABARO,#1154a0,route_master,bus,082082003:37E,
 Line:relation:8449168,G,Bus G : Gare de Sartrouville ↔ Gare du Vésinet Le Pecq,Bus en Seine,Île-de-France Mobilités,,route_master,bus,016248022:G,C00337
 Line:relation:8449216,Roissy Sud,Bus Filéo Roissy Sud : Roissypole ↔ Vert Galant (Villepinte),Filéo,Keolis,,route_master,bus,116931007:FILEOVE,
 Line:relation:8449353,611,Bus 611 : La Courneuve - 8 mai 1945 ↔ Gagarine,Seine-Saint-Denis,Transdev TRA,,route_master,bus,293193611:611,C01884
@@ -1296,12 +1295,10 @@ Line:relation:9310093,95-31,Bus 95-31 : Marines - Collège les Hautiers ↔ Arro
 Line:relation:9317042,95-35,Bus 95-35 : Ableiges ↔ Chars ↔ Bercagny ↔ Le Perchay ↔ Marines,Bus Haut Val d'Oise,Transdev Vexin,#FFA619,route_master,bus,025195035:95-35,C01791
 Line:relation:9340396,25,Bus 25 : Bibliothèque François Mitterrand ↔ Vitry - Marguerite Duras,RATP,RATP,#ff1400,route_master,bus,100100025:25,C02243
 Line:relation:9348862,482,Bus 482 : Belle Épine Sud (Thiais) ↔ Place Jeanne d'Arc (Villeneuve-le-Roi),Seine Grand Orly,Keolis Ouest Val-de-Marne,#0b5394,route_master,bus,522522482:482,C00001
-Line:relation:9349981,609,Bus 609 : Étrépagny - Mairie ↔ Sérifontaine - Mairie ↔ Cergy - Préfecture RER,TRIO 1,Transdev Oise CABARO,#8dc04c,route_master,bus,,
 Line:relation:9352984,45,Bus 45 : Concorde ↔ France-Asie,RATP,RATP,#ff82b4,route_master,bus,100100045:45,C02244
 Line:relation:9353394,59,Bus 59 : Gare de Clamart ↔ Place d'Italie,RATP,RATP,#dc9600,route_master,bus,,C02245
 Line:relation:9353405,71,Bus 71 : Porte de la Villette ↔ Bibliothèque François Mitterrand,RATP,RATP,#6e491e,route_master,bus,,C02246
 Line:relation:9353416,77,Bus 77 : Gare de Lyon ↔ Joinville-le-Pont RER,RATP,RATP,#0055c8,route_master,bus,,C02251
-Line:relation:9438601,630,630 : Creil ↔ Senlis ↔ Roissy,Réseau Oise,Keolis Oise,#8cbc00,route_master,bus,,
 Line:relation:9447998,95-09,Bus 95-09 : Villiers-Adam ↔ Domont,Busval d'Oise,Keolis CIF,,route_master,bus,046195009:95-09,C00607
 Line:relation:9450752,95-45,Bus 95-45 : Wy-dit-Joli-Village - Enfer Centre ↔ Magny-en-Vexin - Gare Routière,25 - Réseau du Vexin,Transdev Vexin,#73800D,route_master,bus,251195045:95-45,C01558
 Line:relation:9464254,95-22,Bus 95-22 : Pontoise Canrobert ↔ Seraincourt - Place de la Fontaine,25 - Réseau du Vexin,Transdev Vexin,#0D99BF,route_master,bus,011195022:95-22,C00139
@@ -1318,7 +1315,7 @@ Line:relation:9718465,61B,Bus 61B : Gare de Combs la Ville / Quincy ↔ 14 Juill
 Line:relation:9718947,16,Bus 16 : Lycée Lakanal ↔ Avenue Lombart,Paladin,Bièvre Bus Mobilités,#f6ca57,route_master,bus,020149006:16,C01655
 Line:relation:9736215,30-38,Bus 30-38 : Gare de Montigny - Beauchamp ↔ Gare de Cormeilles-en-Parisis,Parisis,Cars Lacroix,,route_master,bus,030030038:30-38,C00464
 Line:relation:9748884,30-04,Bus 30-04 : Mairie de Chauvry ↔ Lycée - Collège Voie des Sports (Taverny),Valbus,Cars Lacroix,,route_master,bus,030030004:30-04,C00436
-Line:relation:9752169,15,Bus 15 : Gare de Mantes-la-Jolie ↔ Mairie (Guernes),Mantois,RD Mantois,,route_master,bus,,C00733
+Line:relation:9752169,15,Bus 15 : Gare de Mantes-la-Jolie ↔ Follainville - Diderot ↔ Guernes - Mairie,Mantois,RD Mantois,#C61D58,route_master,bus,,C00733
 Line:relation:9786572,2,Bus 2 : Gare de La Celle-Saint-Cloud ↔ Porchefontaine - Louis XIV (Versailles),Phébus,Keolis Versailles,#3a398e,route_master,bus,056356002:2,C00693
 Line:relation:9786573,5,Bus 5 : Cœur de Bourg (Le Chesnay-Rocquencourt) ↔ Bernard de Jussieu (Versailles),Phébus,Keolis Versailles,#9e006a,route_master,bus,056356005:5,C00696
 Line:relation:9786575,6,Bus 6 : Gare de Viroflay Rive Gauche ↔ Gare de Versailles Chantiers ↔ Versailles Satory Mobilab,Phébus,Keolis Versailles,#1b93a6,route_master,bus,056356006:6,C00697
@@ -1365,7 +1362,7 @@ Line:relation:9924118,61,Bus 61 : Gare de Changis Saint-Jean (Changis-sur-Marne)
 Line:relation:9926817,40,Bus 40 : Gare de Lizy sur Ourcq (Lizy-sur-Ourcq) ↔ Poste (May-en-Multien),Pays de l'Ourcq,Transdev Marne et Morin,#fcc187,route_master,bus,067067040:40,C00927
 Line:relation:9926923,41,Bus 41 : Gare de Lizy sur Ourcq (Lizy-sur-Ourcq) ↔ Chaton Place (Vendrest),Pays de l'Ourcq,Transdev Marne et Morin,#f47435,route_master,bus,067067041:41,C00928
 Line:relation:9927796,42,Bus 42 : Gare de Lizy-sur-Ourcq ↔ Chambardy (Dhuisy),Pays de l'Ourcq,Transdev Marne et Morin,#fcb43b,route_master,bus,067067042:42,C00929
-Line:relation:9927828,54bis,bus 54bis : La Chaussée (Crouy-sur-Ourcq) ↔ Gare de Crouy sur Ourcq (Crouy-sur-Ourcq),Pays de l'Ourcq,Marne et Morin,#b18a80,route_master,bus,067067054:54bis,
+Line:relation:9927828,54bis,bus 54bis : La Chaussée (Crouy-sur-Ourcq) ↔ Gare de Crouy sur Ourcq,Pays de l'Ourcq,Marne et Morin,#b18a80,route_master,bus,,C00940
 Line:relation:9928038,63,Bus 63 : Lotissements de Condé (Mary-sur-Marne) ↔ Gare de Meaux (Meaux),Pays de l'Ourcq,Transdev Marne et Morin,#229db3,route_master,bus,067067063:63,C00948
 Line:relation:9939271,18,Bus 18 : Henri IV / Cinéma (Meaux) ↔ Gare de Crécy-la-Chapelle,Pays Créçois,Transdev Marne et Morin,#38419b,route_master,bus,067067018:18,C00913
 Line:relation:9941723,21,bus 21 : Gallieni (Nanteuil-lès-Meaux) ↔ Centre (Villemareuil),Pays Créçois,Transdev Marne et Morin,#be4999,route_master,bus,067067021:21,C00916
@@ -1387,9 +1384,9 @@ Line:relation:9972555,1,Bus 1 : Place Mérot (Fontaine-Fourches) ↔ Gare de Lon
 Line:relation:9978088,1,Bus 1 : Gare de Bonnières ↔ Méricourt - Jardinerie,Mantois,RD Mantois,#4AA631,route_master,bus,,C00725
 Line:relation:9978136,4,Bus 4 : Gare de Bonnières ↔ La Villeneuve-en-Chevrie - Les Tasses,Mantois,RD Mantois,#8A1E82,route_master,bus,,C00728
 Line:relation:9978192,05,bus 05 : Gare de Bonnières (Bonnières-sur-Seine) ↔ Gloton (Bennecourt),Mantois,RD Mantois,#00a8e8,route_master,bus,,C00727
-Line:relation:9978274,09,bus 09 : Place du Vexin (Meulan-en-Yvelines) ↔ Gare de Mantes la Jolie,Mantois,RD Mantois,#a11881,route_master,bus,,C00731
+Line:relation:9978274,9,Bus 9 : Gare de Mantes la Jolie ↔ Gargenville - Moulin à Vent ↔ Gare de Meulan-Hardricourt ↔ Gare de Cergy Préfecture,Mantois,RD Mantois,#A11881,route_master,bus,,C00731
 Line:relation:10000414,17,Bus 17 : Gare des Mureaux ↔ Mairie (Jambville),Mantois,RD Mantois,#00669c,route_master,bus,,C00735
-Line:relation:10003678,22,Bus 22 : Gare de Saint-Germain en Laye ↔ Gare de Mantes la Jolie,Mantois,RD Mantois,#9ed2c2,route_master,bus,,C00740
+Line:relation:10003678,22,Bus 22 : Saint-Germain en Laye - République ↔ Gare de Mantes la Jolie,Mantois,RD Mantois,#9ED2C2,route_master,bus,,C00740
 Line:relation:10003789,81,Bus 81 : Gare d'Épône Mézières (Épône) ↔ Mairie (Issou),Mantois,RD Mantois,#e48705,route_master,bus,,C00748
 Line:relation:10003838,82,Bus 82 : Gare d'Épône Mézières (Épône) ↔ Hanneucourt (Gargenville),Mantois,RD Mantois,#d0aa1d,route_master,bus,,C00749
 Line:relation:10015706,S5,Bus S5 : Piscine de Carrières ↔ Collège des Amandiers (Carrières-sur-Seine),Bus en Seine,Île-de-France Mobilités,#b2b2b2,route_master,bus,019248010:S5,C02151
@@ -1435,7 +1432,6 @@ Line:relation:12399533,27,Bus 27 : Gare de Bussy-Saint-Georges ↔ Gare de Bussy
 Line:relation:12462685,88,bus 88 : Gare de Mantes-la-Jolie ↔ Gare de Dreux,Com'Bus,CTVMI,,route_master,bus,,C00755
 Line:relation:12564972,T9,Tramway T9 : Porte de Choisy ↔ Orly-Gaston Viens,Tramway d'Île de France,Keolis,#5291CE,route_master,tram,522522009:T9,C02317
 Line:relation:12811954,209,Bus 209 : Pontault-Combault - Place de Beilstein ↔ Villiers-sur-Marne - Le Plessis-Trévise RER,RATP,RATP,#00a092,route_master,bus,100100209:209,C02437
-Line:relation:13149241,604,Bus 604 : Gisors - Hôpital ↔ Cergy - Préfecture RER,TRIO 1,Transdev Oise CABARO,#1154a0,route_master,bus,,
 Line:relation:13593220,382,Bus 382 : Pont de Rungis RER ↔ Les Ardoines RER,RATP,RATP,#6e491e,route_master,bus,,C02459
 Line:relation:13669220,T'bus 3,Bus T'bus 3 : Gare du Vert Galant ↔ Gare du Vert Galant,Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,,C02267
 Line:relation:13669221,T'bus 2,Bus T'bus 2 : Gare du Parc des Expositions ↔ Gare du Vert Galant,Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,,C02266
@@ -1453,3 +1449,6 @@ Line:relation:14454155,14,Bus 14 : Collège Stéphane Hessel <-> Île de Loisirs
 Line:relation:14470604,,T13 Express (phase 2),Île de France Mobilité,Transkeo,,route_master,tram,,
 Line:relation:14511402,F,Bus F : Gare de Mantes-la-Jolie ↔ Mantes-la-Jolie - Sangle ↔ Gare de Mantes-la-Jolie,Mantois,RD Mantois,#288F46,route_master,bus,,C01949
 Line:relation:14511608,G,Bus G : Buchelay - Porte de Normandie ↔ Gare de Mantes-Station ↔ Mantes-la-Jolie - Sainte Anne,Mantois,RD Mantois,#c4017b,route_master,bus,,C01601
+Line:relation:14542381,N138,Noctilien N138: Gare de Lyon ↔ Gare de Coulommiers,Noctilien,Transdev Brie et 2 Morin,#0055C8,route_master,bus,,C02487
+Line:relation:14556090,73,Bus 73 : Poissy - Peugeot ↔ Gare de Poissy-Nord ↔ Saint-Marcel - Tourelles,Mantois,RD Mantois,#FFBE00,route_master,bus,,C01034
+Line:relation:14556740,72,Bus 72 : Vernon - SNECMA ↔ La Défense - Terminal Jules Verne,Mantois,RD Mantois,#640082,route_master,bus,,C01036

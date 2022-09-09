@@ -406,8 +406,8 @@ Route:relation:2351724,"Bus 13 : Juvisy, Gare Routière Seine → Bergeries, St 
 Route:relation:2369841,Bus 132 : Vitry-sur-Seine-Moulin Vert Tram → Bibliothèque François Mitterrand,132,Bibliothèque François Mitterrand,RATP
 Route:relation:2372425,"Bus 414 : Gare de Trappes → Pas du Lac, Saint-Exupéry",414,"Pas du Lac, Saint-Exupéry",SQYBus
 Route:relation:2389880,Bus 91-11 : Gare de Massy-Palaiseau → Gare de Saint-Quentin-en-Yvelines,91-11,Gare de Saint-Quentin-en-Yvelines,Albatrans
-Route:relation:2390086,"Bus 10 : Gare de Gif → Buc, Lycée Franco-Allemand",10,"Buc, Lycée Franco-Allemand",Paris-Saclay Mobilités
-Route:relation:2390547,"Bus 10 : Buc, Lycée Franco-Allemand → Gare de Gif",10,Gare de Gif,Paris-Saclay Mobilités
+Route:relation:2390086,"Bus 10 : Gare de Gif → Buc, Lycée Franco-Allemand",10,"Buc, Lycée Franco-Allemand",SAVAC
+Route:relation:2390547,"Bus 10 : Buc, Lycée Franco-Allemand → Gare de Gif",10,Gare de Gif,SAVAC
 Route:relation:2393297,Bus 10 : Christ de Saclay → Gare de Gif,10,Gare de Gif,SAVAC
 Route:relation:2393298,Bus 10 : Gare de Gif → Christ de Saclay,10,Christ de Saclay,SAVAC
 Route:relation:2393300,Bus 10 : Gare de Gif → Saint Aubin → Christ de Saclay,10,Christ de Saclay,SAVAC
@@ -502,7 +502,7 @@ Route:relation:2856847,Bus Express 100 : Torcy RER → Créteil - L'Échat,100,C
 Route:relation:2920520,Navette municipale Olfi,Olfi,Gare SNCF,local
 Route:relation:2928125,Bus L'Audonienne : Payret → Debain,L'Audonienne,Debain,RATP
 Route:relation:2930281,Bus 645: Coubron - Corot → Montfermeil - Hôpital Intercommunal,645,Montfermeil - Hôpital Intercommunal,Seine-Saint-Denis
-Route:relation:2936255,Bus 52 : Église (Fontenay Saint-Père) → Gare de Mantes la Jolie,52,Gare de Mantes la Jolie,Com'Bus
+Route:relation:2936255,Bus 52 : Fontenay Saint-Père - Église → Guitrancourt - Mairie → Limay - Lycée Condorcet,52,Limay - Lycée Condorcet,Mantois
 Route:relation:2958298,La Traverse Ney - Flandre : Porte d'Aubervilliers - Oberle → La Chapelle,519,La Chapelle,RATP
 Route:relation:2962340,Bus 645: Montfermeil - Hôpital Intercommunal → Coubron - Corot,645,Coubron - Corot,Seine-Saint-Denis
 Route:relation:2965779,Bus 602 : Gare du Raincy–Villemomble–Montfermeil → Coubron - Stade,602,Coubron - Stade,Seine-Saint-Denis
@@ -645,7 +645,6 @@ Route:relation:3800131,Bus R4 : Gare de Saint-Germain-en-Laye → Collège (Cham
 Route:relation:3804731,Bus S : Gare de Boussy-Saint-Antoine → Gare de Combs-la-Ville,S,Gare de Combs-la-Ville,VyBus
 Route:relation:3809897,Bus 42 : Aubergenville - Place du Marché (circulaire via Épône),42,Place du marché (Aubergenville),Poissy - Les Mureaux
 Route:relation:3843308,Ligne F : Bad Kissingen → Site d'Essais,F,Site d'Essais,TransCape
-Route:relation:3843309,Ligne F : Site d'Essais → Bad Kissingen,F,Bad Kissingen,TransCape
 Route:relation:3879033,Bus 60 : Massy-Palaiseau Gare → Vélizy-Villacoublay Résidence Europe,60,Vélizy-Villacoublay Résidence Europe,Phébus
 Route:relation:3879034,Bus 60 : Vélizy-Villacoublay Résidence Europe → Massy-Palaiseau Gare RER,60,Massy-Palaiseau Gare RER,Phébus
 Route:relation:3891339,Bus M,M,MANDRES-LES-ROSES (ZA PERDRIX),VyBus
@@ -1157,7 +1156,7 @@ Route:relation:7292361,Les Petits Trains du Parc de Versailles,,,local
 Route:relation:7296151,Navette de l'Hôpital de la Pitié Salpêtrière,,Entrée secteur Pitié,local
 Route:relation:7301945,Bus 35 : Cesson Gare RER → Savigny - Nandy Gare RER,35,Savigny - Nandy Gare RER,Sénart Bus
 Route:relation:7301946,Bus 35 : Savigny - Nandy Gare RER → Cesson Gare RER,35,Cesson Gare RER,Sénart Bus
-Route:relation:7304703,Bus 52 : Gare de Mantes la Jolie → Église (Fontenay Saint-Père),52,Église (Fontenay Saint-Père),Com'Bus
+Route:relation:7304703,Bus 52 : Limay - Lycée Condorcet → Guitrancourt - Mairie → Fontenay Saint-Père - Église,52,Fontenay Saint-Père - Église,Mantois
 Route:relation:7305131,Bus 14 : Gare de Cergy Saint-Christophe → Gare Nord de Poissy,14,Gare Nord de Poissy,Poissy - Les Mureaux
 Route:relation:7318438,Bus 2 : Paul Algis (Chelles) → Gare de Chelles Gournay,2,Gare de Chelles Gournay,Apolo 7
 Route:relation:7318439,Bus 2 : Gare de Chelles Gournay → Paul Algis (Vaires),2,Paul Algis (Chelles),Apolo 7
@@ -2824,8 +2823,8 @@ Route:relation:9744996,Bus 4 : Gare de Fontainebleau - Avon → La Fourche - War
 Route:relation:9748158,Bus 12 : RN34 → Lycée Pierre de Coubertin (Meaux),12,Lycée Pierre de Coubertin (Meaux),Pays Créçois
 Route:relation:9748882,Bus 30-04 : Tuyolle → Lycée - Collège Voie des Sports (Taverny),30-04,Lycée - Collège Voie des Sports (Taverny),Valbus
 Route:relation:9748883,Bus 30-04 : Lycée - Collège Voie des Sports (Taverny) → Mairie de Chauvry,30-04,Mairie de Chauvry,Valbus
-Route:relation:9752167,Bus 15 : Gare de Mantes-la-Jolie → École (Saint-Martin-la-Garenne),15,École (Saint-Martin-la-Garenne),Mantois
-Route:relation:9752168,Bus 15 : Mairie (Guernes) → Gare de Mantes-la-Jolie,15,Gare de Mantes-la-Jolie,Mantois
+Route:relation:9752167,Bus 15 : Gare de Mantes-la-Jolie → Follainville - Diderot → Saint-Martin-la-Garenne - École,15,Saint-Martin-la-Garenne - École,Mantois
+Route:relation:9752168,Bus 15 : Guernes - Mairie → Follainville - Diderot → Gare de Mantes-la-Jolie,15,Gare de Mantes-la-Jolie,Mantois
 Route:relation:9752598,Bus S : Libération → Collège Dunoyer de Segonzac,S,Collège Dunoyer de Segonzac,VyBus
 Route:relation:9752599,Bus S : Gare de Combs-la-Ville → Collège Dunoyer de Segonzac,S,Collège Dunoyer de Segonzac,VyBus
 Route:relation:9752600,Bus S : Collège Dunoyer de Segonzac → Libération,S,Libération,VyBus
@@ -3101,8 +3100,8 @@ Route:relation:9906151,Bus 95-50 : Magny-en-Vexin - Gare Routière → Jouy Le M
 Route:relation:9906610,Bus 95-50 : Magny-en-Vexin - Gare Routière → Pontoise - Gare Place du Général de Gaulle,95-50,Pontoise - Gare Place du Général de Gaulle,25 - Réseau du Vexin
 Route:relation:9912271,Bus 31 : Gare de La Ferté-sous-Jouarre → L'Ange Gardien (Chamigny) → Gare de La Ferté-sous-Jouarre,31,Gare de La Ferté-sous-Jouarre,Pays Fertois
 Route:relation:9912278,Bus 31 : Mairie (Reuil-en-Brie) → Gare de La Ferté-sous-Jouarre,31,Gare de La Ferté-sous-Jouarre,Pays Fertois
-Route:relation:9912299,Bus 35 : Gare de Changis Saint-Jean → Place Saint-Claude (Pierre-Levée),35,Place Saint-Claude (Pierre-Levée),Pays Fertois
-Route:relation:9912300,Bus 35 : Place Saint-Claude (Pierre-Levée) → Gare de Changis Saint-Jean,35,Gare de Changis Saint-Jean,Pays Fertois
+Route:relation:9912299,Bus 35 : Gare de La Ferté-sous-Jouarre → Place Saint-Claude (Pierre-Levée),35,Place Saint-Claude (Pierre-Levée),Pays Fertois
+Route:relation:9912300,Bus 35 : Place Saint-Claude (Pierre-Levée) → Gare de La Ferté-sous-Jouarre,35,Gare de La Ferté-sous-Jouarre,Pays Fertois
 Route:relation:9919052,Bus 49B : Gare de La Ferté sous Jouarre → Montmirail (La Ferté-sous-Jouarre),49B,Montmirail (La Ferté-sous-Jouarre),Pays Fertois
 Route:relation:9921354,Bus 95-50 : Cergy-Saint-Christophe → Cergy-Le Haut → Magny-en-Vexin - Gare Routière,95-50,Magny-en-Vexin - Gare Routière,25 - Réseau du Vexin
 Route:relation:9922353,Bus 95-50 : Magny-en-Vexin - Gare Routière → Osny - Lycée Paul Emile Victor,95-50,"Osny, Lycée Paul Emile Victor",25 - Réseau du Vexin
@@ -3126,8 +3125,8 @@ Route:relation:9926921,bus 41 : Chaton Place (Vendrest) → Gare de Lizy sur Our
 Route:relation:9926922,bus 41 : Gare de Lizy sur Ourcq (Lizy-sur-Ourcq) → Chaton Place (Vendrest),41,Chaton Place (Vendrest),Pays de l'Ourcq
 Route:relation:9927794,bus 42 : Chambardy (Dhuisy) → Gare de Lizy-sur-Ourcq,42,Gare de Lizy-sur-Ourcq,Pays de l'Ourcq
 Route:relation:9927795,bus 42 : Gare de Lizy-sur-Ourcq → Chambardy (Dhuisy),42,Chambardy (Dhuisy),Pays de l'Ourcq
-Route:relation:9927826,bus 54bis : Gare de Crouy sur Ourcq (Crouy-sur-Ourcq) → La Chaussée (Crouy-sur-Ourcq),54bis,La Chaussée (Crouy-sur-Ourcq),Pays de l'Ourcq
-Route:relation:9927827,bus 54bis : La Chaussée (Crouy-sur-Ourcq) → Gare de Crouy sur Ourcq (Crouy-sur-Ourcq),54bis,Gare de Crouy sur Ourcq (Crouy-sur-Ourcq),Pays de l'Ourcq
+Route:relation:9927826,bus 54bis : Gare de Crouy sur Ourcq → La Chaussée (Crouy-sur-Ourcq),54bis,La Chaussée (Crouy-sur-Ourcq),Pays de l'Ourcq
+Route:relation:9927827,bus 54bis : La Chaussée (Crouy-sur-Ourcq) → Gare de Crouy sur Ourcq,54bis,Gare de Crouy sur Ourcq,Pays de l'Ourcq
 Route:relation:9928036,bus 63 : Gare de Meaux (Meaux) → Lotissements de Condé (Mary-sur-Marne),63,Lotissements de Condé (Mary-sur-Marne),Pays de l'Ourcq
 Route:relation:9928037,bus 63 : Lotissements de Condé (Mary-sur-Marne) → Gare de Meaux (Meaux),63,Gare de Meaux (Meaux),Pays de l'Ourcq
 Route:relation:9939269,Bus 18 : Gare routière de Crécy-la-Chapelle → Henri IV / Cinéma (Meaux),18,Henri IV / Cinéma (Meaux),Pays Créçois
@@ -3182,8 +3181,8 @@ Route:relation:9978134,Bus 4 : La Villeneuve-en-Chevrie - Les Tasses → Gare de
 Route:relation:9978135,Bus 4 : Gare de Bonnières → La Villeneuve-en-Chevrie - Les Tasses,4,La Villeneuve-en-Chevrie - Les Tasses,Mantois
 Route:relation:9978190,bus 05 : Gloton (Bennecourt) → Gare de Bonnières (Bonnières-sur-Seine),05,Gare de Bonnières (Bonnières-sur-Seine),Mantois
 Route:relation:9978191,bus 05 : Gare de Bonnières (Bonnières-sur-Seine) → Gloton (Bennecourt),05,Gloton (Bennecourt),Mantois
-Route:relation:9978272,Bus 09 : Gare de Mantes la Jolie → Place du Vexin (Meulan-en-Yvelines),09,Place du Vexin (Meulan-en-Yvelines),Mantois
-Route:relation:9978273,Bus 09 : Place du Vexin (Meulan-en-Yvelines) → Gare de Mantes la Jolie,09,Gare de Mantes la Jolie,Mantois
+Route:relation:9978272,Bus 9 : Gare de Mantes la Jolie → Gargenville - Moulin à Vent → Gare de Meulan-Hardricourt → Gare de Cergy Préfecture,9,Gare de Cergy Préfecture,Mantois
+Route:relation:9978273,Bus 9 : Gare de Cergy Préfecture → Gare de Meulan-Hardricourt → Gargenville - Moulin à Vent → Gare de Mantes la Jolie,9,Gare de Mantes la Jolie,Mantois
 Route:relation:9982182,Bus 95-08 : Osny - Lycée Paul Emile Victor → Marines - Collège les Hautiers,95-08,Marines - Collège les Hautiers,25 - Réseau du Vexin
 Route:relation:9982183,Bus 95-08 : Cergy Préfecture → Pontoise - Marcouville → Chars - LEP,95-08,Chars - LEP,Vexin
 Route:relation:9982184,Bus 95-08 : Chars - LEP → Pontoise - Marcouville → Cergy Préfecture,95-08,Cergy Préfecture,Vexin
@@ -3191,8 +3190,8 @@ Route:relation:9986030,Bus 11 : Parc Orsay Université → Gare de Gif-sur-Yvett
 Route:relation:9986031,Bus 11 : Gare de Gif-sur-Yvette → Parc Orsay Université,11,Parc Orsay Université,SAVAC
 Route:relation:10000412,Bus 17 : Mairie (Jambville) → Gare des Mureaux,17,Gare des Mureaux,Mantois
 Route:relation:10000413,Bus 17 : Gare des Mureaux → Mairie (Jambville),17,Mairie (Jambville),Mantois
-Route:relation:10003676,bus 22 : Gare de Mantes la Jolie → Gare de Saint-Germain en Laye,22,Gare de Saint-Germain en Laye,Mantois
-Route:relation:10003677,bus 22 : Gare de Saint-Germain en Laye → Gare de Mantes la Jolie,22,Gare de Mantes la Jolie,Mantois
+Route:relation:10003676,Bus 22 : Gare de Mantes la Jolie → Saint-Germain en Laye - République,22,Saint-Germain en Laye - République,Mantois
+Route:relation:10003677,Bus 22 : Saint-Germain en Laye - République → Gare de Mantes la Jolie,22,Gare de Mantes la Jolie,Mantois
 Route:relation:10003787,bus 81 : Mairie (Issou) → Gare d'Épône Mézières,81,Gare d'Épône Mézières,Mantois
 Route:relation:10003788,bus 81 : Gare d'Épône Mézières → Mairie (Issou),81,Mairie (Issou),Mantois
 Route:relation:10003836,bus 82 : Hanneucourt (Gargenville) → Gare d'Épône Mézières (Épône),82,Gare d'Épône Mézières (Épône),Mantois
@@ -3595,3 +3594,19 @@ Route:relation:14511606,Bus G : Buchelay - Porte de Normandie → Gare de Mantes
 Route:relation:14511607,Bus G : Mantes-la-Jolie - Sainte Anne → Gare de Mantes-Station → Buchelay - Porte de Normandie,G,Buchelay - Porte de Normandie,Mantois
 Route:relation:14526711,Bus 188 : Dampierre → Porte d'Orléans,188,Porte d'Orléans,RATP
 Route:relation:14526712,Bus 188 : Porte d'Orléans → Dampierre,188,Dampierre,RATP
+Route:relation:14534139,Bus 9 : Gare de Mantes la Jolie → Gargenville - Moulin à Vent,9,Gargenville - Moulin à Vent,Mantois
+Route:relation:14534140,Bus 9 : Gargenville - Moulin à Vent → Gare de Mantes la Jolie,9,Gare de Mantes la Jolie,Mantois
+Route:relation:14534141,Bus 9 : Gare de Meulan-Hardricourt → Gargenville - Moulin à Vent → Gare de Mantes la Jolie,9,Gare de Mantes la Jolie,Mantois
+Route:relation:14534142,Bus 9 : Gare de Mantes la Jolie → Gargenville - Moulin à Vent → Gare de Meulan-Hardricourt,9,Gare de Meulan-Hardricourt,Mantois
+Route:relation:14542379,Noctilien N138 : Gare de Coulommiers → Gare de Lyon,N138,Gare de Lyon,Noctilien
+Route:relation:14542380,Noctilien N138 : Gare de Lyon → Gare de Coulommiers,N138,Gare de Coulommiers,Noctilien
+Route:relation:14548368,Bus 15 : Gare de Mantes-la-Jolie → Follainville - Diderot,15,Follainville - Diderot,Mantois
+Route:relation:14548369,Bus 15 : Follainville - Diderot → Gare de Mantes-la-Jolie,15,Gare de Mantes-la-Jolie,Mantois
+Route:relation:14556084,Bus 73 : Vernon - Lycée St-Adjutor → Gare de Poissy-Nord,73,Gare de Poissy-Nord,Mantois
+Route:relation:14556085,Bus 73 : Gare de Poissy-Nord → Vernon - Lycée St-Adjutor,73,Vernon - Lycée St-Adjutor,Mantois
+Route:relation:14556086,Bus 73 : Saint-Marcel - Tourelles → Gare de Poissy-Nord,73,Gare de Poissy-Nord,Mantois
+Route:relation:14556087,Bus 73 : Gare de Poissy-Nord → Saint-Marcel - Tourelles,73,Saint-Marcel - Tourelles,Mantois
+Route:relation:14556088,Bus 73 : Saint-Marcel - Tourelles → Gare de Poissy-Nord → Poissy - Peugeot,73,Poissy - Peugeot,Mantois
+Route:relation:14556089,Bus 73 : Poissy - Peugeot → Gare de Poissy-Nord → Saint-Marcel - Tourelles,73,Saint-Marcel - Tourelles,Mantois
+Route:relation:14556738,Bus 72 : La Défense - Terminal Jules Verne → Vernon - SNECMA → Vernon - République,72,Vernon - République,Mantois
+Route:relation:14556739,Bus 72 : Vernon - SNECMA → Vernon - Hôspital → La Défense - Terminal Jules Verne,72,La Défense - Terminal Jules Verne,Mantois

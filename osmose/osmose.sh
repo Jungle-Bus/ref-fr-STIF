@@ -32,7 +32,7 @@ cd ../data
 bzip2 osmose_*
 
 ## envoi des erreurs sur les lignes
-curl -s --request POST --form analyser='opendata_stif' --form country='france_ile_de_france' --form code=\"$Osmose_idf_auth\" --form content=@osmose_lines.xml.bz2 http://osmose.openstreetmap.fr/control/send-update
+curl -s --request POST --form analyser='opendata_stif' --form country='france_ile_de_france' --form code=\"$Osmose_idf_auth\" --form content=@osmose_lines.xml.bz2 https://osmose.openstreetmap.fr/control/send-update
 
 ## envoi des erreurs sur les arrêts
-curl -s --request POST --form analyser='opendata_stif' --form country='france_ile_de_france' --form code=\"$Osmose_idf_auth\" --form content=@osmose_stops.xml.bz2 http://osmose.openstreetmap.fr/control/send-update
+curl -s --request POST --form analyser='opendata_stif' --form country='france_ile_de_france' --form code=\"$Osmose_idf_auth\" --form content=@osmose_stops.xml.bz2 https://osmose.openstreetmap.fr/control/send-update

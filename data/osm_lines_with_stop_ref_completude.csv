@@ -64,7 +64,7 @@ Line:relation:1102964,106,Bus 106 : Joinville le Pont ↔ Villiers sur Marne,RAT
 Line:relation:1104709,138,Bus 138: Gare d'Ermont-Eaubonne RER ↔ Saint-Ouen RER,RATP,RATP,#BB4A9B,route_master,bus,,C01164,91 % (54/59)
 Line:relation:1240537,201,Bus 201 : Gare de Marolles-en-Hurepoix ↔ Collège Doisneau,Val d'Essonne,Transdev CEAT,,route_master,bus,010018010:201,C00319,94 % (33/35)
 Line:relation:1245875,88,Bus 88 : Porte d'Auteuil ↔ Montsouris - Tombe Issoire,RATP,RATP,#CEC92A,route_master,bus,,C01120,100 % (67/67)
-Line:relation:1246520,95,Bus 95 : Porte de Montmartre ↔ Porte de Vanves,RATP,RATP,#8D653A,route_master,bus,,C01126,97 % (41/42)
+Line:relation:1246520,95,Bus 95 : Porte de Montmartre ↔ Porte de Vanves,RATP,RATP,#8D653A,route_master,bus,,C01126,98 % (83/84)
 Line:relation:1251039,76,Bus 76 : Châtelet ↔ Bagnolet — Louise Michel,RATP,RATP,#652D91,route_master,bus,,C01111,98 % (56/57)
 Line:relation:1254002,69,Bus 69 : Champ de Mars ↔ Gambetta - Japon,RATP,RATP,#87D3DF,route_master,bus,,C01105,100 % (67/67)
 Line:relation:1254003,66,Bus 66: Saint-Ouen - Les Docks ↔ Opéra,RATP,RATP,#008B5A,route_master,bus,,C01102,82 % (42/51)
@@ -126,7 +126,7 @@ Line:relation:1635139,T2,Tramway T2 : Pont de Bezons ↔ Porte de Versailles [Pa
 Line:relation:1648058,407,Bus 407 : Évry ↔ Ris-Orangis,Tice,Tice,#8BD0EF,route_master,bus,400400407:407,C01622,78 % (37/47)
 Line:relation:1648952,405,Bus 405 : Ris-Orangis ↔ Corbeil-Essonnes,Tice,Tice,#0088C6,route_master,bus,400400405:405,C01620,98 % (99/101)
 Line:relation:1650713,TZen 1,TZen 1 : Lieusaint - Moissy Gare RER ↔ Corbeil-Essonnes Gare RER,TZen,Transdev Sénart,#c5ce00,route_master,bus,519519100:Tzen1,C00859,78 % (22/28)
-Line:relation:1658281,N141,Noctilien N141: Gare de l'Est ↔ Gare de Meaux,Noctilien,Transilien,#FCB131,route_master,bus,800:N141,C01639,68 % (17/25)
+Line:relation:1658281,N141,Noctilien N141: Gare de l'Est ↔ Gare de Meaux,Noctilien,Transilien,#FCB131,route_master,bus,800:N141,C01639,72 % (18/25)
 Line:relation:1667801,N24,Noctilien N24: Gare de Sartrouville ↔ Châtelet,Noctilien,RATP,#F78F4B,route_master,bus,100987751:N24,C01392,86 % (94/109)
 Line:relation:1673421,D,Transilien Ligne RER D,RER,SNCF,#5E9620,route_master,train,,C01728,
 Line:relation:1687242,330,Bus 330 : Brigeolet (Angerville) ↔ Porte d'Étampes,Étampois,Transdev CEAT,,route_master,bus,010303001:330,C00105,72 % (43/59)
@@ -171,10 +171,10 @@ Line:relation:2440114,14,Bus 14 : Gare de Massy-Palaiseau RER ↔ Gare de Palais
 Line:relation:2454326,6,Bus 6 : Campus d’Orsay - Jean Monnet ↔ Gare d’Orsay Ville RER,Mobicaps,Les Cars d'Orsay,#986AAD,route_master,bus,006006007:6,C02316,86 % (13/15)
 Line:relation:2531075,93,Bus 93 : Bobigny – Pablo Picasso ↔ Parinor ↔ Aéroport CDG – Roissypole,Les Courriers de l'Île-de-France,Keolis CIF,#a3653d,route_master,bus,014014093:93,C00223,77 % (14/18)
 Line:relation:2531082,23,Bus 23 : Roissypole ↔ Villeparisis - Gymnase Aubertin,Les Courriers de l'Île-de-France,Keolis CIF,#00aeef,route_master,bus,014014223:23,C00204,90 % (68/75)
-Line:relation:2531207,Viliers-le-Bel,Bus Filéo Viliers-le-Bel : Roissypole ↔ Villiers-le-Bel,Filéo,Keolis,,route_master,bus,116295004:FILEOVB,,
-Line:relation:2531208,Othis,Bus Filéo Othis : Roissypole ↔ Othis,Filéo,Keolis Mobilité Roissy,,route_master,bus,116277005:FILEOO,,
-Line:relation:2531225,Roissy Sud,Bus Filéo Roissy Sud : Roissypole ↔ Tremblay-en-France,Filéo,Keolis Mobilité Roissy,,route_master,bus,116931002:FILEOT,,
-Line:relation:2531226,Roissy Sud,Bus Filéo Roissy Sud : Roissypole ↔ Villeparisis,Filéo,Keolis,,route_master,bus,116277010:FILEOV,,
+Line:relation:2531207,Viliers-le-Bel,Bus Filéo Viliers-le-Bel : Roissypole ↔ Villiers-le-Bel,Filéo,Keolis Mobilité Roissy,,route_master,bus,,C01433,78 % (50/64)
+Line:relation:2531208,Othis,Bus Filéo Othis : Roissypole ↔ Othis,Filéo,Keolis Mobilité Roissy,,route_master,bus,,C01429,1 % (1/52)
+Line:relation:2531225,Roissy Sud,Bus Filéo Roissy Sud : Roissypole ↔ Tremblay-en-France,Filéo,Keolis Mobilité Roissy,,route_master,bus,,C01434,1 % (1/67)
+Line:relation:2531226,Roissy Sud,Bus Filéo Roissy Sud : Roissypole ↔ Villeparisis,Filéo,Keolis Mobilité Roissy,,route_master,bus,,C02060,92 % (74/80)
 Line:relation:2532567,190,Bus 190 : Église de Meudon-la-Forêt ↔ Mairie d'Issy-Métro,RATP,RATP,#845B32,route_master,bus,,C01211,100 % (62/62)
 Line:relation:2532600,290,Bus 290 : Le Plessis-Robinson – La Boursidière ↔ Issy - Val de Seine RER,RATP,RATP,#C9A3CD,route_master,bus,,C01265,100 % (41/41)
 Line:relation:2554103,7bis,Métro 7 bis,Métro de Paris,RATP,#71cc98,route_master,subway,,C01387,
@@ -236,7 +236,7 @@ Line:relation:3662457,T3b,Tramway T3b : Porte de Vincennes ↔ Porte d'Asnières
 Line:relation:3686355,104,Bus 104 : École Vétérinaire de Maisons-Alfort ↔ Sucy–Bonneuil RER,RATP,RATP,#ED1B2A,route_master,bus,,C01133,98 % (56/57)
 Line:relation:3695203,159,Bus 159 : La Défense ↔ Cité du Vieux Pont (Nanterre),RATP,RATP,#640082,route_master,bus,,C01182,97 % (44/45)
 Line:relation:3713597,N66,Noctilien N66 : Gare Montparnasse ↔ Gare Chaville Rive Droite,Noctilien,RATP,#DC143C,route_master,bus,100987796:N66,C01807,96 % (87/90)
-Line:relation:3800421,R2-Nord,Bus R2-Nord : Gare de Saint-Germain en Laye (circulaire),Résalys,Transdev Île-de-France Montesson Les Rabaux,#3B6493,route_master,bus,012012032:R2-Nord,C00158,95 % (20/21)
+Line:relation:3800421,R2-Nord,Bus R2-Nord : Gare de Saint-Germain en Laye (circulaire),Saint-Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,#3B6493,route_master,bus,,C00158,95 % (20/21)
 Line:relation:3906360,212,Bus 212 : Noisy – Champs RER – Descartes ↔ Émerainville Pontault-Combault RER,RATP,RATP,#87D4DF,route_master,bus,,C01226,96 % (28/29)
 Line:relation:3906369,213,Bus 213 : Chelles – Gournay RER ↔ Noisy – Champs RER – Descartes ↔ Lognes – Le Village,RATP,RATP,#9B983B,route_master,bus,,C01227,97 % (66/68)
 Line:relation:3908505,312,Bus 312 : Noisy – Champs RER – Descartes [Circulaire],RATP,RATP,#ff5a00,route_master,bus,,C01279,94 % (66/70)
@@ -338,7 +338,7 @@ Line:relation:6355936,321,Bus 321 : Lognes RER ↔ Aérodrome de Lognes ou Torcy
 Line:relation:6434505,N53,Noctilien N53 : Gare Saint-Lazare ↔ Nanterre – Anatole France,Noctilien,RATP,#77C695,route_master,bus,100987770:N53,C01409,95 % (81/85)
 Line:relation:6520401,10,Bus 10 : Victor Hugo (Brie-Comte-Robert) ↔ Gare de Noisiel,Arlequin,Transdev SETRA,,route_master,bus,040040010:10,C02124,22 % (12/53)
 Line:relation:6552159,259,Bus 259 : Nanterre - Anatole France ↔ Saint-Germain-en-Laye RER,RATP,RATP,#4397D2,route_master,bus,,C02000,100 % (74/74)
-Line:relation:6594969,421,Bus 421 : Vaires-Torcy ↔ Emerainville - Pontault-Combault,RATP,RATP,#008b5a,route_master,bus,,C01323,93 % (102/109)
+Line:relation:6594969,421,Bus 421 : Vaires-Torcy ↔ Emerainville - Pontault-Combault,RATP,RATP,#008b5a,route_master,bus,,C01323,94 % (103/109)
 Line:relation:6608978,249,Bus 249 : Place Valérie André ↔ Porte des Lilas,RATP,RATP,#CCD80E,route_master,bus,,C01241,97 % (77/79)
 Line:relation:6645022,394,Bus 394 : Issy–Val de Seine RER ↔ Bourg-la-Reine RER,RATP,RATP,,route_master,bus,,C01319,94 % (51/54)
 Line:relation:6660662,La Navette,La Navette de Fontenay-sous-Bois,RATP,RATP,,route_master,bus,,C01335,98 % (53/54)
@@ -432,7 +432,7 @@ Line:relation:6956998,N140,Noctilien N140: Gare de l’Est ↔ Roissypole,Noctil
 Line:relation:6957009,N143,Noctilien N143: Gare de l’Est ↔ Roissypole,Noctilien,Transilien,#4D90CD,route_master,bus,800:N143,C01644,57 % (8/14)
 Line:relation:6957037,N144,Noctilien N144: Gare de Lyon ↔ Corbeil-Essonnes RER,Noctilien,Transilien,#00AB66,route_master,bus,800:N144,C01645,74 % (23/31)
 Line:relation:6957057,N145,Noctilien N145: Gare Montparnasse ↔ Gare de La Verrière - Gare de Rambouillet,Noctilien,Transilien,#0AA896,route_master,bus,800:N145,C01646,63 % (35/55)
-Line:relation:6957244,19,Bus 19 : Aéroport CDG T3 - Roissypole ↔ Torcy RER,Seine-et-Marne Express,Transdev AMV,#ff0000,route_master,bus,051377019:19,C00639,62 % (10/16)
+Line:relation:6957244,19,Bus 19 : Aéroport CDG T3 - Roissypole ↔ Torcy RER,Seine-et-Marne Express,Transdev AMV,#ff0000,route_master,bus,051377019:19,C00639,56 % (9/16)
 Line:relation:6957245,18,Bus 18 : Gare de Melun ↔ Gare de Meaux,Meaux et Ourcq,Transdev Marne-et-Ourcq,,route_master,bus,,C00637,61 % (13/21)
 Line:relation:6957303,17,Bus 17 : Marne-la-Vallée Chessy Sud ↔ Coulommiers ↔ La Ferté Gaucher,Brie et Deux Morin,Transdev Brie et Deux Morin,#66B5E0,route_master,bus,,C01063,83 % (26/31)
 Line:relation:6957304,46,Bus 46 : Gare de Montereau ↔ Gare de Melun,Seine-et-Marne Express,Transdev Île-de-France Vulaines,,route_master,bus,062177046:46,C00798,96 % (24/25)
@@ -468,7 +468,7 @@ Line:relation:7011271,12,Bus 12 : Lycée Van Gogh (Aubergenville) ↔ Gare (Les 
 Line:relation:7011277,7,Bus 7 : Gare d'Argenteuil ↔ Gare d'Enghien-les-Bains,R'bus,Transdev TVO,,route_master,bus,016616514:7,C00312,47 % (16/34)
 Line:relation:7011303,480,Bus 480 : Gare de Villeneuve-Saint-Georges ↔ Aéroport d'Orly 1-2-3,Seine Grand Orly,Keolis Ouest Val-de-Marne,#00adee,route_master,bus,522522480:480,C00006,90 % (29/32)
 Line:relation:7011364,21,Bus 21 : Gare du Vésinet - Le Pecq ↔ Gare de Marly-le-Roi - Bèque,Entre Seine et Forêt,Transdev Île-de-France Montesson Les Rabaux,,route_master,bus,012012021:21,C00154,88 % (24/27)
-Line:relation:7011365,10,Bus 10 : Gare de Saint-Germain ↔ Gare de Marly-le-Roi,Entre Seine et Forêt,Transdev Île-de-France Montesson Les Rabaux,,route_master,bus,012012010:10,C00149,81 % (22/27)
+Line:relation:7011365,10,Bus 10 : Gare de Saint-Germain ↔ Gare de Marly-le-Roi,Saint-Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,,route_master,bus,012012010:10,C00149,81 % (22/27)
 Line:relation:7011367,Direct 4,Bus Direct 4 : Montparnasse ↔ Aéroport Roissy CDG,Le Bus Direct,Keolis Aerolis,#FF9B00,route_master,bus,098098004:DIRECT4,,
 Line:relation:7011368,Direct 3,Bus Direct 3 : Aéroport Orly ↔ Aéroport Roissy CDG,Le Bus Direct,Keolis Aerolis,,route_master,bus,098098003:DIRECT3,,
 Line:relation:7011369,Direct 2,Bus Direct 2 : Champ de Mars ↔ Aéroport Roissy CDG,Le Bus Direct,Keolis Aerolis,,route_master,bus,098098002:DIRECT2,,
@@ -505,7 +505,7 @@ Line:relation:7194122,617,Bus 617 : Gare d'Aulnay-sous-Bois ↔ Segro Logistics 
 Line:relation:7194158,112,Bus 112 : Fontainebleau ↔ Fontaineroux ou Samoreau,Aérial,Transdev Île-de-France Vulaines,#F74C00,route_master,bus,062062112:112,C00797,96 % (56/58)
 Line:relation:7194163,14,Bus 14 : Gare de Conflans Fin d'Oise ↔ Gare de Conflans-Sainte-Honorine Place Romagné ↔ Gare de Neuville-Université,Conflans Achères,Transdev Île-de-France Conflans,#FFFF00,route_master,bus,212212014:14,C01479,80 % (44/55)
 Line:relation:7194182,22,Bus 22 : Dourdan ↔ Paray Douaville,Dourdanais,Transdev Île-de-France Rambouillet,,route_master,bus,013013022:22,C00176,4 % (1/24)
-Line:relation:7194184,18,Bus 18 : Gare de Dourdan ↔ Champarts (Ablis),Dourdanais,Transdev Île-de-France Rambouillet,,route_master,bus,013013018:18,C00173,12 % (6/50)
+Line:relation:7194184,18,Bus 18 : Gare de Dourdan ↔ Champarts (Ablis),Dourdanais,Transdev Île-de-France Rambouillet,,route_master,bus,013013018:18,C00173,14 % (3/21)
 Line:relation:7199517,13,Bus 13 : Combs-la-Ville - Quincy Gare RER (circulaire intérieur),Sénart Bus,Transdev Sénart,,route_master,bus,519519013:13,C00847,94 % (17/18)
 Line:relation:7202603,207,Bus 207 : Évry-Courcouronnes Gare ↔ Fontenay - Grande Rue,Seine Essonne Bus,Keolis Seine Essonne,#FFA500,route_master,bus,024024207:207,C02020,95 % (44/46)
 Line:relation:7204064,27,Bus 27 : Gare de Lieusaint-Moissy ↔ Green de Réau,Sénart Bus,Transdev Sénart,,route_master,bus,519519020:27,C00848,
@@ -528,7 +528,7 @@ Line:relation:7280948,Citalien,Bus Citalien : Carré Citoyenneté (Lieusaint) �
 Line:relation:7292418,9,Bus 9 : Centre Commercial Ulis 2 ↔ Gare du Guichet ↔ Saclay ↔ Gare de Jouy-en-Josas,Paris-Saclay Mobilités,Les Cars d'Orsay,#DC2185,route_master,bus,269269002:9,C01561,90 % (64/71)
 Line:relation:7301947,35,Bus 35 : Savigny - Nandy Gare RER ↔ Cesson Gare RER,Sénart Bus,Transdev Sénart,,route_master,bus,519519060:35,C00856,33 % (3/9)
 Line:relation:7304704,52,Bus 52 : Fontenay Saint-Père - Église ↔ Limay - Lycée Condorcet,Mantois,RD Mantois,#3D90C6,route_master,bus,057057052:52,C00744,75 % (9/12)
-Line:relation:7318440,2,Bus 2 : Gare de Chelles Gournay ↔ Paul Algis (Chelles),Apolo 7,Société des transports du bassin chellois,#0033cc,route_master,bus,101261026:2,C01426,88 % (54/61)
+Line:relation:7318440,2,Bus 2 : Gare de Chelles Gournay ↔ Paul Algis (Chelles),Apolo 7,Société des transports du bassin chellois,#0033cc,route_master,bus,101261026:2,C01426,90 % (55/61)
 Line:relation:7323910,42,Bus 42 : Cesson Gare RER ↔ Hautes Billes (Vert-Saint-Denis),Sénart Bus,Transdev Sénart,,route_master,bus,519519042:42,C00854,50 % (10/20)
 Line:relation:7323911,43,Bus 43 : Cesson Gare RER ↔ Hautes Billes (Vert-Saint-Denis),Sénart Bus,Transdev Sénart,,route_master,bus,519519043:43,C00855,35 % (7/20)
 Line:relation:7331862,5,Bus 5 : Rond-Point des Sciences (Chelles) ↔ Gare de Lagny Thorigny,Apolo 7,Transdev STBC,#34B4E4,route_master,bus,101261027:5,C01427,58 % (27/46)
@@ -616,7 +616,7 @@ Line:relation:7678060,R1,Bus R1 : Gare de Survilliers Fosses ↔ Gare de Louvres
 Line:relation:7678061,R3,Bus R3 : Gare de Survilliers – Fosses ↔ Central Space Bâtiment C (ZI Moimont 2),Grand'R,Keolis CIF,,route_master,bus,014014903:R3,C00230,100 % (29/29)
 Line:relation:7678062,R108,Bus R108 : Mairie Annexe (Fosses) ↔ Institut Saint-Dominique (Mortefontaine),Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,014014108:R108,C00243,68 % (22/32)
 Line:relation:7678074,R117,Bus R117 : Centre-ville (Survilliers) ↔ Collège de Noailles - Lycée de Nerval (Luzarches),Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,014014117:R117,C00226,13 % (3/22)
-Line:relation:7678094,Survilliers,Bus Filéo Survilliers : Roissypole ↔ Survilliers,Filéo,Keolis Mobilité Roissy,,route_master,bus,116295008:FILEOFO,,
+Line:relation:7678094,Survilliers,Bus Filéo Survilliers : Roissypole ↔ Survilliers,Filéo,Keolis Mobilité Roissy,,route_master,bus,,C01712,98 % (65/66)
 Line:relation:7699451,3s,Bus 3s : Cité Scolaire (Chelles) ↔ Gare de Mitry Claye,Apolo 7,Société des transports du bassin chellois,#680068,route_master,bus,014361113:3s,C02130,95 % (46/48)
 Line:relation:7704305,11,Bus 11 : Gare de Gif-sur-Yvette (circulaire via Chevry),Paris-Saclay Mobilités,SAVAC,#12F55C,route_master,bus,039039008:11,C00495,72 % (29/40)
 Line:relation:7707602,16,Bus 16 : Saclay ↔ Igny,Paris-Saclay Mobilités,Les Cars d'Orsay,#F18E00,route_master,bus,006006016:16,C00078,95 % (21/22)
@@ -671,7 +671,7 @@ Line:relation:7802906,538,Bus 538 : Bus du Port,RATP,RATP,,route_master,bus,,C01
 Line:relation:7803053,541,Bus 541 : Buséolien,RATP,RATP,,route_master,bus,,C01338,92 % (49/53)
 Line:relation:7803143,545,Bus 545 : Noisy-le-Sec RER ↔ Louise Michel,RATP,RATP,,route_master,bus,,C01341,97 % (38/39)
 Line:relation:7803998,546,Bus TUB : La Mare à la Veuve (circulaire),RATP,RATP,#8d653a,route_master,bus,,C01342,96 % (49/51)
-Line:relation:7804907,574,Bus 574 : TUC,RATP,RATP,,route_master,bus,,C01354,68 % (30/44)
+Line:relation:7804907,574,Bus 574 : TUC,RATP,RATP,,route_master,bus,,C01354,55 % (16/29)
 Line:relation:7804913,577,Bus 577 (River Plaza) : Asnières-sur-Seine - Gabriel Péri ↔ Gennevilliers RER,RATP,RATP,#ff5a00,route_master,bus,,C01356,86 % (13/15)
 Line:relation:7804946,595,Bus 595 : La Boursidière ↔ Robinson RER,RATP,RATP,#006CB8,route_master,bus,,C01369,91 % (11/12)
 Line:relation:7813672,DM10A,Bus DM10A : Gare d'Orsay RER ↔ Marcoussis,Daniel Meyer,Keolis Meyer,#66c4dc,route_master,bus,055055010:DM10A,,
@@ -697,9 +697,9 @@ Line:relation:7908381,11,Bus 11 : Poissy - Gare Nord ↔ Maurecourt - Julia,Pois
 Line:relation:7909099,Navette,Bus Navette de Bouffémont : Gare de Bouffémont ↔ Centre médical,Cars Rose,Transdev Île-de-France,,route_master,bus,038595040:Navette,C00479,90 % (18/20)
 Line:relation:7912028,60,Bus 60 : Gare de Massy-Palaiseau ↔ Vélizy-Villacoublay Résidence Europe,Phébus,Keolis Vélizy,#7dceee,route_master,bus,004004019:60,C00046,90 % (20/22)
 Line:relation:7917619,07,Bus 07 : Freneuse (Guyenne) ↔ Bonnières-Sur-Seine (Collège Marcel Pagnol),Mantois,RD Mantois,,route_master,bus,,C00730,
-Line:relation:7917746,R2-Sud,Bus R2-Sud : Gare de Saint-Germain en Laye (circulaire),Résalys,Transdev Île-de-France Montesson Les Rabaux,#3B6493,route_master,bus,012012032:R2-Sud,C00159,100 % (25/25)
-Line:relation:7917760,R3-Nord,Bus R3-Nord : Gare de Saint-Germain en Laye (circulaire),Résalys,Transdev Île-de-France Montesson Les Rabaux,#718B3E,route_master,bus,012012035:R3-Nord,C00161,100 % (18/18)
-Line:relation:7917762,R3-Sud,Bus R3-Sud : Gare de Saint-Germain en Laye (circulaire),Résalys,Transdev Île-de-France Montesson Les Rabaux,#718B3E,route_master,bus,012012035:R3-Sud,C00162,95 % (19/20)
+Line:relation:7917746,R2-Sud,Bus R2-Sud : Gare de Saint-Germain en Laye (circulaire),Saint-Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,#3B6493,route_master,bus,,C00159,100 % (25/25)
+Line:relation:7917760,R3-Nord,Bus R3-Nord : Gare de Saint-Germain en Laye (circulaire),Saint-Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,#718B3E,route_master,bus,,C00161,100 % (18/18)
+Line:relation:7917762,R3-Sud,Bus R3-Sud : Gare de Saint-Germain en Laye (circulaire),Saint-Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,#718B3E,route_master,bus,,C00162,95 % (19/20)
 Line:relation:7917815,95-19,Bus 95-19 : Argenteuil Gare ↔ Cergy Préfecture,Busval d'Oise,Cars Lacroix,,route_master,bus,030195019:95-19,C00473,92 % (47/51)
 Line:relation:7917842,620,Bus 620 : Le Blanc-Mesnil - Pont-Yblon ↔ Bobigny - Pablo Picasso,Seine-Saint-Denis,Transdev TRA,,route_master,bus,293193620:620,C01588,89 % (68/76)
 Line:relation:7917900,P,Bus P : Gare de Montgeron (circulaire),VyBus,STRAV,#96BC17,route_master,bus,045045008:P,C01886,92 % (13/14)
@@ -730,7 +730,7 @@ Line:relation:7920977,E,Bus E : Gare de Meaux (circulaire via Villenoy),Meaux et
 Line:relation:7920978,30-12,Bus 30-12 : Gare de Cormeilles-en-Parisis ↔ Gare de Franconville,Parisis,Cars Lacroix,,route_master,bus,030030012:30-12,C00445,86 % (19/22)
 Line:relation:7920979,492,Bus 492 : Chilly-Mazarin — Place de la Libération ↔ Savigny-sur-Orge — Prés Saint-Martin,RATP,RATP,#ffcd02,route_master,bus,,C01328,100 % (37/37)
 Line:relation:7920980,R5,Bus R5 : Gare de Saint-Germain-en-Laye ↔ Clos Badère,Résalys,Transdev,#E5C062,route_master,bus,012012031:R5,C00157,88 % (32/36)
-Line:relation:7920981,R1,Bus R1 : Gare de Saint-Germain-en-Laye ↔ Lycée de Vinci,Résalys,Transdev,#AD3541,route_master,bus,012012033:R1,C00160,94 % (17/18)
+Line:relation:7920981,R1,Bus R1 : Gare de Saint-Germain-en-Laye ↔ Lycée de Vinci,Saint-Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,#AD3541,route_master,bus,,C00160,94 % (17/18)
 Line:relation:7920982,201,Bus 201 : Champigny–Diderot–La Plage ↔ Porte Dorée,RATP,RATP,#6e491e,route_master,bus,,C01219,100 % (36/36)
 Line:relation:7920983,234,Bus 234 : Fort d'Aubervilliers ↔ Mairie de Livry-Gargan,RATP,RATP,#ff5a00,route_master,bus,,C01234,88 % (68/77)
 Line:relation:7920984,247,Bus 247 : Stade Charles Sage ↔ Garonor,RATP,RATP,#ff5a00,route_master,bus,,C01695,100 % (40/40)
@@ -872,7 +872,7 @@ Line:relation:8187695,8,Bus 8 : Gare d'Argenteuil ↔ Berionne,R'bus,Transdev Ro
 Line:relation:8189692,607,Bus 607 : La Courneuve - 8 Mai 1945 ↔ Gare de Villepinte,Seine-Saint-Denis,Transdev TRA,#F28E43,route_master,bus,293193607:607,C01578,97 % (68/70)
 Line:relation:8207026,609,Bus 609 : Gare de Villepinte ↔ Fort d'Aubervilliers - Métro,Seine-Saint-Denis,Transdev TRA,,route_master,bus,293193609:609,C01579,96 % (52/54)
 Line:relation:8208930,642,Bus 642 : Gare de Villepinte ↔ Gare du Vert Galant,Seine-Saint-Denis,Transdev TRA,,route_master,bus,293193642:642,C01594,67 % (31/46)
-Line:relation:8211074,701,Bus 701 : Beaupré ↔ Aéroport CDG1 RER B,Goëlys,Keolis CIF,,route_master,bus,014077701:701,C00245,68 % (39/57)
+Line:relation:8211074,701,Bus 701 : Beaupré ↔ Aéroport CDG1 RER B,Goëlys,Keolis CIF,,route_master,bus,014077701:701,C00245,60 % (38/63)
 Line:relation:8218429,704,Bus 704 : Saint-Pathus Les Frênes ↔ Meaux,Goëlys,Keolis CIF,,route_master,bus,014077704:704,C00248,1 % (1/64)
 Line:relation:8218430,711,Bus 711 : Dammartin-en-Goële ↔ Meaux,Goëlys,Keolis CIF,,route_master,bus,014077711:711,C00254,0 % (1/103)
 Line:relation:8218451,Inter-Val,Bus Inter-Val : Hôpital Joffre (Draveil) ↔ Centre Hospitalier (Villeneuve-Saint-Georges),Seine Sénart Bus,Keolis Seine Sénart,,route_master,bus,021021100:Inter-Val,C00351,81 % (61/75)
@@ -890,8 +890,7 @@ Line:relation:8264762,9B,Bus 9B : Gare Marly le Roi (circulaire),Entre Seine et 
 Line:relation:8264763,9AB,Bus 9AB : Gare de Marly-le-Roi → Bèque SNCF,Entre Seine et Forêt,Transdev Île-de-France Montesson Les Rabaux,Blue/Orange,route_master,bus,012012009:9AB,C00146,94 % (17/18)
 Line:relation:8264764,9A,Bus 9A : Gare Marly le Roi (circulaire),Entre Seine et Forêt,Transdev Île-de-France Montesson Les Rabaux,,route_master,bus,012012009:9A,C00145,91 % (11/12)
 Line:relation:8264765,9D,Bus 9D : Gare de Marly-le-Roi (circulaire),Entre Seine et Forêt,Transdev Île-de-France Montesson Les Rabaux,,route_master,bus,012012009:9D,C00148,86 % (25/29)
-Line:relation:8268039,18,Bus 18 : Bèque SNCF (circulaire via Le Port-Marly),Entre Seine et Forêt,Transdev Île-de-France Montesson Les Rabaux,,route_master,bus,012012018:18,C00152,
-Line:relation:8268259,18S,Bus 18S : Jean Moulin ↔ Plains Champs,Entre Seine et Forêt,Transdev Île-de-France Montesson Les Rabaux,,route_master,bus,012012018:18S,C00153,92 % (13/14)
+Line:relation:8268259,18S,Bus 18S : Jean Moulin ↔ Plains Champs,Saint-Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,,route_master,bus,012012018:18S,C00153,92 % (13/14)
 Line:relation:8268452,N1,Bus N1 : Terminal 2F (circulaire),ADP,Aéroports de Paris,,route_master,bus,043043001:N1,C00562,100 % (9/9)
 Line:relation:8268538,N2,Bus N2 : Terminal 2 F ↔ Terminal 2 G,ADP,Aéroports de Paris,,route_master,bus,043043002:N2,C01792,66 % (2/3)
 Line:relation:8268978,DM21B,Bus DM21B : Gare de Savigny-sur-Orge (circulaire via François Mitterand),Daniel Meyer,Keolis Meyer,#9980FF,route_master,bus,055055021:DM21B,,
@@ -967,7 +966,7 @@ Line:relation:8393786,S3,Bus scolaire S3 : Grand Dôme (Villebon) ↔ Collège I
 Line:relation:8393787,S4,Bus scolaire S4 : Millet (Villebon) ↔ Collège J. Verne,Libéo,Transdev,#F2A5B7,route_master,bus,006006019:S4,C01654,50 % (5/10)
 Line:relation:8396927,453,Bus 453 : Imprimerie Nationale (Bondoufle) ↔ Les Meillottes (Soisy-sur-Seine),Tice,Tice,#A80983,route_master,bus,400400453:453,C01631,87 % (74/85)
 Line:relation:8397961,7,Bus 7 : Gare des Mureaux ↔ Chopin,Poissy - Les Mureaux,Keolis Seine et Oise Est,,route_master,bus,,C01783,93 % (15/16)
-Line:relation:8398489,Goussainville,Bus Filéo Goussainville : Roissypole ↔ Les Côteaux (Goussainville),Filéo,Keolis,,route_master,bus,116295003:FILEOG,,
+Line:relation:8398489,Goussainville,Bus Filéo Goussainville : Roissypole ↔ Les Côteaux (Goussainville),Filéo,Keolis Mobilité Roissy,,route_master,bus,,C01432,92 % (76/82)
 Line:relation:8399988,2,Bus 2 : Gare de Fontainebleau - Avon ↔ Jacques Durand,Aérial,Transdev Île-de-France Vulaines,#1E7FCB,route_master,bus,062062062:2,C00795,100 % (14/14)
 Line:relation:8400207,51,Bus 51 : Hôpital Mignot ↔ Saint-Quentin-en-Yvelines - Gare P. Delouvrier,STAVO,STAVO,,route_master,bus,044044051:51,C01873,92 % (36/39)
 Line:relation:8400479,M,Bus M : Buchelay - Béarn ↔ Buchelay - Béarn,Mantois,RD Mantois,#E0C41B,route_master,bus,,C01606,80 % (28/35)
@@ -978,8 +977,8 @@ Line:relation:8404004,4,Bus 4 : La Croix de Berny RER ↔ Cimetière Nouveau,Pal
 Line:relation:8404223,43,Bus 43 : Gare de Fontenay le Fleury (circulaire),STAVO,STAVO,,route_master,bus,044044043:43,C01872,100 % (15/15)
 Line:relation:8404345,91-01,Bus 91-01 : Gare Brunoy ↔ Gare Routière d'Evry Courcouronnes,Albatrans,Albatrans,#1ac7ff,route_master,bus,291191001:91-01,C01562,88 % (30/34)
 Line:relation:8404789,18,Bus 18 : Marché (Villeparisis) ↔ Collège Gérard Philipe,Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,014014218:18,C00200,90 % (20/22)
-Line:relation:8404844,Saint-Pathus,Bus Filéo Saint-Pathus : Roissypole ↔ Saint-Pathus,Filéo,Keolis Mobilité Roissy,,route_master,bus,116277009:FILEOSP,,
-Line:relation:8405392,Sarcelles,Bus Filéo Sarcelles : Roissypole ↔ Sarcelles,Filéo,Keolis,,route_master,bus,116295001:FILEOS,,
+Line:relation:8404844,Saint-Pathus,Bus Filéo Saint-Pathus : Roissypole ↔ Saint-Pathus,Filéo,Keolis Mobilité Roissy,,route_master,bus,,C01823,94 % (56/59)
+Line:relation:8405392,Sarcelles,Bus Filéo Sarcelles : Roissypole ↔ Sarcelles,Filéo,Keolis Mobilité Roissy,,route_master,bus,,C01431,94 % (71/75)
 Line:relation:8405850,X,Bus X : Mantes-la-Jolie - Henri Clérisse ↔ Gare de Mantes-la-Jolie,Mantois,RD Mantois,#8B4A12,route_master,bus,,C01612,89 % (17/19)
 Line:relation:8406206,30,Bus 30 : La Celle Saint-Cloud Gare ↔ Puits d'Angle,Traverciel,Transdev Île-de-France Nanterre,,route_master,bus,213213027:30,C01772,100 % (20/20)
 Line:relation:8407058,45,Bus 45 : Musée de Sèvres ↔ Mairie de Vélizy,Vélizy Vallées,Keolis Vélizy Vallée de la Bièvre,#AF00F5,route_master,bus,004004029:45,C00051,100 % (22/22)
@@ -991,7 +990,6 @@ Line:relation:8409188,33 SoisyBus,Bus 33 SoisyBus : Parc des Sources ↔ Champ d
 Line:relation:8409316,10,Bus 10 : Ermont Eaubonne Gare ↔ Parc des Sources,Vallée de Montmorency,Transdev Valmy,,route_master,bus,,C00299,97 % (38/39)
 Line:relation:8409465,25,Bus 25 : Gare d'Etampe ↔ Gare de Pithiviers,Rémi 45,,,route_master,bus,073073025:25,,
 Line:relation:8411436,4,Bus 4 : Gare de Fontainebleau Avon ↔ Lavoir aux Chapeaux,Aérial,Transdev Île-de-France Vulaines,#40E600,route_master,bus,062062012:4,,
-Line:relation:8412060,R6,Bus R6 : Lycée de Vinci ↔ Gare de Saint-Germain en Laye,Résalys,Transdev Île-de-France Montesson Les Rabaux,,route_master,bus,012012034:R6,C01877,
 Line:relation:8412526,DM11A,Bus DM11A : Gare de Massy-Palaiseau ↔ Jules Verne (Nozay) ↔ Piscine (Sainte-Geneviève des Bois),Daniel Meyer,Keolis Meyer,#ff8c00,route_master,bus,055055011:DM11A,,
 Line:relation:8412527,DM11G,Bus DM11G : Gare de Massy-Palaiseau ↔ Marcoussis ↔ Piscine (Sainte-Geneviève des Bois),Daniel Meyer,Keolis Meyer,#d437d4,route_master,bus,055055023:DM11G,C00674,81 % (45/55)
 Line:relation:8413209,91-06,Bus 91-06 : Christ du Saclay ↔ Gare de Massy-Palaiseau,Albatrans,Albatrans,#1ac7ff,route_master,bus,291191006:91-06,C01567,88 % (38/43)
@@ -1012,7 +1010,7 @@ Line:relation:8448000,2,Bus 2 : Gare de Persan - Beaumont ↔ Gare de Montsoult 
 Line:relation:8448304,F,Navette F : Champlan ↔ C.Cial Massy | C.Cial Villebon 2,Paris-Saclay,,#986647,route_master,bus,,,
 Line:relation:8448533,Baladobus,Bus Baladobus : Gare de Saint-Rémy-Lès-Chevreuse (circulaire),SAVAC,SAVAC,,route_master,bus,139578038:Baladobus,,
 Line:relation:8449168,G,Bus G : Gare de Sartrouville ↔ Gare du Vésinet Le Pecq,Bus en Seine,Île-de-France Mobilités,,route_master,bus,016248022:G,C00337,84 % (22/26)
-Line:relation:8449216,Roissy Sud,Bus Filéo Roissy Sud : Roissypole ↔ Vert Galant (Villepinte),Filéo,Keolis,,route_master,bus,116931007:FILEOVE,,
+Line:relation:8449216,Roissy Sud,Bus Filéo Roissy Sud : Roissypole ↔ Vert Galant (Villepinte),Filéo,Keolis Mobilité Roissy,,route_master,bus,,C01671,98 % (62/63)
 Line:relation:8449353,611,Bus 611 : La Courneuve - 8 mai 1945 ↔ Gagarine,Seine-Saint-Denis,Transdev TRA,,route_master,bus,293193611:611,C01884,100 % (7/7)
 Line:relation:8449420,619,Bus 619 : Gare du Vert Galant ↔ Petit Tremblay,Seine-Saint-Denis,Transdev TRA,,route_master,bus,293193619:619,C01587,82 % (37/45)
 Line:relation:8450067,35,Bus 35 : Saint-Blin - Lycée René Cassin ↔ Gare de Villiers-le-Bel - Gonesse - Arnouville,TransVO,Transdev Trans Val d'Oise,#33F2FF,route_master,bus,050050035:35,C00615,90 % (18/20)
@@ -1337,7 +1335,7 @@ Line:relation:9832633,DM19,Bus DM19 : Gare de Bretigny ↔ Place des FFI,Daniel 
 Line:relation:9832751,DM20,Bus DM20 : Gare d'Egly (circulaire),Daniel Meyer,Keolis Meyer,,route_master,bus,055055020:DM20,C00682,41 % (5/12)
 Line:relation:9836790,R7,Bus R7 : Louvres RER D ↔ Puiseux-en-France,Grand'R,Keolis CIF,,route_master,bus,014014907:R7,C00234,90 % (18/20)
 Line:relation:9836838,14,Bus 14 : Viarmes - Gare ↔ Baillon,Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,014014014:14,C00196,92 % (25/27)
-Line:relation:9836855,22,Bus 22 : Institution Fénélon ↔ Dammartin Juilly Saint-Mard Train K,Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,,C00203,80 % (54/67)
+Line:relation:9836855,22,Bus 22 : Institution Fénélon ↔ Dammartin Juilly Saint-Mard Train K,Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,,C00203,80 % (55/68)
 Line:relation:9836890,38,Bus 38 : Collège Blaise Pascal ↔ Rue de Giez,Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,014014038:38,C00212,100 % (5/5)
 Line:relation:9836912,49,Bus 49 : Collège Anna de Noailles - Lycée Gérard de Nerval ↔ Place Gambetta,Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,014014049:49,C02033,89 % (26/29)
 Line:relation:9853421,S1,Bus S1 : Gare de Sartrouville ↔ Collège Pablo Picasso,Bus en Seine,Île-de-France Mobilités,#f7a600,route_master,bus,019248007:S1,C02148,88 % (16/18)

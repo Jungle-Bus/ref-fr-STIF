@@ -413,7 +413,7 @@ Line:relation:6949604,V,Bus V : Gare de Montgeron ↔ Clos de la Régale (Vigneu
 Line:relation:6949654,N135,Noctilien N135: Gare de Villeneuve-Saint-Georges ↔ Corbeil Essonnes,Noctilien,Transilien,#15489e,route_master,bus,800:N135,C01643
 Line:relation:6950503,N153,Noctilien N153: Gare Saint-Lazare ↔ Gare de Saint-Germain-en-Laye,Noctilien,RATP,,route_master,bus,100987791:N153,C01422
 Line:relation:6950504,N151,Noctilien N151 : Gare Saint-Lazare ↔ Gare de Mantes la Jolie,Noctilien,Transilien,,route_master,bus,800:N151,C01635
-Line:relation:6952110,95-01,Bus 95-01 : Roissypole (RER) ↔ Luzarches,Busval d'Oise,Keolis CIF,#4DEDFF,route_master,bus,014195001:95-01,C00264
+Line:relation:6952110,95-01,Bus 95-01 : Roissypole (RER) ↔ Gare de Survilliers - Fosses,Busval d'Oise,Keolis CIF,#4DEDFF,route_master,bus,014195001:95-01,C00264
 Line:relation:6953405,95-05,Bus 95-05 : Frouville - Messelan ↔ Mennouville - Place du Village ↔ Hérouville-en-Vexin - Château ↔ Ennery - Croix d'Autel ↔ Gare de Cergy-Préfecture,Vexin,Transdev Vexin,#00FFFF,route_master,bus,,C00393
 Line:relation:6953807,N142,Noctilien N142: Gare de l’Est ↔ Tournan RER,Noctilien,Transilien,#D17FB5,route_master,bus,800:N142,C01640
 Line:relation:6954049,95-06,Bus 95-06 : Arronville - Lavoir ↔ Cergy Préfecture,Vexin,Transdev Vexin,#00A6FF,route_master,bus,,C01785
@@ -1032,7 +1032,6 @@ Line:relation:8455292,34B,Bus 34B : Les Étards ↔ Collège Les Remparts,Yerres
 Line:relation:8455382,35C,Bus 35C : Mormant - Collège Nicolas Fouquet ↔ La Chapelle-Gauthier,Yerres,Transdev Darche Gros,,route_master,bus,097097035:35C,C02127
 Line:relation:8455445,37A,Bus 37A : Gare de Melun ↔ Les Étards,Yerres,Transdev Darche Gros,,route_master,bus,097097037:37A,C02107
 Line:relation:8455504,32,Bus 32 : Nangis - Collège Barthélémy ↔ Guignes - Église,Yerres,Transdev Darche Gros,,route_master,bus,097097032:32,C01052
-Line:relation:8456080,45,Bus 45 : La Défense Terminal Jules Verne (circulaire via Colombia),R'bus,Transdev Rochefort Océan,,route_master,bus,019019045:45,C00326
 Line:relation:8456090,5,Bus 5 : Trembleaux ↔ Gare de Sartrouville,R'bus,Transdev Rochefort Océan,,route_master,bus,016616005:5,C00296
 Line:relation:8456130,17,Bus 17 : Gare du Val d'Argenteuil (circulaire),R'bus,Transdev Rochefort Océan,,route_master,bus,016616017:17,C01822
 Line:relation:8464879,03,Bus 03 : Le Fresne (circulaire),Sénartbus Essonne,Transdev Sénart,,route_master,bus,519519003:03,C00843
@@ -1227,7 +1226,7 @@ Line:relation:9233997,30-23,Bus 30-23 : Gare de Saint-Leu la Forêt ↔ Gare de 
 Line:relation:9234023,30-37,Bus 30-37 : Gare de Franconville (circulaire),Valbus,Cars Lacroix,,route_master,bus,030030037:30-37,C00463
 Line:relation:9234745,30-39,Bus 30-39 : Rougemonts - Liberté ↔ Gare de Saint-Brice,Vallée de Montmorency,Transdev Valmy,,route_master,bus,,C00465
 Line:relation:9234799,30-47,Bus 30-47 : Gare d'Herblay ↔ Alouettes,Valbus,Cars Lacroix,,route_master,bus,030030047:30-47,C01709
-Line:relation:9234813,38-02,Bus 38-02 : Montmorency Mairie ↔ Mairie d’Attainville,Vallée de Montmorency,Transdev Valmy,,route_master,bus,,C00485
+Line:relation:9234813,38-02,Bus 38-02 : Montmorency Mairie ↔ Mairie d’Attainville,Valmy,Transdev Valmy,,route_master,bus,,C00485
 Line:relation:9235172,708,Bus 708 : Beaupré ↔ Gare Saint-Mard,Goëlys,Keolis CIF,,route_master,bus,014077708:708,C00251
 Line:relation:9235191,709,Bus 709 : Gare Saint-Mard ↔ Condé,Goëlys,Keolis CIF,,route_master,bus,014077709:709,C00252
 Line:relation:9236158,208,Bus 208 : Mairie (Champcueil) ↔ Ormoy - Les Rochers ou Echarcon - Château ↔ Auvernaux - Bouletterie,Seine Essonne Bus,Keolis Seine Essonne,,route_master,bus,024024208:208,C02021
@@ -1284,7 +1283,7 @@ Line:relation:9259499,913.50,Bus 913.50 : Gare d'Etrechy ↔ Gare d'Étampes,Orm
 Line:relation:9259815,261,Bus 261 : Gare de Versailles-Château-Rive-Gauche ↔ Haut Pré,Vélizy Vallées,Keolis Vélizy Vallée de la Bièvre,,route_master,bus,039262261:261,C01701
 Line:relation:9259892,39-05,Bus 39-05 : Gare Autoroutière (circulaire),SAVAC,SAVAC,,route_master,bus,039039005:39-05,
 Line:relation:9261361,39-103,Bus 39-103 : Cernay-la-Ville Place ↔ Gare de Saint-Rémy-lès-Chevreuse,SAVAC,SAVAC,,route_master,bus,039039103:39-103,C00528
-Line:relation:9261401,39-18,Bus 39-18 : Limours - Monument ↔ Bel Air - Parc d'Activités,SAVAC,SAVAC,,route_master,bus,039039018:39-18,C00502
+Line:relation:9261401,39-18,Bus 39-18 : Limours - Monument ↔ Arpajon,SAVAC,SAVAC,,route_master,bus,039039018:39-18,C00502
 Line:relation:9261410,39-403,"Bus 39-403 : Gare de Saint-Rémy-lès-Chevreuse ↔ Chevreuse, Petits Ponts École",SAVAC,SAVAC,,route_master,bus,039039403:39-403,C00533
 Line:relation:9261650,109,Bus 109 : Maison d'Arrêt des Femmes ↔ Porte d'Orléans,CEAT Val d'Orge,Transdev CEAT,,route_master,bus,010010007:109,C01663
 Line:relation:9275130,95-33,Bus 95-33 : Marines - Collège Les Hautiers ↔ Génicourt - Rue des Fossettes,Vexin,Transdev Vexin,,route_master,bus,,C01789

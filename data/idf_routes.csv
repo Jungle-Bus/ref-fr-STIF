@@ -297,7 +297,7 @@ Route:relation:1650712,TZen 1 : Lieusaint - Moissy Gare RER → Corbeil-Essonnes
 Route:relation:1658284,Bus 57 : Gare d'Esbly → Gare de Marne-la-Vallée - Chessy Nord,57,Gare de Marne-la-Vallée - Chessy Nord,Marne-la-Vallée
 Route:relation:1658297,Bus 60 : Philo → Gare de Val d'Europe,60,Gare de Val d'Europe,Marne-la-Vallée
 Route:relation:1658372,Bus 8A : Gare de Crécy-la-Chapelle (circulaire),8A,Gare de Crécy-la-Chapelle,Brie et Deux Morin
-Route:relation:1658374,Bus 59 : Camping → Gare de Marne-la-Vallée Chessy Nord,59,Chessy Gares,Brie et Deux Morin
+Route:relation:1658374,Bus 59 : Gare de Crécy-la-Chapelle → Gare de Marne-la-Vallée Chessy Nord,59,Chessy Gares,Brie et Deux Morin
 Route:relation:1658375,Bus 73 : Gare de Villiers - Montbarbin → École Sainte-Thérèse (Couilly-Pont-aux-Dames),73,École Sainte-Thérèse (Couilly-Pont-aux-Dames),Brie et Deux Morin
 Route:relation:1667800,Noctilien N24 : Gare de Sartrouville → Châtelet,N24,Châtelet,Noctilien
 Route:relation:1687235,Bus 330 : Porte d'Étampes Brigeolet (Angerville),330,Brigeolet (Angerville),Étampois
@@ -348,7 +348,7 @@ Route:relation:1987578,Bus 289 : Porte de Saint-Cloud → Georges Pompidou (Clam
 Route:relation:1991745,Bus 162 : Villejuif-Louis Aragon Métro → Meudon-Val Fleury RER,162,"Meudon, Val Fleury RER",RATP
 Route:relation:2005096,Bus 196 : Massy–Palaiseau RER → Antony RER,196,Antony RER,RATP
 Route:relation:2005241,Bus 85-01 : Dourdan intra-muros (circuit 1),85-01,Gare de Dourdan,Cars Perron
-Route:relation:2045294,Bus v3 : Service de Cachan,v3,Mairie de Cachan,RATP
+Route:relation:2045294,Bus v3 : Service de Cachan - Mairie de Cachan → Cité Jardins,v3,L'Orangerie,Valouette
 Route:relation:2085721,Bus 360 : Hôpital de Garches → La Défense,360,La Défense,RATP
 Route:relation:2087225,Bus 186 : Porte d'Italie → Fresnes - Rond-Point Roosevelt,186,Fresnes — Rond-Point Roosevelt,RATP
 Route:relation:2117015,Bus 39-12 : Gare de Versailles Chantiers → Mérantais (Magny-les-Hameaux),39-12,Mérantais (Magny-les-Hameaux),SAVAC
@@ -841,7 +841,7 @@ Route:relation:5569621,Bus 171 : Pont de Sèvres → Château de Versailles,171,
 Route:relation:5594048,"Bus 108 : Sainte-Geneviève des Bois, ZI La Croix Blanche → Paris, Porte d'Orléans",108,"Paris, Porte d'Orléans",CEAT Val d'Orge
 Route:relation:5594142,Bus 615 : Villepinte RER → Bobigny - Pablo Picasso,615,Bobigny - Pablo Picasso,Seine-Saint-Denis
 Route:relation:5602183,Bus 39-07 : Gare Orsay-Ville RER → Saint-Arnoult-en-Yvelines,39-07,Saint-Arnoult-en-Yvelines,SAVAC
-Route:relation:5609060,41 : Crépy-en-Valois ↔ Roissy,41,,
+Route:relation:5609060,41 : Crépy-en-Valois ↔ Roissy,41,Roissy,
 Route:relation:5638401,Bus 4 : Gare de Sainte-Geneviève-des-Bois → ZI Croix Blanche,4,ZI Croix Blanche,Génovébus
 Route:relation:5646393,La Traverse Batignolles - Bichat,La Traverse,Porte de Saint-Ouen,RATP
 Route:relation:5668596,Bus 65 : Gare de Meaux → Gare de La Ferté-Milon,65,Gare de La Ferté-Milon,Meaux et Ourcq
@@ -1605,7 +1605,7 @@ Route:relation:8105895,Bus 459 : Henri Regnault → Gare de Saint-Cloud,459,,RAT
 Route:relation:8107337,Bus 9A : Villebéon - Passy → Saint-Pierre de Nemours,9A,Saint-Pierre de Nemours,STILL
 Route:relation:8107344,Bus 9C : Château → Gare de Nemours,9C,Gare de Nemours,STILL
 Route:relation:8107370,Bus 57 : Gare de Marne-la-Vallée - Chessy Nord → Gare d'Esbly,57,Gare d'Esbly,Marne-la-Vallée
-Route:relation:8107384,Bus 59 : Gare de Marne-la-Vallée Chessy Nord → Camping,59,Camping,Brie et Deux Morin
+Route:relation:8107384,Bus 59 : Gare de Marne-la-Vallée Chessy Nord → Gare de Crécy-la-Chapelle,59,Gare de Crécy-la-Chapelle,Brie et Deux Morin
 Route:relation:8108524,Bus 14 : Collège Stéphane Hessel → Île de Loisirs,14,Île de Loisirs,Marne-la-Vallée
 Route:relation:8108525,Bus 14 : Île de Loisirs → Collège Stéphane Hessel,14,Collège Stéphane Hessel,Marne-la-Vallée
 Route:relation:8109655,Bus 151 : Bondy–Jouhaux–Blum → Porte de Pantin (dimanche matin),151,Porte de Pantin,RATP
@@ -1737,8 +1737,8 @@ Route:relation:8160866,Bus 114 : Gare d'Epinay-sur-Orge → Le Breuil → Gare d
 Route:relation:8165169,Bus 643 : Gare du Vert Galant → Gare de Chenay Gagny,643,Gare de Chenay Gagny,Seine-Saint-Denis
 Route:relation:8185761,Bus N1 : Terminal 2F (circulaire),N1,Terminal 2F,ADP
 Route:relation:8185762,Bus N2 : Terminal 2 F → Terminal 2 G,N2,Terminal 2 G,ADP
-Route:relation:8186067,Bus 38 : Collège Maurice Ravel → La Picotière,38,La Picotière,Transdev Ile-de-France Houdan
-Route:relation:8186328,Bus 38 : La Picotière → Collège Maurice Ravel,38,Collège Maurice Ravel,Transdev Ile-de-France Houdan
+Route:relation:8186067,Bus 38 : Collège Maurice Ravel → La Picotière,38,La Picotière,Houdanais
+Route:relation:8186328,Bus 38 : La Picotière → Collège Maurice Ravel,38,Collège Maurice Ravel,Houdanais
 Route:relation:8186761,Bus 9 : Gare de Sartrouville → Gare d'Argenteuil,9,Gare d'Argenteuil,R'bus
 Route:relation:8186762,Bus 9 : Gare d'Argenteuil → Gare de Sartrouville,9,Gare de Sartrouville,R'bus
 Route:relation:8187523,Bus 30-05 : Gare de Sartrouville → Gare de Montigny - Beauchamp,30-05,Gare de Montigny - Beauchamp,Parisis
@@ -2701,7 +2701,7 @@ Route:relation:9675495,Bus 103 : Val d'Albian Villeras → Gare de Versailles Ch
 Route:relation:9675498,Bus 103 : Gare de Versailles Château - Rive Gauche → Val d'Albian Villeras,103,Val d'Albian Villeras,Vélizy Vallées
 Route:relation:9678283,Bus DM2A : Sainte-Geneviève-des-Bois → Gare de Saint-Michel-sur-Orge,DM2A,Gare de Saint-Michel-sur-Orge,Daniel Meyer
 Route:relation:9679154,Chavilbus Rouge : Gare de Chaville Rive Droite → Gare de Chaville Rive Droite,Rouge,Gare de Chaville Rive Droite,Chavilbus
-Route:relation:9680609,Bus v3 : L'Orangerie → Le Coteau → Mairie de Cachan,v3,Mairie de Cachan,RATP
+Route:relation:9680609,Bus v3 : Service de Cachan - L'Orangerie → Le Coteau,v3,Mairie de Cachan,Valouette
 Route:relation:9682013,Bus 9D (circulaire secondaire) : Gare de Marly-le-Roi → Vauillons → Gare de Marly-le-Roi,9D,Gare de Marly-le-Roi,Entre Seine et Forêt
 Route:relation:9682814,Bus J2 (circulaire du dimanche matin) : Gare de Villeneuve-Saint-Georges -> Gare de Villeneuve-Saint-Georges,J2,Gare de Villeneuve,Marne et Seine
 Route:relation:9683371,Bus J1 (circulaire du dimanche matin) : Gare de Villeneuve-Saint-Georges -> Gare de Boissy-Saint-Léger -> Gare de Villeneuve-Saint-Georges,J1,Gare de Villeneuve-Saint-Georges,STRAV
@@ -3188,8 +3188,8 @@ Route:relation:10003676,Bus 22 : Gare de Mantes la Jolie → Saint-Germain en La
 Route:relation:10003677,Bus 22 : Saint-Germain en Laye - République → Gare de Mantes la Jolie,22,Gare de Mantes la Jolie,Mantois
 Route:relation:10003787,bus 81 : Mairie (Issou) → Gare d'Épône Mézières,81,Gare d'Épône Mézières,Mantois
 Route:relation:10003788,bus 81 : Gare d'Épône Mézières → Mairie (Issou),81,Mairie (Issou),Mantois
-Route:relation:10003836,bus 82 : Hanneucourt (Gargenville) → Gare d'Épône Mézières (Épône),82,Gare d'Épône Mézières (Épône),Mantois
-Route:relation:10003837,bus 82 : Gare d'Épône Mézières (Épône) → Hanneucourt (Gargenville),82,Hanneucourt (Gargenville),Mantois
+Route:relation:10003836,Bus 82 : Gare de Juziers→ Gare d'Épône Mézières (Épône),82,Gare d'Épône Mézières (Épône),Mantois
+Route:relation:10003837,Bus 82 : Gare d'Épône Mézières (Épône) → Gare de Juziers,82,Gare de Juziers,Mantois
 Route:relation:10015704,Bus S5 : Piscine de Carrières → Collège des Amandiers (Carrières-sur-Seine),S5,Collège des Amandiers (Carrières-sur-Seine),Bus en Seine
 Route:relation:10015705,Bus S5 : Collège des Amandiers (Carrières-sur-Seine) → Piscine de Carrières,S5,Piscine de Carrières,Bus en Seine
 Route:relation:10016213,Bus 10 : Aristide Briand (Bransles) → Gare de Nemours Saint-Pierre,10,Gare de Nemours Saint-Pierre,STILL
@@ -3362,7 +3362,7 @@ Route:relation:10974460,"Flixbus 1702: Paris, Aéroport Charles de Gaulle => Bre
 Route:relation:10974480,"Flixbus 792: Rennes, Gare routière => Paris, Gallieni",792,"Paris, Gallieni",Flixbus
 Route:relation:10974481,"Flixbus 792: Paris, Gallieni => Rennes, Gare routière",792,"Rennes, Gare routière",Flixbus
 Route:relation:10975036,"Flixbus N765: Lourdes, Gare routière SNCF => Paris, Gallieni",N765,"Paris, Gallieni",Flixbus
-Route:relation:10975037,"Flixbus N765: Paris, Gallieni => Lourdes, Gare routière SNCF",N765,"Lourdes, Gare routière SNCF",Flixbus
+Route:relation:10975037,"Flixbus N765: Paris, Gallieni → Lourdes, Gare routière SNCF",N765,"Lourdes, Gare routière SNCF",Flixbus
 Route:relation:10979211,"Flixbus 772: Paris, Bercy Seine => Saint-Malo, Porte de Dinan",772,"Saint-Malo, Porte de Dinan",Flixbus
 Route:relation:10979212,"Flixbus 772: Saint-Malo, Porte de Dinan => Paris, Bercy Seine",772,"Paris, Bercy Seine",Flixbus
 Route:relation:10979269,"Flixbus 722: Paris, Bercy Seine => Caen, Gare routière",722,"Caen, Gare routière",Flixbus

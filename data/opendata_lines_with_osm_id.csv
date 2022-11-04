@@ -285,7 +285,6 @@ Operator_030,Cars Lacroix,C00460,30-33,30-33 Scolaire,3,008FD3,FFFFFF,Line:relat
 Operator_030,Cars Lacroix,C00461,30-34,30-34 Scolaire,3,E8BB00,000000,
 Operator_030,Cars Lacroix,C00462,30-36,30-36,3,00772F,FFFFFF,
 Operator_030,Cars Lacroix,C00466,30-42,30-42,3,DFA0C4,000000,Line:relation:9106179
-Operator_030,Cars Lacroix,C00473,95-19,95-19,3,008B45,FFFFFF,Line:relation:7917815
 Operator_030,Cars Lacroix,C00480,CitéVal N,CitéVal Nord Herblay,3,F08B27,FFFFFF,
 Operator_030,Cars Lacroix,C00481,CitéVal S,CitéVal Sud Herblay,3,00538D,FFFFFF,
 Operator_030,Cars Lacroix,C02040,CitéVal C,CitéVal Cormeilles-en-Parisis,3,E5377D,FFFFFF,
@@ -770,7 +769,6 @@ Operator_111,Mobicité,C02301,526,526,3,00C221,FFFFFF,Line:relation:7920955
 58,Paladin,C02302,ChavilBus,ChavilBus Nord,3,C99EFF,000000,Line:relation:7177170
 58,Paladin,C02303,ChavilBus,ChavilBus Sud,3,4000FF,FFFFFF,Line:relation:7177169
 58,Paladin,C02304,ChavilBus,Chavilbus Unique,3,C99EFF,000000,Line:relation:7673721
-990,Parc Naturel Régional de la Haute Vallée de Chevreuse,C02123,BALADOBUS,BALADOBUS,3,A4BE28,FFFFFF,Line:relation:8448533
 1060,Paris Saclay,C00046,60,60,3,3BB2FF,000000,Line:relation:7912028
 1060,Paris Saclay,C00066,20,20,3,9998BE,000000,Line:relation:7670510
 1060,Paris Saclay,C00067,2,2,3,FECA3F,000000,Line:relation:5694051
@@ -1299,6 +1297,7 @@ Operator_100,RATP,C02457,LBLEUE,Ligne Bleue,3,8AD3DE,000000,Line:relation:797565
 Operator_100,RATP,C02459,382,382,3,8D653D,FFFFFF,Line:relation:13593220
 Operator_100,RATP,C02488,NAVAUT1,Navette autonome Vincennes,3,274E13,FFFFFF,Line:relation:14576282
 Operator_100,RATP,C02494,BUSM14,Bus de substitution du métro 14,3,674EA7,FFFFFF,
+Operator_100,RATP,C02512,BUSM9,Bus de substitution du métro 9,3,CEC73D,000000,
 Operator_100,RATP,C02514,BUSM4,Bus de substitution du métro 4,3,CF009E,000000,
 71,RER,C01727,C,C,2,FFCC30,000000,Line:relation:122886
 71,RER,C01728,D,D,2,008B5B,FFFFFF,Line:relation:1673421
@@ -1310,6 +1309,7 @@ Operator_100,RATP,C02514,BUSM4,Bus de substitution du métro 4,3,CF009E,000000,
 71,RER,C01851,C,C,3,FFCC30,000000,
 71,RER,C01852,D,D,3,008B5B,FFFFFF,
 71,RER,C01853,E,E,3,B94E9A,FFFFFF,
+71,RER,C02442,720,Bus de substitution du RER A,3,F7403A,FFFFFF,
 263,Rambouillet Interurbain,C00163,01,01,3,F4AACC,000000,
 263,Rambouillet Interurbain,C00164,03,03,3,FCE800,000000,Line:relation:8130193
 263,Rambouillet Interurbain,C00165,04,04,3,AA7B6A,000000,Line:relation:7920958
@@ -1727,7 +1727,6 @@ Operator_1008,Transdev Valmy,C00305,33,33 SoisyBus,3,FF5EE3,000000,
 1046,Transilien,C01739,J,J,2,CEC73D,000000,Line:relation:6904183
 1046,Transilien,C01740,L,L,2,C4A4CC,000000,Line:relation:8557335
 1046,Transilien,C01741,U,U,2,B6134C,FFFFFF,Line:relation:215565
-1046,Transilien,C01840,U,U,3,B6134C,FFFFFF,
 1046,Transilien,C01841,P,P,3,F58F53,000000,
 1046,Transilien,C01842,H,H,3,8D653D,FFFFFF,
 1046,Transilien,C01843,T4,T4,0,DFAF47,000000,Line:relation:6910344
@@ -1737,7 +1736,6 @@ Operator_1008,Transdev Valmy,C00305,33,33 SoisyBus,3,FF5EE3,000000,
 1046,Transilien,C01847,L,L,3,C4A4CC,000000,
 1046,Transilien,C01848,R,R,3,F49FB3,000000,
 1046,Transilien,C01999,T11,T11 Express,0,F58F53,000000,Line:relation:8467024
-1046,Transilien,C02019,T11,T11,3,F58F53,000000,
 1046,Transilien,C02344,T13,T13,0,8D653D,000000,Line:relation:14263358
 1046,Transilien,C02363,BUS SNCF,Corbeil - La Ferté Alais,3,AAAAAA,000000,
 1046,Transilien,C02364,BUS SNCF,Corbeil - Melun,3,AAAAAA,000000,
@@ -1841,6 +1839,7 @@ Operator_1008,Transdev Valmy,C00305,33,33 SoisyBus,3,FF5EE3,000000,
 1049,Vallée de Montmorency,C02465,Soir,Soirée Écouen Ézanville,3,652C8F,FFFFFF,
 115,Valoise,C00471,95-03A,95-03A,3,3BB2FF,000000,Line:relation:9181427
 115,Valoise,C00472,95-03B,95-03B,3,3BB2FF,000000,Line:relation:9249703
+115,Valoise,C00473,95-19,95-19,3,008B45,FFFFFF,Line:relation:7917815
 115,Valoise,C00476,95-20,95-20,3,3BB2FF,000000,Line:relation:5890965
 115,Valoise,C00477,95-21,95-21,3,D3A576,000000,Line:relation:7823264
 1048,Vexin,C00139,95-22,95-22,3,0D99BF,FFFFFF,Line:relation:9464254

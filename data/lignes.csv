@@ -171,11 +171,11 @@ Line:relation:2440114,14,Bus 14 : Gare de Massy-Palaiseau RER ↔ Gare de Palais
 Line:relation:2454326,6,Bus 6 : Campus d’Orsay - Jean Monnet ↔ Gare d’Orsay Ville RER,Paris-Saclay,RATP Cap Saclay,#986AAD,route_master,bus,,C02316
 Line:relation:2531075,93,Bus 93 : Bobigny – Pablo Picasso ↔ Parinor ↔ Aéroport CDG – Roissypole,Les Courriers de l'Île-de-France,Keolis CIF,#a3653d,route_master,bus,014014093:93,C00223
 Line:relation:2531082,23,Bus 23 : Roissypole ↔ Villeparisis - Gymnase Aubertin,Les Courriers de l'Île-de-France,Keolis CIF,#00aeef,route_master,bus,014014223:23,C00204
-Line:relation:2531207,Viliers-le-Bel,Bus Filéo Viliers-le-Bel : Roissypole ↔ Villiers-le-Bel,Filéo,Keolis Mobilité Roissy,,route_master,bus,,C01433
+Line:relation:2531207,Viliers-le-Bel,Bus Filéo Viliers-le-Bel : Roissypole ↔ Villiers-le-Bel,Filéo,Keolis,,route_master,bus,,C01433
 Line:relation:2531208,Othis,Bus Filéo Othis : Roissypole ↔ Othis,Filéo,Keolis Mobilité Roissy,,route_master,bus,,C01429
 Line:relation:2531225,Roissy Sud,Bus Filéo Roissy Sud : Roissypole ↔ Tremblay-en-France,Filéo,Keolis Mobilité Roissy,,route_master,bus,,C01434
 Line:relation:2531226,Roissy Sud,Bus Filéo Roissy Sud : Roissypole ↔ Villeparisis,Filéo,Keolis Mobilité Roissy,,route_master,bus,,C02060
-Line:relation:2532567,190,Bus 190 : Église de Meudon-la-Forêt ↔ Mairie d'Issy-Métro,RATP,RATP,#845B32,route_master,bus,,C01211
+Line:relation:2532567,190,Bus 190 : Église de Meudon-la-Forêt ↔ Mairie d'Issy-Métro,RATP,RATP,#8d6539,route_master,bus,,C01211
 Line:relation:2532600,290,Bus 290 : Le Plessis-Robinson – La Boursidière ↔ Issy - Val de Seine RER,RATP,RATP,#C9A3CD,route_master,bus,,C01265
 Line:relation:2554103,7bis,Métro 7 bis,Métro de Paris,RATP,#71cc98,route_master,subway,,C01387
 Line:relation:2564126,415,Bus 415 : Le Mesnil Saint-Denis ↔ Bois d'Arcy,Saint-Quentin-en-Yvelines,Francilité,#E75112,route_master,bus,230410415:415,C01528
@@ -438,8 +438,8 @@ Line:relation:6957303,17,Bus 17 : Marne-la-Vallée Chessy Sud ↔ Coulommiers �
 Line:relation:6957304,46,Bus 46 : Gare de Montereau ↔ Gare de Melun,Seine-et-Marne Express,Transdev Île-de-France Vulaines,,route_master,bus,062177046:46,C00798
 Line:relation:6957305,EXPRESS34,Bus EXPRESS34 : Gare de Melun ↔ Chateau-Landon ou Egreville,Seine-et-Marne Express,Transdev Île-de-France Nemours,,route_master,bus,064177034:EXPRESS34,C00815
 Line:relation:6957343,18,Bus 18 : Gare de Torcy ↔ De Gaulle (Tournan-en-Brie),Pays Briard,Keolis Portes et Val de Brie,,route_master,bus,003003018:18,C00017
-Line:relation:6958361,N150,Noctilien N150 : Gare Saint-Lazare ↔ Cergy-le-Haut RER,Noctilien,Transilien,#ED1C29,route_master,bus,800:N150,C01637
-Line:relation:6958366,N152,Noctilien N152: Gare Saint-Lazare ↔ Cergy RER,Noctilien,Transilien,#ED1C29,route_master,bus,800:N152,C01641
+Line:relation:6958361,N150,Noctilien N150 : Gare Saint-Lazare ↔ Gare de Pontoise ↔ Gare de Cergy-le-Haut,Noctilien,Transdev Vexin,#ED1C29,route_master,bus,800:N150,C01637
+Line:relation:6958366,N152,Noctilien N152 : Gare Saint-Lazare ↔ Gare de Maison-Laffitte ↔ Gare de Cergy-le-Haut,Noctilien,Transdev Vexin,#ED1C29,route_master,bus,800987011:N152,C01641
 Line:relation:6958414,N154,Noctilien N154: Gare Saint-Lazare ↔ Montigny–Beauchamp RER,Noctilien,Transilien,#FFDC1C,route_master,bus,800:N154,C01647
 Line:relation:6970689,95-08,Bus 95-08 : Chars ↔ Marines ↔ Cergy-Préfecture,Vexin,Transdev Vexin,#8FBF00,route_master,bus,,C00395
 Line:relation:6972206,644,Bus 644 : Gutenberg - Lycée Boulloche ↔ Collège Henri IV (Vaujours),Seine-Saint-Denis,Transdev TRA,#76c695,route_master,bus,293193644:644,C01595
@@ -1130,7 +1130,7 @@ Line:relation:9173650,50,Bus 50 : Lieusaint Moissy Gare RER ↔ Evry Courcourron
 Line:relation:9173954,A,Bus A : Gare de Rosny-sur-Seine ↔ Gare de Mantes-la-Jolie ↔ Limay - Fosses Rouges,Mantois,RATP Cap Mantois,#C20E1A,route_master,bus,,C01949
 Line:relation:9175639,31,Bus 31 : Robert Wagner ↔ Doumer - Lafontaine,Vélizy Vallées,Keolis Vélizy Vallée de la Bièvre,#26C9FF,route_master,bus,004004007:31,C01687
 Line:relation:9175920,42,Bus 42 : Pont de Sèvres ↔ L'Onde Maison des Arts,Vélizy Vallées,Keolis Vélizy Vallée de la Bièvre,#00FF00,route_master,bus,004004042:42,C00049
-Line:relation:9176247,67,Bus 67 : Gare Routière Paul Delouvrier ↔ ZAC la Prévôté,Houdanais,Transdev Île-de-France Houdan,,route_master,bus,005005067:67,C00064
+Line:relation:9176247,67,Bus 67 : Gare Routière Paul Delouvrier ↔ ZAC la Prévôté,Transdev Île-de-France Houdan,Transdev Île-de-France Houdan,,route_master,bus,005005067:67,C00064
 Line:relation:9176972,13,Bus 13 : Gare de Hardricourt (circulaire),Poissy - Les Mureaux,Keolis Seine et Oise Est,,route_master,bus,,C00111
 Line:relation:9177072,2,Bus 2 : Gare des Mureaux ↔ Comtesse Route de Bouafle,Poissy - Les Mureaux,Keolis Seine et Oise Est,,route_master,bus,,C00132
 Line:relation:9177124,3,Bus 3 : Centre Hospitalier ↔ Gare des Mureaux,Poissy - Les Mureaux,Keolis Seine et Oise Est,,route_master,bus,,C00133
@@ -1190,7 +1190,7 @@ Line:relation:9200493,11,Bus 11 : Ozoir RER ↔ Tournan RER (côté Gretz),Pays 
 Line:relation:9202114,23,Bus 23 : Grands Saules ↔ Lycée Clément Ader,Pays Briard,Keolis Portes et Val de Brie,,route_master,bus,003003023:23,C00019
 Line:relation:9203431,22,Bus 22 : Gare Versailles Chantiers ↔ Burospace,Vélizy Vallées,Keolis Vélizy Vallée de la Bièvre,#8C00FF,route_master,bus,004004033:22,C00052
 Line:relation:9203505,DM17A,Bus DM17A : Gare de Sainte-Geneviève des Bois ↔ Fontaine Mansart,Daniel Meyer,Keolis Meyer,#FF0000,route_master,bus,,C00678
-Line:relation:9204349,60,Bus 60 : Gare Routière Mantes-la-Ville ↔ Rambouillet Gare Prairie,Houdanais,Transdev Île-de-France Houdan,,route_master,bus,005005060:60,C00062
+Line:relation:9204349,60,Bus 60 : Gare Routière Mantes-la-Ville ↔ Rambouillet Gare Prairie,Transdev Île-de-France Houdan,Transdev Île-de-France Houdan,,route_master,bus,005005060:60,C00062
 Line:relation:9205962,77,Bus 77 : Cimetière ↔ Gare de Saint-Quentin-en-Yvelines - Gare Routière Delouvrier,Plaine de Versailles,Transdev Île-de-France Ecquevilly,,route_master,bus,011011077:77,C00123
 Line:relation:9206600,12,Bus 12 : Gare de Rambouillet [Prairie] ↔ Gare de Saint-Quentin en Yvelines,Réseau Interurbain de Rambouillet,Transdev Île-de-France Rambouillet,,route_master,bus,013013012:12,C01951
 Line:relation:9206954,21,Bus 21 : Marché ↔ Mairie Annexe,Les Courriers de l'Île-de-France,Keolis CIF,,route_master,bus,014014221:21,C00202

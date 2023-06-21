@@ -24,10 +24,10 @@ set -e
 ./lines_ref/init_lines_ref.sh
 
 # extract focus routepoints from GTFS and OSM
-./focus/focus.sh
+#./focus/focus.sh
 
 # extract and count linepoints from GTFS and OSM
-./check_linepoints/check_linepoints.sh
+#./check_linepoints/check_linepoints.sh
 
 # update Osmose
 ./osmose/osmose.sh

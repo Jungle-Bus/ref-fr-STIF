@@ -33,8 +33,8 @@ def create_osmose_xml_stops(errors):
         current_osmose_error = deepcopy(doc['analysers']['analyser']['error'][1])
         current_osmose_error['@class'] = '2'
         current_osmose_error['node']['@id'] = error['id']
-        current_osmose_error['location']['@lat'] = error['lat']
-        current_osmose_error['location']['@lon'] = error['lon']
+        current_osmose_error['location']['@lat'] = error['latitude']
+        current_osmose_error['location']['@lon'] = error['longitude']
         current_osmose_error['text']['@lang'] = "fr"
         current_osmose_error['text']['@value'] = error['label']
         current_osmose_error['fixes']['fix']['node']['@id'] = error['id']
@@ -73,8 +73,8 @@ def create_osmose_xml_lines(errors):
         current_osmose_error = deepcopy(
             doc['analysers']['analyser']['error'][0])
         current_osmose_error['relation']['@id'] = error['id']
-        current_osmose_error['location']['@lat'] = error['lat']
-        current_osmose_error['location']['@lon'] = error['lon']
+        current_osmose_error['location']['@lat'] = error['latitude']
+        current_osmose_error['location']['@lon'] = error['longitude']
         current_osmose_error['text']['@lang'] = "fr"
         current_osmose_error['text']['@value'] = error['label']
         current_osmose_error['fixes']['fix']['relation']['@id'] = error['id']

@@ -15,7 +15,7 @@ def extract_common_values_by_networks(osm_lines, opendata_lines):
     for an_opendata_line in opendata_lines:
         nav_network = networks.setdefault(an_opendata_line['agency_id'], [])
         nav_operator = operators.setdefault(an_opendata_line['agency_id'], [])
-        osm_match = [a_line for a_line in osm_lines if a_line['osm:ref:FR:STIF']
+        osm_match = [a_line for a_line in osm_lines if a_line['ref:FR:STIF']
                      == "IDFM:{}".format(an_opendata_line['route_id'])]
         if (osm_match):
             nav_network.append(osm_match[0]['network'])
@@ -36,25 +36,25 @@ def get_errors(osm_lines, opendata_lines, stats, line_coords):
     improvements = []
     opendata_deduplicated = []
     for an_osm_line in osm_lines:
-        an_osm_line['osm_id'] = an_osm_line['line_id'].split(':')[-1]
+        an_osm_line['osm_id'] = an_osm_line['line_id'].split('r')[-1]
 
         line_with_coords = [a_line for a_line in line_coords if a_line['line_id'] == an_osm_line['line_id']]
         if not line_with_coords:
-            line_with_coords = [{'lon': '2.249699', 'lat': '48.562577'}]
-        an_osm_line['latitude'], an_osm_line['longitude'] = line_with_coords[0]['lat'], line_with_coords[0]['lon']
+            line_with_coords = [{'longitude': '2.249699', 'latitude': '48.562577'}]
+        an_osm_line['latitude'], an_osm_line['longitude'] = line_with_coords[0]['latitude'], line_with_coords[0]['longitude']
 
-        if not an_osm_line['osm:ref:FR:STIF']:
+        if not an_osm_line['ref:FR:STIF']:
             continue
 
-        osm_ref = an_osm_line['osm:ref:FR:STIF']
+        osm_ref = an_osm_line['ref:FR:STIF']
 
         if osm_ref not in opendata_deduplicated:
             opendata_deduplicated.append(osm_ref)
         else:
             error = {"id": an_osm_line['osm_id']}
             error['label'] = "Il y a plusieurs lignes dans OSM qui ont ce même ref:FR:STIF ({})".format(
-                an_osm_line['osm:ref:FR:STIF'])
-            error['lat'], error['lon'] = an_osm_line['latitude'], an_osm_line['longitude']
+                an_osm_line['ref:FR:STIF'])
+            error['latitude'], error['longitude'] = an_osm_line['latitude'], an_osm_line['longitude']
             errors.append(error)
             continue
         
@@ -62,7 +62,7 @@ def get_errors(osm_lines, opendata_lines, stats, line_coords):
             error = {"id": an_osm_line['osm_id']}
             error['label'] = "L'attribut ref:FR:STIF ({}) est invalide, il devrait commencer par un C.".format(
                 osm_ref)
-            error['lat'], error['lon'] = an_osm_line['latitude'], an_osm_line['longitude']
+            error['latitude'], error['longitude'] = an_osm_line['latitude'], an_osm_line['longitude']
             errors.append(error)
             continue
 
@@ -72,17 +72,17 @@ def get_errors(osm_lines, opendata_lines, stats, line_coords):
             error = {"id": an_osm_line['osm_id']}
             error['label'] = "L'attribut ref:FR:STIF ({}) est invalide, il devrait être constitué d'un C suivi d'une série de chiffres.".format(
                 osm_ref)
-            error['lat'], error['lon'] = an_osm_line['latitude'], an_osm_line['longitude']
+            error['latitude'], error['longitude'] = an_osm_line['latitude'], an_osm_line['longitude']
             errors.append(error)
             continue 
 
         opendata_matching_lines = [
-            a_line for a_line in opendata_lines if an_osm_line['osm:ref:FR:STIF'] == a_line['route_id'].replace("IDFM:","")]
+            a_line for a_line in opendata_lines if an_osm_line['ref:FR:STIF'] == a_line['route_id'].replace("IDFM:","")]
         if not opendata_matching_lines:
             error = {"id": an_osm_line['osm_id']}
             error['label'] = "Ce ref:FR:STIF ({}) n'existe pas ou plus dans les données opendata d'IDFM (ex-STIF)".format(
-                an_osm_line['osm:ref:FR:STIF'])
-            error['lat'], error['lon'] = an_osm_line['latitude'], an_osm_line['longitude']
+                an_osm_line['ref:FR:STIF'])
+            error['latitude'], error['longitude'] = an_osm_line['latitude'], an_osm_line['longitude']
             errors.append(error)
             continue
         opendata_line = opendata_matching_lines[0]
@@ -92,7 +92,7 @@ def get_errors(osm_lines, opendata_lines, stats, line_coords):
             opendata_color = "#{}".format(opendata_line['route_color'].lower())
             error['label'] = "Couleur (tag colour) manquante pour cette ligne"
             error['fix'] = [{"key": "colour", "value": opendata_color}]
-            error['lat'], error['lon'] = an_osm_line['latitude'], an_osm_line['longitude']
+            error['latitude'], error['longitude'] = an_osm_line['latitude'], an_osm_line['longitude']
             improvements.append(error)
             continue
 
@@ -104,7 +104,7 @@ def get_errors(osm_lines, opendata_lines, stats, line_coords):
             if fix != "":
                 error['fix'] = [{"key": "network", "value": fix}]
                 error['label'] = "Réseau de transport (tag network) manquant pour cette ligne. Valeur probable : " + fix
-            error['lat'], error['lon'] = an_osm_line['latitude'], an_osm_line['longitude']
+            error['latitude'], error['longitude'] = an_osm_line['latitude'], an_osm_line['longitude']
             improvements.append(error)
             continue
 
@@ -116,7 +116,7 @@ def get_errors(osm_lines, opendata_lines, stats, line_coords):
             if fix != "":
                 error['fix'] = [{"key": "operator", "value": fix}]
                 error['label'] = "Opérateur (tag operator) manquant pour cette ligne. Valeur probable : " + fix
-            error['lat'], error['lon'] = an_osm_line['latitude'], an_osm_line['longitude']
+            error['latitude'], error['longitude'] = an_osm_line['latitude'], an_osm_line['longitude']
             improvements.append(error)
             continue
 
@@ -124,7 +124,7 @@ def get_errors(osm_lines, opendata_lines, stats, line_coords):
             error = {"id": an_osm_line['osm_id']}
             fix = opendata_line['route_short_name']
             error['label'] = "Numéro de ligne (tag ref) manquant. Valeur probable : " + fix
-            error['lat'], error['lon'] = an_osm_line['latitude'], an_osm_line['longitude']
+            error['latitude'], error['longitude'] = an_osm_line['latitude'], an_osm_line['longitude']
             error['fix'] = [{"key": "ref", "value": fix}]
             improvements.append(error)
             continue
@@ -133,7 +133,7 @@ def get_errors(osm_lines, opendata_lines, stats, line_coords):
             error = {"id": an_osm_line['osm_id']}
             fix = map_modes(opendata_line['route_type'])
             error['label'] = "la relation n'a pas de tag route_master. Valeur probable : " + fix
-            error['lat'], error['lon'] = an_osm_line['latitude'], an_osm_line['longitude']
+            error['latitude'], error['longitude'] = an_osm_line['latitude'], an_osm_line['longitude']
             error['fix'] = [{"key": "route_master", "value": fix}]
             improvements.append(error)
             

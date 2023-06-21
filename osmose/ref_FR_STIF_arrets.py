@@ -12,20 +12,21 @@ def generate_osmose_errors_for_stops():
             open_data_ref = row['ArRId']
             ref_STIF_list.append(open_data_ref)
 
-    with open('../data/osm-transit-extractor_stop_points.csv', 'r') as f:
+    with open('../data/osm_extract_stop_points.csv', 'r') as f:
         reader = csv.DictReader(f)
         for row in reader:
-            error = {"id" : row['stop_point_id'].split(':')[-1] }
+            error = {"id" : row['stop_point_id'].split('n')[-1] }
             if "way" in row['stop_point_id']:
                 continue            
-            if not row['osm:ref:FR:STIF']:
+            if not row['ref:FR:STIF']:
                 continue
-            osm_ref = row['osm:ref:FR:STIF']
-            if row['stop_point_type']=="StopPosition":
-                error['label'] = "le tag ref:FR:STIF doit être sur un objet public_transport=platform et non public_transport=stop_position"
-                error['lat'], error['lon'] = row['lat'], row['lon']
-                errors.append(error)
-                continue         
+            osm_ref = row['ref:FR:STIF']
+            if "stop_point_type" in row:
+                if row['stop_point_type']=="StopPosition":
+                    error['label'] = "le tag ref:FR:STIF doit être sur un objet public_transport=platform et non public_transport=stop_position"
+                    error['latitude'], error['longitude'] = row['latitude'], row['longitude']
+                    errors.append(error)
+                    continue         
             if ';' in osm_ref :
                 has_at_least_one_wrong_ref = False
                 for a_ref in osm_ref.split(';'):
@@ -34,7 +35,7 @@ def generate_osmose_errors_for_stops():
                 if has_at_least_one_wrong_ref:
                     error['label'] = "Une des valeurs de ref:FR:STIF n'existe pas ou plus."
                     error['label'] += " Voir sur https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id={}".format(error['id'])
-                    error['lat'], error['lon'] = row['lat'], row['lon']
+                    error['latitude'], error['longitude'] = row['latitude'], row['longitude']
                     errors.append(error)
                 continue
 
@@ -42,13 +43,13 @@ def generate_osmose_errors_for_stops():
                 int(osm_ref)
             except ValueError :
                 error['label'] = "la ref:FR:STIF '{}' n'est pas numérique".format(osm_ref)
-                error['lat'], error['lon'] = row['lat'], row['lon']
+                error['latitude'], error['longitude'] = row['latitude'], row['longitude']
                 errors.append(error)
                 continue
 
             if osm_ref not in ref_STIF_list :
                 error['label'] = "La ref:FR:STIF {} n'existe pas ou plus".format(osm_ref)
-                error['lat'], error['lon'] = row['lat'], row['lon']
+                error['latitude'], error['longitude'] = row['latitude'], row['longitude']
                 errors.append(error)
 
     return errors
@@ -69,7 +70,7 @@ def generate_osmose_errors_for_routepoints():
     with open('../data/osm_routepoints.csv', 'r') as f:
         reader = csv.DictReader(f)
         for row in reader:
-            osm_id =  row['stop_id'].split(':')[-1]
+            osm_id =  row['stop_id'].split('n')[-1]
             if "way" in row['stop_id']:
                 continue
             if osm_id not in osm_dedup_id_list:
@@ -97,7 +98,7 @@ def generate_osmose_errors_for_routepoints():
                 label += " https://ref-lignes-stif.5apps.com/stop.html?osm_stop_id={}".format(error['id'])
                 error['label'] = label
                 error['ref:FR:STIF'] = osm_ref
-                error['lat'], error['lon'] = row['lat'], row['lon']
+                error['latitude'], error['longitude'] = row['latitude'], row['longitude']
                 errors.append(error)
     return errors
 

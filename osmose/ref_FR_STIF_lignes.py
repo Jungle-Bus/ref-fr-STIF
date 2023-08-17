@@ -15,8 +15,8 @@ def extract_common_values_by_networks(osm_lines, opendata_lines):
     for an_opendata_line in opendata_lines:
         nav_network = networks.setdefault(an_opendata_line['agency_id'], [])
         nav_operator = operators.setdefault(an_opendata_line['agency_id'], [])
-        osm_match = [a_line for a_line in osm_lines if a_line['ref:FR:STIF']
-                     == "IDFM:{}".format(an_opendata_line['route_id'])]
+        osm_match = [a_line for a_line in osm_lines if "IDFM:{}".format(a_line['ref:FR:STIF'])
+                     == an_opendata_line['route_id']]
         if (osm_match):
             nav_network.append(osm_match[0]['network'])
             nav_operator.append(osm_match[0]['operator'])

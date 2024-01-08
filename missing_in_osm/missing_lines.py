@@ -39,8 +39,10 @@ content += "- {} lignes restent à tracer dans OSM \n".format(len( [line for lin
 
 
 for a_network in networks:
-    content += "\n# {} \n".format(a_network)
     lines_of_this_network = [line for line in lines if line['opendata_network'] == a_network]
+    if not a_network:
+        a_network = "*Pas de réseau défini côté IDFM*"
+    content += "\n# {} \n".format(a_network)    
     content += "{} lignes open data \n".format(len(lines_of_this_network))
 
     osm_missing_lines_of_this_network = [line for line in lines_of_this_network if not line['found_in_osm']]

@@ -17,11 +17,11 @@ set -e
 # compute routepoints with GTFS and OSM
 ./audit_routepoints/audit_routepoints.sh
 
-# extract missing lines in OSM with GTFS and OSM
-./missing_in_osm/missing_in_osm.sh
-
 # extract lines ref
 ./lines_ref/init_lines_ref.sh
+
+# extract missing lines in OSM with GTFS and OSM
+./missing_in_osm/missing_in_osm.sh
 
 # extract focus routepoints from GTFS and OSM
 #./focus/focus.sh

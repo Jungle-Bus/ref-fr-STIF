@@ -10,13 +10,13 @@ with open("../data/osm_lines_with_shape.csv") as shapescsvfile:
         osm_with_shapes.append(elem[0])
 
 lines = []
-with open("../data/opendata_lines_with_osm_id.csv") as csvfile:
+with open("../data/merged_lines.csv") as csvfile:
     csv_ = csv.DictReader(csvfile)
     for tt in csv_:
         line = {}
-        line['opendata_line_id'] = tt['route_id']
-        line['opendata_network'] = tt['agency_name']
-        line['opendata_line_name'] = tt['route_short_name']
+        line['opendata_line_id'] = tt['ID_Line']
+        line['opendata_network'] = tt['NetworkName']
+        line['opendata_line_name'] = tt['ShortName_Line']
         line['found_in_osm'] = tt['line_id'] != ''
         line['osm_line_id'] = tt['line_id']
         line['has_shape_in_osm'] = tt['line_id'] in osm_with_shapes

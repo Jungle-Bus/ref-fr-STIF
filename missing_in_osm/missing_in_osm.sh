@@ -6,13 +6,10 @@ set -euvo pipefail
 
 cd data
 
-## préparation des lignes open data
-xsv join agency_id gtfs_routes.txt agency_id gtfs_agency.txt |xsv select agency_id,agency_name,route_id,route_short_name,route_long_name,route_type,route_color,route_text_color |xsv sort -s route_id|xsv sort -s agency_name > opendata_lignes.csv
-sed -i -e "s/IDFM://g" opendata_lignes.csv
-
-
-## ajout de l'id OSM sur les lignes open data
-xsv join --left route_id opendata_lignes.csv ref:FR:STIF lignes.csv|xsv select 1-8,line_id > opendata_lines_with_osm_id.csv
+## ajout des infos OSM sur les lignes open data
+xsv join --left ID_Line opendata_lines_referential.csv ref:FR:STIF lignes.csv \
+  |xsv select line_id,ID_Line,code,ShortName_Line,network,NetworkName,operator,OperatorName,mode,TransportMode \
+  |xsv sort -s NetworkName,OperatorName,ID_Line > merged_lines.csv
 # /!\ on a parfois plusieurs lignes OSM pour une même ligne opendata
 
 ## extraction des lignes OSM avec un tracé déjà existant

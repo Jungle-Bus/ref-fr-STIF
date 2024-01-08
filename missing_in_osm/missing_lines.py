@@ -10,13 +10,13 @@ with open("../data/osm_lines_with_shape.csv") as shapescsvfile:
         osm_with_shapes.append(elem[0])
 
 lines = []
-with open("../data/opendata_lines_with_osm_id.csv") as csvfile:
+with open("../data/merged_lines.csv") as csvfile:
     csv_ = csv.DictReader(csvfile)
     for tt in csv_:
         line = {}
-        line['opendata_line_id'] = tt['route_id']
-        line['opendata_network'] = tt['agency_name']
-        line['opendata_line_name'] = tt['route_short_name']
+        line['opendata_line_id'] = tt['ID_Line']
+        line['opendata_network'] = tt['NetworkName']
+        line['opendata_line_name'] = tt['ShortName_Line']
         line['found_in_osm'] = tt['line_id'] != ''
         line['osm_line_id'] = tt['line_id']
         line['has_shape_in_osm'] = tt['line_id'] in osm_with_shapes
@@ -39,8 +39,10 @@ content += "- {} lignes restent à tracer dans OSM \n".format(len( [line for lin
 
 
 for a_network in networks:
-    content += "\n# {} \n".format(a_network)
     lines_of_this_network = [line for line in lines if line['opendata_network'] == a_network]
+    if not a_network:
+        a_network = "*Pas de réseau défini côté IDFM*"
+    content += "\n# {} \n".format(a_network)    
     content += "{} lignes open data \n".format(len(lines_of_this_network))
 
     osm_missing_lines_of_this_network = [line for line in lines_of_this_network if not line['found_in_osm']]

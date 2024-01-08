@@ -2,36 +2,48 @@
 # -*- coding: utf-8 -*-
 
 import csv
-from collections import Counter
+
+NETWORK_MAPPINGS = {
+    "Paris Saclay" : "Paris-Saclay",
+    "Paris-Saclay Mobilités" : "Paris-Saclay",
+    "Saint Germain Boucles de Seine" : "Saint-Germain Boucles de Seine",
+    "Cœur d’Essonne" : "Cœur d'Essonne",
+    "Brie et 2 Morin" : "Brie et Deux Morin",
+    "Seine et Marne Express" : "Seine-et-Marne Express",
+    "Vallée Grand Sud Paris" : "Vallée Sud Bus",
+    "Evry Centre Essonne" : "Évry Centre Essonne",
+    "Haut Val d’Oise" : "Haut Val d'Oise",
+    "Lignes Île-de-France Ouest" : "Île-de-France Ouest",
+}
+
+OPERATOR_MAPPINGS = {
+    "ADP" : "Aéroports de Paris",
+    "Aéroport Paris-Beauvais / SAGEB" : "Aéroport Paris-Beauvais",
+    "STBC" : "Société des transports du bassin chellois",
+    "Mobicité" : "MobiCité",
+    "TISSE": "Keolis TISSE",
+    "Keolis Vallée de l’Oise" : "Keolis Vallée de l'Oise",
+    "N4 Mobilités" : "Transdev N4 Mobilités",
+    "Cars Rose" : "Transdev Les Cars Rose",
+    "TRA" : "Transdev TRA",
+    "Transdev Boucle des Lys" : "Transdev Île-de-France Boucle des Lys",
+    "Transdev Brie et 2 Morin" : "Transdev Brie et Deux Morin",
+    "Transdev Senart" : "Transdev Sénart",
+    "RD Bièvre" : "RATP Cap Bièvre",
+    "RD Mantois" : "RATP Cap Mantois",
+    "RD Saclay" : "RATP Cap Saclay",
+}
+
+MODE_MAPPINGS = {
+    "metro": "subway"
+}
 
 def get_lines_from_csv(file_name):
     with open(file_name, 'r') as f:
         reader = csv.DictReader(f)
         return list(reader)
 
-def extract_common_values_by_networks(osm_lines, opendata_lines):
-    networks = {}
-    operators = {}
-    for an_opendata_line in opendata_lines:
-        nav_network = networks.setdefault(an_opendata_line['agency_id'], [])
-        nav_operator = operators.setdefault(an_opendata_line['agency_id'], [])
-        osm_match = [a_line for a_line in osm_lines if "IDFM:{}".format(a_line['ref:FR:STIF'])
-                     == an_opendata_line['route_id']]
-        if (osm_match):
-            nav_network.append(osm_match[0]['network'])
-            nav_operator.append(osm_match[0]['operator'])
-    return {"networks": networks, "operators": operators}
-
-def get_most_common_value(stat_info, tag, opendata_network_id):
-    c = Counter(stat_info[tag + 's'][opendata_network_id])
-    return c.most_common(1)[0][0]
-
-def map_modes(opendata_mode):
-    mapping = {"3": "bus", "2": "train",
-               "0": "tram", "1": "subway"}
-    return mapping[opendata_mode]
-
-def get_errors(osm_lines, opendata_lines, stats, line_coords):
+def get_errors(osm_lines, opendata_lines, line_coords):
     errors = []
     improvements = []
     opendata_deduplicated = []
@@ -66,9 +78,7 @@ def get_errors(osm_lines, opendata_lines, stats, line_coords):
             errors.append(error)
             continue
 
-        try :
-            int(osm_ref[1:])
-        except ValueError :
+        if not osm_ref[1:].isnumeric():
             error = {"id": an_osm_line['osm_id']}
             error['label'] = "L'attribut ref:FR:STIF ({}) est invalide, il devrait être constitué d'un C suivi d'une série de chiffres.".format(
                 osm_ref)
@@ -77,7 +87,7 @@ def get_errors(osm_lines, opendata_lines, stats, line_coords):
             continue 
 
         opendata_matching_lines = [
-            a_line for a_line in opendata_lines if an_osm_line['ref:FR:STIF'] == a_line['route_id'].replace("IDFM:","")]
+            a_line for a_line in opendata_lines if an_osm_line['ref:FR:STIF'] == a_line['ID_Line']]
         if not opendata_matching_lines:
             error = {"id": an_osm_line['osm_id']}
             error['label'] = "Ce ref:FR:STIF ({}) n'existe pas ou plus dans les données opendata d'IDFM (ex-STIF)".format(
@@ -87,68 +97,104 @@ def get_errors(osm_lines, opendata_lines, stats, line_coords):
             continue
         opendata_line = opendata_matching_lines[0]
 
+        opendata_network = opendata_line["NetworkName"]
+        if opendata_line["NetworkName"] in NETWORK_MAPPINGS:
+            opendata_network = NETWORK_MAPPINGS[opendata_line["NetworkName"]]
+        if not an_osm_line['network']:
+            error = {"id": an_osm_line['osm_id']}
+            error['fix'] = [{"key": "network", "value": opendata_network}]
+            error['label'] = "Réseau de transport (tag network) manquant pour cette ligne. Valeur probable : " + opendata_network
+            error['latitude'], error['longitude'] = an_osm_line['latitude'], an_osm_line['longitude']
+            error.append(error)
+            continue
+        elif an_osm_line['network'] != opendata_network :
+            if opendata_network in ["", "ValBus", "Parisis", "Sit'bus", "Conflans Achères", "Chavilbus"]:
+                # ce sont des réseaux qui ont vocation à disparaitre, donc OSEF
+                pass
+            else : 
+                error = {"id": an_osm_line['osm_id']}
+                error['fix'] = [{"key": "network", "value": opendata_network}]
+                error["network"] = opendata_network
+                error['old'] = an_osm_line['network']
+                error['label'] = "Réseau de transport (tag network) erroné pour cette ligne. Valeur probable : " + opendata_network
+                error['latitude'], error['longitude'] = an_osm_line['latitude'], an_osm_line['longitude']
+                errors.append(error)
+                continue
+
+
+        opendata_operator = opendata_line["OperatorName"]
+        if opendata_line["OperatorName"] in OPERATOR_MAPPINGS:
+            opendata_operator = OPERATOR_MAPPINGS[opendata_line["OperatorName"]]
+        if not an_osm_line['operator']:
+            error = {"id": an_osm_line['osm_id']}
+            error['fix'] = [{"key": "operator", "value": opendata_operator}]
+            error['label'] = "Opérator de transport (tag operator) manquant pour cette ligne. Valeur probable : " + opendata_operator
+            error['latitude'], error['longitude'] = an_osm_line['latitude'], an_osm_line['longitude']
+            error.append(error)
+            continue
+        elif an_osm_line['operator'] != opendata_operator :
+            if opendata_operator in ["", "SNCF", "Magical Shuttle"]:
+                pass
+            else :           
+                error = {"id": an_osm_line['osm_id']}
+                error['fix'] = [{"key": "operator", "value": opendata_operator}]
+                error["network"] = opendata_network
+                error['old'] = an_osm_line['operator']
+                error['label'] = "Opérateur de transport (tag operator) erroné pour cette ligne. Valeur probable : " + opendata_operator
+                error['latitude'], error['longitude'] = an_osm_line['latitude'], an_osm_line['longitude']
+                errors.append(error)
+                continue
+
+        opendata_code = opendata_line["ShortName_Line"]
+        if not an_osm_line['code']:
+            error = {"id": an_osm_line['osm_id']}
+            error['fix'] = [{"key": "code", "value": opendata_code}]
+            error['label'] = "Numéro de ligne (tag ref) manquant pour cette ligne. Valeur probable : " + opendata_code
+            error['latitude'], error['longitude'] = an_osm_line['latitude'], an_osm_line['longitude']
+            error.append(error)
+            continue
+        elif an_osm_line['code'] != opendata_code :
+            if opendata_code in [""] or not opendata_code.isnumeric():
+                pass
+            else :           
+                error = {"id": an_osm_line['osm_id']}
+                error['fix'] = [{"key": "code", "value": opendata_code}]
+                error["network"] = opendata_network
+                error['old'] = an_osm_line['code']
+                error['label'] = "Numéro de ligne (tag ref) erroné pour cette ligne. Valeur probable : " + opendata_code
+                error['latitude'], error['longitude'] = an_osm_line['latitude'], an_osm_line['longitude']
+                errors.append(error)
+                continue
+
+        opendata_mode = opendata_line["TransportMode"]
+        if opendata_line["TransportMode"] in MODE_MAPPINGS:
+            opendata_mode = MODE_MAPPINGS[opendata_line["TransportMode"]]
+        if not an_osm_line['mode']:
+            error = {"id": an_osm_line['osm_id']}
+            error['label'] = "la relation n'a pas de tag route_master. Valeur probable : " + opendata_mode
+            error['latitude'], error['longitude'] = an_osm_line['latitude'], an_osm_line['longitude']
+            error['fix'] = [{"key": "route_master", "value": opendata_mode}]
+            errors.append(error)
+            continue
+    
         if not an_osm_line['colour']:
             error = {"id": an_osm_line['osm_id']}
-            opendata_color = "#{}".format(opendata_line['route_color'].lower())
+            opendata_color = "#{}".format(opendata_line['TextColourWeb_hexa'].lower())
+            if opendata_color in ["#ffffff", "#000000"]:
+                continue
             error['label'] = "Couleur (tag colour) manquante pour cette ligne"
             error['fix'] = [{"key": "colour", "value": opendata_color}]
             error['latitude'], error['longitude'] = an_osm_line['latitude'], an_osm_line['longitude']
-            improvements.append(error)
-            continue
-
-        if not an_osm_line['network']:
-            error = {"id": an_osm_line['osm_id']}
-            fix = get_most_common_value(
-                stats, "network", opendata_line['agency_id'])
-            error['label'] = "Réseau de transport (tag network) manquant pour cette ligne."
-            if fix != "":
-                error['fix'] = [{"key": "network", "value": fix}]
-                error['label'] = "Réseau de transport (tag network) manquant pour cette ligne. Valeur probable : " + fix
-            error['latitude'], error['longitude'] = an_osm_line['latitude'], an_osm_line['longitude']
-            improvements.append(error)
-            continue
-
-        if not an_osm_line['operator']:
-            error = {"id": an_osm_line['osm_id']}
-            fix = get_most_common_value(
-                stats, "operator", opendata_line['agency_id'])
-            error['label'] = "Opérateur (tag operator) manquant pour cette ligne"
-            if fix != "":
-                error['fix'] = [{"key": "operator", "value": fix}]
-                error['label'] = "Opérateur (tag operator) manquant pour cette ligne. Valeur probable : " + fix
-            error['latitude'], error['longitude'] = an_osm_line['latitude'], an_osm_line['longitude']
-            improvements.append(error)
-            continue
-
-        if not an_osm_line['code']:
-            error = {"id": an_osm_line['osm_id']}
-            fix = opendata_line['route_short_name']
-            error['label'] = "Numéro de ligne (tag ref) manquant. Valeur probable : " + fix
-            error['latitude'], error['longitude'] = an_osm_line['latitude'], an_osm_line['longitude']
-            error['fix'] = [{"key": "ref", "value": fix}]
-            improvements.append(error)
-            continue
-
-        if not an_osm_line['mode']:
-            error = {"id": an_osm_line['osm_id']}
-            fix = map_modes(opendata_line['route_type'])
-            error['label'] = "la relation n'a pas de tag route_master. Valeur probable : " + fix
-            error['latitude'], error['longitude'] = an_osm_line['latitude'], an_osm_line['longitude']
-            error['fix'] = [{"key": "route_master", "value": fix}]
-            improvements.append(error)
+            improvements.append(error)            
             
     return errors, improvements
 
 def generate_osmose_errors_for_lines():
     osm_lines = get_lines_from_csv('../data/lignes.csv')
-    opendata_lines = get_lines_from_csv('../data/gtfs_routes.txt')
+    opendata_lines = get_lines_from_csv('../data/opendata_lines_referential.csv')
     osm_line_coords = get_lines_from_csv('../data/osmose_relations_with_coord.csv')
 
-    stats = extract_common_values_by_networks(osm_lines, opendata_lines)
-    #print(get_most_common_value(stats, "network", "56"))
-    #print(get_most_common_value(stats, "operator", "56"))
-
-    errors = get_errors(osm_lines, opendata_lines, stats, osm_line_coords)
+    errors = get_errors(osm_lines, opendata_lines, osm_line_coords)
     return errors
 
 if __name__ == '__main__':
@@ -156,15 +202,12 @@ if __name__ == '__main__':
     print("Il y a {} erreurs sur les lignes".format(len(errors)))
     print("Il y a {} améliorations possibles sur les lignes à partir de l'open data".format(len(improv)))
 
-    # osm_lines = get_lines_from_csv('../data/lignes.csv')
-    # opendata_lines = get_lines_from_csv('../data/gtfs_routes.txt')
-    # osm_line_coords = get_lines_from_csv('../data/osmose_relations_with_coord.csv')
-    #
-    # stats = extract_common_values_by_networks(osm_lines, opendata_lines)
-    # for a_stat in stats['networks']:
-    #     all_networks = list(set(stats['networks'][a_stat]))
-    #     if len(all_networks) == 0:
-    #         print("pas trouvé - " + a_stat)
-    #     if len(all_networks) > 1:
-    #         print("plusieurs solutions pour " + a_stat)
-    #         print(all_networks)
+    with open('errors.csv', 'w') as out_file:
+        csv_writer = csv.DictWriter(out_file, delimiter=',', fieldnames=errors[0].keys())
+        csv_writer.writeheader()
+        for row in errors:
+            csv_writer.writerow(row)
+
+
+
+

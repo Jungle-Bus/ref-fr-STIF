@@ -383,6 +383,8 @@ r14576282,C02488,Navette Autonome,NAVAUT1,RATP,,RATP,RATP,bus,bus
 r15616801,C02538,311,311,RATP,,RATP,RATP,bus,bus
 ,C02573,,BUSM03B,,,,RATP,,bus
 ,C02590,,BUSM07B,,,,RATP,,bus
+,C02665,,Soir,,,,RD Mantois,,bus
+,C02667,,Soir,,,,RD Mantois,,bus
 r7920955,C02301,GPSO,GPSO Bus,Grand Paris Seine Ouest,,Mobicité,SAVAC,bus,bus
 r3315942,C00549,BrieBus,BrieBus,BrieBus,,Transdev SETRA,SETRA,bus,bus
 ,C01859,,TER,,,,SNCF,,bus
@@ -859,14 +861,6 @@ r6785602,C01956,420,420,Évry Centre Essonne,Evry Centre Essonne,Keolis TISSE,TI
 ,C02631,,500,,Evry Centre Essonne,,TISSE,,bus
 ,C02632,,501,,Evry Centre Essonne,,TISSE,,bus
 ,C02633,,502,,Evry Centre Essonne,,TISSE,,bus
-r2531208,C01429,Othis,Filéo OTH,Filéo,Filéo,Keolis Mobilité Roissy,Keolis Roissy Pays de France Ouest,bus,bus
-,C01430,,Fileo V,,Filéo,,Keolis Roissy Pays de France Ouest,,bus
-r8405392,C01431,Sarcelles,Filéo SAR,Filéo,Filéo,Keolis,Keolis Roissy Pays de France Ouest,bus,bus
-r8398489,C01432,Goussainville,Filéo GSV,Filéo,Filéo,Keolis Mobilité Roissy,Keolis Roissy Pays de France Ouest,bus,bus
-r2531207,C01433,Viliers-le-Bel,Filéo VLB,Filéo,Filéo,Keolis,Keolis Roissy Pays de France Ouest,bus,bus
-r7678094,C01712,Survilliers,Filéo SF,Filéo,Filéo,Keolis Mobilité Roissy,Keolis Roissy Pays de France Ouest,bus,bus
-r8404844,C01823,Saint-Pathus,St-Pathus,Filéo,Filéo,Keolis Mobilité Roissy,Keolis Roissy Pays de France Ouest,bus,bus
-r2531226,C02060,Roissy Sud,Filéo RS,Filéo,Filéo,Keolis Mobilité Roissy,Keolis Roissy Pays de France Ouest,bus,bus
 ,C00786,,9,,Fontainebleau - Moret,,Transdev Pays de Fontainebleau,,bus
 r7618346,C00787,5,5,Fontainebleau - Moret,Fontainebleau - Moret,Transdev Pays de Fontainebleau,Transdev Pays de Fontainebleau,bus,bus
 r7618345,C00788,6,6,Fontainebleau - Moret,Fontainebleau - Moret,Transdev Pays de Fontainebleau,Transdev Pays de Fontainebleau,bus,bus
@@ -1447,7 +1441,6 @@ r15754459,C00642,28,28,Poissy - Les Mureaux,Poissy - Les Mureaux,Keolis Seine et
 r15870939,C00644,43,43,Poissy - Les Mureaux,Poissy - Les Mureaux,Keolis Seine et Oise Est,Keolis Seine et Oise Est,bus,bus
 r15767694,C00649,17,17,Poissy - Les Mureaux,Poissy - Les Mureaux,Keolis Seine et Oise Est,Keolis Seine et Oise Est,bus,bus
 ,C00651,,18,,Poissy - Les Mureaux,,Keolis Seine et Oise Est,,bus
-,C00653,,44,,Poissy - Les Mureaux,,Keolis Seine et Oise Est,,bus
 r15756112,C00654,41,41,Poissy - Les Mureaux,Poissy - Les Mureaux,Keolis Seine et Oise Est,Keolis Seine et Oise Est,bus,bus
 r9188817,C00655,100,100,Poissy - Les Mureaux,Poissy - Les Mureaux,Keolis Seine et Oise Est,Keolis Seine et Oise Est,bus,bus
 ,C00753,,EXP A14,,Poissy - Les Mureaux,,Keolis Seine et Oise Est,,bus
@@ -1637,11 +1630,19 @@ r8370222,C00612,24,24,Roissy Ouest,Roissy Ouest,Keolis Roissy Pays de France Oue
 r8450067,C00615,35,35,Roissy Ouest,Roissy Ouest,Keolis Roissy Pays de France Ouest,Keolis Roissy Pays de France Ouest,bus,bus
 r8450068,C00616,36,36,Roissy Ouest,Roissy Ouest,Keolis Roissy Pays de France Ouest,Keolis Roissy Pays de France Ouest,bus,bus
 r3256022,C00617,37,37,Roissy Ouest,Roissy Ouest,Keolis Roissy Pays de France Ouest,Keolis Roissy Pays de France Ouest,bus,bus
+r2531208,C01429,Othis,Filéo OTH,Filéo,Roissy Ouest,Keolis Mobilité Roissy,Keolis Roissy Pays de France Ouest,bus,bus
+,C01430,,Fileo V,,Roissy Ouest,,Keolis Roissy Pays de France Ouest,,bus
+r8405392,C01431,Sarcelles,Filéo SAR,Filéo,Roissy Ouest,Keolis,Keolis Roissy Pays de France Ouest,bus,bus
+r8398489,C01432,Goussainville,Filéo GSV,Filéo,Roissy Ouest,Keolis Mobilité Roissy,Keolis Roissy Pays de France Ouest,bus,bus
+r2531207,C01433,Viliers-le-Bel,Filéo VLB,Filéo,Roissy Ouest,Keolis,Keolis Roissy Pays de France Ouest,bus,bus
+r7678094,C01712,Survilliers,Filéo SF,Filéo,Roissy Ouest,Keolis Mobilité Roissy,Keolis Roissy Pays de France Ouest,bus,bus
 r9240941,C01815,32ZA,32 ZA,Roissy Ouest,Roissy Ouest,Keolis Roissy Pays de France Ouest,Keolis Roissy Pays de France Ouest,bus,bus
 r7677999,C01816,R114,R114,Roissy Ouest,Roissy Ouest,Keolis Roissy Pays de France Ouest,Keolis Roissy Pays de France Ouest,bus,bus
+r8404844,C01823,Saint-Pathus,St-Pathus,Filéo,Roissy Ouest,Keolis Mobilité Roissy,Keolis Roissy Pays de France Ouest,bus,bus
 r8106274,C01867,20,20,Roissy Ouest,Roissy Ouest,Keolis Roissy Pays de France Ouest,Keolis Roissy Pays de France Ouest,bus,bus
 ,C02030,,Soir,,Roissy Ouest,,Keolis Roissy Pays de France Ouest,,bus
 r8312707,C02059,27,27,Keolis Mobilité Roissy,Roissy Ouest,Keolis Mobilité Roissy,Keolis Roissy Pays de France Ouest,bus,bus
+r2531226,C02060,Roissy Sud,Filéo RS,Filéo,Roissy Ouest,Keolis Mobilité Roissy,Keolis Roissy Pays de France Ouest,bus,bus
 ,C02061,,32,,Roissy Ouest,,Keolis Roissy Pays de France Ouest,,bus
 r36997,C02164,34,34,Roissy Ouest,Roissy Ouest,Keolis Roissy Pays de France Ouest,Keolis Roissy Pays de France Ouest,bus,bus
 r3253657,C02165,11.5,11.5,Roissy Ouest,Roissy Ouest,Keolis Roissy Pays de France Ouest,Keolis Roissy Pays de France Ouest,bus,bus
@@ -1901,10 +1902,6 @@ r8404345,C01562,91-01,91-01,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,
 r6867574,C01570,91-09,91-09,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
 r7917900,C01886,P,P,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
 ,C02100,,R1-R2-R3,,Val d'Yerres Val de Seine,,Keolis Val d'Yerres Val de Seine,,bus
-,C02101,,R1A,,Val d'Yerres Val de Seine,,Keolis Val d'Yerres Val de Seine,,bus
-,C02102,,R1B,,Val d'Yerres Val de Seine,,Keolis Val d'Yerres Val de Seine,,bus
-,C02103,,R2,,Val d'Yerres Val de Seine,,Keolis Val d'Yerres Val de Seine,,bus
-,C02104,,R3,,Val d'Yerres Val de Seine,,Keolis Val d'Yerres Val de Seine,,bus
 ,C02260,,Soir,,Val d'Yerres Val de Seine,,Keolis Val d'Yerres Val de Seine,,bus
 ,C02261,,Soir,,Val d'Yerres Val de Seine,,Keolis Val d'Yerres Val de Seine,,bus
 ,C02262,,Soir,,Val d'Yerres Val de Seine,,Keolis Val d'Yerres Val de Seine,,bus

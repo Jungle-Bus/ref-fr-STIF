@@ -105,7 +105,7 @@ def get_errors(osm_lines, opendata_lines, line_coords):
             error['fix'] = [{"key": "network", "value": opendata_network}]
             error['label'] = "Réseau de transport (tag network) manquant pour cette ligne. Valeur probable : " + opendata_network
             error['latitude'], error['longitude'] = an_osm_line['latitude'], an_osm_line['longitude']
-            error.append(error)
+            errors.append(error)
             continue
         elif an_osm_line['network'] != opendata_network :
             if opendata_network in ["", "ValBus", "Parisis", "Sit'bus", "Conflans Achères", "Chavilbus"]:
@@ -130,7 +130,7 @@ def get_errors(osm_lines, opendata_lines, line_coords):
             error['fix'] = [{"key": "operator", "value": opendata_operator}]
             error['label'] = "Opérator de transport (tag operator) manquant pour cette ligne. Valeur probable : " + opendata_operator
             error['latitude'], error['longitude'] = an_osm_line['latitude'], an_osm_line['longitude']
-            error.append(error)
+            errors.append(error)
             continue
         elif an_osm_line['operator'] != opendata_operator :
             if opendata_operator in ["", "SNCF", "Magical Shuttle"]:
@@ -151,7 +151,7 @@ def get_errors(osm_lines, opendata_lines, line_coords):
             error['fix'] = [{"key": "code", "value": opendata_code}]
             error['label'] = "Numéro de ligne (tag ref) manquant pour cette ligne. Valeur probable : " + opendata_code
             error['latitude'], error['longitude'] = an_osm_line['latitude'], an_osm_line['longitude']
-            error.append(error)
+            errors.append(error)
             continue
         elif an_osm_line['code'] != opendata_code :
             if opendata_code in [""] or not opendata_code.isnumeric():

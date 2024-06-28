@@ -216,7 +216,7 @@ r3315943,451,Bus 451 : Éden (Servon) ↔ Créteil Préfecture,Marne et Seine,Tr
 r3318735,151,Bus 151 : Porte de Pantin ↔ Bondy - Jouhaux–Blum,RATP,RATP,#BB4A9B,bus,C01175
 r3325971,404,Bus 404 - Bois de l'Épine RER ↔ Gare du Bras de Fer RER,Évry Centre Essonne,Keolis TISSE,#99C400,bus,C01619
 r3326845,4,Ligne 4 : Porte de Clignancourt ↔ Bagneux - Lucie Aubrac,Métro de Paris,RATP,#a0006e,subway,C01374
-r3328694,14,Ligne 14 : Mairie de Saint-Ouen ↔ Olympiades,Métro de Paris,RATP,#640082,subway,C01384
+r3328694,14,Ligne 14 : Saint-Denis – Pleyel ↔ Aéroport d’Orly,Métro de Paris,RATP,#640082,subway,C01384
 r3328695,1,Ligne 1 : La Défense (Grande Arche) ↔ Château de Vincennes,Métro de Paris,RATP,#ffbe00,subway,C01371
 r3328717,9,Ligne 9 : Pont de Sèvres ↔ Mairie de Montreuil,Métro de Paris,RATP,#d2d200,subway,C01379
 r3328741,10,Ligne 10 : Pont de Saint-Cloud ↔ Gare d’Austerlitz,Métro de Paris,RATP,#dc9600,subway,C01380
@@ -535,7 +535,7 @@ r7420696,P,Transilien P,Transilien,SNCF,#F28E42,train,C01730
 r7420697,R,Transilien R,Transilien,SNCF,#F3A4BA,train,C01731
 r7420698,H,Transilien Ligne H,Transilien,SNCF,#7B4339,train,C01737
 r7420700,N,Transilien N,Transilien,SNCF,#00A88F,train,C01736
-r7420701,B,RER B,RER,RATP/SNCF,#5291CE,train,C01743
+r7420701,B,RER B,RER,SNCF,#5291CE,train,C01743
 r7423788,399,Bus 399 : Massy–Palaiseau RER ↔ Juvisy RER,RATP,RATP,#87d3df,bus,C01322
 r7423789,319,Bus 319 : Marché International de Rungis ↔ Massy - Opéra-Théâtre ↔ Massy-Palaiseau RER,RATP,RATP,#008B5A,bus,C01282
 r7423790,199,Bus 199 : Gare de Massy–Palaiseau ↔ La Rocade - Lycée (Longjumeau) ou Pablo Picasso (Saulx-les-Chartreux),RATP,RATP,#cec92a,bus,C01218
@@ -668,7 +668,7 @@ r7844609,30-22,Bus 30-22 : Gare de Cernay ↔ Sannois Résidence du Moulin,Valbu
 r7853637,202,Bus 202 : Brétigny-sur-Orge Gare Place (circulaire via Vert-le-Grand),Cœur d'Essonne,Transdev Cœur Essonne,#741B47,bus,C00323
 r7873860,316,Bus 316 : Montreau ↔ Etampes HLM Bas,Essonne Sud Ouest,Francilité Ouest Essonne,,bus,C02066
 r7887299,5132,Bus 5132 : La Verrière ↔ Trappes,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,#B1B9DF,bus,C01523
-r7890329,5134,Bus 5134 : Versailles Rive Gauche ↔ Maurepas Village,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,#79AC2B,bus,C01521
+r7890329,5134,Bus 5134 : Versailles Rive Gauche ↔ Maurepas Village,SQYBus,Francilité Saint-Quentin-en-Yvelines,#79AC2B,bus,C01521
 r7901303,v5,Bus v5 : Gabriel Péri - Soleil Levant,Valouette,RATP,,bus,C01362
 r7902022,Amibus,Bus Amibus : Mairie de Châtillon ↔ Châtillon-Montrouge Métro,Vallée Sud,Transdev Vallee Sud,#4cc6f4,bus,C01366
 r7902826,Le Petit Fontenaisien,Bus Le petit fontenaisien : Division Leclerc (circulaire),RATP,RATP,,bus,C01368
@@ -1458,7 +1458,7 @@ r16093126,4318,Bus 4318 : Mairie (Champcueil) ↔ Ormoy - Les Rochers,Essonne Su
 r16105746,30-46,Bus 30-46 : Gare de Cormeilles-en-Parisis ↔ Collège Louis Hayet,Parisis,Cars Lacroix,,bus,C01876
 r16118277,439,Bus 439 : Gare de Sucy - Bonneuil ↔ Le Havre ↔ Gare de Sucy - Bonneuil,Marne et Seine,Transdev Côteaux de la Marne,#F4CCCC,bus,C02456
 r16179016,1316,Bus 1316 : Gare de Presles-Courcelles (Presles)↔Gare de l'Isle-Adam - Parmain (l'Isle-Adam),Haut Val d'Oise,Keolis Nord Val d’Oise,#00814F,bus,C00462
-r16225273,3,Ligne 3 : VERNON République ↔ VERNON L. Damasse,SN'go,Transdev,#FFDC01,bus,
+r16225273,3,Ligne 3 : VERNON République ↔ VERNON L. Damasse,SNgo!,Transdev,#FFDC01,bus,
 r16233417,Navette Giverny,Navette Giverny : GIVERNY Parking ↔ VERNON Gare SNCF,SN'go,Transdev,#05AADD,bus,
 r16301271,Express 50,Bus Express 50 : Gare de Marne-la-Vallée - Chessy Sud ↔ Gare de Provins,Provinois - Brie et Seine,Francilité Grand Provinois,#5291CE,bus,C01500
 r16410694,12,Bus 12 : circulaire de la gare de L'Étang Les Sablons,Saint-Germain Boucles de Seine,Transdev Boucle des Lys,,bus,C02616
@@ -1506,3 +1506,4 @@ r17630910,SFE,Navette Hôtel Santa Fe,Disneyland Paris,Disneyland Paris,,bus,
 r17630911,NBC,Navette Hôtel Newport Bay Club,Disneyland Paris,Disneyland Paris,,bus,
 r17630912,CHE,Navette Hôtel Cheyenne,Disneyland Paris,Disneyland Paris,,bus,
 r17630915,A05,A05 : Aéroport Paris Beauvais ↔ Disneyland Paris,Aérobus Paris-Beauvais,Transports Paris-Beauvais,#671FB8,bus,
+r17747758,10,Ligne 10 : VERNON République ↔ ÉCOS Place de l'Église,SN'go,Transdev,#F58220,bus,

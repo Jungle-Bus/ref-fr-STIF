@@ -20,14 +20,6 @@ r8132489,C00484,3801,3801,Valbus,,Transdev Les Cars Rose,Cars Rose,bus,bus
 r8132510,C00487,3804,3804,Valbus,,Transdev Les Cars Rose,Cars Rose,bus,bus
 r9188067,C00481,CitéVal S,CitéVal S,CitéVal,,Lacroix,Francilité Val Parisis,bus,bus
 r6972327,C02062,Express 100,EX 100,KMR,,Keolis Mobilité Roissy,Keolis Mobilité Roissy,bus,bus
-,C02676,,SC45,,,,Keolis Nord Val d’Oise,,bus
-,C02680,,SC46,,,,Keolis Nord Val d’Oise,,bus
-,C02681,,SC47,,,,Keolis Nord Val d’Oise,,bus
-,C02682,,SC48,,,,Keolis Nord Val d’Oise,,bus
-,C02683,,SC49,,,,Keolis Nord Val d’Oise,,bus
-,C02684,,SC53,,,,Keolis Nord Val d’Oise,,bus
-,C02685,,SC50,,,,Keolis Nord Val d’Oise,,bus
-,C02686,,SC51,,,,Keolis Nord Val d’Oise,,bus
 ,C02687,,SC52,,,,Keolis Nord Val d’Oise,,bus
 r12564972,C02317,T9,T9,Tramway d'Île de France,,Keolis,Keolis Ouest Val-de-Marne,tram,tram
 ,C02664,,Filéo com,,,,Keolis Roissy Pays de France Ouest,,bus
@@ -464,6 +456,10 @@ r11041995,C02264,20,20,Argenteuil - Boucles de Seine,Argenteuil - Boucles de Sei
 ,C02361,,57,,Argenteuil - Boucles de Seine,,Keolis Argenteuil Boucles de Seine,,bus
 ,C02516,,SRL LVT,,Argenteuil - Boucles de Seine,,Keolis Argenteuil Boucles de Seine,,bus
 ,C02629,,N,,Argenteuil - Boucles de Seine,,Keolis Argenteuil Boucles de Seine,,bus
+,C02683,,60,,Argenteuil - Boucles de Seine,,Keolis Argenteuil Boucles de Seine,,bus
+,C02684,,61,,Argenteuil - Boucles de Seine,,Keolis Argenteuil Boucles de Seine,,bus
+,C02685,,62,,Argenteuil - Boucles de Seine,,Keolis Argenteuil Boucles de Seine,,bus
+,C02686,,63,,Argenteuil - Boucles de Seine,,Keolis Argenteuil Boucles de Seine,,bus
 r9183484,C02179,A01,A01 PPM,Aérobus Paris-Beauvais,Aérobus,Transports Paris-Beauvais,Aéroport Paris-Beauvais / SAGEB,bus,bus
 ,C02677,,A02 SDU,,Aérobus,,Aéroport Paris-Beauvais / SAGEB,,bus
 ,C02678,,A03 DEF,,Aérobus,,Aéroport Paris-Beauvais / SAGEB,,bus
@@ -750,6 +746,8 @@ r9832132,C02461,DM3B,DM3B,Cœur d'Essonne,Cœur d’Essonne,Transdev Cœur Esson
 ,C02661,,Soir,,Cœur d’Essonne,,Transdev Cœur Essonne,,bus
 ,C02662,,5,,Cœur d’Essonne,,Transdev Cœur Essonne,,bus
 r17397659,C02663,106,106,Cœur d'Essonne,Cœur d’Essonne,Transdev Cœur Essonne,Transdev Cœur Essonne,bus,bus
+,C02682,,4584,,Cœur d’Essonne,,Transdev Cœur Essonne,,bus
+,C02720,,4584,,Cœur d’Essonne,,Transdev Cœur Essonne,,bus
 r9243178,C00092,4305,4305,Essonne Sud Est,Essonne Sud Est,Keolis Val d'Essonne Deux Vallées,Keolis Val d'Essonne Deux Vallées,bus,bus
 r9866393,C00100,4323,4323,Essonne Sud Est,Essonne Sud Est,Keolis Val d'Essonne Deux Vallées,Keolis Val d'Essonne Deux Vallées,bus,bus
 ,C00101,,4324,,Essonne Sud Est,,Keolis Val d'Essonne Deux Vallées,,bus
@@ -1208,15 +1206,17 @@ r7920977,C02236,E,E,Meaux et Ourcq,Meaux et Ourcq,Transdev Marne-et-Ourcq,Transd
 ,C02489,,Soir,,Meaux et Ourcq,,Transdev Marne-et-Ourcq,,bus
 ,C02490,,Soir,,Meaux et Ourcq,,Transdev Marne-et-Ourcq,,bus
 ,C02618,,Gs,,Meaux et Ourcq,,Transdev Marne-et-Ourcq,,bus
+,C02676,,4C,,Meaux et Ourcq,,Transdev Marne-et-Ourcq,,bus
+,C02680,,23S,,Meaux et Ourcq,,Transdev Marne-et-Ourcq,,bus
 ,C02651,,P24-04,,Navettes Spectateurs Paris 2024,,Francilité Saint-Quentin-en-Yvelines,,bus
 ,C02652,,P24-05,,Navettes Spectateurs Paris 2024,,Francilité Saint-Quentin-en-Yvelines,,bus
 ,C02653,,P24-06,,Navettes Spectateurs Paris 2024,,Francilité Saint-Quentin-en-Yvelines,,bus
 ,C02719,,P24b-06,,Navettes Spectateurs Paris 2024,,Francilité Saint-Quentin-en-Yvelines,,bus
 ,C02657,,P24-10,,Navettes Spectateurs Paris 2024,,RATP,,bus
 ,C02658,,P24-11,,Navettes Spectateurs Paris 2024,,RATP,,bus
+,C02650,,P24-MPT,,Navettes Spectateurs Paris 2024,,RATP Cap Expertise,,bus
 ,C02648,,P24-01,,Navettes Spectateurs Paris 2024,,Transdev Marne-la-Vallée,,bus
 ,C02649,,P24-02,,Navettes Spectateurs Paris 2024,,Transdev Marne-la-Vallée,,bus
-,C02650,,P24-03,,Navettes Spectateurs Paris 2024,,Transdev Marne-la-Vallée,,bus
 ,C02717,,P24b-02,,Navettes Spectateurs Paris 2024,,Transdev Marne-la-Vallée,,bus
 ,C02654,,P24-07,,Navettes Spectateurs Paris 2024,,Transdev Versailles,,bus
 ,C02655,,P24-08,,Navettes Spectateurs Paris 2024,,Transdev Versailles,,bus
@@ -1715,7 +1715,7 @@ r16410742,C02503,TàD 78,TàD,Saint-Germain Boucles de Seine,Saint Germain Boucl
 r16410695,C02615,11,11,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
 r16410694,C02616,12,12,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Boucle des Lys,Transdev Boucle des Lys,bus,bus
 r7532322,C00403,5110,5110,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
-r8740800,C00416,5112,5112,SQYBus,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
+r8740800,C00416,5112,5112,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
 r8738250,C00418,5101,5101,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
 ,C00535,,5188,,Saint-Quentin-en-Yvelines,,Francilité Saint-Quentin-en-Yvelines,,bus
 ,C00536,,5189,,Saint-Quentin-en-Yvelines,,Francilité Saint-Quentin-en-Yvelines,,bus
@@ -1729,7 +1729,7 @@ r8738250,C00418,5101,5101,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Fr
 r8272658,C00544,5141,5141,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
 r8729290,C00545,5140,5140,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
 ,C00571,,5199,,Saint-Quentin-en-Yvelines,,Francilité Saint-Quentin-en-Yvelines,,bus
-r7890329,C01521,5134,5134,SQYBus,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
+r7890329,C01521,5134,5134,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
 r7921031,C01522,5121,5121,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
 r7887299,C01523,5132,5132,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
 r8729263,C01524,5120,5120,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
@@ -1831,6 +1831,7 @@ r9718464,C02188,62C,62C,Sénart,Sénart,Transdev Sénart,Transdev Senart,bus,bus
 ,C02193,,63,,Sénart,,Transdev Senart,,bus
 ,C02194,,61A,,Sénart,,Transdev Senart,,bus
 ,C02458,,27,,Sénart,,Transdev Senart,,bus
+,C02681,,52,,Sénart,,Transdev Senart,,bus
 ,C01744,,TER,,TER,,SNCF,,rail
 ,C01745,,TER,,TER,,SNCF,,rail
 ,C01746,,TER,,TER,,SNCF,,rail

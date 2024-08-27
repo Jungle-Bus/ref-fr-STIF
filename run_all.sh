@@ -27,7 +27,7 @@ set -e
 #./focus/focus.sh
 
 # extract and count linepoints from GTFS and OSM
-#./check_linepoints/check_linepoints.sh
+./check_linepoints/check_linepoints.sh
 
 # update Osmose
 ./osmose/osmose.sh

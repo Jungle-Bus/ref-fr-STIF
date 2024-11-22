@@ -620,7 +620,7 @@ r7781376,254,Bus 254 : Gare d'Enghien-Les-Bains ↔ Gare de Saint-Denis RER,RATP
 r7783242,340,Bus 340 : Clichy - Berges de Seine ↔ Asnières-Gennevilliers-Les Courtilles ↔ Gare d'Argenteuil,RATP,RATP,#F59EB3,bus,C01292
 r7783262,349,Bus 349 : Parc des Expositions RER ↔ Route de l'Arpenteur-ADP,Terres d'Envol,Transdev Nord Seine-Saint-Denis,#77C695,bus,C01297
 r7784991,426,Bus 426 : Gare de La Celle-Saint-Cloud ↔ Pont de Sèvres,RATP,RATP,#8D653A,bus,C01481
-r7790644,62,Bus 62 : La Ferté sous Jouarre ↔ Chessy,Brie et Deux Morin,Transdev Brie et Deux Morin,#5291CE,bus,C00947
+r7790644,62EX,Bus Express 62 : Gare de la Ferté sous Jouarre ↔ Gare de Marne-la-Vallée Chessy Sud,Brie et Deux Morin,Transdev Brie et Deux Morin,#5291CE,bus,C00947
 r7791161,260,Bus 260 : Suzanne Lenglen (Paris) ↔ Gambetta (Boulogne-Billancourt),RATP,RATP,#ffbe00,bus,C02027
 r7791162,6246,Bus 6246 : Gare de la Celle Saint-Cloud ↔ Gambetta (Boulogne-Billancourt),Grand Versailles,Transdev Versailles,#bb2e9e,bus,C02239
 r7792140,385,Bus 385 : Épinay-sur-Orge RER ↔ Juvisy RER,RATP,RATP,#DFB03A,bus,C01313
@@ -938,7 +938,7 @@ r8404004,412,Bus 412 : La Croix de Berny RER ↔ Lycée Polyvalent,Bièvre,RATP 
 r8404223,6243,Bus 6243 : Gare de Fontenay le Fleury (circulaire),Grand Versailles,Transdev Versailles,,bus,C01872
 r8404345,91-01,Bus 91-01 : Gare Brunoy ↔ Gare Routière d'Evry Courcouronnes,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,#1ac7ff,bus,C01562
 r8404789,2118,Bus 2118 : Marché (Villeparisis) ↔ Collège Gérard Philipe,Roissy Est,Keolis Roissy Pays de France Est,#F78F4B,bus,C00200
-r8404844,Saint-Pathus,Bus Filéo Saint-Pathus : Roissypole ↔ Saint-Pathus,Filéo,Keolis Mobilité Roissy,,bus,C01823
+r8404844,Saint-Pathus,Bus Filéo Saint-Pathus : Roissypole ↔ Saint-Pathus,Filéo,Keolis,,bus,C01823
 r8405392,Sarcelles,Bus Filéo Sarcelles : Roissypole ↔ Sarcelles,Filéo,Keolis,,bus,C01431
 r8405850,X,Bus X : Mantes-la-Jolie - Henri Clérisse ↔ Gare de Mantes-la-Jolie,Mantois,RATP Cap Mantois,#8B4A12,bus,C01612
 r8406206,6230,Bus 6230 : La Celle Saint-Cloud Gare ↔ Puits d'Angle,Grand Versailles,Transdev Versailles,,bus,C01772
@@ -1011,7 +1011,7 @@ r8479479,3454,Bus 3454 : Gare de Fontainebleau - Avon ↔ Gare de Malesherbes,Fo
 r8493726,Ex100,Bus Express 100 Persan : Roissypole (Aéroport CDG Terminal 3) ↔ Gare de Persan - Beaumont,Haut Val d'Oise,Keolis Vallée de l'Oise,#3BB2FF,bus,C01675
 r8493727,Express20,Bus Express20 : Roissypole (Aéroport CDG Terminal 3) ↔ Gare de Meaux,Meaux et Ourcq,Transdev Marne-et-Ourcq,#3BB2FF,bus,C00661
 r8493728,R4,Bus R4 : Roissypole ↔ Louvres Gare,Roissy Ouest,Keolis Roissy Pays de France Ouest,#09A88E,bus,C00231
-r8493815,67,Bus 67 : Roissypole (Aéroport CDG Terminal 3) ↔ Gare de La Ferté-sous-Jouarre,Brie et Deux Morin,Transdev Brie et Deux Morin,#3BB2FF,bus,C00960
+r8493815,67EX,Bus Express 67 : Gare de La Ferté-sous-Jouarre ↔ Roissypole Aéroport CDG T3,Brie et Deux Morin,Transdev Brie et Deux Morin,#3BB2FF,bus,C00960
 r8507551,95-16,Bus 95-16 : Butry-sur-Oise - Gare de Valmondois ↔ Butry-sur-Oise - Gare de Valmondois,Vexin,Transdev Vexin,,bus,C00399
 r8507557,95-12,Bus 95-12 : Berville - Lavoir ↔ Cergy Préfecture,Vexin,Transdev Vexin,,bus,C01786
 r8553608,116,Bus 116 : Gare d'Epinay-sur-Orge (circulaire) via Collège Maurois,Paris-Saclay,RATP Cap Saclay,#ef7d00,bus,C01766
@@ -1109,7 +1109,7 @@ r9190528,CDG,Bus CDG : Disneyland ↔ Terminal 1,Magical Shuttle,Transdev Visual
 r9190550,Orly,Bus Orly : Orly Sud ↔ Disneyland,Magical Shuttle,Transdev Visual,,bus,C01546
 r9190573,Selected,Bus Magical Shuttle Selected : Kyriad ↔ Aéroport CDG,Magical Shuttle,Transdev Visual,,bus,C01544
 r9190605,4439,Bus 4439 : Gare RER d'Etrechy (circulaire),Essonne Sud Ouest,Francilité Ouest Essonne,#F3A4BA,bus,C00967
-r9190682,34,Bus 34 : Gare de la Ferté-sous-Jouarre SNCF ↔ Mairie,Brie et Deux Morin,Transdev Brie et Deux Morin,#CC7F3C,bus,C00924
+r9190682,34,Bus 34 : Gare de la Ferté-sous-Jouarre ↔ Verdelot Place de la Mairie,Brie et Deux Morin,Transdev Brie et Deux Morin,#CC7F3C,bus,C00924
 r9190795,C,Bus C : Gare de Rambouillet [Prud'homme] (circulaire),Centre et Sud Yvelines,Transdev Sud Yvelines,,bus,C01678
 r9192706,5142,Bus 5142 : Mérantais ↔ Saint-Quentin Gare,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,#a09923,bus,C01535
 r9192729,2116,Bus 2116 : Mitry Claye RER B ↔ Villeparisis Mitry le Neuf RER B,Roissy Est,Keolis Roissy Pays de France Est,#C04192,bus,C00198
@@ -1168,7 +1168,7 @@ r9237359,300,Bus 300 : Corbeil Centre Ville (circulaire),Évry Centre Essonne,Ke
 r9237446,302,Bus 302 : Hameau de Seine ↔ Gare de Corbeil-Essonnes - Henri Barbusse,Évry Centre Essonne,Keolis TISSE,,bus,C00386
 r9237532,8B,Bus 8B : Gare Routière de Crécy la Chapelle (circulaire),Brie et Deux Morin,Transdev Brie et Deux Morin,,bus,C00906
 r9237559,4,Bus 4 : Gare d'Esbly ↔ Rue Philo,Meaux et Ourcq,Transdev Marne-et-Ourcq,#CEADD2,bus,C00901
-r9237642,56,Bus 56 : Gare Routière de Meaux ↔ Gare de la Ferté-sous-Jouarre SNCF,Brie et Deux Morin,Transdev Brie et Deux Morin,#CEACD2,bus,C00941
+r9237642,56,Bus 56 : Gare de la Ferté-sous-Jouarre ↔  Gare de Meaux / Meaux -Couvbertin,Brie et Deux Morin,Transdev Brie et Deux Morin,#CEACD2,bus,C00941
 r9237674,10,Bus 10 : Gare Routière de Meaux (circulaire),Meaux et Ourcq,Transdev Marne-et-Ourcq,#edea4d,bus,C00908
 r9238037,14,Bus 14 : Gare Sud de Poissy ↔ Gare de Maule,Centre et Sud Yvelines,Transdev Sud Yvelines,,bus,C00112
 r9240299,80,Bus Express 80 : Gare de Cergy Préfecture ↔ Gare Routière Mantes-la-Ville,Lignes Île-de-France Ouest,Francilité Express Ouest,,bus,C00652
@@ -1273,13 +1273,13 @@ r9873145,B,Bus B : La Défense ↔ Bonnières - La Vallée Française,Express A1
 r9899857,30-33,Bus 30-33 : Gare de Montigny - Beauchamp ↔ Collège Camille Claudel,Val Parisis,Francilité Val Parisis,#6890CA,bus,C00460
 r9899858,30-31,Bus 30-31 : Herblay ou Taverny ↔ Montigny-lès-Cormeilles,Val Parisis,Francilité Val Parisis,#ca2c86,bus,C00458
 r9904977,41B,Bus 41B : La Ferté sous Jouarre ↔ Coulommiers,Brie et Deux Morin,Transdev Brie et Deux Morin,#FF0000,bus,C02154
-r9905067,32,Bus 32 : Gare de La Ferté sous Jouarre ↔ Gare de Nanteuil - Saâcy,Brie et Deux Morin,Transdev Brie et Deux Morin,#35b660,bus,C00922
-r9905093,33,Bus 33 : Centre (Hondevilliers) ↔ Gare de La Ferté sous Jouarre,Brie et Deux Morin,Transdev Brie et Deux Morin,#bf6cac,bus,C00923
+r9905067,32,"Bus 32 : Gare de La Ferté-sous-Jouarre ↔ Mairie, Luzancy",Brie et Deux Morin,Transdev Brie et Deux Morin,#35b660,bus,C00922
+r9905093,33,Bus 33 : Hondevilliers / Bassevelle ↔ La Ferté sous Jouarre,Brie et Deux Morin,Transdev Brie et Deux Morin,#bf6cac,bus,C00923
 r9906060,95-48,Bus 95-48 : Bray-et-Lû - Place du 19 mai 1962 ↔ Magny-en-Vexin - Gare Routière ↔ Cergy-Pontoise,Vexin,Transdev Vexin,#E3051C,bus,C02206
 r9912272,31,Bus 31 : Gare de La Ferté-sous-Jouarre ↔ Gare de La Ferté-sous-Jouarre,Brie et Deux Morin,Transdev Brie et Deux Morin,,bus,C00920
-r9912301,35,Bus 35 : Place Saint-Claude (Pierre-Levée) ↔ Gare de Changis Saint-Jean ↔ Gare de la Ferté-sous-Jouarre,Brie et Deux Morin,Transdev Brie et Deux Morin,#f8b63a,bus,C00926
-r9919053,49,bus 49 : Circulaires de la gare de La Ferté sous Jouarre,Brie et Deux Morin,Transdev Brie et Deux Morin,#ff1433,bus,C00934
-r9923401,40,Bus 40 : Gare de La Ferté-sous-Jouarre ↔ Mairie (Sept-Sorts),Brie et Deux Morin,Transdev Brie et Deux Morin,#45f7e5,bus,C01059
+r9912301,35,Bus 35 : Pierre-Levée ↔ la Ferté-sous-Jouarre,Brie et Deux Morin,Transdev Brie et Deux Morin,#f8b63a,bus,C00926
+r9919053,49,bus 49 : Gare de La Fertés-sous-Jouarre ↔ Gare de la Ferté-sous-Jouarre (par Chamigny),Brie et Deux Morin,Transdev Brie et Deux Morin,#ff1433,bus,C00934
+r9923401,40,Bus 40 : Sept-Sorts - ZI Le Hainault ↔ Gare de La Ferté-sous-Jouarre,Brie et Deux Morin,Transdev Brie et Deux Morin,#CFE2F3,bus,C01059
 r9923459,48,Bus 48 : Gare de Nanteuil Saacy (Saâcy-sur-Marne) ↔ Villaré Château d'Eau (Citry),Brie et Deux Morin,Transdev Brie et Deux Morin,#f085b5,bus,C01993
 r9924095,23,Bus 23 : Gare d'Isles Armentieres Congis (Isles-les-Meldeuses) ↔ Château du Vignois (Armentières-en-Brie),Meaux et Ourcq,Transdev Marne-et-Ourcq,#177cc0,bus,C00919
 r9924118,61,Bus 61 : Gare de Changis Saint-Jean (Changis-sur-Marne) ↔ Torchamps / Centre (Jaignes),Meaux et Ourcq,Transdev Marne-et-Ourcq,#ccdc4f,bus,C00946
@@ -1501,3 +1501,4 @@ r18047351,L,Navette L : Gare de Lozère <=> Centre Commercial Villebon 2,Paris-S
 r18170447,5144,Bus 5144 : Gare de Saint-Quentin-en-Yvelines ↔ Le Buisson,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,#f3a4ba,bus,
 r18210922,6176,Bus 6176 : Robinson RER ↔ Collège Martin-Luther-Kinge - Lycée Franco-Allemand,Vélizy Vallées,Keolis Vélizy Vallée de la Bièvre,#f3a4ba,bus,
 r18275609,D,Navette D : Gare de Palaiseau-Villebon <=> Centre Commercial Villebon 2,Paris-Salcay Mobilités,Autocars Dominique,#6fa46a,bus,C01833
+r18310808,Z,Navette Z : Gare de Lozère <=> Marché du Pileu,Paris-Saclay Mobilités,Autocars Dominique,#f2be27,bus,C02499

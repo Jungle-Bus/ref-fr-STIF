@@ -392,7 +392,7 @@ r2337723,Bus 7 : Gare d'Orsay - L'Yvette → Corbeville - Plateau du Moulon,7,Co
 r2337965,Bus 9 : Centre Commercial Ulis 2 → Jouy-en-Josas RER,9,Jouy-en-Josas RER,Paris-Saclay
 r2342636,Bus 34 : Lycée de Carrières-sur-Seine → Marché des Coteaux (Argenteuil),34,Marché des Coteaux (Argenteuil),Argenteuil - Boucles de Seine
 r2343188,Bus 34 : Marché des Coteaux (Argenteuil) → Lycée de Carrières-sur-Seine,34,Lycée de Carrières-sur-Seine,Argenteuil - Boucles de Seine
-r2344962,Bus 199 : Longjumeau–La Rocade–Lycée → Massy–Palaiseau RER,199,Massy-Palaiseau RER,RATP
+r2344962,Bus 199 : Longjumeau–La Rocade-Lycée => Massy–Palaiseau RER,199,Massy-Palaiseau RER,RATP
 r2344963,Bus 319 : Marché International de Rungis → Massy-Palaiseau RER,319,Massy-Palaiseau RER,RATP
 r2346625,Bus 120 : Nogent-sur-Marne RER → Noisy-le-Grand Mont d'Est RER,120,Noisy-le-Grand Mont d'Est RER,RATP
 r2346626,Bus 120 : Noisy-le-Grand Mont d'Est RER → Nogent-sur-Marne RER,120,Nogent-sur-Marne RER,RATP
@@ -412,8 +412,8 @@ r2415099,Bus 1 : Gare d’Igny RER → Rond-Point Camille Claudel → Orsay-Vill
 r2420132,Bus 1 : Orsay-Ville RER → Rond-Point Camille Claudel → Gare d’Igny RER,1,Gare d’Igny RER,Paris-Saclay
 r2424330,Bus 294 : Igny RER → Pierre Semard - Châtillon-Montrouge,294,Pierre Semard - Châtillon-Montrouge,RATP
 r2437724,Bus 5 : Saint-Quentin en Yvelines - Gare Routière Paul Delouvrier → Château,5,Château,Centre et Sud Yvelines
-r2440110,Bus 14 : Fresnel - Vauve → Gare de Palaiseau-Villebon → Gare de Massy-Palaiseau,14,Gare de Massy-Palaiseau,Paris-Saclay
-r2440111,Bus 14 : Gare de Massy-Palaiseau → Gare de Palaiseau-Villebon → Fresnel - Vauve,14,Fresnel - Vauve,Paris-Saclay
+r2440110,Bus 14 : Polytechnique Vauve => Gare de Massy-Palaiseau via Camille Claudel,14,Gare de Massy-Palaiseau,Paris-Saclay
+r2440111,Bus 14 : Gare de Massy-Palaiseau => Polytechnique Vauve via Camille Claudel,14,Polytechnique Vauve,Paris-Saclay
 r2440383,Bus 172 : Hôpital Henri Mondor → Bourg-la-Reine RER,172,Bourg-la-Reine RER,RATP
 r2454325,Bus 6 : Campus d’Orsay - Jean Monnet → Gare d'Orsay - L'Yvette,6,Gare d'Orsay - L'Yvette,Paris-Saclay
 r2497591,Bus 380 : Villejuif - Louis Aragon → Arcueil - Vache Noire - Centre Commercial,380,Arcueil - Vache Noire - Centre Commercial,RATP
@@ -497,7 +497,7 @@ r2965779,Bus 602 : Gare du Raincy–Villemomble–Montfermeil → Coubron - Stad
 r2965877,Bus 602 : Coubron - Stade → Gare du Raincy–Villemomble–Montfermeil,602,Gare du Raincy–Villemomble–Montfermeil,Seine-Saint-Denis
 r2968022,Bus 399 Massy-Palaiseau RER → Juvisy RER,399,Juvisy RER,RATP
 r2968060,Bus 319 : Massy-Palaiseau RER → Marché International de Rungis,319,Marché International de Rungis,RATP
-r2968061,Bus 199 : Massy–Palaiseau RER → Longjumeau–La Rocade–Lycée,199,Longjumeau–La Rocade–Lycée,RATP
+r2968061,Bus 199 : Massy–Palaiseau RER => Longjumeau–La Rocade-Lycée,199,La Rocade - Lycée,RATP
 r2972825,Bus 286 : Villejuif–Louis Aragon → Antony RER,286,Antony RER,RATP
 r2972957,Bus 186 : Fresnes – Rond-Point Roosevelt → Porte d'Italie,186,Paris - Porte d'Italie,RATP
 r2975777,Bus 118: Van Derheyden (Rosny-sous-Bois) → Château de Vincennes,118,Château de Vincennes,RATP
@@ -738,7 +738,7 @@ r4659042,Bus 235 : Colombes - Europe → Asnières - Gennevilliers - Gabriel Pé
 r4663476,Bus 140 : Clichy-Berges de Seine → Gare d'Argenteuil,140,Gare d'Argenteuil,RATP
 r4663477,Bus 140 : Gare d'Argenteuil → Clichy-Berges de Seine,140,Clichy - Berges de Seine,RATP
 r4663564,Bus 566 : Église de Colombes → Rue de l'Industrie,566,Rue de l'Industrie,RATP
-r4674747,Bus 278 : La Défense → Bois-Colombes - Les Bruyères,278,,RATP
+r4674747,Bus 278 : La Défense → Bois-Colombes - Les Bruyères,278,Les Bruyères,RATP
 r4736655,Bus 368 : Gare de Garges–Sarcelles RER → Place du Souvenir Français,368,Place du Souvenir Français,RATP
 r4739966,Bus 269 : Gare de Garges–Sarcelles RER → Hôtel de Ville d'Attainville,269,Hôtel de Ville d'Attainville,RATP
 r4739991,Bus 270 : Stains–La Cerisaie → Gare de Villiers-le-Bel RER,270,Gare de Villiers-le-Bel RER,RATP
@@ -1142,9 +1142,9 @@ r7375316,Bus Montbus,Montbus,Châtillon - Montrouge Métro,Vallée Sud
 r7380393,Bus 2262 : Gare de Marne-la-Valée - Chessy Nord → Gare d'Esbly,2262,Gare d'Esbly,Marne-la-Vallée
 r7380394,Bus 2262 : Gare d'Esbly → Gare de Marne-la-Vallée - Chessy Nord,2262,Gare de Marne-la-Vallée - Chessy Nord,Marne-la-Vallée
 r7394300,Bus 124: Val de Fontenay RER → Château de Vincennes,124,Val de Fontenay RER,RATP
-r7398763,Bus 174 : La Défense → Trézel,174,,RATP
+r7398763,Bus 174 : La Défense → Trézel,174,Trézel,RATP
 r7398765,Bus 174 : Trézel → La Défense,174,La Défense,RATP
-r7398766,Bus 174 : La Défense → Saint-Ouen RER,174,,RATP
+r7398766,Bus 174 : La Défense → Saint-Ouen RER,174,Saint-Ouen RER,RATP
 r7398767,Bus 174 : Saint-Ouen RER → La Défense,174,La Défense,RATP
 r7405822,Bus 1237 : Vauréal - Georges Brassens → Gare de Conflans Fin d'Oise,1237,Gare de Conflans Fin d'Oise,Cergy-Pontoise Confluence
 r7413596,Navette Parkings : Orly 1-2-3 → Orly 4,Parkings,Orly 4,Navettes Aéroports De Paris
@@ -2354,7 +2354,7 @@ r9256758,Bus 4403 : Gare d'Étampes (circulaire via Gare Saint-Martin),4403,Gare
 r9257303,Bus 4405 : Étampes - Hôpital (circulaire extérieure),4405,Hôpital,Essonne Sud Ouest
 r9257414,Bus 4406 : Étampes - Hôpital (circulaire intérieure),4406,Hôpital,Essonne Sud Ouest
 r9257536,Bus 4408 : Morigny-Champigny - Traversière → Étampes Hôpital,4408,Hôpital,Essonne Sud Ouest
-r9257972,Bus 6802 : Gare de Breuillet Village (circulaire),6802,Gare de Breuillet Village,Cœur d'Essonne
+r9257972,Bus 4552 : Gare de Breuillet Village - Circuit urbain,4552,Gare de Breuillet Village,Cœur d'Essonne
 r9258581,Bus 4440 : Gare d'Etrechy (circulaire),4440,Gare d'Etrechy,Essonne Sud Ouest
 r9258809,Bus 913.17 : Gare d'Étampes → Mairie (Brières-les-Scellés),913.17,Mairie,Essonne Sud Ouest
 r9258810,Bus 913.17 : Mairie (Brières-les-Scellés) → Gare d'Étampes,913.17,Gare d'Étampes,Essonne Sud Ouest
@@ -2392,8 +2392,8 @@ r9285367,Bus 17 : Lycée Lakanal → Mairie de Bourg-la-Reine - Condorcet,17,Mai
 r9297576,Bus 121 via : Mairie de Montreuil → Villemomble – Lycée Georges Clemenceau,121,Villemomble – Lycée Georges Clemenceau,RATP
 r9297835,Bus 197 : Baconnets-Mirabeau → Descartes (desserte aux horaires spécifiques le matin),197,Descartes,RATP
 r9298810,Bus 168 : Butte Pinson → Saint-Denis–Université,168,Saint-Denis - Université,RATP
-r9298999,Bus 199 : Massy–Palaiseau RER → Pablo Picasso,199,Pablo Picasso,RATP
-r9299000,Bus 199 : Pablo Picasso → Massy–Palaiseau RER,199,Massy–Palaiseau RER,RATP
+r9298999,Bus 199 : Massy–Palaiseau RER => Saulx-les-Chartreux - Pablo Picasso,199,Saulx-les-Chartreux - Pablo Picasso,RATP
+r9299000,Bus 199 : Saulx-les-Chartreux - Pablo Picasso => Massy–Palaiseau RER,199,Massy–Palaiseau RER,RATP
 r9300092,Bus 270 : Place du 19 Mars 1962 → Garges - Sarcelles RER,270,Garges - Sarcelles RER,RATP
 r9300093,Bus 270 : Garges - Sarcelles RER → Place du 19 Mars 1962,270,Place du 19 Mars 1962,RATP
 r9303404,Bus 141 : Rueil-Malmaison - Centre Madeleine Danielou → Nanterre - Boulevard de la Seine,141,Boulevard de la Seine,RATP
@@ -2667,8 +2667,8 @@ r9773302,Bus DM3A : Sycomores → Rue des Trembles → RER Gare Condorcet,DM3A,R
 r9773303,Bus DM3A : François Mitterrand → Lieutenant-Colonel Bizeul → RER Gare Condorcet,DM3A,RER Gare Condorcet,Cœur d'Essonne
 r9773304,Bus DM3A : RER Gare Condorcet → Rue des Trembles → Sycomores,DM3A,Sycomores,Cœur d'Essonne
 r9773305,Bus DM3A : RER Gare Condorcet → Lieutenant-Colonel Bizeul → François Mitterrand,DM3A,François Mitterrand,Cœur d'Essonne
-r9774212,Bus 6203 (dimanche) : Satory → Notre-Dame → Hôpital André Mignot,6203,Hôpital André Mignot,Grand Versailles
-r9774213,Bus 6203 (dimanche) : Hôpital André Mignot → Notre-Dame → Satory,6203,Satory,Grand Versailles
+r9774212,Bus 6203 (dimanche matin) : Satory → Notre-Dame → Hôpital André Mignot,6203,Hôpital André Mignot,Grand Versailles
+r9774213,Bus 6203 (dimanche matin) : Hôpital André Mignot → Notre-Dame → Satory,6203,Satory,Grand Versailles
 r9774861,Bus LM1 : Lycée de Montgeron → Ermitage,LM1,Ermitage,Val d'Yerres Val de Seine
 r9774862,Bus LM1 : Lycée de Montgeron → Jonquilles,LM1,Jonquilles,Val d'Yerres Val de Seine
 r9774863,Bus LM1 : Lycée de Montgeron → Ermitage,LM1,Ermitage,Val d'Yerres Val de Seine
@@ -3739,3 +3739,8 @@ r18342632,Navette Y : La Hunière Joncherettes => Massy-Palaiseau RER,Y,Massy-Pa
 r18342633,Navette Y : Massy-Palaiseau RER => La Hunière Joncherettes,Y,La Hunière Joncherettes,Paris-Saclay Mobilités
 r18448703,Bus 6211 : Lycée Mansart → Méliès - Croix Bonnet,6211,Méliès - Croix Bonnet,Grand Versailles
 r18448779,Bus 6211 : Méliès - Croix Bonnet → Lycée Mansart,6211,Lycée Mansart,Grand Versailles
+r18480228,Bus 199 : Hôpital Paris-Saclay => Lonjumeau - La Rocade-Lycée,199,La Rocade - Lycée,RATP
+r18484464,Bus 199 : Longjumeau - La Rocade-Lycée => Hôpital Paris-Saclay,199,Hôpital Paris-Saclay,RATP
+r18487291,Bus 14 : Polytechnique Vauve => Gare de Massy-Palaiseau,14,Gare de Massy-Palaiseau,Paris-Saclay
+r18487292,Bus 14 : Gare de Massy-Palaiseau => Polytechnique Vauve,14,Polytechnique Vauve,Paris-Saclay
+r18488884,Bus 14 : Gare de Massy-Palaiseau => Lycée Camille Claudel,14,Lycée Camille Claudel,Paris-Saclay

@@ -4,7 +4,7 @@ r6928933,C00563,CDGVAL,CDG VAL,CDGVAL,,Aéroports de Paris,ADP,subway,rail
 r8268538,C01792,N2,N2,ADP,,Aéroports de Paris,ADP,bus,bus
 r2196022,C01548,701,701,Autobus du Fort,,Autobus du Fort,Autobus du Fort,bus,bus
 r7214891,C01757,Traverse,Traverse,,,Autocars Dominique,Autocars Dominique,bus,bus
-r7909099,C00479,Navette,Navette,Francilité Val Parisis,,Cars Lacroix,Francilité Val Parisis,bus,bus
+r7909099,C00479,Navette,Navette,Francilité Val Parisis,,Francilité Val Parisis,Francilité Val Parisis,bus,bus
 r9188040,C00480,CitéVal N,CitéVal N,CitéVal,,Francilité Val Parisis,Francilité Val Parisis,bus,bus
 r9188067,C00481,CitéVal S,CitéVal S,CitéVal,,Francilité Val Parisis,Francilité Val Parisis,bus,bus
 r9188120,C02040,CitéVal C,CitéVal C,CitéVal,,Francilité Val Parisis,Francilité Val Parisis,bus,bus
@@ -26,7 +26,7 @@ r3315942,C00549,BrieBus,BrieBus,Marne-la-Vallée,,Keolis Portes et Val de Brie,K
 r9190573,C01544,Selected,Selected,Magical Shuttle,,Transdev Visual,Magical Shuttle,bus,bus
 r9190528,C01545,CDG,CDG,Magical Shuttle,,Transdev Visual,Magical Shuttle,bus,bus
 r9190550,C01546,Orly,Orly,Magical Shuttle,,Transdev Visual,Magical Shuttle,bus,bus
-r7796849,C02300,469,469,Grand Paris Seine Ouest,,Mobicité,Mobicité,bus,bus
+r7796849,C02300,469,469,Grand Paris Seine Ouest,,MobiCité,Mobicité,bus,bus
 r6860704,C01071,Tvm,TVM,RATP,,RATP,RATP,bus,bus
 r1066572,C01072,20,20,RATP,,RATP,RATP,bus,bus
 r1083426,C01073,21,21,RATP,,RATP,RATP,bus,bus
@@ -411,6 +411,12 @@ r7920955,C02301,GPSO,GPSO Bus,Grand Paris Seine Ouest,,Mobicité,SAVAC,bus,bus
 ,C02753,,TAD,,,,Transdev Marne-et-Ourcq,,bus
 ,C02755,,TAD,,,,Transdev Marne-et-Ourcq,,bus
 ,C02757,,TAD,,,,Transdev Marne-et-Ourcq,,bus
+,C02779,,TAD,,,,Transdev Melun,,bus
+,C02780,,TAD,,,,Transdev Melun,,bus
+,C02781,,TAD,,,,Transdev Melun,,bus
+,C02776,,TAD,,,,Transdev Pays de Fontainebleau,,bus
+,C02777,,TAD,,,,Transdev Pays de Fontainebleau,,bus
+,C02778,,TAD,,,,Transdev Pays de Fontainebleau,,bus
 ,C02754,,TAD,,,,Transdev Sud Yvelines,,bus
 ,C02747,,TAD,,,,Transdev Vallée du Loing,,bus
 ,C02750,,TAD,,,,Transdev Vallée du Loing,,bus
@@ -483,7 +489,6 @@ r11041995,C02264,20,20,Argenteuil - Boucles de Seine,Argenteuil - Boucles de Sei
 ,C02684,,61,,Argenteuil - Boucles de Seine,,Keolis Argenteuil Boucles de Seine,,bus
 ,C02685,,62,,Argenteuil - Boucles de Seine,,Keolis Argenteuil Boucles de Seine,,bus
 ,C02686,,63,,Argenteuil - Boucles de Seine,,Keolis Argenteuil Boucles de Seine,,bus
-,C02729,,262,,Argenteuil - Boucles de Seine,,Keolis Argenteuil Boucles de Seine,,bus
 ,C02730,,26,,Argenteuil - Boucles de Seine,,Keolis Argenteuil Boucles de Seine,,bus
 ,C02731,,25,,Argenteuil - Boucles de Seine,,Keolis Argenteuil Boucles de Seine,,bus
 r9183484,C02179,A01,A01 PPM,Aérobus Paris-Beauvais,Aérobus,Transports Paris-Beauvais,Aéroport Paris-Beauvais / SAGEB,bus,bus
@@ -562,120 +567,121 @@ r9941798,C02207,71,71,Brie et Deux Morin,Brie et 2 Morin,Transdev Brie et Deux M
 ,C02365,,P,,Brie et 2 Morin,,Transdev Brie et 2 Morin,,bus
 ,C02400,,34S2,,Brie et 2 Morin,,Transdev Brie et 2 Morin,,bus
 ,C02401,,34S3,,Brie et 2 Morin,,Transdev Brie et 2 Morin,,bus
-,C00054,,2,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00057,,9,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00060,,13,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-r9204349,C00062,60,60,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-,C00063,,65,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-r9176247,C00064,67,67,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-r9238037,C00112,14,14,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-r8060916,C00119,41,41,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-r8060915,C00124,170,170,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-,C00125,,171,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00126,,172,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00137,,511,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00138,,512,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00163,,1,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-r8130193,C00164,3,3,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-r7920958,C00165,4,4,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-r7920963,C00166,5,5,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-,C00168,,8,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-r9181020,C00170,10,10,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-r14009234,C00171,11,11,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-,C00172,,15,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-r7194184,C00173,18,18,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-,C00175,,20,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00177,,24,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00178,,25,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00179,,26,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-r8130220,C00180,29,29,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-r10048302,C00181,30,30,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-r7920962,C00182,A,A,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-r7920961,C00183,B,B,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-r9171822,C00184,E,E,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-,C00187,,23,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00188,,89,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-r9187618,C00276,23,23,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-r8054733,C00279,27,27,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-r7234686,C00401,5,05,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-r8737996,C00402,7,7,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-r7921039,C00409,12,12,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-r17386997,C00410,14,14,Centre et Sud Yvelines,Centre et Sud Yvelines,Trandev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-,C00414,,Q,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00415,,19,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-r14084660,C00421,B,B,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-,C00422,,V,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00423,,P,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00424,,M,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-r8447240,C00482,3615,3615,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-,C00488,,3902,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00489,,39-003,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00494,,3907A,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-r4030054,C00496,3910,3910,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-r9952981,C00498,3913,3913,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-r7921032,C00500,3917,3917,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-r9261401,C00502,3918,3918,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-,C00504,,3927,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00505,,3928A,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00506,,3928B,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00507,,3928C,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00508,,3928D,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00509,,3928E,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00510,,3928F,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00511,,3929 1,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00512,,3929 2,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00513,,3929 3,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00514,,3929 4,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00515,,3930B,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00516,,3930C,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00517,,3930D,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-r9948936,C00518,39-303,39-303,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-,C00519,,3931,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00522,,3935A,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00523,,3935B,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C00524,,3936,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-r9261361,C00528,39-103,39-103,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-r9953049,C00529,39-203,39-203,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-,C00531,,3930A,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-r9261410,C00533,39-403,39-403,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+,C00054,,5332,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00057,,5209,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00060,,5213,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+r9204349,C00062,60,7806,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+,C00063,,5265,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+r9176247,C00064,67,5367,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+r9238037,C00112,14,5314,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+r8060916,C00119,41,5341,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+r8060915,C00124,170,5270,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+,C00125,,5271,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00126,,5299,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00137,,5211,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00138,,5212,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00163,,5311,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+r8130193,C00164,3,5233,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+r7920958,C00165,4,5334,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+r7920963,C00166,5,5325,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+,C00168,,5208,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+r9181020,C00170,10,7810,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+r14009234,C00171,11,7811,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+,C00172,,5215,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+r7194184,C00173,18,5318,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+,C00175,,5320,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00177,,5224,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00178,,5225,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00179,,5226,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+r8130220,C00180,29,5269,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+r10048302,C00181,30,5230,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+r7920962,C00182,A,5301,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+r7920961,C00183,B,5302,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+r9171822,C00184,E,5303,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+,C00187,,5333,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00188,,5389,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+r9187618,C00276,23,5323,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+r8054733,C00279,27,5295,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+r7234686,C00401,5,5315,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+r8737996,C00402,7,5327,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+r7921039,C00409,12,5312,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+r17386997,C00410,14,5324,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+,C00414,,5214,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00415,,5319,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+r14084660,C00421,B,5201,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+,C00422,,5219,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00423,,5206,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00424,,5289,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+r8447240,C00482,3615,5275,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+,C00488,,5232,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00489,,5313,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00494,,5252,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+r4030054,C00496,3910,5339,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+r9952981,C00498,3913,5363,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+r7921032,C00500,3917,5347,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+r9261401,C00502,3918,5359,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+,C00504,,5337,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00505,,5282,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00506,,5283,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00507,,5284,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00508,,5285,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00509,,5286,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00510,,5287,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00511,,5291,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00512,,5292,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00513,,5293,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00514,,5234,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00515,,5279,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00516,,5242,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00517,,5281,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+r9948936,C00518,39-303,5330,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+,C00519,,5290,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00522,,5227,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00523,,5228,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C00524,,5236,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+r9261361,C00528,39-103,5331,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+r9953049,C00529,39-203,5352,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+,C00531,,5278,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+r9261410,C00533,39-403,5340,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+r6956562,C01421,N122,N122,Noctilien,Centre et Sud Yvelines,RATP,Transdev Sud Yvelines,bus,bus
 r9190795,C01678,C,C,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-,C01718,,3907B,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C01719,,3907C,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C01720,,3907D,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-r7920589,C01721,3907,3907,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+,C01718,,5253,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C01719,,5267,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C01720,,5277,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+r7920589,C01721,3907,5307,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
 r9228969,C01824,D,D,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-r9953003,C01838,3938,3938,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-r6839305,C01874,FA,FA,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-r9206600,C01951,12,12,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-,C01952,,39,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C01953,,49,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C01954,,59,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C01955,,79,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C01957,,16,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C01980,,21,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C01981,,22,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C01982,,31,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C01983,,35,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-r8186068,C01984,38,38,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-,C01985,,40,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C01986,,41,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C01987,,45,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C01988,,48,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C01989,,51,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C01990,,55,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C01991,,61,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C01992,,17,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C02313,,01,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+r9953003,C01838,3938,5389,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+r6839305,C01874,FA,5288,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+r9206600,C01951,12,7812,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+,C01952,,5349,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C01953,,5249,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C01954,,5259,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C01955,,5379,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C01957,,5216,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C01980,,5221,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C01981,,5342,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C01982,,5231,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C01983,,5235,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+r8186068,C01984,38,5338,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+,C01985,,5240,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C01986,,5241,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C01987,,5245,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C01988,,5348,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C01989,,5251,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C01990,,5355,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C01991,,5298,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C01992,,5317,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C02313,,1,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
 r11696066,C02394,Bel Air,Bel Air,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-,C02443,,38,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C02444,,28,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-r8054731,C02446,17S,17s,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-,C02448,,403,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C02481,,02,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C02443,,5237,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C02444,,5328,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+r8054731,C02446,17S,5371,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
+,C02448,,5343,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C02481,,5322,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
 ,C02638,,5304,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
 ,C02640,,Soir,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
 ,C02641,,Soir,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C02642,,67D,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C02642,,7817,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
 ,C02741,,5297,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
 ,C02742,,5296,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
 r7447451,C00762,1230,1230,Cergy-Pontoise Confluence,Cergy-Pontoise Confluence,Francilité Seine et Oise,Francilité Seine et Oise,bus,bus
@@ -700,7 +706,7 @@ r7353488,C00785,1242,1242,Cergy-Pontoise Confluence,Cergy-Pontoise Confluence,Fr
 r8357295,C01475,1205,1205,Cergy-Pontoise Confluence,Cergy-Pontoise Confluence,Francilité Seine et Oise,Francilité Seine et Oise,bus,bus
 r7922077,C01477,1231,1231,Cergy-Pontoise Confluence,Cergy-Pontoise Confluence,Francilité Seine et Oise,Francilité Seine et Oise,bus,bus
 r7194163,C01479,1234,1234,Cergy-Pontoise Confluence,Cergy-Pontoise Confluence,Francilité Seine et Oise,Francilité Seine et Oise,bus,bus
-,C01480,,1227,,Cergy-Pontoise Confluence,,Francilité Seine et Oise,,bus
+r8718013,C01480,1227,1227,Cergy-Pontoise Confluence,Cergy-Pontoise Confluence,Francilité Seine et Oise,Francilité Seine et Oise,bus,bus
 r8413513,C01674,1222,1222,Cergy-Pontoise Confluence,Cergy-Pontoise Confluence,Francilité Seine et Oise,Francilité Seine et Oise,bus,bus
 r8364140,C01685,1221,1221,Cergy-Pontoise Confluence,Cergy-Pontoise Confluence,Francilité Seine et Oise,Francilité Seine et Oise,bus,bus
 r8076962,C02085,1233,1233,Cergy-Pontoise Confluence,Cergy-Pontoise Confluence,Francilité Seine et Oise,Francilité Seine et Oise,bus,bus
@@ -733,7 +739,7 @@ r9182058,C00679,4542,4542,Cœur d'Essonne,Cœur d’Essonne,Transdev Cœur Esson
 r9832633,C00681,4538,4538,Cœur d'Essonne,Cœur d’Essonne,Transdev Cœur Essonne,Transdev Cœur Essonne,bus,bus
 r9832751,C00682,4550,4550,Cœur d'Essonne,Cœur d’Essonne,Transdev Cœur Essonne,Transdev Cœur Essonne,bus,bus
 r8268979,C00683,4521,4521,Cœur d'Essonne,Cœur d’Essonne,Transdev Cœur Essonne,Transdev Cœur Essonne,bus,bus
-r8268978,C00684,4522,4522,Cœur d'Essonne,Cœur d’Essonne,Transdev Cœur Essonne,Transdev Cœur Essonne,bus,bus
+,C00684,,4522,,Cœur d’Essonne,,Transdev Cœur Essonne,,bus
 r8220074,C00688,4556,4556,Cœur d'Essonne,Cœur d’Essonne,Transdev Cœur Essonne,Transdev Cœur Essonne,bus,bus
 r7073416,C00689,9115,9115,Cœur d'Essonne,Cœur d’Essonne,Transdev Cœur Essonne,Transdev Cœur Essonne,bus,bus
 r7423843,C00691,4503,4503,Cœur d'Essonne,Cœur d’Essonne,Transdev Cœur Essonne,Transdev Cœur Essonne,bus,bus
@@ -830,8 +836,8 @@ r7921026,C00979,4410,4410,Essonne Sud Ouest,Essonne Sud Ouest,Francilité Ouest 
 r9256759,C00982,4403,4403,Essonne Sud Ouest,Essonne Sud Ouest,Francilité Ouest Essonne,Francilité Ouest Essonne,bus,bus
 r9257304,C00983,4405,4405,Essonne Sud Ouest,Essonne Sud Ouest,Francilité Ouest Essonne,Francilité Ouest Essonne,bus,bus
 r9259499,C00984,4409,4409,Essonne Sud Ouest,Essonne Sud Ouest,Francilité Ouest Essonne,Francilité Ouest Essonne,bus,bus
-r6940387,C01563,91-02,91-02,Essonne Sud Ouest,Essonne Sud Ouest,Francilité Ouest Essonne,Francilité Ouest Essonne,bus,bus
-r7105179,C01564,91-03,91-03,Essonne Sud Ouest,Essonne Sud Ouest,Francilité Ouest Essonne,Francilité Ouest Essonne,bus,bus
+r6940387,C01563,91-02,9102,Essonne Sud Ouest,Essonne Sud Ouest,Francilité Ouest Essonne,Francilité Ouest Essonne,bus,bus
+r7105179,C01564,91-03,9103,Essonne Sud Ouest,Essonne Sud Ouest,Francilité Ouest Essonne,Francilité Ouest Essonne,bus,bus
 r6940386,C01568,4457,4457,Essonne Sud Ouest,Essonne Sud Ouest,Francilité Ouest Essonne,Francilité Ouest Essonne,bus,bus
 r11161906,C01708,4436,4436,Essonne Sud Ouest,Essonne Sud Ouest,Francilité Ouest Essonne,Francilité Ouest Essonne,bus,bus
 ,C01975,,4430,,Essonne Sud Ouest,,Francilité Ouest Essonne,,bus
@@ -1082,7 +1088,6 @@ r7304704,C00744,52,52,Mantois,Mantois,RATP Cap Mantois,RD Mantois,bus,bus
 r9184388,C00747,L,L,Mantois,Mantois,RATP Cap Mantois,RD Mantois,bus,bus
 r10003789,C00748,81,81,Mantois,Mantois,RATP Cap Mantois,RD Mantois,bus,bus
 r10003838,C00749,82,82,Mantois,Mantois,RATP Cap Mantois,RD Mantois,bus,bus
-r15601505,C00749,41,82,Mantois,Mantois,RATP Cap Mantois,RD Mantois,bus,bus
 ,C00751,,109,,Mantois,,RD Mantois,,bus
 ,C00752,,110,,Mantois,,RD Mantois,,bus
 r12462685,C00755,88,88A,Mantois,Mantois,RATP Cap Mantois,RD Mantois,bus,bus
@@ -1116,15 +1121,15 @@ r9255049,C01979,R,R,Mantois,Mantois,RATP Cap Mantois,RD Mantois,bus,bus
 ,C02162,,76,,Mantois,,RD Mantois,,bus
 ,C02248,,EXP A14 B,,Mantois,,RD Mantois,,bus
 ,C02249,,EXP A14 M,,Mantois,,RD Mantois,,bus
-,C02479,,J,,Mantois,,RD Mantois,,bus
-,C02480,,41,,Mantois,,RD Mantois,,bus
+r9231955,C02479,J,J,Mantois,Mantois,RD Mantois,RD Mantois,bus,bus
+r15601505,C02480,41,41,Mantois,Mantois,RATP Cap Mantois,RD Mantois,bus,bus
 ,C02715,,77,,Mantois,,RD Mantois,,bus
 ,C02716,,7825,,Mantois,,RD Mantois,,bus
 r7435393,C00084,437,437,Marne et Seine,Marne et Seine,Transdev Côteaux de la Marne,Transdev Côteaux de la Marne,bus,bus
 r8364981,C00085,438,438,Marne et Seine,Marne et Seine,Transdev Côteaux de la Marne,Transdev Côteaux de la Marne,bus,bus
 r6156507,C00263,100,100,Marne et Seine,Marne et Seine,Transdev Côteaux de la Marne,Transdev Côteaux de la Marne,bus,bus
 r5931547,C00547,440,440,Marne et Seine,Marne et Seine,Transdev Côteaux de la Marne,Transdev Côteaux de la Marne,bus,bus
-r3315943,C00548,451,451,Marne et Seine,Marne et Seine,Transdev Coteaux de la Marne,Transdev Côteaux de la Marne,bus,bus
+r3315943,C00548,451,451,Marne et Seine,Marne et Seine,Transdev Côteaux de la Marne,Transdev Côteaux de la Marne,bus,bus
 r5931043,C00552,431,431,Marne et Seine,Marne et Seine,Transdev Côteaux de la Marne,Transdev Côteaux de la Marne,bus,bus
 r5931083,C00553,432,432,Marne et Seine,Marne et Seine,Transdev Côteaux de la Marne,Transdev Côteaux de la Marne,bus,bus
 r5931514,C00554,433,433,Marne et Seine,Marne et Seine,Transdev Côteaux de la Marne,Transdev Côteaux de la Marne,bus,bus
@@ -1185,7 +1190,7 @@ r17370819,C02673,2254,2254,Marne-la-Vallée,Marne-la-Vallée,Transdev Marne-la-V
 ,C02691,,Soir,,Marne-la-Vallée,,Transdev Marne-la-Vallée,,bus
 ,C02767,,Soir,,Marne-la-Vallée,,Transdev Marne-la-Vallée,,bus
 r9241076,C00262,777,777,Meaux et Ourcq,Meaux et Ourcq,Transdev Marne-et-Ourcq,Transdev Marne-et-Ourcq,bus,bus
-r6957245,C00637,18,18E,Meaux et Ourcq,Meaux et Ourcq,Transdev Marne-et-Ourcq,Transdev Marne-et-Ourcq,bus,bus
+r6957245,C00637,18E,18E,Meaux et Ourcq,Meaux et Ourcq,Transdev Marne-et-Ourcq,Transdev Marne-et-Ourcq,bus,bus
 r8493727,C00661,Express20,20E,Meaux et Ourcq,Meaux et Ourcq,Transdev Marne-et-Ourcq,Transdev Marne-et-Ourcq,bus,bus
 r9248110,C00898,J,J,Meaux et Ourcq,Meaux et Ourcq,Transdev Marne-et-Ourcq,Transdev Marne-et-Ourcq,bus,bus
 ,C00899,,Js,,Meaux et Ourcq,,Transdev Marne-et-Ourcq,,bus
@@ -1278,8 +1283,6 @@ r1537048,C01417,N15,N15,Noctilien,Noctilien,RATP,RATP,bus,bus
 r1547967,C01418,N14,N14,Noctilien,Noctilien,RATP,RATP,bus,bus
 r1547966,C01419,N13,N13,Noctilien,Noctilien,RATP,RATP,bus,bus
 r1547969,C01420,N12,N12,Noctilien,Noctilien,RATP,RATP,bus,bus
-r6956562,C01421,N122,N122,Noctilien,Noctilien,RATP,RATP,bus,bus
-r6950503,C01422,N153,N153,Noctilien,Noctilien,RATP,RATP,bus,bus
 r3713597,C01807,N66,N66,Noctilien,Noctilien,RATP,RATP,bus,bus
 r6950504,C01635,N151,N151,Noctilien,Noctilien,RATP Cap Mantois,RD Mantois,bus,bus
 r6957037,C01645,N139,N139,Noctilien,Noctilien,Keolis TISSE,TISSE,bus,bus
@@ -1346,7 +1349,7 @@ r8393785,C02382,S2,S2,Paris-Saclay,Paris Saclay,RATP Cap Saclay,RD Saclay,bus,bu
 r8444974,C01830,A,A,Paris-Saclay,Paris-Saclay Mobilités,RATP Cap Saclay,Autocars Dominique,bus,bus
 r8444973,C01831,B,B,Paris-Saclay,Paris-Saclay Mobilités,RATP Cap Saclay,Autocars Dominique,bus,bus
 r8444972,C01832,C,C,Paris-Saclay,Paris-Saclay Mobilités,RATP Cap Saclay,Autocars Dominique,bus,bus
-r18275609,C01833,D,D,Paris-Salcay,Paris-Saclay Mobilités,Autocars Dominique,Autocars Dominique,bus,bus
+r18275609,C01833,D,D,Paris-Saclay,Paris-Saclay Mobilités,Autocars Dominique,Autocars Dominique,bus,bus
 r9229426,C01836,G,G,Paris-Saclay,Paris-Saclay Mobilités,RATP Cap Saclay,Autocars Dominique,bus,bus
 r7734583,C01837,J,J,Paris-Saclay,Paris-Saclay Mobilités,RATP Cap Saclay,Autocars Dominique,bus,bus
 r8448304,C01902,F,F,Paris-Saclay,Paris-Saclay Mobilités,RATP Cap Saclay,Autocars Dominique,bus,bus
@@ -1371,42 +1374,42 @@ r18310808,C02499,Z,Z,Paris-Saclay,Paris-Saclay Mobilités,Autocars Dominique,Aut
 ,C00011,,3105,,Pays Briard,,Keolis Portes et Val de Brie,,bus
 ,C00012,,3107,,Pays Briard,,Keolis Portes et Val de Brie,,bus
 ,C00014,,3110,,Pays Briard,,Keolis Portes et Val de Brie,,bus
-r9200493,C00015,11,3111,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
+r9200493,C00015,3111,3111,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
 ,C00016,,3114,,Pays Briard,,Keolis Portes et Val de Brie,,bus
-r6957343,C00017,18,3118,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
+r6957343,C00017,3118,3118,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
 ,C00018,,3119,,Pays Briard,,Keolis Portes et Val de Brie,,bus
-r9202114,C00019,23,3123,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
+r9202114,C00019,3123,3123,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
 ,C00020,,3115,,Pays Briard,,Keolis Portes et Val de Brie,,bus
-r9218053,C00021,201,3145,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
+r9218053,C00021,3145,3145,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
 ,C00024,,3109,,Pays Briard,,Keolis Portes et Val de Brie,,bus
 ,C00025,,3146,,Pays Briard,,Keolis Portes et Val de Brie,,bus
 ,C00026,,3147,,Pays Briard,,Keolis Portes et Val de Brie,,bus
-r9136495,C00027,16,7716,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
-r8370396,C00546,1,3101,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
-r7841677,C00550,21,3121,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
-r3315927,C00551,23,423,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
-r17431658,C00624,17,3117,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
+r9136495,C00027,7716,7716,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
+r8370396,C00546,3101,3101,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
+r7841677,C00550,3121,3121,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
+r3315927,C00551,423,423,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
+r17431658,C00624,3117,3117,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
 ,C00803,,3106,,Pays Briard,,Keolis Portes et Val de Brie,,bus
-r8453568,C01044,20,3120,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
-r8452809,C01045,24,3124,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
-r8455504,C01052,32,3132,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
+r8453568,C01044,3120,3120,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
+r8452809,C01045,3124,3124,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
+r8455504,C01052,3132,3132,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
 ,C01053,,3133,,Pays Briard,,Keolis Portes et Val de Brie,,bus
 ,C01058,,3139,,Pays Briard,,Keolis Portes et Val de Brie,,bus
-r8455190,C02087,34A,3134,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
-r8455292,C02088,34B,3129,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
+r8455190,C02087,3134,3134,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
+r8455292,C02088,3129,3129,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
 ,C02089,,3128,,Pays Briard,,Keolis Portes et Val de Brie,,bus
 ,C02090,,3122,,Pays Briard,,Keolis Portes et Val de Brie,,bus
 ,C02091,,28C,,Pays Briard,,Keolis Portes et Val de Brie,,bus
-r8455445,C02107,37A,3137,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
-r8452726,C02108,37B,3140,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
-r8452704,C02109,37C,3143,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
-r14618100,C02120,30B,3126,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
+r8455445,C02107,3137,3137,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
+r8452726,C02108,3140,3140,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
+r8452704,C02109,3143,3143,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
+r14618100,C02120,3126,3126,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
 ,C02121,,3130,,Pays Briard,,Keolis Portes et Val de Brie,,bus
 ,C02122,,3127,,Pays Briard,,Keolis Portes et Val de Brie,,bus
-r6520401,C02124,10,3148,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
+r6520401,C02124,3148,3148,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
 ,C02125,,3131,,Pays Briard,,Keolis Portes et Val de Brie,,bus
 ,C02126,,3135,,Pays Briard,,Keolis Portes et Val de Brie,,bus
-r8455382,C02127,35C,3136,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
+r8455382,C02127,3136,3136,Pays Briard,Pays Briard,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
 ,C02128,,3138,,Pays Briard,,Keolis Portes et Val de Brie,,bus
 ,C02311,,3144,,Pays Briard,,Keolis Portes et Val de Brie,,bus
 ,C02518,,3112,,Pays Briard,,Keolis Portes et Val de Brie,,bus
@@ -1552,7 +1555,7 @@ r7177053,C01517,3208,3208,Provinois - Brie et Seine,Provinois - Brie et Seine,Fr
 r8444694,C01518,3207,3207,Provinois - Brie et Seine,Provinois - Brie et Seine,Francilité Grand Provinois,Francilité Grand Provinois,bus,bus
 r7177088,C01519,3209,3209,Provinois - Brie et Seine,Provinois - Brie et Seine,Francilité Grand Provinois,Francilité Grand Provinois,bus,bus
 ,C01520,,TàD 3209,,Provinois - Brie et Seine,,Francilité Grand Provinois,,bus
-,C01664,,3203,,Provinois - Brie et Seine,,Francilité Grand Provinois,,bus
+r8474977,C01664,3203,3203,Provinois - Brie et Seine,Provinois - Brie et Seine,Francilité Grand Provinois,Francilité Grand Provinois,bus,bus
 ,C01724,,3210,,Provinois - Brie et Seine,,Francilité Grand Provinois,,bus
 ,C01725,,3217,,Provinois - Brie et Seine,,Francilité Grand Provinois,,bus
 ,C01726,,3259,,Provinois - Brie et Seine,,Francilité Grand Provinois,,bus
@@ -1668,19 +1671,19 @@ r8370222,C00612,24,24,Roissy Ouest,Roissy Ouest,Keolis Roissy Pays de France Oue
 r8450067,C00615,35,35,Roissy Ouest,Roissy Ouest,Keolis Roissy Pays de France Ouest,Keolis Roissy Pays de France Ouest,bus,bus
 r8450068,C00616,36,36,Roissy Ouest,Roissy Ouest,Keolis Roissy Pays de France Ouest,Keolis Roissy Pays de France Ouest,bus,bus
 r3256022,C00617,37,37,Roissy Ouest,Roissy Ouest,Keolis Roissy Pays de France Ouest,Keolis Roissy Pays de France Ouest,bus,bus
-r2531208,C01429,Othis,Filéo OTH,Filéo,Roissy Ouest,Keolis Mobilité Roissy,Keolis Roissy Pays de France Ouest,bus,bus
+r2531208,C01429,Othis,Filéo OTH,Roissy Ouest,Roissy Ouest,Keolis Mobilité Roissy,Keolis Roissy Pays de France Ouest,bus,bus
 ,C01430,,Fileo V,,Roissy Ouest,,Keolis Roissy Pays de France Ouest,,bus
-r8405392,C01431,Sarcelles,Filéo SAR,Filéo,Roissy Ouest,Keolis,Keolis Roissy Pays de France Ouest,bus,bus
-r8398489,C01432,Goussainville,Filéo GSV,Filéo,Roissy Ouest,Keolis,Keolis Roissy Pays de France Ouest,bus,bus
-r2531207,C01433,Viliers-le-Bel,Filéo VLB,Filéo,Roissy Ouest,Keolis,Keolis Roissy Pays de France Ouest,bus,bus
-r7678094,C01712,Survilliers,Filéo SF,Filéo,Roissy Ouest,Keolis,Keolis Roissy Pays de France Ouest,bus,bus
+r8405392,C01431,Sarcelles,Filéo SAR,Roissy Ouest,Roissy Ouest,Keolis,Keolis Roissy Pays de France Ouest,bus,bus
+r8398489,C01432,Goussainville,Filéo GSV,Roissy Ouest,Roissy Ouest,Keolis,Keolis Roissy Pays de France Ouest,bus,bus
+r2531207,C01433,Viliers-le-Bel,Filéo VLB,Roissy Ouest,Roissy Ouest,Keolis,Keolis Roissy Pays de France Ouest,bus,bus
+r7678094,C01712,Survilliers,Filéo SF,Roissy Ouest,Roissy Ouest,Keolis,Keolis Roissy Pays de France Ouest,bus,bus
 r9240941,C01815,32ZA,32 ZA,Roissy Ouest,Roissy Ouest,Keolis Roissy Pays de France Ouest,Keolis Roissy Pays de France Ouest,bus,bus
 r7677999,C01816,R114,R114,Roissy Ouest,Roissy Ouest,Keolis Roissy Pays de France Ouest,Keolis Roissy Pays de France Ouest,bus,bus
-r8404844,C01823,Saint-Pathus,St-Pathus,Filéo,Roissy Ouest,Keolis,Keolis Roissy Pays de France Ouest,bus,bus
+r8404844,C01823,Saint-Pathus,St-Pathus,Roissy Ouest,Roissy Ouest,Keolis,Keolis Roissy Pays de France Ouest,bus,bus
 r8106274,C01867,20,20,Roissy Ouest,Roissy Ouest,Keolis Roissy Pays de France Ouest,Keolis Roissy Pays de France Ouest,bus,bus
 ,C02030,,Soir,,Roissy Ouest,,Keolis Roissy Pays de France Ouest,,bus
 r8312707,C02059,27,27,Roissy Ouest,Roissy Ouest,Keolis Roissy Pays de France Ouest,Keolis Roissy Pays de France Ouest,bus,bus
-r2531226,C02060,Roissy Sud,Filéo RS,Filéo,Roissy Ouest,Keolis,Keolis Roissy Pays de France Ouest,bus,bus
+r2531226,C02060,Roissy Sud,Filéo RS,Roissy Ouest,Roissy Ouest,Keolis,Keolis Roissy Pays de France Ouest,bus,bus
 ,C02061,,32,,Roissy Ouest,,Keolis Roissy Pays de France Ouest,,bus
 r36997,C02164,34,34,Roissy Ouest,Roissy Ouest,Keolis Roissy Pays de France Ouest,Keolis Roissy Pays de France Ouest,bus,bus
 r3253657,C02165,11.5,11.5,Roissy Ouest,Roissy Ouest,Keolis Roissy Pays de France Ouest,Keolis Roissy Pays de France Ouest,bus,bus
@@ -1705,6 +1708,7 @@ r7917746,C00159,R2-Sud,R2S,Saint-Germain Boucles de Seine,Saint Germain Boucles 
 r7920981,C00160,R1,R1,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
 r7917760,C00161,R3-Nord,R3N,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
 r7917762,C00162,R3-Sud,R3S,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
+r6950503,C01422,N153,N153,Noctilien,Saint Germain Boucles de Seine,RATP,Transdev Boucle des Lys,bus,bus
 r9871081,C02269,Express A14,A14,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
 r8444577,C02307,21S,21s,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
 ,C02491,,Soir,,Saint Germain Boucles de Seine,,Transdev Boucle des Lys,,bus
@@ -1934,45 +1938,47 @@ r9694410,C02257,95-29,95-29,Val Parisis,Val Parisis,Francilité Val Parisis,Fran
 r8727859,C02389,30-21Est,30-21Est,Val Parisis,Val Parisis,Francilité Val Parisis,Francilité Val Parisis,bus,bus
 r8218451,C00351,Inter-Val,InterVals,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
 r7921002,C00354,A,A,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-r7921001,C00355,B,B,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-r8218466,C00356,BM,BM,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+r7921001,C00355,B,4113,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+r8218466,C00356,BM,4118,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
 r7921004,C00357,C,C,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-r7921003,C00358,D,D,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+r7921003,C00358,D,4114,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
 r7921000,C00359,E,E,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
 r7920995,C00360,F,F,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-r9129177,C00363,LP1,LP1,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-r9167850,C00364,501,501,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-r9167851,C00365,LM1,LM1,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-r9167849,C00366,LM2,LM2,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-,C00367,,LM3,,Val d'Yerres Val de Seine,,Keolis Val d'Yerres Val de Seine,,bus
+r9129177,C00363,LP1,4150,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+r9167850,C00364,501,4159,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+r9167851,C00365,LM1,4160,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+r9167849,C00366,LM2,4161,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+,C00367,,4162,,Val d'Yerres Val de Seine,,Keolis Val d'Yerres Val de Seine,,bus
 r7734525,C00369,12,12,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
 r7734523,C00370,13,13,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
 r9128840,C00371,14,14,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
 r9122066,C00372,18,18,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
 r9122182,C00373,19,19,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-r9136249,C00374,LP2,LP2,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-r9129005,C00376,16,16,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-,C00377,,RD,,Val d'Yerres Val de Seine,,Keolis Val d'Yerres Val de Seine,,bus
-r9129095,C00378,17,17,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-r6867541,C00379,191.100,191-100,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-r6860109,C00576,H,H,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-r5752558,C00577,F,F,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-r7011260,C00579,D,D,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-r5754922,C00580,A,A,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-r8710156,C00582,C,C,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-r5847185,C00586,F4,F4,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-r5974113,C00590,S,S,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-r5974188,C00591,M,M,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-r5847217,C00592,I,I,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-r9181579,C00598,QBUS,QBUS,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-r6860181,C00599,E,E,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-r8218465,C00600,E1,E1,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-r6949602,C00601,E2,E2,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-r5728903,C00602,X,X,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-r8404345,C01562,91-01,EX 9101,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-r6867574,C01570,91-09,EX 9109,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-r7917900,C01886,P,P,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
-,C02100,,R1-R2-R3,,Val d'Yerres Val de Seine,,Keolis Val d'Yerres Val de Seine,,bus
+r9136249,C00374,LP2,4151,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+r9129005,C00376,16,4116,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+r9124520,C00377,RD,RD,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+r9129095,C00378,17,4117,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+r6867541,C00379,191.100,4121,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+r6860109,C00576,H,4115,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+r5752558,C00577,F,4119,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+r7011260,C00579,D,4158,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+r5754922,C00580,A,4134,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+r8710156,C00582,C,4111,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+r5847185,C00586,F4,4131,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+,C00589,,4154,,Val d'Yerres Val de Seine,,Keolis Val d'Yerres Val de Seine,,bus
+r5974113,C00590,S,4133,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+r5974188,C00591,M,4132,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+r5847217,C00592,I,4110,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+r9181579,C00598,QBUS,4130,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+r6860181,C00599,E,4135,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+r8218465,C00600,E1,4152,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+r6949602,C00601,E2,4153,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+r5728903,C00602,X,4120,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+r8404345,C01562,91-01,9101,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+r6867574,C01570,91-09,4122,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+r7917900,C01886,P,4112,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
+,C02103,,4155,,Val d'Yerres Val de Seine,,Keolis Val d'Yerres Val de Seine,,bus
+,C02104,,4156,,Val d'Yerres Val de Seine,,Keolis Val d'Yerres Val de Seine,,bus
 ,C02260,,Soir,,Val d'Yerres Val de Seine,,Keolis Val d'Yerres Val de Seine,,bus
 ,C02261,,Soir,,Val d'Yerres Val de Seine,,Keolis Val d'Yerres Val de Seine,,bus
 ,C02262,,Soir,,Val d'Yerres Val de Seine,,Keolis Val d'Yerres Val de Seine,,bus
@@ -1984,15 +1990,16 @@ r7917900,C01886,P,P,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis V
 ,C02508,,Soir,,Val d'Yerres Val de Seine,,Keolis Val d'Yerres Val de Seine,,bus
 ,C02509,,Soir,,Val d'Yerres Val de Seine,,Keolis Val d'Yerres Val de Seine,,bus
 ,C02734,,4136,,Val d'Yerres Val de Seine,,Keolis Val d'Yerres Val de Seine,,bus
-r9172126,C00341,3,3,Vallée Sud,Vallée Grand Sud Paris,Transdev Vallée Sud,Transdev Vallée Sud,bus,bus
-r7140481,C00343,6,6,Paladin,Vallée Grand Sud Paris,Bièvre Bus Mobilités,Transdev Vallée Sud,bus,bus
-r9196600,C00344,7,7,Vallée Sud,Vallée Grand Sud Paris,Transdev Vallée Sud,Transdev Vallée Sud,bus,bus
-r7142127,C00350,14,14,Vallée Sud,Vallée Grand Sud Paris,Transdev Vallée Sud,Transdev Vallée Sud,bus,bus
-r7592991,C01336,Montbus,MONTBUS,Vallée Sud,Vallée Grand Sud Paris,Transdev Vallée Sud,Transdev Vallée Sud,bus,bus
-r7996352,C01357,ClamiBus,CLAM,Vallée Sud,Vallée Grand Sud Paris,Transdev Vallée Sud,Transdev Vallée Sud,bus,bus
-r7902022,C01366,Amibus,AMIBUS,Vallée Sud,Vallée Grand Sud Paris,Transdev Vallee Sud,Transdev Vallée Sud,bus,bus
-r7902826,C01368,Le Petit Fontenaisien,FONT,RATP,Vallée Grand Sud Paris,RATP,Transdev Vallée Sud,bus,bus
-r7903216,C01370,L'Hirondelle,HIRO,Vallée Sud,Vallée Grand Sud Paris,Transdev Vallée Sud,Transdev Vallée Sud,bus,bus
+,C02782,,4157,,Val d'Yerres Val de Seine,,Keolis Val d'Yerres Val de Seine,,bus
+r9172126,C00341,3,3,Vallée Sud Bus,Vallée Grand Sud Paris,Transdev Vallée Sud,Transdev Vallée Sud,bus,bus
+r7140481,C00343,6,6,Vallée Sud Bus,Vallée Grand Sud Paris,Bièvre Bus Mobilités,Transdev Vallée Sud,bus,bus
+r9196600,C00344,7,7,Vallée Sud Bus,Vallée Grand Sud Paris,Transdev Vallée Sud,Transdev Vallée Sud,bus,bus
+r7142127,C00350,14,14,Vallée Sud Bus,Vallée Grand Sud Paris,Transdev Vallée Sud,Transdev Vallée Sud,bus,bus
+r7592991,C01336,Montbus,MONTBUS,Vallée Sud Bus,Vallée Grand Sud Paris,Transdev Vallée Sud,Transdev Vallée Sud,bus,bus
+r7996352,C01357,ClamiBus,CLAM,Vallée Sud Bus,Vallée Grand Sud Paris,Transdev Vallée Sud,Transdev Vallée Sud,bus,bus
+r7902022,C01366,Amibus,AMIBUS,Vallée Sud Bus,Vallée Grand Sud Paris,Transdev Vallee Sud,Transdev Vallée Sud,bus,bus
+r7902826,C01368,Le Petit Fontenaisien,FONT,Vallée Sud Bus,Vallée Grand Sud Paris,RATP,Transdev Vallée Sud,bus,bus
+r7903216,C01370,L'Hirondelle,HIRO,Vallée Sud Bus,Vallée Grand Sud Paris,Transdev Vallée Sud,Transdev Vallée Sud,bus,bus
 r8409316,C00299,1510,1510,Vallée de Montmorency,Vallée de Montmorency,Transdev Valmy,Transdev Valmy,bus,bus
 r8132425,C00301,1512,1512,Vallée de Montmorency,Vallée de Montmorency,Transdev Valmy,Transdev Valmy,bus,bus
 r8388060,C00302,1513,1513,Vallée de Montmorency,Vallée de Montmorency,Transdev Valmy,Transdev Valmy,bus,bus

@@ -415,11 +415,13 @@ r7920955,C02301,GPSO,GPSO Bus,Grand Paris Seine Ouest,,Mobicité,SAVAC,bus,bus
 ,C02369,,TER Bus,,,,SNCF,,bus
 ,C02373,,TER,,,,SNCF,,bus
 ,C02376,,TER,,,,SNCF,,bus
+,C02788,,TAD,,,,STBC,,bus
+,C02789,,TAD,,,,STBC,,bus
 ,C01683,,T4,,,,STRETTO,,bus
 r6910344,C01843,T4,T4,,,Stretto,STRETTO,tram,tram
 r8467024,C01999,T11,T11,,,Stretto,STRETTO,tram,tram
 ,C02019,,T11,,,,STRETTO,,bus
-,C02732,,T14,,,,STRETTO,,tram
+r18884905,C02732,T14,T14,Île-de-France Mobilités,,Stretto,STRETTO,tram,tram
 ,C02733,,T14,,,,STRETTO,,bus
 ,C02636,,Tzen 4,,,,TISSE,,bus
 ,C02756,,TAD,,,,Transdev Brie et 2 Morin,,bus
@@ -521,8 +523,8 @@ r11041995,C02264,20,20,Argenteuil - Boucles de Seine,Argenteuil - Boucles de Sei
 ,C02731,,25,,Argenteuil - Boucles de Seine,,Keolis Argenteuil Boucles de Seine,,bus
 r9183484,C02179,A01,A01 PPM,Aérobus Paris-Beauvais,Aérobus,Transports Paris-Beauvais,Aéroport Paris-Beauvais / SAGEB,bus,bus
 ,C02677,,A02 SDU,,Aérobus,,Aéroport Paris-Beauvais / SAGEB,,bus
-,C02678,,A03 DEF,,Aérobus,,Aéroport Paris-Beauvais / SAGEB,,bus
-,C02679,,A05 DIS,,Aérobus,,Aéroport Paris-Beauvais / SAGEB,,bus
+r17630251,C02678,A03,A03 DEF,Aérobus Paris-Beauvais,Aérobus,Transports Paris-Beauvais,Aéroport Paris-Beauvais / SAGEB,bus,bus
+r17630915,C02679,A05,A05 DIS,Aérobus Paris-Beauvais,Aérobus,Transports Paris-Beauvais,Aéroport Paris-Beauvais / SAGEB,bus,bus
 ,C02723,,A04 VIL,,Aérobus,,Aéroport Paris-Beauvais / SAGEB,,bus
 r9195935,C00339,401,401,Bièvre,Bièvre,RATP Cap Bièvre,RD Bièvre,bus,bus
 r8371170,C00340,402,402,Bièvre,Bièvre,RATP Cap Bièvre,RD Bièvre,bus,bus
@@ -1313,9 +1315,9 @@ r6985621,C01569,91-08,91-08,Paris-Saclay,Paris Saclay,RATP Cap Saclay,RD Saclay,
 r8393784,C01651,S1,S1,Paris-Saclay,Paris Saclay,RATP Cap Saclay,RD Saclay,bus,bus
 r8393786,C01653,S3,S3,Paris-Saclay,Paris Saclay,RATP Cap Saclay,RD Saclay,bus,bus
 r8393787,C01654,S4,S4,Paris-Saclay,Paris Saclay,RATP Cap Saclay,RD Saclay,bus,bus
-r7724675,C01697,21,4602,Paris-Saclay,Paris Saclay,RATP Cap Saclay,RD Saclay,bus,bus
-r5694438,C01698,22,4621,Paris-Saclay,Paris Saclay,RATP Cap Saclay,RD Saclay,bus,bus
-r7724674,C01699,23,4622,Paris-Saclay,Paris Saclay,RATP Cap Saclay,RD Saclay,bus,bus
+r7724675,C01697,4602,4602,Paris-Saclay,Paris Saclay,RATP Cap Saclay,RD Saclay,bus,bus
+r5694438,C01698,4621,4621,Paris-Saclay,Paris Saclay,RATP Cap Saclay,RD Saclay,bus,bus
+r7724674,C01699,4622,4622,Paris-Saclay,Paris Saclay,RATP Cap Saclay,RD Saclay,bus,bus
 r7840989,C01711,DM11E,DM11E,Paris-Saclay,Paris Saclay,RATP Cap Saclay,RD Saclay,bus,bus
 ,C01752,,S17,,Paris Saclay,,RD Saclay,,bus
 r8553608,C01766,116,116,Paris-Saclay,Paris Saclay,RATP Cap Saclay,RD Saclay,bus,bus
@@ -1881,7 +1883,7 @@ r14263358,C02344,T13,T13,Transilien,Transilien,Transkeo,SNCF,tram,tram
 ,C02469,,T13,,Transilien,,SNCF,,bus
 r14456255,C02529,T12,T12,Tramway d'Île de France,Transilien,Transkeo,SNCF,tram,tram
 ,C02597,,T12,,Transilien,,SNCF,,bus
-,C02711,,V,,Transilien,,SNCF,,rail
+r16792587,C02711,V,V,Transilien,Transilien,SNCF,SNCF,train,rail
 ,C02712,,V,,Transilien,,SNCF,,bus
 r8187525,C00437,30-05,30-05,Val Parisis,Val Parisis,Francilité Val Parisis,Francilité Val Parisis,bus,bus
 r9196805,C00442,30-09,30-09,Val Parisis,Val Parisis,Francilité Val Parisis,Francilité Val Parisis,bus,bus
@@ -2073,7 +2075,7 @@ r9175920,C00049,6142,6142,Vélizy Vallées,Vélizy Vallées,Keolis Vélizy Vall�
 r8271443,C00050,6123,6123,Vélizy Vallées,Vélizy Vallées,Keolis Vélizy Vallée de la Bièvre,Keolis Vélizy Vallée de la Bièvre,bus,bus
 r8407058,C00051,6145,6145,Vélizy Vallées,Vélizy Vallées,Keolis Vélizy Vallée de la Bièvre,Keolis Vélizy Vallée de la Bièvre,bus,bus
 r9203431,C00052,6122,6122,Vélizy Vallées,Vélizy Vallées,Keolis Vélizy Vallée de la Bièvre,Keolis Vélizy Vallée de la Bièvre,bus,bus
-,C00525,,6176,,Vélizy Vallées,,Keolis Vélizy Vallée de la Bièvre,,bus
+r18210922,C00525,6176,6176,Vélizy Vallées,Vélizy Vallées,Keolis Vélizy Vallée de la Bièvre,Keolis Vélizy Vallée de la Bièvre,bus,bus
 ,C00527,,6183,,Vélizy Vallées,,Keolis Vélizy Vallée de la Bièvre,,bus
 r17232271,C00530,6163,6163,Vélizy Vallées,Vélizy Vallées,Keolis Vélizy Vallée de la Bièvre,Keolis Vélizy Vallée de la Bièvre,bus,bus
 r8436111,C00702,6135,6135,Vélizy Vallées,Vélizy Vallées,Keolis Vélizy Vallée de la Bièvre,Keolis Vélizy Vallée de la Bièvre,bus,bus

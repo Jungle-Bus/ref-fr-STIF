@@ -268,7 +268,7 @@ r7920999,C01327,488,488,RATP,,RATP,RATP,bus,bus
 r7920979,C01328,492,492,RATP,,RATP,RATP,bus,bus
 r7921049,C01329,La Traverse,CHARONNE,RATP,,RATP,RATP,bus,bus
 r7921052,C01330,513,BIEVRES,RATP,,RATP,RATP,bus,bus
-r7920956,C01331,515,TILLBUS,RATP,,RATP,RATP,bus,bus
+r7920956,C01331,TillBus,TILLBUS,RATP,,RATP,RATP,bus,bus
 r5662181,C01332,La Traverse,BATIGNO,RATP,,RATP,RATP,bus,bus
 r7921027,C01333,519,NEY-FLA,RATP,,RATP,RATP,bus,bus
 r3048889,C01334,520,520,RATP,,RATP,RATP,bus,bus
@@ -359,7 +359,7 @@ r7781376,C01808,254,254,RATP,,RATP,RATP,bus,bus
 r6048347,C01809,380,380,RATP,,RATP,RATP,bus,bus
 r7095879,C01821,486,486,RATP,,RATP,RATP,bus,bus
 r7802906,C01839,538,PORT,RATP,,RATP,RATP,bus,bus
-r8728677,C01900,PTITBUS,P'TIT BUS,RATP,,RATP,RATP,bus,bus
+r8728677,C01900,PtitBus,P'TIT BUS,RATP,,RATP,RATP,bus,bus
 r6552159,C02000,259,259,RATP,,RATP,RATP,bus,bus
 r7920960,C02007,168,168,RATP,,RATP,RATP,bus,bus
 r7920959,C02008,353,353,RATP,,RATP,RATP,bus,bus
@@ -409,6 +409,7 @@ r18760767,C02714,202,202,RATP,,RATP,RATP,bus,bus
 ,C02745,,363,,,,RATP,,bus
 ,C02665,,Soir,,,,RD Mantois,,bus
 ,C02667,,Soir,,,,RD Mantois,,bus
+,C02794,,Mantois,,,,RD Mantois,,bus
 r7920955,C02301,GPSO,GPSO Bus,Grand Paris Seine Ouest,,Mobicité,SAVAC,bus,bus
 ,C01859,,TER,,,,SNCF,,bus
 ,C01864,,TER,,,,SNCF,,bus
@@ -897,6 +898,9 @@ r18792764,C02297,4458,4458,Essonne Sud Ouest,Essonne Sud Ouest,Francilité Ouest
 ,C02472,,4414,,Essonne Sud Ouest,,Francilité Ouest Essonne,,bus
 r9258811,C02473,4415,4415,Essonne Sud Ouest,Essonne Sud Ouest,Francilité Ouest Essonne,Francilité Ouest Essonne,bus,bus
 ,C02474,,Soir,,Essonne Sud Ouest,,Francilité Ouest Essonne,,bus
+,C02791,,TàD,,Essonne Sud Ouest,,Francilité Ouest Essonne,,bus
+,C02792,,TàD,,Essonne Sud Ouest,,Francilité Ouest Essonne,,bus
+,C02793,,TàD,,Essonne Sud Ouest,,Francilité Ouest Essonne,,bus
 ,C00380,,4277,,Evry Centre Essonne,,TISSE,,bus
 r8299933,C00385,4203,4203,Évry Centre Essonne,Evry Centre Essonne,Keolis TISSE,TISSE,bus,bus
 r9237446,C00386,4230,4230,Évry Centre Essonne,Evry Centre Essonne,Keolis TISSE,TISSE,bus,bus
@@ -1424,7 +1428,6 @@ r7920973,C01451,3319,3319,Pays de Montereau,Pays de Montereau,Francilité Pays d
 ,C02575,,TàD,,Pays de Montereau,,Francilité Pays de Montereau,,bus
 ,C02576,,TàD,,Pays de Montereau,,Francilité Pays de Montereau,,bus
 ,C02577,,TàD,,Pays de Montereau,,Francilité Pays de Montereau,,bus
-,C02578,,TàD,,Pays de Montereau,,Francilité Pays de Montereau,,bus
 ,C02579,,Soir,,Pays de Montereau,,Francilité Pays de Montereau,,bus
 ,C02580,,Soir,,Pays de Montereau,,Francilité Pays de Montereau,,bus
 r15999767,C00106,21,21,Poissy - Les Mureaux,Poissy - Les Mureaux,Keolis Seine et Oise Est,Keolis Seine et Oise Est,bus,bus
@@ -1858,8 +1861,8 @@ r8392645,C02265,T'bus 1,T'bus 1,Terres d'Envol,Terres d'Envol,Transdev Nord Sein
 r13669221,C02266,T'bus 2,T'bus 2,Terres d'Envol,Terres d'Envol,Transdev Nord Seine-Saint-Denis,Transdev Nord Seine-Saint-Denis,bus,bus
 r13669220,C02267,T'bus 3,T'bus 3,Terres d'Envol,Terres d'Envol,Transdev Nord Seine-Saint-Denis,Transdev Nord Seine-Saint-Denis,bus,bus
 ,C02630,,612,,Terres d'Envol,,Transdev Nord Seine-Saint-Denis,,bus
-r8379297,C01826,1,1,Titus,Titus,MobiCité,Mobicité,bus,bus
-r8379422,C01827,2,2,Titus,Titus,MobiCité,Mobicité,bus,bus
+r8379297,C01826,Titus1,1,Titus,Titus,MobiCité,Mobicité,bus,bus
+r8379422,C01827,Titus2,2,Titus,Titus,MobiCité,Mobicité,bus,bus
 r7420696,C01730,P,P,Transilien,Transilien,SNCF,SNCF,train,rail
 r7420697,C01731,R,R,Transilien,Transilien,SNCF,SNCF,train,rail
 r7420700,C01736,N,N,Transilien,Transilien,SNCF,SNCF,train,rail
@@ -1920,6 +1923,7 @@ r8086899,C02049,30-21Oues,30-21Oues,Val Parisis,Val Parisis,Francilité Val Pari
 r9694410,C02257,95-29,95-29,Val Parisis,Val Parisis,Francilité Val Parisis,Francilité Val Parisis,bus,bus
 r8727859,C02389,30-21Est,30-21Est,Val Parisis,Val Parisis,Francilité Val Parisis,Francilité Val Parisis,bus,bus
 ,C02709,,N148,,Val Parisis,,Francilité Val Parisis,,bus
+,C02795,,1433,,Val Parisis,,Francilité Val Parisis,,bus
 r7921002,C00354,4115,A,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
 r7921001,C00355,4113,4113,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
 r8218466,C00356,4118,4118,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus

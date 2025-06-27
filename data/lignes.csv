@@ -65,7 +65,7 @@ r1104709,138,Bus 138: Gare d'Ermont-Eaubonne RER ↔ Saint-Ouen RER,RATP,RATP,#B
 r1240537,4301,Bus 4301 : Gare de Marolles-en-Hurepoix ↔ Collège Doisneau,Essonne Sud Est,Keolis Val d'Essonne Deux Vallées,#82dc73,bus,C00319
 r1245875,88,Bus 88 : Porte d'Auteuil ↔ Montsouris - Tombe Issoire,RATP,RATP,#CEC92A,bus,C01120
 r1246520,95,Bus 95 : Porte de Montmartre ↔ Porte de Vanves,RATP,RATP,#8D653A,bus,C01126
-r1251039,76,Bus 76 : Châtelet ↔ Bagnolet — Louise Michel,RATP,RATP,#652D91,bus,C01111
+r1251039,76,Bus 76 : Châtelet ↔ Montreuil - Hôpital,RATP,RATP,#652D91,bus,C01111
 r1254002,69,Bus 69 : Champ de Mars ↔ Gambetta - Japon,RATP,RATP,#87D3DF,bus,C01105
 r1254003,66,Bus 66: Saint-Ouen - Les Docks ↔ Opéra,RATP,RATP,#008B5A,bus,C01102
 r1254461,22,Bus 22 : Gare Saint-Lazare ↔ Porte de Saint-Cloud,RATP,RATP,#00643c,bus,C01074
@@ -195,7 +195,7 @@ r2989343,302,Bus 302 : Gare du Nord ↔ La Courneuve - Six Routes,RATP,RATP,#FFC
 r3008945,185,Bus 185 : Choisy Sud ↔ Porte d'Italie,RATP,RATP,#ff5a00,bus,C01206
 r3030615,604,Bus 604 : Gare de Gagny ↔ Montfermeil — Hôpital Intercommunal,Seine-Saint-Denis,Transdev TRA,#caabca,bus,C01576
 r3045662,150,Bus 150 : Porte de la Villette ↔ Pierrefitte–Stains RER,RATP,RATP,#F788B5,bus,C01174
-r3047801,102,Bus 102: Gambetta ↔ Rosny–Bois-Perrier RER - Rosny 2,RATP,RATP,#ffbe00,bus,C01131
+r3047801,102,Bus 102: Gambetta ↔ Gare de Rosny - Bois Perrier,RATP,RATP,#ffbe00,bus,C01131
 r3048889,520,Bus 520 : Les Hauts de Bry ↔ Les Boullereaux - Champigny RER,RATP,RATP,#008c59,bus,C01334
 r3079254,203,Bus 203: Neuilly-Plaisance RER ↔ Neuilly-sur-Marne – Île-de-France,RATP,RATP,#ff82b4,bus,C01220
 r3081886,3,Bus 3 : Gare de Chelles Gournay ↔ Gare de Villeparisis Mitry-le-Neuf,Apolo 7,Société des transports du bassin chellois,#B25397,bus,C02129
@@ -672,7 +672,7 @@ r7920514,235,Bus 235 : Colombes - Europe ↔ Asnières - Gennevilliers - Gabriel
 r7920589,5307,Bus 5307 : Gare d'Orsay Ville ↔ Saint-Arnoult-en-Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,#00b397,bus,C01721
 r7920954,564,Bus 564 : Collège La Malmaison (circulaire via Les Pince-Vins),RATP,RATP,,bus,C01349
 r7920955,GPSO,Bus GPSO : Gare de Chaville Rive Droite - Ville d'Avray Monastère,Grand Paris Seine Ouest,Mobicité,#00C221,bus,C02301
-r7920956,515,Bus TillBus : Place du Vél' d'Hiv' (circulaire),RATP,RATP,,bus,C01331
+r7920956,TillBus,Bus TillBus : Place du Vél' d'Hiv' (circulaire),RATP,RATP,#C4A4CD,bus,C01331
 r7920958,5334,Bus 5334 : Rambouillet ↔ Limours - Bonnelles,Centre et Sud Yvelines,Transdev Sud Yvelines,#662d91,bus,C00165
 r7920959,353,Bus 353 : Saint-Denis–Université ↔ Saint-Denis–ZAC Landy Nord,RATP,RATP,#D2D200,bus,C02008
 r7920960,168,Bus 168 : Saint-Denis – Université ↔ Sarcelles – Chantepie ou Butte Pinson,RATP,RATP,#82c8e6,bus,C02007
@@ -882,8 +882,8 @@ r8373352,2,Bus 2 : Le Moulin ↔ Gare d'Argenteuil,Argenteuil - Boucles de Seine
 r8374540,4213,Bus 4213 : Bondoufle (Imprimerie Nationale) ↔ Ris-Orangis (Centre Commercial Aunettes),Évry Centre Essonne,Keolis TISSE,#ffbe00,bus,C01626
 r8377444,R6,Bus R6 : Louvres RER D (circulaire),Roissy Ouest,Keolis Roissy Pays de France Ouest,#97D4E2,bus,C00233
 r8378094,3216,Bus 3216 - Nangibus : Circulaire Gare de Nangis SNCF,Provinois - Brie et Seine,Francilité Grand Provinois,,bus,C02294
-r8379297,1,Bus 1 : Rosny-sous-Bois RER (circulaire) via La Boissière - Hôpital,Titus,MobiCité,#FF0000,bus,C01826
-r8379422,2,Bus 2 : Rosny-sous-Bois RER (circulaire) via Rosny 2 et Gare Bois-Perrier RER,Titus,MobiCité,#FFBF00,bus,C01827
+r8379297,Titus1,Bus Titus1 : Gare RER Rosny-Bétremieux (circulaire) via La Boissière - Hôpital,Titus,MobiCité,#F04D30,bus,C01826
+r8379422,Titus2,Bus Titus2 : Gare RER Rosny-Bétremieux (circulaire) via Plateau d'Avron,Titus,MobiCité,#0F793A,bus,C01827
 r8379777,30-49,Bus 30-49 : Gare de Franconville (circulaire),Val Parisis,Francilité Val Parisis,,bus,C02006
 r8383356,5143,Bus 5143 : Mérantais (Magny-les-Hameaux) ↔ Institut Franco-Japonais (Montigny-le-Bretonneux),Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,#81c391,bus,C01532
 r8383446,5150,Bus 5150 : Buc Tabuteau↔ Saint-Quentin Gare,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,#81c391,bus,C01541
@@ -993,7 +993,7 @@ r8726223,4441,Bus 4441 : Gare d'Étampes ↔ Gare de la Ferté Alais,Essonne Sud
 r8727476,4463,Bus 4463 : Monument ↔ La Forêt,Essonne Sud Ouest,Francilité Ouest Essonne,#F28E42,bus,C02186
 r8727859,30-21Est,Bus 30-21 Est : Gare de Cormeilles en Parisis (circulaire),Val Parisis,Francilité Val Parisis,,bus,C02389
 r8727965,5124,Bus 5124 : Gare de La Verrière (circulaire via Les Louveries),Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,#d4ca00,bus,C02217
-r8728677,PTITBUS,Bus PTITBUS : Le P'tit Bus du Pré-Saint-Gervais (circulaire),RATP,RATP,,bus,C01900
+r8728677,PtitBus,Bus PtitBus : Le P'tit Bus du Pré-Saint-Gervais (circulaire),RATP,RATP,,bus,C01900
 r8729263,5120,Bus 5120 : La Verrière Gare ↔ Pissaloup,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,#00a68a,bus,C01524
 r8729290,5140,Bus 5140 : Chamfleury ↔ Gare de Versailles Chantiers,SQYBus,Francilité Saint-Quentin-en-Yvelines,#D282BE,bus,C00545
 r8729300,5125,Bus 5125 : La Verrière Gare ↔ France Miniature,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,#99d4df,bus,C02218
@@ -1468,3 +1468,4 @@ r19151214,7803,Bus 7803 : Nanterre - Préfecture des Hauts-de-Seine ↔ Gare de 
 r19163728,5208,Bus 5208 : Rambouillet ↔ Auffargis Place des Fêtes,Centre et Sud Yvelines,Transdev Sud Yvelines,#008c5a,bus,C00168
 r19164572,5236,Bus 5236 : Petite Hogue (Auffargis) ↔ Collège de Vivonne,Centre et Sud Yvelines,Transdev Sud Yvelines,#bb4b9b,bus,C00524
 r19187303,5313,Bus 5313 : Rambouillet ↔ Gare de Saint-Rémy-lès-Chevreuse,Centre et Sud Yvelines,Transdev Sud Yvelines,#006db8,bus,C00489
+r19279904,245,Bus 245 : Église de Pantin ↔ Gare de Rosny - Bois-Perrier,RATP,RATP,#B90B4B,bus,

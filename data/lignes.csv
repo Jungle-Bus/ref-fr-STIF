@@ -784,7 +784,7 @@ r8054731,5371,Bus 5371 : Gare de Maule ↔ Gare de Versailles Rive Droite,Centre
 r8054732,6217,Bus 6217 : Guitel - Lecoq (Saint-Nom-la-Bretèche) ↔ Gare de Versailles Rive Droite,Grand Versailles,Transdev Versailles,#ff5a00,bus,C00113
 r8054733,5295,Bus 5295 : Lycée International (Saint-Germain-en-Laye) ↔ Allée du Tillet (Bailly),Centre et Sud Yvelines,Transdev Sud Yvelines,#f59eb3,bus,C00279
 r8060915,5270,Bus 5270 : Abreuvoir (Marly-le-Roi) ↔ Croix Marie (Crespières),Centre et Sud Yvelines,Transdev Sud Yvelines,#f78f4b,bus,C00124
-r8060916,5341,Bus 5341 : Les Mureaux - Gare ↔ Mairie de Bailly,Centre et Sud Yvelines,Transdev Sud Yvelines,#006db8,bus,C00119
+r8060916,5341,Bus 5341 : Gare des Mureaux ↔ Mairie de Bailly,Centre et Sud Yvelines,Transdev Sud Yvelines,#006db8,bus,C00119
 r8063062,6283,Bus 6283 : Lycée Pierre Corneille (La Celle-Saint-Cloud) ↔ Tuilerie Bignon (Noisy-le-Roi),Grand Versailles,Transdev Versailles,,bus,C00122
 r8076962,1233,Bus 1233 : Gare de Neuville Université ↔ Gare de Pontoise - Place du Général de Gaulle,Cergy-Pontoise Confluence,Francilité Seine et Oise,#82DC73,bus,C02085
 r8077088,1225,Bus 1225 : Gare de Saint-Ouen-L’Aumône Liesse ↔ Gare de Conflans-Sainte-Honorine,Cergy-Pontoise Confluence,Francilité Seine et Oise,#D282BE,bus,C02086
@@ -972,7 +972,7 @@ r8465785,A,Bus A : Hôpital ↔ Vaux Centre Commercial,Brie et Deux Morin,Transd
 r8465792,B,Bus B : Gambetta ↔ Vaux Centre Commercial,Brie et Deux Morin,Transdev Brie et Deux Morin,,bus,C02036
 r8466513,03B,Bus 3B : Gare de Coulommiers ↔ Gare de Meaux,Brie et Deux Morin,Transdev Brie et Deux Morin,#CC9900,bus,C02070
 r8467024,T11,Tramway T11 Express,,Stretto,#E65E37,tram,C01999
-r8467036,87,Bus 87 : Relais du Nord(Drocourt) ↔ Peugeot (Poissy),Mantois,RATP Cap Mantois,#FFCE00,bus,C00288
+r8467036,87,Bus 87 : Relais du Nord (Drocourt) ↔ Peugeot (Poissy),Mantois,RATP Cap Mantois,#FFCE00,bus,C00288
 r8474977,3203,Bus 3203 : Gare de Longueville ↔ 4 Chemins,Provinois - Brie et Seine,Francilité Grand Provinois,#eb2132,bus,C01664
 r8479479,3454,Bus 3454 : Gare de Fontainebleau - Avon ↔ Gare de Malesherbes,Fontainebleau - Moret,Transdev Pays de Fontainebleau,#0A0082,bus,C01012
 r8493726,100,Bus 100 Persan : Roissypole (Aéroport CDG Terminal 3) ↔ Gare de Persan - Beaumont,Haut Val-d'Oise,Keolis Vallée de l'Oise,#5191cd,bus,C01675
@@ -1396,7 +1396,7 @@ r16301271,7705,Bus 7705 : Gare de Marne-la-Vallée - Chessy Sud ↔ Gare de Prov
 r16410694,12,Bus 12 : circulaire de la gare de L'Étang Les Sablons,Saint-Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,,bus,C02616
 r16410695,11,Bus 11 : Gare de Marly-le-Roi - Parvis ↔ Gare de Mareil-Marly,Saint-Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,,bus,C02615
 r16410742,TàD 78,Bus TàD 78 : Circulaire du Collège André Derain via Aigremont,Saint-Germain Boucles de Seine,Transdev Boucle des Lys,,bus,C02503
-r16476017,1235,Bus 1235 : Gare de Pontoise - Canrobert ↔ Gare de Cergy-Saint-Christophe ↔ Cergy - Jules Verne,Cergy-Pontoise Confluence,Francilité Seine et Oise,#FF1400,bus,C02625
+r16476017,1235,Bus 1235 : Gare de Pontoise - Canrobert ↔ Gare de Cergy-Saint-Christophe ↔ ZAC de Puiseux,Cergy-Pontoise Confluence,Francilité Seine et Oise,#FF1400,bus,C02625
 r16792587,V,Transilien V,Transilien,SNCF Voyageurs,#9F9825,train,C02711
 r16842119,N1,Ligne N1 : Circulaire de Lamorlaye,Réseau Oise,Oise Mobilité,#B0CA53,bus,
 r16842120,G2,Ligne G2 : Gare Orry-Coye ↔ Lamorlaye,Réseau Oise,Oise Mobilité,#E5BA39,bus,
@@ -1468,6 +1468,27 @@ r19163728,5208,Bus 5208 : Rambouillet ↔ Auffargis Place des Fêtes,Centre et S
 r19164572,5236,Bus 5236 : Petite Hogue (Auffargis) ↔ Collège de Vivonne,Centre et Sud Yvelines,Transdev Sud Yvelines,#bb4b9b,bus,C00524
 r19187303,5313,Bus 5313 : Rambouillet ↔ Gare de Saint-Rémy-lès-Chevreuse,Centre et Sud Yvelines,Transdev Sud Yvelines,#006db8,bus,C00489
 r19279904,245,Bus 245 : Église de Pantin ↔ Gare de Rosny - Bois-Perrier,RATP,RATP,#B90B4B,bus,C02713
-r19302065,OTC,Ouigo Train Classique : Paris Gare du Nord ↔ Bruxelles-Midi,Ouigo Train Classique,SNCB;OSLO,#0096CA,train,
+r19302065,361A,Ouigo Train Classique 361A : Paris Gare du Nord ↔ Bruxelles-Midi,Ouigo Train Classique,SNCB;OSLO,#0096CA,train,
 r19412246,3112,Bus 3112 : Gretz-Armainvilliers - Gare de Gretz ↔ Tournan-en-Brie - Gare de Tournan (côté Gretz),Pays Briard,Keolis Portes et Val de Brie,#78c696,bus,C02518
 r19460080,7817,Bus 7817 : Gare Routière Paul Delouvrier ↔ ZAC la Prévôté,Centre et Sud Yvelines,Transdev Sud Yvelines,#4d90cd,bus,C02642
+r19482237,60,Bus 60 : Gare des Mureaux ↔ Collège Henri IV (Meulan-en-Yvelines),Poissy - Les Mureaux,Keolis Seine et Oise Est,,bus,C00128
+r19482238,22,Bus 22 : Rue de l’Aulnaie (Seraincourt) ↔ Gare des Mureaux ↔ Lycée François Villon,Poissy - Les Mureaux,Keolis Seine et Oise Est,,bus,C00107
+r19482239,5237,Bus 5237 : Gare des Mureaux ↔ Lycée Viollet Le Duc (Villiers-Saint-Frédéric),Centre et Sud Yvelines,Transdev Sud Yvelines,,bus,
+r19482240,5328,Bus 5328 : Gare de Maule ↔ Arquebuse (Meulan-en-Yvelines),Centre et Sud Yvelines,Transdev Sud Yvelines,,bus,C02444
+r19482241,58,Bus 58 : Gare des Mureaux ↔ Lycée François Villon (Les Mureaux),Poissy - Les Mureaux,Keolis Seine et Oise Est,,bus,C02554
+r19482242,23,Bus 23 : D 113 (Aubergenville) ↔ Arquebuse (Meulan-en-Yvelines),Poissy - Les Mureaux,Keolis Seine et Oise Est,,bus,C02441
+r19482324,75,Bus 75 : Gare de Vernouillet Verneuil ↔ Collège Émile Zola (Vernouillet),Poissy - Les Mureaux,Keolis Seine et Oise Est,,bus,
+r19482325,72,Bus 72 : Lycée Louise Weiss (Achères) ↔ Notre-Dame Chemin Vert (Verneuil-sur-Seine),Poissy - Les Mureaux,Keolis Seine et Oise Est,,bus,C02562
+r19482746,53,Bus 53 : La Chapelle (Triel-sur-Seine) ↔ Lycée Le Corbusier (Poissy),Poissy - Les Mureaux,Keolis Seine et Oise Est,,bus,C02549
+r19482759,71,Bus 71 : Ecquevilly ↔ Gare Sud de Poissy,Poissy - Les Mureaux,Keolis Seine et Oise Est,,bus,C00643
+r19482811,62,Bus 62 : Mairie de Tessancourt-sur-Aubette ↔ Lycée François Villon (Les Mureaux),Poissy - Les Mureaux,Keolis Seine et Oise Est,,bus,C00130
+r19482812,93,Bus 93 : Gare d’Aubergenville Élisabethville ↔ Peugeot (Poissy),Poissy - Les Mureaux,Keolis Seine et Oise Est,,bus,C00115
+r19482813,61,Bus 61 : Vaux-sur-Seine ↔ Lycée François Villon (Les Mureaux),Poissy - Les Mureaux,Keolis Seine et Oise Est,,bus,
+r19482814,66,Bus 66 : Senet (Triel-sur-Seine) ↔ Collège Jean Zay (Verneuil-sur-Seine),Poissy - Les Mureaux,Keolis Seine et Oise Est,,bus,C02558
+r19506830,4581,Bus 4581 : Rue des Acacias (Bruyères-le-Châtel) ↔ Collège Jean Moulin (La Norville),Cœur d’Essonne,Transdev Cœur Essonne,,bus,
+r19506987,N123,Noctilien N123 : Gare d’Arpajon ↔ Châtelet,Cœur d’Essonne,Transdev Cœur Essonne,,bus,C02659
+r19506988,TàD 4597,Bus TàD 4597 : La Norville ↔ Arpajon,Cœur d’Essonne,Transdev Cœur Essonne,,bus,C02460
+r19506989,4555,Bus 4555 : Boissy-sous-Saint-Yon ↔ Gare d’Arpajon,Cœur d’Essonne,Transdev Cœur Essonne,,bus,C00972
+r19506990,TàD 4596,Bus TàD 4596 : Brétigny-sur-Orge ↔ Arpajon,Cœur d’Essonne,Transdev Cœur Essonne,,bus,C02383
+r19506991,DM151S,Bus DM151S : Lycée René Cassin (La Norville) ↔ Mairie de Linas,Paris-Saclay,RATP Cap Saclay,,bus,C02396
+r19506992,4580,Bus 4580 : La Mare aux Bourguignons (Égly) ↔ Collège Albert Camus (La Norville),Cœur d’Essonne,Transdev Cœur Essonne,,bus,C02039

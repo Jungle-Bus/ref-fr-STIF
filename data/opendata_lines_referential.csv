@@ -516,7 +516,7 @@ C00705,6171,6171,bus,localBus,,1017,Keolis Vélizy Vallée de la Bièvre,,Véliz
 C00706,6172,6172,bus,localBus,,1017,Keolis Vélizy Vallée de la Bièvre,,Vélizy Vallées,6e491e,ffffff,54 68 100 0,000000,unknown,true,true,A00611,LE CHESNAY (C.C. Parly 2)  - VILLE-D'AVRAY (Eglise),,,,2014-07-16,,active,527527018,partial
 C00707,6173,6173,bus,localBus,,1017,Keolis Vélizy Vallée de la Bièvre,,Vélizy Vallées,ff82b4,000000,0 47 11 0,000000,unknown,true,true,A00612,VERSAILLES (Gare des Chantiers)  - LOUVECIENNES (Bull),,,,2014-07-16,,active,527527019,partial
 C00708,6174,6174,bus,localBus,,1017,Keolis Vélizy Vallée de la Bièvre,,Vélizy Vallées,d282be,000000,21 38 0 0,000000,unknown,true,true,A00613,VIROFLAY (Gare Rive Gauche)  - LE CHESNAY (Parly 2 - Les Comtesses),,,,2014-07-16,,active,527527020,partial
-C00709,6285,6285,bus,localBus,,1034,Transdev Versailles,,Grand Versailles,ff82b4,000000,0 47 11 0,000000,unknown,true,true,A00615,,,,,2014-07-16,,active,528528022,true
+C00709,6285,6285,bus,localBus,,1034,Transdev Versailles,,Grand Versailles,ff82b4,000000,0 47 11 0,000000,unknown,true,true,A00615,GARCHES Mairie - LE CHESNAY-ROCQUENCOURT Hôpital A. Mignot - Les Chênes d'Or,,,,2014-07-16,,active,528528022,true
 C00710,6286,6286,bus,localBus,SEASONAL_LINE_TYPE,1034,Transdev Versailles,,Grand Versailles,6e6e00,ffffff,0 0 100 57,ffffff,unknown,true,true,A00617,VAUCRESSON Victor Duret - VAUCRESSON Collège Yves du Manoir,,,,2014-07-16,,active,528528024,true
 C00725,5421,5421,bus,localBus,,1011,RD Mantois,,Mantois,008b5b,ffffff,100 24 87 0,ffffff,unknown,true,true,A00625,MERICOURT Barrage - BONNIERES SUR SEINE Gare Routière,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/54de60f467ec47394d6e61246b802b24,2014-07-16,,active,000535101,unknown
 C00727,5465,5465,bus,localBus,,1011,RD Mantois,,Mantois,8ad3de,000000,44 0 12 0,000000,unknown,true,true,A00627,BENNECOURT Gloton - BONNIERES SUR SEINE,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/ca43f54dad06e586838601372aa6153e,2014-07-16,,active,000535103,unknown
@@ -735,7 +735,7 @@ C01004,3550,3550,bus,,,1031,Transdev Vallée du Loing,,Vallée du Loing - Nemour
 C01005,3556,3556,bus,,,1031,Transdev Vallée du Loing,,Vallée du Loing - Nemours,6e491e,ffffff,54 68 100 0,ffffff,unknown,unknown,unknown,A00869,BUTHIERS - LA CHAPELLE-LA-REINE (Collège),,,,2014-07-16,,active,517517005,partial
 C01006,3557,3557,bus,,,1031,Transdev Vallée du Loing,,Vallée du Loing - Nemours,640082,ffffff,75 100 0 0,ffffff,unknown,true,true,A00870,LA CHAPELLE-LA-REINE (GARE ROUTIERE)  - GARENTREVILLE (GARENTREVILLE),,,,2014-07-16,,active,517517006,partial
 C01008,3458,3458,bus,,,1026,Transdev Pays de Fontainebleau,,Fontainebleau - Moret,82c8e6,000000,44 0 12 0,000000,unknown,true,true,A00872,LA CHAPELLE-LA-REINE (GARE ROUTIERE)  - URY (PLACE),,,,2014-07-16,,active,516516108,partial
-C01011,3455,3455,bus,,,1026,Transdev Pays de Fontainebleau,,Fontainebleau - Moret,a50034,ffffff,0 100 46 26,ffffff,unknown,true,true,A00875,CHAMPAGNE-SUR-SEINE (FONTAINEROUX)  - LA CHAPELLE-LA-REINE (GARE ROUTIEZE),,,,2014-07-16,,active,516516013,partial
+C01011,3455,3455,bus,,,1026,Transdev Pays de Fontainebleau,,Fontainebleau - Moret,a50034,ffffff,0 100 46 26,ffffff,unknown,true,true,A00875,,,,,2014-07-16,,active,516516013,partial
 C01012,3454,3454,bus,,,1026,Transdev Pays de Fontainebleau,,Fontainebleau - Moret,0a0082,ffffff,100 84 0 0,ffffff,unknown,true,true,A00876,MALESHERBES (GARE)  - AVON (GARE),,,,2014-07-16,,active,516516414,partial
 C01013,4341,4341,bus,,,1016,Keolis Val d'Essonne Deux Vallées,,Essonne Sud Est,ff1400,ffffff,0 100 94 0,ffffff,unknown,unknown,unknown,A00877,MILLY-LA-FORET - FONTAINEBLEAU,,,,2014-07-16,,active,531531001,partial
 C01014,4342,4342,bus,,,1016,Keolis Val d'Essonne Deux Vallées,,Essonne Sud Est,ffbe00,000000,0 19 100 0,000000,unknown,unknown,unknown,A00878,MILLY-LA-FORET - ETAMPES,,,,2014-07-16,,active,531531002,partial
@@ -791,21 +791,21 @@ C01097,61,61,bus,,,100,RATP,,,00643c,ffffff,100 0 37 61,ffffff,true,true,true,A0
 C01098,62,62,bus,,,100,RATP,,,6e5b1e,ffffff,0 17 73 57,ffffff,true,true,true,A00952,62,,,,2014-07-16,,active,100100062,false
 C01099,63,63,bus,,,100,RATP,,,d2d200,000000,0 0 100 18,000000,true,true,true,A00953,63,,,,2014-07-16,,active,100100063,partial
 C01100,64,64,bus,,,100,RATP,,,82dc73,000000,41 0 48 14,000000,true,true,true,A00954,64,,,,2014-07-16,,active,100100064,true
-C01102,66,66,bus,,,100,RATP,,,00643c,ffffff,100 0 37 61,ffffff,true,true,true,A00956,66,,,,2014-07-16,,active,100100066,partial
+C01102,66,66,bus,,,1045,RATP Cap Boucle Nord de Seine,,Boucles Nord de Seine,00643c,ffffff,100 0 37 61,ffffff,true,true,true,A00956,66,,,,2014-07-16,,active,100100066,partial
 C01103,67,67,bus,,,100,RATP,,,ff82b4,000000,0 49 29 0,000000,true,true,true,A00957,67,,,,2014-07-16,,active,100100067,false
 C01104,68,68,bus,,,100,RATP,,,ffbe00,000000,0 25 100 0,000000,true,true,true,A00958,68,,,,2014-07-16,,active,100100068,partial
 C01105,69,69,bus,,,100,RATP,,,82c8e6,000000,43 13 0 10,000000,true,true,true,A00959,69,,,,2014-07-16,,active,100100069,false
 C01106,70,70,bus,,,100,RATP,,,ff5a00,000000,0 65 100 0,000000,true,true,true,A00960,70,,,,2014-07-16,,active,100100070,false
 C01107,72,72,bus,,,100,RATP,,,ff1400,ffffff,0 92 100 0,ffffff,true,true,true,A00961,72,,,,2014-07-16,,active,100100072,false
 C01108,73,73,bus,,,100,RATP,,,6e491e,ffffff,54 68 100 0,ffffff,true,true,true,A00962,73,,,,2014-07-16,,active,100100073,false
-C01109,74,74,bus,,,100,RATP,,,d2d200,000000,0 0 100 18,000000,true,true,true,A00963,74,,,,2014-07-16,,active,100100074,partial
+C01109,74,74,bus,,,1045,RATP Cap Boucle Nord de Seine,,Boucles Nord de Seine,d2d200,000000,0 0 100 18,000000,true,true,true,A00963,74,,,,2014-07-16,,active,100100074,partial
 C01110,75,75,bus,,,100,RATP,,,ffbe00,000000,0 25 100 0,000000,true,true,true,A00964,75,,,,2014-07-16,,active,100100075,false
 C01111,76,76,bus,,,100,RATP,,,640082,ffffff,23 100 0 49,ffffff,true,true,true,A00965,76,,,,2014-07-16,,active,100100076,true
 C01112,80,80,bus,,,100,RATP,,,ff82b4,000000,0 49 29 0,000000,true,true,true,A00966,80,,,,2014-07-16,,active,100100080,partial
 C01114,82,82,bus,,,100,RATP,,,ff5a00,000000,0 65 100 0,000000,true,true,true,A00968,82,,,,2014-07-16,,active,100100082,false
 C01115,83,83,bus,,,100,RATP,,,ffbe00,000000,0 25 100 0,000000,true,true,true,A00969,83,,,,2014-07-16,,active,100100083,false
 C01116,84,84,bus,,,100,RATP,,,d282be,000000,0 38 9 18,000000,true,true,true,A00970,84,,,,2014-07-16,,active,100100084,true
-C01117,85,85,bus,,,100,RATP,,,6e491e,ffffff,54 68 100 0,ffffff,true,true,true,A00971,85,,,,2014-07-16,,active,100100085,partial
+C01117,85,85,bus,,,1045,RATP Cap Boucle Nord de Seine,,Boucles Nord de Seine,6e491e,ffffff,54 68 100 0,ffffff,true,true,true,A00971,85,,,,2014-07-16,,active,100100085,partial
 C01118,86,86,bus,,,100,RATP,,,ff1400,ffffff,0 92 100 0,ffffff,true,true,true,A00972,86,,,,2014-07-16,,active,100100086,false
 C01119,87,87,bus,,,100,RATP,,,640082,ffffff,23 100 0 49,ffffff,true,true,true,A00973,87,,,,2014-07-16,,active,100100087,true
 C01120,88,88,bus,,,100,RATP,,,d2d200,000000,0 0 100 18,000000,true,true,true,A00974,88,,,,2014-07-16,,active,100100088,false
@@ -816,42 +816,42 @@ C01124,93,93,bus,,,100,RATP,,,82dc73,000000,41 0 48 14,000000,true,true,true,A00
 C01125,94,94,bus,,,100,RATP,,,a0006e,ffffff,0 100 32 37,ffffff,true,true,true,A00979,94,,,,2014-07-16,,active,100100094,partial
 C01126,95,95,bus,,,100,RATP,,,640082,ffffff,23 100 0 49,ffffff,true,true,true,A00980,95,,,,2014-07-16,,active,100100095,partial
 C01127,96,96,bus,,,100,RATP,,,dc9600,000000,0 32 100 14,000000,true,true,true,A00981,96,,,,2014-07-16,,active,100100096,true
-C01130,101,101,bus,,,100,RATP,,,ffbe00,000000,0 25 100 0,000000,true,true,true,A00985,101,,,,2014-07-16,,active,100100101,false
+C01130,101,101,bus,,,1046,RATP Cap Boucles de Marne,,Bord de Marne,ffbe00,000000,0 25 100 0,000000,true,true,true,A00985,101,,,,2014-07-16,,active,100100101,false
 C01131,102,102,bus,,,100,RATP,,,ffbe00,000000,0 25 100 0,000000,true,true,true,A00986,102,,,,2014-07-16,,active,100100102,false
 C01132,103,103,bus,,,100,RATP,,,ff5a00,000000,0 65 100 0,000000,true,true,true,A00987,103,,,,2014-07-16,,active,100100103,partial
 C01133,104,104,bus,,,100,RATP,,,ff1400,ffffff,0 92 100 0,ffffff,true,true,true,A00988,104,,,,2014-07-16,,active,100100104,true
 C01134,105,105,bus,,,100,RATP,,,ff5a00,000000,0 65 100 0,000000,true,true,true,A00989,105,,,,2014-07-16,,active,100100105,partial
-C01135,106,106,bus,,,100,RATP,,,ff1400,ffffff,0 92 100 0,ffffff,true,true,true,A00990,106,,,,2014-07-16,,active,100100106,false
-C01136,107,107,bus,,,100,RATP,,,ff82b4,000000,0 49 29 0,000000,true,true,true,A00991,107,,,,2014-07-16,,active,100100107,false
-C01137,108,108,bus,,,100,RATP,,,ff82b4,000000,0 49 29 0,000000,true,true,true,A00992,108,,,,2014-07-16,,active,100100108,false
+C01135,106,106,bus,,,1046,RATP Cap Boucles de Marne,,Bord de Marne,ff1400,ffffff,0 92 100 0,ffffff,true,true,true,A00990,106,,,,2014-07-16,,active,100100106,false
+C01136,107,107,bus,,,1046,RATP Cap Boucles de Marne,,Bord de Marne,ff82b4,000000,0 49 29 0,000000,true,true,true,A00991,107,,,,2014-07-16,,active,100100107,false
+C01137,108,108,bus,,,1046,RATP Cap Boucles de Marne,,Bord de Marne,ff82b4,000000,0 49 29 0,000000,true,true,true,A00992,108,,,,2014-07-16,,active,100100108,false
 C01138,109,109,bus,,,100,RATP,,,d2d200,000000,0 0 100 18,000000,true,true,true,A00993,109,,,,2014-07-16,,active,100100109,false
-C01139,110,110,bus,,,100,RATP,,,640082,ffffff,23 100 0 49,ffffff,true,true,true,A00994,110,,,,2014-07-16,,active,100100110,false
-C01140,111,111,bus,,,100,RATP,,,d282be,000000,0 38 9 18,000000,true,true,true,A00995,111,,,,2014-07-16,,active,100100111,true
-C01141,112,112,bus,,,100,RATP,,,ff5a00,000000,0 65 100 0,000000,true,true,true,A00996,112,,,,2014-07-16,,active,100100112,false
-C01142,113,113,bus,,,100,RATP,,,ff1400,ffffff,0 92 100 0,ffffff,true,true,true,A00997,113,,,,2014-07-16,,active,100100113,false
-C01143,114,114,bus,,,100,RATP,,,82dc73,000000,41 0 48 14,000000,true,true,true,A00998,114,,,,2014-07-16,,active,100100114,false
+C01139,110,110,bus,,,1046,RATP Cap Boucles de Marne,,Bord de Marne,640082,ffffff,23 100 0 49,ffffff,true,true,true,A00994,110,,,,2014-07-16,,active,100100110,false
+C01140,111,111,bus,,,1046,RATP Cap Boucles de Marne,,Bord de Marne,d282be,000000,0 38 9 18,000000,true,true,true,A00995,111,,,,2014-07-16,,active,100100111,true
+C01141,112,112,bus,,,1046,RATP Cap Boucles de Marne,,Bord de Marne,ff5a00,000000,0 65 100 0,000000,true,true,true,A00996,,,,,2014-07-16,,active,100100112,false
+C01142,113,113,bus,,,1046,RATP Cap Boucles de Marne,,Bord de Marne,ff1400,ffffff,0 92 100 0,ffffff,true,true,true,A00997,113,,,,2014-07-16,,active,100100113,false
+C01143,114,114,bus,,,1046,RATP Cap Boucles de Marne,,Bord de Marne,82dc73,000000,41 0 48 14,000000,true,true,true,A00998,114,,,,2014-07-16,,active,100100114,false
 C01144,115,115,bus,,,100,RATP,,,00643c,ffffff,100 0 36 61,ffffff,true,true,true,A00999,115,,,,2014-07-16,,active,100100115,partial
-C01145,116,116,bus,,,100,RATP,,,82c8e6,000000,43 13 0 10,000000,true,true,true,A01000,116,,,,2014-07-16,,active,100100116,false
+C01145,116,116,bus,,,1046,RATP Cap Boucles de Marne,,Bord de Marne,82c8e6,000000,43 13 0 10,000000,true,true,true,A01000,116,,,,2014-07-16,,active,100100116,false
 C01146,117,117,bus,,,100,RATP,,,00643c,ffffff,100 0 38 61,ffffff,true,true,true,A01001,117,,,,2014-07-16,,active,100100117,false
-C01147,118,118,bus,,,100,RATP,,,dc9600,000000,0 32 100 14,000000,true,true,true,A01002,118,,,,2014-07-16,,active,100100118,false
+C01147,118,118,bus,,,1046,RATP Cap Boucles de Marne,,Bord de Marne,dc9600,000000,0 32 100 14,000000,true,true,true,A01002,118,,,,2014-07-16,,active,100100118,false
 C01148,119,119,bus,,,100,RATP,,,ffbe00,000000,0 25 100 0,000000,true,true,true,A01003,119,,,,2014-07-16,,active,100100119,true
-C01149,120,120,bus,,,100,RATP,,,d282be,000000,0 38 9 18,000000,unknown,true,true,A01004,120,,,,2014-07-16,,active,100100120,false
+C01149,120,120,bus,,,1046,RATP Cap Boucles de Marne,,Bord de Marne,d282be,000000,0 38 9 18,000000,unknown,true,true,A01004,120,,,,2014-07-16,,active,100100120,false
 C01150,121,121,bus,,,100,RATP,,,ff1400,ffffff,0 92 100 0,ffffff,true,true,true,A01005,121,,,,2014-07-16,,active,100100121,partial
 C01151,122,122,bus,,,100,RATP,,,d282be,000000,0 38 9 18,000000,true,true,true,A01006,122,,,,2014-07-16,,active,100100122,false
 C01152,123,123,bus,,,100,RATP,,,00643c,ffffff,100 0 36 61,ffffff,true,true,true,A01007,123,,,,2014-07-16,,active,100100123,false
-C01153,124,124,bus,,,100,RATP,,,ff82b4,000000,0 49 29 0,000000,true,true,true,A01008,124,,,,2014-07-16,,active,100100124,false
+C01153,124,124,bus,,,1046,RATP Cap Boucles de Marne,,Bord de Marne,ff82b4,000000,0 49 29 0,000000,true,true,true,A01008,124,,,,2014-07-16,,active,100100124,false
 C01154,125,125,bus,,,100,RATP,,,0055c8,ffffff,100 57 0 22,ffffff,true,true,true,A01009,125,,,,2014-07-16,,active,100100125,partial
 C01155,126,126,bus,,,100,RATP,,,82c8e6,000000,43 13 0 10,000000,true,true,true,A01010,126,,,,2014-07-16,,active,100100126,false
-C01156,127,127,bus,,,100,RATP,,,ff5a00,000000,0 65 100 0,000000,true,true,true,A01011,127,,,,2014-07-16,,active,100100127,false
+C01156,127,127,bus,,,1046,RATP Cap Boucles de Marne,,Bord de Marne,ff5a00,000000,0 65 100 0,000000,true,true,true,A01011,127,,,,2014-07-16,,active,100100127,false
 C01157,128,128,bus,,,100,RATP,,,6e5b1e,ffffff,0 17 73 57,ffffff,true,true,true,A01012,128,,,,2014-07-16,,active,100100128,partial
 C01158,129,129,bus,,,100,RATP,,,6e6e00,ffffff,0 0 100 57,ffffff,true,true,true,A01013,129,,,,2014-07-16,,active,100100129,true
 C01159,131,131,bus,,,100,RATP,,,6e5b1e,ffffff,0 17 73 57,ffffff,true,true,true,A01014,131,,,,2014-07-16,,active,100100131,false
 C01160,132,132,bus,,,100,RATP,,,640082,ffffff,23 100 0 49,ffffff,true,true,true,A01015,132,,,,2014-07-16,,active,100100132,true
 C01161,133,133,bus,,,100,RATP,,,82dc73,000000,41 0 48 14,000000,true,true,true,A01016,133,,,,2014-07-16,,active,100100133,false
-C01163,137,137,bus,,,100,RATP,,,ff5a00,000000,0 65 100 0,000000,true,true,true,A01018,137,,,,2014-07-16,,active,100100137,partial
-C01164,138,138,bus,,,100,RATP,,,a0006e,ffffff,0 100 32 37,ffffff,true,true,true,A01019,138,,,,2014-07-16,,active,100100138,false
+C01163,137,137,bus,,,1045,RATP Cap Boucle Nord de Seine,,Boucles Nord de Seine,ff5a00,000000,0 65 100 0,000000,true,true,true,A01018,137,,,,2014-07-16,,active,100100137,partial
+C01164,138,138,bus,,,1045,RATP Cap Boucle Nord de Seine,,Boucles Nord de Seine,a0006e,ffffff,0 100 32 37,ffffff,true,true,true,A01019,138,,,,2014-07-16,,active,100100138,false
 C01165,139,139,bus,,,100,RATP,,,ff5a00,000000,0 65 100 0,000000,true,true,true,A01020,139,,,,2014-07-16,,active,100100139,true
-C01166,140,140,bus,,,100,RATP,,,ff1400,ffffff,0 92 100 0,ffffff,true,true,true,A01021,140,,,,2014-07-16,,active,100100140,false
+C01166,140,140,bus,,,1045,RATP Cap Boucle Nord de Seine,,Boucles Nord de Seine,ff1400,ffffff,0 92 100 0,ffffff,true,true,true,A01021,140,,,,2014-07-16,,active,100100140,false
 C01167,141,141,bus,,,100,RATP,,,dc9600,000000,0 32 100 14,000000,true,true,true,A01022,141,,,,2014-07-16,,active,100100141,false
 C01168,143,143,bus,,,100,RATP,,,0055c8,ffffff,100 57 0 22,ffffff,true,true,true,A01023,143,,,,2014-07-16,,active,100100143,false
 C01169,144,144,bus,,,100,RATP,,,d282be,000000,0 38 9 18,000000,true,true,true,A01024,144,,,,2014-07-16,,active,100100144,false
@@ -871,18 +871,18 @@ C01184,162,162,bus,,,100,RATP,,,0055c8,ffffff,100 57 0 22,ffffff,true,true,true,
 C01185,163,163,bus,,,100,RATP,,,dc9600,000000,0 32 100 14,000000,true,true,true,A01042,163,,,,2014-07-16,,active,100100163,false
 C01186,164,164,bus,,,100,RATP,,,a0006e,ffffff,0 100 32 37,ffffff,true,true,true,A01043,164,,,,2014-07-16,,active,100100164,false
 C01187,165,165,bus,,,100,RATP,,,ff5a00,000000,0 65 100 0,000000,true,true,true,A01044,165,,,,2014-07-16,,active,100100165,false
-C01188,166,166,bus,,,100,RATP,,,640082,ffffff,23 100 0 49,ffffff,true,true,true,A01045,166,,,,2014-07-16,,active,100100166,partial
+C01188,166,166,bus,,,1045,RATP Cap Boucle Nord de Seine,,Boucles Nord de Seine,640082,ffffff,23 100 0 49,ffffff,true,true,true,A01045,166,,,,2014-07-16,,active,100100166,partial
 C01189,167,167,bus,,,100,RATP,,,82dc73,000000,41 0 48 14,000000,true,true,true,A01046,167,,,,2014-07-16,,active,100100167,false
 C01190,169,169,bus,,,100,RATP,,,82dc73,000000,41 0 48 14,000000,true,true,true,A01048,169,,,,2014-07-16,,active,100100169,false
 C01191,170,170,bus,,,100,RATP,,,82c8e6,000000,43 13 0 10,000000,true,true,true,A01049,170,,,,2014-07-16,,active,100100170,false
 C01192,171,171,bus,,,100,RATP,,,ff1400,ffffff,0 92 100 0,ffffff,true,true,true,A01050,171,,,,2014-07-16,,active,100100171,false
 C01193,172,172,bus,,,100,RATP,,,00643c,ffffff,100 0 36 61,ffffff,true,true,true,A01051,172,,,,2014-07-16,,active,100100172,false
 C01194,173,173,bus,,,100,RATP,,,0055c8,ffffff,100 57 0 22,ffffff,true,true,true,A01052,173,,,,2014-07-16,,active,100100173,false
-C01195,174,174,bus,,,100,RATP,,,00643c,ffffff,100 0 38 61,ffffff,true,true,true,A01053,174,,,,2014-07-16,,active,100100174,partial
-C01196,175,175,bus,,,100,RATP,,,0055c8,ffffff,100 57 0 22,ffffff,true,true,true,A01054,175,,,,2014-07-16,,active,100100175,false
+C01195,174,174,bus,,,1045,RATP Cap Boucle Nord de Seine,,Boucles Nord de Seine,00643c,ffffff,100 0 38 61,ffffff,true,true,true,A01053,174,,,,2014-07-16,,active,100100174,partial
+C01196,175,175,bus,,,1045,RATP Cap Boucle Nord de Seine,,Boucles Nord de Seine,0055c8,ffffff,100 57 0 22,ffffff,true,true,true,A01054,175,,,,2014-07-16,,active,100100175,false
 C01197,176,176,bus,,,100,RATP,,,dc9600,000000,0 32 100 14,000000,true,true,true,A01055,176,,,,2014-07-16,,active,100100176,false
-C01198,177,177,bus,,,100,RATP,,,82dc73,000000,41 0 48 14,000000,true,true,true,A01056,177,,,,2014-07-16,,active,100100177,true
-C01199,178,178,bus,,,100,RATP,,,0055c8,ffffff,100 57 0 22,ffffff,true,true,true,A01057,178,,,,2014-07-16,,active,100100178,partial
+C01198,177,177,bus,,,1045,RATP Cap Boucle Nord de Seine,,Boucles Nord de Seine,82dc73,000000,41 0 48 14,000000,true,true,true,A01056,177,,,,2014-07-16,,active,100100177,true
+C01199,178,178,bus,,,1045,RATP Cap Boucle Nord de Seine,,Boucles Nord de Seine,0055c8,ffffff,100 57 0 22,ffffff,true,true,true,A01057,178,,,,2014-07-16,,active,100100178,partial
 C01200,179,179,bus,,,100,RATP,,,00643c,ffffff,100 0 36 61,ffffff,true,true,true,A01058,179,,,,2014-07-16,,active,100100179,false
 C01201,180,180,bus,,,100,RATP,,,6e6e00,ffffff,0 0 100 57,ffffff,true,true,true,A01059,180,,,,2014-07-16,,active,100100180,false
 C01202,181,181,bus,,,100,RATP,,,6e5b1e,ffffff,0 17 73 57,ffffff,true,true,true,A01060,181,,,,2014-07-16,,active,100100181,true
@@ -902,25 +902,25 @@ C01215,195,195,bus,,,100,RATP,,,a0006e,ffffff,0 100 32 37,ffffff,true,true,true,
 C01216,196,196,bus,,,100,RATP,,,dc9600,000000,0 32 100 14,000000,true,true,true,A01074,196,,,,2014-07-16,,active,100100196,true
 C01217,197,197,bus,,,100,RATP,,,ff1400,ffffff,0 92 100 0,ffffff,true,true,true,A01075,197,,,,2014-07-16,,active,100100197,true
 C01218,199,199,bus,,,100,RATP,,,d2d200,000000,0 0 100 18,000000,true,true,true,A01076,199,,,,2014-07-16,,active,100100199,true
-C01219,201,201,bus,,,100,RATP,,,6e491e,ffffff,54 68 100 0,ffffff,true,true,true,A01077,201,,,,2014-07-16,,active,100100201,false
-C01220,203,203,bus,,,100,RATP,,,ff82b4,000000,0 49 29 0,000000,true,true,true,A01078,203,,,,2014-07-16,,active,100100203,false
-C01221,206,206,bus,,,100,RATP,,,6e491e,ffffff,54 68 100 0,ffffff,true,true,true,A01079,206,,,,2014-07-16,,active,100100206,true
-C01222,207,207,bus,,,100,RATP,,,dc9600,000000,0 32 100 14,000000,true,true,true,A01080,207,,,,2014-07-16,,active,100100207,true
+C01219,201,201,bus,,,1046,RATP Cap Boucles de Marne,,Bord de Marne,6e491e,ffffff,54 68 100 0,ffffff,true,true,true,A01077,201,,,,2014-07-16,,active,100100201,false
+C01220,203,203,bus,,,1046,RATP Cap Boucles de Marne,,Bord de Marne,ff82b4,000000,0 49 29 0,000000,true,true,true,A01078,203,,,,2014-07-16,,active,100100203,false
+C01221,206,206,bus,,,1043,Keolis Grand Paris Vallée de la Marne,,Marne et Brie,6e491e,ffffff,54 68 100 0,ffffff,true,true,true,A01079,206,,,,2014-07-16,,active,100100206,true
+C01222,207,207,bus,,,1043,Keolis Grand Paris Vallée de la Marne,,Marne et Brie,dc9600,000000,0 32 100 14,000000,true,true,true,A01080,207,,,,2014-07-16,,active,100100207,true
 C01223,208,208,bus,,,100,RATP,,,a0006e,ffffff,0 100 32 37,ffffff,true,true,true,A01081,208,,,,2014-07-16,,active,100100208,partial
-C01224,210,210,bus,,,100,RATP,,,ffbe00,000000,0 25 100 0,000000,true,true,true,A01082,210,,,,2014-07-16,,active,100100210,false
-C01225,211,211,bus,,,100,RATP,,,ff82b4,000000,0 49 29 0,000000,true,true,true,A01083,211,,,,2014-07-16,,active,100100211,partial
-C01226,212,212,bus,,,100,RATP,,,82c8e6,000000,43 13 0 10,000000,true,true,true,A01084,212,,,,2014-07-16,,active,100100212,true
-C01227,213,213,bus,,,100,RATP,,,6e6e00,ffffff,0 0 100 57,ffffff,true,true,true,A01085,213,,,,2014-07-16,,active,100100213,true
-C01228,214,214,bus,,,100,RATP,,,d282be,000000,0 38 9 18,000000,true,true,true,A01086,214,,,,2014-07-16,,active,100100214,false
+C01224,210,210,bus,,,1046,RATP Cap Boucles de Marne,,Bord de Marne,ffbe00,000000,0 25 100 0,000000,true,true,true,A01082,210,,,,2014-07-16,,active,100100210,false
+C01225,211,211,bus,,,1043,Keolis Grand Paris Vallée de la Marne,,Marne et Brie,ff82b4,000000,0 49 29 0,000000,true,true,true,A01083,211,,,,2014-07-16,,active,100100211,partial
+C01226,212,212,bus,,,1043,Keolis Grand Paris Vallée de la Marne,,Marne et Brie,82c8e6,000000,43 13 0 10,000000,true,true,true,A01084,212,,,,2014-07-16,,active,100100212,true
+C01227,213,213,bus,,,1043,Keolis Grand Paris Vallée de la Marne,,Marne et Brie,6e6e00,ffffff,0 0 100 57,ffffff,true,true,true,A01085,213,,,,2014-07-16,,active,100100213,true
+C01228,214,214,bus,,,1046,RATP Cap Boucles de Marne,,Bord de Marne,d282be,000000,0 38 9 18,000000,true,true,true,A01086,214,,,,2014-07-16,,active,100100214,false
 C01229,215,215,bus,,,100,RATP,,,82dc73,000000,41 0 48 14,000000,true,true,true,A01213,215,,,,2014-07-16,,active,100100215,false
 C01230,216,216,bus,,,100,RATP,,,ff1400,ffffff,0 100 100 0,ffffff,true,true,true,A01087,216,,,,2014-07-16,,active,100100216,true
 C01231,217,217,bus,,,100,RATP,,,640082,ffffff,23 100 0 49,ffffff,true,true,true,A01088,217,,,,2014-07-16,,active,100100217,false
-C01232,220,220,bus,,,100,RATP,,,a0006e,ffffff,0 100 32 37,ffffff,true,true,true,A01089,220,,,,2014-07-16,,active,100100220,true
-C01233,221,221,bus,,,100,RATP,,,ff82b4,000000,0 35 35 8,000000,true,true,true,A01090,221,,,,2014-07-16,,active,100100221,false
+C01232,220,220,bus,,,1043,Keolis Grand Paris Vallée de la Marne,,Marne et Brie,a0006e,ffffff,0 100 32 37,ffffff,true,true,true,A01089,220,,,,2014-07-16,,active,100100220,true
+C01233,221,221,bus,,,1046,RATP Cap Boucles de Marne,,Bord de Marne,ff82b4,000000,0 35 35 8,000000,true,true,true,A01090,221,,,,2014-07-16,,active,100100221,false
 C01234,234,234,bus,,,100,RATP,,,ff5a00,000000,0 65 100 0,000000,true,true,true,A01091,234,,,,2014-07-16,,active,100100234,true
-C01235,235,235,bus,,,100,RATP,,,ffbe00,000000,0 25 100 0,000000,true,true,true,A01092,235,,,,2014-07-16,,active,100100235,false
-C01236,237,237,bus,,,100,RATP,,,d282be,000000,0 38 9 18,000000,true,true,true,A01093,237,,,,2014-07-16,,active,100100237,partial
-C01237,238,238,bus,,,100,RATP,,,ff82b4,000000,0 49 29 0,000000,true,true,true,A01094,238,,,,2014-07-16,,active,100100238,false
+C01235,235,235,bus,,,1045,RATP Cap Boucle Nord de Seine,,Boucles Nord de Seine,ffbe00,000000,0 25 100 0,000000,true,true,true,A01092,235,,,,2014-07-16,,active,100100235,false
+C01236,237,237,bus,,,1045,RATP Cap Boucle Nord de Seine,,Boucles Nord de Seine,d282be,000000,0 38 9 18,000000,true,true,true,A01093,237,,,,2014-07-16,,active,100100237,partial
+C01237,238,238,bus,,,1045,RATP Cap Boucle Nord de Seine,,Boucles Nord de Seine,ff82b4,000000,0 49 29 0,000000,true,true,true,A01094,238,,,,2014-07-16,,active,100100238,false
 C01238,239,239,bus,,,100,RATP,,,a0006e,ffffff,0 100 32 37,ffffff,true,true,true,A01095,239,,,,2014-07-16,,active,100100239,false
 C01239,241,241,bus,,,100,RATP,,,6e491e,ffffff,54 68 100 0,ffffff,true,true,true,A01097,241,,,,2014-07-16,,active,100100241,true
 C01240,244,244,bus,,,100,RATP,,,a0006e,ffffff,0 100 32 37,ffffff,true,true,true,A01098,244,,,,2014-07-16,,active,100100244,true
@@ -938,7 +938,7 @@ C01251,268,268,bus,,,100,RATP,,,dc9600,000000,0 32 100 14,000000,true,true,true,
 C01252,269,269,bus,,,100,RATP,,,ff5a00,000000,0 65 100 0,000000,unknown,true,true,A01112,269,,,,2014-07-16,,active,100100269,false
 C01253,270,270,bus,,,100,RATP,,,ff82b4,000000,0 49 29 0,000000,true,true,true,A01113,270,,,,2014-07-16,,active,100100270,false
 C01254,272,272,bus,,,100,RATP,,,ff5a00,000000,0 65 100 0,000000,true,true,true,A01114,272,,,,2014-07-16,,active,100100272,true
-C01255,274,274,bus,,,100,RATP,,,ff1400,ffffff,0 92 100 0,ffffff,true,true,true,A01115,274,,,,2014-07-16,,active,100100274,partial
+C01255,274,274,bus,,,1045,RATP Cap Boucle Nord de Seine,,Boucles Nord de Seine,ff1400,ffffff,0 92 100 0,ffffff,true,true,true,A01115,274,,,,2014-07-16,,active,100100274,partial
 C01256,275,275,bus,,,100,RATP,,,ffbe00,000000,0 25 100 0,000000,true,true,true,A01116,275,,,,2014-07-16,,active,100100275,false
 C01257,276,276,bus,,,100,RATP,,,ff1400,ffffff,0 100 94 0,ffffff,true,true,true,A01117,276,,,,2014-07-16,,active,100100276,false
 C01258,278,278,bus,,,100,RATP,,,d282be,000000,0 38 9 18,000000,true,true,true,A01118,278,,,,2014-07-16,,active,100100278,false
@@ -954,22 +954,22 @@ C01270,297,297,bus,,,100,RATP,,,a0006e,ffffff,0 100 32 37,ffffff,true,true,true,
 C01271,299,299,bus,,,100,RATP,,,ff5a00,000000,0 37 76 10,000000,true,true,true,A01131,299,,,,2014-07-16,,active,100100299,true
 C01272,301,301,bus,,,100,RATP,,,d2d200,000000,0 0 100 18,000000,true,true,true,A01132,301,,,,2014-07-16,,active,100100301,true
 C01273,302,302,bus,,,100,RATP,,,ffbe00,000000,0 25 100 0,000000,true,true,true,A01133,302,,,,2014-07-16,,active,100100302,true
-C01274,303,303,bus,,,100,RATP,,,6e6e00,ffffff,0 0 100 57,ffffff,true,true,true,A01134,303,,,,2014-07-16,,active,100100303,false
+C01274,303,303,bus,,,1046,RATP Cap Boucles de Marne,,Bord de Marne,6e6e00,ffffff,0 0 100 57,ffffff,true,true,true,A01134,303,,,,2014-07-16,,active,100100303,false
 C01275,304,304,bus,,,100,RATP,,,d2d200,000000,0 0 100 18,000000,true,true,true,A01135,304,,,,2014-07-16,,active,100100304,true
-C01276,306,306,bus,,,100,RATP,,,0055c8,ffffff,100 57 0 22,ffffff,true,true,true,A01136,306,,,,2014-07-16,,active,100100306,false
+C01276,306,306,bus,,,1046,RATP Cap Boucles de Marne,,Bord de Marne,0055c8,ffffff,100 57 0 22,ffffff,true,true,true,A01136,306,,,,2014-07-16,,active,100100306,false
 C01277,308,308,bus,,,100,RATP,,,82dc73,000000,41 0 48 14,000000,true,true,true,A01137,308,,,,2014-07-16,,active,100100308,true
-C01278,310,310,bus,,,100,RATP,,,d2d200,000000,0 0 100 18,000000,true,true,true,A01719,310,,,,2014-07-16,,active,100100310,true
-C01279,312,312,bus,,,100,RATP,,,ff5a00,000000,0 65 100 0,000000,true,true,true,A01138,312,,,,2014-07-16,,active,100100312,false
+C01278,310,310,bus,,,1043,Keolis Grand Paris Vallée de la Marne,,Marne et Brie,d2d200,000000,0 0 100 18,000000,true,true,true,A01719,310,,,,2014-07-16,,active,100100310,true
+C01279,312,312,bus,,,1043,Keolis Grand Paris Vallée de la Marne,,Marne et Brie,ff5a00,000000,0 65 100 0,000000,true,true,true,A01138,312,,,,2014-07-16,,active,100100312,false
 C01280,317,317,bus,,,100,RATP,,,d2d200,000000,0 0 100 18,000000,true,true,true,A01139,317,,,,2014-07-16,,active,100100317,false
 C01281,318,318,bus,,,100,RATP,,,0055c8,ffffff,100 57 0 22,ffffff,true,true,true,A01140,318,,,,2014-07-16,,active,100100318,false
 C01282,319,319,bus,,,100,RATP,,,00643c,ffffff,100 0 38 61,ffffff,true,true,true,A01141,319,,,,2014-07-16,,active,100100319,true
-C01283,320,320,bus,,,100,RATP,,,ffbe00,000000,0 25 100 0,000000,true,true,true,A01142,320,,,,2014-07-16,,active,100100320,false
-C01285,321,321,bus,,,100,RATP,,,ffbe00,000000,0 25 100 0,000000,true,true,true,A01143,321,,,,2014-07-16,,active,100100321,false
+C01283,320,320,bus,,,1043,Keolis Grand Paris Vallée de la Marne,,Marne et Brie,ffbe00,000000,0 25 100 0,000000,true,true,true,A01142,320,,,,2014-07-16,,active,100100320,false
+C01285,321,321,bus,,,1043,Keolis Grand Paris Vallée de la Marne,,Marne et Brie,ffbe00,000000,0 25 100 0,000000,true,true,true,A01143,321,,,,2014-07-16,,active,100100321,false
 C01286,322,322,bus,,,100,RATP,,,82c8e6,000000,43 13 0 10,000000,true,true,true,A01144,322,,,,2014-07-16,,active,100100322,false
 C01287,323,323,bus,,,100,RATP,,,d2d200,000000,0 0 100 18,000000,true,true,true,A01145,323,,,,2014-07-16,,active,100100323,false
 C01288,325,325,bus,,,100,RATP,,,82c8e6,000000,43 13 0 10,000000,true,true,true,A01146,325,,,,2014-07-16,,active,100100325,false
 C01289,330,330,bus,,,100,RATP,,,ffbe00,000000,0 25 100 0,000000,true,true,true,A01147,330,,,,2014-07-16,,active,100100330,false
-C01292,340,340,bus,,,100,RATP,,,dc9600,000000,0 32 100 14,000000,true,true,true,A01150,340,,,,2014-07-16,,active,100100340,false
+C01292,340,340,bus,,,1045,RATP Cap Boucle Nord de Seine,,Boucles Nord de Seine,dc9600,000000,0 32 100 14,000000,true,true,true,A01150,340,,,,2014-07-16,,active,100100340,false
 C01294,341,341,bus,,,100,RATP,,,ffbe00,000000,0 25 100 0,000000,true,true,true,A01151,341,,,,2014-07-16,,active,100100341,false
 C01295,346,346,bus,,,100,RATP,,,d2d200,000000,0 0 100 18,000000,true,true,true,A01152,346,,,,2014-07-16,,active,100100346,true
 C01298,350,350,bus,,,100,RATP,,,9900ff,ffffff,40 100 0 0,ffffff,true,true,true,A01155,350,,,,2014-07-16,,active,100100350,false
@@ -1005,9 +1005,9 @@ C01330,La Traverse Bièvre Montsouris,BIEVRES,bus,,,100,RATP,,,bb4d98,ffffff,0 5
 C01331,TILLBUS,TILLBUS,bus,,,100,RATP,,,c5a3ca,000000,2 19 0 21,000000,unknown,true,true,A01210,515 (TILLBUS),,,,2014-07-16,,active,100100515,false
 C01332,La Traverse Batignolles-Bichat,BATIGNO,bus,,,100,RATP,,,67328e,ffffff,27 65 0 45,ffffff,true,true,true,A01718,518 (Traverse Batignolles-Bichat),,,,2014-07-16,,active,100100518,false
 C01333,La Traverse Ney - Flandre,NEY-FLA,bus,,,100,RATP,,,c5a3ca,000000,2 19 0 21,000000,true,true,true,A01202,519 (Traverse Ney - Flandre),,,,2014-07-16,,active,100100519,false
-C01334,520,520,bus,,,100,RATP,,,00643c,ffffff,100 0 38 61,ffffff,false,true,true,A01212,GARE DE BRY-SUR-MARNE - LES HAUTS DE BRY,,,,2014-07-16,,active,100100520,false
+C01334,520,520,bus,,,1046,RATP Cap Boucles de Marne,,Bord de Marne,00643c,ffffff,100 0 38 61,ffffff,false,true,true,A01212,GARE DE BRY-SUR-MARNE - LES HAUTS DE BRY,,,,2014-07-16,,active,100100520,false
 C01336,MONTBUS,MONTBUS,bus,,,1022,Transdev Vallée Sud,,Vallée Grand Sud Paris,82dc73,000000,0 0 0 33,000000,true,unknown,unknown,A01215,526 (Montbus),,,,2014-07-16,,active,100100526,false
-C01337,L'AUDONIENNE,AUDONIE,bus,,,100,RATP,,,df9ab1,000000,0 31 20 13,000000,false,false,true,A01203,537 (l'Audonienne),,,,2014-07-16,,active,100100537,false
+C01337,L'AUDONIENNE,AUDONIE,bus,,,1045,RATP Cap Boucle Nord de Seine,,Boucles Nord de Seine,df9ab1,000000,0 31 20 13,000000,false,false,true,A01203,537 (l'Audonienne),,,,2014-07-16,,active,100100537,false
 C01338,EOLIEN,EOLIEN,bus,,,100,RATP,,,82dc73,000000,41 0 48 14,000000,true,true,true,A01205,541 (EOLIEN),,,,2014-07-16,,active,100100541,false
 C01340,AS AUTOBUS SURESNOIS,AS,bus,,,100,RATP,,,216eb4,ffffff,82 39 0 30,ffffff,true,true,true,A01204,544 (AS),,,,2014-07-16,,active,100100544,false
 C01342,TRANSPORT URBAIN BONDYNOIS,TUB,bus,,,100,RATP,,,8e6538,ffffff,0 28 60 45,ffffff,false,false,false,A01217,546 (TUB),,,,2014-07-16,,active,100100546,false
@@ -1016,9 +1016,9 @@ C01347,V4,V4,bus,,,100,RATP,,,67328e,ffffff,27 65 0 45,ffffff,true,false,false,A
 C01349,564,564,bus,,,100,RATP,,,0055c8,ffffff,100 57 0 22,ffffff,true,true,true,A01232,564 - Navette Jonchère Malmaison,,,,2014-07-16,,active,100100564,false
 C01350,565,565,bus,,,100,RATP,,,00643c,ffffff,100 0 38 61,ffffff,true,true,true,A01233,565 - Navette Hauts de Rueil,,,,2014-07-16,,active,100100565,false
 C01352,TIM,TIM,bus,,,111,Mobicité,,Grand Paris Seine Ouest,89c7d6,000000,36 7 0 16,000000,true,true,false,A01206,569 (TIM),,,,2014-07-16,,active,100100569,false
-C01353,SUBB Boucle Nord,SUBB,bus,,,111,Mobicité,,Grand Paris Seine Ouest,8e6538,ffffff,0 28 60 45,ffffff,true,true,true,A01221,571 (SUBB),,,,2014-07-16,,active,100100571,false
+C01353,SUBB Boucle Nord,SUBB N,bus,,,111,Mobicité,,Grand Paris Seine Ouest,8e6538,ffffff,0 28 60 45,ffffff,true,true,true,A01221,571 (SUBB),,,,2014-07-16,,active,100100571,false
 C01354,TUC,TUC,bus,,,1044,Paris Seine Mobilités,,,f4c931,000000,0 18 80 4,000000,true,true,true,A01222,574 (TUC),,,,2014-07-16,,active,100100574,false
-C01356,RIVER PLAZA,RIVER,bus,,,100,RATP,,,de8b53,000000,0 37 63 13,000000,true,true,true,A01223,577 (River Plaza),,,,2014-07-16,,active,100100577,false
+C01356,RIVER PLAZA,RIVER,bus,,,1045,RATP Cap Boucle Nord de Seine,,Boucles Nord de Seine,de8b53,000000,0 37 63 13,000000,true,true,true,A01223,577 (River Plaza),,,,2014-07-16,,active,100100577,false
 C01357,ClamiBus,CLAM,bus,,,1022,Transdev Vallée Sud,,Vallée Grand Sud Paris,f4c931,000000,0 18 80 4,000000,true,unknown,unknown,A01224,579 (Clamibus),,,,2014-07-16,,active,100100579,false
 C01359,V3,V3,bus,,,100,RATP,,,cdc83f,000000,0 2 69 20,000000,true,false,false,A01234,Valouette v3,,,,2014-07-16,,active,100100581,false
 C01360,CHOISYBUS,CHOISYBUS,bus,,,1044,Paris Seine Mobilités,,,dfb039,000000,0 21 74 13,000000,unknown,true,true,A01209,582 (CHOISYBUS),,,,2014-07-16,,active,100100582,true
@@ -1058,25 +1058,25 @@ C01394,N51,N51,bus,nightBus,,100,RATP,,,ffbe00,000000,0 25 100 0,000000,true,tru
 C01395,N44,N44,bus,nightBus,,100,RATP,,,82dc73,000000,41 0 48 14,000000,true,true,true,A01246,N44,,,,2014-07-16,,active,100987754,false
 C01396,N42,N42,bus,nightBus,,100,RATP,,,dc9600,000000,0 32 100 14,000000,unknown,true,true,A01247,N42,,,,2014-07-16,,active,100987755,false
 C01397,N23,N23,bus,nightBus,,100,RATP,,,dc9600,000000,0 32 100 14,000000,unknown,true,true,A01248,N23,,,,2014-07-16,,active,100987756,false
-C01398,N34,N34,bus,nightBus,,100,RATP,,,d2d200,000000,0 0 100 18,000000,true,true,true,A01249,N34,,,,2014-07-16,,active,100987757,false
-C01399,N33,N33,bus,nightBus,,100,RATP,,,ff5a00,ffffff,0 65 100 0,ffffff,unknown,true,true,A01250,N33,,,,2014-07-16,,active,100987758,false
+C01398,N34,N34,bus,nightBus,,1046,RATP Cap Boucles de Marne,,Bord de Marne,d2d200,000000,0 0 100 18,000000,true,true,true,A01249,N34,,,,2014-07-16,,active,100987757,false
+C01399,N33,N33,bus,nightBus,,1046,RATP Cap Boucles de Marne,,Bord de Marne,ff5a00,ffffff,0 65 100 0,ffffff,unknown,true,true,A01250,N33,,,,2014-07-16,,active,100987758,false
 C01400,N31,N31,bus,nightBus,,100,RATP,,,ff82b4,000000,0 49 29 0,000000,unknown,true,true,A01251,N31,,,,2014-07-16,,active,100987759,false
 C01401,N21,N21,bus,nightBus,,100,RATP,,,82dc73,000000,41 0 48 14,000000,unknown,true,true,A01252,N21,,,,2014-07-16,,active,100987760,false
 C01402,N61,N61,bus,nightBus,,100,RATP,,,dc9600,000000,0 32 100 14,000000,true,true,true,A01253,N61,,,,2014-07-16,,active,100987761,false
 C01403,N62,N62,bus,nightBus,,100,RATP,,,ff82b4,000000,0 49 29 0,000000,true,true,true,A01254,N62,,,,2014-07-16,,active,100987762,false
-C01404,N32,N32,bus,nightBus,,100,RATP,,,dc9600,000000,0 32 100 14,000000,unknown,true,true,A01255,N32,,,,2014-07-16,,active,100987763,false
+C01404,N32,N32,bus,nightBus,,1046,RATP Cap Boucles de Marne,,Bord de Marne,dc9600,000000,0 32 100 14,000000,unknown,true,true,A01255,N32,,,,2014-07-16,,active,100987763,false
 C01405,N45,N45,bus,nightBus,,100,RATP,,,ffbe00,000000,0 25 100 0,000000,unknown,true,true,A01256,N45,,,,2014-07-16,,active,100987765,false
 C01406,N43,N43,bus,nightBus,,100,RATP,,,ff5a00,ffffff,0 65 100 0,ffffff,unknown,true,true,A01257,N43,,,,2014-07-16,,active,100987766,false
 C01407,N22,N22,bus,nightBus,,100,RATP,,,ffbe00,000000,0 25 100 0,000000,unknown,true,true,A01258,N22,,,,2014-07-16,,active,100987768,false
 C01408,N63,N63,bus,nightBus,,100,RATP,,,d2d200,000000,0 0 100 18,000000,false,true,true,A01259,N63,,,,2014-07-16,,active,100987769,false
 C01409,N53,N53,bus,nightBus,,100,RATP,,,82dc73,000000,41 0 48 14,000000,true,true,true,A01260,N53,,,,2014-07-16,,active,100987770,false
-C01410,N71,N71,bus,nightBus,,100,RATP,,,a0006e,ffffff,0 100 32 37,ffffff,true,true,true,A01261,N71,,,,2014-07-16,,active,100987771,false
+C01410,N71,N71,bus,nightBus,,1046,RATP Cap Boucles de Marne,,Bord de Marne,a0006e,ffffff,0 100 32 37,ffffff,true,true,true,A01261,N71,,,,2014-07-16,,active,100987771,false
 C01411,N41,N41,bus,nightBus,,100,RATP,,,ff82b4,000000,0 49 29 0,000000,unknown,true,true,A01262,N41,,,,2014-07-16,,active,100987772,false
-C01412,N35,N35,bus,nightBus,,100,RATP,,,ffbe00,000000,0 25 100 0,000000,unknown,true,true,A01263,N35,,,,2014-07-16,,active,100987773,false
+C01412,N35,N35,bus,nightBus,,1046,RATP Cap Boucles de Marne,,Bord de Marne,ffbe00,000000,0 25 100 0,000000,unknown,true,true,A01263,N35,,,,2014-07-16,,active,100987773,false
 C01413,N01,N01,bus,nightBus,,100,RATP,,,a0006e,ffffff,0 100 32 37,ffffff,true,true,true,A01264,N01,,,,2014-07-16,,active,100987775,false
 C01414,N02,N02,bus,nightBus,,100,RATP,,,ff1400,ffffff,0 92 100 0,ffffff,true,true,true,A01265,N02,,,,2014-07-16,,active,100987776,false
-C01415,N11,N11,bus,nightBus,,100,RATP,,,ff5a00,ffffff,0 65 100 0,ffffff,true,true,true,A01266,N11,,,,2014-07-16,,active,100987780,false
-C01416,N16,N16,bus,nightBus,,100,RATP,,,d2d200,000000,0 0 100 18,000000,true,true,true,A01267,N16,,,,2014-07-16,,active,100987781,false
+C01415,N11,N11,bus,nightBus,,1046,RATP Cap Boucles de Marne,,Bord de Marne,ff5a00,ffffff,0 65 100 0,ffffff,true,true,true,A01266,N11,,,,2014-07-16,,active,100987780,false
+C01416,N16,N16,bus,nightBus,,1046,RATP Cap Boucles de Marne,,Bord de Marne,d2d200,000000,0 0 100 18,000000,true,true,true,A01267,N16,,,,2014-07-16,,active,100987781,false
 C01417,N15,N15,bus,nightBus,,100,RATP,,,ffbe00,000000,0 25 100 0,000000,unknown,true,true,A01268,N15,,,,2014-07-16,,active,100987782,false
 C01418,N14,N14,bus,nightBus,,100,RATP,,,82dc73,000000,41 0 48 14,000000,unknown,true,true,A01269,N14,,,,2014-07-16,,active,100987783,false
 C01419,N13,N13,bus,nightBus,,100,RATP,,,ff82b4,000000,0 49 29 0,000000,unknown,true,true,A01270,N13,,,,2014-07-16,,active,100987784,false
@@ -1105,7 +1105,7 @@ C01445,3434,3434,bus,localBus,,1026,Transdev Pays de Fontainebleau,,Fontaineblea
 C01446,3435,3435,bus,localBus,,1026,Transdev Pays de Fontainebleau,,Fontainebleau - Moret,a0006e,ffffff,26 85 0 0,ffffff,false,true,true,A01300,Cité Montézin Moret Loing et Orvanne <=> Gare Moret Veneux les Sablons,,,,2014-07-16,,active,516516205,partial
 C01447,3436,3436,bus,localBus,SEASONAL_LINE_TYPE,1026,Transdev Pays de Fontainebleau,,Fontainebleau - Moret,640082,ffffff,75 100 0 0,ffffff,false,true,true,A01301,VILLECERF - MORET-SUR-LOING - VENEUX-LES-SABLONS - CHAMPAGNE-SUR-SEINE,,,,2014-07-16,,active,208258206,partial
 C01448,3430,3430,bus,localBus,,1026,Transdev Pays de Fontainebleau,,Fontainebleau - Moret,00a092,ffffff,82 0 54 0,ffffff,false,true,true,A01302,VERNOU-LA-CELLE-SUR-SEINE (BASSE ROCHE)  - FONTAINEBLEAU (FRANCOIS 1ER),,,,2014-07-16,,active,516516210,partial
-C01450,3433,3433,bus,localBus,,1026,Transdev Pays de Fontainebleau,,Fontainebleau - Moret,ffbe00,000000,0 13 90 0,000000,false,true,true,A01304,Gare Moret Loing Orvanne <=> Gare Champagne sur Seine,,,,2014-07-16,,active,516516308,partial
+C01450,3433,3433,bus,localBus,,1026,Transdev Pays de Fontainebleau,,Fontainebleau - Moret,ffbe00,000000,0 13 90 0,000000,false,true,true,A01304,,,,,2014-07-16,,active,516516308,partial
 C01451,3319,3319,bus,localBus,,1027,Francilité Pays de Montereau,,Pays de Montereau,9b9931,ffffff,0 1 68 39,ffffff,unknown,true,true,A01305,EGREVILLE - MONTEREAU-FAUT-YONNE,,,,2014-07-16,,active,208608019,unknown
 C01452,3240,3240,bus,localBus,,1030,Francilité Grand Provinois,,Provinois - Brie et Seine,f49fb3,000000,0 47 11 0,000000,false,false,false,A01306,FONTAINE-FOURCHES (Place Mérot) - PROVINS (Gare Routière),,,,2014-07-16,,active,514514129,unknown
 C01453,3241,3241,bus,localBus,,1030,Francilité Grand Provinois,,Provinois - Brie et Seine,f49fb3,000000,0 47 11 0,000000,false,false,false,A01306,FONTAINE-FOURCHES (Place Mérot) - PROVINS (Gare Routière),,,,2014-07-16,,active,514514130,unknown
@@ -1406,7 +1406,7 @@ C01832,C,C,bus,localBus,,334,Autocars Dominique,,Paris-Saclay Mobilités,951b81,
 C01833,D,D,bus,localBus,,334,Autocars Dominique,,Paris-Saclay Mobilités,0077ba,ffffff,100 36 0 27,ffffff,false,unknown,unknown,A01781,ABCDE,,,,2015-06-03,,active,111591204,unknown
 C01836,G,G,bus,localBus,,334,Autocars Dominique,,Paris-Saclay Mobilités,b51f1f,ffffff,0 83 83 29,ffffff,false,unknown,unknown,A01783,G,,,,2015-06-03,,active,111591206,unknown
 C01837,J,J,bus,localBus,,334,Autocars Dominique,,Paris-Saclay Mobilités,f4c000,000000,0 22 100 4,000000,false,unknown,unknown,A01782,J,,,,2015-06-03,,active,111591207,unknown
-C01839,Le Bus du port,PORT,bus,,,100,RATP,,,9a9940,000000,0 0 58 40,000000,false,false,false,A01207,Port de Gennevilliers,,,,2015-06-05,,active,100100538,partial
+C01839,Le Bus du port,PORT,bus,,,1045,RATP Cap Boucle Nord de Seine,,Boucles Nord de Seine,9a9940,000000,0 0 58 40,000000,false,false,false,A01207,Port de Gennevilliers,,,,2015-06-05,,active,100100538,partial
 C01840,U,U,bus,,REPLACEMENT_LINE_TYPE,800,SNCF,,Transilien,b6134c,ffffff,5 100 48 22,ffffff,false,unknown,unknown,A01855,Transilien U,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/04762929c9df4a9232485fc301b1fc40,2015-06-05,,active,800855548,unknown
 C01841,P,P,bus,,REPLACEMENT_LINE_TYPE,800,SNCF,,Transilien,f58f53,000000,0 53 78 0,000000,false,unknown,unknown,A01844,Transilien P,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/144bda900e4a01a6d3eb26d8e2d9803d,2015-06-05,,active,800850511,unknown
 C01842,H,H,bus,,REPLACEMENT_LINE_TYPE,800,SNCF,,Transilien,8d653d,ffffff,54 68 100 0,ffffff,false,unknown,unknown,A01849,Transilien H,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/b874ac42d638fc887ea98f56789a036d,2015-06-05,,active,800853521,unknown
@@ -1792,7 +1792,7 @@ C02432,3254,3254,bus,localBus,,1030,Francilité Grand Provinois,,Provinois - Bri
 C02433,3255,3255,bus,localBus,,1030,Francilité Grand Provinois,,Provinois - Brie et Seine,006fb6,ffffff,100 54 0 0,ffffff,unknown,false,partial,A01342,PROVINS (GARE ROUTIERE)  - ESTERNAY (PLACE DE L'EGLISE),,,,2014-07-16,,active,514514119,unknown
 C02435,3247,3247,bus,localBus,,1030,Francilité Grand Provinois,,Provinois - Brie et Seine,8d653d,ffffff,54 68 100 0,ffffff,unknown,false,partial,A01354,PROVINS (VILLE HAUTE)  - NANGIS (LYCEE HENRI BECQUEREL),,,,2014-07-16,,active,514514126,unknown
 C02436,3248,3248,bus,localBus,,1030,Francilité Grand Provinois,,Provinois - Brie et Seine,8d653d,ffffff,54 68 100 0,ffffff,unknown,false,partial,A01354,PROVINS (VILLE HAUTE)  - NANGIS (LYCEE HENRI BECQUEREL),,,,2014-07-16,,active,514514127,unknown
-C02437,209,209,bus,,,100,RATP,,,00a092,ffffff,82 0 54 0,ffffff,true,true,true,A02414,209,,,,2021-05-31,,active,100100209,true
+C02437,209,209,bus,,,1043,Keolis Grand Paris Vallée de la Marne,,Marne et Brie,00a092,ffffff,82 0 54 0,ffffff,true,true,true,A02414,209,,,,2021-05-31,,active,100100209,true
 C02439,K,K,bus,,,334,Autocars Dominique,,Paris-Saclay Mobilités,41a776,ffffff,61 0 29 35,ffffff,unknown,unknown,unknown,A01787,K,,,,2021-05-28,,active,333591007,unknown
 C02440,P,P,bus,,,334,Autocars Dominique,,Paris-Saclay Mobilités,2da445,ffffff,47 0 37 36,ffffff,unknown,unknown,unknown,A02478,ROND-POINT CAMILLE CLAUDEL (PALAISEAU) - PLACE DE LA VICTOIRE (PALAISEAU),,,,2021-06-11,,active,039591598,unknown
 C02441,6523,6523,bus,,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,ff82b4,000000,0 47 11 0,000000,unknown,true,true,A02323,Meulan (Arquebuse) - Aubergenville (Lycée Van Gogh),,,,2021-08-01,,active,534534553,partial
@@ -1896,7 +1896,7 @@ C02533,Bus de substitution du métro 8,BUSM8,bus,,REPLACEMENT_LINE_TYPE,100,RATP
 C02534,Bus de substitution du métro 13,BUSM13,bus,,REPLACEMENT_LINE_TYPE,100,RATP,1035,,6ec4e8,000000,53 16 0 9,000000,unknown,true,true,A01546,13,,,,2023-02-22,,active,100100713,unknown
 C02536,6595,6595,bus,,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,82c8e6,000000,44 0 12 0,000000,unknown,true,true,A02706,ECQUEVILLY Clos des Bois - POISSY Peugeot,,,,2023-04-09,,active,534534595,partial
 C02537,6515,6515,bus,,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,6e491e,ffffff,54 68 100 0,ffffff,unknown,true,true,A02705,VERNOUILLET Collège Emile Zola - VERNOUILLET-VERNEUIL Gare - VERNOUILLET Collège Emile Zola - sens anti-horaire.,,,,2023-04-09,,active,534534515,partial
-C02538,311,311,bus,,,100,RATP,,,ff5a00,000000,0 53 78 0,000000,unknown,true,true,A02711,CHELLES (Terre Ciel) - NOISIEL (gare RER),,,,2023-03-14,,active,100100311,false
+C02538,311,311,bus,,,1043,Keolis Grand Paris Vallée de la Marne,,Marne et Brie,ff5a00,000000,0 53 78 0,000000,unknown,true,true,A02711,CHELLES (Terre Ciel) - NOISIEL (gare RER),,,,2023-03-14,,active,100100311,false
 C02539,6524,6524,bus,,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,3c91dc,ffffff,69 34 0 0,ffffff,unknown,true,true,A02704,VERNOUILLET-VERNEUIL Gare - MORAINVILLIERS Epinettes,,,,2023-04-09,,active,534534546,partial
 C02540,6519,6519,bus,,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,ff5a00,000000,0 53 78 0,000000,unknown,true,true,A02547,Conflans-Ste-Honorine (Fin d'Oise) - Maurecourt (Julia),,,,2023-04-09,,active,534534549,partial
 C02541,6525,6525,bus,,,1010,Keolis Seine et Oise Est,,Poissy - Les Mureaux,00a092,ffffff,82 0 54 0,ffffff,unknown,true,true,A02548,Meulan (Maison des Associations) - Les Mureaux (Gare),,,,2023-04-09,,active,534534555,partial
@@ -2010,7 +2010,7 @@ C02646,Bus soirée Trappes,Soir,bus,,,1023,Francilité Saint-Quentin-en-Yvelines
 C02647,Bus soirée La Verrière,Soir,bus,,,1023,Francilité Saint-Quentin-en-Yvelines,,Saint-Quentin-en-Yvelines,aaaaaa,000000,0 0 0 33,000000,unknown,unknown,unknown,A02696,Bus soirée La Verrière,,,,2023-12-12,,active,000529704,unknown
 C02659,N123,N123,bus,nightBus,,1033,Transdev Cœur Essonne,,Cœur d’Essonne,a50034,ffffff,5 100 48 22,ffffff,unknown,true,true,A02534,NOCTILIEN PARIS CHATELET - ARPAJON,,,,2023-12-19,,active,000525123,true
 C02661,Soir Brétigny,Soir,bus,demandAndResponseBus,,1033,Transdev Cœur Essonne,,Cœur d’Essonne,640082,ffffff,75 100 0 0,ffffff,unknown,false,false,A02753,SD de Brétigny,,,,2023-12-28,,active,000525700,partial
-C02662,4513,4513,bus,localBus,,1033,Transdev Cœur Essonne,,Cœur d’Essonne,a50034,ffffff,5 100 48 22,ffffff,unknown,true,true,A02754,,,,,2023-12-28,,active,000525055,true
+C02662,4513,4513,bus,localBus,,1033,Transdev Cœur Essonne,,Cœur d’Essonne,a50034,ffffff,5 100 48 22,ffffff,unknown,true,true,A02754,LR n° 5,,,,2023-12-28,,active,000525055,true
 C02663,4536,4536,bus,localBus,,1033,Transdev Cœur Essonne,,Cœur d’Essonne,ffbe00,000000,0 19 100 0,000000,unknown,true,true,A02755,LR 106,,,,2023-12-28,,active,000525406,partial
 C02664,Filéo Compans,Filéo com,bus,demandAndResponseBus,,1028,Keolis Roissy Pays de France Ouest,,Roissy Ouest,aaaaaa,000000,0 0 0 33,000000,unknown,unknown,unknown,,,,,,2023-12-27,,active,000000000,partial
 C02665,Soir Mantes-la-Ville,Soir,bus,demandAndResponseBus,,1011,RD Mantois,,Mantois,652c8f,ffffff,16 39 0 44,ffffff,unknown,unknown,unknown,A02474,SERVICE DIVERGENT MANTES-LA-JOLIE SUD,,,,2024-02-02,,active,000535700,unknown
@@ -2087,7 +2087,7 @@ C02741,5297,5297,bus,localBus,,1037,Transdev Sud Yvelines,,Centre et Sud Yveline
 C02742,5296,5296,bus,localBus,,1037,Transdev Sud Yvelines,,Centre et Sud Yvelines,c5a3cd,000000,0 0 0 33,000000,unknown,unknown,unknown,A02948,SAINT-GERMAIN-EN-LAYE Lycée International <> PLAISIR Pablo Picasso,,,,2025-01-31,,active,530530128,false
 C02743,TAD 3149,TAD,bus,demandAndResponseBus,,1025,Keolis Portes et Val de Brie,,Pays Briard,aaaaaa,000000,0 0 0 33,000000,unknown,unknown,unknown,A02775,TAD Fontenay Trésigny / Serris,,,https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/referentiel-des-lignes/files/5c4841d704b167393a518c2c55bee049,2025-02-03,,active,,partial
 C02744,277,277,bus,,,100,RATP,,,640082,ffffff,23 100 0 49,ffffff,unknown,true,true,A02950,277,,,,2025-03-03,,active,100100277,unknown
-C02745,363,363,bus,,,100,RATP,,,a50034,ffffff,0 100 68 35,ffffff,unknown,true,true,A02951,363,,,,2025-03-03,,active,100100363,unknown
+C02745,363,363,bus,,,1045,RATP Cap Boucle Nord de Seine,,Boucles Nord de Seine,a50034,ffffff,0 100 68 35,ffffff,unknown,true,true,A02951,363,,,,2025-03-03,,active,100100363,unknown
 C02746,TAD FLEXIGO VEXIN CENTRE,TAD,bus,demandAndResponseBus,,1007,Transdev Vexin,,Vexin,ffbe00,000000,0 13 90 0,000000,unknown,unknown,unknown,A02325,TAD FLEXIGO VEXIN CENTRE,,,,2019-05-06,,active,501501036,false
 C02747,Vallée du Loing - Nemours,TAD,bus,demandAndResponseBus,,1031,Transdev Vallée du Loing,,Vallée du Loing - Nemours,aaaaaa,000000,0 0 0 33,000000,unknown,unknown,unknown,A02359,TAD 30,,,,2019-11-20,,active,,true
 C02748,TAD VEXIN OUEST,TAD,bus,demandAndResponseBus,,1007,Transdev Vexin,,Vexin,ffbe00,000000,0 13 90 0,000000,unknown,unknown,unknown,A02385,TAD VEXIN OUEST,,,,2020-05-29,,active,501501039,false
@@ -2167,5 +2167,5 @@ C02827,TUVIM Ile Saint-Germain,TUVIM ISG,bus,,,111,Mobicité,,Grand Paris Seine 
 C02829,1104,1104,bus,regionalBus,,1007,Transdev Vexin,,Vexin,00a092,ffffff,82 0 54 0,ffffff,unknown,unknown,unknown,A03070,MANTES - MAGNY,,,,2026-01-05,,prochainement active,,unknown
 C02830,9514,9514,bus,expressBus,,1007,Transdev Vexin,,Vexin,3c91dc,ffffff,69 34 0 0,ffffff,unknown,unknown,unknown,A03069,CERGY - CHARS,,,,2026-01-05,,prochainement active,,unknown
 C02831,9513,9513,bus,expressBus,,1007,Transdev Vexin,,Vexin,3c91dc,ffffff,69 34 0 0,ffffff,unknown,unknown,unknown,A03068,CERGY - ARGENTEUIL,,,,2026-01-05,,prochainement active,,unknown
-C02832,9509,9509,bus,expressBus,,1048,Transdev Express Roissy,,Express Roissy,3c91dc,000000,69 34 0 0,000000,unknown,unknown,unknown,A03073,Gare d'Ermont-Eaubonne / Roissypôle,,,,2025-12-01,,prochainement active,539539009,unknown
+C02832,9509,9509,bus,expressBus,,1048,Transdev Express Roissy,,Express Roissy,3c91dc,000000,69 34 0 0,000000,unknown,unknown,unknown,A03073,Gare d'Ermont-Eaubonne / Roissypôle,,,,2025-12-01,,prochainement active,539539009,true
 C02833,18,18,metro,,,1049,Keolis Compagnie du Métro Grand Paris L18,,,aaaaaa,000000,0 0 0 33,000000,unknown,unknown,unknown,A03072,18,Date de mise en service,Date donnée à titre indicatif. La date officielle sera communiquée ultérieurement.,,2026-10-01,,prochainement active,,unknown

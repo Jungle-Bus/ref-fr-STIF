@@ -32,10 +32,10 @@ r9190528,C01545,CDG,CDG,Magical Shuttle,,Transdev Visual,Magical Shuttle,bus,bus
 r9190550,C01546,Orly,Orly,Magical Shuttle,,Transdev Visual,Magical Shuttle,bus,bus
 r6928902,C01388,Orlyval,ORLYVAL,Métro de Paris,,RATP,ORLYVAL SERVICE,subway,rail
 ,C02525,,ORLYVAL,,,,ORLYVAL SERVICE,,bus
-r7804907,C01354,574,TUC,RATP,,RATP,Paris Seine Mobilités / Origami,bus,bus
-r7136184,C01360,Choisybus,CHOISYBUS,RATP,,RATP,Paris Seine Mobilités / Origami,bus,bus
-r5852751,C01780,La Navette,THIAIS,RATP,,RATP,Paris Seine Mobilités / Origami,bus,bus
-r8728677,C01900,PtitBus,P'TIT BUS,RATP,,RATP,Paris Seine Mobilités / Origami,bus,bus
+r7804907,C01354,574,TUC,RATP,,RATP,Origami / Paris Seine Mobilités,bus,bus
+r7136184,C01360,Choisybus,CHOISYBUS,RATP,,RATP,Origami / Paris Seine Mobilités,bus,bus
+r5852751,C01780,La Navette,THIAIS,RATP,,RATP,Origami / Paris Seine Mobilités,bus,bus
+r8728677,C01900,PtitBus,P'TIT BUS,RATP,,RATP,Origami / Paris Seine Mobilités,bus,bus
 r6860704,C01071,Tvm,TVM,RATP,,RATP,RATP,bus,bus
 r1066572,C01072,20,20,RATP,,RATP,RATP,bus,bus
 r1083426,C01073,21,21,RATP,,RATP,RATP,bus,bus
@@ -463,7 +463,7 @@ r1254003,C01102,66,66,RATP,Boucles Nord de Seine,RATP,RATP Cap Boucle Nord de Se
 r937390,C01109,74,74,RATP,Boucles Nord de Seine,RATP,RATP Cap Boucle Nord de Seine,bus,bus
 r952830,C01117,85,85,RATP,Boucles Nord de Seine,RATP,RATP Cap Boucle Nord de Seine,bus,bus
 r949583,C01163,137,137,RATP,Boucles Nord de Seine,RATP,RATP Cap Boucle Nord de Seine,bus,bus
-r1104709,C01164,138,138,Boucles Nord de Seine,Boucles Nord de Seine,RATP,RATP Cap Boucle Nord de Seine,bus,bus
+r1104709,C01164,138,138,Boucles Nord de Seine,Boucles Nord de Seine,RATP Cap Boucle Nord de Seine,RATP Cap Boucle Nord de Seine,bus,bus
 r5953338,C01166,140,140,Boucles Nord de Seine,Boucles Nord de Seine,RATP,RATP Cap Boucle Nord de Seine,bus,bus
 r952693,C01188,166,166,RATP,Boucles Nord de Seine,RATP,RATP Cap Boucle Nord de Seine,bus,bus
 r937383,C01195,174,174,Boucles Nord de Seine,Boucles Nord de Seine,RATP Cap Boucle Nord de Seine,RATP Cap Boucle Nord de Seine,bus,bus
@@ -659,7 +659,7 @@ r9190795,C02638,5304,5304,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev
 r19460080,C02642,7817,7817,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
 ,C02741,,5297,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
 ,C02742,,5296,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-,C02754,,TAD,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
+,C02754,,TàD,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
 r7447451,C00762,1230,1230,Cergy-Pontoise Confluence,Cergy-Pontoise Confluence,Francilité Seine et Oise,Francilité Seine et Oise,bus,bus
 r7457086,C00763,1203,1203,Cergy-Pontoise Confluence,Cergy-Pontoise Confluence,Francilité Seine et Oise,Francilité Seine et Oise,bus,bus
 r7451164,C00764,1206,1206,Cergy-Pontoise Confluence,Cergy-Pontoise Confluence,Francilité Seine et Oise,Francilité Seine et Oise,bus,bus
@@ -758,10 +758,10 @@ r19506987,C02659,N123,N123,Cœur d'Essonne,Cœur d’Essonne,Transdev Cœur Esso
 ,C02662,,4513,,Cœur d’Essonne,,Transdev Cœur Essonne,,bus
 r17397659,C02663,4536,4536,Cœur d'Essonne,Cœur d’Essonne,Transdev Cœur Essonne,Transdev Cœur Essonne,bus,bus
 ,C02682,,4584,,Cœur d’Essonne,,Transdev Cœur Essonne,,bus
-,C02752,,TAD,,Cœur d’Essonne,,Transdev Cœur Essonne,,bus
-,C02764,,TAD,,Cœur d’Essonne,,Transdev Cœur Essonne,,bus
-,C02765,,TAD,,Cœur d’Essonne,,Transdev Cœur Essonne,,bus
-,C02766,,TAD,,Cœur d’Essonne,,Transdev Cœur Essonne,,bus
+,C02752,,TàD,,Cœur d’Essonne,,Transdev Cœur Essonne,,bus
+,C02764,,TàD,,Cœur d’Essonne,,Transdev Cœur Essonne,,bus
+,C02765,,TàD,,Cœur d’Essonne,,Transdev Cœur Essonne,,bus
+,C02766,,TàD,,Cœur d’Essonne,,Transdev Cœur Essonne,,bus
 r9243178,C00092,4305,4305,Essonne Sud Est,Essonne Sud Est,Keolis Val d'Essonne Deux Vallées,Keolis Val d'Essonne Deux Vallées,bus,bus
 r9866393,C00100,4323,4323,Essonne Sud Est,Essonne Sud Est,Keolis Val d'Essonne Deux Vallées,Keolis Val d'Essonne Deux Vallées,bus,bus
 ,C00101,,4324,,Essonne Sud Est,,Keolis Val d'Essonne Deux Vallées,,bus
@@ -949,9 +949,9 @@ r15538432,C02290,3426,3426,Fontainebleau - Moret,Fontainebleau - Moret,Transdev 
 ,C02687,,3417,,Fontainebleau - Moret,,Transdev Pays de Fontainebleau,,bus
 ,C02720,,3447,,Fontainebleau - Moret,,Transdev Pays de Fontainebleau,,bus
 ,C02721,,3418,,Fontainebleau - Moret,,Transdev Pays de Fontainebleau,,bus
-,C02776,,TAD,,Fontainebleau - Moret,,Transdev Pays de Fontainebleau,,bus
-,C02777,,TAD,,Fontainebleau - Moret,,Transdev Pays de Fontainebleau,,bus
-,C02778,,TAD,,Fontainebleau - Moret,,Transdev Pays de Fontainebleau,,bus
+,C02776,,TàD,,Fontainebleau - Moret,,Transdev Pays de Fontainebleau,,bus
+,C02777,,TàD,,Fontainebleau - Moret,,Transdev Pays de Fontainebleau,,bus
+,C02778,,TàD,,Fontainebleau - Moret,,Transdev Pays de Fontainebleau,,bus
 r7920998,C00801,3633,3633,Grand Melun,Grand Melun,Transdev Melun,Transdev Melun,bus,bus
 ,C00814,,3665,,Grand Melun,,Transdev Melun,,bus
 r7921022,C00875,3604,3604,Grand Melun,Grand Melun,Transdev Melun,Transdev Melun,bus,bus
@@ -990,15 +990,15 @@ r9223363,C00897,3630,3630,Grand Melun,Grand Melun,Transdev Melun,Transdev Melun,
 ,C02779,,TàD,,Grand Melun,,Transdev Melun,,bus
 ,C02780,,TàD,,Grand Melun,,Transdev Melun,,bus
 ,C02781,,TàD,,Grand Melun,,Transdev Melun,,bus
-r7921040,C01352,TIM,TIM,Grand Paris Seine Ouest,Grand Paris Seine Ouest,RATP,Mobicité,bus,bus
-r1758295,C01353,SUBB,SUBB N,RATP,Grand Paris Seine Ouest,RATP,Mobicité,bus,bus
-r3389342,C01365,TUVIM,TUVIM CV,RATP,Grand Paris Seine Ouest,RATP,Mobicité,bus,bus
-r7796849,C02300,469,469,Grand Paris Seine Ouest,Grand Paris Seine Ouest,MobiCité,Mobicité,bus,bus
-r7920955,C02301,GPSO,GPSO Bus,Grand Paris Seine Ouest,Grand Paris Seine Ouest,Mobicité,Mobicité,bus,bus
-r7673721,C02304,Chavilbus,ChavilBus,SAVAC,Grand Paris Seine Ouest,SAVAC,Mobicité,bus,bus
-,C02825,,SUBB S,,Grand Paris Seine Ouest,,Mobicité,,bus
-,C02826,,TUVIM EP,,Grand Paris Seine Ouest,,Mobicité,,bus
-,C02827,,TUVIM ISG,,Grand Paris Seine Ouest,,Mobicité,,bus
+r7921040,C01352,TIM,TIM,Grand Paris Seine Ouest,Grand Paris Seine Ouest,RATP,Origami / Mobicité,bus,bus
+r1758295,C01353,SUBB,SUBB N,RATP,Grand Paris Seine Ouest,RATP,Origami / Mobicité,bus,bus
+r3389342,C01365,TUVIM,TUVIM CV,RATP,Grand Paris Seine Ouest,RATP,Origami / Mobicité,bus,bus
+r7796849,C02300,469,469,Grand Paris Seine Ouest,Grand Paris Seine Ouest,MobiCité,Origami / Mobicité,bus,bus
+r7920955,C02301,GPSO,GPSO Bus,Grand Paris Seine Ouest,Grand Paris Seine Ouest,Mobicité,Origami / Mobicité,bus,bus
+r7673721,C02304,Chavilbus,ChavilBus,SAVAC,Grand Paris Seine Ouest,SAVAC,Origami / Mobicité,bus,bus
+,C02825,,SUBB S,,Grand Paris Seine Ouest,,Origami / Mobicité,,bus
+,C02826,,TUVIM EP,,Grand Paris Seine Ouest,,Origami / Mobicité,,bus
+,C02827,,TUVIM ISG,,Grand Paris Seine Ouest,,Origami / Mobicité,,bus
 r8054732,C00113,6217,6217,Grand Versailles,Grand Versailles,Transdev Versailles,Transdev Versailles,bus,bus
 r8063062,C00122,6283,6283,Grand Versailles,Grand Versailles,Transdev Versailles,Transdev Versailles,bus,bus
 ,C00327,,6281,,Grand Versailles,,Transdev Versailles,,bus
@@ -1309,13 +1309,13 @@ r7920977,C02236,2305,2305,Meaux et Ourcq,Meaux et Ourcq,Transdev Marne-et-Ourcq,
 ,C02618,,2327,,Meaux et Ourcq,,Transdev Marne-et-Ourcq,,bus
 ,C02676,,2376,,Meaux et Ourcq,,Transdev Marne-et-Ourcq,,bus
 ,C02680,,2343,,Meaux et Ourcq,,Transdev Marne-et-Ourcq,,bus
-,C02735,,TAD,,Meaux et Ourcq,,Transdev Marne-et-Ourcq,,bus
-,C02751,,TAD,,Meaux et Ourcq,,Transdev Marne-et-Ourcq,,bus
-,C02753,,TAD,,Meaux et Ourcq,,Transdev Marne-et-Ourcq,,bus
-,C02755,,TAD,,Meaux et Ourcq,,Transdev Marne-et-Ourcq,,bus
-,C02757,,TAD,,Meaux et Ourcq,,Transdev Marne-et-Ourcq,,bus
+,C02735,,TàD,,Meaux et Ourcq,,Transdev Marne-et-Ourcq,,bus
+,C02751,,TàD,,Meaux et Ourcq,,Transdev Marne-et-Ourcq,,bus
+,C02753,,TàD,,Meaux et Ourcq,,Transdev Marne-et-Ourcq,,bus
+,C02755,,TàD,,Meaux et Ourcq,,Transdev Marne-et-Ourcq,,bus
+,C02757,,TàD,,Meaux et Ourcq,,Transdev Marne-et-Ourcq,,bus
 ,C02786,,2378,,Meaux et Ourcq,,Transdev Marne-et-Ourcq,,bus
-,C02787,,TAD,,Meaux et Ourcq,,Transdev Marne-et-Ourcq,,bus
+,C02787,,TàD,,Meaux et Ourcq,,Transdev Marne-et-Ourcq,,bus
 r8448533,C02123,Baladobus,BALADOBUS,SAVAC,Parc Naturel Régional de la Haute Vallée de Chevreuse,SAVAC,SAVAC,bus,bus
 r7912028,C00046,9160,9160,Paris-Saclay,Paris Saclay,RATP Cap Saclay,RD Saclay,bus,bus
 r7670510,C00066,4660,4660,Paris-Saclay,Paris Saclay,RATP Cap Saclay,RD Saclay,bus,bus
@@ -1889,8 +1889,8 @@ r8392645,C02265,T'bus 1,T'bus 1,Terres d'Envol,Terres d'Envol,Transdev Nord Sein
 r13669221,C02266,T'bus 2,T'bus 2,Terres d'Envol,Terres d'Envol,Transdev Nord Seine-Saint-Denis,Transdev Nord Seine-Saint-Denis,bus,bus
 r13669220,C02267,T'bus 3,T'bus 3,Terres d'Envol,Terres d'Envol,Transdev Nord Seine-Saint-Denis,Transdev Nord Seine-Saint-Denis,bus,bus
 ,C02630,,612,,Terres d'Envol,,Transdev Nord Seine-Saint-Denis,,bus
-r8379297,C01826,Titus1,1,Titus,Titus,MobiCité,Mobicité,bus,bus
-r8379422,C01827,Titus2,2,Titus,Titus,MobiCité,Mobicité,bus,bus
+r8379297,C01826,Titus1,1,Titus,Titus,MobiCité,Origami / Mobicité,bus,bus
+r8379422,C01827,Titus2,2,Titus,Titus,MobiCité,Origami / Mobicité,bus,bus
 r7420696,C01730,P,P,Transilien,Transilien,SNCF Voyageurs,SNCF,train,rail
 r7420697,C01731,R,R,Transilien,Transilien,SNCF Voyageurs,SNCF,train,rail
 r7420700,C01736,N,N,Transilien,Transilien,SNCF Voyageurs,SNCF,train,rail
@@ -1949,7 +1949,6 @@ r8727859,C02389,30-21Est,30-21Est,Val Parisis,Val Parisis,Francilité Val Parisi
 ,C02517,,CitéVal,,Val Parisis,,Francilité Val Parisis,,bus
 ,C02709,,N148,,Val Parisis,,Francilité Val Parisis,,bus
 ,C02795,,1433,,Val Parisis,,Francilité Val Parisis,,bus
-r7921002,C00354,4115,A,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
 r7921001,C00355,4113,4113,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
 r8218466,C00356,4118,4118,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
 r7921003,C00358,4114,4114,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
@@ -2092,9 +2091,9 @@ r9317042,C01791,1136,1136,Vexin,Vexin,Transdev Vexin,Transdev Vexin,bus,bus
 r9906060,C02206,1117,1117,Vexin,Vexin,Transdev Vexin,Transdev Vexin,bus,bus
 r12091593,C02413,1143,1143,Vexin,Vexin,Transdev Vexin,Transdev Vexin,bus,bus
 r12099692,C02414,1118,1118,Vexin,Vexin,Transdev Vexin,Transdev Vexin,bus,bus
-,C02746,,TAD,,Vexin,,Transdev Vexin,,bus
-,C02748,,TAD,,Vexin,,Transdev Vexin,,bus
-,C02749,,TAD,,Vexin,,Transdev Vexin,,bus
+,C02746,,TàD,,Vexin,,Transdev Vexin,,bus
+,C02748,,TàD,,Vexin,,Transdev Vexin,,bus
+,C02749,,TàD,,Vexin,,Transdev Vexin,,bus
 r19970544,C02829,1104,1104,Vexin,Vexin,Transdev Vexin,Transdev Vexin,bus,bus
 r19983909,C02830,9514,9514,Vexin,Vexin,Transdev Vexin,Transdev Vexin,bus,bus
 ,C02831,,9513,,Vexin,,Transdev Vexin,,bus

@@ -105,7 +105,7 @@ r1540147,107,Bus 107 : Ecole Vétérinaire de Maisons-Alfort - Saint-Maur,Bord d
 r1547965,N23,Noctilien N23: Châtelet ↔ Chelles–Gournay RER,Noctilien,RATP,#E0B03A,bus,C01397
 r1547966,N13,Noctilien N13: Mairie d’Issy ↔ Bobigny – Pablo Picasso,Noctilien,RATP,#F59EB3,bus,C01419
 r1547967,N14,Noctilien N14 : Mairie de Saint-Ouen ↔ La Croix de Berny RER,Noctilien,RATP,#6DC08C,bus,C01418
-r1547969,N12,Noctilien N12 : Pont de Sèvres ↔ Romainville–Carnot,Noctilien,RATP,#E0B03A,bus,C01420
+r1547969,N12,Noctilien N12 : Pont de Sèvres ↔ Romainville–Carnot,Réseau de bus Croix du Sud,ATM Croix du Sud,#E0B03A,bus,C01420
 r1549912,N34,Noctilien N34: Gare de Lyon ↔ Torcy RER,Noctilien,RATP Cap Boucles de Marne,#D2D200,bus,C01398
 r1549913,127,Bus 127 : Montreuil - Croix de Chavaux ↔ Neuilly-sur-Marne - Place de la Résistance,Bord de Marne,RATP Cap Boucles de Marne,#ff5a00,bus,C01156
 r1553162,173,Bus 173: Porte de Clichy ↔ La Courneuve–8 mai 1945,RATP,RATP,#006DB8,bus,C01194
@@ -371,7 +371,7 @@ r6860704,Tvm,Bus Tvm : Antony-La Croix de Berny RER ↔ Saint-Maur - Créteil RE
 r6867541,4121,Bus 4121 : Gare de Yerres ↔ Marché International de Rungis (Chevilly-Larue),Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,#0055c8,bus,C00379
 r6867574,4122,Bus 4122 : Gare Routière de Yerres ↔ Gare Routière d'Évry,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,#0055c8,bus,C01570
 r6880011,9504,Bus 9504 : Magny-en-Vexin - Porte de Rouen ↔ Gare de Cergy Saint-Christophe,Vexin,Transdev Vexin,#1AC7FF,bus,C01552
-r6880695,1111,Bus 1111 : Bray-et-Lû - Place du 19 Mars 1962 ↔ Mantes-la-Jolie - Gare,Vexin,Transdev Vexin,#e43f8e,bus,C01553
+r6880695,1111,Bus 1111 : Bray-et-Lû - Place du 19 Mars 1962 ↔ Gare de Mantes-la-Jolie,Vexin,Transdev Vexin,#e43f8e,bus,C01553
 r6881771,1130,Bus 1130 : Moussy - Mairie ↔ Ableige - Transformateur ↔ Us -Stade ↔ Vigny - Collège,Vexin,Transdev Vexin,#9696dc,bus,C00141
 r6883259,4233,Bus 4233 : Étiolles - Bois des Coudraies ↔ Juvisy Gare Routière Seine,Évry Centre Essonne,Keolis TISSE,#6e491e,bus,C00392
 r6883314,Licorne,Bus Licorne : Foyer Jean Rostand (circulaire),Seine Grand Orly,Keolis Ouest Val-de-Marne,#e2007a,bus,C00003
@@ -464,7 +464,7 @@ r7101486,4214,Bus 4214 : Évry-Courcouronnes Centre ↔ Le Plessis-Pâté,Évry 
 r7105179,9103,Bus 9103 : Gare de Dourdan ↔ (Gare d'Orsay Ville) ↔ Gare de Massy-Palaiseau,Essonne Sud Ouest,Francilité Ouest Essonne,#3BB2FF,bus,C01564
 r7105212,5154,Bus 5154 : Orly ↔ Massy ↔ Saint-Quentin-en-Yvelines,Île-de-France Ouest,Francilité Express Ouest,#fece26,bus,C01571
 r7136184,Choisybus,Bus 582 : Choisybus : Service urbain de Choisy-le-Roi (circulaire),RATP,RATP,#E0B03B,bus,C01360
-r7140481,6,Bus 6 : circulaire de Camberwell (Sceaux),Vallée Sud Bus,Bièvre Bus Mobilités,#6166FF,bus,C00343
+r7140481,6,Bus 6 : circulaire de Camberwell (Sceaux),Paladin,Bièvre Bus Mobilités,#6166FF,bus,C00343
 r7141723,1135,Bus 1135 : Sagy- Saillancourt ↔ Marines - Collège les Hautiers,Vexin,Transdev Vexin,#00E84F,bus,C01790
 r7142127,14,Bus 14 : Fontenay-aux-Roses Division Leclerc - La Croix de Berny RER,Vallée Sud Bus,Transdev Vallée Sud,#0055FA,bus,C00350
 r7142158,1,Bus 1 : Gare de Chelles - Gournay ↔ Hôpital de Montfermeil,Marne et Brie,Keolis Grand Paris Vallée de la Marne,#FFD90F,bus,C01423
@@ -738,7 +738,7 @@ r7921036,D,Bus D : Gare de Chatou-Croissy ↔ Gare de La-Celle-Saint-Cloud,Argen
 r7921038,291,Bus 291 : Pont de Sèvres ↔ Vélizy - La Cheminée,RATP,RATP,#6E6E00,bus,C01266
 r7921039,5312,Bus 5312 : Saint-Germain-de-la-Grange - Beynes ↔ Plaisir-Grignon,Centre et Sud Yvelines,Transdev Sud Yvelines,#bb4b9b,bus,C00409
 r7921040,TIM,Bus TIM Bellevue Circulaire,Grand Paris Seine Ouest,RATP,,bus,C01352
-r7921042,4459,Bus 4459 : Dourdan ↔ Mérobert,Essonne Sud Ouest,Francilité Ouest Essonne,#CEC92B,bus,C00973
+r7921042,4459,Bus 4459 : Dourdan ↔ Chalou-Moulineux,Essonne Sud Ouest,Francilité Ouest Essonne,#CEC92B,bus,C00973
 r7921046,2412,Bus 2412 : Gare de Crécy-la-Chapelle (circulaire),Brie et Deux Morin,Transdev Brie et Deux Morin,#a17a70,bus,C00905
 r7921048,2261,Bus 2261 : Gare de Val d'Europe ⥋ Gare d'Esbly,Marne-la-Vallée,Transdev Marne-la-Vallée,#B90845,bus,C00943
 r7921049,La Traverse,Bus La Traverse de Charonne (501) : Gambetta ↔ Pyrenées - Docteur Netter,RATP,RATP,#006DB8,bus,C01329
@@ -1497,3 +1497,5 @@ r19983909,9514,Bus 9514 : Chars - Centre Ville ↔ Gare de Cergy-Préfecture,Vex
 r20064608,6282,Bus 6282 : Versailles Place Laboulaye → Pont de Bourgival,Grand Versailles,Transdev Versailles,#6e491e,bus,C00328
 r20133940,H,Navette H : Circulaire d'Épinay-sur-Orge,Paris-Saclay,RATP Cap Saclay,#253b82,bus,C01903
 r20298121,3608,Bus 3608 : Gare (Melun) ↔ Vaux Pleins-Vents (Vaux-le-Pénil),Grand Melun,Transdev Melun,,bus,
+r20318415,3511,Bus 3511 Cité Scolaire (Nemours) ↔ Pont de Dordives,,RATP,,bus,
+r20346399,1119,Bus 1119 : La Roche-Guyon - Mairie ↔ Gare de Mantes-la-Jolie,Vexin,Transdev Vexin,#662d91,bus,C02852

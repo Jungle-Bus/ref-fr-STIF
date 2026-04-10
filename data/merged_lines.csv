@@ -34,9 +34,9 @@ r9190550,C01546,Orly,Orly,Magical Shuttle,,Transdev Visual,Magical Shuttle,bus,b
 r6928902,C01388,Orlyval,ORLYVAL,Métro de Paris,,RATP,ORLYVAL SERVICE,subway,rail
 ,C02525,,ORLYVAL,,,,ORLYVAL SERVICE,,bus
 r7804907,C01354,574,TUC,RATP,,RATP,Origami / Paris Seine Mobilités,bus,bus
-r7136184,C01360,Choisybus,CHOISYBUS,RATP,,RATP,Origami / Paris Seine Mobilités,bus,bus
-r5852751,C01780,La Navette,THIAIS,RATP,,RATP,Origami / Paris Seine Mobilités,bus,bus
-r8728677,C01900,PtitBus,P'TIT BUS,RATP,,RATP,Origami / Paris Seine Mobilités,bus,bus
+r7136184,C01360,Choisybus,CHOISYBUS,RATP,,Origami / Paris Seine Mobilités,Origami / Paris Seine Mobilités,bus,bus
+r5852751,C01780,La Navette,THIAIS,RATP,,Origami / Paris Seine Mobilités,Origami / Paris Seine Mobilités,bus,bus
+r8728677,C01900,P'TIT BUS,P'TIT BUS,RATP,,Origami / Paris Seine Mobilités,Origami / Paris Seine Mobilités,bus,bus
 r6860704,C01071,Tvm,TVM,RATP,,RATP,RATP,bus,bus
 r1066572,C01072,20,20,RATP,,RATP,RATP,bus,bus
 r1083426,C01073,21,21,RATP,,RATP,RATP,bus,bus
@@ -268,7 +268,7 @@ r6552159,C02000,259,259,RATP,,RATP,RATP,bus,bus
 r7920960,C02007,168,168,RATP,,RATP,RATP,bus,bus
 r7920959,C02008,353,353,RATP,,RATP,RATP,bus,bus
 r7791161,C02027,260,260,RATP,,RATP,RATP,bus,bus
-,C02180,,T1B,,,,RATP,,bus
+,C02180,,T1,,,,RATP,,bus
 r1257210,C02205,PC,PC,RATP,,RATP,RATP,bus,bus
 r9340396,C02243,25,25,RATP,,RATP,RATP,bus,bus
 r9352984,C02244,45,45,RATP,,RATP,RATP,bus,bus
@@ -280,14 +280,14 @@ r1942584,C02254,40,40,RATP,,RATP,RATP,bus,bus
 r6040778,C02288,193,193,RATP,,RATP,RATP,bus,bus
 ,C02310,,1,,,,RATP,,bus
 r10742267,C02314,263,263,RATP,,RATP,RATP,bus,bus
-,C02404,,BUS T1,,,,RATP,,bus
-,C02405,,BUS T2,,,,RATP,,bus
-,C02406,,BUS T3a,,,,RATP,,bus
-,C02407,,BUS T3b,,,,RATP,,bus
-,C02408,,BUS T5,,,,RATP,,bus
-,C02409,,BUS T6,,,,RATP,,bus
-,C02410,,BUS T7,,,,RATP,,bus
-,C02411,,BUS T8,,,,RATP,,bus
+,C02404,,T1,,,,RATP,,bus
+,C02405,,T2,,,,RATP,,bus
+,C02406,,T3a,,,,RATP,,bus
+,C02407,,T3b,,,,RATP,,bus
+,C02408,,T5,,,,RATP,,bus
+,C02409,,T6,,,,RATP,,bus
+,C02410,,T7,,,,RATP,,bus
+,C02411,,T8,,,,RATP,,bus
 r13593220,C02459,382,382,RATP,,RATP,RATP,bus,bus
 ,C02471,,12,,,,RATP,,bus
 ,C02475,,7,,,,RATP,,bus
@@ -390,7 +390,7 @@ r9181182,C00346,409,409,Bièvre,Bièvre,RATP Cap Bièvre,RD Bièvre,bus,bus
 r7842828,C01657,418,418,Bièvre,Bièvre,RATP Cap Bièvre,RD Bièvre,bus,bus
 r17027380,C01658,415,415,Bièvre,Bièvre,RATP Cap Bièvre,RD Bièvre,bus,bus
 r14232362,C02528,T10,T10,Tramway d'Île de France,Bièvre,RATP,RD Bièvre,tram,tram
-,C02790,,T10 BUS,,Bièvre,,RD Bièvre,,bus
+,C02790,,T10,,Bièvre,,RD Bièvre,,bus
 r2214230,C01130,101,101,Bord de Marne,Bord de Marne,RATP Cap Boucles de Marne,RATP Cap Boucles de Marne,bus,bus
 r1102964,C01135,106,106,Bord de Marne,Bord de Marne,RATP Cap Boucles de Marne,RATP Cap Boucles de Marne,bus,bus
 r1540147,C01136,107,107,Bord de Marne,Bord de Marne,RATP Cap Boucles de Marne,RATP Cap Boucles de Marne,bus,bus
@@ -970,7 +970,7 @@ r7921040,C01352,TIM,TIM,Grand Paris Seine Ouest,Grand Paris Seine Ouest,RATP,Ori
 r1758295,C01353,SUBB,SUBB N,RATP,Grand Paris Seine Ouest,RATP,Origami / Mobicité,bus,bus
 r3389342,C01365,TUVIM,TUVIM CV,RATP,Grand Paris Seine Ouest,RATP,Origami / Mobicité,bus,bus
 r7796849,C02300,469,469,Grand Paris Seine Ouest,Grand Paris Seine Ouest,MobiCité,Origami / Mobicité,bus,bus
-r7920955,C02301,GPSO,GPSO Bus,Grand Paris Seine Ouest,Grand Paris Seine Ouest,Mobicité,Origami / Mobicité,bus,bus
+r7920955,C02301,GPSO,GPSO Bus,Grand Paris Seine Ouest,Grand Paris Seine Ouest,Origami / Mobicité,Origami / Mobicité,bus,bus
 r7673721,C02304,Chavilbus,ChavilBus,SAVAC,Grand Paris Seine Ouest,SAVAC,Origami / Mobicité,bus,bus
 ,C02825,,SUBB S,,Grand Paris Seine Ouest,,Origami / Mobicité,,bus
 ,C02826,,TUVIM EP,,Grand Paris Seine Ouest,,Origami / Mobicité,,bus
@@ -1365,12 +1365,12 @@ r19606480,C02809,4627,4627,Paris-Saclay,Paris Saclay,RATP Cap Saclay,RD Saclay,b
 ,C02816,,4670,,Paris Saclay,,RD Saclay,,bus
 ,C02817,,4654,,Paris Saclay,,RD Saclay,,bus
 ,C02818,,4652,,Paris Saclay,,RD Saclay,,bus
-r8444974,C01830,A,A,Paris-Saclay,Paris-Saclay Mobilités,RATP Cap Saclay,Autocars Dominique,bus,bus
-r8444973,C01831,B,B,Paris-Saclay,Paris-Saclay Mobilités,RATP Cap Saclay,Autocars Dominique,bus,bus
-r8444972,C01832,C,C,Paris-Saclay,Paris-Saclay Mobilités,RATP Cap Saclay,Autocars Dominique,bus,bus
+r8444974,C01830,A,A,Paris-Saclay,Paris-Saclay Mobilités,Autocars Dominique,Autocars Dominique,bus,bus
+r8444973,C01831,B,B,Paris-Saclay,Paris-Saclay Mobilités,Autocars Dominique,Autocars Dominique,bus,bus
+r8444972,C01832,C,C,Paris-Saclay,Paris-Saclay Mobilités,Autocars Dominique,Autocars Dominique,bus,bus
 r18275609,C01833,D,D,Paris-Saclay Mobilités,Paris-Saclay Mobilités,Autocars Dominique,Autocars Dominique,bus,bus
 r9229426,C01836,G,G,Paris-Saclay,Paris-Saclay Mobilités,RATP Cap Saclay,Autocars Dominique,bus,bus
-r7734583,C01837,J,J,Paris-Saclay,Paris-Saclay Mobilités,RATP Cap Saclay,Autocars Dominique,bus,bus
+r7734583,C01837,J,J,Paris-Saclay,Paris-Saclay Mobilités,Autocars Dominique,Autocars Dominique,bus,bus
 r8448304,C01902,F,F,Paris-Saclay,Paris-Saclay Mobilités,RATP Cap Saclay,Autocars Dominique,bus,bus
 r20133940,C01903,H,H,Paris-Saclay,Paris-Saclay Mobilités,RATP Cap Saclay,Autocars Dominique,bus,bus
 r18047351,C01904,L,L,Paris-Saclay Mobilités,Paris-Saclay Mobilités,Autocars Dominique,Autocars Dominique,bus,bus
@@ -1745,7 +1745,7 @@ r16410742,C02503,TàD 78,TàD 78,Saint-Germain Boucles de Seine,Saint Germain Bo
 r16410695,C02615,11,11,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
 r16410694,C02616,12,12,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
 r7532322,C00403,5110,5110,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
-r8740800,C00416,5112,5112,SQYBus,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
+r8740800,C00416,5112,5112,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
 r8738250,C00418,5101,5101,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
 ,C00535,,5188,,Saint-Quentin-en-Yvelines,,Francilité Saint-Quentin-en-Yvelines,,bus
 ,C00536,,5189,,Saint-Quentin-en-Yvelines,,Francilité Saint-Quentin-en-Yvelines,,bus
@@ -1882,8 +1882,8 @@ r8392645,C02265,T'bus 1,T'bus 1,Terres d'Envol,Terres d'Envol,Transdev Nord Sein
 r13669221,C02266,T'bus 2,T'bus 2,Terres d'Envol,Terres d'Envol,Transdev Nord Seine-Saint-Denis,Transdev Nord Seine-Saint-Denis,bus,bus
 r13669220,C02267,T'bus 3,T'bus 3,Terres d'Envol,Terres d'Envol,Transdev Nord Seine-Saint-Denis,Transdev Nord Seine-Saint-Denis,bus,bus
 ,C02630,,612,,Terres d'Envol,,Transdev Nord Seine-Saint-Denis,,bus
-r8379297,C01826,Titus1,1,Titus,Titus,MobiCité,Origami / Mobicité,bus,bus
-r8379422,C01827,Titus2,2,Titus,Titus,MobiCité,Origami / Mobicité,bus,bus
+r8379297,C01826,Titus1,1,Titus,Titus,Origami / Mobicité,Origami / Mobicité,bus,bus
+r8379422,C01827,Titus2,2,Titus,Titus,Origami / Mobicité,Origami / Mobicité,bus,bus
 r7420696,C01730,P,P,Transilien,Transilien,SNCF Voyageurs,SNCF,train,rail
 r7420697,C01731,R,R,Transilien,Transilien,SNCF Voyageurs,SNCF,train,rail
 r7420700,C01736,N,N,Transilien,Transilien,SNCF Voyageurs,SNCF,train,rail

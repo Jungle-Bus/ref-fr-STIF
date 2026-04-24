@@ -27,14 +27,12 @@ r9188157,C02041,CitéVal F,CitéVal F,CitéVal,,Francilité Val Parisis,Francili
 ,C02833,,18,,,,Keolis Compagnie du Métro Grand Paris L18,,metro
 ,C02853,,TàD,,,,Keolis Nord Val d’Oise,,bus
 r12564972,C02317,T9,T9,Tramway d'Île de France,,Keolis,Keolis Ouest Val-de-Marne,tram,tram
-r3315942,C00549,BrieBus,BrieBus,Marne-la-Vallée,,Keolis Portes et Val de Brie,Keolis Portes et Val de Brie,bus,bus
+r3315942,C00549,BrieBus,BrieBus,Marne-la-Vallée,,Transdev Marne-la-Vallée,Keolis Portes et Val de Brie,bus,bus
 r9190573,C01544,Selected,Selected,Magical Shuttle,,Transdev Visual,Magical Shuttle,bus,bus
 r9190528,C01545,CDG,CDG,Magical Shuttle,,Transdev Visual,Magical Shuttle,bus,bus
 r9190550,C01546,Orly,Orly,Magical Shuttle,,Transdev Visual,Magical Shuttle,bus,bus
-r6928902,C01388,Orlyval,ORLYVAL,Métro de Paris,,RATP,ORLYVAL SERVICE,subway,rail
-,C02525,,ORLYVAL,,,,ORLYVAL SERVICE,,bus
 r7804907,C01354,574,TUC,RATP,,RATP,Origami / Paris Seine Mobilités,bus,bus
-r7136184,C01360,Choisybus,CHOISYBUS,RATP,,Origami / Paris Seine Mobilités,Origami / Paris Seine Mobilités,bus,bus
+r7136184,C01360,Choisybus,CHOISYBUS,RATP,,RATP,Origami / Paris Seine Mobilités,bus,bus
 r5852751,C01780,La Navette,THIAIS,RATP,,Origami / Paris Seine Mobilités,Origami / Paris Seine Mobilités,bus,bus
 r8728677,C01900,P'TIT BUS,P'TIT BUS,RATP,,Origami / Paris Seine Mobilités,Origami / Paris Seine Mobilités,bus,bus
 r6860704,C01071,Tvm,TVM,RATP,,RATP,RATP,bus,bus
@@ -167,7 +165,7 @@ r7920994,C01257,276,276,RATP,,RATP,RATP,bus,bus
 r7920992,C01258,278,278,RATP,,RATP,RATP,bus,bus
 r1520530,C01260,281,281,RATP,,RATP,RATP,bus,bus
 r2972887,C01263,286,286,RATP,,RATP,RATP,bus,bus
-r7921038,C01266,291,291,RATP,,RATP,RATP,bus,bus
+,C01266,,291,,,,RATP,,bus
 r2206991,C01272,301,301,RATP,,RATP,RATP,bus,bus
 r2989343,C01273,302,302,RATP,,RATP,RATP,bus,bus
 r7921054,C01275,304,304,RATP,,RATP,RATP,bus,bus
@@ -229,6 +227,7 @@ r3328694,C01384,14,14,Métro de Paris,,RATP,RATP,subway,metro
 r6928970,C01385,Funiculaire,FUN,RATP,,RATP,RATP,funicular,funicular
 r7420646,C01386,3bis,3B,Métro de Paris,,RATP,RATP,subway,metro
 r2554103,C01387,7bis,7B,Métro de Paris,,RATP,RATP,subway,metro
+r6928902,C01388,Orlyval,ORLYVAL,Métro de Paris,,RATP,RATP,subway,rail
 r2572573,C01389,T1,T1,Tramway d'Île de France,,RATP,RATP,tram,tram
 r1635139,C01390,T2,T2,Tramway d'Île de France,,RATP,RATP,tram,tram
 r6907402,C01391,T3a,T3a,Tramway d'Île de France,,RATP,RATP,tram,tram
@@ -297,6 +296,7 @@ r14576282,C02488,Navette Autonome,NAVAUT1,RATP,,RATP,RATP,bus,bus
 ,C02494,,14,,,,RATP,,bus
 ,C02512,,9,,,,RATP,,bus
 ,C02514,,4,,,,RATP,,bus
+,C02525,,ORLYVAL,,,,RATP,,bus
 ,C02527,,2,,,,RATP,,bus
 ,C02531,,11,,,,RATP,,bus
 ,C02532,,5,,,,RATP,,bus
@@ -977,7 +977,7 @@ r7673721,C02304,Chavilbus,ChavilBus,SAVAC,Grand Paris Seine Ouest,SAVAC,Origami 
 ,C02827,,TUVIM ISG,,Grand Paris Seine Ouest,,Origami / Mobicité,,bus
 r8054732,C00113,6217,6217,Grand Versailles,Grand Versailles,Transdev Versailles,Transdev Versailles,bus,bus
 r8063062,C00122,6283,6283,Grand Versailles,Grand Versailles,Transdev Versailles,Transdev Versailles,bus,bus
-,C00327,,6281,,Grand Versailles,,Transdev Versailles,,bus
+r20499589,C00327,6281,6281,Grand Versailles,Grand Versailles,Transdev Versailles,Transdev Versailles,bus,bus
 r20064608,C00328,6282,6282,Grand Versailles,Grand Versailles,Transdev Versailles,Transdev Versailles,bus,bus
 r8402861,C00408,6211,6211,Grand Versailles,Grand Versailles,Transdev Versailles,Transdev Versailles,bus,bus
 ,C00420,,6287,,Grand Versailles,,Transdev Versailles,,bus
@@ -1168,7 +1168,6 @@ r15616801,C02538,311,311,Marne et Brie,Marne et Brie,Keolis Grand Paris Vallée 
 r7435393,C00084,437,437,Marne et Seine,Marne et Seine,Transdev Côteaux de la Marne,Transdev Côteaux de la Marne,bus,bus
 r8364981,C00085,438,438,Marne et Seine,Marne et Seine,Transdev Côteaux de la Marne,Transdev Côteaux de la Marne,bus,bus
 r6156507,C00263,100,100,Mobilien,Marne et Seine,Transdev Lys,Transdev Côteaux de la Marne,bus,bus
-r5931547,C00547,440,440,Marne et Seine,Marne et Seine,Transdev Côteaux de la Marne,Transdev Côteaux de la Marne,bus,bus
 r3315943,C00548,451,451,Marne et Seine,Marne et Seine,Transdev Côteaux de la Marne,Transdev Côteaux de la Marne,bus,bus
 r5931043,C00552,431,431,Marne et Seine,Marne et Seine,Transdev Côteaux de la Marne,Transdev Côteaux de la Marne,bus,bus
 r5931083,C00553,432,432,Marne et Seine,Marne et Seine,Transdev Côteaux de la Marne,Transdev Côteaux de la Marne,bus,bus
@@ -1542,7 +1541,7 @@ r15874109,C02589,Soir,Soir,Poissy - Les Mureaux,Poissy - Les Mureaux,Keolis Sein
 ,C02628,,Soir,,Poissy - Les Mureaux,,Keolis Seine et Oise Est,,bus
 ,C02798,,6535,,Poissy - Les Mureaux,,Keolis Seine et Oise Est,,bus
 ,C02799,,6550,,Poissy - Les Mureaux,,Keolis Seine et Oise Est,,bus
-,C02800,,6577,,Poissy - Les Mureaux,,Keolis Seine et Oise Est,,bus
+r20512178,C02800,6577,6577,Poissy - Les Mureaux,Poissy - Les Mureaux,Keolis Seine et Oise Est,Keolis Seine et Oise Est,bus,bus
 ,C02801,,6578,,Poissy - Les Mureaux,,Keolis Seine et Oise Est,,bus
 ,C02802,,6579,,Poissy - Les Mureaux,,Keolis Seine et Oise Est,,bus
 ,C02803,,6580,,Poissy - Les Mureaux,,Keolis Seine et Oise Est,,bus

@@ -209,7 +209,7 @@ r3256316,23,Bus 23 : Gare de Villiers-le-Bel ↔ Gare d'Aulnay-sous-Bois,Roissy 
 r3286442,4217,Bus 4217 : Évry - Bras-de-Fer (circulaire),Évry Centre Essonne,Keolis TISSE,#00A092,bus,C01623
 r3307569,241,Bus 241 : Rueil-Malmaison RER ↔ Porte d'Auteuil,RATP,RATP,#6e5b1e,bus,C01239
 r3315927,423,Bus 423 : Brie-comte-Robert Stade Lucien Destal ↔ Créteil Préfécture,Pays Briard,Keolis Portes et Val de Brie,#f78f4b,bus,C00551
-r3315942,BrieBus,Bus BrieBus : Brie-comte-Robert Galilée ↔ Brie-comte-Robert Galilée,Marne-la-Vallée,Keolis Portes et Val de Brie,#b2ff00,bus,C00549
+r3315942,BrieBus,Bus BrieBus : Brie-comte-Robert Galilée ↔ Brie-comte-Robert Galilée,Marne-la-Vallée,Transdev Marne-la-Vallée,#b2ff00,bus,C00549
 r3315943,451,Bus 451 : Éden (Servon) ↔ Créteil Préfecture,Marne et Seine,Transdev Côteaux de la Marne,#82c8e6,bus,C00548
 r3318735,151,Bus 151 : Porte de Pantin ↔ Bondy - Jouhaux–Blum,RATP,RATP,#BB4A9B,bus,C01175
 r3325971,4204,Bus 4204 : Gare de Ris-Orangis Bois de l'Épine ↔ Soisy-sur-Seine (Les Meillottes),Évry Centre Essonne,Keolis TISSE,#d2d200,bus,C01619
@@ -463,7 +463,7 @@ r7097563,1312,Bus 1312 : Chaumontel ↔ Goussainville,Haut Val-d'Oise,Keolis Nor
 r7101486,4214,Bus 4214 : Évry-Courcouronnes Centre ↔ Le Plessis-Pâté,Évry Centre Essonne,Keolis TISSE,#ff82b4,bus,C01627
 r7105179,9103,Bus 9103 : Gare de Dourdan ↔ (Gare d'Orsay Ville) ↔ Gare de Massy-Palaiseau,Essonne Sud Ouest,Francilité Ouest Essonne,#3BB2FF,bus,C01564
 r7105212,5154,Bus 5154 : Orly ↔ Massy ↔ Saint-Quentin-en-Yvelines,Île-de-France Ouest,Francilité Express Ouest,#fece26,bus,C01571
-r7136184,Choisybus,Bus 582 : Choisybus : Service urbain de Choisy-le-Roi (circulaire),RATP,Origami / Paris Seine Mobilités,#dfb039,bus,C01360
+r7136184,Choisybus,Bus 582 : Choisybus : Service urbain de Choisy-le-Roi (circulaire),RATP,RATP,#dfb039,bus,C01360
 r7140481,6,Bus 6 : circulaire de Camberwell (Sceaux),Paladin,Bièvre Bus Mobilités,#6166FF,bus,C00343
 r7141723,1135,Bus 1135 : Sagy- Saillancourt ↔ Marines - Collège les Hautiers,Vexin,Transdev Vexin,#00E84F,bus,C01790
 r7142127,14,Bus 14 : Fontenay-aux-Roses Division Leclerc - La Croix de Berny RER,Vallée Sud Bus,Transdev Vallée Sud,#0055FA,bus,C00350
@@ -735,7 +735,6 @@ r7921033,5130,Bus 5130 : Trappes Gare (circulaire) via ZA Trappes–Élancourt,S
 r7921034,459,Bus 459 : Gare de Saint-Cloud ↔ Henri Regnault,RATP,RATP,,bus,C01485
 r7921035,565,Bus 565 : Église de Buzenval ↔ Mairie de Rueil,RATP,RATP,#1B673D,bus,C01350
 r7921036,D,Bus D : Gare de Chatou-Croissy ↔ Gare de La-Celle-Saint-Cloud,Argenteuil - Boucles de Seine,Keolis Argenteuil Boucles de Seine,,bus,C01755
-r7921038,291,Bus 291 : Pont de Sèvres ↔ Vélizy - La Cheminée,RATP,RATP,#6E6E00,bus,C01266
 r7921039,5312,Bus 5312 : Saint-Germain-de-la-Grange - Beynes ↔ Plaisir-Grignon,Centre et Sud Yvelines,Transdev Sud Yvelines,#bb4b9b,bus,C00409
 r7921040,TIM,Bus TIM Bellevue Circulaire,Grand Paris Seine Ouest,RATP,,bus,C01352
 r7921042,4459,Bus 4459 : Dourdan ↔ Chalou-Moulineux,Essonne Sud Ouest,Francilité Ouest Essonne,#CEC92B,bus,C00973
@@ -1502,3 +1501,5 @@ r20346399,1119,Bus 1119 : La Roche-Guyon - Mairie ↔ Gare de Mantes-la-Jolie,Ve
 r20361204,5337,Bus 5337 : Gare du Perray-en-Yvelines ↔ Gare de Saint-Rémy-lès-Chevreuse,Centre et Sud Yvelines,Transdev Sud Yvelines,#A00437,bus,C00504
 r20380475,CFC,Chemin de Fer des Chanteraines,Parc Départemental des Chanteraines,Chemin de Fer des Chanteraines,#BE0A26,train,
 r20393101,3550,Bus 3550: Mairie (Nanteau-sur-Essonne) ↔ Gare Routière (La Chapelle-la-Reine),IDFM,,#00a092,bus,
+r20499589,6281,Bus 6281 : Saint-Germain-en-Laye Lycée International / Lycée de Vinci ↔ Le Pecq - Jean Moulin,Grand Versailles,Transdev Versailles,#ffbe00,bus,C00327
+r20512178,6577,Bus 6577 : Gare des Mureaux ↔ Gare de Saint-Germain-en-Laye,Poissy - Les Mureaux,Keolis Seine et Oise Est,#a0006e,bus,C02800

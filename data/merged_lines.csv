@@ -3,6 +3,7 @@ r8268452,C00562,N1,N1,ADP,,Aéroports de Paris,ADP,bus,bus
 r6928933,C00563,CDGVAL,CDG VAL,CDGVAL,,Aéroports de Paris,ADP,subway,rail
 r8268538,C01792,N2,N2,ADP,,Aéroports de Paris,ADP,bus,bus
 r7214891,C01757,Traverse,Traverse,,,Autocars Dominique,Autocars Dominique,bus,bus
+r7803053,C01338,541,EOLIEN,RATP,,RATP,Bluestation,bus,bus
 r7909099,C00479,Navette,Navette,Francilité Val Parisis,,Francilité Val Parisis,Francilité Val Parisis,bus,bus
 r9188040,C00480,CitéVal N,CitéVal N,CitéVal,,Francilité Val Parisis,Francilité Val Parisis,bus,bus
 r9188067,C00481,CitéVal S,CitéVal S,CitéVal,,Francilité Val Parisis,Francilité Val Parisis,bus,bus
@@ -31,6 +32,13 @@ r3315942,C00549,BrieBus,BrieBus,Marne-la-Vallée,,Transdev Marne-la-Vallée,Keol
 r9190573,C01544,Selected,Selected,Magical Shuttle,,Transdev Visual,Magical Shuttle,bus,bus
 r9190528,C01545,CDG,CDG,Magical Shuttle,,Transdev Visual,Magical Shuttle,bus,bus
 r9190550,C01546,Orly,Orly,Magical Shuttle,,Transdev Visual,Magical Shuttle,bus,bus
+r7779421,C01289,330,330,RATP,,RATP,Origami / Paris Seine Mobilités,bus,bus
+r7920956,C01331,TillBus,TILLBUS,RATP,,RATP,Origami / Paris Seine Mobilités,bus,bus
+r6682682,C01340,AS,AS,RATP,,RATP,Origami / Paris Seine Mobilités,bus,bus
+r7803998,C01342,546,TUB,RATP,,RATP,Origami / Paris Seine Mobilités,bus,bus
+r7975655,C01345,559,559,RATP,,RATP,Origami / Paris Seine Mobilités,bus,bus
+r8130795,C01345,559,559,RATP,,RATP,Origami / Paris Seine Mobilités,bus,bus
+r7921035,C01350,565,565,RATP,,RATP,Origami / Paris Seine Mobilités,bus,bus
 r7804907,C01354,574,TUC,RATP,,RATP,Origami / Paris Seine Mobilités,bus,bus
 r7136184,C01360,Choisybus,CHOISYBUS,RATP,,RATP,Origami / Paris Seine Mobilités,bus,bus
 r5852751,C01780,La Navette,THIAIS,RATP,,Origami / Paris Seine Mobilités,Origami / Paris Seine Mobilités,bus,bus
@@ -38,29 +46,21 @@ r8728677,C01900,P'TIT BUS,P'TIT BUS,RATP,,Origami / Paris Seine Mobilités,Origa
 r6860704,C01071,Tvm,TVM,RATP,,RATP,RATP,bus,bus
 r1066572,C01072,20,20,RATP,,RATP,RATP,bus,bus
 r1083426,C01073,21,21,RATP,,RATP,RATP,bus,bus
-r1254461,C01074,22,22,RATP,,RATP,RATP,bus,bus
 r1083425,C01075,24,24,RATP,,RATP,RATP,bus,bus
 r1083423,C01076,26,26,RATP,,RATP,RATP,bus,bus
 r1083433,C01077,27,27,RATP,,RATP,RATP,bus,bus
 r1066842,C01078,28,28,RATP,,RATP,RATP,bus,bus
 r1255733,C01079,29,29,RATP,,RATP,RATP,bus,bus
 r1255732,C01080,30,30,RATP,,RATP,RATP,bus,bus
-r1255734,C01081,31,31,RATP,,RATP,RATP,bus,bus
-r1083424,C01082,32,32,RATP,,RATP,RATP,bus,bus
 r1057488,C01083,38,38,RATP,,RATP,RATP,bus,bus
 r1057577,C01084,39,39,RATP,,RATP,RATP,bus,bus
-r1057570,C01085,42,42,RATP,,RATP,RATP,bus,bus
-r1057567,C01086,43,43,RATP,,RATP,RATP,bus,bus
 r1057566,C01087,46,46,RATP,,RATP,RATP,bus,bus
 r1057573,C01088,47,47,RATP,,RATP,RATP,bus,bus
 r1083432,C01089,48,48,RATP,,RATP,RATP,bus,bus
-r1083435,C01090,52,52,RATP,,RATP,RATP,bus,bus
-r1257186,C01092,54,54,RATP,,RATP,RATP,bus,bus
 r1066573,C01093,56,56,RATP,,RATP,RATP,bus,bus
 r1257187,C01094,57,57,RATP,,RATP,RATP,bus,bus
 r1083420,C01095,58,58,RATP,,RATP,RATP,bus,bus
 r1257122,C01096,60,60,RATP,,RATP,RATP,bus,bus
-r255442,C01097,61,61,RATP,,RATP,RATP,bus,bus
 r1257125,C01098,62,62,RATP,,RATP,RATP,bus,bus
 r1257123,C01099,63,63,RATP,,RATP,RATP,bus,bus
 r1257124,C01100,64,64,RATP,,RATP,RATP,bus,bus
@@ -68,9 +68,6 @@ r1066570,C01103,67,67,RATP,,RATP,RATP,bus,bus
 r1083430,C01104,68,68,RATP,,RATP,RATP,bus,bus
 r1254002,C01105,69,69,RATP,,RATP,RATP,bus,bus
 r1086590,C01106,70,70,RATP,,RATP,RATP,bus,bus
-r1086445,C01107,72,72,RATP,,RATP,RATP,bus,bus
-r1086444,C01108,73,73,RATP,,RATP,RATP,bus,bus
-r1066571,C01110,75,75,RATP,,RATP,RATP,bus,bus
 r1251039,C01111,76,76,RATP,,RATP,RATP,bus,bus
 r1083422,C01112,80,80,RATP,,RATP,RATP,bus,bus
 r1083431,C01114,82,82,RATP,,RATP,RATP,bus,bus
@@ -82,14 +79,11 @@ r1245875,C01120,88,88,RATP,,RATP,RATP,bus,bus
 r1083434,C01121,89,89,RATP,,RATP,RATP,bus,bus
 r1083436,C01122,91,91,RATP,,RATP,RATP,bus,bus
 r1083429,C01123,92,92,RATP,,RATP,RATP,bus,bus
-r1083419,C01124,93,93,RATP,,RATP,RATP,bus,bus
 r1085979,C01125,94,94,RATP,,RATP,RATP,bus,bus
-r1246520,C01126,95,95,RATP,,RATP,RATP,bus,bus
 r226276,C01127,96,96,RATP,,RATP,RATP,bus,bus
 r3047801,C01131,102,102,RATP,,RATP,RATP,bus,bus
 r4610190,C01132,103,103,RATP,,RATP,RATP,bus,bus
 r3686355,C01133,104,104,RATP,,RATP,RATP,bus,bus
-r7444602,C01134,105,105,RATP,,RATP,RATP,bus,bus
 r5964015,C01138,109,109,RATP,,RATP,RATP,bus,bus
 r225801,C01144,115,115,RATP,,RATP,RATP,bus,bus
 r1578451,C01146,117,117,RATP,,RATP,RATP,bus,bus
@@ -102,34 +96,10 @@ r6954593,C01157,128,128,RATP,,RATP,RATP,bus,bus
 r1857145,C01158,129,129,RATP,,RATP,RATP,bus,bus
 r3334641,C01159,131,131,RATP,,RATP,RATP,bus,bus
 r5852775,C01160,132,132,RATP,,RATP,RATP,bus,bus
-r4772628,C01161,133,133,RATP,,RATP,RATP,bus,bus
-r954976,C01165,139,139,RATP,,RATP,RATP,bus,bus
-r5899969,C01167,141,141,RATP,,RATP,RATP,bus,bus
-r4779679,C01168,143,143,RATP,,RATP,RATP,bus,bus
-r968720,C01169,144,144,RATP,,RATP,RATP,bus,bus
-r2213976,C01170,145,145,RATP,,RATP,RATP,bus,bus
-r2171714,C01171,146,146,RATP,,RATP,RATP,bus,bus
-r332709,C01172,147,147,RATP,,RATP,RATP,bus,bus
-r2207006,C01173,148,148,RATP,,RATP,RATP,bus,bus
-r3045662,C01174,150,150,RATP,,RATP,RATP,bus,bus
-r3318735,C01175,151,151,RATP,,RATP,RATP,bus,bus
-r7920985,C01176,152,152,RATP,,RATP,RATP,bus,bus
-r3997212,C01177,153,153,RATP,,RATP,RATP,bus,bus
-r611648,C01180,157,157,RATP,,RATP,RATP,bus,bus
-r3546204,C01181,158,158,RATP,,RATP,RATP,bus,bus
-r3695203,C01182,159,159,RATP,,RATP,RATP,bus,bus
-r901462,C01183,160,160,RATP,,RATP,RATP,bus,bus
 r1991746,C01184,162,162,RATP,,RATP,RATP,bus,bus
-r5899903,C01185,163,163,RATP,,RATP,RATP,bus,bus
-r2647712,C01186,164,164,RATP,,RATP,RATP,bus,bus
-r2647711,C01187,165,165,RATP,,RATP,RATP,bus,bus
-r6010966,C01189,167,167,RATP,,RATP,RATP,bus,bus
 r6010927,C01190,169,169,RATP,,RATP,RATP,bus,bus
-r225665,C01191,170,170,RATP,,RATP,RATP,bus,bus
 r5569622,C01192,171,171,RATP,,RATP,RATP,bus,bus
 r5963159,C01193,172,172,RATP,,RATP,RATP,bus,bus
-r1553162,C01194,173,173,RATP,,RATP,RATP,bus,bus
-r5900554,C01197,176,176,RATP,,RATP,RATP,bus,bus
 r5955532,C01201,180,180,RATP,,RATP,RATP,bus,bus
 r1802059,C01202,181,181,RATP,,RATP,RATP,bus,bus
 r6049045,C01203,182,182,RATP,,RATP,RATP,bus,bus
@@ -143,68 +113,25 @@ r7753791,C01213,192,192,RATP,,RATP,RATP,bus,bus
 r6795575,C01223,208,208,RATP,,RATP,RATP,bus,bus
 r7474293,C01229,215,215,RATP,,RATP,RATP,bus,bus
 r5415945,C01231,217,217,RATP,,RATP,RATP,bus,bus
-r7920983,C01234,234,234,RATP,,RATP,RATP,bus,bus
-r7921053,C01238,239,239,RATP,,RATP,RATP,bus,bus
-r3307569,C01239,241,241,RATP,,RATP,RATP,bus,bus
-r1716268,C01240,244,244,RATP,,RATP,RATP,bus,bus
-r6608978,C01241,249,249,RATP,,RATP,RATP,bus,bus
-r7920986,C01242,250,250,RATP,,RATP,RATP,bus,bus
-r2206548,C01243,251,251,RATP,,RATP,RATP,bus,bus
-r7920987,C01244,252,252,RATP,,RATP,RATP,bus,bus
-r7475032,C01245,253,253,RATP,,RATP,RATP,bus,bus
-r5226660,C01246,255,255,RATP,,RATP,RATP,bus,bus
-r5426315,C01247,256,256,RATP,,RATP,RATP,bus,bus
-r1464810,C01248,258,258,RATP,,RATP,RATP,bus,bus
-r949584,C01249,261,261,RATP,,RATP,RATP,bus,bus
-r7795190,C01251,268,268,RATP,,RATP,RATP,bus,bus
-r7920990,C01252,269,269,RATP,,RATP,RATP,bus,bus
-r7920989,C01253,270,270,RATP,,RATP,RATP,bus,bus
-r1810272,C01254,272,272,RATP,,RATP,RATP,bus,bus
-r7427861,C01256,275,275,RATP,,RATP,RATP,bus,bus
-r7920994,C01257,276,276,RATP,,RATP,RATP,bus,bus
-r7920992,C01258,278,278,RATP,,RATP,RATP,bus,bus
 r1520530,C01260,281,281,RATP,,RATP,RATP,bus,bus
 r2972887,C01263,286,286,RATP,,RATP,RATP,bus,bus
 ,C01266,,291,,,,RATP,,bus
-r2206991,C01272,301,301,RATP,,RATP,RATP,bus,bus
-r2989343,C01273,302,302,RATP,,RATP,RATP,bus,bus
-r7921054,C01275,304,304,RATP,,RATP,RATP,bus,bus
 r1302117,C01277,308,308,RATP,,RATP,RATP,bus,bus
 r2853923,C01280,317,317,RATP,,RATP,RATP,bus,bus
 r1555939,C01281,318,318,RATP,,RATP,RATP,bus,bus
 r2207036,C01286,322,322,RATP,,RATP,RATP,bus,bus
 r1981724,C01287,323,323,RATP,,RATP,RATP,bus,bus
 r1555878,C01288,325,325,RATP,,RATP,RATP,bus,bus
-r7779421,C01289,330,330,RATP,,RATP,RATP,bus,bus
 r1553375,C01294,341,341,RATP,,RATP,RATP,bus,bus
-r2198226,C01295,346,346,RATP,,RATP,RATP,bus,bus
-r7800092,C01302,355,355,RATP,,RATP,RATP,bus,bus
-r6006672,C01303,356,356,RATP,,RATP,RATP,bus,bus
-r6929704,C01304,360,360,RATP,,RATP,RATP,bus,bus
-r6835726,C01305,361,361,RATP,,RATP,RATP,bus,bus
-r7800304,C01306,366,366,RATP,,RATP,RATP,bus,bus
-r611690,C01307,367,367,RATP,,RATP,RATP,bus,bus
-r7920991,C01308,368,368,RATP,,RATP,RATP,bus,bus
-r7920988,C01309,370,370,RATP,,RATP,RATP,bus,bus
 r7800445,C01310,372,372,RATP,,RATP,RATP,bus,bus
-r611689,C01311,378,378,RATP,,RATP,RATP,bus,bus
 r5954724,C01314,388,388,RATP,,RATP,RATP,bus,bus
 r5557347,C01318,393,393,RATP,,RATP,RATP,bus,bus
 r7843394,C01321,396,396,RATP,,RATP,RATP,bus,bus
-r1709309,C01324,467,467,RATP,,RATP,RATP,bus,bus
 r7921049,C01329,La Traverse,CHARONNE,RATP,,RATP,RATP,bus,bus
 r7921052,C01330,513,BIEVRES,RATP,,RATP,RATP,bus,bus
-r7920956,C01331,TillBus,TILLBUS,RATP,,RATP,RATP,bus,bus
 r5662181,C01332,La Traverse,BATIGNO,RATP,,RATP,RATP,bus,bus
 r7921027,C01333,519,NEY-FLA,RATP,,RATP,RATP,bus,bus
-r7803053,C01338,541,EOLIEN,RATP,,RATP,RATP,bus,bus
-r6682682,C01340,AS,AS,RATP,,RATP,RATP,bus,bus
-r7803998,C01342,546,TUB,RATP,,RATP,RATP,bus,bus
-r7975655,C01345,559,559,RATP,,RATP,RATP,bus,bus
-r8130795,C01345,559,559,RATP,,RATP,RATP,bus,bus
 r7975668,C01347,v4,V4,RATP,,RATP,RATP,bus,bus
-r7920954,C01349,564,564,RATP,,RATP,RATP,bus,bus
-r7921035,C01350,565,565,RATP,,RATP,RATP,bus,bus
 r7011233,C01359,v3,V3,Valouette,,RATP,RATP,bus,bus
 r7573289,C01361,v2,V2,RATP,,RATP,RATP,bus,bus
 r7901303,C01362,v5,V5,Valouette,,RATP,RATP,bus,bus
@@ -249,36 +176,21 @@ r7011211,C01414,N02,N02,Noctilien,,RATP,RATP,bus,bus
 r1537048,C01417,N15,N15,Noctilien,,RATP,RATP,bus,bus
 r1547967,C01418,N14,N14,Noctilien,,RATP,RATP,bus,bus
 r1547966,C01419,N13,N13,Noctilien,,RATP,RATP,bus,bus
-r7784991,C01481,426,426,RATP,,RATP,RATP,bus,bus
-r7921034,C01485,459,459,RATP,,RATP,RATP,bus,bus
-r3567517,C01488,471,471,RATP,,RATP,RATP,bus,bus
 r3662457,C01679,T3b,T3b,Tramway d'Île de France,,RATP,RATP,tram,tram
-r2644951,C01680,35,35,RATP,,RATP,RATP,bus,bus
 r6910410,C01684,T5,T5,Tramway d'Île de France,,RATP,RATP,tram,tram
-r7920984,C01695,247,247,RATP,,RATP,RATP,bus,bus
-r7634948,C01696,248,248,RATP,,RATP,RATP,bus,bus
-r7802464,C01756,337,337,RATP,,RATP,RATP,bus,bus
 r6910465,C01774,T7,T7,Tramway d'Île de France,,RATP,RATP,tram,tram
 r6910437,C01794,T6,T6,Tramway d'Île de France,,RATP,RATP,tram,tram
 r4007734,C01795,T8,T8,Tramway d'Île de France,,RATP,RATP,tram,tram
-r7781376,C01808,254,254,RATP,,RATP,RATP,bus,bus
 r6048347,C01809,380,380,RATP,,RATP,RATP,bus,bus
-r6552159,C02000,259,259,RATP,,RATP,RATP,bus,bus
-r7920960,C02007,168,168,RATP,,RATP,RATP,bus,bus
-r7920959,C02008,353,353,RATP,,RATP,RATP,bus,bus
 r7791161,C02027,260,260,RATP,,RATP,RATP,bus,bus
-,C02180,,T1,,,,RATP,,bus
 r1257210,C02205,PC,PC,RATP,,RATP,RATP,bus,bus
 r9340396,C02243,25,25,RATP,,RATP,RATP,bus,bus
-r9352984,C02244,45,45,RATP,,RATP,RATP,bus,bus
 r9353394,C02245,59,59,RATP,,RATP,RATP,bus,bus
-r9353405,C02246,71,71,RATP,,RATP,RATP,bus,bus
 r9353416,C02251,77,77,RATP,,RATP,RATP,bus,bus
 r1942584,C02254,40,40,RATP,,RATP,RATP,bus,bus
 ,C02268,,6,,,,RATP,,bus
 r6040778,C02288,193,193,RATP,,RATP,RATP,bus,bus
 ,C02310,,1,,,,RATP,,bus
-r10742267,C02314,263,263,RATP,,RATP,RATP,bus,bus
 ,C02404,,T1,,,,RATP,,bus
 ,C02405,,T2,,,,RATP,,bus
 ,C02406,,T3a,,,,RATP,,bus
@@ -306,11 +218,9 @@ r14576282,C02488,Navette Autonome,NAVAUT1,RATP,,RATP,RATP,bus,bus
 ,C02590,,7B,,,,RATP,,bus
 r19279904,C02713,245,245,RATP,,RATP,RATP,bus,bus
 r18760767,C02714,202,202,RATP,,RATP,RATP,bus,bus
-,C02744,,277,,,,RATP,,bus
-,C02834,,240,,,,RATP,,bus
 ,C02344,,T13,,,,RATP Cap Arc Sud et Ouest,,tram
 ,C02469,,T13,,,,RATP Cap Arc Sud et Ouest,,bus
-r14456255,C02529,T12,T12,Tramway d'Île de France,,Transkeo,RATP Cap Arc Sud et Ouest,tram,tram
+r14456255,C02529,T12,T12,Tramway d'Île de France,,RATP Dev Cap Île-de-France,RATP Cap Arc Sud et Ouest,tram,tram
 ,C02597,,T12,,,,RATP Cap Arc Sud et Ouest,,bus
 ,C01859,,TER,,,,SNCF,,bus
 ,C01864,,TER,,,,SNCF,,bus
@@ -662,9 +572,9 @@ r5954722,C01215,195,195,Réseau de bus Croix du Sud,Croix du Sud,ATM Croix du Su
 r1987589,C01264,289,289,Réseau de bus Croix du Sud,Croix du Sud,ATM Croix du Sud,ATM Croix du Sud,bus,bus
 r2532600,C01265,290,290,Réseau de bus Croix du Sud,Croix du Sud,ATM Croix du Sud,ATM Croix du Sud,bus,bus
 r7261212,C01315,389,389,Réseau de bus Croix du Sud,Croix du Sud,ATM Croix du Sud,ATM Croix du Sud,bus,bus
-r5969926,C01316,390,390,RATP,Croix du Sud,ATM Croix du Sud,ATM Croix du Sud,bus,bus
+r5969926,C01316,390,390,RATP,Croix du Sud,RATP,ATM Croix du Sud,bus,bus
 r5312582,C01317,391,391,Réseau de bus Croix du Sud,Croix du Sud,ATM Croix du Sud,ATM Croix du Sud,bus,bus
-r6645022,C01319,394,394,RATP,Croix du Sud,ATM Croix du Sud,ATM Croix du Sud,bus,bus
+r6645022,C01319,394,394,RATP,Croix du Sud,RATP,ATM Croix du Sud,bus,bus
 r7804946,C01369,595,595,Réseau de bus Croix du Sud,Croix du Sud,ATM Croix du Sud,ATM Croix du Sud,bus,bus
 r1762129,C01402,N61,N61,Noctilien,Croix du Sud,ATM Croix du Sud,ATM Croix du Sud,bus,bus
 r5540004,C01403,N62,N62,Réseau de bus Croix du Sud,Croix du Sud,ATM Croix du Sud,ATM Croix du Sud,bus,bus
@@ -928,6 +838,7 @@ r15538432,C02290,3426,3426,Fontainebleau - Moret,Fontainebleau - Moret,Transdev 
 ,C02776,,TàD,,Fontainebleau - Moret,,Transdev Pays de Fontainebleau,,bus
 ,C02777,,TàD,,Fontainebleau - Moret,,Transdev Pays de Fontainebleau,,bus
 ,C02778,,TàD,,Fontainebleau - Moret,,Transdev Pays de Fontainebleau,,bus
+,C02854,,7711,,Fontainebleau - Moret,,Transdev Pays de Fontainebleau,,bus
 r7920998,C00801,3633,3633,Grand Melun,Grand Melun,Transdev Melun,Transdev Melun,bus,bus
 ,C00814,,3665,,Grand Melun,,Transdev Melun,,bus
 r7921022,C00875,3604,3604,Grand Melun,Grand Melun,Transdev Melun,Transdev Melun,bus,bus
@@ -1036,6 +947,44 @@ r9836912,C02033,1349,1349,Haut Val-d'Oise,Haut Val d'Oise,Keolis Nord Val d’Oi
 ,C02624,,N147,,Haut Val d'Oise,,Keolis Nord Val d’Oise,,bus
 ,C02674,,Soir,,Haut Val d'Oise,,Keolis Nord Val d’Oise,,bus
 ,C02675,,Soir,,Haut Val d'Oise,,Keolis Nord Val d’Oise,,bus
+r1254461,C01074,22,22,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r1083424,C01082,32,32,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r1057570,C01085,42,42,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r1057567,C01086,43,43,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r1083435,C01090,52,52,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r1086445,C01107,72,72,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r1086444,C01108,73,73,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r1083419,C01124,93,93,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r5899969,C01167,141,141,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r968720,C01169,144,144,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r611648,C01180,157,157,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r3546204,C01181,158,158,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r3695203,C01182,159,159,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r901462,C01183,160,160,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r5899903,C01185,163,163,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r2647712,C01186,164,164,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r2647711,C01187,165,165,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r6010966,C01189,167,167,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r5900554,C01197,176,176,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r3307569,C01239,241,241,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r1716268,C01240,244,244,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r1464810,C01248,258,258,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r1810272,C01254,272,272,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r7427861,C01256,275,275,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r7920994,C01257,276,276,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r7920992,C01258,278,278,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r7921054,C01275,304,304,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r6929704,C01304,360,360,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r7800304,C01306,366,366,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r611690,C01307,367,367,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r611689,C01311,378,378,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r1709309,C01324,467,467,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r7784991,C01481,426,426,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r7921034,C01485,459,459,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r3567517,C01488,471,471,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r6552159,C02000,259,259,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+r10742267,C02314,263,263,RATP,La Défense - Saint Cloud,RATP,RATP Cap Défense Seine Ouest,bus,bus
+,C02744,,277,,La Défense - Saint Cloud,,RATP Cap Défense Seine Ouest,,bus
 r17085637,C00061,5116,5116,Île-de-France Ouest,Lignes Île-de-France Ouest,Francilité Express Ouest,Francilité Express Ouest,bus,bus
 r8184117,C00151,7816,7816,Île-de-France Ouest,Lignes Île-de-France Ouest,Francilité Express Ouest,Francilité Express Ouest,bus,bus
 r9195309,C00287,7804,7804,Île-de-France Ouest,Lignes Île-de-France Ouest,Francilité Express Ouest,Francilité Express Ouest,bus,bus
@@ -1309,6 +1258,25 @@ r7920977,C02236,2305,2305,Meaux et Ourcq,Meaux et Ourcq,Transdev Marne-et-Ourcq,
 ,C02757,,TàD,,Meaux et Ourcq,,Transdev Marne-et-Ourcq,,bus
 ,C02786,,2378,,Meaux et Ourcq,,Transdev Marne-et-Ourcq,,bus
 ,C02787,,TàD,,Meaux et Ourcq,,Transdev Marne-et-Ourcq,,bus
+r255442,C01097,61,61,RATP,Ourcq,RATP,Transdev Ourcq,bus,bus
+r1066571,C01110,75,75,RATP,Ourcq,RATP,Transdev Ourcq,bus,bus
+r7444602,C01134,105,105,RATP,Ourcq,RATP,Transdev Ourcq,bus,bus
+r4772628,C01161,133,133,RATP,Ourcq,RATP,Transdev Ourcq,bus,bus
+r4779679,C01168,143,143,RATP,Ourcq,RATP,Transdev Ourcq,bus,bus
+r2213976,C01170,145,145,RATP,Ourcq,RATP,Transdev Ourcq,bus,bus
+r2171714,C01171,146,146,RATP,Ourcq,RATP,Transdev Ourcq,bus,bus
+r332709,C01172,147,147,RATP,Ourcq,RATP,Transdev Ourcq,bus,bus
+r2207006,C01173,148,148,RATP,Ourcq,RATP,Transdev Ourcq,bus,bus
+r3318735,C01175,151,151,RATP,Ourcq,RATP,Transdev Ourcq,bus,bus
+r7920985,C01176,152,152,RATP,Ourcq,RATP,Transdev Ourcq,bus,bus
+r7920983,C01234,234,234,RATP,Ourcq,RATP,Transdev Ourcq,bus,bus
+r6608978,C01241,249,249,RATP,Ourcq,RATP,Transdev Ourcq,bus,bus
+r2206548,C01243,251,251,RATP,Ourcq,RATP,Transdev Ourcq,bus,bus
+r2206991,C01272,301,301,RATP,Ourcq,RATP,Transdev Ourcq,bus,bus
+r2198226,C01295,346,346,RATP,Ourcq,RATP,Transdev Ourcq,bus,bus
+r7920984,C01695,247,247,RATP,Ourcq,RATP,Transdev Ourcq,bus,bus
+r7634948,C01696,248,248,RATP,Ourcq,RATP,Transdev Ourcq,bus,bus
+r9353405,C02246,71,71,RATP,Ourcq,RATP,Transdev Ourcq,bus,bus
 r8448533,C02123,Baladobus,BALADOBUS,SAVAC,Parc Naturel Régional de la Haute Vallée de Chevreuse,SAVAC,SAVAC,bus,bus
 r7912028,C00046,9160,9160,Paris-Saclay,Paris Saclay,RATP Cap Saclay,RD Saclay,bus,bus
 r7670510,C00066,4660,4660,Paris-Saclay,Paris Saclay,RATP Cap Saclay,RD Saclay,bus,bus
@@ -1369,7 +1337,7 @@ r8444973,C01831,B,B,Paris-Saclay,Paris-Saclay Mobilités,Autocars Dominique,Auto
 r8444972,C01832,C,C,Paris-Saclay,Paris-Saclay Mobilités,Autocars Dominique,Autocars Dominique,bus,bus
 r18275609,C01833,D,D,Paris-Saclay Mobilités,Paris-Saclay Mobilités,Autocars Dominique,Autocars Dominique,bus,bus
 r9229426,C01836,G,G,Paris-Saclay,Paris-Saclay Mobilités,RATP Cap Saclay,Autocars Dominique,bus,bus
-r7734583,C01837,J,J,Paris-Saclay,Paris-Saclay Mobilités,Autocars Dominique,Autocars Dominique,bus,bus
+r7734583,C01837,J,J,Paris-Saclay,Paris-Saclay Mobilités,RATP Cap Saclay,Autocars Dominique,bus,bus
 r8448304,C01902,F,F,Paris-Saclay,Paris-Saclay Mobilités,RATP Cap Saclay,Autocars Dominique,bus,bus
 r20133940,C01903,H,H,Paris-Saclay,Paris-Saclay Mobilités,RATP Cap Saclay,Autocars Dominique,bus,bus
 r18047351,C01904,L,L,Paris-Saclay Mobilités,Paris-Saclay Mobilités,Autocars Dominique,Autocars Dominique,bus,bus
@@ -1459,6 +1427,37 @@ r7920973,C01451,3319,3319,Pays de Montereau,Pays de Montereau,Francilité Pays d
 ,C02576,,TàD,,Pays de Montereau,,Francilité Pays de Montereau,,bus
 ,C02577,,TàD,,Pays de Montereau,,Francilité Pays de Montereau,,bus
 ,C02580,,Soir,,Pays de Montereau,,Francilité Pays de Montereau,,bus
+r1255734,C01081,31,31,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r1257186,C01092,54,54,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r1246520,C01126,95,95,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r954976,C01165,139,139,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r3045662,C01174,150,150,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r3997212,C01177,153,153,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r225665,C01191,170,170,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r1553162,C01194,173,173,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r7921053,C01238,239,239,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r7920986,C01242,250,250,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r7920987,C01244,252,252,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r7475032,C01245,253,253,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r5226660,C01246,255,255,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r5426315,C01247,256,256,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r949584,C01249,261,261,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r7795190,C01251,268,268,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r7920990,C01252,269,269,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r7920989,C01253,270,270,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r2989343,C01273,302,302,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r7800092,C01302,355,355,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r6006672,C01303,356,356,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r6835726,C01305,361,361,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r7920991,C01308,368,368,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r7920988,C01309,370,370,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r2644951,C01680,35,35,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r7802464,C01756,337,337,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r7781376,C01808,254,254,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r7920960,C02007,168,168,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r7920959,C02008,353,353,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+r9352984,C02244,45,45,RATP,Plaine Saint-Denis,RATP,RATP Cap Plaine Saint-Denis,bus,bus
+,C02834,,240,,Plaine Saint-Denis,,RATP Cap Plaine Saint-Denis,,bus
 r15999767,C00106,6521,6521,Poissy - Les Mureaux,Poissy - Les Mureaux,Keolis Seine et Oise Est,Keolis Seine et Oise Est,bus,bus
 r19482238,C00107,6522,6522,Poissy - Les Mureaux,Poissy - Les Mureaux,Keolis Seine et Oise Est,Keolis Seine et Oise Est,bus,bus
 r7011271,C00110,6573,6573,Poissy - Les Mureaux,Poissy - Les Mureaux,Keolis Seine et Oise Est,Keolis Seine et Oise Est,bus,bus
@@ -1996,7 +1995,7 @@ r7142127,C00350,14,14,Vallée Sud Bus,Vallée Sud Grand Paris,Transdev Vallée S
 r7592991,C01336,Montbus,MONTBUS,Vallée Sud Bus,Vallée Sud Grand Paris,Transdev Vallée Sud,Transdev Vallée Sud,bus,bus
 r7996352,C01357,ClamiBus,CLAM,Vallée Sud Bus,Vallée Sud Grand Paris,Transdev Vallée Sud,Transdev Vallée Sud,bus,bus
 r7902022,C01366,Amibus,AMIBUS,Vallée Sud Bus,Vallée Sud Grand Paris,Transdev Vallée Sud,Transdev Vallée Sud,bus,bus
-r7902826,C01368,Le Petit Fontenaisien,FONT,Vallée Sud Bus,Vallée Sud Grand Paris,Transdev Vallée Sud,Transdev Vallée Sud,bus,bus
+r7902826,C01368,FONT,FONT,Vallée Sud Bus,Vallée Sud Grand Paris,Transdev Vallée Sud,Transdev Vallée Sud,bus,bus
 r7903216,C01370,L'Hirondelle,HIRO,Vallée Sud Bus,Vallée Sud Grand Paris,Transdev Vallée Sud,Transdev Vallée Sud,bus,bus
 r8409316,C00299,1510,1510,Vallée de Montmorency,Vallée de Montmorency,Transdev Valmy,Transdev Valmy,bus,bus
 r8132425,C00301,1512,1512,Vallée de Montmorency,Vallée de Montmorency,Transdev Valmy,Transdev Valmy,bus,bus

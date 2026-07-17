@@ -2205,7 +2205,7 @@ r9249843,Bus 6241 : Méliès - Croix Bonnet → Gare de Fontenay-le-Fleury,6241,
 r9254368,Bus 5412 : Gare de Mantes-la-Jolie → Bonnières-sur-Seine - Centre Social,5412,Bonnières-sur-Seine - Centre Social,Mantois
 r9254369,Bus 5412 : Bonnières-sur-Seine - Centre Social → Gare de Mantes-la-Jolie,5412,Gare Routière Mantes-la-Jolie - Quai 3,Mantois
 r9254887,Bus 5413 : Gare de Mantes-la-Jolie → Freneuse - Leclerc → Gare de Bonnières,5413,Gare de Bonnières,Mantois
-r9254888,Bus 5413 : Gare de Bonnières → Freneuse - Leclerc → Gare de Mantes-la-Jolie,5413,Gare Routière Mantes-la-Jolie - Quai 3,Mantois
+r9254888,Bus 5413 : Gare de Bonnières → Freneuse - Leclerc → Gare de Mantes-la-Jolie,5413,Gare de Mantes-la-Jolie,Mantois
 r9254989,Bus 5425 : Gare de Mantes-la-Jolie → Guerville - Senneville Place,5425,Guerville - Senneville Place,Mantois
 r9254990,Bus 5425 : Guerville - Senneville Place → Gare de Mantes-la-Jolie,5425,Gare de Mantes-la-Jolie,Mantois
 r9255047,Bus 5426 : Gare de Rosny-sur-Seine → Rosny-sur-Seine - Lommoye → Rosny-sur-Seine - Pont Chapart → Gare de Rosny-sur-Seine,5426,Gare de Rosny-sur-Seine,Mantois
@@ -2887,7 +2887,6 @@ r10613713,T'bus 2 : Gare de Vert-Galant → Le Petit Tremblay → Gare du Parc d
 r10716423,"Flixbus N1769 (part France): Grenoble, Gare routière => Calais, Terminal Eurotunnel",N1769,"Calais, Terminal Eurotunnel",Flixbus
 r10716451,"Flixbus 700 (part France): Paris, Gallieni => Calais, Terminal Eurotunnel",700,"Calais, Terminal Eurotunnel",Flixbus
 r10716467,"Flixbus N700 (part France): Paris, Gallieni => Calais, Terminal Eurotunnel",N700,"Calais, Terminal Eurotunnel",Flixbus
-r10716484,"Flixbus N1769 (part France): Calais, Terminal Eurotunnel => Grenoble, Gare routière",N1769,"Grenoble, Gare routière",Flixbus
 r10716489,"Flixbus 700 (part France): Calais, Terminal Eurotunnel => Paris, Gallieni",700,"Paris, Gallieni",Flixbus
 r10716491,"Flixbus N700 (part France): Calais, Terminal Eurotunnel => Paris, Gallieni",N700,"Paris, Gallieni",Flixbus
 r10741278,"Flixbus SKI71: Tignes, Val Claret => Paris, La Défense",SKI71,"Paris, La Défense",Flixbus
@@ -3114,7 +3113,7 @@ r15399949,Bus 12 : Gare de Maisons Laffitte (itinéraire 3),12,Hôtel de Ville,A
 r15419260,Bus 5236 : Collège de Vivonne → Petite Hogue (Auffargis),5236,Petite Hogue,Centre et Sud Yvelines
 r15489331,Bus T : Place du Docteur Roux → Gare de Chatou - Croissy (desserte du soir),T,Gare de Chatou - Croissy,Argenteuil - Boucles de Seine
 r15489332,Bus T : Gare de Chatou - Croissy → Place du Docteur Roux (desserte du soir),T,Place du Docteur Roux,Argenteuil - Boucles de Seine
-r15538422,Bus 3424 : Gare de Melun → Longues Raies,3424,Longues Raies (Saint-Martin-en-Bière),Fontainebleau - Moret
+r15538422,Bus 3424 : Gare de Melun → Saint-Martin-en-Bière Longues Raies,3424,Longues Raies (Saint-Martin-en-Bière),Fontainebleau - Moret
 r15538423,Bus 3424 : Longues Raies → Gare de Melun,3424,Gare de Melun,Fontainebleau - Moret
 r15538424,Bus 3425 : Faÿ (Chailly-en-Bière) → Collège de Perthes,3425,Collège de Perthes,Fontainebleau - Moret
 r15538425,Bus 3425 : Collège de Perthes → Faÿ (Chailly-en-Bière),3425,Faÿ (Chailly-en-Bière),Fontainebleau - Moret
@@ -3656,16 +3655,30 @@ r21039737,Bus de remplacement du T1 La Courneuve - 8 Mai 1945 → Saint-Denis,T1
 r21058017,Bus 5327 : Plaisir-Grignon Gare → Collège Saint-Simon,5327,Collège Saint-Simon,Centre et Sud Yvelines
 r21058140,Bus 5206 : Collège St Simon (Jouars Pontchartrain) → Ergal Rond-Point,5206,Ergal Rond-Point,Centre et Sud Yvelines
 r21059200,Bus 5206 : Ferme de la Richarderie → Collège St Simon (Jouars Pontchartrain),5206,Collège Saint-Simon,Centre et Sud Yvelines
-r21060851,Paris Bercy ⟶ Paris Roissy,N749,Paris Roissy,Flixbus
-r21060852,Paris Orly ⟶ Paris Bercy,N749,Paris Bercy,Flixbus
-r21060853,Avignon ⟶ Paris Orly,N749,Paris Orly,Flixbus
-r21060858,Paris Roissy ⟶ Noyelles-Godault,N769,Noyelles-Godault,Flixbus
-r21060859,Paris Bercy ⟶ Paris Roissy,N769,Paris Roissy,Flixbus
-r21060860,Chalon-sur-Saône ⟶ Paris Bercy,N769,Paris Bercy,Flixbus
+r21060851,Flixbus N749: Paris → Paris,N749,"Roissypole, Paris",Flixbus
+r21060852,Flixbus N749: Paris → Paris,N749,Paris Bercy Seine,Flixbus
+r21060853,Flixbus N749: Avignon → Paris,N749,"Aéroport d'Orly, Paris",Flixbus
+r21060858,Flixbus N769: Paris → Noyelles-Godault,N769,"Godault, Noyelles-Godault",Flixbus
+r21060859,Flixbus N769: Paris → Paris,N769,"Roissypole, Paris",Flixbus
+r21060860,Flixbus N769: Chalon-sur-Saône → Paris,N769,Paris Bercy Seine,Flixbus
 r21060863,Chalon-sur-Saône → Paris Bercy,N1131,Paris Bercy,Flixbus
 r21071943,Bus 6515 : Vernouillet - Collège E. Zola → Gare de Vernouillet Verneuil (via Clos des Vignes),6515,Gare de Vernouillet Verneuil,Poissy - Les Mureaux
 r21071960,Bus 6515 : Gare de Vernouillet Verneuil → Vernouillet - Collège E. Zola (via Montaigne),6515,Collège Émile Zola,Poissy - Les Mureaux
-r21072769,Bus 6515 : Vernouillet - Collège E. Zola → Gare de Vernouillet Verneuil (Montaigne),6515,Gare de Vernouillet Verneuil,Poissy - Les Mureaux
+r21072769,Bus 6515 : Vernouillet - Collège E. Zola → Gare de Vernouillet Verneuil (via Montaigne),6515,Gare de Vernouillet Verneuil,Poissy - Les Mureaux
 r21078775,Bus 5444 : Gare d'Épône - Mézières → Épône - Fourneau → Gare d'Épône - Mézières (soir),5444,Gare d'Épône - Mézières,Mantois
 r21082294,Bus 277 Asnières - Bord de Seine → Nanterre - Anatole France,277,Nanterre - Anatole France,RATP
 r21082295,Bus 277 Nanterre - Anatole France → Asnières - Bord de Seine,277,Asnières - Bord de Seine,RATP
+r21083448,Bus 363 Nanterre – Préfecture RER → Bois Colombes – Les Bruyères,363,Bois Colombes – Les Bruyères,RATP
+r21083449,Bus 363 Bois Colombes – Les Bruyères → Nanterre – Préfecture RER,363,Nanterre – Préfecture RER,RATP
+r21084482,Bus 4250 Gare de Corbeil-Essonnes Henri Barbusse → Gare de Melun,4250,Gare de Melun,
+r21084483,Bus 4250: Gare de Melun → Gare de Corbeil-Essonnes Henri Barbusse,4250,Gare de Corbeil-Essonnes Henri Barbusse,
+r21085569,Flixbus N1769: Paris → Grenoble,N1769,"Gare Routière, Grenoble",Flixbus
+r21085570,Flixbus N1769: Calais Eurotunnel → Paris,N1769,Paris Bercy Seine,Flixbus
+r21086418,Bus 3631 Gare de Ponthierry Pringy → St-Sauveur-sur-École → Villiers-en-Bière → Dammarie-les-Lys → Melun Place de l’Ermitage,3631,Melun Place de l’Ermitage,
+r21086419,Bus 3631 Melun Place de l’Ermitage → Dammarie-les-Lys → Villiers-en-Bière → St-Sauveur-sur-École → Gare de Ponthierry Pringy,3631,Gare de Ponthierry Pringy,
+r21086574,Bus 3424 : Saint-Martin-en-Bière Longues Raies → Gare de Melun,3424,Gare de Melun,
+r21086575,Bus 3424doublon : Gare de Melun → Saint-Martin-en-Bière Longues Raies,3424,Saint-Martin-en-Bière Longues Raies,
+r21099645,Noctilien N137 :  Paris Gare de Lyon → Montereau-Fault-Yonne Avenue de Surville,N137,Montereau-Fault-Yonne Avenue de Surville,
+r21099647,Noctilien N137 :  Montereau-Fault-Yonne Avenue de Surville → Paris Gare de Lyon,N137,Paris Gare de Lyon,
+r21104922,Bus 4341 : Avon → Milly-la-Forêt,4341,Milly-la-Forêt,
+r21104966,Bus 4341 : Milly-la-Forêt → Avon,4341,Avon,

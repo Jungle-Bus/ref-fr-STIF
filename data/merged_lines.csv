@@ -41,8 +41,10 @@ r7975655,C01345,559,559,RATP,,RATP,Origami / Paris Seine Mobilités,bus,bus
 r8130795,C01345,559,559,RATP,,RATP,Origami / Paris Seine Mobilités,bus,bus
 r7921035,C01350,565,565,,,Origami,Origami / Paris Seine Mobilités,bus,bus
 r7804907,C01354,574,TUC,RATP,,RATP,Origami / Paris Seine Mobilités,bus,bus
+r7011233,C01359,v3,V3,Valouette,,RATP,Origami / Paris Seine Mobilités,bus,bus
 r7136184,C01360,Choisybus,CHOISYBUS,RATP,,RATP,Origami / Paris Seine Mobilités,bus,bus
 r7573289,C01361,v2,V2,RATP,,RATP,Origami / Paris Seine Mobilités,bus,bus
+r7011232,C01363,v7,V7,RATP,,RATP,Origami / Paris Seine Mobilités,bus,bus
 r5852751,C01780,La Navette,THIAIS,RATP,,Origami / Paris Seine Mobilités,Origami / Paris Seine Mobilités,bus,bus
 r8728677,C01900,P'TIT BUS,P'TIT BUS,RATP,,Origami / Paris Seine Mobilités,Origami / Paris Seine Mobilités,bus,bus
 r6860704,C01071,Tvm,TVM,RATP,,RATP,RATP,bus,bus
@@ -132,6 +134,7 @@ r7921049,C01329,La Traverse,CHARONNE,RATP,,RATP,RATP,bus,bus
 r7921052,C01330,513,BIEVRES,RATP,,RATP,RATP,bus,bus
 r5662181,C01332,La Traverse,BATIGNO,RATP,,RATP,RATP,bus,bus
 r7921027,C01333,519,NEY-FLA,RATP,,RATP,RATP,bus,bus
+r7901303,C01362,v5,V5,Valouette,,RATP,RATP,bus,bus
 r3328695,C01371,1,1,Métro de Paris,,RATP,RATP,subway,metro
 r7227705,C01372,2,2,Métro de Paris,,RATP,RATP,subway,metro
 r7733214,C01373,3,3,Métro de Paris,,RATP,RATP,subway,metro
@@ -442,7 +445,6 @@ r7194184,C00173,5318,5318,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev
 ,C00177,,5224,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
 ,C00178,,5225,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
 ,C00179,,5226,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
-r8130220,C00180,5269,5269,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
 r10048302,C00181,5230,5230,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
 r7920962,C00182,5301,5301,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
 r7920961,C00183,5302,5302,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
@@ -461,7 +463,6 @@ r18938154,C00423,5206,5206,Centre et Sud Yvelines,Centre et Sud Yvelines,Transde
 r18938153,C00424,5289,5289,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
 ,C00488,,5232,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
 r19187303,C00489,5313,5313,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-,C00494,,5252,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
 r9952981,C00498,5363,5363,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
 r7921032,C00500,5347,5347,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
 r9261401,C00502,5359,5359,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
@@ -488,7 +489,6 @@ r19164572,C00524,5236,5236,Centre et Sud Yvelines,Centre et Sud Yvelines,Transde
 r9261410,C00533,5340,5340,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
 r6956562,C01421,N122,N122,Noctilien,Centre et Sud Yvelines,RATP,Transdev Sud Yvelines,bus,bus
 r6957057,C01646,N145,N161,Noctilien,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
-,C01718,,5253,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
 ,C01719,,5267,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
 ,C01720,,5277,,Centre et Sud Yvelines,,Transdev Sud Yvelines,,bus
 r7920589,C01721,5307,5307,Centre et Sud Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,Transdev Sud Yvelines,bus,bus
@@ -1112,7 +1112,6 @@ r8287384,C02138,4s,714,Marne et Brie,Marne et Brie,Keolis Grand Paris Vallée de
 r8287383,C02139,8s,718,Marne et Brie,Marne et Brie,Keolis Grand Paris Vallée de la Marne,Keolis Grand Paris Vallée de la Marne,bus,bus
 r8753596,C02240,500,731,Marne et Brie,Marne et Brie,Keolis Grand Paris Vallée de la Marne,Keolis Grand Paris Vallée de la Marne,bus,bus
 ,C02437,,209,,Marne et Brie,,Keolis Grand Paris Vallée de la Marne,,bus
-r15616801,C02538,311,311,Marne et Brie,Marne et Brie,Keolis Grand Paris Vallée de la Marne,Keolis Grand Paris Vallée de la Marne,bus,bus
 ,C02788,,TàD,,Marne et Brie,,Keolis Grand Paris Vallée de la Marne,,bus
 ,C02789,,TàD,,Marne et Brie,,Keolis Grand Paris Vallée de la Marne,,bus
 ,C02859,,732,,Marne et Brie,,Keolis Grand Paris Vallée de la Marne,,bus
@@ -1128,6 +1127,7 @@ r15616801,C02538,311,311,Marne et Brie,Marne et Brie,Keolis Grand Paris Vallée 
 ,C02869,,739,,Marne et Brie,,Keolis Grand Paris Vallée de la Marne,,bus
 ,C02870,,749,,Marne et Brie,,Keolis Grand Paris Vallée de la Marne,,bus
 ,C02872,,313,,Marne et Brie,,Keolis Grand Paris Vallée de la Marne,,bus
+,C02876,,SOIR,,Marne et Brie,,Keolis Grand Paris Vallée de la Marne,,bus
 r7435393,C00084,437,437,Marne et Seine,Marne et Seine,Transdev Côteaux de la Marne,Transdev Côteaux de la Marne,bus,bus
 r8364981,C00085,438,438,Marne et Seine,Marne et Seine,Transdev Côteaux de la Marne,Transdev Côteaux de la Marne,bus,bus
 r6156507,C00263,7710,100,Marne et Seine,Marne et Seine,Transdev Coteaux de la Marne,Transdev Côteaux de la Marne,bus,bus
@@ -1737,27 +1737,25 @@ r17317637,C02601,R121,R121,Roissy Ouest,Roissy Ouest,Keolis Roissy Pays de Franc
 r7678000,C02604,R9,R9,Roissy Ouest,Roissy Ouest,Keolis Roissy Pays de France Ouest,Keolis Roissy Pays de France Ouest,bus,bus
 ,C02605,,Soir,,Roissy Ouest,,Keolis Roissy Pays de France Ouest,,bus
 ,C02664,,Filéo com,,Roissy Ouest,,Keolis Roissy Pays de France Ouest,,bus
-r7920974,C00143,EX01,EX01,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
-r8109456,C00144,8,8,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
-r8264763,C00145,9,9,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
-r7011365,C00149,10,10,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
-r8393002,C00150,15,15,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
-r8268259,C00153,18S,18s,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
-r7011364,C00154,21,21,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
-r7921017,C00156,R4,R4,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
-r7920980,C00157,R5,R5,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
-r3800421,C00158,R2-Nord,R2N,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
-r7917746,C00159,R2-Sud,R2S,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
-r7920981,C00160,R1,R1,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
-r7917760,C00161,R3-Nord,R3N,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
-r7917762,C00162,R3-Sud,R3S,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
+r7920974,C00143,EX01,7826,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
+r8109456,C00144,8,6308,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
+r8264763,C00145,9,6309,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
+r7011365,C00149,10,6304,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
+r8393002,C00150,15,6315,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
+r8268259,C00153,18S,6350,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
+r7011364,C00154,21,6321,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
+r7921017,C00156,R4,6305,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
+r7920980,C00157,R5,6307,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
+r3800421,C00158,R2-Nord,6302,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
+r7920981,C00160,R1,6301,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
+r7917760,C00161,R3-Nord,6306,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
 r6950503,C01422,N153,N153,Noctilien,Saint Germain Boucles de Seine,RATP,Transdev Boucle des Lys,bus,bus
-r9871081,C02269,Express A14,A14,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
-r8444577,C02307,21S,21s,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
+r9871081,C02269,Express A14,7824,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
+r8444577,C02307,21S,6351,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
 ,C02491,,Soir,,Saint Germain Boucles de Seine,,Transdev Boucle des Lys,,bus
-r16410742,C02503,TàD 78,TàD 78,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
-r16410695,C02615,11,11,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
-r16410694,C02616,12,12,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
+r16410742,C02503,TàD 78,TàD,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
+r16410695,C02615,11,6311,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
+r16410694,C02616,12,6312,Saint-Germain Boucles de Seine,Saint Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,Transdev Boucle des Lys,bus,bus
 r7532322,C00403,5110,5110,SQYBus,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
 r8740800,C00416,5112,5112,SQYBus,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
 r8738250,C00418,5101,5101,SQYBus,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
@@ -1774,14 +1772,14 @@ r8272658,C00544,5141,5141,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Fr
 r8729290,C00545,5140,5140,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
 ,C00571,,5199,,Saint-Quentin-en-Yvelines,,Francilité Saint-Quentin-en-Yvelines,,bus
 r7890329,C01521,5134,5134,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
-r7921031,C01522,5121,5121,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
+r7921031,C01522,5121,5121,SQYBus,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
 r7887299,C01523,5132,5132,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
 r8729263,C01524,5120,5120,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
 r6886101,C01526,5122,5122,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
 r6886129,C01527,5104,5104,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
 r2564126,C01528,5105,5105,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
 r8256621,C01530,5107,5107,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
-r8370158,C01531,5106,5106,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
+r8370158,C01531,5106,5106,SQYBus,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
 r8383356,C01532,5143,5143,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
 r18170447,C01533,5144,5144,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
 r9192706,C01535,5142,5142,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
@@ -1805,8 +1803,8 @@ r18938150,C02172,5184,5184,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,F
 ,C02173,,5185,,Saint-Quentin-en-Yvelines,,Francilité Saint-Quentin-en-Yvelines,,bus
 ,C02174,,5186,,Saint-Quentin-en-Yvelines,,Francilité Saint-Quentin-en-Yvelines,,bus
 r19509425,C02175,5187,5187,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
-r7743345,C02216,5123,5123,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
-r8727965,C02217,5124,5124,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
+r7743345,C02216,5123,5123,SQYBus,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
+r8727965,C02217,5124,5124,SQYBus,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
 r8729300,C02218,5125,5125,Saint-Quentin-en-Yvelines,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,bus,bus
 ,C02643,,Soir,,Saint-Quentin-en-Yvelines,,Francilité Saint-Quentin-en-Yvelines,,bus
 ,C02644,,Soir,,Saint-Quentin-en-Yvelines,,Francilité Saint-Quentin-en-Yvelines,,bus
@@ -1956,7 +1954,6 @@ r8727859,C02389,30-21Est,30-21Est,Val Parisis,Val Parisis,Francilité Val Parisi
 ,C02517,,CitéVal,,Val Parisis,,Francilité Val Parisis,,bus
 ,C02709,,N148,,Val Parisis,,Francilité Val Parisis,,bus
 ,C02795,,1433,,Val Parisis,,Francilité Val Parisis,,bus
-,C02876,,SOIR,,Val d'Yerres Val de Seine,,Keolis Grand Paris Vallée de la Marne,,bus
 r7921001,C00355,4113,4113,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
 r8218466,C00356,4118,4118,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus
 r7921003,C00358,4114,4114,Val d'Yerres Val de Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,bus,bus

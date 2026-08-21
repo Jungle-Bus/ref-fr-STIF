@@ -10,22 +10,14 @@ NETWORK_MAPPINGS = {
     "Cœur d’Essonne" : "Cœur d'Essonne",
     "Brie et 2 Morin" : "Brie et Deux Morin",
     "Seine et Marne Express" : "Seine-et-Marne Express",
-    "Vallée Grand Sud Paris" : "Vallée Sud Bus",
     "Evry Centre Essonne" : "Évry Centre Essonne",
-    "Haut Val d’Oise" : "Haut Val d'Oise",
     "Lignes Île-de-France Ouest" : "Île-de-France Ouest",
 }
 
 OPERATOR_MAPPINGS = {
     "ADP" : "Aéroports de Paris",
     "Aéroport Paris-Beauvais / SAGEB" : "Aéroport Paris-Beauvais",
-    "STBC" : "Société des transports du bassin chellois",
-    "Mobicité" : "MobiCité",
     "TISSE": "Keolis TISSE",
-    "Keolis Vallée de l’Oise" : "Keolis Vallée de l'Oise",
-    "N4 Mobilités" : "Transdev N4 Mobilités",
-    "Cars Rose" : "Transdev Les Cars Rose",
-    "TRA" : "Transdev TRA",
     "Transdev Boucle des Lys" : "Transdev Île-de-France Boucle des Lys",
     "Transdev Brie et 2 Morin" : "Transdev Brie et Deux Morin",
     "Transdev Senart" : "Transdev Sénart",

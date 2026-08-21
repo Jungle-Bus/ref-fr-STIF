@@ -27,7 +27,8 @@ OPERATOR_MAPPINGS = {
 }
 
 MODE_MAPPINGS = {
-    "metro": "subway"
+    "metro": "subway",
+    "cableway": "aerialway"
 }
 
 def get_lines_from_csv(file_name):

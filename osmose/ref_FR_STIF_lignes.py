@@ -4,8 +4,6 @@
 import csv
 
 NETWORK_MAPPINGS = {
-    "Paris Saclay" : "Paris-Saclay",
-    "Paris-Saclay Mobilités" : "Paris-Saclay",
     "Saint Germain Boucles de Seine" : "Saint-Germain Boucles de Seine",
     "Cœur d’Essonne" : "Cœur d'Essonne",
     "Brie et 2 Morin" : "Brie et Deux Morin",

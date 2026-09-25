@@ -139,7 +139,7 @@ r1802059,181,Bus 181 : École Vétérinaire de Maisons-Alfort ↔ Créteil-La Ga
 r1810272,272,Bus 272 : Sartrouville RER ↔ Gare d'Argenteuil,La Défense - Saint Cloud,RATP Cap Défense Seine Ouest,#ff5a00,bus,C01254
 r1842753,6414,Bus 6414 : Gare d'Argenteuil ↔ Gare de Houilles Carrières-sur-Seine,Argenteuil - Boucles de Seine,Keolis Argenteuil Boucles de Seine,#82dc73,bus,C00295
 r1857145,129,Bus 129 : Mairie de Montreuil ↔ Romainville-Vassou,RATP,RATP,#6e6e00,bus,C01158
-r1866830,351,Bus 351: Paris - Nation ↔ Roissypole,RATP,RATP,#E0B03B,bus,C01299
+r1866830,351,Bus 351: Paris - Nation ↔ Roissypole,Express Roissy,Transdev Express Roissy,#E0B03B,bus,C01299
 r1942584,40,Bus 40 : Le Peletier ↔ Mairie du 18e - Jules Joffrin,RATP,RATP,#82c8e6,bus,C02254
 r1973045,125,Bus 125 : Porte d'Orléans ↔ École Vétérinaire de Maisons-Alfort,Seine Orly,Keolis Grand Paris Seine Orly,#186abd,bus,C01154
 r1981724,323,Bus 323 : Issy-Val de Seine RER ↔ Châtillon - Montrouge / Châtillon - Montrouge-Métro ↔ Ivry-Gambetta,Seine Orly,Keolis Grand Paris Seine Orly,#CEC92A,bus,C01287
@@ -162,12 +162,12 @@ r2224968,113,Bus 113 : Nogent-sur-Marne RER ↔ Centre Commercial Terre Ciel,Bor
 r2261502,4212,Bus 4212 : Gare d'Évry-Courcouronnes Centre ↔ Gare de Brétigny-sur-Orge (Place),Évry Centre Essonne,Keolis TISSE,#ff5a00,bus,C01618
 r2261638,4201,Bus 4201 : Gare de Corbeil-Essonnes - Zola ↔ Gare de Saint-Michel-sur-Orge,Évry Centre Essonne,Keolis TISSE,#D282BE,bus,C01616
 r2333448,A,RER A,RER,RATP/SNCF,#E3051C,train,C01742
-r2337724,4607,Bus 4607 : Gare d'Orsay - L'Yvette ↔ Plateau de Moulon - Corbeville,Paris-Saclay,RATP Cap Saclay,#facc00,bus,C00072
+r2337724,4607,Bus 4607 : Gare d'Orsay - L'Yvette ↔ Plateau de Moulon - Corbeville,Paris Saclay,RATP Cap Saclay,#facc00,bus,C00072
 r2343189,6424,Bus 6424 : Gare de Houilles - Carrières-sur-Seine ↔ Marché des Coteaux (Argenteuil),Argenteuil - Boucles de Seine,Keolis Argenteuil Boucles de Seine,#a50034,bus,C00306
-r2390087,4610,Bus 4610 : Gare de Gif ↔ (Saclay ou Villiers ↔ Buc),Paris-Saclay,RATP Cap Saclay,#f0bcd4,bus,C00490
-r2415100,4601,Bus 4601 : Gare d’Igny ↔ Gare d’Orsay-Ville,Paris-Saclay,RATP Cap Saclay,#cf2939,bus,C00074
-r2440114,4614,Bus 4614 : Gare de Massy-Palaiseau ↔ Polytechnique Vauve,Paris-Saclay,RATP Cap Saclay,#54aee3,bus,C00075
-r2454326,4626,Bus 4626 : Campus d’Orsay - Jean Monnet ↔ Gare d’Orsay Ville RER,Paris-Saclay,RATP Cap Saclay,#8a5d99,bus,C02316
+r2390087,4610,Bus 4610 : Gare de Gif ↔ (Saclay ou Villiers ↔ Buc),Paris Saclay,RATP Cap Saclay,#f0bcd4,bus,C00490
+r2415100,4601,Bus 4601 : Gare d’Igny ↔ Gare d’Orsay-Ville,Paris Saclay,RATP Cap Saclay,#cf2939,bus,C00074
+r2440114,4614,Bus 4614 : Gare de Massy-Palaiseau ↔ Polytechnique Vauve,Paris Saclay,RATP Cap Saclay,#54aee3,bus,C00075
+r2454326,4626,Bus 4626 : Campus d’Orsay - Jean Monnet ↔ Gare d’Orsay Ville RER,Paris Saclay,RATP Cap Saclay,#8a5d99,bus,C02316
 r2531075,9301,Bus 9301 : Bobigny – Pablo Picasso ↔ Parinor ↔ Aéroport CDG – Roissypole,Roissy Ouest,Keolis Roissy Pays de France Ouest,#3c91dc,bus,C00223
 r2531082,2123,Bus 2123 : Roissypole ↔ Villeparisis - Gymnase Aubertin,Roissy Est,Keolis Roissy Pays de France Est,#E3051C,bus,C00204
 r2531207,TàD,Bus TàD Roissy Villiers-le-Bel : Roissypole ↔ Villiers-le-Bel,Roissy Ouest,Keolis Roissy Pays de France Ouest,#ffbe00,bus,C01433
@@ -199,7 +199,7 @@ r3048889,520,Bus 520 : Les Hauts de Bry ↔ Les Boullereaux - Champigny RER,Bord
 r3079254,203,Bus 203 : Neuilly-Plaisance RER ↔ Neuilly-sur-Marne – Île-de-France,Bord de Marne,RATP Cap Boucles de Marne,#ff82b4,bus,C01220
 r3081886,703,Bus 703 : Gare de Chelles - Gournay ↔ Gare de Villeparisis - Mitry-le-Neuf,Marne et Brie,Keolis Grand Paris Vallée de la Marne,#a0006e,bus,C02129
 r3134153,221,Bus 221 : Bagnolet - Gallieni ↔ Gagny - Pointe de Gournay,Bord de Marne,RATP Cap Boucles de Marne,#f49eb2,bus,C01233
-r3186411,4615,Bus 4615 : Gare de Massy-Palaiseau ↔ Vélizy-Villacoublay,Paris-Saclay,RATP Cap Saclay,#253b82,bus,C02155
+r3186411,4615,Bus 4615 : Gare de Massy-Palaiseau ↔ Vélizy-Villacoublay,Paris Saclay,RATP Cap Saclay,#253b82,bus,C02155
 r3253655,1602,Bus 1602 : Roissypole RER ↔ Montmorency,Roissy Ouest,Keolis Roissy Pays de France Ouest,#0055c8,bus,C00265
 r3253657,1651,Bus 1651 : Le Moulin / Avenue Bocquet ↔ Collège Philippe Auguste,Roissy Ouest,Keolis Roissy Pays de France Ouest,#d282be,bus,C02165
 r3253980,9518,Bus 9518 : Cergy-Pontoise Gare ↔ Roissypole,Haut Val d'Oise,Keolis Nord Val d’Oise,#5191cd,bus,C01472
@@ -241,7 +241,7 @@ r4007734,T8,Tramway T8,Tramway d'Île de France,RATP,#B1A245,tram,C01795
 r4226214,1116,Bus 1116 : Magny-en-Vexin - Blamécourt ↔ Gare de Cergy-le-Haut,Vexin,Transdev Vexin,#0055c8,bus,C01554
 r4289192,194,Bus 194 : Porte d'Orléans ↔ Châtenay-Malabry,Croix du Sud,ATM Croix du Sud,#ff5a00,bus,C01214
 r4610190,103,Bus 103 : École Vétérinaire de Maisons-Alfort ↔ Thiais - Georges Halgoult,Pompadour,RATP Cap Pompadour,#ff5a00,bus,C01132
-r4635341,4613,Bus 4613 : Gare de Massy-Palaiseau ↔ Gare de Gravigny Balizy,Paris-Saclay,RATP Cap Saclay,#0065ae,bus,C00676
+r4635341,4613,Bus 4613 : Gare de Massy-Palaiseau ↔ Gare de Gravigny Balizy,Paris Saclay,RATP Cap Saclay,#0065ae,bus,C00676
 r4772628,133,Bus 133 : Le Bourget RER ↔ Sarcelles – Bois d’Écouen,Ourcq,Transdev Ourcq,#77C695,bus,C01161
 r4779679,143,Bus 143 : La Courneuve–Aubervilliers RER ↔ Rosny-sous-Bois RER,Ourcq,Transdev Ourcq,#006EB8,bus,C01168
 r5226660,255,Bus 255 : Porte de Clignancourt ↔ Stains – Les Prévoyants,Plaine Saint-Denis,RATP Cap Plaine Saint-Denis,#8f9827,bus,C01246
@@ -256,8 +256,8 @@ r5557347,393,Bus 393 : Thiais - Carrefour de la Résistance ↔ Sucy-Bonneuil RE
 r5569622,171,Bus 171 : Château de Versailles ↔ Gare de Chaville Rive Droite / Gare de Chaville Rive Gauche ↔ Pont de Sèvres,RATP,RATP,#FF1300,bus,C01192
 r5594143,615,Bus 615 : Gare de Villepinte ↔ Bobigny - Pablo Picasso,Terres d'Envol,Transdev Nord Seine-Saint-Denis,,bus,C01583
 r5662181,La Traverse,La Traverse Batignolles - Bichat,RATP,RATP,#4B2795,bus,C01332
-r5673870,4608,Ligne 4608 : Couturier (Le Guichet) ↔ Gare d'Orsay Ville ↔ Bois Persan,Paris-Saclay,RATP Cap Saclay,#e7a3bf,bus,C00073
-r5694438,4621,Bus 4621 : Centre Commercial Ulis 2 ↔ Gare de Massy-Palaiseau,Paris-Saclay,RATP Cap Saclay,#6e491e,bus,C01698
+r5673870,4608,Bus 4608 : Couturier (Le Guichet) ↔ Gare d'Orsay Ville ↔ Bois Persan,Paris Saclay,RATP Cap Saclay,#e7a3bf,bus,C00073
+r5694438,4621,Bus 4621 : Centre Commercial Ulis 2 ↔ Gare de Massy-Palaiseau,Paris Saclay,RATP Cap Saclay,#6e491e,bus,C01698
 r5717042,4541,Bus 4541 : Gare de Saint-Michel-sur-Orge ↔ Chemin de Brétigny,Cœur d'Essonne,Transdev Cœur Essonne,#FF0000,bus,C00663
 r5728903,4120,Bus 4120 : Gare de Boissy-St-Léger ↔ Hôtel de Ville de Quincy,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,#cdc92a,bus,C00602
 r5739372,450,Bus 450 : Créteil L'Échat ↔ Gare de Brunoy,Marne et Seine,Transdev Côteaux de la Marne,#3c91dc,bus,C00581
@@ -364,7 +364,7 @@ r6839321,6252,Bus 6252 : Gare de Saint-Cyr l'École (circulaire via La Fontaine 
 r6839342,6253,Bus 6253 : Gare de Saint-Cyr l'École (circulaire),Grand Versailles,Transdev Versailles,#8fffe0,bus,C02183
 r6851661,2312,Bus 2312 : Gare d'Esbly ↔ Rue des Prés (Trilbardou),Meaux et Ourcq,Transdev Marne-et-Ourcq,#b1d0b7,bus,C00912
 r6860181,4135,Bus 4135 : Gare de Villeneuve-Saint-Georges ↔ Gare de Brunoy,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,#DD0026,bus,C00599
-r6860541,4644,Bus 4644 : Gare de Massy-Palaiseau ↔ Laboratoires (Marcoussis),Paris-Saclay,RATP Cap Saclay,#ffce00,bus,C00687
+r6860541,4644,Bus 4644 : Gare de Massy-Palaiseau ↔ Laboratoires (Marcoussis),Paris Saclay,RATP Cap Saclay,#ffce00,bus,C00687
 r6860557,216,Bus 216 : Denfert-Rochereau ↔ Marché International de Rungis,Massy-Juvisy,RATP Cap Massy-Juvisy,#ed1b2a,bus,C01230
 r6860704,Tvm,Bus Tvm : Antony-La Croix de Berny RER ↔ Saint-Maur - Créteil RER,Pompadour,RATP Cap Pompadour,#216eb4,bus,C01071
 r6867541,4121,Bus 4121 : Gare de Yerres ↔ Marché International de Rungis (Chevilly-Larue),Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,#0055c8,bus,C00379
@@ -393,7 +393,7 @@ r6929582,274,Bus 274 : Porte des Ternes - Anny Flore ↔ Saint-Denis RER,Boucles
 r6929704,360,Bus 360 : Hôpital de Garches ↔ La Défense,La Défense - Saint Cloud,RATP Cap Défense Seine Ouest,#D5C900,bus,C01304
 r6940386,4457,Bus 4457 : Dourdan ↔ Étampes,Essonne Sud Ouest,Transdev Sud-Ouest Essonne,#5291CE,bus,C01568
 r6940387,9102,Bus 9102 : Gare de Dourdan ↔ Gare du Guichet,Essonne Sud Ouest,Transdev Sud-Ouest Essonne,#3BB2FF,bus,C01563
-r6940421,9105,Bus 9105 : Gare du Bras de Fer - Évry Génopôle ↔ Gare de Massy-Palaiseau,Paris-Saclay,RATP Cap Saclay,#3bb2ff,bus,C01566
+r6940421,9105,Bus 9105 : Gare du Bras de Fer - Évry Génopôle ↔ Gare de Massy-Palaiseau,Paris Saclay,RATP Cap Saclay,#3bb2ff,bus,C01566
 r6940422,4504,Bus 4504 : Évry-Courcouronnes ↔ Arpajon ou Briis-sous-Forges,Cœur d'Essonne,Transdev Cœur Essonne,#ff1400,bus,C01565
 r6949602,4153,Bus 4153 : Collège Pompidou ↔ Plaine Haute (Crosne),Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,#ff82b4,bus,C00601
 r6949654,N135,Noctilien N135 : Gare de Boissy-Saint-Léger ↔ Gare de Corbeil Essonnes,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,#008B5A,bus,C01643
@@ -433,7 +433,7 @@ r6972224,637,Bus 637 : Gare d'Aulnay-sous-Bois (circulaire),Terres d'Envol,Trans
 r6972324,613,Bus 613 : Gare d'Aulnay-sous-Bois ↔ Gare de Chelles-Gournay,Marne et Brie,Keolis Grand Paris Vallée de la Marne,#097A47,bus,C01581
 r6972327,700,Bus 700 : Tremblay-en-France - Gare de Roissypôle - Aéroport Charles-de-Gaulle 1 (Terminal 3) ↔ Chelles - Rond Point des Sciences,Marne et Brie,Keolis Grand Paris Vallée de la Marne,#82c8e6,bus,C02062
 r6980341,1537,Bus 1537 : Gare d'Épinay-sur-Seine ↔ Les Flanades,Vallée de Montmorency,Transdev Valmy,#662483,bus,C00307
-r6985621,9108,Bus 9108 : Centre Commercial (Vélizy) ↔ Fresnel - Vauve (Palaiseau) ou Mairie des Ulis,Paris-Saclay,RATP Cap Saclay,#3bb2ff,bus,C01569
+r6985621,9108,Bus 9108 : Centre Commercial (Vélizy) ↔ Fresnel - Vauve (Palaiseau) ou Mairie des Ulis,Paris Saclay,RATP Cap Saclay,#3bb2ff,bus,C01569
 r6991408,623,Bus 623 : Gare de Sevran-Livry Sud ↔ Gare de Gagny,Marne et Brie,Keolis Grand Paris Vallée de la Marne,#87d3df,bus,C01589
 r6991440,2251,Bus 2251 : Gare de Lagny - Thorigny (Rue R. Poincaré) ⥋ Gare de Lagny - Thorigny (Rue R. Poincaré),Marne-la-Vallée,Transdev Marne-la-Vallée,#F3A4BA,bus,C00620
 r6991441,2252,Bus 2252 : Gare de Lagny - Thorigny (Rue R. Poincaré) ⥋ Gare de Lagny - Thorigny (Rue R. Poincaré),Marne-la-Vallée,Transdev Marne-la-Vallée,#98D4E2,bus,C00619
@@ -490,7 +490,7 @@ r7248309,3724,Bus 3724 : Gare de Lieusaint - Moissy (boucle via Lieusaint - Plac
 r7261212,389,Bus 389 : Hôtel de Ville Boulogne-Billancourt ↔ Clamart - Georges Pompidou,Croix du Sud,ATM Croix du Sud,#006CB8,bus,C01315
 r7271953,E,RER E,RER,SNCF Voyageurs,#C04191,train,C01729
 r7280948,3702,Bus 3702 : Carré Citoyenneté (Lieusaint) ↔ Gare Routière Mail (Melun),Sénart,Transdev Sénart,#d282be,bus,C01806
-r7292418,4609,Bus 4609 : Centre Commercial Ulis 2 ↔ Gare du Guichet ↔ Saclay ↔ Gare de Jouy-en-Josas,Paris-Saclay,RATP Cap Saclay,#d7437e,bus,C01561
+r7292418,4609,Bus 4609 : Centre Commercial Ulis 2 ↔ Gare du Guichet ↔ Saclay ↔ Gare de Jouy-en-Josas,Paris Saclay,RATP Cap Saclay,#d7437e,bus,C01561
 r7304704,5482,Bus 5482 : Fontenay Saint-Père - Église ↔ Limay - Lycée Condorcet,Mantois,RATP Cap Mantois,#00b297,bus,C00744
 r7318440,702,Bus 702 : Gare de Chelles - Gournay ↔ Vaires-sur-Marne - Paul Algis,Marne et Brie,Keolis Grand Paris Vallée de la Marne,#0055c8,bus,C01426
 r7323910,3742,Bus 3742 : Cesson Gare RER ↔ Hautes Billes (Vert-Saint-Denis),Sénart,Transdev Sénart,#ff1400,bus,C00854
@@ -505,7 +505,7 @@ r7372176,1226,Bus 1226 : Gare de Cergy-Préfecture ↔ Gare de Méry-sur-Oise,Ce
 r7373447,1208,Bus 1208 : Gare de Cergy Préfecture ↔ Gare de Neuville Université,Cergy-Pontoise Confluence,Francilité Seine et Oise,#00A092,bus,C00778
 r7387039,1618,Bus 1618 : Gare de Goussainville (circulaire via ZAE Moinon),Roissy Ouest,Keolis Roissy Pays de France Ouest,#3c91dc,bus,C02166
 r7399969,1516,Bus 1516 : Argenteuil Gare ↔ Enghien Gare SNCF,Vallée de Montmorency,Transdev Valmy,#e52529,bus,C01802
-r7413474,4603,Bus 4603 : Centre Commercial Ulis 2 ↔ Gare d'Orsay Ville,Paris-Saclay,RATP Cap Saclay,#50b586,bus,C00068
+r7413474,4603,Bus 4603 : Centre Commercial Ulis 2 ↔ Gare d'Orsay Ville,Paris Saclay,RATP Cap Saclay,#50b586,bus,C00068
 r7413493,6140,Bus 6140 : La Cheminée ↔ Pont de Sèvres,Vélizy Vallées,Keolis Vélizy Vallée de la Bièvre,#F69238,bus,C00048
 r7419766,1237,Bus 1237 : Gare de Conflans Fin d'Oise ↔ Vauréal - La Bussie ↔ Vauréal - Georges Brassens,Cergy-Pontoise Confluence,Francilité Seine et Oise,#6E491E,bus,C00773
 r7420641,13,Ligne 13 : Les Courtilles / Saint-Denis - Université ↔ Châtillon - Montrouge,Métro de Paris,RATP,#82c8e6,subway,C01383
@@ -541,7 +541,7 @@ r7451164,1206,Bus 1206 : Gare de Cergy-le-Haut ↔ Osny - Demi Lieue ↔ Osny - 
 r7457086,1203,Bus 1203 : Gare de Cergy-le-Haut ↔ Gare de Neuville Université,Cergy-Pontoise Confluence,Francilité Seine et Oise,#DC9650,bus,C00763
 r7460875,1236,Bus 1236 : Gare de Pontoise - Canerobert ↔ Courdimanche - Les Croizettes,Cergy-Pontoise Confluence,Francilité Seine et Oise,#A0006E,bus,C00765
 r7466920,708,Bus 708 : Gare de Chelles - Gournay (Circulaire),Marne et Brie,Keolis Grand Paris Vallée de la Marne,#6e491e,bus,C01717
-r7466937,350,Bus 350 : Roissypole ↔ Porte de la Chapelle,RATP,RATP,#640082,bus,C01298
+r7466937,350,Bus 350 : Roissypole ↔ Porte de la Chapelle,Express Roissy,Transdev Express Roissy,#640082,bus,C01298
 r7470484,320,Bus 320 : Gare de Noisy–Champs ↔ Gare des Yvris – Noisy-le-Grand,Marne et Brie,Keolis Grand Paris Vallée de la Marne,#FFCE00,bus,C01283
 r7471869,4543,Bus 4543 : Linas ↔ Brétigny-sur-Orge RER,Cœur d'Essonne,Transdev Cœur Essonne,#d282be,bus,C00677
 r7474293,215,Bus 215 : Gare d'Austerlitz ↔ Vincennes RER – République,RATP,RATP,#77C694,bus,C01229
@@ -568,10 +568,10 @@ r7618346,3405,Bus 3405 : Gare routière de Fontainebleau Avon ↔ Croix de Fer (
 r7618347,3403,Bus 3403 : Gare de Fontainebleau Avon ↔ La Plaine (Fontainebleau),Fontainebleau - Moret,Transdev Pays de Fontainebleau,#FF5A00,bus,C00796
 r7618348,3407,Bus 3407 : Fontainebleau - Lucien Cézard ↔ Samois-sur-Seine,Fontainebleau - Moret,Transdev Pays de Fontainebleau,#FFBE00,bus,C01494
 r7634948,248,Bus 248 : Fort d'Aubervilliers ↔ Drancy RER,Ourcq,Transdev Ourcq,#d282be,bus,C01696
-r7668788,4604,Bus 4604 : Collège Guyonnerie / 8 Mai 1945 ↔ Centre Commercial Ulis 2,Paris-Saclay,RATP Cap Saclay,#d2d200,bus,C00069
-r7670510,4660,Bus 4660 : Briand (Bures) ↔ Campus ↔ Guyonnerie,Paris-Saclay,RATP Cap Saclay,#9998be,bus,C00066
-r7670803,4612,Bus 4612 : Gare de Courcelles ↔ Centre Commercial Les Ulis 2,Paris-Saclay,RATP Cap Saclay,#ffd300,bus,C00503
-r7673346,4653,Bus 4653 : Gif-sur-Yvette ↔ Lycée Vallée de Chevreuse et Collège J. Adam,Paris-Saclay,RATP Cap Saclay,#78c4ee,bus,C00520
+r7668788,4604,Bus 4604 : Collège Guyonnerie / 8 Mai 1945 ↔ Centre Commercial Ulis 2,Paris Saclay,RATP Cap Saclay,#d2d200,bus,C00069
+r7670510,4660,Bus 4660 : Briand (Bures) ↔ Campus ↔ Guyonnerie,Paris Saclay,RATP Cap Saclay,#9998be,bus,C00066
+r7670803,4612,Bus 4612 : Gare de Courcelles ↔ Centre Commercial Les Ulis 2,Paris Saclay,RATP Cap Saclay,#ffd300,bus,C00503
+r7673346,4653,Bus 4653 : Gif-sur-Yvette ↔ Lycée Vallée de Chevreuse et Collège J. Adam,Paris Saclay,RATP Cap Saclay,#78c4ee,bus,C00520
 r7673721,Chavilbus,Chavilbus,Grand Paris Seine Ouest,Origami / Mobicité,,bus,C02304
 r7677999,1674,Bus 1674 : Treize Saules (Saint-Witz) ↔ Collège Anne-Marie Javouhey (Senlis),Roissy Ouest,Keolis Roissy Pays de France Ouest,#ffbe00,bus,C01816
 r7678000,1619,Bus 1619 : Survilliers Fosses - Gare ↔ Z.I. Parc de Plailly ↔ Vergers (Plailly),Roissy Ouest,Keolis Roissy Pays de France Ouest,#640082,bus,C02604
@@ -582,10 +582,10 @@ r7678074,1677,Bus 1677 : Centre-ville (Survilliers) ↔ Collège de Noailles - L
 r7678094,TàD,Bus TàD Roissy Fosses : Roissypole ↔ Survilliers,Roissy Ouest,Keolis Roissy Pays de France Ouest,#ffbe00,bus,C01712
 r7699451,713,Bus 713 : Cité Scolaire (Chelles) ↔ Gare de Mitry Claye,Marne et Brie,Keolis Grand Paris Vallée de la Marne,#a0006e,bus,C02130
 r7699452,TàD Bassin Chellois,Bus TàD : Bassin Chellois,Marne et Brie,Keolis Grand Paris Vallée de la Marne,#ffbe00,bus,C01890
-r7704305,4611,Bus 4611 : Gare de Gif-sur-Yvette (circulaire via Chevry),Paris-Saclay,RATP Cap Saclay,#009a7a,bus,C00495
-r7707602,4616,Bus 4616 : Saclay ↔ Igny,Paris-Saclay,RATP Cap Saclay,#e78c2a,bus,C00078
-r7724674,4622,Bus 4622 : Gare de Massy-Palaiseau - Circulaire via Courtabœuf Nord,Paris-Saclay,RATP Cap Saclay,#cec73d,bus,C01699
-r7724675,4602,Bus 4602 : Centre Commercial Ulis 2 ↔ P.A. Courtabœuf (nord),Paris-Saclay,RATP Cap Saclay,#ffbe00,bus,C01697
+r7704305,4611,Bus 4611 : Gare de Gif-sur-Yvette (circulaire via Chevry),Paris Saclay,RATP Cap Saclay,#009a7a,bus,C00495
+r7707602,4616,Bus 4616 : Saclay ↔ Igny,Paris Saclay,RATP Cap Saclay,#e78c2a,bus,C00078
+r7724674,4622,Bus 4622 : Gare de Massy-Palaiseau - Circulaire via Courtabœuf Nord,Paris Saclay,RATP Cap Saclay,#cec73d,bus,C01699
+r7724675,4602,Bus 4602 : Centre Commercial Ulis 2 ↔ P.A. Courtabœuf (nord),Paris Saclay,RATP Cap Saclay,#ffbe00,bus,C01697
 r7728377,704,Bus 704 : Gare de Chelles - Gournay ↔ Mairie de Claye-Souilly,Marne et Brie,Keolis Grand Paris Vallée de la Marne,#ff5a00,bus,C02137
 r7728420,2244,Bus 2244 (Circulaire) : Gare de Bussy-Saint-Georges,Marne-la-Vallée,Transdev Marne-la-Vallée,#9F9825,bus,C00636
 r7733214,3,Ligne 3 : Pont de Levallois ↔ Gallieni,Métro de Paris,RATP,#6e6e00,subway,C01373
@@ -632,9 +632,9 @@ r7804907,574,Bus 574 : TUC,RATP,Origami / Paris Seine Mobilités,,bus,C01354
 r7804913,577,Bus 577 (River Plaza) : Asnières-sur-Seine - Gabriel Péri ↔ Gennevilliers RER,Boucles Nord de Seine,RATP Cap Boucle Nord de Seine,#ff5a00,bus,C01356
 r7804946,595,Bus 595 : La Boursidière ↔ Robinson RER,Croix du Sud,ATM Croix du Sud,#006CB8,bus,C01369
 r7829995,408,Bus 408 : Gare d'Antony ↔ Verrières Mairie,Bièvre,RATP Cap Bièvre,#fcca06,bus,C00345
-r7835489,4617,Bus 4617 : Orsay Gare du Guichet ↔ Épinay-sur-Orge Gare,Paris-Saclay,RATP Cap Saclay,#5292c9,bus,C00680
-r7838629,4650,Bus 4650 : Les Ulis ↔ Montlhéry,Paris-Saclay,RATP Cap Saclay,#007e49,bus,C00673
-r7840989,4642,Bus 4642 : Gare de Massy-Palaiseau ↔ Sainte-Geneviève des Bois - Piscine,Paris-Saclay,RATP Cap Saclay,#d6c900,bus,C01711
+r7835489,4617,Bus 4617 : Orsay Gare du Guichet ↔ Épinay-sur-Orge Gare,Paris Saclay,RATP Cap Saclay,#5292c9,bus,C00680
+r7838629,4650,Bus 4650 : Les Ulis ↔ Montlhéry,Paris Saclay,RATP Cap Saclay,#007e49,bus,C00673
+r7840989,4642,Bus 4642 : Gare de Massy-Palaiseau ↔ Sainte-Geneviève des Bois - Piscine,Paris Saclay,RATP Cap Saclay,#d6c900,bus,C01711
 r7841677,3121,Bus 3121 : Gare de Boissy-Saint-Léger ↔ Gare de Verneuil l'Étang,Pays Briard,Keolis Portes et Val de Brie,#008c5a,bus,C00550
 r7842828,418,Bus scolaire 418 : Sophie Barat ↔ Jean Moulin (Verrières),Bièvre,RATP Cap Bièvre,#186abd,bus,C01657
 r7843394,396,Bus 396 : Marché International de Rungis ↔ La Croix de Berny RER,Pompadour,RATP Cap Pompadour,#CCD80E,bus,C01321
@@ -649,12 +649,12 @@ r7902826,FONT,Bus Le petit fontenaisien : Division Leclerc (circulaire),Vallée 
 r7903216,L'Hirondelle,L'Hirondelle,Vallée Sud Grand Paris,Transdev Vallée Sud,#00643c,bus,C01370
 r7906370,5153,"Bus 5153 : Boulogne-Billancourt, Place Jules Guesde ↔ Villaroy",Île-de-France Ouest,Francilité Express Ouest,#00643c,bus,C00521
 r7909099,Navette,Bus Navette de Bouffémont : Gare de Bouffémont ↔ Centre médical,Val Parisis,Francilité Val Parisis,#008fd3,bus,C00479
-r7912028,9160,Bus 9160 : Gare de Massy-Palaiseau ↔ Vélizy-Villacoublay Résidence Europe,Paris-Saclay,RATP Cap Saclay,#3bb2ff,bus,C00046
+r7912028,9160,Bus 9160 : Gare de Massy-Palaiseau ↔ Vélizy-Villacoublay Résidence Europe,Paris Saclay,RATP Cap Saclay,#3bb2ff,bus,C00046
 r7917619,5467,Bus 5467 : Freneuse (Guyenne) ↔ Bonnières-Sur-Seine (Collège Marcel Pagnol),Mantois,RATP Cap Mantois,#ffcc30,bus,C00730
 r7917815,1420,Bus 1420 : Gare d'Argenteuil ↔ Gare de Cergy Préfecture,Val Parisis,Francilité Val Parisis,#008c5a,bus,C00473
 r7917842,620,Bus 620 : Le Blanc-Mesnil - Pont-Yblon ↔ Bobigny - Pablo Picasso,Terres d'Envol,Transdev Nord Seine-Saint-Denis,,bus,C01588
 r7917900,4112,Bus 4112 : Gare de Montgeron (circulaire),Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,#82dc73,bus,C01886
-r7918097,4605,Bus 4605 : Gare d'Orsay Ville ↔ Centre Commercial Ulis 2 (↔ P.A. Courtaboeuf sud),Paris-Saclay,RATP Cap Saclay,#0087c8,bus,C00070
+r7918097,4605,Bus 4605 : Gare d'Orsay Ville ↔ Centre Commercial Ulis 2 (↔ P.A. Courtaboeuf sud),Paris Saclay,RATP Cap Saclay,#0087c8,bus,C00070
 r7920514,235,Bus 235 : Colombes - Europe ↔ Asnières - Gennevilliers - Gabriel Péri,Boucles Nord de Seine,RATP Cap Boucle Nord de Seine,#ffbe00,bus,C01235
 r7920589,5307,Bus 5307 : Gare d'Orsay Ville ↔ Saint-Arnoult-en-Yvelines,Centre et Sud Yvelines,Transdev Sud Yvelines,#00b397,bus,C01721
 r7920955,GPSO,Bus GPSO : Gare de Chaville Rive Droite - Ville d'Avray Monastère,Grand Paris Seine Ouest,Origami / Mobicité,#00C221,bus,C02301
@@ -699,8 +699,8 @@ r7920999,488,Bus 488 : Athis-Mons — Place Henri Deudon ↔ Juvisy RER,Massy-Ju
 r7921001,4113,"Bus 4113 : Vigneux-sur-Seine, Prairie de l'Oly ↔ Vigneux-sur-Seine, Gare",Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,#ffbe00,bus,C00355
 r7921002,4115,Bus 4115 : Gare de Villeneuve-Saint-Georges ↔ Gare de Vigneux-sur-Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,#a0006e,bus,C00576
 r7921003,4114,Bus 4114 : Juvisy Gare Routière Seine ↔ Gare de Vigneux-sur-Seine,Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,#00643c,bus,C00358
-r7921007,4618,Bus 4618 : Gare de Palaiseau-Villebon RER ↔ C.C. Villebon 2,Paris-Saclay,RATP Cap Saclay,#cfc83b,bus,C02355
-r7921008,4619,Bus 4619 : Gare de Lozère RER ↔ Rue du Viaduc,Paris-Saclay,RATP Cap Saclay,#e78c2a,bus,C00079
+r7921007,4618,Bus 4618 : Gare de Palaiseau-Villebon RER ↔ C.C. Villebon 2,Paris Saclay,RATP Cap Saclay,#cfc83b,bus,C02355
+r7921008,4619,Bus 4619 : Gare de Lozère RER ↔ Rue du Viaduc,Paris Saclay,RATP Cap Saclay,#e78c2a,bus,C00079
 r7921010,3607,Bus 3607 : Péguy (Dammarie-les-Lys) ↔ Vaux Pleins-Vents (Vaux-le-Pénil),Grand Melun,Transdev Melun,#5a230a,bus,C00877
 r7921011,6411,Bus 6411 : Gare d'Argenteuil ↔ Gare de Sartrouville,Argenteuil - Boucles de Seine,Keolis Argenteuil Boucles de Seine,#0055c8,bus,C00292
 r7921012,3444,Bus 3444 : Hôtel de Ville (Les Écrennes) ↔ Gare de Bois-le-Roi,Fontainebleau - Moret,Transdev Pays de Fontainebleau,#00643C,bus,C00791
@@ -791,7 +791,7 @@ r8132503,TàD,Bus TaD : Domont Gare ↔ Hopital Simone Veil,Vallée de Montmoren
 r8132510,1441,Bus 1441 : Champ de Courses d'Enghien ↔ Mairie (Montlignon),Val Parisis,Francilité Val Parisis,#008c5a,bus,C00487
 r8132557,4412,Bus 4412 : Dourdan ↔ Monnerville,Essonne Sud Ouest,Transdev Sud-Ouest Essonne,#FF0000,bus,C00974
 r8165262,427,Bus 427 : (Les Graviers) Villeneuve-Saint-Georges ↔ Gare de Boissy-Saint-Léger,Marne et Seine,Transdev Côteaux de la Marne,#ffbe00,bus,C00574
-r8172061,4634,Bus 4634 : Gare d'Epinay-sur-Orge (circulaire) via Le Breuil,Paris-Saclay,RATP Cap Saclay,#19ff99,bus,C00093
+r8172061,4634,Bus 4634 : Gare d'Epinay-sur-Orge (circulaire) via Le Breuil,Paris Saclay,RATP Cap Saclay,#19ff99,bus,C00093
 r8184117,7816,Bus 7816 : Gare de Cergy Préfecture ↔ Gare de Saint-Quentin-en-Yvelines,Île-de-France Ouest,Francilité Express Ouest,#3bb2ff,bus,C00151
 r8186068,5338,Bus 5338 : Gare de Tacoignières - Richebourg ↔ La Picotière,Centre et Sud Yvelines,Transdev Sud Yvelines,#8e6539,bus,C01984
 r8186765,6401,Bus 6401 : Gare d'Argenteuil ↔ Gare de Sartrouville,Argenteuil - Boucles de Seine,Keolis Argenteuil Boucles de Seine,#ff1400,bus,C00298
@@ -873,10 +873,10 @@ r8392645,T'bus 1,Bus T'bus 1 : Roissypole ↔ Marronniers (Tremblay-en-France),T
 r8393002,6315,Bus 6315 : Petit Parc Bignon ↔ Gare de Saint-Germain en Laye - Rue Thiers,Saint-Germain Boucles de Seine,Transdev Île-de-France Boucle des Lys,#00643c,bus,C00150
 r8393308,3301,Bus 3301 : Pajol ↔ Montereau SNCF,Pays de Montereau,Francilité Pays de Montereau,#B80C4B,bus,C01435
 r8393431,6418,Bus 6418 : Champagne - Roussillon ↔ Gare d'Argenteuil,Argenteuil - Boucles de Seine,Keolis Argenteuil Boucles de Seine,#ffbe00,bus,C00303
-r8393784,4661,Bus 4661 : Conservatoire (Orsay) ↔ Collège Île de France,Paris-Saclay,RATP Cap Saclay,#ffed00,bus,C01651
-r8393785,4662,Bus 4662 : Cimetière (Orsay) ↔ Villebon ↔ Lycée C. Claudel (Palaiseau),Paris-Saclay,RATP Cap Saclay,#54aee3,bus,C02382
-r8393786,4663,Bus 4663 : Grand Dôme ↔ Collège J. Verne,Paris-Saclay,RATP Cap Saclay,#b6d061,bus,C01653
-r8393787,4664,Bus 4664 : Millet (Villebon) ↔ Collège J. Verne,Paris-Saclay,RATP Cap Saclay,#d073a1,bus,C01654
+r8393784,4661,Bus 4661 : Conservatoire (Orsay) ↔ Collège Île de France,Paris Saclay,RATP Cap Saclay,#ffed00,bus,C01651
+r8393785,4662,Bus 4662 : Cimetière (Orsay) ↔ Villebon ↔ Lycée C. Claudel (Palaiseau),Paris Saclay,RATP Cap Saclay,#54aee3,bus,C02382
+r8393786,4663,Bus 4663 : Grand Dôme ↔ Collège J. Verne,Paris Saclay,RATP Cap Saclay,#b6d061,bus,C01653
+r8393787,4664,Bus 4664 : Millet (Villebon) ↔ Collège J. Verne,Paris Saclay,RATP Cap Saclay,#d073a1,bus,C01654
 r8398489,TàD,Bus TàD Roissy Goussainville : Roissypole ↔ Les Côteaux (Goussainville),Roissy Ouest,Keolis Roissy Pays de France Ouest,#ffbe00,bus,C01432
 r8400207,6251,Bus 6251 : Hôpital Mignot ↔ Saint-Quentin-en-Yvelines - Gare P. Delouvrier,Grand Versailles,Transdev Versailles,#3C91E6,bus,C01873
 r8400479,5407,Bus 5407 : Buchelay - Béarn ↔ Buchelay - Béarn,Mantois,RATP Cap Mantois,#E0AF47,bus,C01606
@@ -899,9 +899,9 @@ r8408136,6439,Bus 6439 : Gare du Vésinet le Pecq ↔ Gare de Chatou - Croissy,A
 r8409188,1533,Bus 1533 : Parc des Sources ↔ Champ de Courses Gare,Vallée de Montmorency,Transdev Valmy,#ED7EA1,bus,C00305
 r8409316,1510,Bus 1510 : Ermont Eaubonne Gare ↔ Parc des Sources,Vallée de Montmorency,Transdev Valmy,#D5C900,bus,C00299
 r8409465,25,Bus 25 : Gare d'Etampes ↔ Gare de Pithiviers,Rémi 45,,#B00010,bus,
-r8412526,4641,Bus 4641 : Gare de Massy-Palaiseau ↔ Jules Verne (Nozay) ↔ Piscine (Sainte-Geneviève des Bois),Paris-Saclay,RATP Cap Saclay,#f19043,bus,C00675
-r8412527,4643,Bus 4643 : Gare de Massy-Palaiseau ↔ Marcoussis ↔ Piscine (Sainte-Geneviève des Bois),Paris-Saclay,RATP Cap Saclay,#0065ae,bus,C00674
-r8413209,4606,Bus 4606 : Christ du Saclay ↔ Gare de Massy-Palaiseau,Paris-Saclay,RATP Cap Saclay,#3bb2ff,bus,C01567
+r8412526,4641,Bus 4641 : Gare de Massy-Palaiseau ↔ Jules Verne (Nozay) ↔ Piscine (Sainte-Geneviève des Bois),Paris Saclay,RATP Cap Saclay,#f19043,bus,C00675
+r8412527,4643,Bus 4643 : Gare de Massy-Palaiseau ↔ Marcoussis ↔ Piscine (Sainte-Geneviève des Bois),Paris Saclay,RATP Cap Saclay,#0065ae,bus,C00674
+r8413209,4606,Bus 4606 : Christ du Saclay ↔ Gare de Massy-Palaiseau,Paris Saclay,RATP Cap Saclay,#3bb2ff,bus,C01567
 r8413211,9111,Bus 9111 : Gare de Saint-Quentin-en-Yvelines ↔ Gare de Massy-Palaiseau,Île-de-France Ouest,Francilité Express Ouest,#3bb2ff,bus,C02201
 r8413449,5410,Bus 5410 : Aubergenville - Reine Astrid ↔ Gare d'Aubergenville-Élisabethville ↔ Aubergenville - Clinique ↔ Gare d'Aubergenville-Élisabethville ↔ Aubergenville - Reine Astrid,Mantois,RATP Cap Mantois,#eb2132,bus,C01428
 r8413513,1222,Bus 1222 : Gare d'Achères ↔ Chambre de Commerce et d'Industrie,Cergy-Pontoise Confluence,Francilité Seine et Oise,#0055C8,bus,C01674
@@ -955,7 +955,7 @@ r8493728,1614,Bus 1614 : Roissypole ↔ Louvres Gare,Roissy Ouest,Keolis Roissy 
 r8493815,7708,Bus 7708 : Gare de La Ferté-sous-Jouarre ↔ Roissypole Aéroport CDG T3,Brie et Deux Morin,Transdev Brie et Deux Morin,#3BB2FF,bus,C00960
 r8507551,1113,Bus 1113 : Butry-sur-Oise - Gare de Valmondois ↔ Butry-sur-Oise - Gare de Valmondois,Vexin,Transdev Vexin,#80331b,bus,C00399
 r8507557,1112,Bus 1112 : Berville - Lavoir ↔ Gare de Cergy Préfecture,Vexin,Transdev Vexin,#ff80ff,bus,C01786
-r8553608,4636,Bus 4636 : Gare d'Epinay-sur-Orge (circulaire) via Collège Maurois,Paris-Saclay,RATP Cap Saclay,#ff6600,bus,C01766
+r8553608,4636,Bus 4636 : Gare d'Epinay-sur-Orge (circulaire) via Collège Maurois,Paris Saclay,RATP Cap Saclay,#ff6600,bus,C01766
 r8557335,L,Transilien L,Transilien,SNCF Voyageurs,#7577C0,train,C01740
 r8588734,4515,Bus 4515 : Gare d'Epinay-sur-Orge (circulaire via Villemoisson),Cœur d'Essonne,Transdev Cœur Essonne,#82dc73,bus,C00094
 r8702005,5146,Bus 5146 : Mérantais (Magny-les-Hameaux) ↔ Gare de Versailles Chantiers,Île-de-France Ouest,Francilité Express Ouest,#00a092,bus,C00497
@@ -973,7 +973,7 @@ r8729300,5125,Bus 5125 : La Verrière Gare ↔ France Miniature,Saint-Quentin-en
 r8730251,4408,Bus 4408 : Étampes Hôpital ↔ Morigny-Champigny,Essonne Sud Ouest,Transdev Sud-Ouest Essonne,#D5C900,bus,C00978
 r8735247,5115,Bus 5115 : Chavenay - Vallon ↔ Villepreux - Village,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,#00814f,bus,C01870
 r8736260,4531,Bus 4531 : Chemin de Bretigny ↔ Centre Commercial Maison Neuve,Cœur d'Essonne,Transdev Cœur Essonne,#ff1400,bus,C01495
-r8737442,4532,Bus 4532: Brétigny-sur-Orge (Breche aux loups) ↔ Brétigny-sur-Orge (Bois de Vetille),Cœur d'Essonne,Transdev Cœur Essonne,#0055c8,bus,C01950
+r8737442,4532,Bus 4532 : Brétigny-sur-Orge (Breche aux loups) ↔ Brétigny-sur-Orge (Bois de Vetille),Cœur d'Essonne,Transdev Cœur Essonne,#0055c8,bus,C01950
 r8737996,5327,Bus 5327 : Plaisir-Grignon Gare ↔ Les Mousseaux,Centre et Sud Yvelines,Transdev Sud Yvelines,#006db8,bus,C00402
 r8738081,5114,Bus 5114 : Plaisir-Grignon Gare ↔ Pissaloup,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,#ceacd2,bus,C02169
 r8738250,5101,Bus 5101 : Plaisir-Grignon Gare ↔ Les Clayes-sous-Bois,Saint-Quentin-en-Yvelines,Francilité Saint-Quentin-en-Yvelines,#f28e42,bus,C00418
@@ -1015,7 +1015,7 @@ r9181427,1410,Bus 1410 : Gare de Cergy-Préfecture ↔ Gare de Montigny - Beauch
 r9181579,4130,Bus 4130 : Boussy Gare (circulaire),Val d'Yerres Val de Seine,Keolis Val d'Yerres Val de Seine,#82c8e6,bus,C00598
 r9182058,4542,Bus 4542 : Gare de Saint-Michel sur Orge ↔ Gare de Brétigny,Cœur d'Essonne,Transdev Cœur Essonne,#00643c,bus,C00679
 r9182104,4216,Bus 4216 : Évry-Courcouronnes Centre ↔ Ferme des Folies,Évry Centre Essonne,Keolis TISSE,#ff82b4,bus,C01672
-r9183484,A01,A01 : Aéroport Paris Beauvais ↔ Paris Porte Maillot,Aérobus Paris-Beauvais,Transports Paris-Beauvais,#CE0033,bus,C02179
+r9183484,A01,A01 : Aéroport Paris Beauvais ↔ Paris Porte Maillot,Aérobus,Transports Paris-Beauvais,#CE0033,bus,C02179
 r9183833,4516,Bus 4516 : Gare de Sainte-Geneviève des Bois (circulaire),Cœur d'Essonne,Transdev Cœur Essonne,#ffbe00,bus,C00667
 r9183898,4517,Bus 4517 : Fontaine Mansart ↔ Gare de Sainte-Geneviève des Bois,Cœur d'Essonne,Transdev Cœur Essonne,#00643c,bus,C00668
 r9184388,5457,Bus 5457 : Limay - Fosses Rouges ↔ Limay - Lycée Condorcet,Mantois,RATP Cap Mantois,#DFAF47,bus,C00747
@@ -1273,7 +1273,6 @@ r14456255,T12,Tramway Express T12 : Massy-Palaiseau ↔ Évry Courcouronnes,Tram
 r14511402,5427,Bus 5427 : Gare de Mantes-la-Jolie ↔ Mantes-la-Jolie - Sangle ↔ Gare de Mantes-la-Jolie,Mantois,RATP Cap Mantois,#288F46,bus,C01613
 r14556090,5433,Bus 5433 : Poissy - Peugeot ↔ Gare de Poissy-Nord ↔ Saint-Marcel - Tourelles,Mantois,RATP Cap Mantois,#ffcc30,bus,C01034
 r14556740,5432,Bus 5432 : Vernon - SNECMA ↔ La Défense - Terminal Jules Verne,Mantois,RATP Cap Mantois,#65318f,bus,C01036
-r14576282,Navette Autonome,Navette Autonome de Vincennes,RATP,RATP,#FFF,bus,C02488
 r14618100,3126,Bus 3126 : Salle des Fêtes (Brie-Comte-Robert) ↔ Melun,Pays Briard,Keolis Portes et Val de Brie,#ed1c2a,bus,C02120
 r14638022,2260,Bus 2260 : Gare de Val d'Europe ⥋ Philo,Marne-la-Vallée,Transdev Marne-la-Vallée,#5291CE,bus,C00945
 r14654416,9114,Bus 9114 : Paris - Porte d'Orléans ↔ Arpajon-Porte d'Étampes,Cœur d'Essonne,Transdev Cœur Essonne,#3c91dc,bus,C02395
@@ -1370,24 +1369,24 @@ r17370823,2283,Bus 2283 : Les Provinces ⥋ St-Laurent (Rue Brébion),Marne-la-V
 r17370824,2284,Bus 2284 : Place Beilstein ⥋ St-Laurent (Rue Brébion),Marne-la-Vallée,Transdev Marne-la-Vallée,#D282BE,bus,C02672
 r17370825,Soir Marne-la-Vallée Chessy,Bus de soirée Marne-la-Vallée Chessy,Marne-la-Vallée,Transdev Marne-la-Vallée,#662483,bus,C02691
 r17386997,5324,Bus 5324 : Gendarmerie - Place de la Gare,Centre et Sud Yvelines,Transdev Sud Yvelines,#006db8,bus,C00410
-r17395549,4534,Bus 4534: Brétigny Gare Brossolette ↔ BA 217,Cœur d'Essonne,Transdev Cœur Essonne,#dc9600,bus,C01497
+r17395549,4534,Bus 4534 : Brétigny Gare Brossolette ↔ Base Aérienne 217,Cœur d'Essonne,Transdev Cœur Essonne,#dc9600,bus,C01497
 r17397658,4535,Bus 4535 : Brétigny Gare Place ↔ Le Plessis-Pâté Eurocontrol,Cœur d'Essonne,Transdev Cœur Essonne,#d282be,bus,C02418
-r17397659,4536,Bus 4536: Brétigny Gare Place ↔ CEV,Cœur d'Essonne,Transdev Cœur Essonne,#ffbe00,bus,C02663
+r17397659,4536,Bus 4536 : Brétigny Gare Place ↔ CEV,Cœur d'Essonne,Transdev Cœur Essonne,#ffbe00,bus,C02663
 r17407366,4578,Bus 4578 : Gare de Saint-Chéron ↔ Gare de Breuillet - Bruyères-le-Châtel,Cœur d'Essonne,Transdev Cœur Essonne,#c06ebe,bus,C00966
 r17410345,4551,Bus 4551 : Breuillet (Gare de Breuilet) ↔ Arpajon (Lycée Cassin),Cœur d'Essonne,Transdev Cœur Essonne,#3c91dc,bus,C00962
 r17427966,2375,Bus 2375 : Gare d'Esbly/Ségy ↔ Collège de la Dhuis,Meaux et Ourcq,Transdev Marne-et-Ourcq,#bc85bb,bus,C01995
 r17431500,Davy Crockett,Navette : Ranch Davy Crockett ↔ Gare de Marne-la-Vallée - Chessy Nord,Disneyland Paris Transport,Disneyland Paris Transport,,bus,
 r17431658,3117,Bus 3117 : Gare de Marne-la-Vallée - Chessy Sud ↔ Église de Guignes,Pays Briard,Keolis Portes et Val de Brie,#c5a3cd,bus,C00624
 r17447921,2423,Bus 2423 : Gare de Marne-la-Vallée - Chessy Sud ↔ Gare de Faremoutiers - Pommeuse,Brie et Deux Morin,Transdev Brie et Deux Morin,#38761d,bus,C01057
-r17630022,A02,A02 : Aéroport Paris Beauvais ↔ Saint-Denis Université,Aérobus Paris-Beauvais,Transports Paris-Beauvais,#5F8264,bus,C02677
-r17630251,A03,A03 : Aéroport Paris Beauvais ↔ Paris La Défense,Aérobus Paris-Beauvais,Transports Paris-Beauvais,#E33289,bus,C02678
+r17630022,A02,A02 : Aéroport Paris Beauvais ↔ Saint-Denis Université,Aérobus,Transports Paris-Beauvais,#5F8264,bus,C02677
+r17630251,A03,A03 : Aéroport Paris Beauvais ↔ Paris La Défense,Aérobus,Transports Paris-Beauvais,#E33289,bus,C02678
 r17630907,NYS,Navette New-York - The Art of Marvel / Hôtels Sequoia Lodge,Disneyland Paris,Disneyland Paris,,bus,
 r17630908,Val de France,Navette Hôtels du Val de France,Disneyland Paris,Keolis CIF,,bus,
 r17630909,Centre Urbain,Navette Hôtels du Centre Urbain,Disneyland Paris,Transdev Europe Autocars,,bus,
 r17630910,SFE,Navette Hôtel Santa Fe,Disneyland Paris,Disneyland Paris,,bus,
 r17630911,NBC,Navette Hôtel Newport Bay Club,Disneyland Paris,Disneyland Paris,,bus,
 r17630912,CHE,Navette Hôtel Cheyenne,Disneyland Paris,Disneyland Paris,,bus,
-r17630915,A05,A05 : Aéroport Paris Beauvais ↔ Disneyland Paris,Aérobus Paris-Beauvais,Transports Paris-Beauvais,#A51738,bus,C02679
+r17630915,A05,A05 : Aéroport Paris Beauvais ↔ Disneyland Paris,Aérobus,Transports Paris-Beauvais,#A51738,bus,C02679
 r17747758,10,Ligne 10 : VERNON République ↔ ÉCOS Place de l'Église,SNgo!,Transdev,#F58220,bus,
 r17984786,1257,Bus 1257 : Conflans Fin d'Oise RER (circulaire intérieur),Cergy-Pontoise Confluence,Francilité Seine et Oise,#D282BE,bus,C02705
 r18047351,L,Navette L : Gare de Lozère <=> Centre Commercial Villebon 2,Paris-Saclay Mobilités,Autocars Dominique,#a76cad,bus,C01904
@@ -1400,7 +1399,7 @@ r18519439,4215,Bus 4215 : Évry-Courcouronnes Centre ↔ Vert-le-Grand,Évry Cen
 r18527628,4222,Bus 4222 : Les Patios ↔ Tuileries,Évry Centre Essonne,Keolis TISSE,#d2d200,bus,C02740
 r18536117,4242,Bus 4242 : Terminal David Douillet (Le Coudray-Montceaux) ↔ Gare d'Évry-Courcouronnes Centre,Évry Centre Essonne,Keolis TISSE,#ff1400,bus,C02724
 r18546068,4278,Bus 4278 : Fleury-Mérogis ↔ Bondoufle,Évry Centre Essonne,Keolis TISSE,#ffbe00,bus,C02738
-r18642703,A04,A04 : Aéroport Paris Beauvais ↔ Paris La Villette,Aérobus Paris-Beauvais,Transports Paris-Beauvais,#003DA5,bus,C02723
+r18642703,A04,A04 : Aéroport Paris Beauvais ↔ Paris La Villette,Aérobus,Transports Paris-Beauvais,#003DA5,bus,C02723
 r18760767,202,Bus 202 : Porte de Montreuil ↔ Montreuil-Boissière-Acacia,RATP,RATP,#65318f,bus,C02714
 r18768787,6216,Bus 6216: Gare de Louveciennes ↔ Louveciennes Les Demeures,Grand Versailles,Transdev Versailles,#640082,bus,C01489
 r18792764,4458,Bus 4458 : Dourdan ↔ Sermaise,Essonne Sud Ouest,Transdev Sud-Ouest Essonne,#9b993b,bus,C02297
@@ -1440,7 +1439,7 @@ r19506987,N123,Noctilien N123 : Gare d’Arpajon ↔ Châtelet,Cœur d'Essonne,T
 r19506988,TàD 4597,Bus TàD 4597 : La Norville ↔ Arpajon,Cœur d'Essonne,Transdev Cœur Essonne,,bus,C02460
 r19506989,4555,Bus 4555 : Boissy-sous-Saint-Yon ↔ Gare d’Arpajon,Cœur d'Essonne,Transdev Cœur Essonne,#ff5a00,bus,C00972
 r19506990,TàD 4596,Bus TàD 4596 : Brétigny-sur-Orge ↔ Arpajon,Cœur d'Essonne,Transdev Cœur Essonne,#a0006e,bus,C02383
-r19506991,4651,Bus 4651 : Lycée René Cassin (La Norville) ↔ Mairie de Linas,Paris-Saclay,RATP Cap Saclay,#e4b428,bus,C02396
+r19506991,4651,Bus 4651 : Lycée René Cassin (La Norville) ↔ Mairie de Linas,Paris Saclay,RATP Cap Saclay,#e4b428,bus,C02396
 r19506992,4580,Bus 4580 : La Mare aux Bourguignons (Égly) ↔ Collège Albert Camus (La Norville),Cœur d'Essonne,Transdev Cœur Essonne,#82c8e6,bus,C02039
 r19509378,5435,Bus 5435 : Gasny (Salle des Fêtes) ↔ Gare de Bonnières,Mantois,RATP Cap Mantois,#cec73d,bus,C01033
 r19509379,5477,Bus 5477 : Lycée Saint-Adjutor (Vernon) ↔ Gare routière de Bonnières,Mantois,RATP Cap Mantois,#6e491e,bus,C02715
@@ -1454,8 +1453,8 @@ r19533791,6426,Bus 6426 : Trembleaux ↔ Gare de Sartrouville,Argenteuil - Boucl
 r19565532,5311,Bus 5311 : Collège Racinay ↔ Gare de Montfort-l'Amaury - Méré,Centre et Sud Yvelines,Transdev Sud Yvelines,#f59eb3,bus,C00163
 r19587579,4581,Bus 4581 : Bruyères-le-Châtel ↔ Collège Jean Moulin (La Norville),Cœur d'Essonne,Transdev Cœur Essonne,#82c8e6,bus,C02065
 r19589793,2429,Bus 2429 : Gare de La Ferté-sous-Jouarre ↔ La Ferté-Gaucher - Avenue des États-Unis,Brie et Deux Morin,Transdev Brie et Deux Morin,#fecb00,bus,C02291
-r19598278,4652,Bus 4652 : PALAISEAU Rond-Point Camille Claudel <=> MASSY / IGNY Collège Claudine Hermann,Paris-Saclay,RATP Cap Saclay,#00643c,bus,C02818
-r19606480,4627,Bus 4627 : Centre Commercial Ulis 2 - Aubrac ↔ Polytechnique Vauve (Palaiseau),Paris-Saclay,RATP Cap Saclay,#00b297,bus,C02809
+r19598278,4652,Bus 4652 : Rond-Point Camille Claudel (Palaiseau)↔ Collège Claudine Hermann (Massy),Paris Saclay,RATP Cap Saclay,#00643c,bus,C02818
+r19606480,4627,Bus 4627 : Centre Commercial Ulis 2 - Aubrac ↔ Polytechnique Vauve (Palaiseau),Paris Saclay,RATP Cap Saclay,#00b297,bus,C02809
 r19805627,2332,Bus 2332 : Collège Louis Braille ↔ Rue des Prés,Meaux et Ourcq,Transdev Marne-et-Ourcq,#b6d7a8,bus,C02231
 r19919497,5234,Bus 5234 : Mantes-la-Ville ↔ Lycée Viollet-le-Duc,Île-de-France Ouest,Francilité Express Ouest,#0055c8,bus,C02637
 r19970544,1104,Bus 1104 : Magny-en-Vexin - Gare Routière ↔ Gare de Mantes-la-Jolie,Vexin,Transdev Vexin,#00b397,bus,C02829

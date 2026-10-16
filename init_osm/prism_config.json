@@ -3,7 +3,7 @@
         "mode" : ["bus", "train", "subway", "tram", "funicular", "coach"]
     },    
     "additional_tags_export" : {
-        "stop_point" : ["ref:FR:STIF"],
-        "line": ["ref:FR:STIF"]
+        "stop_point" : ["ref:FR:STIF", "gtfs:stop_id:FR-IDF-IDFM"],
+        "line": ["ref:FR:STIF", "gtfs:route_id:FR-IDF-IDFM"]
     }
 }

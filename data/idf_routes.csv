@@ -25,14 +25,14 @@ r271451,Bus 4205 : La Treille - Viry-Châtillon → RER Gare Condorcet,4205,RER 
 r279336,Bus 483 : Gare de Choisy-Le-Roi → Gare de Villeneuve-Saint-Georges,483,Gare de Villeneuve-Saint-Georges,Seine Orly
 r280115,Bus 282 : Levasseur (Thiais) → Centre Commercial de Pont de Vitry,282,Centre Commercial de Pont de Vitry,Seine Orly
 r304522,Bus 4241 : Gare de Ris-Orangis - Bois de l'Épine → Henri Dunant (Corbeil-Essonnes),4241,Henri Dunant (Corbeil-Essonnes),Évry Centre Essonne
-r306279,Bus 185 : Choisy Sud → Porte d'Italie,185,Porte d'Italie,Pompadour
+r306279,Bus 185 : Choisy-Sud → Porte d'Italie - Hélène Boucher,185,Porte d'Italie - Hélène Boucher,Pompadour
 r331381,Bus 172 : Bourg-la-Reine RER → Hôpital Henri Mondor,172,Hôpital Henri Mondor,Seine Orly
 r332424,Bus 180 : Charenton-Écoles-Métro → Villejuif–Louis Aragon,180,Villejuif–Louis Aragon,Seine Orly
 r332719,Bus 145 : Église de Pantin → Gare de Rosny - Bois-Perrier,145,Gare de Rosny - Bois-Perrier,Ourcq
 r332720,Bus 122: Bagnolet Gallieni → Val de Fontenay RER,122,Val de Fontenay RER,RATP
 r371128,Bus 396 : La Croix de Berny RER → Marché International de Rungis,396,Marché International de Rungis,Pompadour
 r371129,Bus 216 : Denfert-Rochereau → Marché International de Rungis,216,Marché International de Rungis,Massy-Juvisy
-r371130,Bus 131 : Rungis – La Fraternelle RER → Porte d'Italie,131,Porte d'Italie,Pompadour
+r371130,Bus 131 : Rungis - La Fraternelle RER → Porte d'Italie,131,Porte d'Italie,Pompadour
 r387824,Bus 1 : Le Blanc Mesnil → Villeparisis Mitry le Neuf,1,Villeparisis Mitry le Neuf,Terres d'Envol
 r387825,Bus 15 : Gare RER d'Aulnay-sous-Bois → Jaurès (Tremblay-en-France),15,Jaurès (Tremblay-en-France),Terres d'Envol
 r387826,Bus 617 : Gare d'Aulnay-sous-Bois → Gare de Sevran Beaudottes,617,Gare de Sevran Beaudottes,Terres d'Envol
@@ -200,7 +200,7 @@ r1257174,Bus 57 : Porte de Bagnolet - Louis Ganne → Arcueil-Laplace RER,57,Arc
 r1257175,Bus 48 : Gare du Nord → Romainville Vassou,48,Porte des Lilas,RATP
 r1257176,Bus 56 : Porte de Clignancourt → Château de Vincennes,56,Château de Vincennes,RATP
 r1257177,Bus 58 : Châtelet → Lycée Michelet (Vanves),58,Lycée Michelet (Vanves),RATP
-r1257178,Bus 47 : Châtelet → Fort du Kremlin-Bicêtre,47,Le Kremlin-Bicêtre - Fort du Kremlin-Bicêtre,Seine Orly
+r1257178,Bus 47 : Châtelet → Fort du Kremlin-Bicêtre,47,Fort du Kremlin-Bicêtre,Seine Orly
 r1257179,"Bus 54 : Asnières-sur-Seine, Gennevilliers, Gabriel Péri → Porte d'Aubervilliers",54,Porte d'Aubervilliers,Plaine Saint-Denis
 r1257180,Bus 48 : Romainville Vassou → Gare du Nord,48,Gare du Nord,RATP
 r1257181,Bus 56 : Château de Vincennes → Porte de Clignancourt,56,Porte de Clignancourt,RATP
@@ -210,8 +210,8 @@ r1257185,"Bus 54 : Porte d'Aubervilliers → Asnières-sur-Seine, Gennevilliers,
 r1257205,Bus PC : Porte Maillot → Pont du Garigliano,PC,Pont du Garigliano,RATP
 r1257209,Bus PC : Pont du Garigliano → Porte Maillot,PC,Porte Maillot,RATP
 r1259085,Bus 187 : Fresnes - Les Groux → Porte d'Orléans,187,Porte d'Orléans,Pompadour
-r1259514,Bus 184 : Pasteur (Fresnes) → Porte d'Italie,184,Porte d'Italie,Pompadour
-r1259521,Bus 184 : Porte d'Italie → Pasteur (Fresnes),184,Pasteur (Fresnes),Pompadour
+r1259514,Bus 184 : Fresnes - Pasteur → Porte d'Italie - Métro,184,Porte d'Italie,Pompadour
+r1259521,Bus 184 : Porte d'Italie - Métro → Fresnes - Pasteur,184,Fresnes - Pasteur,Pompadour
 r1286111,Bus 1234 : Gare de Conflans Fin d'Oise → Gare de Conflans-Sainte-Honorine - Place Romagné,1234,Gare de Conflans-Sainte-Honorine - Place Romagné,Cergy-Pontoise Confluence
 r1286298,Bus 192 : Robinson RER → Marée → Marché International de Rungis,192,Marché International de Rungis,Pompadour
 r1286916,Bus 192 : Marché International de Rungis → Robinson RER,192,Robinson RER,Pompadour
@@ -384,7 +384,7 @@ r2344962,Bus 199 : Longjumeau–La Rocade-Lycée => Massy–Palaiseau RER,199,Ma
 r2344963,Bus 319 : Marché International de Rungis → Massy-Palaiseau RER,319,Massy-Palaiseau RER,Massy-Juvisy
 r2346625,Bus 120 : Nogent-sur-Marne RER → Noisy-le-Grand Mont d'Est RER,120,Noisy-le-Grand Mont d'Est RER,Bord de Marne
 r2346626,Bus 120 : Noisy-le-Grand Mont d'Est RER → Nogent-sur-Marne RER,120,Nogent-sur-Marne RER,Bord de Marne
-r2369841,Bus 132 : Vitry-sur-Seine-Moulin Vert Tram → Bibliothèque François Mitterrand,132,Bibliothèque François Mitterrand,Seine Grand Orly
+r2369841,Bus 132 : Vitry-sur-Seine-Moulin Vert Tram → Bibliothèque François Mitterrand,132,Bibliothèque François Mitterrand,Seine Orly
 r2372425,Bus 5104 : Gare de Trappes → Saint-Exupéry,5104,Saint-Exupéry,Saint-Quentin-en-Yvelines
 r2389880,Bus 9111 : Gare de Massy-Palaiseau → Gare de Saint-Quentin-en-Yvelines,9111,Gare de Saint-Quentin-en-Yvelines,Île-de-France Ouest
 r2390086,"Bus 4610 : Gare de Gif → Buc, Lycée Franco-Allemand",4610,"Buc, Lycée Franco-Allemand",Paris Saclay
@@ -488,7 +488,7 @@ r2979637,Bus 623 : Gare de Sevran-Livry Sud → Gare de Gagny,623,Gare de Gagny,
 r2981754,Bus 126 : Parc de Saint-Cloud → Porte d'Orléans,126,Porte d'Orléans,RATP
 r2981755,Bus 126 : Porte d'Orléans-Métro → Parc de Saint-Cloud,126,Parc de Saint-Cloud,RATP
 r2989341,Bus 302 : La Courneuve - Six Routes → Gare du Nord,302,Gare du Nord,Plaine Saint-Denis
-r3008944,Bus 185 : Porte d'Italie → Choisy Sud,185,Choisy Sud,Pompadour
+r3008944,Bus 185 : Porte d'Italie - Métro → Choisy-Sud,185,Choisy-Sud,Pompadour
 r3011203,Bus 189 : Porte de Saint-Cloud → Clamart–Georges Pompidou,189,Georges Pompidou (Clamart),Croix du Sud
 r3030611,Bus 604 : Gare de Gagny → Hôpital de Montfermeil,604,Hôpital de Montfermeil,Marne et Brie
 r3030640,Bus 604 : Hôpital de Montfermeil → Coquelicots → Gare de Gagny,604,Gare de Gagny,Marne et Brie
@@ -678,7 +678,7 @@ r4279503,Bus 323 : Issy-Val de Seine RER → Chatillon-Montrouge,323,Chatillon -
 r4289376,Bus 128 : Robinson RER → Porte d'Orléans,128,Porte d'Orléans,RATP
 r4297051,Bus 337 : Zone Artisanale du Moutier → Gare de Pierrefitte-Stains RER,337,,Plaine Saint-Denis
 r4307744,Bus 253 : La Courneuve - Aubervilliers RER → Stains– Moulin Neuf,253,Mairie de Stains,Plaine Saint-Denis
-r4397859,Bus 3501 : Canal → Gare Nemours Parvis,3501,Gare Nemours Parvis,Vallée du Loing - Nemours
+r4397859,Bus 3501 : Canal → Gare Foljuif,3501,Gare Nemours Parvis,Vallée du Loing - Nemours
 r4430299,Bus 3208 : Marcel Mougenot → Gare de Chambenoist - Poigny,3208,Gare de Chambenoist - Poigny (Poigny),Provinois - Brie et Seine
 r4430300,Bus 3209 : Ville Haute → Lotissement,3209,Lotissement (Saint-Brice),Provinois - Brie et Seine
 r4496999,Bus 125 : Porte d'Orléans → École Vétérinaire de Maisons-Alfort,125,École vétérinaire de Maisons-Alfort,Seine Orly
@@ -924,7 +924,7 @@ r6751735,Bus 3774 : Lycée J. Prévert (Combs-la-Ville) → Couture (Combs-la-Vi
 r6751788,Bus 3714 : Lieusaint - Moissy Gare RER → Combs-la-Ville - Quincy Gare RER,3714,Combs-la-Ville - Quincy Gare RER,Sénart
 r6755766,Bus 3319 : Place Berne Bellecourt (Égreville) → Gare de Montereau-Fault-Yonne,3319,Gare de Montereau-Fault-Yonne,Pays de Montereau
 r6762267,Bus 4573 : Gare de Sainte-Geneviève-des-Bois → Lycée Albert Einstein (Sainte-Geneviève-des-Bois),4573,Lycée Albert Einstein (Sainte-Geneviève-des-Bois),Cœur d'Essonne
-r6768639,Bus 3540 : Saint-Pierre de Nemours → Villebéon - Passy,3540,Villebéon - Passy,Vallée du Loing - Nemours
+r6768639,Bus 3540 : Gare Nemours Parvis → Passy (Villebéon),3540,Passy,Vallée du Loing - Nemours
 r6769115,Bus 3532 : Gratereau → Cité Scolaire,3532,Cité Scolaire,Vallée du Loing - Nemours
 r6769137,Bus 3533 : Place Parodi → Cité Scolaire,3533,Cité Scolaire,Vallée du Loing - Nemours
 r6769160,Bus 3530 : Cité Scolaire → Stade de la Faisanderie,3530,Stade de la Faisanderie,Vallée du Loing - Nemours
@@ -937,7 +937,7 @@ r6786714,"Bus 3544 : Puiselet → Varennes-sur-Seine, Flora Tristan",3544,"Varen
 r6789333,Bus 3534 : Cité Scolaire → Rue de la Source,3534,Rue de la Source,Vallée du Loing - Nemours
 r6789382,Bus 3541 : Centre Launoy → Cité Scolaire,3541,Cité Scolaire,Vallée du Loing - Nemours
 r6789781,Bus 3542 : Mairie Diant → Cité Scolaire,3542,Cité Scolaire,Vallée du Loing - Nemours
-r6790570,Bus 3506 : Gare de Nemours → Château,3506,Château,Vallée du Loing - Nemours
+r6790570,Bus 3506 : Gare de Nemours Parvis → Le Clos (Darvault),3506,Le Clos,Vallée du Loing - Nemours
 r6790571,Bus 3541 : Cité Scolaire → Centre Launoy,3541,Centre Launoy,Vallée du Loing - Nemours
 r6827370,Bus 238 : Pont de Levallois → Saint-Gratien RER,238,Saint-Gratien RER,Boucles Nord de Seine
 r6832826,Bus 351 (lun-ven) : Roissypole → Paris - Nation,351,Nation,Express Roissy
@@ -1157,7 +1157,7 @@ r7618268,Bus 3401 : Les Lilas (Fontainebleau) → Gare de Fontainebleau - Avon,3
 r7618294,Bus 3404 : Stade de la Faisanderie (Fontainebleau) → Gare de Fontainebleau Avon,3404,Gare de Fontainebleau Avon,Fontainebleau - Moret
 r7618344,Bus 3407 : Gare Routière de Fontainebleau Avon → Samois-sur-Seine,3407,Samois-sur-Seine,Fontainebleau - Moret
 r7628292,Bus 131 : Mairie de Chevilly-Larue - Théâtre → Porte d'Italie,131,Porte d'Italie,Pompadour
-r7628293,Bus 131 : Porte d'Italie → Mairie de Chevilly-Larue - Théâtre,131,Mairie - Théâtre,Pompadour
+r7628293,Bus 131 : Porte d'Italie → Mairie de Chevilly-Larue - Théâtre,131,Mairie de Chevilly-Larue - Théâtre,Pompadour
 r7634947,Bus 248 : Drancy RER → Fort d'Aubervilliers,248,Fort d'Aubervilliers,Ourcq
 r7661968,Bus 4611 (circulaire) : Gare de Gif → Feuillarde → Gare de Gif,4611,Gare de Gif,Paris Saclay
 r7668786,Bus 4604 : Collège Guyonnerie → Centre Commercial Ulis 2,4604,Centre Commercial Ulis 2,Paris Saclay
@@ -1437,7 +1437,7 @@ r8103146,Bus 3407 : Samois-sur-Seine → Fontainebleau - Lucien Cézard,3407,Fon
 r8103147,Bus 1234 : Gare de Conflans-Sainte-Honorine - Place Romagné → Gare de Conflans Fin d'Oise,1234,Gare de Conflans Fin d'Oise,Cergy-Pontoise Confluence
 r8105895,Bus 459 : Henri Regnault → Gare de Saint-Cloud,459,,La Défense - Saint Cloud
 r8107337,Bus 3540 : Villebéon - Passy → Saint-Pierre de Nemours,3540,Saint-Pierre de Nemours,Vallée du Loing - Nemours
-r8107344,Bus 3506 : Château → Gare de Nemours,3506,Gare de Nemours,Vallée du Loing - Nemours
+r8107344,Bus 3506 : Château (Darvault) → Gare de Nemours Parvis,3506,Gare de Nemours Parvis,Vallée du Loing - Nemours
 r8107370,Bus 2261 : Gare de Val d'Europe → Gare d'Esbly,2261,Gare d'Esbly,Marne-la-Vallée
 r8107384,Bus 2407 : Gare de Marne-la-Vallée Chessy Nord → Gare de Crécy-la-Chapelle,2407,Gare de Crécy-la-Chapelle,Brie et Deux Morin
 r8108524,Bus 2264 : Collège Stéphane Hessel → Île de Loisirs,2264,Île de Loisirs,Marne-la-Vallée
@@ -1496,7 +1496,7 @@ r8123017,Bus 270 : Gare de Villiers-le-Bel RER → Stains–La Cerisaie,270,Stai
 r8123018,Bus 269 : Hôtel de Ville d'Attainville → Gare de Garges–Sarcelles RER,269,Gare de Garges–Sarcelles RER,Plaine Saint-Denis
 r8123019,Bus 368 : Place du Souvenir Français → Gare de Garges–Sarcelles RER,368,Gare de Garges–Sarcelles RER,Plaine Saint-Denis
 r8123020,Bus 278 : Bois-Colombes - Les Bruyères → La Défense,278,La Défense,La Défense - Saint Cloud
-r8123023,Bus 3501 : Gare Nemours Parvis → Canal,3501,Canal,Vallée du Loing - Nemours
+r8123023,Bus 3501 : Gare Foljuif → Canal,3501,Canal,Vallée du Loing - Nemours
 r8123025,Bus 3311 : Hameau de Chevinois → Montereau Église,3311,Gare de Montereau,Pays de Montereau
 r8123026,Bus 3310 : Route de Chevinois → Gare de Montereau-Fault-Yonne,3310,Montereau SNCF,Pays de Montereau
 r8123027,Bus 488 : Juvisy RER → Place Henri Deudon (Athis-Mons),488,Place Henri Deudon (Athis-Mons),Massy-Juvisy
@@ -1778,8 +1778,8 @@ r8444970,Navette C : Circulaire Morangis,C,Hôpital de Longjumeau,Paris-Saclay M
 r8444971,Navette A : Circulaire de Longjumeau,A,Gare de Longjumeau,Paris-Saclay Mobilités
 r8446803,Bus 4539 : Gare de Saint-Michel-sur-Orge → Gare de Brétigny-sur-Orge,4539,Gare de Brétigny,Cœur d'Essonne
 r8446804,Bus 4539 : Gare de Brétigny-sur-Orge → Gare de Saint-Michel-sur-Orge,4539,Gare de Saint-Michel sur Orge,Cœur d'Essonne
-r8447998,Bus 1304 : Gare de Montsoult - Maffliers → Gare de Persan - Beaumont,1304,Gare de Persan - Beaumont,Haut Val d'Oise
-r8447999,Bus 1304 : Gare de Persan - Beaumont → Gare de Montsoult - Maffliers → Collège Marcel Pagnol,1304,Collège Marcel Pagnol,Haut Val d'Oise
+r8447998,Bus 1304 : Gare de Montsoult - Maffliers → Gare de Persan - Beaumont,1304,Gare de Persan - Beaumont,Haut Val-d'Oise
+r8447999,Bus 1304 : Gare de Persan - Beaumont → Gare de Montsoult - Maffliers → Collège Marcel Pagnol,1304,Collège Marcel Pagnol,Haut Val-d'Oise
 r8448302,Navette F : Champlan ↔ C.Cial Villebon 2,F,Clotais (Champlan),Paris-Saclay Mobilités
 r8448303,Navette F : Champlan → C.Cial Massy,F,Clotais (Champlan),Paris-Saclay
 r8449066,Bus 603 : Cergy - Préfecture RER → Méru - Gare,603,Méru - Gare,Réseau Oise
@@ -2703,11 +2703,11 @@ r10015704,Bus 6455 : Piscine de Carrières → Collège des Amandiers (Carrière
 r10015705,Bus 6455 : Collège des Amandiers (Carrières-sur-Seine) → Piscine de Carrières,6455,Piscine de Carrières,Argenteuil - Boucles de Seine
 r10016213,Bus 3543 : Aristide Briand (Bransles) → Gare de Nemours Saint-Pierre,3543,Gare de Nemours Saint-Pierre,Vallée du Loing - Nemours
 r10016214,Bus 3543 : Gare de Nemours Saint-Pierre → Aristide Briand (Bransles),3543,Aristide Briand (Bransles),Vallée du Loing - Nemours
-r10016231,Bus 3502 : Guinebert (Saint-Pierre-lès-Nemours) → Gare de Nemours Saint-Pierre,3502,Gare de Nemours Saint-Pierre,Vallée du Loing - Nemours
-r10016232,Bus 3502 : Gare de Nemours Saint-Pierre → Les Grèves (Saint-Pierre-lès-Nemours),3502,Les Grèves (Saint-Pierre-lès-Nemours),Vallée du Loing - Nemours
+r10016231,Bus 3502 : Guinebert (Saint-Pierre-lès-Nemours) → Gare Foljuif,3502,Gare Foljuif,Vallée du Loing - Nemours
+r10016232,Bus 3502 : Gare Foljuif → Les Grèves (Saint-Pierre-lès-Nemours),3502,Les Grèves (Saint-Pierre-lès-Nemours),Vallée du Loing - Nemours
 r10016533,"Flixbus N1131: Paris, Bercy Seine => Murcia, Estación de autobuses",N1131,"Murcia, Estación de autobuses",Flixbus
-r10021506,Bus 3516 : Laveaux (Faÿ-lès-Nemours) → Gare de Nemours Saint-Pierre,3516,Gare de Nemours Saint-Pierre,Vallée du Loing - Nemours
-r10021507,Bus 3516 : Gare de Nemours Saint-Pierre → Laveaux (Faÿ-lès-Nemours),3516,Laveaux (Faÿ-lès-Nemours),Vallée du Loing - Nemours
+r10021506,Bus 3516 : Laveaux (Faÿ-lès-Nemours) → Gare Foljuif,3516,Gare Foljuif,Vallée du Loing - Nemours
+r10021507,Bus 3516 : Gare Foljuif → Laveaux (Faÿ-lès-Nemours),3516,Laveaux (Faÿ-lès-Nemours),Vallée du Loing - Nemours
 r10021557,Bus 3518 : Bruzelles (Château-Landon) → Gare de Souppes (Souppes-sur-Loing),3518,Gare de Souppes (Souppes-sur-Loing),Vallée du Loing - Nemours
 r10021558,Bus 3518 : Gare de Souppes (Souppes-sur-Loing) → Bruzelles (Château-Landon),3518,Bruzelles (Château-Landon),Vallée du Loing - Nemours
 r10038796,"Flixbus N109: Praha, ÚAN Florenc => Paris, Bercy Seine",N109,"Paris, Bercy Seine",Flixbus
@@ -3002,7 +3002,7 @@ r13552024,Bus 1207 : Gare de Cergy Préfecture → Vauréal - Les Toupets,1207,V
 r13552025,Bus 1207 : Vauréal - Les Toupets → Gare de Cergy Préfecture,1207,Gare de Cergy Préfecture,Cergy-Pontoise Confluence
 r13552026,Bus 1238 : Menucourt - La Taillette → Vauréal - La Croix Lieu,1238,Vauréal - La Croix Lieux,Cergy-Pontoise Confluence
 r13552027,Bus 1238 : Gare de Cergy Préfecture → Vauréal - La Croix Lieux,1238,Vauréal - La Croix Lieux,Cergy-Pontoise Confluence
-r13593205,Bus 382 : Les Ardoines RER → Pont de Rungis RER,382,Pont de Rungis RER,Pompadour
+r13593205,Bus 382 : Les Ardoines RER → Gare de Thiais - Orly,382,Gare de Thiais - Orly,Pompadour
 r13603425,Bus 1240 : Vauréal - La Siaule → Gare de Cergy-le-Haut,1240,Gare de Cergy-le-Haut,Cergy-Pontoise Confluence
 r13603426,Bus 1240 : Vauréal - La Siaule → Gare de Cergy-le-Haut → Cergy - Parc Saint-Christophe → Gare de Cergy Saint-Christophe,1240,Gare de Cergy Saint-Christophe,Cergy-Pontoise Confluence
 r13603429,Bus 1240 : Gare de Cergy Saint-Christophe → Cergy - Parc Saint-Christophe → Gare de Cergy-le-Haut,1240,Gare de Cergy-le-Haut,Cergy-Pontoise Confluence
@@ -3010,7 +3010,7 @@ r13603430,Bus 1239 : Gare de Cergy-le-Haut → Gare de Cergy Saint-Christophe,12
 r13603431,Bus 1239 : La Taillette (Menucourt) → Gare de Cergy-le-Haut,1239,Gare de Cergy-le-Haut,Cergy-Pontoise Confluence
 r13603432,Bus 1239 : Gare de Cergy-le-Haut → La Taillette (Menucourt),1239,La Taillette,Cergy-Pontoise Confluence
 r13603433,Bus 1239 : Gare de Cergy Saint-Christophe → Gare de Cergy-le-Haut,1239,Gare de Cergy-le-Haut,Cergy-Pontoise Confluence
-r13901420,Bus 382 : Pont de Rungis RER → Les Ardoines RER,382,Les Ardoines RER,Pompadour
+r13901420,Bus 382 : Gare de Thiais - Orly → Les Ardoines RER,382,Les Ardoines RER,Pompadour
 r14009232,Bus 7811 : Gare de Rambouillet [Prairie] → Ablis - Libération,7811,Ablis - Libération,Centre et Sud Yvelines
 r14009233,Bus 7811 : Ablis - Libération → Gare de Rambouillet [Prairie],7811,Gare de Rambouillet [Prairie],Centre et Sud Yvelines
 r14114105,Bus 6201 (dimanche matin) : Le Chesnay - Centre Commercial Parly 2 → Versailles Picardie,6201,Versailles Picardie,Grand Versailles
@@ -3223,8 +3223,8 @@ r15906102,Bus 263 : Place de la Boule - Joffre → Pasteur - Val d'Or,263,Pasteu
 r15906134,Bus 263 : Pasteur - Val d'Or → Place de la Boule - Joffre,263,Place de la Boule - Joffre,La Défense - Saint Cloud
 r15999765,Bus 6521 : Gare des Mureaux → Tessancourt-sur-Aubette - École → Gare de Cergy-le-Haut,6521,Gare de Cergy-le-Haut,Poissy - Les Mureaux
 r15999766,Bus 6521 : Gare de Cergy-le-Haut → Collège Henri IV → Gare des Mureaux,6521,Gare des Mureaux,Poissy - Les Mureaux
-r16159352,Bus 1316 : Gare de Presles-Courcelles (Presles)→Gare de l'Isle-Adam - Parmain (l'Isle-Adam),1316,Chasseurs (L'Isle Adam),Haut Val d'Oise
-r16179015,Bus 1316 : Chasseurs (L'Isle Adam) → Gare (Montsoult),1316,Gare (Montsoult),Haut Val d'Oise
+r16159352,Bus 1316 : Gare de Presles-Courcelles (Presles)→Gare de l'Isle-Adam - Parmain (l'Isle-Adam),1316,Chasseurs (L'Isle Adam),Haut Val-d'Oise
+r16179015,Bus 1316 : Chasseurs (L'Isle Adam) → Gare (Montsoult),1316,Gare (Montsoult),Haut Val-d'Oise
 r16184587,Bus 3209 : Lotissement → Ville Haute (Provins),3209,Ville Haute (Provins),Provinois - Brie et Seine
 r16184588,Bus 3208 : Gare de Chambenoist - Poigny → Marcel Mougenot (Provins),3208,Marcel Mougenot (Provins),Provinois - Brie et Seine
 r16186924,Orville : Grand Fossé ⇌ Bellini et Greenwich,Orville,Bellini et Greenwich,Disneyland Paris
@@ -3669,3 +3669,7 @@ r21530378,Bus TàD 4306 : Orveau → Gare de Bouray,TàD 4306,Gare de Bouray,Ess
 r21530379,Bus TàD 4306 : Gare de Bouray → Orveau,TàD 4306,Orveau,Essonne Sud Est
 r21530499,Bus TàD 4301/4530 : Collège Doisneau → Gare de Brétigny-sur-Orge Place,TàD 4301,Gare de Brétigny Place,Essonne Sud Est
 r21530500,Bus TàD 4301/4530 : Gare de Brétigny-sur-Orge Place → Collège Doisneau,TàD 4301,Collège Doisneau,Essonne Sud Est
+r21709981,Car Nomad 225: BREVAL Gare Sncf → MARCILLY-SUR-EURE Église,225,Église,Nomad
+r21709987,Car Nomad 225: MARCILLY-SUR-EURE Église → BREVAL Gare Sncf,225,Gare Sncf,Nomad
+r21736530,Bus 3506 : Château (Darvault) → Cité Scolaire,3506,Cité Scolaire,Vallée du Loing - Nemours
+r21736531,Bus 3506 : Cité Scolaire (Nemours) → Le Clos (Darvault),3506,Le Clos,Vallée du Loing - Nemours

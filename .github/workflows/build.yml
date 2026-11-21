@@ -24,10 +24,10 @@ jobs:
     - name: Install osmium
       run: |
         sudo apt-get update && sudo apt-get install osmium-tool
-    - name: Install xsv
+    - name: Install qsv
       run: |
-        wget --quiet https://github.com/BurntSushi/xsv/releases/download/0.13.0/xsv-0.13.0-x86_64-unknown-linux-musl.tar.gz
-        tar -zxvf xsv-0.13.0-x86_64-unknown-linux-musl.tar.gz
+        wget --quiet https://github.com/dathere/qsv/releases/download/29.0.0/qsv-29.0.0-x86_64-unknown-linux-musl.zip
+        unzip -o qsv-29.0.0-x86_64-unknown-linux-musl.zip qsv
         pwd >> $GITHUB_PATH
     - name: Install poetry
       run: |

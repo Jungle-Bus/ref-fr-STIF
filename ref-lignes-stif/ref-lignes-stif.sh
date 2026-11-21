@@ -6,19 +6,19 @@ set -euvo pipefail
 cd data 
 
 cat osm_extract_lines.csv \
- |xsv search -s network TGV -v |xsv search -s network InOui -v  \
- |xsv search -s network Eurostar -v |xsv search -s operator 'Deutsche Bahn' -v \
- |xsv search -s network Thalys -v |xsv search -s network Flixbus -v \
- |xsv search -s network Intercités -v|xsv search -s operator 'SNCF Réseau' -v \
- |xsv search -s network 'TER ' -v |xsv search -s operator 'DB Fernverkehr' -v \
- |xsv search -s mode 'ferry' -v |xsv search -s mode 'walking_bus' -v \
- |xsv search -s mode 'construction' -v \
- |xsv search -s network 'local' -v |xsv search -s operator 'VTNI' -v \
-  |xsv search -s operator 'Keolis Oise' -v |xsv search -s operator 'Transdev Oise CABARO' -v \
- |xsv search -s network 'Open Tour' -v | xsv search -s network 'Oise Mobilité' -v \
- |xsv search -s network 'Les Abeilles' -v | xsv search -s network 'Navettes Aéroports De Paris' -v \
- |xsv search -s network 'TransCape' -v | xsv search -s network Balabus -v \
- |xsv search -s network 'Big Bus' -v| xsv search -s network 'Carré 92' -v \
- |xsv search -s network 'Vexin Bus' -v | xsv search -s network "Transport à la Demande de Marne-la-Vallée" -v \
- |xsv select line_id,code,name,network,operator,colour,mode,ref:FR:STIF > lignes.csv
+ |qsv search -s network TGV -v |qsv search -s network InOui -v  \
+ |qsv search -s network Eurostar -v |qsv search -s operator 'Deutsche Bahn' -v \
+ |qsv search -s network Thalys -v |qsv search -s network Flixbus -v \
+ |qsv search -s network Intercités -v|qsv search -s operator 'SNCF Réseau' -v \
+ |qsv search -s network 'TER ' -v |qsv search -s operator 'DB Fernverkehr' -v \
+ |qsv search -s mode 'ferry' -v |qsv search -s mode 'walking_bus' -v \
+ |qsv search -s mode 'construction' -v \
+ |qsv search -s network 'local' -v |qsv search -s operator 'VTNI' -v \
+  |qsv search -s operator 'Keolis Oise' -v |qsv search -s operator 'Transdev Oise CABARO' -v \
+ |qsv search -s network 'Open Tour' -v | qsv search -s network 'Oise Mobilité' -v \
+ |qsv search -s network 'Les Abeilles' -v | qsv search -s network 'Navettes Aéroports De Paris' -v \
+ |qsv search -s network 'TransCape' -v | qsv search -s network Balabus -v \
+ |qsv search -s network 'Big Bus' -v| qsv search -s network 'Carré 92' -v \
+ |qsv search -s network 'Vexin Bus' -v | qsv search -s network "Transport à la Demande de Marne-la-Vallée" -v \
+ |qsv select line_id,code,name,network,operator,colour,mode,ref:FR:STIF > lignes.csv
 

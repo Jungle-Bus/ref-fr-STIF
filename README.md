@@ -2,7 +2,7 @@
 Des scripts pour le suivi de l'intégration des référentiels île-de-France Mobilités (ex STIF) dans OSM.
 
 ## Prérequis
-* [xsv](https://github.com/BurntSushi/xsv)
+* [qsv](https://github.com/dathere/qsv)
 * osmium-tool
 * python3 et poetry
 

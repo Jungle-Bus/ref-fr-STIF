@@ -9,16 +9,16 @@ cd data
 ## extraction de coordonnées pour les relations OSM
 
 #### on retire les stop_pos
-xsv join stop_point_id osm_extract_route_stops.csv stop_point_id osm_extract_stop_points.csv |xsv select route_id,stop_point_id > osmose_coord_temp_route_with_stops.csv
+xan join stop_point_id osm_extract_route_stops.csv stop_point_id osm_extract_stop_points.csv |xan select route_id,stop_point_id > osmose_coord_temp_route_with_stops.csv
 
 #### on garde un stop par route
-cat osmose_coord_temp_route_with_stops.csv |xsv sort |xsv select stop_point_id,route_id|xsv fmt -t '\t'|uniq -f 1|xsv fmt -d '\t' > osmose_coord_temp_route_one_stop.csv
+cat osmose_coord_temp_route_with_stops.csv |xan sort |xan select stop_point_id,route_id|xan fmt -t '\t'|uniq -f 1|xan fmt -d '\t' > osmose_coord_temp_route_one_stop.csv
 
 #### on joint pour avoir la ligne de chaque route
-xsv join route_id osmose_coord_temp_route_one_stop.csv route_id osm_extract_line_routes.csv |xsv select line_id,route_id,stop_point_id > osmose_coord_temp_line_one_stop.csv
+xan join route_id osmose_coord_temp_route_one_stop.csv route_id osm_extract_line_routes.csv |xan select line_id,route_id,stop_point_id > osmose_coord_temp_line_one_stop.csv
 
 #### on joint pour avoir les coordonnées de chaque arrêt
-xsv join stop_point_id osmose_coord_temp_line_one_stop.csv stop_point_id osm_extract_stop_points.csv |xsv select line_id,route_id,stop_point_id,latitude,longitude > osmose_relations_with_coord.csv
+xan join stop_point_id osmose_coord_temp_line_one_stop.csv stop_point_id osm_extract_stop_points.csv |xan select line_id,route_id,stop_point_id,latitude,longitude > osmose_relations_with_coord.csv
 
 #### on nettoie les fichiers temporaires
 rm osmose_coord_temp_*

@@ -17,10 +17,10 @@ unzip ../../data/as_csv.zip -d osm
 
 ## rajout des tags additionnels dans les fichiers
 cd ./osm
-xsv join line_id lines.csv id additional_tags.csv | xsv select 1-13,ref:FR:STIF > lines_.csv
+qsv join line_id lines.csv id additional_tags.csv | qsv select 1-13,ref:FR:STIF > lines_.csv
 mv lines_.csv lines.csv
 
-xsv join stop_point_id stop_points.csv id additional_tags.csv |xsv select 1-7,ref:FR:STIF > stops.csv
+qsv join stop_point_id stop_points.csv id additional_tags.csv |qsv select 1-7,ref:FR:STIF > stops.csv
 mv stops.csv stop_points.csv
 
 ## renommage des fichiers
